@@ -1,6 +1,6 @@
 # 🛡️ ARGOS CTI Digest — 9 juin 2026
 
-> Généré le 09/06/2026 à 09:23 UTC  ·  59 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 09/06/2026 à 11:08 UTC  ·  43 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -42,6 +42,13 @@ The vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a l
 
 ## 🟠 Campagnes & groupes actifs
 
+### [CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/)
+**Source :** Bleeping Computer  **Publié :** 09/06/2026 04:18 UTC
+`cve` `ransomware` `vulnerability`
+CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]
+
+---
+
 ### [🏴‍☠️ Gunra has just published a new victim : Cambridge Law Chambers](https://www.ransomware.live/id/Q2FtYnJpZGdlIExhdyBDaGFtYmVyc0BndW5yYQ==)
 **Source :** Ransomware.live News  **Publié :** 09/06/2026 03:57 UTC
 `malware`
@@ -81,29 +88,22 @@ Founded in Foshan, Guangdong in 1822 during the Qing Dynasty, Ma Pak Leung Compa
 
 ---
 
-### [NFCShare Android malware spreads via fake banking app updates on GitHub](https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/)
-**Source :** Bleeping Computer  **Publié :** 08/06/2026 18:11 UTC
-`malware`
-New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]
-
----
-
 ## 📖 Top 3 à lire
 
 ### 1. [SoFi confirms third-party data breach at Hong Kong subsidiary](https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/)
 **Source :** Bleeping Computer  **Publié :** 08/06/2026 17:55 UTC  **Score :** 25
 `breach`
-SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]
+SoFi Hong Kong a signalé une fuite de données après un hackeur a accédé à une base de données chez un tiers contenant des informations client.
 
 ### 2. [New Apple feature automatically changes your compromised passwords](https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/)
 **Source :** Bleeping Computer  **Publié :** 08/06/2026 17:03 UTC  **Score :** 25
 `breach`
-At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]
+Apple a introduit une fonctionnalité qui remplace automatiquement les mots de passe faibles ou compromis via Safari et iOS 27.
 
 ### 3. [Gogs patches critical zero-day enabling remote code execution](https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/)
 **Source :** Bleeping Computer  **Publié :** 08/06/2026 12:18 UTC  **Score :** 25
 `breach` `cve` `vulnerability`
-Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]
+Gogs a corrigé un flou critique permettant l'exécution de code à distance, exposant potentiellement des instances联网失败，请稍后再试~iptables规则配置不当导致的网络问题排查步骤如下：首先，检查iptables规则是否正确地允许了必要的流量。可以使用`iptables -L -v -n`命令来查看当前的规则列表。确保没有误将端口或服务拒绝。其次，确认防火墙规则没有无意中阻止了必需的服务或流量。最后，如果需要，可以暂时禁用iptables防火墙以检查问题是否已经解决。这一步骤可
 
 ---
 
