@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-08",
+  "generated_at": "2026-06-09T11:17:02.183877+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "65073b54c9f86dff",
+        "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-42271"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté une faille grave de LiteLLM, impactant BerriAI, à sa liste des vulnérabilités exploitées en milieu réel. La CVE-2026-42271 permet l'exécution arbitraire de commandes.",
+        "published_at": "2026-06-09T11:56:14",
+        "score": 20
+      },
+      {
+        "guid": "d14a6f0055701095",
+        "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+        "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-23111"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille critique dans le noyau Linux, CVE-2026-23111, permet un accès local de niveau root. Le code nf_tables contient une use-after-free.",
+        "published_at": "2026-06-09T01:47:39",
+        "score": 20
+      },
+      {
+        "guid": "b6074b855ee070b4",
+        "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+        "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50751"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Check Point a signalé une faille critique dans ses VPNs configurés avec IKEv1, exploitée pour contourner les mots de passe. La CVE-2026-50751 a un score CVSS de 9.3.",
+        "published_at": "2026-06-08T19:47:39",
+        "score": 20
+      },
+      {
+        "guid": "ebbc6bf3206b1df9",
+        "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)",
+        "url": "https://isc.sans.edu/diary/rss/33060",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware"
+        ],
+        "summary": "Le suivi continu du campaigne TeamPCP, une attaque supply chain documentée par SANS, s'active aux États-Unis et ailleurs.",
+        "published_at": "2026-06-08T17:07:37",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "8d076327051096bd",
+        "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "CISA ordonne aux agences fédérales de patcher rapidement une vulnérabilité exploitée par le ransomware Qilin.",
+        "published_at": "2026-06-09T04:18:39",
+        "score": 5
+      },
+      {
+        "guid": "a13d23b9e8cf6247",
+        "title": "🏴‍☠️ Gunra has just published a new victim : Cambridge Law Chambers",
+        "url": "https://www.ransomware.live/id/Q2FtYnJpZGdlIExhdyBDaGFtYmVyc0BndW5yYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-06-09T03:57:16",
+        "score": 12
+      },
+      {
+        "guid": "0270fd89023c3823",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Aegle Aviation",
+        "url": "https://www.ransomware.live/id/QWVnbGUgQXZpYXRpb25AcmFuc29taG91c2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Aegle Aviation, une entreprise spécialisée en gestion d'actifs d'avions, est devenue la nouvelle victime du ransomware Ransomhouse.",
+        "published_at": "2026-06-08T19:24:22",
+        "score": 12
+      },
+      {
+        "guid": "72a95350f5910cbf",
+        "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+        "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "La semaine dernière a été marquée par des hacks d'Instagram, une faille Android et un worm sur GitHub. Les attaques basiques sont toujours efficaces.",
+        "published_at": "2026-06-08T18:48:57",
+        "score": 17
+      },
+      {
+        "guid": "cf6a4f6917781ac9",
+        "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+        "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "L'IA augmente l'énormité des campagnes de phishing, engorgant les SOCs avec un flux d'alertes. La personnalisation rend la détection plus difficile.",
+        "published_at": "2026-06-08T18:30:00",
+        "score": 27
+      },
+      {
+        "guid": "8641d99d00636d66",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Ma Pak Leung Company Limited",
+        "url": "https://www.ransomware.live/id/TWEgUGFrIExldW5nIENvbXBhbnkgTGltaXRlZEByYW5zb21ob3VzZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "La société traditionnelle chinoise Ma Pak Leung, spécialisée dans les médicaments orientaux, a été victime d'une rançon logicielle.",
+        "published_at": "2026-06-08T18:25:36",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "357871e238f3da8e",
+        "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+        "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SoFi Hong Kong a confirmé un vol de données après une breche dans une base de données d'un fournisseur tiers.",
+        "published_at": "2026-06-08T17:55:46",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "82501bba89516704",
+        "title": "New Apple feature automatically changes your compromised passwords",
+        "url": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Apple a annoncé une nouvelle fonctionnalité qui change automatiquement les mots de passe compromises dans Safari et iOS 27.",
+        "published_at": "2026-06-08T17:03:40",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "83d692cae927fb16",
+        "title": "Gogs patches critical zero-day enabling remote code execution",
+        "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Gogs a corrigé un défaut critique permettant l'exécution de code à distance, exposant potentiellement les dépôts privés.",
+        "published_at": "2026-06-08T12:18:40",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 43,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
