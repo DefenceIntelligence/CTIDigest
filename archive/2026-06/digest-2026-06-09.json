@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T09:23:55.212152+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "65073b54c9f86dff",
+        "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-42271"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-42271 (CVSS score: 8.7), is a command injection vulnerability that could allow any authenticated user to run arbitrary commands on the",
+        "published_at": "2026-06-09T11:56:14",
+        "score": 20
+      },
+      {
+        "guid": "d14a6f0055701095",
+        "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+        "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-23111"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container.\n\nThe flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even",
+        "published_at": "2026-06-09T01:47:39",
+        "score": 20
+      },
+      {
+        "guid": "b6074b855ee070b4",
+        "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+        "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50751"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol.\n\nThe vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a logic flow weakness in certificate validation that allows an unauthenticated remote attacker to bypass user",
+        "published_at": "2026-06-08T19:47:39",
+        "score": 20
+      },
+      {
+        "guid": "ebbc6bf3206b1df9",
+        "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)",
+        "url": "https://isc.sans.edu/diary/rss/33060",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware"
+        ],
+        "summary": "<p>This diary continues the Internet Storm Center&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper <a href=\"https://www.sans.org/white-papers/when-security-scanner-became-weapon\">When the Security Scanner Became the Weapon</a> and most recently in the handler diary <a href=\"https://isc.sans.edu/diary/33014\">Activity Through 2026-05-24</a>. Since that update, the story moved into two new places: the United States gove",
+        "published_at": "2026-06-08T17:07:37",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "a13d23b9e8cf6247",
+        "title": "🏴‍☠️ Gunra has just published a new victim : Cambridge Law Chambers",
+        "url": "https://www.ransomware.live/id/Q2FtYnJpZGdlIExhdyBDaGFtYmVyc0BndW5yYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] N/A",
+        "published_at": "2026-06-09T03:57:16",
+        "score": 12
+      },
+      {
+        "guid": "0270fd89023c3823",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Aegle Aviation",
+        "url": "https://www.ransomware.live/id/QWVnbGUgQXZpYXRpb25AcmFuc29taG91c2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Aegle Aviation was founded in 2019. The company specializes in aircraft asset management, trading of commercial aircraft and engines, as well as aftermarket parts distribution. Its core operations include aircraft disassembly, end-of-life component harvesting, and lease management for mid-life narrow-body and wide-body jets.",
+        "published_at": "2026-06-08T19:24:22",
+        "score": 12
+      },
+      {
+        "guid": "72a95350f5910cbf",
+        "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+        "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked.\n\nA chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and",
+        "published_at": "2026-06-08T18:48:57",
+        "score": 17
+      },
+      {
+        "guid": "cf6a4f6917781ac9",
+        "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+        "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine.\n\nAttackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance.\n\nAs the queue grows, a credential theft attempt or malware delivery can easily",
+        "published_at": "2026-06-08T18:30:00",
+        "score": 27
+      },
+      {
+        "guid": "8641d99d00636d66",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Ma Pak Leung Company Limited",
+        "url": "https://www.ransomware.live/id/TWEgUGFrIExldW5nIENvbXBhbnkgTGltaXRlZEByYW5zb21ob3VzZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Founded in Foshan, Guangdong in 1822 during the Qing Dynasty, Ma Pak Leung Company Limited is a family-owned Traditional Chinese Medicine (TCM) manufacturer with over two centuries of heritage. The company relocated its operations to Hong Kong and was formally incorporated there in 1958, where it remains headquartered today. The company specializes in the research, development, and production of proprietary TCM remedies - including classical formulas such as Angong Niuhuang Wan - as well as mode",
+        "published_at": "2026-06-08T18:25:36",
+        "score": 12
+      },
+      {
+        "guid": "72ac85312922cedf",
+        "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+        "url": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
+        "published_at": "2026-06-08T18:11:58",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "357871e238f3da8e",
+        "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+        "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
+        "published_at": "2026-06-08T17:55:46",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "82501bba89516704",
+        "title": "New Apple feature automatically changes your compromised passwords",
+        "url": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+        "published_at": "2026-06-08T17:03:40",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "83d692cae927fb16",
+        "title": "Gogs patches critical zero-day enabling remote code execution",
+        "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
+        "published_at": "2026-06-08T12:18:40",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 59,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "none",
+    "argos_version": "2.0.0"
+  }
+}
