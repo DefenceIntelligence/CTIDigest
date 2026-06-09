@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-09",
-  "generated_at": "2026-06-09T11:11:21.611792+00:00",
+  "date": "2026-06-08",
+  "generated_at": "2026-06-09T11:17:02.183877+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
@@ -18,7 +18,7 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "La vulnérabilité CVE-2026-42271 affectant BerriAI LiteLLM, une injection de commande, a été exploité en tant que vulnérabilité connue par le CISA.",
+        "summary": "Le CISA a ajouté une faille grave de LiteLLM, impactant BerriAI, à sa liste des vulnérabilités exploitées en milieu réel. La CVE-2026-42271 permet l'exécution arbitraire de commandes.",
         "published_at": "2026-06-09T11:56:14",
         "score": 20
       },
@@ -35,7 +35,7 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "CVE-2026-23111, une faille de use-after-free dans le noyau Linux, permet l'accès local root et des exploits détaillés sont désormais publics.",
+        "summary": "Une faille critique dans le noyau Linux, CVE-2026-23111, permet un accès local de niveau root. Le code nf_tables contient une use-after-free.",
         "published_at": "2026-06-09T01:47:39",
         "score": 20
       },
@@ -52,7 +52,7 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "CVE-2026-50751, une faille de validation du certificat dans IKEv1, est exploitée pour contourner les mots de passe sur les déploiements de la solution de passage de réseau Remote Access et Mobile Access de Check Point.",
+        "summary": "Check Point a signalé une faille critique dans ses VPNs configurés avec IKEv1, exploitée pour contourner les mots de passe. La CVE-2026-50751 a un score CVSS de 9.3.",
         "published_at": "2026-06-08T19:47:39",
         "score": 20
       },
@@ -67,7 +67,7 @@
           "cve",
           "ransomware"
         ],
-        "summary": "Le suivi du campagne TeamPCP continue, avec des activités observées aux États-Unis jusqu'au 8 juin 2026.",
+        "summary": "Le suivi continu du campaigne TeamPCP, une attaque supply chain documentée par SANS, s'active aux États-Unis et ailleurs.",
         "published_at": "2026-06-08T17:07:37",
         "score": 0
       }
@@ -85,7 +85,7 @@
           "ransomware",
           "vulnerability"
         ],
-        "summary": "CISA ordonne à l'administration américaine de corriger rapidement un vulnérabilité critique Check Point exploité en zero-day par des affiliés du groupe Qilin.",
+        "summary": "CISA ordonne aux agences fédérales de patcher rapidement une vulnérabilité exploitée par le ransomware Qilin.",
         "published_at": "2026-06-09T04:18:39",
         "score": 5
       },
@@ -113,7 +113,7 @@
         "tags": [
           "malware"
         ],
-        "summary": "Aegle Aviation, une entreprise de gestion d'actifs aéronautiques, est devenue la nouvelle victime des rançongiciels Ransomhouse.",
+        "summary": "Aegle Aviation, une entreprise spécialisée en gestion d'actifs d'avions, est devenue la nouvelle victime du ransomware Ransomhouse.",
         "published_at": "2026-06-08T19:24:22",
         "score": 12
       },
@@ -128,7 +128,7 @@
           "cve",
           "malware"
         ],
-        "summary": "La semaine passée a été marquée par des hacks d'Instagram, un zéro-jour Android et un vers GitHub, soulignant l'importance de la vigilance continue.",
+        "summary": "La semaine dernière a été marquée par des hacks d'Instagram, une faille Android et un worm sur GitHub. Les attaques basiques sont toujours efficaces.",
         "published_at": "2026-06-08T18:48:57",
         "score": 17
       },
@@ -143,7 +143,7 @@
           "malware",
           "phishing"
         ],
-        "summary": "L'AI amplifie les attaques phishing en créant des messages trompeurs qui surcharge les équipes SOC, nécessitant plus de ressources pour la vérification.",
+        "summary": "L'IA augmente l'énormité des campagnes de phishing, engorgant les SOCs avec un flux d'alertes. La personnalisation rend la détection plus difficile.",
         "published_at": "2026-06-08T18:30:00",
         "score": 27
       },
@@ -158,7 +158,7 @@
           "apt",
           "malware"
         ],
-        "summary": "La société familiale Ma Pak Leung Company Limited, fabricant de médicaments traditionnels chinois, est victime d'une rançon logicielle.",
+        "summary": "La société traditionnelle chinoise Ma Pak Leung, spécialisée dans les médicaments orientaux, a été victime d'une rançon logicielle.",
         "published_at": "2026-06-08T18:25:36",
         "score": 12
       }
@@ -174,7 +174,7 @@
         "tags": [
           "breach"
         ],
-        "summary": "SoFi Hong Kong a confirmé un vol de données chez son sous-traitant à Hong Kong, compromettant les informations des clients.",
+        "summary": "SoFi Hong Kong a confirmé un vol de données après une breche dans une base de données d'un fournisseur tiers.",
         "published_at": "2026-06-08T17:55:46",
         "score": 25,
         "rank": 1
@@ -189,7 +189,7 @@
         "tags": [
           "breach"
         ],
-        "summary": "Apple a lancé une fonctionnalité intelligente qui change automatiquement les mots de passe faibles ou compromises dans Safari et iOS 27.",
+        "summary": "Apple a annoncé une nouvelle fonctionnalité qui change automatiquement les mots de passe compromises dans Safari et iOS 27.",
         "published_at": "2026-06-08T17:03:40",
         "score": 25,
         "rank": 2
@@ -206,7 +206,7 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Gogs a corrigé un flacon zéro-jour critique permettant l'exécution de code à distance, ce qui peut compromettre les instances en ligne et accéder à n'importe quel dépôt.",
+        "summary": "Gogs a corrigé un défaut critique permettant l'exécution de code à distance, exposant potentiellement les dépôts privés.",
         "published_at": "2026-06-08T12:18:40",
         "score": 25,
         "rank": 3
