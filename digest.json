@@ -1,10 +1,64 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-08",
-  "generated_at": "2026-06-09T11:17:02.183877+00:00",
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T02:01:19.543752+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
+      {
+        "guid": "8621d7dad448764e",
+        "title": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code",
+        "url": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-44963"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans Veeam Backup & Replication permet l'exécution de code distant par un utilisateur authentifié du domaine, traitée par des mises à jour de sécurité.",
+        "published_at": "2026-06-09T22:09:47",
+        "score": 20
+      },
+      {
+        "guid": "90f05e05fe7698f3",
+        "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
+        "url": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2025-8088"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Des groupes cybersécuritaires russes exploitent une vulnérabilité dans WinRAR depuis presque un an, déployant des voluneurs en Ukraine.",
+        "published_at": "2026-06-09T17:56:10",
+        "score": 20
+      },
+      {
+        "guid": "cdbd3311954a594e",
+        "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
+        "url": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-11645"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité grave dans Chrome V8 exploité en tant que zero-day, nécessitant des mises à jour immédiates pour les utilisateurs.",
+        "published_at": "2026-06-09T17:28:49",
+        "score": 20
+      },
       {
         "guid": "65073b54c9f86dff",
         "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
@@ -18,186 +72,168 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Le CISA a ajouté une faille grave de LiteLLM, impactant BerriAI, à sa liste des vulnérabilités exploitées en milieu réel. La CVE-2026-42271 permet l'exécution arbitraire de commandes.",
+        "summary": "Une vulnérabilité command injection dans BerriAI LiteLLM exploitée en tant que zero-day, offrant des privilèges d'exécution non authentifiés.",
         "published_at": "2026-06-09T11:56:14",
         "score": 20
       },
       {
-        "guid": "d14a6f0055701095",
-        "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-        "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-23111"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une faille critique dans le noyau Linux, CVE-2026-23111, permet un accès local de niveau root. Le code nf_tables contient une use-after-free.",
-        "published_at": "2026-06-09T01:47:39",
-        "score": 20
-      },
-      {
-        "guid": "b6074b855ee070b4",
-        "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
-        "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-50751"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Check Point a signalé une faille critique dans ses VPNs configurés avec IKEv1, exploitée pour contourner les mots de passe. La CVE-2026-50751 a un score CVSS de 9.3.",
-        "published_at": "2026-06-08T19:47:39",
-        "score": 20
-      },
-      {
-        "guid": "ebbc6bf3206b1df9",
-        "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)",
-        "url": "https://isc.sans.edu/diary/rss/33060",
+        "guid": "ec61f292cd3a4789",
+        "title": "Microsoft June 2026 Patch Tuesday, (Tue, Jun 9th)",
+        "url": "https://isc.sans.edu/diary/rss/33064",
         "source": "SANS ISC",
         "category": "Vulnérabilités",
         "cve": [],
         "tags": [
-          "cve",
-          "ransomware"
+          "malware",
+          "patch",
+          "vulnerability"
         ],
-        "summary": "Le suivi continu du campaigne TeamPCP, une attaque supply chain documentée par SANS, s'active aux États-Unis et ailleurs.",
-        "published_at": "2026-06-08T17:07:37",
+        "summary": "Schneider Electric a identifié une vulnérabilité dans son Modicon Network Managed Switch, nécessitant la mise à jour du produit pour des raisons de sécurité.",
+        "published_at": "2026-06-09T17:34:29",
+        "score": 12
+      },
+      {
+        "guid": "1bf7f8f28f9ba02b",
+        "title": "Schneider Electric Modicon Network Managed Switches",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-160-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Schneider Electric is aware of a RADIUS protocol vulnerability affecting its Modicon Network Managed Switch product. The Modicon Network Managed Switch product provides connectivity for multiple Ethernet devices, network management, enhanced cyber security and more advanced switching features. Failure to apply the mitigation provide",
+        "published_at": "2026-06-09T12:00:00",
+        "score": 0
+      },
+      {
+        "guid": "faee7ec62d7a7dea",
+        "title": "Schneider Electric EcoStruxure Panel Server",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Schneider Electric a révélé une vulnérabilité dans son EcoStruxure Panel Server, nécessitant l'application des corrections fournies par l'entreprise.",
+        "published_at": "2026-06-09T12:00:00",
+        "score": 0
+      },
+      {
+        "guid": "92147ee5da20ae2e",
+        "title": "Siemens KACO Blueplanet Inverters",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-160-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités critiques dans les inverters KACO Blueplanet pourraient permettre une utilisation abusive des identifiants, nécessitant la mise à jour des produits.",
+        "published_at": "2026-06-09T12:00:00",
         "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "8d076327051096bd",
-        "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-        "source": "Bleeping Computer",
+        "guid": "d899baababe653f3",
+        "title": "A Record-Breaking Patch Tuesday for June 2026",
+        "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+        "source": "Krebs on Security",
         "category": "Général",
         "cve": [],
         "tags": [
           "cve",
-          "ransomware",
+          "malware",
+          "patch",
           "vulnerability"
         ],
-        "summary": "CISA ordonne aux agences fédérales de patcher rapidement une vulnérabilité exploitée par le ransomware Qilin.",
-        "published_at": "2026-06-09T04:18:39",
-        "score": 5
-      },
-      {
-        "guid": "a13d23b9e8cf6247",
-        "title": "🏴‍☠️ Gunra has just published a new victim : Cambridge Law Chambers",
-        "url": "https://www.ransomware.live/id/Q2FtYnJpZGdlIExhdyBDaGFtYmVyc0BndW5yYQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "N/A",
-        "published_at": "2026-06-09T03:57:16",
-        "score": 12
-      },
-      {
-        "guid": "0270fd89023c3823",
-        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Aegle Aviation",
-        "url": "https://www.ransomware.live/id/QWVnbGUgQXZpYXRpb25AcmFuc29taG91c2U=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Aegle Aviation, une entreprise spécialisée en gestion d'actifs d'avions, est devenue la nouvelle victime du ransomware Ransomhouse.",
-        "published_at": "2026-06-08T19:24:22",
-        "score": 12
-      },
-      {
-        "guid": "72a95350f5910cbf",
-        "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
-        "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "La semaine dernière a été marquée par des hacks d'Instagram, une faille Android et un worm sur GitHub. Les attaques basiques sont toujours efficaces.",
-        "published_at": "2026-06-08T18:48:57",
+        "summary": "Microsoft a publié des mises à jour pour 204 vulnérabilités, un record en Patch Tuesday, dont 38 sont critiques et trois ont été publiquement exploités.",
+        "published_at": "2026-06-09T22:07:28",
         "score": 17
       },
       {
-        "guid": "cf6a4f6917781ac9",
-        "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
-        "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+        "guid": "df939e2f6fd00e0d",
+        "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
+        "url": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware",
-          "phishing"
+          "breach",
+          "cve",
+          "ransomware"
         ],
-        "summary": "L'IA augmente l'énormité des campagnes de phishing, engorgant les SOCs avec un flux d'alertes. La personnalisation rend la détection plus difficile.",
-        "published_at": "2026-06-08T18:30:00",
-        "score": 27
+        "summary": "Microsoft a temporairement retiré certains répos GitHub après une incident de sécurité compromettant 73 projets open-source, en continuant d'enquêter.",
+        "published_at": "2026-06-09T22:04:52",
+        "score": 25
       },
       {
-        "guid": "8641d99d00636d66",
-        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Ma Pak Leung Company Limited",
-        "url": "https://www.ransomware.live/id/TWEgUGFrIExldW5nIENvbXBhbnkgTGltaXRlZEByYW5zb21ob3VzZQ==",
+        "guid": "97f5e7bbec56971f",
+        "title": "🏴‍☠️ Prinzeugen has just published a new victim : Spratley's of Mortimer",
+        "url": "https://www.ransomware.live/id/U3ByYXRsZXkncyBvZiBNb3J0aW1lckBQcmluekV1Z2Vu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "apt",
           "malware"
         ],
-        "summary": "La société traditionnelle chinoise Ma Pak Leung, spécialisée dans les médicaments orientaux, a été victime d'une rançon logicielle.",
-        "published_at": "2026-06-08T18:25:36",
+        "summary": "spratleys.co.uk a été victime d'une rançonnieure, avec des données cryptées et une demande de clé de déchiffrement.",
+        "published_at": "2026-06-09T19:50:33",
+        "score": 12
+      },
+      {
+        "guid": "1f8db5c72f617882",
+        "title": "🏴‍☠️ Prinzeugen has just published a new victim : Spratley's",
+        "url": "https://www.ransomware.live/id/U3ByYXRsZXknc0BQcmluekV1Z2Vu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "spratleys.co.uk a été victime d'une rançonnieure, avec des données cryptées et une demande de clé de déchiffrement.",
+        "published_at": "2026-06-09T19:20:32",
+        "score": 12
+      },
+      {
+        "guid": "1b9787d00fa157ad",
+        "title": "CISA to transform how it assesses cyber vulnerabilities and risks, Andersen says",
+        "url": "https://therecord.media/cisa-to-transform-how-it-assesses-cyber-vulns-risks",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA va modifier sa façon d'évaluer les vulnérabilités et les risques en émettant un directif opérationnel binate.",
+        "published_at": "2026-06-09T18:50:00",
+        "score": 27
+      },
+      {
+        "guid": "3b4afd49dae032ec",
+        "title": "🏴‍☠️ Worldleaks has just published a new victim : Apollo Pipes",
+        "url": "https://www.ransomware.live/id/QXBvbGxvIFBpcGVzQHdvcmxkbGVha3M=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Apollo Pipes, fabricant indien de tuyaux PVC, est victime d'une fuite de données incluant des informations financières et personnelles.",
+        "published_at": "2026-06-09T17:56:44",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "357871e238f3da8e",
-        "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
-        "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "SoFi Hong Kong a confirmé un vol de données après une breche dans une base de données d'un fournisseur tiers.",
-        "published_at": "2026-06-08T17:55:46",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "82501bba89516704",
-        "title": "New Apple feature automatically changes your compromised passwords",
-        "url": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Apple a annoncé une nouvelle fonctionnalité qui change automatiquement les mots de passe compromises dans Safari et iOS 27.",
-        "published_at": "2026-06-08T17:03:40",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "83d692cae927fb16",
-        "title": "Gogs patches critical zero-day enabling remote code execution",
-        "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+        "guid": "28355e2ff24657f8",
+        "title": "ServiceNow discloses security incident exposing customer data",
+        "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
@@ -206,19 +242,49 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Gogs a corrigé un défaut critique permettant l'exécution de code à distance, exposant potentiellement les dépôts privés.",
-        "published_at": "2026-06-08T12:18:40",
+        "summary": "ServiceNow a signalé une incident de sécurité suite à un accès non authentifié via une API vulnérable, permettant l'accès aux données des clients.",
+        "published_at": "2026-06-09T17:34:09",
         "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "72e4b2ccb2a233d8",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : nottingham.ac.uk",
+        "url": "https://www.ransomware.live/id/bm90dGluZ2hhbS5hYy51a0BzaGlueWh1bnRlcnM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La University of Nottingham a été victime d'une fuite de données comprenant des informations financières et personnelles, soit 19GB+ (compressé).",
+        "published_at": "2026-06-09T19:26:21",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "783a59d948e3cf47",
+        "title": "🏴‍☠️ Nova has just published a new victim : Trevi",
+        "url": "https://www.ransomware.live/id/VHJldmlAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le site trevi.it a été victime d'une fuite de données avec la fourniture d'échantillons au détenant pour obtenir des informations.",
+        "published_at": "2026-06-09T11:53:14",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 43,
-    "items_selected": 13,
+    "items_analyzed": 54,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 4,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
