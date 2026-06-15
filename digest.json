@@ -1,87 +1,15 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-13",
-  "generated_at": "2026-06-13T02:00:50.412434+00:00",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T02:00:36.495976+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "513785b3d37071b1",
-        "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
-        "url": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Plus de 400 paquets dans l'AUR d'Arch Linux ont été compromis pour installer un voleur de crédentiels en Rust et un rootkit eBPF.",
-        "published_at": "2026-06-13T01:03:25",
-        "score": 17
-      },
-      {
-        "guid": "ca8d35080292eb96",
-        "title": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer",
-        "url": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Google poursuit une réseau chinois pour avoir utilisé son AI Gemini dans des messages frauduleux ciblant les Américains.",
-        "published_at": "2026-06-13T00:54:50",
-        "score": 17
-      },
-      {
-        "guid": "59fa1aa15c7ecaf2",
-        "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
-        "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "phishing"
-        ],
-        "summary": "Une groupe chinois utilise l'IA Gemini pour mener une campagne de phishing à grande échelle en Asie.",
-        "published_at": "2026-06-13T00:29:32",
-        "score": 27
-      },
-      {
-        "guid": "4af15e6c22dee839",
-        "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
-        "url": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "malware"
-        ],
-        "summary": "Un groupe lié à la Chine a caché un backdoor dans le système de connexion Linux pendant près d'une décennie.",
-        "published_at": "2026-06-12T23:47:55",
-        "score": 17
-      },
-      {
-        "guid": "afd2197fc23abd19",
-        "title": "Friday Squid Blogging: Squid-Inspired Fluid Pump",
-        "url": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html",
-        "source": "Schneier on Security",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Une pompe de fluides inspirée des remous de calmar a été développée pour une application climatique.",
-        "published_at": "2026-06-12T21:05:03",
-        "score": 17
-      },
-      {
-        "guid": "6150c0f9bcf51dca",
-        "title": "🏴‍☠️ Stormous has just published a new victim : mlit.com.my",
-        "url": "https://www.ransomware.live/id/bWxpdC5jb20ubXlAc3Rvcm1vdXM=",
+        "guid": "f05fbfb9bc18a86a",
+        "title": "🏴‍☠️ Nova has just published a new victim : Bandung",
+        "url": "https://www.ransomware.live/id/QmFuZHVuZ0Bub3Zh",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -89,62 +17,99 @@
           "breach",
           "malware"
         ],
-        "summary": "Stormous a compromis le réseau informatique de MLIT, accédant à leurs données financières et opérationnelles sensibles.",
-        "published_at": "2026-06-12T20:58:54",
+        "summary": "Le Balai Besar POM de Bandung, une organisation indonésienne supervisant les aliments et médicaments, a été victime d'une publication.",
+        "published_at": "2026-06-14T14:53:51",
         "score": 32
-      }
-    ],
-    "top_reads": [
-      {
-        "guid": "5e1ec22aeb558624",
-        "title": "Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims",
-        "url": "https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Un accord de 47 millions de dollars a été approuvé pour les victimes d'une fuite de données chez 23andMe.",
-        "published_at": "2026-06-12T17:12:00",
-        "score": 35,
-        "rank": 1
       },
       {
-        "guid": "4d91c8cb1e42309c",
-        "title": "South Korea hits Coupang with record $409 million fine over data breach",
-        "url": "https://therecord.media/south-korea-data-breach-record-fine-coupang",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "406d0ec34fe2809e",
+        "title": "🏴‍☠️ Nightspire has just published a new victim : WaxWorks Inc",
+        "url": "https://www.ransomware.live/id/V2F4V29ya3MgSW5jQG5pZ2h0c3BpcmU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "breach"
+          "malware"
         ],
-        "summary": "Coupang est puni d'un record de 409 millions de dollars pour une violation de données en Corée du Sud.",
-        "published_at": "2026-06-12T15:56:00",
-        "score": 35,
-        "rank": 2
+        "summary": "N/A",
+        "published_at": "2026-06-14T10:56:01",
+        "score": 12
       },
       {
-        "guid": "d4ad5db9aa9fa177",
-        "title": "Maine disables data breach notification portal after fake disclosures",
-        "url": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
+        "guid": "50f6df233e87b036",
+        "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "malware",
+          "phishing"
         ],
-        "summary": "Le portail de signalisation des fuites de données en ligne de Maine a été fermé après des publications frauduleuses.",
-        "published_at": "2026-06-12T15:33:32",
-        "score": 25,
+        "summary": "Le FBI a dissous une grande opération de phishing chinoise utilisant un million de sites web, en collaboration avec Google et Black Lotus Labs.",
+        "published_at": "2026-06-14T10:36:23",
+        "score": 27
+      },
+      {
+        "guid": "a3192cc952eefc06",
+        "title": "Cyber actualités ZATAZ de la semaine du 8 au 14 juin 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-8-au-14-juin-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Récapitulatif des actualités cybersécurité de la semaine du 8 au 14 juin 2026, incluant sécurité informatique, identité numérique et actions judiciaires.",
+        "published_at": "2026-06-14T08:39:23",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "035d8909578d2ba3",
+        "title": "CFake : un Français poursuivi pour 300 000 deepfakes",
+        "url": "https://www.zataz.com/cfake-un-francais-poursuivi-pour-300-000-deepfakes/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Un Français est poursuivi pour la diffusion de 300 000 deepfakes impliquant 14 000 victimes.",
+        "published_at": "2026-06-14T09:05:47",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "85651420fd49ec12",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : I-***YS",
+        "url": "https://www.ransomware.live/id/SS0qKipZU0BBdWRpdFRlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Auditteam a公布的最新受害者为I-***YS。",
+        "published_at": "2026-06-14T23:50:14",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "d3f4c804d9b25792",
+        "title": "🏴‍☠️ Krybit has just published a new victim : frey.com",
+        "url": "https://www.ransomware.live/id/ZnJleS5jb21Aa3J5Yml0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Krybit 披露了新的受害者 frey.com，这是一家美国的环保洗衣护理产品公司。",
+        "published_at": "2026-06-14T20:22:26",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 64,
-    "items_selected": 9,
+    "items_analyzed": 12,
+    "items_selected": 7,
     "window_hours": 24,
     "sources_active": 22,
     "cves_total": 0,
