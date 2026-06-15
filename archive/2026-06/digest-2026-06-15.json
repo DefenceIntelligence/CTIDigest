@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T02:00:36.495976+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "f05fbfb9bc18a86a",
+        "title": "🏴‍☠️ Nova has just published a new victim : Bandung",
+        "url": "https://www.ransomware.live/id/QmFuZHVuZ0Bub3Zh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le Balai Besar POM de Bandung, une organisation indonésienne supervisant les aliments et médicaments, a été victime d'une publication.",
+        "published_at": "2026-06-14T14:53:51",
+        "score": 32
+      },
+      {
+        "guid": "406d0ec34fe2809e",
+        "title": "🏴‍☠️ Nightspire has just published a new victim : WaxWorks Inc",
+        "url": "https://www.ransomware.live/id/V2F4V29ya3MgSW5jQG5pZ2h0c3BpcmU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-06-14T10:56:01",
+        "score": 12
+      },
+      {
+        "guid": "50f6df233e87b036",
+        "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Le FBI a dissous une grande opération de phishing chinoise utilisant un million de sites web, en collaboration avec Google et Black Lotus Labs.",
+        "published_at": "2026-06-14T10:36:23",
+        "score": 27
+      },
+      {
+        "guid": "a3192cc952eefc06",
+        "title": "Cyber actualités ZATAZ de la semaine du 8 au 14 juin 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-8-au-14-juin-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Récapitulatif des actualités cybersécurité de la semaine du 8 au 14 juin 2026, incluant sécurité informatique, identité numérique et actions judiciaires.",
+        "published_at": "2026-06-14T08:39:23",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "035d8909578d2ba3",
+        "title": "CFake : un Français poursuivi pour 300 000 deepfakes",
+        "url": "https://www.zataz.com/cfake-un-francais-poursuivi-pour-300-000-deepfakes/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Un Français est poursuivi pour la diffusion de 300 000 deepfakes impliquant 14 000 victimes.",
+        "published_at": "2026-06-14T09:05:47",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "85651420fd49ec12",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : I-***YS",
+        "url": "https://www.ransomware.live/id/SS0qKipZU0BBdWRpdFRlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Auditteam a公布的最新受害者为I-***YS。",
+        "published_at": "2026-06-14T23:50:14",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "d3f4c804d9b25792",
+        "title": "🏴‍☠️ Krybit has just published a new victim : frey.com",
+        "url": "https://www.ransomware.live/id/ZnJleS5jb21Aa3J5Yml0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Krybit 披露了新的受害者 frey.com，这是一家美国的环保洗衣护理产品公司。",
+        "published_at": "2026-06-14T20:22:26",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 12,
+    "items_selected": 7,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
