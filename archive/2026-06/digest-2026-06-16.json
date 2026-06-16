@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T02:00:56.633803+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "0f37c1ac70788e38",
+        "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20262"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Cisco a corrigé une vulnérabilité dans le Catalyst SD-WAN Manager exploité pour accéder aux privilèges root.",
+        "published_at": "2026-06-15T13:12:42",
+        "score": 20
+      },
+      {
+        "guid": "769574597dd89a2b",
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-0257"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Palo Alto Networks rapporte l'exploitation active d'une vulnérabilité dans PAN-OS permettant l'accès non autorisé aux portails GlobalProtect.",
+        "published_at": "2026-06-15T11:47:32",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "1d488d06be89c881",
+        "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+        "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des hackers chinois ont utilisé des règles Google Workspace pour voler des emails et des informations confidentielles de recherches et défense.",
+        "published_at": "2026-06-16T01:14:06",
+        "score": 17
+      },
+      {
+        "guid": "16d2dc7b56a29539",
+        "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+        "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Des cyberattaques nord-coréennes utilisent des recrutements de développeurs pour délivrer malwares en camouflant des campagnes phishing.",
+        "published_at": "2026-06-16T01:02:52",
+        "score": 27
+      },
+      {
+        "guid": "b5b65fe9133d1bdc",
+        "title": "🏴‍☠️ Incransom has just published a new victim : smithassociatescpa.com",
+        "url": "https://www.ransomware.live/id/c21pdGhhc3NvY2lhdGVzY3BhLmNvbUBpbmNyYW5zb20=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "smithassociatescpa.com a été victime d'une rançon-ware, mais aucun détail technique sur la vulnérabilité n'est fourni.",
+        "published_at": "2026-06-15T20:54:30",
+        "score": 12
+      },
+      {
+        "guid": "d3e05604c440e9d7",
+        "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+        "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing",
+          "vulnerability"
+        ],
+        "summary": "Une erreur de clic unique dans Microsoft 365 Copilot aurait permis l'exfiltration d'informations sensibles comme des emails et des codes MFA.",
+        "published_at": "2026-06-15T20:39:05",
+        "score": 27
+      },
+      {
+        "guid": "cda1095a513a1331",
+        "title": "June 2026 Stealer Logs - 56,278,397 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/June2026StealerLogs",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "Des enregistrements de volleurs contenant 56 millions d'adresses email uniques ont été ajoutés à HIBP en juin 2026.",
+        "published_at": "2026-06-15T19:30:15",
+        "score": 25
+      },
+      {
+        "guid": "9bb57fc9e4727e20",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : glendale.edu",
+        "url": "https://www.ransomware.live/id/Z2xlbmRhbGUuZWR1QHNoaW55aHVudGVycw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des données d'Glendale Community College, dont des fichiers personnels et financiers étudiants, ont été compromises par Shinyhunters.",
+        "published_at": "2026-06-15T19:28:01",
+        "score": 32
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "8cc3be803c06aad4",
+        "title": "Maine closes data breach portal to the public after fake reports",
+        "url": "https://therecord.media/maine-turns-off-breach-portal-fake-reports",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le portail du Maine pour signaler les fuites de données est fermé au public temporairement après des rapports fantaisistes.",
+        "published_at": "2026-06-15T18:23:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "b5352884363da11f",
+        "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+        "url": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les plugins WordPress OptinMonster, TrustPulse et PushEngage ont été compromises dans une attaque de chaîne CDN menant à des vulnérabilités.",
+        "published_at": "2026-06-15T13:37:07",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "53f60e4bcc1394c4",
+        "title": "Infinite Campus data breach affects 137,000 school staff accounts",
+        "url": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le gang ShinyHunters a volé des informations personnelles de plus de 137 000 comptes d'employés scolaires via une attaque sur le système Salesforce utilisé par Infinite Campus, un important système d'information pour élèves.",
+        "published_at": "2026-06-15T08:38:55",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 91,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
