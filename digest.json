@@ -1,15 +1,130 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-15",
-  "generated_at": "2026-06-15T02:00:36.495976+00:00",
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T02:00:56.633803+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
+    "vulnerabilities": [
+      {
+        "guid": "0f37c1ac70788e38",
+        "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20262"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Cisco a corrigé une vulnérabilité dans le Catalyst SD-WAN Manager exploité pour accéder aux privilèges root.",
+        "published_at": "2026-06-15T13:12:42",
+        "score": 20
+      },
+      {
+        "guid": "769574597dd89a2b",
+        "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+        "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-0257"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Palo Alto Networks rapporte l'exploitation active d'une vulnérabilité dans PAN-OS permettant l'accès non autorisé aux portails GlobalProtect.",
+        "published_at": "2026-06-15T11:47:32",
+        "score": 20
+      }
+    ],
     "campaigns": [
       {
-        "guid": "f05fbfb9bc18a86a",
-        "title": "🏴‍☠️ Nova has just published a new victim : Bandung",
-        "url": "https://www.ransomware.live/id/QmFuZHVuZ0Bub3Zh",
+        "guid": "1d488d06be89c881",
+        "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+        "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des hackers chinois ont utilisé des règles Google Workspace pour voler des emails et des informations confidentielles de recherches et défense.",
+        "published_at": "2026-06-16T01:14:06",
+        "score": 17
+      },
+      {
+        "guid": "16d2dc7b56a29539",
+        "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+        "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Des cyberattaques nord-coréennes utilisent des recrutements de développeurs pour délivrer malwares en camouflant des campagnes phishing.",
+        "published_at": "2026-06-16T01:02:52",
+        "score": 27
+      },
+      {
+        "guid": "b5b65fe9133d1bdc",
+        "title": "🏴‍☠️ Incransom has just published a new victim : smithassociatescpa.com",
+        "url": "https://www.ransomware.live/id/c21pdGhhc3NvY2lhdGVzY3BhLmNvbUBpbmNyYW5zb20=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "smithassociatescpa.com a été victime d'une rançon-ware, mais aucun détail technique sur la vulnérabilité n'est fourni.",
+        "published_at": "2026-06-15T20:54:30",
+        "score": 12
+      },
+      {
+        "guid": "d3e05604c440e9d7",
+        "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+        "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing",
+          "vulnerability"
+        ],
+        "summary": "Une erreur de clic unique dans Microsoft 365 Copilot aurait permis l'exfiltration d'informations sensibles comme des emails et des codes MFA.",
+        "published_at": "2026-06-15T20:39:05",
+        "score": 27
+      },
+      {
+        "guid": "cda1095a513a1331",
+        "title": "June 2026 Stealer Logs - 56,278,397 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/June2026StealerLogs",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "Des enregistrements de volleurs contenant 56 millions d'adresses email uniques ont été ajoutés à HIBP en juin 2026.",
+        "published_at": "2026-06-15T19:30:15",
+        "score": 25
+      },
+      {
+        "guid": "9bb57fc9e4727e20",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : glendale.edu",
+        "url": "https://www.ransomware.live/id/Z2xlbmRhbGUuZWR1QHNoaW55aHVudGVycw==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -17,102 +132,66 @@
           "breach",
           "malware"
         ],
-        "summary": "Le Balai Besar POM de Bandung, une organisation indonésienne supervisant les aliments et médicaments, a été victime d'une publication.",
-        "published_at": "2026-06-14T14:53:51",
+        "summary": "Des données d'Glendale Community College, dont des fichiers personnels et financiers étudiants, ont été compromises par Shinyhunters.",
+        "published_at": "2026-06-15T19:28:01",
         "score": 32
-      },
-      {
-        "guid": "406d0ec34fe2809e",
-        "title": "🏴‍☠️ Nightspire has just published a new victim : WaxWorks Inc",
-        "url": "https://www.ransomware.live/id/V2F4V29ya3MgSW5jQG5pZ2h0c3BpcmU=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "N/A",
-        "published_at": "2026-06-14T10:56:01",
-        "score": 12
-      },
-      {
-        "guid": "50f6df233e87b036",
-        "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "phishing"
-        ],
-        "summary": "Le FBI a dissous une grande opération de phishing chinoise utilisant un million de sites web, en collaboration avec Google et Black Lotus Labs.",
-        "published_at": "2026-06-14T10:36:23",
-        "score": 27
-      },
-      {
-        "guid": "a3192cc952eefc06",
-        "title": "Cyber actualités ZATAZ de la semaine du 8 au 14 juin 2026",
-        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-8-au-14-juin-2026/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Récapitulatif des actualités cybersécurité de la semaine du 8 au 14 juin 2026, incluant sécurité informatique, identité numérique et actions judiciaires.",
-        "published_at": "2026-06-14T08:39:23",
-        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "035d8909578d2ba3",
-        "title": "CFake : un Français poursuivi pour 300 000 deepfakes",
-        "url": "https://www.zataz.com/cfake-un-francais-poursuivi-pour-300-000-deepfakes/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "8cc3be803c06aad4",
+        "title": "Maine closes data breach portal to the public after fake reports",
+        "url": "https://therecord.media/maine-turns-off-breach-portal-fake-reports",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [],
-        "summary": "Un Français est poursuivi pour la diffusion de 300 000 deepfakes impliquant 14 000 victimes.",
-        "published_at": "2026-06-14T09:05:47",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le portail du Maine pour signaler les fuites de données est fermé au public temporairement après des rapports fantaisistes.",
+        "published_at": "2026-06-15T18:23:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "85651420fd49ec12",
-        "title": "🏴‍☠️ Auditteam has just published a new victim : I-***YS",
-        "url": "https://www.ransomware.live/id/SS0qKipZU0BBdWRpdFRlYW0=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "b5352884363da11f",
+        "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+        "url": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Auditteam a公布的最新受害者为I-***YS。",
-        "published_at": "2026-06-14T23:50:14",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les plugins WordPress OptinMonster, TrustPulse et PushEngage ont été compromises dans une attaque de chaîne CDN menant à des vulnérabilités.",
+        "published_at": "2026-06-15T13:37:07",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "d3f4c804d9b25792",
-        "title": "🏴‍☠️ Krybit has just published a new victim : frey.com",
-        "url": "https://www.ransomware.live/id/ZnJleS5jb21Aa3J5Yml0",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "53f60e4bcc1394c4",
+        "title": "Infinite Campus data breach affects 137,000 school staff accounts",
+        "url": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Krybit 披露了新的受害者 frey.com，这是一家美国的环保洗衣护理产品公司。",
-        "published_at": "2026-06-14T20:22:26",
-        "score": 0,
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le gang ShinyHunters a volé des informations personnelles de plus de 137 000 comptes d'employés scolaires via une attaque sur le système Salesforce utilisé par Infinite Campus, un important système d'information pour élèves.",
+        "published_at": "2026-06-15T08:38:55",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 12,
-    "items_selected": 7,
+    "items_analyzed": 91,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 2,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
