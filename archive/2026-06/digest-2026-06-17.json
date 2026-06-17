@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T02:01:26.940185+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "75879cdea77d09e6",
+        "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+        "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-39813",
+          "CVE-2026-39808",
+          "CVE-2026-25089"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploitent des vulnérabilités dans FortiSandbox, dont CVE-2026-39813 avec un score CVSS de 9.1.",
+        "published_at": "2026-06-16T16:00:41",
+        "score": 20
+      },
+      {
+        "guid": "cb169f625213b560",
+        "title": "Rockwell Automation FLEX I/O EtherNet/IP Adapters",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-0646",
+          "CVE-2026-0647"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions 1794-AENTR V2.012 du Rockwell Automation FLEX I/O EtherNet/IP Adapters sont vulnérables.",
+        "published_at": "2026-06-16T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "0840217c62542086",
+        "title": "Rockwell Automation CompactLogix",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-11694"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions CompactLogix 5370 L1 à L3 du Rockwell Automation sont affectées par une vulnérabilité d’arrêt de service.",
+        "published_at": "2026-06-16T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "5a0c776ef5206f95",
+        "title": "Rockwell Automation FactoryTalk Analytics PavilionX",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-14272"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions FactoryTalk Analytics PavilionX < 7.01 du Rockwell Automation sont vulnérables avec CVE-2025-14272.",
+        "published_at": "2026-06-16T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "a6cda8538e0f895d",
+        "title": "Rockwell Automation RSLinx",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2020-13573"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions RSLinx Classic <= 4.50.00 du Rockwell Automation sont vulnérables avec CVE-2020-13573.",
+        "published_at": "2026-06-16T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f98e1976944b8905",
+        "title": "Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-11317"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions Logix 5370 &amp; 5570 du Rockwell Automation sont vulnérables avec CVE-2026-20262.",
+        "published_at": "2026-06-16T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f10211a6a4f0eb17",
+        "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+        "url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20262"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Cisco a publié des mises à jour pour une vulnérabilité dans Catalyst SD-WAN Manager exploitée en dehors du laboratoire.",
+        "published_at": "2026-06-16T11:35:58",
+        "score": 20
+      },
+      {
+        "guid": "45c9f45b2fc8a81e",
+        "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+        "url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-54420"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté un problème critique chez LiteSpeed cPanel Plugin au catalogue KEV, nécessitant la mise à jour d’ici le 18 juin.",
+        "published_at": "2026-06-16T11:11:52",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "22a5e4a972d31d1a",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : He..t S..t.",
+        "url": "https://www.ransomware.live/id/SGUuLnQgUy4udC5AU2lsZW50UmFuc29tR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-06-16T23:50:17",
+        "score": 12
+      },
+      {
+        "guid": "a95c3243250236de",
+        "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+        "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "De nouvelles campagnes de ClickFix utilisent des chargeurs malveillants comme BabaDeda Loader.",
+        "published_at": "2026-06-16T23:11:28",
+        "score": 17
+      },
+      {
+        "guid": "a4fd4b6e2bfbd1f9",
+        "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+        "url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Zimperium's zLabs aident un nouveau trojan Android nommé Rokarolla qui vole PINs, codes SMS et fonds de portefeuilles cryptomonnaies en utilisant 137 commandes.",
+        "published_at": "2026-06-16T18:40:17",
+        "score": 17
+      },
+      {
+        "guid": "f24a0f1a42bb20f4",
+        "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+        "url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "ransomware"
+        ],
+        "summary": "Bien que disposant d'abondance d'informations IP, de nombreux équipes de sécurité se heurtent encore à la difficulté d'identifier les acteurs derrière une adresse IP.",
+        "published_at": "2026-06-16T17:00:00",
+        "score": 25
+      },
+      {
+        "guid": "5d8e5cb2bd983d6f",
+        "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
+        "url": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Zimperium's zLabs signalent un nouveau trojan Android nommé Rokarolla ciblant 217 applications bancaires et de cryptomonnaies avec 137 commandes.",
+        "published_at": "2026-06-16T16:04:11",
+        "score": 17
+      },
+      {
+        "guid": "1f1d466fed798309",
+        "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+        "url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des variants Windows du backdoor SprySOCKS, considéré initialement comme Linux-only, ont été découverts et s'utilisent des drivers pour une dissimulation accrue.",
+        "published_at": "2026-06-16T15:14:34",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "5d687ae6c16c5fb0",
+        "title": "UK to require ID or face scan before you can make social media accounts",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Au Royaume-Uni, les nouveaux comptes de médias sociaux nécessiteront l'upload d'une pièce d'identité ou un scan facial pour prouver la majorité.",
+        "published_at": "2026-06-16T10:38:49",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "165b8f272029c326",
+        "title": "iRhythm discloses data breach, says hackers stole patient info",
+        "url": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "iRhythm a divulgué une fuite de données où des hackers ont volé les informations personnelles et médicales de patients sur des applications d'entreprise tierces.",
+        "published_at": "2026-06-16T02:31:59",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "b5759a6b0810cd7a",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : Ralph Lauren",
+        "url": "https://www.ransomware.live/id/UmFscGggTGF1cmVuQHNoaW55aHVudGVycw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Shinyhunters a volé plus de 220GB de données clients chez Ralph Lauren, incluant informations personnelles et transactions futures non publiées.",
+        "published_at": "2026-06-16T12:54:26",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 53,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 11,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
