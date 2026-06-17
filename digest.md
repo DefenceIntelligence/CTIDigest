@@ -1,87 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 16 juin 2026
+# 🛡️ ARGOS CTI Digest — 17 juin 2026
 
-> Généré le 16/06/2026 à 02:00 UTC  ·  91 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 17/06/2026 à 02:01 UTC  ·  53 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/)
-**Source :** Bleeping Computer  **Publié :** 15/06/2026 13:12 UTC  **CVE :** `CVE-2026-20262`
-`cve` `patch` `vulnerability`
-Cisco a corrigé une vulnérabilité dans le Catalyst SD-WAN Manager exploité pour accéder aux privilèges root.
+### [Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week](https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 16:00 UTC  **CVE :** `CVE-2026-39813`, `CVE-2026-39808`, `CVE-2026-25089`
+`cve` `vulnerability`
+Des attaquants exploitent des vulnérabilités dans FortiSandbox, dont CVE-2026-39813 avec un score CVSS de 9.1.
 
 ---
 
-### [Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw](https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html)
-**Source :** The Hacker News  **Publié :** 15/06/2026 11:47 UTC  **CVE :** `CVE-2026-0257`
+### [Rockwell Automation FLEX I/O EtherNet/IP Adapters](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05)
+**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2026-0646`, `CVE-2026-0647`
 `apt` `cve` `vulnerability`
-Palo Alto Networks rapporte l'exploitation active d'une vulnérabilité dans PAN-OS permettant l'accès non autorisé aux portails GlobalProtect.
+Les versions 1794-AENTR V2.012 du Rockwell Automation FLEX I/O EtherNet/IP Adapters sont vulnérables.
+
+---
+
+### [Rockwell Automation CompactLogix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04)
+**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2025-11694`
+`cve` `vulnerability`
+Les versions CompactLogix 5370 L1 à L3 du Rockwell Automation sont affectées par une vulnérabilité d’arrêt de service.
+
+---
+
+### [Rockwell Automation FactoryTalk Analytics PavilionX](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01)
+**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2025-14272`
+`cve` `malware` `vulnerability`
+Les versions FactoryTalk Analytics PavilionX < 7.01 du Rockwell Automation sont vulnérables avec CVE-2025-14272.
+
+---
+
+### [Rockwell Automation RSLinx](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02)
+**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2020-13573`
+`cve` `vulnerability`
+Les versions RSLinx Classic <= 4.50.00 du Rockwell Automation sont vulnérables avec CVE-2020-13573.
+
+---
+
+### [Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03)
+**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2026-11317`
+`cve` `vulnerability`
+Les versions Logix 5370 &amp; 5570 du Rockwell Automation sont vulnérables avec CVE-2026-20262.
+
+---
+
+### [Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw](https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 11:35 UTC  **CVE :** `CVE-2026-20262`
+`cve` `patch` `vulnerability`
+Cisco a publié des mises à jour pour une vulnérabilité dans Catalyst SD-WAN Manager exploitée en dehors du laboratoire.
+
+---
+
+### [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 11:11 UTC  **CVE :** `CVE-2026-54420`
+`cve` `vulnerability`
+CISA a ajouté un problème critique chez LiteSpeed cPanel Plugin au catalogue KEV, nécessitant la mise à jour d’ici le 18 juin.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails](https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 01:14 UTC
-`apt` `malware`
-Des hackers chinois ont utilisé des règles Google Workspace pour voler des emails et des informations confidentielles de recherches et défense.
+### [🏴‍☠️ Silentransomgroup has just published a new victim : He..t S..t.](https://www.ransomware.live/id/SGUuLnQgUy4udC5AU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 16/06/2026 23:50 UTC
+`malware`
+N/A
 
 ---
 
-### [North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels](https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 01:02 UTC
-`apt` `malware` `phishing`
-Des cyberattaques nord-coréennes utilisent des recrutements de développeurs pour délivrer malwares en camouflant des campagnes phishing.
+### [ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures](https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 23:11 UTC
+`malware`
+De nouvelles campagnes de ClickFix utilisent des chargeurs malveillants comme BabaDeda Loader.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : smithassociatescpa.com](https://www.ransomware.live/id/c21pdGhhc3NvY2lhdGVzY3BhLmNvbUBpbmNyYW5zb20=)
-**Source :** Ransomware.live News  **Publié :** 15/06/2026 20:54 UTC
-`malware` `patch`
-smithassociatescpa.com a été victime d'une rançon-ware, mais aucun détail technique sur la vulnérabilité n'est fourni.
+### [New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 18:40 UTC
+`malware`
+Zimperium's zLabs aident un nouveau trojan Android nommé Rokarolla qui vole PINs, codes SMS et fonds de portefeuilles cryptomonnaies en utilisant 137 commandes.
 
 ---
 
-### [One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes](https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html)
-**Source :** The Hacker News  **Publié :** 15/06/2026 20:39 UTC
-`malware` `phishing` `vulnerability`
-Une erreur de clic unique dans Microsoft 365 Copilot aurait permis l'exfiltration d'informations sensibles comme des emails et des codes MFA.
+### [Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 17:00 UTC
+`breach` `ransomware`
+Bien que disposant d'abondance d'informations IP, de nombreux équipes de sécurité se heurtent encore à la difficulté d'identifier les acteurs derrière une adresse IP.
 
 ---
 
-### [June 2026 Stealer Logs - 56,278,397 breached accounts](https://haveibeenpwned.com/Breach/June2026StealerLogs)
-**Source :** Have I Been Pwned  **Publié :** 15/06/2026 19:30 UTC
-`apt` `breach` `cve`
-Des enregistrements de volleurs contenant 56 millions d'adresses email uniques ont été ajoutés à HIBP en juin 2026.
+### [New Rokarolla Android malware targets 217 banking, crypto apps](https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/)
+**Source :** Bleeping Computer  **Publié :** 16/06/2026 16:04 UTC
+`malware`
+Zimperium's zLabs signalent un nouveau trojan Android nommé Rokarolla ciblant 217 applications bancaires et de cryptomonnaies avec 137 commandes.
 
 ---
 
-### [🏴‍☠️ Shinyhunters has just published a new victim : glendale.edu](https://www.ransomware.live/id/Z2xlbmRhbGUuZWR1QHNoaW55aHVudGVycw==)
-**Source :** Ransomware.live News  **Publié :** 15/06/2026 19:28 UTC
-`breach` `malware`
-Des données d'Glendale Community College, dont des fichiers personnels et financiers étudiants, ont été compromises par Shinyhunters.
+### [China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth](https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html)
+**Source :** The Hacker News  **Publié :** 16/06/2026 15:14 UTC
+`malware`
+Des variants Windows du backdoor SprySOCKS, considéré initialement comme Linux-only, ont été découverts et s'utilisent des drivers pour une dissimulation accrue.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Maine closes data breach portal to the public after fake reports](https://therecord.media/maine-turns-off-breach-portal-fake-reports)
-**Source :** The Record  **Publié :** 15/06/2026 18:23 UTC  **Score :** 35
+### 1. [UK to require ID or face scan before you can make social media accounts](https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/)
+**Source :** Bleeping Computer  **Publié :** 16/06/2026 10:38 UTC  **Score :** 25
 `breach`
-Le portail du Maine pour signaler les fuites de données est fermé au public temporairement après des rapports fantaisistes.
+Au Royaume-Uni, les nouveaux comptes de médias sociaux nécessiteront l'upload d'une pièce d'identité ou un scan facial pour prouver la majorité.
 
-### 2. [OptinMonster WordPress plugin hacked in CDN supply-chain attack](https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/)
-**Source :** Bleeping Computer  **Publié :** 15/06/2026 13:37 UTC  **Score :** 25
+### 2. [iRhythm discloses data breach, says hackers stole patient info](https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/)
+**Source :** Bleeping Computer  **Publié :** 16/06/2026 02:31 UTC  **Score :** 25
 `breach`
-Les plugins WordPress OptinMonster, TrustPulse et PushEngage ont été compromises dans une attaque de chaîne CDN menant à des vulnérabilités.
+iRhythm a divulgué une fuite de données où des hackers ont volé les informations personnelles et médicales de patients sur des applications d'entreprise tierces.
 
-### 3. [Infinite Campus data breach affects 137,000 school staff accounts](https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/)
-**Source :** Bleeping Computer  **Publié :** 15/06/2026 08:38 UTC  **Score :** 25
-`breach` `cve`
-Le gang ShinyHunters a volé des informations personnelles de plus de 137 000 comptes d'employés scolaires via une attaque sur le système Salesforce utilisé par Infinite Campus, un important système d'information pour élèves.
+### 3. [🏴‍☠️ Shinyhunters has just published a new victim : Ralph Lauren](https://www.ransomware.live/id/UmFscGggTGF1cmVuQHNoaW55aHVudGVycw==)
+**Source :** Ransomware.live News  **Publié :** 16/06/2026 12:54 UTC  **Score :** 20
+`breach`
+Shinyhunters a volé plus de 220GB de données clients chez Ralph Lauren, incluant informations personnelles et transactions futures non publiées.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-16.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-17.md`*
