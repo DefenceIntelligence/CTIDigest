@@ -1,129 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 17 juin 2026
+# 🛡️ ARGOS CTI Digest — 18 juin 2026
 
-> Généré le 17/06/2026 à 02:01 UTC  ·  53 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 18/06/2026 à 02:00 UTC  ·  42 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week](https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 16:00 UTC  **CVE :** `CVE-2026-39813`, `CVE-2026-39808`, `CVE-2026-25089`
-`cve` `vulnerability`
-Des attaquants exploitent des vulnérabilités dans FortiSandbox, dont CVE-2026-39813 avec un score CVSS de 9.1.
-
----
-
-### [Rockwell Automation FLEX I/O EtherNet/IP Adapters](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05)
-**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2026-0646`, `CVE-2026-0647`
-`apt` `cve` `vulnerability`
-Les versions 1794-AENTR V2.012 du Rockwell Automation FLEX I/O EtherNet/IP Adapters sont vulnérables.
-
----
-
-### [Rockwell Automation CompactLogix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04)
-**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2025-11694`
-`cve` `vulnerability`
-Les versions CompactLogix 5370 L1 à L3 du Rockwell Automation sont affectées par une vulnérabilité d’arrêt de service.
-
----
-
-### [Rockwell Automation FactoryTalk Analytics PavilionX](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01)
-**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2025-14272`
+### [Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development](https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html)
+**Source :** The Hacker News  **Publié :** 17/06/2026 23:06 UTC  **CVE :** `CVE-2026-50656`
 `cve` `malware` `vulnerability`
-Les versions FactoryTalk Analytics PavilionX < 7.01 du Rockwell Automation sont vulnérables avec CVE-2025-14272.
+Microsoft reconnaît un vulnérabilité non patchée dans Defender, codenommée RoguePlanet.
 
 ---
 
-### [Rockwell Automation RSLinx](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02)
-**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2020-13573`
+### [CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
+**Source :** The Hacker News  **Publié :** 17/06/2026 11:20 UTC  **CVE :** `CVE-2026-48907`
 `cve` `vulnerability`
-Les versions RSLinx Classic <= 4.50.00 du Rockwell Automation sont vulnérables avec CVE-2020-13573.
-
----
-
-### [Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03)
-**Source :** CISA Advisories  **Publié :** 16/06/2026 12:00 UTC  **CVE :** `CVE-2026-11317`
-`cve` `vulnerability`
-Les versions Logix 5370 &amp; 5570 du Rockwell Automation sont vulnérables avec CVE-2026-20262.
-
----
-
-### [Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw](https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 11:35 UTC  **CVE :** `CVE-2026-20262`
-`cve` `patch` `vulnerability`
-Cisco a publié des mises à jour pour une vulnérabilité dans Catalyst SD-WAN Manager exploitée en dehors du laboratoire.
-
----
-
-### [CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation](https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 11:11 UTC  **CVE :** `CVE-2026-54420`
-`cve` `vulnerability`
-CISA a ajouté un problème critique chez LiteSpeed cPanel Plugin au catalogue KEV, nécessitant la mise à jour d’ici le 18 juin.
+CISA inclut une faille dans Joomla JCE dans son catalogue KEV, indiquant des preuves d’exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : He..t S..t.](https://www.ransomware.live/id/SGUuLnQgUy4udC5AU2lsZW50UmFuc29tR3JvdXA=)
-**Source :** Ransomware.live News  **Publié :** 16/06/2026 23:50 UTC
-`malware`
-N/A
+### [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
+**Source :** The Hacker News  **Publié :** 17/06/2026 23:44 UTC
+`apt` `cve` `malware` `phishing`
+Un acteur de la menace utilise fausses critiques et narrateurs IA pour promouvoir des logiciels piratés.
 
 ---
 
-### [ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures](https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 23:11 UTC
+### [🏴‍☠️ Safepay has just published a new victim : seinordovest.it](https://www.ransomware.live/id/c2Vpbm9yZG92ZXN0Lml0QHNhZmVwYXk=)
+**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:26 UTC
 `malware`
-De nouvelles campagnes de ClickFix utilisent des chargeurs malveillants comme BabaDeda Loader.
+Safepay a signalé une nouvelle victime italienne opérant dans le service public régional.
 
 ---
 
-### [New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 18:40 UTC
+### [🏴‍☠️ Safepay has just published a new victim : zaunsysteme.de](https://www.ransomware.live/id/emF1bnN5c3RlbWUuZGVAc2FmZXBheQ==)
+**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:25 UTC
 `malware`
-Zimperium's zLabs aident un nouveau trojan Android nommé Rokarolla qui vole PINs, codes SMS et fonds de portefeuilles cryptomonnaies en utilisant 137 commandes.
+Safepay a répertorié une nouvelle cible allemande dans la construction et la sécurité périphérique.
 
 ---
 
-### [Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 17:00 UTC
-`breach` `ransomware`
-Bien que disposant d'abondance d'informations IP, de nombreux équipes de sécurité se heurtent encore à la difficulté d'identifier les acteurs derrière une adresse IP.
+### [🏴‍☠️ Safepay has just published a new victim : gut-heckenhof.de](https://www.ransomware.live/id/Z3V0LWhlY2tlbmhvZi5kZUBzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:24 UTC
+`malware`
+Safepay a ajouté une nouvelle victime allemande à sa liste, opérant un hôtel de luxe et un grand parcours de golf.
 
 ---
 
-### [New Rokarolla Android malware targets 217 banking, crypto apps](https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/)
-**Source :** Bleeping Computer  **Publié :** 16/06/2026 16:04 UTC
-`malware`
-Zimperium's zLabs signalent un nouveau trojan Android nommé Rokarolla ciblant 217 applications bancaires et de cryptomonnaies avec 137 commandes.
+### [Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns](https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi)
+**Source :** The Record  **Publié :** 17/06/2026 17:55 UTC
+`apt`
+Les États hostiles sont derrière la plupart des attaques sur l’infrastructure critique britannique, selon le chef du NCSC.
 
 ---
 
-### [China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth](https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html)
-**Source :** The Hacker News  **Publié :** 16/06/2026 15:14 UTC
+### [🏴‍☠️ Play has just published a new victim : Integrated Technologies](https://www.ransomware.live/id/SW50ZWdyYXRlZCBUZWNobm9sb2dpZXNAcGxheQ==)
+**Source :** Ransomware.live News  **Publié :** 17/06/2026 17:54 UTC
 `malware`
-Des variants Windows du backdoor SprySOCKS, considéré initialement comme Linux-only, ont été découverts et s'utilisent des drivers pour une dissimulation accrue.
+Safepay a identifié une nouvelle victime américaine.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [UK to require ID or face scan before you can make social media accounts](https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/)
-**Source :** Bleeping Computer  **Publié :** 16/06/2026 10:38 UTC  **Score :** 25
-`breach`
-Au Royaume-Uni, les nouveaux comptes de médias sociaux nécessiteront l'upload d'une pièce d'identité ou un scan facial pour prouver la majorité.
+### 1. [The Top 10 Attack Surface Exposures in 2026](https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html)
+**Source :** The Hacker News  **Publié :** 17/06/2026 16:00 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Plus de 100 packages npm ont été compromises via un compte contributeur hacké.
 
-### 2. [iRhythm discloses data breach, says hackers stole patient info](https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/)
-**Source :** Bleeping Computer  **Publié :** 16/06/2026 02:31 UTC  **Score :** 25
-`breach`
-iRhythm a divulgué une fuite de données où des hackers ont volé les informations personnelles et médicales de patients sur des applications d'entreprise tierces.
+### 2. [144 Mastra npm Packages Compromised via Hijacked Contributor Account](https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html)
+**Source :** The Hacker News  **Publié :** 17/06/2026 13:08 UTC  **Score :** 25
+`breach` `cve`
+Le Top 10 des expositions d’attaques en 2026 met l’accent sur la vulnérabilité des panneaux administratifs et le réutilisation de凭证已被盗用作为网络攻击的手段。
 
-### 3. [🏴‍☠️ Shinyhunters has just published a new victim : Ralph Lauren](https://www.ransomware.live/id/UmFscGggTGF1cmVuQHNoaW55aHVudGVycw==)
-**Source :** Ransomware.live News  **Publié :** 16/06/2026 12:54 UTC  **Score :** 20
+### 3. [FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.](https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/)
+**Source :** Bleeping Computer  **Publié :** 17/06/2026 11:12 UTC  **Score :** 25
 `breach`
-Shinyhunters a volé plus de 220GB de données clients chez Ralph Lauren, incluant informations personnelles et transactions futures non publiées.
+Un漏洞被称为FortiBleed，导致泄露了73,932个防火墙URL上的Fortinet和FortiGate VPN凭证。
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-17.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-18.md`*
