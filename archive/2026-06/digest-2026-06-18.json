@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T02:00:51.277154+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "774e0dfc20257258",
+        "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
+        "url": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50656"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Microsoft reconnaît un vulnérabilité non patchée dans Defender, codenommée RoguePlanet.",
+        "published_at": "2026-06-17T23:06:28",
+        "score": 32
+      },
+      {
+        "guid": "5509e935e309ae2c",
+        "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
+        "url": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48907"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA inclut une faille dans Joomla JCE dans son catalogue KEV, indiquant des preuves d’exploitation active.",
+        "published_at": "2026-06-17T11:20:46",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "5e6717630878563e",
+        "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
+        "url": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Un acteur de la menace utilise fausses critiques et narrateurs IA pour promouvoir des logiciels piratés.",
+        "published_at": "2026-06-17T23:44:24",
+        "score": 27
+      },
+      {
+        "guid": "fb30ce1752d11a54",
+        "title": "🏴‍☠️ Safepay has just published a new victim : seinordovest.it",
+        "url": "https://www.ransomware.live/id/c2Vpbm9yZG92ZXN0Lml0QHNhZmVwYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a signalé une nouvelle victime italienne opérant dans le service public régional.",
+        "published_at": "2026-06-17T20:26:20",
+        "score": 12
+      },
+      {
+        "guid": "b33e18659513e778",
+        "title": "🏴‍☠️ Safepay has just published a new victim : zaunsysteme.de",
+        "url": "https://www.ransomware.live/id/emF1bnN5c3RlbWUuZGVAc2FmZXBheQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a répertorié une nouvelle cible allemande dans la construction et la sécurité périphérique.",
+        "published_at": "2026-06-17T20:25:14",
+        "score": 12
+      },
+      {
+        "guid": "4949711ba8fc7ab2",
+        "title": "🏴‍☠️ Safepay has just published a new victim : gut-heckenhof.de",
+        "url": "https://www.ransomware.live/id/Z3V0LWhlY2tlbmhvZi5kZUBzYWZlcGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a ajouté une nouvelle victime allemande à sa liste, opérant un hôtel de luxe et un grand parcours de golf.",
+        "published_at": "2026-06-17T20:24:10",
+        "score": 12
+      },
+      {
+        "guid": "f3fb65825ca0e14b",
+        "title": "Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns",
+        "url": "https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Les États hostiles sont derrière la plupart des attaques sur l’infrastructure critique britannique, selon le chef du NCSC.",
+        "published_at": "2026-06-17T17:55:00",
+        "score": 15
+      },
+      {
+        "guid": "af855b452a36c17d",
+        "title": "🏴‍☠️ Play has just published a new victim : Integrated Technologies",
+        "url": "https://www.ransomware.live/id/SW50ZWdyYXRlZCBUZWNobm9sb2dpZXNAcGxheQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a identifié une nouvelle victime américaine.",
+        "published_at": "2026-06-17T17:54:59",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "8db3b3a5c2a9b77a",
+        "title": "The Top 10 Attack Surface Exposures in 2026",
+        "url": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Plus de 100 packages npm ont été compromises via un compte contributeur hacké.",
+        "published_at": "2026-06-17T16:00:00",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "efe37428904dd447",
+        "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+        "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le Top 10 des expositions d’attaques en 2026 met l’accent sur la vulnérabilité des panneaux administratifs et le réutilisation de凭证已被盗用作为网络攻击的手段。",
+        "published_at": "2026-06-17T13:08:24",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "787edd4bd7a16dc2",
+        "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+        "url": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un漏洞被称为FortiBleed，导致泄露了73,932个防火墙URL上的Fortinet和FortiGate VPN凭证。",
+        "published_at": "2026-06-17T11:12:57",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 42,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
