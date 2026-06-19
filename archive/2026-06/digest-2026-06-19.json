@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T02:01:51.125748+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "ad052b987f5861d2",
+        "title": "Rockwell Automation FactoryTalk Historian Site Edition",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-44019",
+          "CVE-2025-36539",
+          "CVE-2025-13036"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'obtenir un jeton d'authentification valide, de provoquer une atteinte de service ou d'endiguer le système. Les versions FactoryTalk Historian SE 11 sont affectées.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "75001ef0a636e092",
+        "title": "Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-50034",
+          "CVE-2026-52866"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'accéder aux informations sensibles liées à la santé et d'empêcher les utilisateurs légitimes de se connecter au dispositif. Les versions Blood Glu sont affectées.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f6eca7a487b6d615",
+        "title": "Schneider Electric EasyLogic T150 and Saitel DP",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-6865"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'accéder sans autorisation aux fichiers sensibles. Les versions Schneider Electric EasyLogic T150 et Saitel DP sont affectées.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "fef995217eafdd56",
+        "title": "AVer PTC cameras",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-40624"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de cette vulnérabilité pourrait permettre l'exécution arbitraire du code. Les versions PTC500S, PTC115, PTC500+ et PTC115+ sont affectées.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "c6aeba239b862d15",
+        "title": "AzeoTech DAQFactory",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12390"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'uploader des fichiers .ctl malveillants qui pourraient entraîner l'exécution arbitraire du code. La version DAQFactory <21.1 est affectée.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "2a33aed20082ea4f",
+        "title": "Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-4827"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Schneider Electric est conscient des vulnérabilités de son produit PowerChute™ Serial Shutdown. Ce produit, qui gère la fermeture éclairante et l'optimisation énergétique du système, pourrait être compromise.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "f398fefe94cc8ca5",
+        "title": "Mitsubishi Electric MELSEC iQ-F Series",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-8805"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en établissant rapidement de nombreuses connexions TCP au produit, entraînant des accès mémoire incorrects.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "60a443a9ac0764f8",
+        "title": "Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-8806"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en envoyant constamment un grand nombre de paquets de communication vers le port Ethernet du produit, augmentant la charge de traitement du produit.",
+        "published_at": "2026-06-18T12:00:00",
+        "score": 15
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "40a44e64c76b04ae",
+        "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+        "url": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Ce bulletin mentionne divers thèmes de cybersécurité, y compris l'abus de Claude Chat, des paquets npm malfaisants et du phishing avec un code d'appareil.",
+        "published_at": "2026-06-18T20:57:54",
+        "score": 27
+      },
+      {
+        "guid": "fc3fd2aac50233b7",
+        "title": "Operation Endgame 4.0 - 153,527 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/OperationEndgame4",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "L'opération Endgame 4.0 a visé le groupe malveillant SocGholish, une opération de distribution de malware prolifique utilisée pour compromettre des systèmes et faciliter d'autres activités cybercriminelles.",
+        "published_at": "2026-06-18T20:08:06",
+        "score": 37
+      },
+      {
+        "guid": "39efe013e3256ec7",
+        "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+        "url": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Microsoft a dévoilé une campagne de malware utilisant Windows Script Host et ActiveX pour lancer un proxy Tor et polluer un serveur C2 caché.",
+        "published_at": "2026-06-18T20:00:42",
+        "score": 17
+      },
+      {
+        "guid": "c4c1e4598a1596e6",
+        "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+        "url": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le ransomware INC, une RaaS prolifique depuis 2023, a menacé plus de 830 victimes après la disparition de LockBit et BlackCat.",
+        "published_at": "2026-06-18T19:42:48",
+        "score": 17
+      },
+      {
+        "guid": "0c0a553bdd11f864",
+        "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
+        "url": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Les pirates derrière le ransomware DragonForce utilisent Backdoor.Turn, un trojan personnalisé pour masquer les commandes d'un serveur C2.",
+        "published_at": "2026-06-18T19:00:07",
+        "score": 17
+      },
+      {
+        "guid": "4ab945bfb286df90",
+        "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+        "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Gentlemen RaaS développe des outils pour désactiver la détection et la réponse aux menaces, aidant ses affiliés à échapper à la détection.",
+        "published_at": "2026-06-18T18:31:52",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "3bd7eefd0711f670",
+        "title": "Understanding AitM attacks in Entra ID: Attack mechanics, and defensive measures",
+        "url": "https://www.intrinsec.com/aitm-mfa-bypass-entra-id/",
+        "source": "INTRINSEC",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les attaques AitM sur Entra ID remettent en question l'efficacité des protocoles MFA, soulignant l'importance de diversifier les mesures de sécurité.",
+        "published_at": "2026-06-18T14:32:27",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "1f09e4cc9cfdc6d3",
+        "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+        "url": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plusieurs plugins WordPress ShapedPlugin ont été compromise dans une attaque en chaîne, diffusant des versions infectées via le système d'actualisation officiel.",
+        "published_at": "2026-06-18T08:55:36",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "aa42da10a61465ae",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : Amazon owned OneMedical.com",
+        "url": "https://www.ransomware.live/id/QW1hem9uIG93bmVkIE9uZU1lZGljYWwuY29tQHNoaW55aHVudGVycw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Shinyhunters a volé plus de 8.8TB d'informations chez OneMedical.com, menaçant une fuite si le paiement n'est pas effectué avant la date limite.",
+        "published_at": "2026-06-18T04:25:53",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 60,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 11,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
