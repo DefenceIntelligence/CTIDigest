@@ -1,87 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 18 juin 2026
+# 🛡️ ARGOS CTI Digest — 19 juin 2026
 
-> Généré le 18/06/2026 à 02:00 UTC  ·  42 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 19/06/2026 à 02:01 UTC  ·  60 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development](https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html)
-**Source :** The Hacker News  **Publié :** 17/06/2026 23:06 UTC  **CVE :** `CVE-2026-50656`
-`cve` `malware` `vulnerability`
-Microsoft reconnaît un vulnérabilité non patchée dans Defender, codenommée RoguePlanet.
+### [Rockwell Automation FactoryTalk Historian Site Edition](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2025-44019`, `CVE-2025-36539`, `CVE-2025-13036`
+`cve` `ransomware` `vulnerability`
+L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'obtenir un jeton d'authentification valide, de provoquer une atteinte de service ou d'endiguer le système. Les versions FactoryTalk Historian SE 11 sont affectées.
 
 ---
 
-### [CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
-**Source :** The Hacker News  **Publié :** 17/06/2026 11:20 UTC  **CVE :** `CVE-2026-48907`
+### [Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-50034`, `CVE-2026-52866`
 `cve` `vulnerability`
-CISA inclut une faille dans Joomla JCE dans son catalogue KEV, indiquant des preuves d’exploitation active.
+L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'accéder aux informations sensibles liées à la santé et d'empêcher les utilisateurs légitimes de se connecter au dispositif. Les versions Blood Glu sont affectées.
+
+---
+
+### [Schneider Electric EasyLogic T150 and Saitel DP](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-6865`
+`cve` `vulnerability`
+L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'accéder sans autorisation aux fichiers sensibles. Les versions Schneider Electric EasyLogic T150 et Saitel DP sont affectées.
+
+---
+
+### [AVer PTC cameras](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-40624`
+`cve` `vulnerability`
+L'exploitation de cette vulnérabilité pourrait permettre l'exécution arbitraire du code. Les versions PTC500S, PTC115, PTC500+ et PTC115+ sont affectées.
+
+---
+
+### [AzeoTech DAQFactory](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-12390`
+`cve` `vulnerability`
+L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'uploader des fichiers .ctl malveillants qui pourraient entraîner l'exécution arbitraire du code. La version DAQFactory <21.1 est affectée.
+
+---
+
+### [Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-4827`
+`cve` `malware` `vulnerability`
+Schneider Electric est conscient des vulnérabilités de son produit PowerChute™ Serial Shutdown. Ce produit, qui gère la fermeture éclairante et l'optimisation énergétique du système, pourrait être compromise.
+
+---
+
+### [Mitsubishi Electric MELSEC iQ-F Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-8805`
+`cve` `vulnerability`
+L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en établissant rapidement de nombreuses connexions TCP au produit, entraînant des accès mémoire incorrects.
+
+---
+
+### [Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06)
+**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-8806`
+`cve` `ransomware` `vulnerability`
+L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en envoyant constamment un grand nombre de paquets de communication vers le port Ethernet du produit, augmentant la charge de traitement du produit.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments](https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html)
-**Source :** The Hacker News  **Publié :** 17/06/2026 23:44 UTC
-`apt` `cve` `malware` `phishing`
-Un acteur de la menace utilise fausses critiques et narrateurs IA pour promouvoir des logiciels piratés.
+### [ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories](https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html)
+**Source :** The Hacker News  **Publié :** 18/06/2026 20:57 UTC
+`malware` `phishing`
+Ce bulletin mentionne divers thèmes de cybersécurité, y compris l'abus de Claude Chat, des paquets npm malfaisants et du phishing avec un code d'appareil.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : seinordovest.it](https://www.ransomware.live/id/c2Vpbm9yZG92ZXN0Lml0QHNhZmVwYXk=)
-**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:26 UTC
+### [Operation Endgame 4.0 - 153,527 breached accounts](https://haveibeenpwned.com/Breach/OperationEndgame4)
+**Source :** Have I Been Pwned  **Publié :** 18/06/2026 20:08 UTC
+`breach` `cve` `malware`
+L'opération Endgame 4.0 a visé le groupe malveillant SocGholish, une opération de distribution de malware prolifique utilisée pour compromettre des systèmes et faciliter d'autres activités cybercriminelles.
+
+---
+
+### [Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2](https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html)
+**Source :** The Hacker News  **Publié :** 18/06/2026 20:00 UTC
 `malware`
-Safepay a signalé une nouvelle victime italienne opérant dans le service public régional.
+Microsoft a dévoilé une campagne de malware utilisant Windows Script Host et ActiveX pour lancer un proxy Tor et polluer un serveur C2 caché.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : zaunsysteme.de](https://www.ransomware.live/id/emF1bnN5c3RlbWUuZGVAc2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:25 UTC
-`malware`
-Safepay a répertorié une nouvelle cible allemande dans la construction et la sécurité périphérique.
+### [INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023](https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html)
+**Source :** The Hacker News  **Publié :** 18/06/2026 19:42 UTC
+`malware` `ransomware`
+Le ransomware INC, une RaaS prolifique depuis 2023, a menacé plus de 830 victimes après la disparition de LockBit et BlackCat.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : gut-heckenhof.de](https://www.ransomware.live/id/Z3V0LWhlY2tlbmhvZi5kZUBzYWZlcGF5)
-**Source :** Ransomware.live News  **Publié :** 17/06/2026 20:24 UTC
-`malware`
-Safepay a ajouté une nouvelle victime allemande à sa liste, opérant un hôtel de luxe et un grand parcours de golf.
+### [DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic](https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html)
+**Source :** The Hacker News  **Publié :** 18/06/2026 19:00 UTC
+`apt` `cve` `malware` `ransomware`
+Les pirates derrière le ransomware DragonForce utilisent Backdoor.Turn, un trojan personnalisé pour masquer les commandes d'un serveur C2.
 
 ---
 
-### [Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns](https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi)
-**Source :** The Record  **Publié :** 17/06/2026 17:55 UTC
-`apt`
-Les États hostiles sont derrière la plupart des attaques sur l’infrastructure critique britannique, selon le chef du NCSC.
-
----
-
-### [🏴‍☠️ Play has just published a new victim : Integrated Technologies](https://www.ransomware.live/id/SW50ZWdyYXRlZCBUZWNobm9sb2dpZXNAcGxheQ==)
-**Source :** Ransomware.live News  **Publié :** 17/06/2026 17:54 UTC
-`malware`
-Safepay a identifié une nouvelle victime américaine.
+### [Gentlemen ransomware uses multiple EDR killers to disable defenses](https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/)
+**Source :** Bleeping Computer  **Publié :** 18/06/2026 18:31 UTC
+`ransomware`
+Gentlemen RaaS développe des outils pour désactiver la détection et la réponse aux menaces, aidant ses affiliés à échapper à la détection.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [The Top 10 Attack Surface Exposures in 2026](https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html)
-**Source :** The Hacker News  **Publié :** 17/06/2026 16:00 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Plus de 100 packages npm ont été compromises via un compte contributeur hacké.
-
-### 2. [144 Mastra npm Packages Compromised via Hijacked Contributor Account](https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html)
-**Source :** The Hacker News  **Publié :** 17/06/2026 13:08 UTC  **Score :** 25
-`breach` `cve`
-Le Top 10 des expositions d’attaques en 2026 met l’accent sur la vulnérabilité des panneaux administratifs et le réutilisation de凭证已被盗用作为网络攻击的手段。
-
-### 3. [FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.](https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/)
-**Source :** Bleeping Computer  **Publié :** 17/06/2026 11:12 UTC  **Score :** 25
+### 1. [Understanding AitM attacks in Entra ID: Attack mechanics, and defensive measures](https://www.intrinsec.com/aitm-mfa-bypass-entra-id/)
+**Source :** INTRINSEC  **Publié :** 18/06/2026 14:32 UTC  **Score :** 25
 `breach`
-Un漏洞被称为FortiBleed，导致泄露了73,932个防火墙URL上的Fortinet和FortiGate VPN凭证。
+Les attaques AitM sur Entra ID remettent en question l'efficacité des protocoles MFA, soulignant l'importance de diversifier les mesures de sécurité.
+
+### 2. [ShapedPlugin update flow hacked to infect WordPress sites](https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/)
+**Source :** Bleeping Computer  **Publié :** 18/06/2026 08:55 UTC  **Score :** 25
+`breach`
+Plusieurs plugins WordPress ShapedPlugin ont été compromise dans une attaque en chaîne, diffusant des versions infectées via le système d'actualisation officiel.
+
+### 3. [🏴‍☠️ Shinyhunters has just published a new victim : Amazon owned OneMedical.com](https://www.ransomware.live/id/QW1hem9uIG93bmVkIE9uZU1lZGljYWwuY29tQHNoaW55aHVudGVycw==)
+**Source :** Ransomware.live News  **Publié :** 18/06/2026 04:25 UTC  **Score :** 20
+`breach`
+Shinyhunters a volé plus de 8.8TB d'informations chez OneMedical.com, menaçant une fuite si le paiement n'est pas effectué avant la date limite.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-18.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-19.md`*
