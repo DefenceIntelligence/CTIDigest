@@ -1,129 +1,82 @@
-# 🛡️ ARGOS CTI Digest — 19 juin 2026
+# 🛡️ ARGOS CTI Digest — 20 juin 2026
 
-> Généré le 19/06/2026 à 02:01 UTC  ·  60 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 20/06/2026 à 02:00 UTC  ·  45 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Rockwell Automation FactoryTalk Historian Site Edition](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-03)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2025-44019`, `CVE-2025-36539`, `CVE-2025-13036`
-`cve` `ransomware` `vulnerability`
-L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'obtenir un jeton d'authentification valide, de provoquer une atteinte de service ou d'endiguer le système. Les versions FactoryTalk Historian SE 11 sont affectées.
-
----
-
-### [Apollo Pharmacy Blood Glucose Monitoring System APG-01 BT](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-169-01)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-50034`, `CVE-2026-52866`
+### [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
+**Source :** The Hacker News  **Publié :** 19/06/2026 12:06 UTC  **CVE :** `CVE-2025-20701`
 `cve` `vulnerability`
-L'exploitation de ces vulnérabilités pourrait permettre à un attaquant d'accéder aux informations sensibles liées à la santé et d'empêcher les utilisateurs légitimes de se connecter au dispositif. Les versions Blood Glu sont affectées.
-
----
-
-### [Schneider Electric EasyLogic T150 and Saitel DP](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-04)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-6865`
-`cve` `vulnerability`
-L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'accéder sans autorisation aux fichiers sensibles. Les versions Schneider Electric EasyLogic T150 et Saitel DP sont affectées.
-
----
-
-### [AVer PTC cameras](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-01)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-40624`
-`cve` `vulnerability`
-L'exploitation de cette vulnérabilité pourrait permettre l'exécution arbitraire du code. Les versions PTC500S, PTC115, PTC500+ et PTC115+ sont affectées.
-
----
-
-### [AzeoTech DAQFactory](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-02)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-12390`
-`cve` `vulnerability`
-L'exploitation de cette vulnérabilité pourrait permettre à un attaquant d'uploader des fichiers .ctl malveillants qui pourraient entraîner l'exécution arbitraire du code. La version DAQFactory <21.1 est affectée.
-
----
-
-### [Schneider Electric Easergy, EcoStruxture, PowerLogic, and Saitel Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-07)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-4827`
-`cve` `malware` `vulnerability`
-Schneider Electric est conscient des vulnérabilités de son produit PowerChute™ Serial Shutdown. Ce produit, qui gère la fermeture éclairante et l'optimisation énergétique du système, pourrait être compromise.
-
----
-
-### [Mitsubishi Electric MELSEC iQ-F Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-05)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-8805`
-`cve` `vulnerability`
-L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en établissant rapidement de nombreuses connexions TCP au produit, entraînant des accès mémoire incorrects.
-
----
-
-### [Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06)
-**Source :** CISA Advisories  **Publié :** 18/06/2026 12:00 UTC  **CVE :** `CVE-2026-8806`
-`cve` `ransomware` `vulnerability`
-L'exploitation de cette vulnérabilité pourrait permettre à un attaquant distant d'instaurer une situation d'inutilisation du service (DoS) en envoyant constamment un grand nombre de paquets de communication vers le port Ethernet du produit, augmentant la charge de traitement du produit.
+Apple a corrigé un défaut dans ses enceintes Bluetooth Beats Studio Buds qui permettait aux attaquants de s'écouter sans consentement.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories](https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html)
-**Source :** The Hacker News  **Publié :** 18/06/2026 20:57 UTC
-`malware` `phishing`
-Ce bulletin mentionne divers thèmes de cybersécurité, y compris l'abus de Claude Chat, des paquets npm malfaisants et du phishing avec un code d'appareil.
-
----
-
-### [Operation Endgame 4.0 - 153,527 breached accounts](https://haveibeenpwned.com/Breach/OperationEndgame4)
-**Source :** Have I Been Pwned  **Publié :** 18/06/2026 20:08 UTC
-`breach` `cve` `malware`
-L'opération Endgame 4.0 a visé le groupe malveillant SocGholish, une opération de distribution de malware prolifique utilisée pour compromettre des systèmes et faciliter d'autres activités cybercriminelles.
-
----
-
-### [Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2](https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html)
-**Source :** The Hacker News  **Publié :** 18/06/2026 20:00 UTC
-`malware`
-Microsoft a dévoilé une campagne de malware utilisant Windows Script Host et ActiveX pour lancer un proxy Tor et polluer un serveur C2 caché.
-
----
-
-### [INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023](https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html)
-**Source :** The Hacker News  **Publié :** 18/06/2026 19:42 UTC
+### [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
+**Source :** The Hacker News  **Publié :** 20/06/2026 00:03 UTC
 `malware` `ransomware`
-Le ransomware INC, une RaaS prolifique depuis 2023, a menacé plus de 830 victimes après la disparition de LockBit et BlackCat.
+Le groupe The Gentlemen RaaS développe le framework GentleKiller pour désactiver les systèmes de détection et de réponse aux menaces avant d'implanter des rançongiciels.
 
 ---
 
-### [DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic](https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html)
-**Source :** The Hacker News  **Publié :** 18/06/2026 19:00 UTC
-`apt` `cve` `malware` `ransomware`
-Les pirates derrière le ransomware DragonForce utilisent Backdoor.Turn, un trojan personnalisé pour masquer les commandes d'un serveur C2.
+### [🏴‍☠️ Braincipher has just published a new victim : themintgaming.com](https://www.ransomware.live/id/dGhlbWludGdhbWluZy5jb21AQnJhaW5DaXBoZXI=)
+**Source :** Ransomware.live News  **Publié :** 19/06/2026 21:20 UTC
+`malware`
+Braincipher a attaqué le site themintgaming.com.
 
 ---
 
-### [Gentlemen ransomware uses multiple EDR killers to disable defenses](https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/)
-**Source :** Bleeping Computer  **Publié :** 18/06/2026 18:31 UTC
-`ransomware`
-Gentlemen RaaS développe des outils pour désactiver la détection et la réponse aux menaces, aidant ses affiliés à échapper à la détection.
+### [Friday Squid Blogging: Victims of Unregulated Squid Fishing](https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html)
+**Source :** Schneier on Security  **Publié :** 19/06/2026 21:03 UTC
+`cve` `malware`
+La police néerlandaise a disrupté l'infrastructure SocGholish et nettoyé 14,971 sites WordPress infectés.
+
+---
+
+### [Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
+**Source :** The Hacker News  **Publié :** 19/06/2026 20:37 UTC
+`cve` `malware`
+CISA conseille aux utilisateurs de Fortinet d'agir face à l'opération FortiBleed qui affecte 86,644 appareils.
+
+---
+
+### [CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices](https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html)
+**Source :** The Hacker News  **Publié :** 19/06/2026 19:30 UTC
+`apt` `breach`
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices.
+
+The sweeping campaign, believed to be the work of Russian-spe
+
+---
+
+### [Klue OAuth breach victim list grows as Icarus hackers claim attack](https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/)
+**Source :** Bleeping Computer  **Publié :** 19/06/2026 18:31 UTC
+`apt` `breach` `cve`
+L'entreprise Klue a confirmé une fuite d'OAuth tokens utilisés pour accéder aux environnements Salesforce, prétendument perpétrée par Icarus.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Understanding AitM attacks in Entra ID: Attack mechanics, and defensive measures](https://www.intrinsec.com/aitm-mfa-bypass-entra-id/)
-**Source :** INTRINSEC  **Publié :** 18/06/2026 14:32 UTC  **Score :** 25
+### 1. [Forget Data Leakage: Shadow AI's Real Threat Is Access Control](https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html)
+**Source :** The Hacker News  **Publié :** 19/06/2026 16:00 UTC  **Score :** 25
 `breach`
-Les attaques AitM sur Entra ID remettent en question l'efficacité des protocoles MFA, soulignant l'importance de diversifier les mesures de sécurité.
+Les entreprises doivent se concentrer sur la gestion des droits d'accès plutôt que de bloquer les données dans l'ère des IA shadow.
 
-### 2. [ShapedPlugin update flow hacked to infect WordPress sites](https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/)
-**Source :** Bleeping Computer  **Publié :** 18/06/2026 08:55 UTC  **Score :** 25
+### 2. [Texas govt data breach exposes over 3 million driver’s licenses](https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/)
+**Source :** Bleeping Computer  **Publié :** 19/06/2026 12:12 UTC  **Score :** 25
 `breach`
-Plusieurs plugins WordPress ShapedPlugin ont été compromise dans une attaque en chaîne, diffusant des versions infectées via le système d'actualisation officiel.
+Un débordement de sécurité à la Texas Parks and Wildlife a exposé des informations personnelles de 3 millions d’individus.
 
-### 3. [🏴‍☠️ Shinyhunters has just published a new victim : Amazon owned OneMedical.com](https://www.ransomware.live/id/QW1hem9uIG93bmVkIE9uZU1lZGljYWwuY29tQHNoaW55aHVudGVycw==)
-**Source :** Ransomware.live News  **Publié :** 18/06/2026 04:25 UTC  **Score :** 20
+### 3. [CISA warns Fortinet users to secure devices after FortiBleed leak](https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/)
+**Source :** Bleeping Computer  **Publié :** 19/06/2026 02:47 UTC  **Score :** 25
 `breach`
-Shinyhunters a volé plus de 8.8TB d'informations chez OneMedical.com, menaçant une fuite si le paiement n'est pas effectué avant la date limite.
+CISA alerte les utilisateurs Fortinet face au risque FortiBleed concernant l'exposition de 74,000 identifiants de dispositifs de firewall et de VPN.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-19.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-20.md`*
