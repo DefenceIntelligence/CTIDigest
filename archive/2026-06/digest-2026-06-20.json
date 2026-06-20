@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T02:00:51.003618+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "3cef984590daa05c",
+        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
+        "url": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2025-20701"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Apple a corrigé un défaut dans ses enceintes Bluetooth Beats Studio Buds qui permettait aux attaquants de s'écouter sans consentement.",
+        "published_at": "2026-06-19T12:06:09",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "19218f74e83e5303",
+        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
+        "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le groupe The Gentlemen RaaS développe le framework GentleKiller pour désactiver les systèmes de détection et de réponse aux menaces avant d'implanter des rançongiciels.",
+        "published_at": "2026-06-20T00:03:07",
+        "score": 17
+      },
+      {
+        "guid": "190e80a86652d25b",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : themintgaming.com",
+        "url": "https://www.ransomware.live/id/dGhlbWludGdhbWluZy5jb21AQnJhaW5DaXBoZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Braincipher a attaqué le site themintgaming.com.",
+        "published_at": "2026-06-19T21:20:31",
+        "score": 12
+      },
+      {
+        "guid": "e7efceae97816b27",
+        "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
+        "url": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "La police néerlandaise a disrupté l'infrastructure SocGholish et nettoyé 14,971 sites WordPress infectés.",
+        "published_at": "2026-06-19T21:03:48",
+        "score": 17
+      },
+      {
+        "guid": "baf605d33cfa6504",
+        "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
+        "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "CISA conseille aux utilisateurs de Fortinet d'agir face à l'opération FortiBleed qui affecte 86,644 appareils.",
+        "published_at": "2026-06-19T20:37:54",
+        "score": 17
+      },
+      {
+        "guid": "1b48dcb8d939fdce",
+        "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
+        "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach"
+        ],
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices.\n\nThe sweeping campaign, believed to be the work of Russian-speaking threat actors, has been codenamed FortiBleed. The number of compromised devices stands at",
+        "published_at": "2026-06-19T19:30:21",
+        "score": 25
+      },
+      {
+        "guid": "79bad1befaed8083",
+        "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+        "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "L'entreprise Klue a confirmé une fuite d'OAuth tokens utilisés pour accéder aux environnements Salesforce, prétendument perpétrée par Icarus.",
+        "published_at": "2026-06-19T18:31:04",
+        "score": 25
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "8cfd56729601efd0",
+        "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
+        "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les entreprises doivent se concentrer sur la gestion des droits d'accès plutôt que de bloquer les données dans l'ère des IA shadow.",
+        "published_at": "2026-06-19T16:00:00",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "8bf75d1e3ee0810a",
+        "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+        "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un débordement de sécurité à la Texas Parks and Wildlife a exposé des informations personnelles de 3 millions d’individus.",
+        "published_at": "2026-06-19T12:12:41",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "34860b39888ea258",
+        "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "CISA alerte les utilisateurs Fortinet face au risque FortiBleed concernant l'exposition de 74,000 identifiants de dispositifs de firewall et de VPN.",
+        "published_at": "2026-06-19T02:47:55",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 45,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
