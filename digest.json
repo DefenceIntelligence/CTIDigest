@@ -1,170 +1,168 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-20",
-  "generated_at": "2026-06-20T02:00:51.003618+00:00",
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T02:00:44.436494+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "3cef984590daa05c",
-        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-        "url": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+        "guid": "991e4daefb3a1ce4",
+        "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+        "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2025-20701"
+          "CVE-2026-4020"
         ],
         "tags": [
+          "apt",
           "cve",
+          "malware",
           "vulnerability"
         ],
-        "summary": "Apple a corrigé un défaut dans ses enceintes Bluetooth Beats Studio Buds qui permettait aux attaquants de s'écouter sans consentement.",
-        "published_at": "2026-06-19T12:06:09",
-        "score": 20
+        "summary": "Des hackers exploitent une faille de sécurité dans le plugin Gravity SMTP pour WordPress, permettant l'extraction d'informations sensibles.",
+        "published_at": "2026-06-20T15:26:04",
+        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "19218f74e83e5303",
-        "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-        "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Le groupe The Gentlemen RaaS développe le framework GentleKiller pour désactiver les systèmes de détection et de réponse aux menaces avant d'implanter des rançongiciels.",
-        "published_at": "2026-06-20T00:03:07",
-        "score": 17
-      },
-      {
-        "guid": "190e80a86652d25b",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : themintgaming.com",
-        "url": "https://www.ransomware.live/id/dGhlbWludGdhbWluZy5jb21AQnJhaW5DaXBoZXI=",
+        "guid": "0a2acd9ba53e068a",
+        "title": "🏴‍☠️ Worldleaks has just published a new victim : L'Archevque & Rivest Ltée",
+        "url": "https://www.ransomware.live/id/TCdBcmNoZXZxdWUgJiBSaXZlc3QgTHTDqWVAd29ybGRsZWFrcw==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Braincipher a attaqué le site themintgaming.com.",
-        "published_at": "2026-06-19T21:20:31",
+        "summary": "N/A",
+        "published_at": "2026-06-20T15:10:32",
         "score": 12
       },
       {
-        "guid": "e7efceae97816b27",
-        "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
-        "url": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
-        "source": "Schneier on Security",
-        "category": "Général",
+        "guid": "26b9496b3f579e78",
+        "title": "🏴‍☠️ Worldleaks has just published a new victim : Super Finishing",
+        "url": "https://www.ransomware.live/id/U3VwZXIgRmluaXNoaW5nQHdvcmxkbGVha3M=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
           "malware"
         ],
-        "summary": "La police néerlandaise a disrupté l'infrastructure SocGholish et nettoyé 14,971 sites WordPress infectés.",
-        "published_at": "2026-06-19T21:03:48",
-        "score": 17
+        "summary": "N/A",
+        "published_at": "2026-06-20T15:09:51",
+        "score": 12
       },
       {
-        "guid": "baf605d33cfa6504",
-        "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
-        "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "b8e0fc409d954d0d",
+        "title": "🏴‍☠️ Payload has just published a new victim : ENB Versicherungen | myenb.ch",
+        "url": "https://www.ransomware.live/id/RU5CIFZlcnNpY2hlcnVuZ2VuIHwgbXllbmIuY2hAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
           "malware"
         ],
-        "summary": "CISA conseille aux utilisateurs de Fortinet d'agir face à l'opération FortiBleed qui affecte 86,644 appareils.",
-        "published_at": "2026-06-19T20:37:54",
-        "score": 17
+        "summary": "ENB Versicherungen, une entreprise d'assurance indépendante, est victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:07:05",
+        "score": 12
       },
       {
-        "guid": "1b48dcb8d939fdce",
-        "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
-        "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "6d91a67f58b7773c",
+        "title": "🏴‍☠️ Payload has just published a new victim : Qualiflex Solutions | qualiflex.solutions",
+        "url": "https://www.ransomware.live/id/UXVhbGlmbGV4IFNvbHV0aW9ucyB8IHF1YWxpZmxleC5zb2x1dGlvbnNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "apt",
-          "breach"
+          "malware"
         ],
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices.\n\nThe sweeping campaign, believed to be the work of Russian-speaking threat actors, has been codenamed FortiBleed. The number of compromised devices stands at",
-        "published_at": "2026-06-19T19:30:21",
-        "score": 25
+        "summary": "Qualiflex Solutions, spécialisée dans la technologie de contrôle et l'automatisation, a été victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:05:22",
+        "score": 12
       },
       {
-        "guid": "79bad1befaed8083",
-        "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-        "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "ebe8474a38b6ef89",
+        "title": "🏴‍☠️ Payload has just published a new victim : Preferred Properties",
+        "url": "https://www.ransomware.live/id/UHJlZmVycmVkIFByb3BlcnRpZXNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "apt",
+          "malware"
+        ],
+        "summary": "Preferred Properties, une entreprise de développement immobilier, est victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:04:30",
+        "score": 12
+      },
+      {
+        "guid": "a04eb30fb050e0ef",
+        "title": "🏴‍☠️ Nova has just published a new victim : Hosab",
+        "url": "https://www.ransomware.live/id/SG9zYWJAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
           "breach",
-          "cve"
+          "malware"
         ],
-        "summary": "L'entreprise Klue a confirmé une fuite d'OAuth tokens utilisés pour accéder aux environnements Salesforce, prétendument perpétrée par Icarus.",
-        "published_at": "2026-06-19T18:31:04",
-        "score": 25
+        "summary": "HOSAB, un parc industriel en Turquie, est victime d'une publication de données volées par Nova.",
+        "published_at": "2026-06-20T14:34:02",
+        "score": 32
       }
     ],
     "top_reads": [
       {
-        "guid": "8cfd56729601efd0",
-        "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-        "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-        "source": "The Hacker News",
+        "guid": "df0cf2130dffea6a",
+        "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Les entreprises doivent se concentrer sur la gestion des droits d'accès plutôt que de bloquer les données dans l'ère des IA shadow.",
-        "published_at": "2026-06-19T16:00:00",
+        "summary": "Microsoft attribue une attaque à Mastra AI à la groupe de hackers nord-coréens Sapphire Sleet.",
+        "published_at": "2026-06-20T10:09:19",
         "score": 25,
         "rank": 1
       },
       {
-        "guid": "8bf75d1e3ee0810a",
-        "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-        "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "13c3ee20a9941a83",
+        "title": "🏴‍☠️ Icarus has just published a new victim : DEADLINE MONDAY",
+        "url": "https://www.ransomware.live/id/REVBRExJTkUgTU9OREFZQEljYXJ1cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Un débordement de sécurité à la Texas Parks and Wildlife a exposé des informations personnelles de 3 millions d’individus.",
-        "published_at": "2026-06-19T12:12:41",
-        "score": 25,
+        "summary": "Icarus menace de publier les données des clients .com d'ici lundi si ceux-ci ne s'y sont pas déjà attelés.",
+        "published_at": "2026-06-20T17:20:11",
+        "score": 20,
         "rank": 2
       },
       {
-        "guid": "34860b39888ea258",
-        "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "9ef979594376fa0b",
+        "title": "🏴‍☠️ Nova has just published a new victim : Dosab",
+        "url": "https://www.ransomware.live/id/RG9zYWJAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "cve"
         ],
-        "summary": "CISA alerte les utilisateurs Fortinet face au risque FortiBleed concernant l'exposition de 74,000 identifiants de dispositifs de firewall et de VPN.",
-        "published_at": "2026-06-19T02:47:55",
-        "score": 25,
+        "summary": "Nova a publié des informations sur Dosab, un parc industriel turc, concernant ses services et son impact économique.",
+        "published_at": "2026-06-20T14:34:33",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 45,
+    "items_analyzed": 49,
     "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
