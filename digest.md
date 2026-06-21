@@ -1,82 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 20 juin 2026
+# 🛡️ ARGOS CTI Digest — 21 juin 2026
 
-> Généré le 20/06/2026 à 02:00 UTC  ·  45 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 21/06/2026 à 02:00 UTC  ·  49 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
-**Source :** The Hacker News  **Publié :** 19/06/2026 12:06 UTC  **CVE :** `CVE-2025-20701`
-`cve` `vulnerability`
-Apple a corrigé un défaut dans ses enceintes Bluetooth Beats Studio Buds qui permettait aux attaquants de s'écouter sans consentement.
+### [Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
+**Source :** The Hacker News  **Publié :** 20/06/2026 15:26 UTC  **CVE :** `CVE-2026-4020`
+`apt` `cve` `malware` `vulnerability`
+Des hackers exploitent une faille de sécurité dans le plugin Gravity SMTP pour WordPress, permettant l'extraction d'informations sensibles.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
-**Source :** The Hacker News  **Publié :** 20/06/2026 00:03 UTC
-`malware` `ransomware`
-Le groupe The Gentlemen RaaS développe le framework GentleKiller pour désactiver les systèmes de détection et de réponse aux menaces avant d'implanter des rançongiciels.
-
----
-
-### [🏴‍☠️ Braincipher has just published a new victim : themintgaming.com](https://www.ransomware.live/id/dGhlbWludGdhbWluZy5jb21AQnJhaW5DaXBoZXI=)
-**Source :** Ransomware.live News  **Publié :** 19/06/2026 21:20 UTC
+### [🏴‍☠️ Worldleaks has just published a new victim : L'Archevque & Rivest Ltée](https://www.ransomware.live/id/TCdBcmNoZXZxdWUgJiBSaXZlc3QgTHTDqWVAd29ybGRsZWFrcw==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:10 UTC
 `malware`
-Braincipher a attaqué le site themintgaming.com.
+N/A
 
 ---
 
-### [Friday Squid Blogging: Victims of Unregulated Squid Fishing](https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html)
-**Source :** Schneier on Security  **Publié :** 19/06/2026 21:03 UTC
-`cve` `malware`
-La police néerlandaise a disrupté l'infrastructure SocGholish et nettoyé 14,971 sites WordPress infectés.
+### [🏴‍☠️ Worldleaks has just published a new victim : Super Finishing](https://www.ransomware.live/id/U3VwZXIgRmluaXNoaW5nQHdvcmxkbGVha3M=)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:09 UTC
+`malware`
+N/A
 
 ---
 
-### [Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
-**Source :** The Hacker News  **Publié :** 19/06/2026 20:37 UTC
-`cve` `malware`
-CISA conseille aux utilisateurs de Fortinet d'agir face à l'opération FortiBleed qui affecte 86,644 appareils.
+### [🏴‍☠️ Payload has just published a new victim : ENB Versicherungen | myenb.ch](https://www.ransomware.live/id/RU5CIFZlcnNpY2hlcnVuZ2VuIHwgbXllbmIuY2hAcGF5bG9hZA==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:07 UTC
+`malware`
+ENB Versicherungen, une entreprise d'assurance indépendante, est victime d'une publication de données volées par Payload.
 
 ---
 
-### [CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices](https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html)
-**Source :** The Hacker News  **Publié :** 19/06/2026 19:30 UTC
-`apt` `breach`
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices.
-
-The sweeping campaign, believed to be the work of Russian-spe
+### [🏴‍☠️ Payload has just published a new victim : Qualiflex Solutions | qualiflex.solutions](https://www.ransomware.live/id/UXVhbGlmbGV4IFNvbHV0aW9ucyB8IHF1YWxpZmxleC5zb2x1dGlvbnNAcGF5bG9hZA==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:05 UTC
+`malware`
+Qualiflex Solutions, spécialisée dans la technologie de contrôle et l'automatisation, a été victime d'une publication de données volées par Payload.
 
 ---
 
-### [Klue OAuth breach victim list grows as Icarus hackers claim attack](https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/)
-**Source :** Bleeping Computer  **Publié :** 19/06/2026 18:31 UTC
-`apt` `breach` `cve`
-L'entreprise Klue a confirmé une fuite d'OAuth tokens utilisés pour accéder aux environnements Salesforce, prétendument perpétrée par Icarus.
+### [🏴‍☠️ Payload has just published a new victim : Preferred Properties](https://www.ransomware.live/id/UHJlZmVycmVkIFByb3BlcnRpZXNAcGF5bG9hZA==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:04 UTC
+`malware`
+Preferred Properties, une entreprise de développement immobilier, est victime d'une publication de données volées par Payload.
+
+---
+
+### [🏴‍☠️ Nova has just published a new victim : Hosab](https://www.ransomware.live/id/SG9zYWJAbm92YQ==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 14:34 UTC
+`breach` `malware`
+HOSAB, un parc industriel en Turquie, est victime d'une publication de données volées par Nova.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Forget Data Leakage: Shadow AI's Real Threat Is Access Control](https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html)
-**Source :** The Hacker News  **Publié :** 19/06/2026 16:00 UTC  **Score :** 25
+### 1. [Microsoft links Mastra AI supply chain attack to North Korean hackers](https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/)
+**Source :** Bleeping Computer  **Publié :** 20/06/2026 10:09 UTC  **Score :** 25
 `breach`
-Les entreprises doivent se concentrer sur la gestion des droits d'accès plutôt que de bloquer les données dans l'ère des IA shadow.
+Microsoft attribue une attaque à Mastra AI à la groupe de hackers nord-coréens Sapphire Sleet.
 
-### 2. [Texas govt data breach exposes over 3 million driver’s licenses](https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/)
-**Source :** Bleeping Computer  **Publié :** 19/06/2026 12:12 UTC  **Score :** 25
+### 2. [🏴‍☠️ Icarus has just published a new victim : DEADLINE MONDAY](https://www.ransomware.live/id/REVBRExJTkUgTU9OREFZQEljYXJ1cw==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 17:20 UTC  **Score :** 20
 `breach`
-Un débordement de sécurité à la Texas Parks and Wildlife a exposé des informations personnelles de 3 millions d’individus.
+Icarus menace de publier les données des clients .com d'ici lundi si ceux-ci ne s'y sont pas déjà attelés.
 
-### 3. [CISA warns Fortinet users to secure devices after FortiBleed leak](https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/)
-**Source :** Bleeping Computer  **Publié :** 19/06/2026 02:47 UTC  **Score :** 25
-`breach`
-CISA alerte les utilisateurs Fortinet face au risque FortiBleed concernant l'exposition de 74,000 identifiants de dispositifs de firewall et de VPN.
+### 3. [🏴‍☠️ Nova has just published a new victim : Dosab](https://www.ransomware.live/id/RG9zYWJAbm92YQ==)
+**Source :** Ransomware.live News  **Publié :** 20/06/2026 14:34 UTC  **Score :** 20
+`breach` `cve`
+Nova a publié des informations sur Dosab, un parc industriel turc, concernant ses services et son impact économique.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-20.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-21.md`*
