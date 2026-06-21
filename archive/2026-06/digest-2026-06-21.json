@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T02:00:44.436494+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "991e4daefb3a1ce4",
+        "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+        "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-4020"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des hackers exploitent une faille de sécurité dans le plugin Gravity SMTP pour WordPress, permettant l'extraction d'informations sensibles.",
+        "published_at": "2026-06-20T15:26:04",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "0a2acd9ba53e068a",
+        "title": "🏴‍☠️ Worldleaks has just published a new victim : L'Archevque & Rivest Ltée",
+        "url": "https://www.ransomware.live/id/TCdBcmNoZXZxdWUgJiBSaXZlc3QgTHTDqWVAd29ybGRsZWFrcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-06-20T15:10:32",
+        "score": 12
+      },
+      {
+        "guid": "26b9496b3f579e78",
+        "title": "🏴‍☠️ Worldleaks has just published a new victim : Super Finishing",
+        "url": "https://www.ransomware.live/id/U3VwZXIgRmluaXNoaW5nQHdvcmxkbGVha3M=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-06-20T15:09:51",
+        "score": 12
+      },
+      {
+        "guid": "b8e0fc409d954d0d",
+        "title": "🏴‍☠️ Payload has just published a new victim : ENB Versicherungen | myenb.ch",
+        "url": "https://www.ransomware.live/id/RU5CIFZlcnNpY2hlcnVuZ2VuIHwgbXllbmIuY2hAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ENB Versicherungen, une entreprise d'assurance indépendante, est victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:07:05",
+        "score": 12
+      },
+      {
+        "guid": "6d91a67f58b7773c",
+        "title": "🏴‍☠️ Payload has just published a new victim : Qualiflex Solutions | qualiflex.solutions",
+        "url": "https://www.ransomware.live/id/UXVhbGlmbGV4IFNvbHV0aW9ucyB8IHF1YWxpZmxleC5zb2x1dGlvbnNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Qualiflex Solutions, spécialisée dans la technologie de contrôle et l'automatisation, a été victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:05:22",
+        "score": 12
+      },
+      {
+        "guid": "ebe8474a38b6ef89",
+        "title": "🏴‍☠️ Payload has just published a new victim : Preferred Properties",
+        "url": "https://www.ransomware.live/id/UHJlZmVycmVkIFByb3BlcnRpZXNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Preferred Properties, une entreprise de développement immobilier, est victime d'une publication de données volées par Payload.",
+        "published_at": "2026-06-20T15:04:30",
+        "score": 12
+      },
+      {
+        "guid": "a04eb30fb050e0ef",
+        "title": "🏴‍☠️ Nova has just published a new victim : Hosab",
+        "url": "https://www.ransomware.live/id/SG9zYWJAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "HOSAB, un parc industriel en Turquie, est victime d'une publication de données volées par Nova.",
+        "published_at": "2026-06-20T14:34:02",
+        "score": 32
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "df0cf2130dffea6a",
+        "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Microsoft attribue une attaque à Mastra AI à la groupe de hackers nord-coréens Sapphire Sleet.",
+        "published_at": "2026-06-20T10:09:19",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "13c3ee20a9941a83",
+        "title": "🏴‍☠️ Icarus has just published a new victim : DEADLINE MONDAY",
+        "url": "https://www.ransomware.live/id/REVBRExJTkUgTU9OREFZQEljYXJ1cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Icarus menace de publier les données des clients .com d'ici lundi si ceux-ci ne s'y sont pas déjà attelés.",
+        "published_at": "2026-06-20T17:20:11",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "9ef979594376fa0b",
+        "title": "🏴‍☠️ Nova has just published a new victim : Dosab",
+        "url": "https://www.ransomware.live/id/RG9zYWJAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Nova a publié des informations sur Dosab, un parc industriel turc, concernant ses services et son impact économique.",
+        "published_at": "2026-06-20T14:34:33",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 49,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
