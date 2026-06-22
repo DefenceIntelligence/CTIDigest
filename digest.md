@@ -1,80 +1,45 @@
-# 🛡️ ARGOS CTI Digest — 21 juin 2026
+# 🛡️ ARGOS CTI Digest — 22 juin 2026
 
-> Généré le 21/06/2026 à 02:00 UTC  ·  49 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 22/06/2026 à 02:00 UTC  ·  10 items analysés  ·  5 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
-**Source :** The Hacker News  **Publié :** 20/06/2026 15:26 UTC  **CVE :** `CVE-2026-4020`
-`apt` `cve` `malware` `vulnerability`
-Des hackers exploitent une faille de sécurité dans le plugin Gravity SMTP pour WordPress, permettant l'extraction d'informations sensibles.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Worldleaks has just published a new victim : L'Archevque & Rivest Ltée](https://www.ransomware.live/id/TCdBcmNoZXZxdWUgJiBSaXZlc3QgTHTDqWVAd29ybGRsZWFrcw==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:10 UTC
+### [🏴‍☠️ Stormous has just published a new victim : jaggroup.com UPDATE-FULL DATA DUMP](https://www.ransomware.live/id/amFnZ3JvdXAuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUEBzdG9ybW91cw==)
+**Source :** Ransomware.live News  **Publié :** 21/06/2026 13:36 UTC
 `malware`
-N/A
+Stormous a公布的受害者为jaggroup.com，包含公司电子邮件、活动目录登录信息及明文密码等敏感数据。还涉及微软Dynamics GP数据库、软件许可密钥及其他内部文件。
 
 ---
 
-### [🏴‍☠️ Worldleaks has just published a new victim : Super Finishing](https://www.ransomware.live/id/U3VwZXIgRmluaXNoaW5nQHdvcmxkbGVha3M=)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:09 UTC
-`malware`
-N/A
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : ENB Versicherungen | myenb.ch](https://www.ransomware.live/id/RU5CIFZlcnNpY2hlcnVuZ2VuIHwgbXllbmIuY2hAcGF5bG9hZA==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:07 UTC
-`malware`
-ENB Versicherungen, une entreprise d'assurance indépendante, est victime d'une publication de données volées par Payload.
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : Qualiflex Solutions | qualiflex.solutions](https://www.ransomware.live/id/UXVhbGlmbGV4IFNvbHV0aW9ucyB8IHF1YWxpZmxleC5zb2x1dGlvbnNAcGF5bG9hZA==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:05 UTC
-`malware`
-Qualiflex Solutions, spécialisée dans la technologie de contrôle et l'automatisation, a été victime d'une publication de données volées par Payload.
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : Preferred Properties](https://www.ransomware.live/id/UHJlZmVycmVkIFByb3BlcnRpZXNAcGF5bG9hZA==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 15:04 UTC
-`malware`
-Preferred Properties, une entreprise de développement immobilier, est victime d'une publication de données volées par Payload.
-
----
-
-### [🏴‍☠️ Nova has just published a new victim : Hosab](https://www.ransomware.live/id/SG9zYWJAbm92YQ==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 14:34 UTC
+### [AryStinger botnet infected thousands of D-Link routers worldwide](https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/)
+**Source :** Bleeping Computer  **Publié :** 21/06/2026 10:14 UTC
 `breach` `malware`
-HOSAB, un parc industriel en Turquie, est victime d'une publication de données volées par Nova.
+AryStinger恶意软件感染了全球4,000多台过时的D-Link路由器，将其转变为恶意流量的代理。
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Microsoft links Mastra AI supply chain attack to North Korean hackers](https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/)
-**Source :** Bleeping Computer  **Publié :** 20/06/2026 10:09 UTC  **Score :** 25
+### 1. [🏴‍☠️ Nova has just published a new victim : Lockers IT](https://www.ransomware.live/id/TG9ja2VycyBJVEBub3Zh)
+**Source :** Ransomware.live News  **Publié :** 21/06/2026 09:07 UTC  **Score :** 20
 `breach`
-Microsoft attribue une attaque à Mastra AI à la groupe de hackers nord-coréens Sapphire Sleet.
+Lockers IT是一家孟加拉国IT公司，专注于定制软件开发，受害站点包括其多个子域名和相关业务网站。
 
-### 2. [🏴‍☠️ Icarus has just published a new victim : DEADLINE MONDAY](https://www.ransomware.live/id/REVBRExJTkUgTU9OREFZQEljYXJ1cw==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 17:20 UTC  **Score :** 20
-`breach`
-Icarus menace de publier les données des clients .com d'ici lundi si ceux-ci ne s'y sont pas déjà attelés.
+### 2. [🏴‍☠️ Qilin has just published a new victim : Taiwan Sintong Machinery Co., Ltd](https://www.ransomware.live/id/VGFpd2FuIFNpbnRvbmcgTWFjaGluZXJ5IENvLiwgTHRkQHFpbGlu)
+**Source :** Ransomware.live News  **Publié :** 21/06/2026 18:33 UTC  **Score :** 0
+N/A
 
-### 3. [🏴‍☠️ Nova has just published a new victim : Dosab](https://www.ransomware.live/id/RG9zYWJAbm92YQ==)
-**Source :** Ransomware.live News  **Publié :** 20/06/2026 14:34 UTC  **Score :** 20
-`breach` `cve`
-Nova a publié des informations sur Dosab, un parc industriel turc, concernant ses services et son impact économique.
+### 3. [🏴‍☠️ Qilin has just published a new victim : Sivatel Bangkok](https://www.ransomware.live/id/U2l2YXRlbCBCYW5na29rQHFpbGlu)
+**Source :** Ransomware.live News  **Publié :** 21/06/2026 18:04 UTC  **Score :** 0
+N/A
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-21.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-22.md`*
