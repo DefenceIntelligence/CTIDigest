@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T02:00:26.959944+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "5978e6eb9612ef1d",
+        "title": "🏴‍☠️ Stormous has just published a new victim : jaggroup.com UPDATE-FULL DATA DUMP",
+        "url": "https://www.ransomware.live/id/amFnZ3JvdXAuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUEBzdG9ybW91cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Stormous a公布的受害者为jaggroup.com，包含公司电子邮件、活动目录登录信息及明文密码等敏感数据。还涉及微软Dynamics GP数据库、软件许可密钥及其他内部文件。",
+        "published_at": "2026-06-21T13:36:57",
+        "score": 12
+      },
+      {
+        "guid": "8f9cdaa3a270c31c",
+        "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+        "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "AryStinger恶意软件感染了全球4,000多台过时的D-Link路由器，将其转变为恶意流量的代理。",
+        "published_at": "2026-06-21T10:14:22",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "515bd1f8b087fdba",
+        "title": "🏴‍☠️ Nova has just published a new victim : Lockers IT",
+        "url": "https://www.ransomware.live/id/TG9ja2VycyBJVEBub3Zh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Lockers IT是一家孟加拉国IT公司，专注于定制软件开发，受害站点包括其多个子域名和相关业务网站。",
+        "published_at": "2026-06-21T09:07:46",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "807d0d3d97d0aa8f",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Taiwan Sintong Machinery Co., Ltd",
+        "url": "https://www.ransomware.live/id/VGFpd2FuIFNpbnRvbmcgTWFjaGluZXJ5IENvLiwgTHRkQHFpbGlu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "N/A",
+        "published_at": "2026-06-21T18:33:12",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "fcc24988d327c92f",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Sivatel Bangkok",
+        "url": "https://www.ransomware.live/id/U2l2YXRlbCBCYW5na29rQHFpbGlu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "N/A",
+        "published_at": "2026-06-21T18:04:09",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 10,
+    "items_selected": 5,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
