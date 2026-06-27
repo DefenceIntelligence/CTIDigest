@@ -1,45 +1,103 @@
-# 🛡️ ARGOS CTI Digest — 22 juin 2026
+# 🛡️ ARGOS CTI Digest — 27 juin 2026
 
-> Généré le 22/06/2026 à 02:00 UTC  ·  10 items analysés  ·  5 sélectionnés  ·  22 sources actives
+> Généré le 27/06/2026 à 02:01 UTC  ·  40 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
-
-## 🟠 Campagnes & groupes actifs
-
-### [🏴‍☠️ Stormous has just published a new victim : jaggroup.com UPDATE-FULL DATA DUMP](https://www.ransomware.live/id/amFnZ3JvdXAuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUEBzdG9ybW91cw==)
-**Source :** Ransomware.live News  **Publié :** 21/06/2026 13:36 UTC
-`malware`
-Stormous a公布的受害者为jaggroup.com，包含公司电子邮件、活动目录登录信息及明文密码等敏感数据。还涉及微软Dynamics GP数据库、软件许可密钥及其他内部文件。
+### [Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs](https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 19:23 UTC  **CVE :** `CVE-2026-12957`
+`cve` `vulnerability`
+Une faille hautement critique dans Amazon Q Developer permettait l'exécution de commandes via les configurations MCP, volant ainsi des qualifications cloud aux développeurs. Corrigée par Amazon.
 
 ---
 
-### [AryStinger botnet infected thousands of D-Link routers worldwide](https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/)
-**Source :** Bleeping Computer  **Publié :** 21/06/2026 10:14 UTC
+### [New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 18:30 UTC  **CVE :** `CVE-2026-46331`
+`cve` `malware` `vulnerability`
+Une faille dans le Linux kernel permettait à un utilisateur local non privilégié d'obtenir des droits root via l'injection de binaires corrompus, nommée "pedit COW".
+
+---
+
+### [New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 17:21 UTC  **CVE :** `CVE-2026-43503`
+`cve` `malware` `vulnerability`
+Une nouvelle faille DirtyClone dans le kernel Linux permettait à un utilisateur local d'obtenir des droits root en corrompant la mémoire via une paquet cloné.
+
+---
+
+### [Russian Intelligence Services Continue to Target Commercial Messaging Applications](https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications)
+**Source :** CISA Advisories  **Publié :** 26/06/2026 12:00 UTC
+`apt` `cve` `phishing` `ransomware`
+Le FBI et CISA ont mis à jour un avertissement sur les cyberattaques de services d'intelligence russe visant des applications de messagerie commerciales, avec une nouvelle étape de phishing pour obtenir les clés de récupération Signal.
+
+---
+
+## 🟠 Campagnes & groupes actifs
+
+### [FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
+**Source :** The Hacker News  **Publié :** 27/06/2026 01:08 UTC
+`malware` `phishing`
+Le groupe StrikeShark utilise le nouveau malware SharkLoader pour déployer Cobalt Strike sur des hôtes compromis dans une campagne ciblant des organisations diplomatiques et gouvernementales en Indonésie.
+
+---
+
+### [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 23:47 UTC
 `breach` `malware`
-AryStinger恶意软件感染了全球4,000多台过时的D-Link路由器，将其转变为恶意流量的代理。
+Un groupe APT chinois a déployé le backdoor TinyRCT dans une campagne visant des entités gouvernementales et d'infrastructure critique en Asie du Sud-Est.
+
+---
+
+### [Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 21:51 UTC
+`apt` `malware`
+A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.
+
+The activity, particularly aimed at state-owned enterprises in the energy and govern
+
+---
+
+### [CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue](https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 18:01 UTC
+`cve` `ransomware` `vulnerability`
+CISA a ajouté un漏洞利用漏洞到已知被利用漏洞列表中，该漏洞影响PTC Windchill PDMlink和FlexPLM软件，并指出存在活跃的利用证据。
+
+---
+
+### [Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack](https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html)
+**Source :** The Hacker News  **Publié :** 26/06/2026 16:35 UTC
+`breach` `malware`
+La famille de malware Miasma a ciblé des paquets npm et GitHub Actions dans une attaque par chaîne d'approvisionnement, introduisant de nouvelles librairies malveillantes.
+
+---
+
+### [L’authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM](https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/)
+**Source :** ZATAZ  **Publié :** 26/06/2026 15:04 UTC
+`cve` `malware`
+L'authentification par certificat pour Active Directory devient indispensable avec la dépréciation de NTLM, offrant une alternative sécurisée aux systèmes legacy.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Nova has just published a new victim : Lockers IT](https://www.ransomware.live/id/TG9ja2VycyBJVEBub3Zh)
-**Source :** Ransomware.live News  **Publié :** 21/06/2026 09:07 UTC  **Score :** 20
+### 1. [Polymarket customers lose $3 million in supply-chain attack](https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/)
+**Source :** Bleeping Computer  **Publié :** 26/06/2026 14:04 UTC  **Score :** 25
 `breach`
-Lockers IT是一家孟加拉国IT公司，专注于定制软件开发，受害站点包括其多个子域名和相关业务网站。
+Polymarket seengage à rembourser les clients ayant perdu environ 3 millions de dollars dans une attaque par chaîne d'approvisionnement.
 
-### 2. [🏴‍☠️ Qilin has just published a new victim : Taiwan Sintong Machinery Co., Ltd](https://www.ransomware.live/id/VGFpd2FuIFNpbnRvbmcgTWFjaGluZXJ5IENvLiwgTHRkQHFpbGlu)
-**Source :** Ransomware.live News  **Publié :** 21/06/2026 18:33 UTC  **Score :** 0
-N/A
+### 2. [One Million Passports Leaked Online](https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html)
+**Source :** Schneier on Security  **Publié :** 26/06/2026 11:03 UTC  **Score :** 25
+`breach`
+Un million de passeports provenant de différents pays ont été mis en ligne après que le système d'identification d'une dispensaire de cannabis ait été compromis.
 
-### 3. [🏴‍☠️ Qilin has just published a new victim : Sivatel Bangkok](https://www.ransomware.live/id/U2l2YXRlbCBCYW5na29rQHFpbGlu)
-**Source :** Ransomware.live News  **Publié :** 21/06/2026 18:04 UTC  **Score :** 0
-N/A
+### 3. [American Tower - 216,601 breached accounts](https://haveibeenpwned.com/Breach/AmericanTower)
+**Source :** Have I Been Pwned  **Publié :** 26/06/2026 07:17 UTC  **Score :** 25
+`breach`
+ShinyHunters a menacé American Tower par extorsion, publient des informations sur plus de 200 000 comptes comprenant emails, noms, adresses et numéros de téléphone.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-22.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-27.md`*
