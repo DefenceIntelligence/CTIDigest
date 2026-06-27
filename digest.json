@@ -1,91 +1,228 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22T02:00:26.959944+00:00",
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T02:01:11.540480+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
-    "campaigns": [
+    "vulnerabilities": [
       {
-        "guid": "5978e6eb9612ef1d",
-        "title": "🏴‍☠️ Stormous has just published a new victim : jaggroup.com UPDATE-FULL DATA DUMP",
-        "url": "https://www.ransomware.live/id/amFnZ3JvdXAuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUEBzdG9ybW91cw==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
+        "guid": "d53f66a3e8a34cff",
+        "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+        "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-12957"
         ],
-        "summary": "Stormous a公布的受害者为jaggroup.com，包含公司电子邮件、活动目录登录信息及明文密码等敏感数据。还涉及微软Dynamics GP数据库、软件许可密钥及其他内部文件。",
-        "published_at": "2026-06-21T13:36:57",
-        "score": 12
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille hautement critique dans Amazon Q Developer permettait l'exécution de commandes via les configurations MCP, volant ainsi des qualifications cloud aux développeurs. Corrigée par Amazon.",
+        "published_at": "2026-06-26T19:23:00",
+        "score": 20
       },
       {
-        "guid": "8f9cdaa3a270c31c",
-        "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-        "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-        "source": "Bleeping Computer",
+        "guid": "eaeb2d679f77da1a",
+        "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+        "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-46331"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans le Linux kernel permettait à un utilisateur local non privilégié d'obtenir des droits root via l'injection de binaires corrompus, nommée \"pedit COW\".",
+        "published_at": "2026-06-26T18:30:41",
+        "score": 32
+      },
+      {
+        "guid": "ff37e41016f5be06",
+        "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+        "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-43503"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une nouvelle faille DirtyClone dans le kernel Linux permettait à un utilisateur local d'obtenir des droits root en corrompant la mémoire via une paquet cloné.",
+        "published_at": "2026-06-26T17:21:35",
+        "score": 32
+      },
+      {
+        "guid": "959e526f0e7e844d",
+        "title": "Russian Intelligence Services Continue to Target Commercial Messaging Applications",
+        "url": "https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "phishing",
+          "ransomware"
+        ],
+        "summary": "Le FBI et CISA ont mis à jour un avertissement sur les cyberattaques de services d'intelligence russe visant des applications de messagerie commerciales, avec une nouvelle étape de phishing pour obtenir les clés de récupération Signal.",
+        "published_at": "2026-06-26T12:00:00",
+        "score": 10
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "0ee5220471330973",
+        "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
+        "url": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Le groupe StrikeShark utilise le nouveau malware SharkLoader pour déployer Cobalt Strike sur des hôtes compromis dans une campagne ciblant des organisations diplomatiques et gouvernementales en Indonésie.",
+        "published_at": "2026-06-27T01:08:29",
+        "score": 27
+      },
+      {
+        "guid": "0d69fc73c19350bf",
+        "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+        "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "malware"
         ],
-        "summary": "AryStinger恶意软件感染了全球4,000多台过时的D-Link路由器，将其转变为恶意流量的代理。",
-        "published_at": "2026-06-21T10:14:22",
+        "summary": "Un groupe APT chinois a déployé le backdoor TinyRCT dans une campagne visant des entités gouvernementales et d'infrastructure critique en Asie du Sud-Est.",
+        "published_at": "2026-06-26T23:47:46",
         "score": 37
+      },
+      {
+        "guid": "c6fa3f4e993aa2c8",
+        "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+        "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.\n\nThe activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062, which Palo Alto Networks",
+        "published_at": "2026-06-26T21:51:25",
+        "score": 17
+      },
+      {
+        "guid": "cef7a97a8346b728",
+        "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+        "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté un漏洞利用漏洞到已知被利用漏洞列表中，该漏洞影响PTC Windchill PDMlink和FlexPLM软件，并指出存在活跃的利用证据。",
+        "published_at": "2026-06-26T18:01:56",
+        "score": 5
+      },
+      {
+        "guid": "51a09d274d20dd40",
+        "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+        "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "La famille de malware Miasma a ciblé des paquets npm et GitHub Actions dans une attaque par chaîne d'approvisionnement, introduisant de nouvelles librairies malveillantes.",
+        "published_at": "2026-06-26T16:35:45",
+        "score": 37
+      },
+      {
+        "guid": "c01a04555032f56a",
+        "title": "L’authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM",
+        "url": "https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "L'authentification par certificat pour Active Directory devient indispensable avec la dépréciation de NTLM, offrant une alternative sécurisée aux systèmes legacy.",
+        "published_at": "2026-06-26T15:04:24",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "515bd1f8b087fdba",
-        "title": "🏴‍☠️ Nova has just published a new victim : Lockers IT",
-        "url": "https://www.ransomware.live/id/TG9ja2VycyBJVEBub3Zh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "72ddcef65fa2ffc3",
+        "title": "Polymarket customers lose $3 million in supply-chain attack",
+        "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Lockers IT是一家孟加拉国IT公司，专注于定制软件开发，受害站点包括其多个子域名和相关业务网站。",
-        "published_at": "2026-06-21T09:07:46",
-        "score": 20,
+        "summary": "Polymarket seengage à rembourser les clients ayant perdu environ 3 millions de dollars dans une attaque par chaîne d'approvisionnement.",
+        "published_at": "2026-06-26T14:04:12",
+        "score": 25,
         "rank": 1
       },
       {
-        "guid": "807d0d3d97d0aa8f",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Taiwan Sintong Machinery Co., Ltd",
-        "url": "https://www.ransomware.live/id/VGFpd2FuIFNpbnRvbmcgTWFjaGluZXJ5IENvLiwgTHRkQHFpbGlu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "2842b788f0d8062e",
+        "title": "One Million Passports Leaked Online",
+        "url": "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html",
+        "source": "Schneier on Security",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "N/A",
-        "published_at": "2026-06-21T18:33:12",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un million de passeports provenant de différents pays ont été mis en ligne après que le système d'identification d'une dispensaire de cannabis ait été compromis.",
+        "published_at": "2026-06-26T11:03:21",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "fcc24988d327c92f",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Sivatel Bangkok",
-        "url": "https://www.ransomware.live/id/U2l2YXRlbCBCYW5na29rQHFpbGlu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "2bf96bffc94d85ac",
+        "title": "American Tower - 216,601 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/AmericanTower",
+        "source": "Have I Been Pwned",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "N/A",
-        "published_at": "2026-06-21T18:04:09",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "ShinyHunters a menacé American Tower par extorsion, publient des informations sur plus de 200 000 comptes comprenant emails, noms, adresses et numéros de téléphone.",
+        "published_at": "2026-06-26T07:17:23",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 10,
-    "items_selected": 5,
+    "items_analyzed": 40,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
