@@ -1,103 +1,72 @@
-# 🛡️ ARGOS CTI Digest — 27 juin 2026
+# 🛡️ ARGOS CTI Digest — 29 juin 2026
 
-> Généré le 27/06/2026 à 02:01 UTC  ·  40 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 29/06/2026 à 02:01 UTC  ·  33 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs](https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 19:23 UTC  **CVE :** `CVE-2026-12957`
-`cve` `vulnerability`
-Une faille hautement critique dans Amazon Q Developer permettait l'exécution de commandes via les configurations MCP, volant ainsi des qualifications cloud aux développeurs. Corrigée par Amazon.
-
----
-
-### [New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 18:30 UTC  **CVE :** `CVE-2026-46331`
-`cve` `malware` `vulnerability`
-Une faille dans le Linux kernel permettait à un utilisateur local non privilégié d'obtenir des droits root via l'injection de binaires corrompus, nommée "pedit COW".
-
----
-
-### [New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 17:21 UTC  **CVE :** `CVE-2026-43503`
-`cve` `malware` `vulnerability`
-Une nouvelle faille DirtyClone dans le kernel Linux permettait à un utilisateur local d'obtenir des droits root en corrompant la mémoire via une paquet cloné.
-
----
-
-### [Russian Intelligence Services Continue to Target Commercial Messaging Applications](https://www.cisa.gov/resources-tools/resources/russian-intelligence-services-continue-target-commercial-messaging-applications)
-**Source :** CISA Advisories  **Publié :** 26/06/2026 12:00 UTC
-`apt` `cve` `phishing` `ransomware`
-Le FBI et CISA ont mis à jour un avertissement sur les cyberattaques de services d'intelligence russe visant des applications de messagerie commerciales, avec une nouvelle étape de phishing pour obtenir les clés de récupération Signal.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
-**Source :** The Hacker News  **Publié :** 27/06/2026 01:08 UTC
-`malware` `phishing`
-Le groupe StrikeShark utilise le nouveau malware SharkLoader pour déployer Cobalt Strike sur des hôtes compromis dans une campagne ciblant des organisations diplomatiques et gouvernementales en Indonésie.
-
----
-
-### [New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 23:47 UTC
+### [🏴‍☠️ Stormous has just published a new victim : maglificioliliana.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bWFnbGlmaWNpb2xpbGlhbmEuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC
 `breach` `malware`
-Un groupe APT chinois a déployé le backdoor TinyRCT dans une campagne visant des entités gouvernementales et d'infrastructure critique en Asie du Sud-Est.
+Plus de 10GB de données ont été accédées et exfiltrées, incluant des designs de produits, des lignes historiques d’habillement et des spécifications techniques pour les vêtements. Des bases de données clientes mondiales, des enregistrements financiers et plus encore ont également été obtenus.
 
 ---
 
-### [Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 21:51 UTC
-`apt` `malware`
-A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia.
-
-The activity, particularly aimed at state-owned enterprises in the energy and govern
+### [🏴‍☠️ Stormous has just published a new victim : higuchi-inc.co.jp](https://www.ransomware.live/id/aGlndWNoaS1pbmMuY28uanBAc3Rvcm1vdXM=)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC
+`malware`
+Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.
 
 ---
 
-### [CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue](https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 18:01 UTC
-`cve` `ransomware` `vulnerability`
-CISA a ajouté un漏洞利用漏洞到已知被利用漏洞列表中，该漏洞影响PTC Windchill PDMlink和FlexPLM软件，并指出存在活跃的利用证据。
+### [🏴‍☠️ Stormous has just published a new victim : HIGUCHI USA, INC](https://www.ransomware.live/id/SElHVUNISSBVU0EsIElOQ0BzdG9ybW91cw==)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC
+`malware`
+Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.
 
 ---
 
-### [Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack](https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html)
-**Source :** The Hacker News  **Publié :** 26/06/2026 16:35 UTC
+### [🏴‍☠️ Stormous has just published a new victim : eogb.co.uk](https://www.ransomware.live/id/ZW9nYi5jby51a0BzdG9ybW91cw==)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:29 UTC
+`malware`
+Des données comptables de Microsoft Dynamics GP ont été accédées, incluant des factures et des transactions commerciales. Des documents juridiques internes, des accords de partenariat et des contrats clients ont également été exfiltrés.
+
+---
+
+### [🏴‍☠️ Stormous has just published a new victim : eshacloudqa.com](https://www.ransomware.live/id/ZXNoYWNsb3VkcWEuY29tQHN0b3Jtb3Vz)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:29 UTC
 `breach` `malware`
-La famille de malware Miasma a ciblé des paquets npm et GitHub Actions dans une attaque par chaîne d'approvisionnement, introduisant de nouvelles librairies malveillantes.
+Des bases de données de développement de produits chez ESHA Research / ESHA Cloud Services ont été compromises, incluant des secrets d’industrie et des formulaires. Des données laboratoires et des analyses nutritionnelles ont également été exfiltrées.
 
 ---
 
-### [L’authentification par certificat pour Active Directory : pourquoi elle devient incontournable avec la dépréciation de NTLM](https://www.zataz.com/lauthentification-par-certificat-pour-active-directory-pourquoi-elle-devient-incontournable-avec-la-depreciation-de-ntlm/)
-**Source :** ZATAZ  **Publié :** 26/06/2026 15:04 UTC
-`cve` `malware`
-L'authentification par certificat pour Active Directory devient indispensable avec la dépréciation de NTLM, offrant une alternative sécurisée aux systèmes legacy.
+### [🏴‍☠️ Stormous has just published a new victim : Official Statement: Protecting palatineschool.org Infrastructure](https://www.ransomware.live/id/T2ZmaWNpYWwgU3RhdGVtZW50OiBQcm90ZWN0aW5nIHBhbGF0aW5lc2Nob29sLm9yZyBJbmZyYXN0cnVjdHVyZUBzdG9ybW91cw==)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:28 UTC
+`apt` `malware` `vulnerability`
+Des vulnérabilités critiques ont été découvertes chez Palatine School, permettant un accès complet au serveur central. Des données d’élèves et de personnel ont été accédées mais la menace a décidé de ne rien divulguer.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Polymarket customers lose $3 million in supply-chain attack](https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/)
-**Source :** Bleeping Computer  **Publié :** 26/06/2026 14:04 UTC  **Score :** 25
-`breach`
-Polymarket seengage à rembourser les clients ayant perdu environ 3 millions de dollars dans une attaque par chaîne d'approvisionnement.
+### 1. [🏴‍☠️ Stormous has just published a new victim : lorenzoni-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bG9yZW56b25pLXN0b3JlLmNvbSBVUERBVEUtRlVMTCBEQVRBIERVTVAgRlJFRSBQQVJUMUBzdG9ybW91cw==)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC  **Score :** 0
+Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
 
-### 2. [One Million Passports Leaked Online](https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html)
-**Source :** Schneier on Security  **Publié :** 26/06/2026 11:03 UTC  **Score :** 25
-`breach`
-Un million de passeports provenant de différents pays ont été mis en ligne après que le système d'identification d'une dispensaire de cannabis ait été compromis.
+### 2. [🏴‍☠️ Stormous has just published a new victim : montechiaro-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bW9udGVjaGlhcm8tc3RvcmUuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC  **Score :** 0
+Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
 
-### 3. [American Tower - 216,601 breached accounts](https://haveibeenpwned.com/Breach/AmericanTower)
-**Source :** Have I Been Pwned  **Publié :** 26/06/2026 07:17 UTC  **Score :** 25
-`breach`
-ShinyHunters a menacé American Tower par extorsion, publient des informations sur plus de 200 000 comptes comprenant emails, noms, adresses et numéros de téléphone.
+### 3. [🏴‍☠️ Stormous has just published a new victim : impulso-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/aW1wdWxzby1zdG9yZS5jb20gVVBEQVRFLUZVTEwgREFUQSBEVU1QIEZSRUUgUEFSVDFAc3Rvcm1vdXM=)
+**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC  **Score :** 0
+Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-27.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-29.md`*
