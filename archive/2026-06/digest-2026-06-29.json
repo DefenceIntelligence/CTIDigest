@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T02:01:01.207046+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "e331ff48f9e1bc39",
+        "title": "🏴‍☠️ Stormous has just published a new victim : maglificioliliana.com UPDATE-FULL DATA DUMP FREE PART1",
+        "url": "https://www.ransomware.live/id/bWFnbGlmaWNpb2xpbGlhbmEuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Plus de 10GB de données ont été accédées et exfiltrées, incluant des designs de produits, des lignes historiques d’habillement et des spécifications techniques pour les vêtements. Des bases de données clientes mondiales, des enregistrements financiers et plus encore ont également été obtenus.",
+        "published_at": "2026-06-28T21:31:58",
+        "score": 32
+      },
+      {
+        "guid": "052c94b3d1e4092c",
+        "title": "🏴‍☠️ Stormous has just published a new victim : higuchi-inc.co.jp",
+        "url": "https://www.ransomware.live/id/aGlndWNoaS1pbmMuY28uanBAc3Rvcm1vdXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.",
+        "published_at": "2026-06-28T21:30:38",
+        "score": 12
+      },
+      {
+        "guid": "494144079242e9f9",
+        "title": "🏴‍☠️ Stormous has just published a new victim : HIGUCHI USA, INC",
+        "url": "https://www.ransomware.live/id/SElHVUNISSBVU0EsIElOQ0BzdG9ybW91cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.",
+        "published_at": "2026-06-28T21:30:18",
+        "score": 12
+      },
+      {
+        "guid": "5a087e56553faf8a",
+        "title": "🏴‍☠️ Stormous has just published a new victim : eogb.co.uk",
+        "url": "https://www.ransomware.live/id/ZW9nYi5jby51a0BzdG9ybW91cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des données comptables de Microsoft Dynamics GP ont été accédées, incluant des factures et des transactions commerciales. Des documents juridiques internes, des accords de partenariat et des contrats clients ont également été exfiltrés.",
+        "published_at": "2026-06-28T21:29:58",
+        "score": 12
+      },
+      {
+        "guid": "fed9f340fe6a1ff4",
+        "title": "🏴‍☠️ Stormous has just published a new victim : eshacloudqa.com",
+        "url": "https://www.ransomware.live/id/ZXNoYWNsb3VkcWEuY29tQHN0b3Jtb3Vz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des bases de données de développement de produits chez ESHA Research / ESHA Cloud Services ont été compromises, incluant des secrets d’industrie et des formulaires. Des données laboratoires et des analyses nutritionnelles ont également été exfiltrées.",
+        "published_at": "2026-06-28T21:29:38",
+        "score": 32
+      },
+      {
+        "guid": "8bd94f71df751127",
+        "title": "🏴‍☠️ Stormous has just published a new victim : Official Statement: Protecting palatineschool.org Infrastructure",
+        "url": "https://www.ransomware.live/id/T2ZmaWNpYWwgU3RhdGVtZW50OiBQcm90ZWN0aW5nIHBhbGF0aW5lc2Nob29sLm9yZyBJbmZyYXN0cnVjdHVyZUBzdG9ybW91cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités critiques ont été découvertes chez Palatine School, permettant un accès complet au serveur central. Des données d’élèves et de personnel ont été accédées mais la menace a décidé de ne rien divulguer.",
+        "published_at": "2026-06-28T21:28:57",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "e152567f8a9ebe9d",
+        "title": "🏴‍☠️ Stormous has just published a new victim : lorenzoni-store.com UPDATE-FULL DATA DUMP FREE PART1",
+        "url": "https://www.ransomware.live/id/bG9yZW56b25pLXN0b3JlLmNvbSBVUERBVEUtRlVMTCBEQVRBIERVTVAgRlJFRSBQQVJUMUBzdG9ybW91cw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.",
+        "published_at": "2026-06-28T21:31:38",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "guid": "6cf9bb8876956195",
+        "title": "🏴‍☠️ Stormous has just published a new victim : montechiaro-store.com UPDATE-FULL DATA DUMP FREE PART1",
+        "url": "https://www.ransomware.live/id/bW9udGVjaGlhcm8tc3RvcmUuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.",
+        "published_at": "2026-06-28T21:31:17",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "6f07b7f5b137b5e0",
+        "title": "🏴‍☠️ Stormous has just published a new victim : impulso-store.com UPDATE-FULL DATA DUMP FREE PART1",
+        "url": "https://www.ransomware.live/id/aW1wdWxzby1zdG9yZS5jb20gVVBEQVRFLUZVTEwgREFUQSBEVU1QIEZSRUUgUEFSVDFAc3Rvcm1vdXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.",
+        "published_at": "2026-06-28T21:30:58",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 33,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
