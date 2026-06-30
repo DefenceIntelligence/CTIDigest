@@ -1,72 +1,95 @@
-# 🛡️ ARGOS CTI Digest — 29 juin 2026
+# 🛡️ ARGOS CTI Digest — 30 juin 2026
 
-> Généré le 29/06/2026 à 02:01 UTC  ·  33 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 30/06/2026 à 02:01 UTC  ·  56 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw](https://thehackernews.com/2026/06/public-poc-released-for-critical.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 12:36 UTC  **CVE :** `CVE-2026-55200`
+`breach` `cve` `vulnerability`
+Une PoC publique a été lancée pour CVE-2026-55200, une faille critique dans libssh2 qui permet aux serveurs SSH malicieux de provoquer une corruption mémoire chez les clients connectés et potentiellement des exécutions de code. Cette faille affecte toutes les versions jusqu'à 1.11.1.
+
+---
+
+### [Critical SimpleHelp flaw exploited to deploy new stealer malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/)
+**Source :** Bleeping Computer  **Publié :** 29/06/2026 10:00 UTC  **CVE :** `CVE-2026-48558`
+`cve` `malware` `vulnerability`
+Des hackers exploitent une vulnérabilité critique (CVE-2026-48558) dans SimpleHelp pour déployer le malware Djinn Stealer, un voleur d'informations cross-plateforme.
+
+---
+
+### [Hackers now exploit critical Oracle E-Business flaw in attacks](https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 29/06/2026 09:46 UTC  **CVE :** `CVE-2026-46817`
+`cve` `vulnerability`
+Des attaquants exploite une vulnérabilité critique (CVE-2026-46817) dans l'application Oracle E-Business Suite, selon Defused.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Stormous has just published a new victim : maglificioliliana.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bWFnbGlmaWNpb2xpbGlhbmEuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC
-`breach` `malware`
-Plus de 10GB de données ont été accédées et exfiltrées, incluant des designs de produits, des lignes historiques d’habillement et des spécifications techniques pour les vêtements. Des bases de données clientes mondiales, des enregistrements financiers et plus encore ont également été obtenus.
+### [Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks](https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 20:33 UTC
+`apt` `breach` `malware`
+The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel.
+
+Acronis Threat Research Unit&nbsp;found active compromises inside Indian go
 
 ---
 
-### [🏴‍☠️ Stormous has just published a new victim : higuchi-inc.co.jp](https://www.ransomware.live/id/aGlndWNoaS1pbmMuY28uanBAc3Rvcm1vdXM=)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC
-`malware`
-Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.
+### [⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More](https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 20:11 UTC
+`malware` `vulnerability`
+Des failles critiques et des techniques d'attaque simples ont été signalées cette semaine, soulignant la nécessité de vigilance continue en matière de sécurité.
 
 ---
 
-### [🏴‍☠️ Stormous has just published a new victim : HIGUCHI USA, INC](https://www.ransomware.live/id/SElHVUNISSBVU0EsIElOQ0BzdG9ybW91cw==)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC
-`malware`
-Des états financiers complets et des bases de données Sage 50 ont été accédées, incluant des bilans, des enregistrements d’actifs, des dettes et du capital. Des données détaillant les opérations internationales et nationales sont également compromises.
+### [236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers](https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 17:27 UTC
+`cve` `malware` `phishing`
+Plus de 236 000 sites web utilisent des modèles d'escroqueries cryptographiques basés sur DCloud Uni-App, exposant à la fraude crypto et aux attaques phish.
 
 ---
 
-### [🏴‍☠️ Stormous has just published a new victim : eogb.co.uk](https://www.ransomware.live/id/ZW9nYi5jby51a0BzdG9ybW91cw==)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:29 UTC
-`malware`
-Des données comptables de Microsoft Dynamics GP ont été accédées, incluant des factures et des transactions commerciales. Des documents juridiques internes, des accords de partenariat et des contrats clients ont également été exfiltrés.
+### [Why Post-Quantum Cryptography Starts With Credentials](https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 17:12 UTC
+`apt`
+Le cryptage post-quantique commence par les certificats car l'encryption actuelle, comme celle des identifiants, pourrait être compromise par les ordinateurs quantiques futurs.
 
 ---
 
-### [🏴‍☠️ Stormous has just published a new victim : eshacloudqa.com](https://www.ransomware.live/id/ZXNoYWNsb3VkcWEuY29tQHN0b3Jtb3Vz)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:29 UTC
-`breach` `malware`
-Des bases de données de développement de produits chez ESHA Research / ESHA Cloud Services ont été compromises, incluant des secrets d’industrie et des formulaires. Des données laboratoires et des analyses nutritionnelles ont également été exfiltrées.
+### [Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse](https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html)
+**Source :** The Hacker News  **Publié :** 29/06/2026 17:10 UTC
+`apt` `malware` `phishing` `ransomware`
+L'APT Gamaredon a déployé de nouvelles campagnes de phishing et abusé de services cloud pour cibler des organisations ukrainiennes.
 
 ---
 
-### [🏴‍☠️ Stormous has just published a new victim : Official Statement: Protecting palatineschool.org Infrastructure](https://www.ransomware.live/id/T2ZmaWNpYWwgU3RhdGVtZW50OiBQcm90ZWN0aW5nIHBhbGF0aW5lc2Nob29sLm9yZyBJbmZyYXN0cnVjdHVyZUBzdG9ybW91cw==)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:28 UTC
-`apt` `malware` `vulnerability`
-Des vulnérabilités critiques ont été découvertes chez Palatine School, permettant un accès complet au serveur central. Des données d’élèves et de personnel ont été accédées mais la menace a décidé de ne rien divulguer.
+### [Nissan discloses employee data breach linked to Oracle zero-day attacks](https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/)
+**Source :** Bleeping Computer  **Publié :** 29/06/2026 16:40 UTC
+`apt` `breach` `cve` `vulnerability`
+Nissan a divulgué un incident de fuite de données concernant ses employés et anciens employés après une attaque sur une vulnérabilité Oracle PeopleSoft.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Stormous has just published a new victim : lorenzoni-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bG9yZW56b25pLXN0b3JlLmNvbSBVUERBVEUtRlVMTCBEQVRBIERVTVAgRlJFRSBQQVJUMUBzdG9ybW91cw==)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC  **Score :** 0
-Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
+### 1. [🏴‍☠️ Anubis has just published a new victim : ESMS Global Limited](https://www.ransomware.live/id/RVNNUyBHbG9iYWwgTGltaXRlZEBhbnViaXM=)
+**Source :** Ransomware.live News  **Publié :** 29/06/2026 14:22 UTC  **Score :** 20
+`breach`
+Anubis a ciblé ESMS Global Limited dans de nouvelles victimes, signe d'une nouvelle vague d'attaques sur le secteur médical.
 
-### 2. [🏴‍☠️ Stormous has just published a new victim : montechiaro-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/bW9udGVjaGlhcm8tc3RvcmUuY29tIFVQREFURS1GVUxMIERBVEEgRFVNUCBGUkVFIFBBUlQxQHN0b3Jtb3Vz)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:31 UTC  **Score :** 0
-Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
+### 2. [🏴‍☠️ Anubis has just published a new victim : Boston Orthotics & Prosthetics](https://www.ransomware.live/id/Qm9zdG9uIE9ydGhvdGljcyAmIFByb3N0aGV0aWNzQGFudWJpcw==)
+**Source :** Ransomware.live News  **Publié :** 29/06/2026 14:21 UTC  **Score :** 20
+`breach`
+Une nouvelle fuite de données des patients s'est produite dans un autre cabinet professionnel.
 
-### 3. [🏴‍☠️ Stormous has just published a new victim : impulso-store.com UPDATE-FULL DATA DUMP FREE PART1](https://www.ransomware.live/id/aW1wdWxzby1zdG9yZS5jb20gVVBEQVRFLUZVTEwgREFUQSBEVU1QIEZSRUUgUEFSVDFAc3Rvcm1vdXM=)
-**Source :** Ransomware.live News  **Publié :** 28/06/2026 21:30 UTC  **Score :** 0
-Des données clients, des commandes et autres actifs ont été accédés. Cela inclut toutes les domaines associés à l’entreprise mère : maglificioliliana.com.
+### 3. [Justices rule that cellphone location histories are protected by the Fourth Amendment](https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment)
+**Source :** The Record  **Publié :** 29/06/2026 18:50 UTC  **Score :** 15
+La Cour suprême américaine a déclaré que les historiques des emplacements des téléphones cellulaires sont protégés par le Quatrième Amendement, exigeant une ordonnance pour la police.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-06/digest-2026-06-29.md`*
+*Archivé dans `/archive/2026-06/digest-2026-06-30.md`*
