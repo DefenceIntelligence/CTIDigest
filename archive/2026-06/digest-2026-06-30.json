@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T02:01:04.020017+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "4d324c4dbfd5162b",
+        "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+        "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-55200"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une PoC publique a été lancée pour CVE-2026-55200, une faille critique dans libssh2 qui permet aux serveurs SSH malicieux de provoquer une corruption mémoire chez les clients connectés et potentiellement des exécutions de code. Cette faille affecte toutes les versions jusqu'à 1.11.1.",
+        "published_at": "2026-06-29T12:36:34",
+        "score": 40
+      },
+      {
+        "guid": "33e1fd85d911dbe2",
+        "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48558"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des hackers exploitent une vulnérabilité critique (CVE-2026-48558) dans SimpleHelp pour déployer le malware Djinn Stealer, un voleur d'informations cross-plateforme.",
+        "published_at": "2026-06-29T10:00:00",
+        "score": 32
+      },
+      {
+        "guid": "11a72d7dc4319113",
+        "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-46817"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploite une vulnérabilité critique (CVE-2026-46817) dans l'application Oracle E-Business Suite, selon Defused.",
+        "published_at": "2026-06-29T09:46:17",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "7efa6e314f9bd51a",
+        "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+        "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware"
+        ],
+        "summary": "The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel.\n\nAcronis Threat Research Unit&nbsp;found active compromises inside Indian government networks, including machines used by senior administrative staff, and worked with&nbsp;",
+        "published_at": "2026-06-29T20:33:40",
+        "score": 37
+      },
+      {
+        "guid": "de0e63f0cec9bf41",
+        "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+        "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des failles critiques et des techniques d'attaque simples ont été signalées cette semaine, soulignant la nécessité de vigilance continue en matière de sécurité.",
+        "published_at": "2026-06-29T20:11:07",
+        "score": 17
+      },
+      {
+        "guid": "34668ce78f03e5dc",
+        "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+        "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Plus de 236 000 sites web utilisent des modèles d'escroqueries cryptographiques basés sur DCloud Uni-App, exposant à la fraude crypto et aux attaques phish.",
+        "published_at": "2026-06-29T17:27:40",
+        "score": 27
+      },
+      {
+        "guid": "bdfc51789d329345",
+        "title": "Why Post-Quantum Cryptography Starts With Credentials",
+        "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Le cryptage post-quantique commence par les certificats car l'encryption actuelle, comme celle des identifiants, pourrait être compromise par les ordinateurs quantiques futurs.",
+        "published_at": "2026-06-29T17:12:16",
+        "score": 5
+      },
+      {
+        "guid": "fb5dd3f75de41cf1",
+        "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+        "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing",
+          "ransomware"
+        ],
+        "summary": "L'APT Gamaredon a déployé de nouvelles campagnes de phishing et abusé de services cloud pour cibler des organisations ukrainiennes.",
+        "published_at": "2026-06-29T17:10:24",
+        "score": 27
+      },
+      {
+        "guid": "cabf587a0b167bf2",
+        "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Nissan a divulgué un incident de fuite de données concernant ses employés et anciens employés après une attaque sur une vulnérabilité Oracle PeopleSoft.",
+        "published_at": "2026-06-29T16:40:44",
+        "score": 25
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "41b7828fb3993833",
+        "title": "🏴‍☠️ Anubis has just published a new victim : ESMS Global Limited",
+        "url": "https://www.ransomware.live/id/RVNNUyBHbG9iYWwgTGltaXRlZEBhbnViaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Anubis a ciblé ESMS Global Limited dans de nouvelles victimes, signe d'une nouvelle vague d'attaques sur le secteur médical.",
+        "published_at": "2026-06-29T14:22:58",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "4c4c319085b11140",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Boston Orthotics & Prosthetics",
+        "url": "https://www.ransomware.live/id/Qm9zdG9uIE9ydGhvdGljcyAmIFByb3N0aGV0aWNzQGFudWJpcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une nouvelle fuite de données des patients s'est produite dans un autre cabinet professionnel.",
+        "published_at": "2026-06-29T14:21:48",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "21af688c06e891d2",
+        "title": "Justices rule that cellphone location histories are protected by the Fourth Amendment",
+        "url": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "La Cour suprême américaine a déclaré que les historiques des emplacements des téléphones cellulaires sont protégés par le Quatrième Amendement, exigeant une ordonnance pour la police.",
+        "published_at": "2026-06-29T18:50:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 56,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
