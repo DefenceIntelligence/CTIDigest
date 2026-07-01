@@ -1,213 +1,306 @@
 {
   "schema_version": "1.0",
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T02:01:04.020017+00:00",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T02:01:44.806131+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "4d324c4dbfd5162b",
-        "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
-        "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "f9aeb34a6c605507",
+        "title": "StoneFly Storage Concentrator",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-55200"
-        ],
-        "tags": [
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une PoC publique a été lancée pour CVE-2026-55200, une faille critique dans libssh2 qui permet aux serveurs SSH malicieux de provoquer une corruption mémoire chez les clients connectés et potentiellement des exécutions de code. Cette faille affecte toutes les versions jusqu'à 1.11.1.",
-        "published_at": "2026-06-29T12:36:34",
-        "score": 40
-      },
-      {
-        "guid": "33e1fd85d911dbe2",
-        "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-48558"
+          "CVE-2026-56415",
+          "CVE-2026-56413",
+          "CVE-2026-50110",
+          "CVE-2026-50040",
+          "CVE-2026-55721"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Des hackers exploitent une vulnérabilité critique (CVE-2026-48558) dans SimpleHelp pour déployer le malware Djinn Stealer, un voleur d'informations cross-plateforme.",
-        "published_at": "2026-06-29T10:00:00",
-        "score": 32
+        "summary": "Les vulnérabilités exploitables pourraient permettre aux attaquants d'obtenir un accès général non autorisé, d'exécuter des commandes avec les privilèges root et de voler des données sensibles.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 27
       },
       {
-        "guid": "11a72d7dc4319113",
-        "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "6fb7ce889e6d064c",
+        "title": "OFFIS DCMTK Toolkit",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-46817"
+          "CVE-2026-35505",
+          "CVE-2026-44628",
+          "CVE-2026-50254",
+          "CVE-2026-50003",
+          "CVE-2026-52868"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions DCMTK &lt;=3.7.0 sont affectées par des vulnérabilités qui pourraient permettre aux attaquants d'écrire des fichiers, accéder à des informations non autorisées et épuiser la mémoire.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 35
+      },
+      {
+        "guid": "1c7800fc9e34757c",
+        "title": "Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-55188",
+          "CVE-2025-53817",
+          "CVE-2025-11001",
+          "CVE-2025-53816"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des attaquants exploite une vulnérabilité critique (CVE-2026-46817) dans l'application Oracle E-Business Suite, selon Defused.",
-        "published_at": "2026-06-29T09:46:17",
-        "score": 20
+        "summary": "Les vulnérabilités pourraient permettre aux attaquants locaux de modifier ou détruire des informations, provoquer une condition d'arrêt de service et exécuter du code arbitraire.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "4ab950c714b5ef51",
+        "title": "Delta Electronics DVP12SE PLC",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12818",
+          "CVE-2026-12819"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions Delta Electronics DVP12SE PLC sont affectées par des vulnérabilités qui pourraient permettre aux attaquants de donner des commandes à distance, modifier les valeurs d'opération et interférer avec la logique de contrôle sans authentification.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "d834e54fc8b876f2",
+        "title": "Schneider Electric EasyLogic T150 and Saitel DP RTU",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9650",
+          "CVE-2026-9651"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les vulnérabilités permettraient aux attaquants non authentifiés d'accéder et d'exposer des informations sensibles stockées dans le firmware ou les fichiers du système.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "55c2608b56c5da1a",
+        "title": "XZ Utils vulnerability impacting B&R Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-31115"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une mise à jour est disponible pour résoudre la vulnérabilité affectant les versions de XZ Utils utilisées par B&R. Une attaque pourrait causer l'arrêt du produit ou la corruption des données en mémoire.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "b0880fa772237496",
+        "title": "Frangoteam FUXA SCADA/HMI",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-13207"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions FUXA SCADA/HMI &lt;=1.3.1 sont affectées par une vulnérabilité permettant aux attaquants non authentifiés de lister tous les comptes utilisateurs et leurs rôles sur l'instance FUXA.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "932e312f7e5245bf",
+        "title": "Schneider Electric EcoStruxure IT Data Center Expert",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-8045"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Schneider Electric est conscient d'une vulnérabilité dans son logiciel de surveillance EcoStruxure IT Data Center Expert. Une mise à jour est nécessaire pour prévenir les failles potentiellement dangereuses.",
+        "published_at": "2026-06-30T12:00:00",
+        "score": 15
       }
     ],
     "campaigns": [
       {
-        "guid": "7efa6e314f9bd51a",
-        "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
-        "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+        "guid": "2feed83737388319",
+        "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+        "url": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
-          "breach",
           "malware"
         ],
-        "summary": "The China-aligned espionage group&nbsp;Mustang Panda&nbsp;is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel.\n\nAcronis Threat Research Unit&nbsp;found active compromises inside Indian government networks, including machines used by senior administrative staff, and worked with&nbsp;",
-        "published_at": "2026-06-29T20:33:40",
-        "score": 37
-      },
-      {
-        "guid": "de0e63f0cec9bf41",
-        "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
-        "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Des failles critiques et des techniques d'attaque simples ont été signalées cette semaine, soulignant la nécessité de vigilance continue en matière de sécurité.",
-        "published_at": "2026-06-29T20:11:07",
+        "summary": "Le botnet RustDuck, reconstruit en langage Rust, cible des routers et serveurs non sécurisés pour mener des attaques DDoS.",
+        "published_at": "2026-06-30T23:15:25",
         "score": 17
       },
       {
-        "guid": "34668ce78f03e5dc",
-        "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-        "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+        "guid": "d06d58a5b754a6ee",
+        "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+        "url": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "cve",
-          "malware",
-          "phishing"
+          "ransomware"
         ],
-        "summary": "Plus de 236 000 sites web utilisent des modèles d'escroqueries cryptographiques basés sur DCloud Uni-App, exposant à la fraude crypto et aux attaques phish.",
-        "published_at": "2026-06-29T17:27:40",
-        "score": 27
-      },
-      {
-        "guid": "bdfc51789d329345",
-        "title": "Why Post-Quantum Cryptography Starts With Credentials",
-        "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt"
-        ],
-        "summary": "Le cryptage post-quantique commence par les certificats car l'encryption actuelle, comme celle des identifiants, pourrait être compromise par les ordinateurs quantiques futurs.",
-        "published_at": "2026-06-29T17:12:16",
+        "summary": "Une vulnérabilité dans les agents d'IA open-source permettrait à un adversaire de faire exécuter une commande dangereuse, malgré la sécurité prévue.",
+        "published_at": "2026-06-30T19:56:15",
         "score": 5
       },
       {
-        "guid": "fb5dd3f75de41cf1",
-        "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
-        "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "22d2d789c84ccbe5",
+        "title": "🏴‍☠️ Aurora has just published a new victim : Primed Halberstadt Medizintechnik",
+        "url": "https://www.ransomware.live/id/UHJpbWVkIEhhbGJlcnN0YWR0IE1lZGl6aW50ZWNobmlrQGF1cm9yYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "apt",
-          "malware",
-          "phishing",
-          "ransomware"
+          "malware"
         ],
-        "summary": "L'APT Gamaredon a déployé de nouvelles campagnes de phishing et abusé de services cloud pour cibler des organisations ukrainiennes.",
-        "published_at": "2026-06-29T17:10:24",
+        "summary": "[manufacturer] *** GmbH — a German manufacturer of medical devices founded in 1946 and now part of the PE-backed PP Medtech group (Wiesmann &amp; Co. KG).\n\nThe exfiltration captured four entire server volumes:\n\nDaten (883 GB) — File server: 289 employee home directories (547 GB), Czech subsidiary data (66 GB), production processes (162 GB), machine configurations (81 GB)\nEE (807 GB) — Enterprise system: Apollo ERP, VBANK banking (8 accounts), complete database backup (100.6 GB, dated June 3), pr",
+        "published_at": "2026-06-30T19:51:25",
+        "score": 12
+      },
+      {
+        "guid": "ef8d6f6407cfc88f",
+        "title": "CIA chief highlights major shifts in agency’s tech approach",
+        "url": "https://therecord.media/cia-chief-ratcliffe-highlights-major-shifts-in-agencys-tech-approach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "CIA Director John Ratcliffe said artificial intelligence capabilities are \"akin to digital nuclear weapons.”",
+        "published_at": "2026-06-30T19:05:00",
         "score": 27
       },
       {
-        "guid": "cabf587a0b167bf2",
-        "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+        "guid": "52534e885ffc671f",
+        "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
-          "breach",
-          "cve",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Nissan a divulgué un incident de fuite de données concernant ses employés et anciens employés après une attaque sur une vulnérabilité Oracle PeopleSoft.",
-        "published_at": "2026-06-29T16:40:44",
-        "score": 25
+        "summary": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to replace today's encryption standards sooner than previously expected. [...]",
+        "published_at": "2026-06-30T17:20:06",
+        "score": 17
+      },
+      {
+        "guid": "3ab5ea3978525894",
+        "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [...]",
+        "published_at": "2026-06-30T17:02:55",
+        "score": 37
       }
     ],
     "top_reads": [
       {
-        "guid": "41b7828fb3993833",
-        "title": "🏴‍☠️ Anubis has just published a new victim : ESMS Global Limited",
-        "url": "https://www.ransomware.live/id/RVNNUyBHbG9iYWwgTGltaXRlZEBhbnViaXM=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "e0034ed9ac432700",
+        "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+        "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Anubis a ciblé ESMS Global Limited dans de nouvelles victimes, signe d'une nouvelle vague d'attaques sur le secteur médical.",
-        "published_at": "2026-06-29T14:22:58",
-        "score": 20,
+        "summary": "New Microsoft&nbsp;research&nbsp;shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider.\n\nThe trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire.\n\nThe work comes from Microsoft Incident Response and its",
+        "published_at": "2026-06-30T23:16:07",
+        "score": 25,
         "rank": 1
       },
       {
-        "guid": "4c4c319085b11140",
-        "title": "🏴‍☠️ Anubis has just published a new victim : Boston Orthotics & Prosthetics",
-        "url": "https://www.ransomware.live/id/Qm9zdG9uIE9ydGhvdGljcyAmIFByb3N0aGV0aWNzQGFudWJpcw==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "8f0deb5c9bdf623b",
+        "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+        "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Une nouvelle fuite de données des patients s'est produite dans un autre cabinet professionnel.",
-        "published_at": "2026-06-29T14:21:48",
-        "score": 20,
+        "summary": "L'assureur américain Aflac a divulgué une nouvelle fuite de données après que des hackers ont pénétré son système au Japon, volant des informations personnelles et bancaires.",
+        "published_at": "2026-06-30T07:12:18",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "21af688c06e891d2",
-        "title": "Justices rule that cellphone location histories are protected by the Fourth Amendment",
-        "url": "https://therecord.media/supreme-court-geofencing-ruling-fourth-amendment",
+        "guid": "3cf68a2a795df65a",
+        "title": "House passes kids’ online safety bill, but Senate approval unlikely",
+        "url": "https://therecord.media/house-passes-kids-online-safety-bill-senate-unlikely",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [],
-        "summary": "La Cour suprême américaine a déclaré que les historiques des emplacements des téléphones cellulaires sont protégés par le Quatrième Amendement, exigeant une ordonnance pour la police.",
-        "published_at": "2026-06-29T18:50:00",
+        "summary": "Le Sénat américain est peu probablement à approuver la Loi sur la sécurité en ligne pour enfants (KIDS Act), malgré le soutien bipartisane de 267 voix contre 117 dans l'Assemblée.",
+        "published_at": "2026-06-30T16:23:00",
         "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 56,
-    "items_selected": 12,
+    "items_analyzed": 70,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 21,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
