@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T02:01:19.422660+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e85395619bfaf66e",
+        "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+        "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50548",
+          "CVE-2026-50549"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Deux vulnérabilités dans Cursor, un éditeur de code IA, pourraient permettre l'exécution arbitraire de commandes sur une machine via des entrées prompt. Ces vulnérabilités sont nommées DuneSlide et ont respectivement le CVE-2026-50548 et CVE-2026-50549.",
+        "published_at": "2026-07-01T20:12:54",
+        "score": 32
+      },
+      {
+        "guid": "e0405d29a5232da7",
+        "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+        "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-8037"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique impactant Progress Kemp LoadMaster est exploité activement, selon un avis de eSentire. La failleCVE-2026-8037 permet une injection d'ordres système et pourrait être utilisée pour obtenir des privilèges complets.",
+        "published_at": "2026-07-01T19:26:18",
+        "score": 32
+      },
+      {
+        "guid": "c4cc3db8d6fb72e4",
+        "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
+        "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-8451"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Citrix a corrigé six vulnérabilités dans NetScaler ADC et Gateway qui permettent de lire des fichiers arbitrairement ou d'engendrer une condition DoS. Ces vulnérabilités ont respectivement le CVE-2026-8451, CVE-2026-8453, CVE-2026-8454, CVE-2026-8457, CVE-2026-8459 et CVE-2026-8460.",
+        "published_at": "2026-07-01T09:24:22",
+        "score": 20
+      },
+      {
+        "guid": "d7ba8ed02888e0c3",
+        "title": "Cyber Brief 26-07 - June 2026",
+        "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-07/",
+        "source": "CERT-EU",
+        "category": "Officiel",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Des menaces inconnues utilisent ScreenConnect pour déployer AsyncRAT. Des installateurs malveillants, masquant des logiciels populaires, sont distribués via des sites Web trompeurs.",
+        "published_at": "2026-07-01T16:00:00",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "1f8983fd1db4db91",
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "url": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Un nouveau châtiment multi-stade utilise le blogger pour diffuser PureLogs, un vol de données. Des payloads initiaux sont distribués via des courriels ciblés ou une compromission par drive-by.",
+        "published_at": "2026-07-01T23:23:06",
+        "score": 17
+      },
+      {
+        "guid": "1b64def0d0f7f83c",
+        "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+        "url": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs.\n\nThe activity has been codenamed VEIL#DROP by Securonix. It's suspected that the initial payloads are distributed either via spear-phishing or a drive-by compromise, which occurs when an unsuspecting user lands on",
+        "published_at": "2026-07-01T22:48:50",
+        "score": 47
+      },
+      {
+        "guid": "e95e2e4d240cfa80",
+        "title": "🏴‍☠️ Medusalocker has just published a new victim : Penticton and District Society for Community Living",
+        "url": "https://www.ransomware.live/id/UGVudGljdG9uIGFuZCBEaXN0cmljdCBTb2NpZXR5IGZvciBDb21tdW5pdHkgTGl2aW5nQG1lZHVzYWxvY2tlcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Medusalocker a ciblé la Penticton and District Society for Community Living, une organisation caritative canadienne dans la Colombie-Britannique.",
+        "published_at": "2026-07-01T22:28:56",
+        "score": 12
+      },
+      {
+        "guid": "dac14998c535673a",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Keywest Projects",
+        "url": "https://www.ransomware.live/id/S2V5d2VzdCBQcm9qZWN0c0B0aGVnZW50bGVtZW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Thegentlemen a visé Keywest Projects, une entreprise de génie civil basée à Calgary. Cette cible travaille principalement dans l'énergie et le gaz en Amérique du Nord.",
+        "published_at": "2026-07-01T22:24:37",
+        "score": 12
+      },
+      {
+        "guid": "126dec5e8e795429",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Royal Thai Navy Housing Cooperative",
+        "url": "https://www.ransomware.live/id/Um95YWwgVGhhaSBOYXZ5IEhvdXNpbmcgQ29vcGVyYXRpdmVAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Thegentlemen a ciblé la Royal Thai Navy Housing Cooperative, un organisme de logement pour le personnel naval basé à Bangkok.",
+        "published_at": "2026-07-01T22:24:17",
+        "score": 12
+      },
+      {
+        "guid": "23497e74b72b47dc",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : CTM India Limited motherson INDIA",
+        "url": "https://www.ransomware.live/id/Q1RNIEluZGlhIExpbWl0ZWQgbW90aGVyc29uIElORElBQHRoZWdlbnRsZW1lbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Thegentlemen a visé CTM India Limited, une entreprise de la Machine Manufaturing Group située à New Delhi. Cette cible produit des équipements spécialisés pour le secteur industriel.",
+        "published_at": "2026-07-01T22:24:12",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "ca1ac7e30d198703",
+        "title": "Teen suspect in Scattered Spider hacks is extradited to US",
+        "url": "https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un青少年被引渡至美国，涉嫌参与2025年对一家奢侈品珠宝零售商的网络攻击事件。",
+        "published_at": "2026-07-01T20:13:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "a8a6833c187c8386",
+        "title": "Japanese insurer, brewer, manufacturer and telecom disclose cyber breaches",
+        "url": "https://therecord.media/japan-cyber-breaches-aflac-sapporo-nidec-kddi",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "多家日本公司近期披露了数据泄露事件，包括保险公司Aflac和啤酒制造商Sapporo。",
+        "published_at": "2026-07-01T13:10:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "22f51e4c24dd8a65",
+        "title": "Webinar: Why traditional email security is no longer enough",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "phishing"
+        ],
+        "summary": "传统电子邮件安全已不足以应对现代网络钓鱼、商务邮件欺诈和账户接管攻击，行为AI有望帮助组织自动化检测与响应。",
+        "published_at": "2026-07-01T12:54:22",
+        "score": 35,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 94,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
