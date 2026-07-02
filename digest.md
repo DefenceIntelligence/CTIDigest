@@ -1,134 +1,103 @@
-# 🛡️ ARGOS CTI Digest — 1 juillet 2026
+# 🛡️ ARGOS CTI Digest — 2 juillet 2026
 
-> Généré le 01/07/2026 à 02:01 UTC  ·  70 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 02/07/2026 à 02:01 UTC  ·  94 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [StoneFly Storage Concentrator](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-06)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-56415`, `CVE-2026-56413`, `CVE-2026-50110`, `CVE-2026-50040`, `CVE-2026-55721`
+### [Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands](https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html)
+**Source :** The Hacker News  **Publié :** 01/07/2026 20:12 UTC  **CVE :** `CVE-2026-50548`, `CVE-2026-50549`
 `cve` `malware` `vulnerability`
-Les vulnérabilités exploitables pourraient permettre aux attaquants d'obtenir un accès général non autorisé, d'exécuter des commandes avec les privilèges root et de voler des données sensibles.
+Deux vulnérabilités dans Cursor, un éditeur de code IA, pourraient permettre l'exécution arbitraire de commandes sur une machine via des entrées prompt. Ces vulnérabilités sont nommées DuneSlide et ont respectivement le CVE-2026-50548 et CVE-2026-50549.
 
 ---
 
-### [OFFIS DCMTK Toolkit](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-181-01)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-35505`, `CVE-2026-44628`, `CVE-2026-50254`, `CVE-2026-50003`, `CVE-2026-52868`
-`breach` `cve` `vulnerability`
-Les versions DCMTK &lt;=3.7.0 sont affectées par des vulnérabilités qui pourraient permettre aux attaquants d'écrire des fichiers, accéder à des informations non autorisées et épuiser la mémoire.
+### [Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts](https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html)
+**Source :** The Hacker News  **Publié :** 01/07/2026 19:26 UTC  **CVE :** `CVE-2026-8037`
+`cve` `malware` `patch` `vulnerability`
+Une vulnérabilité critique impactant Progress Kemp LoadMaster est exploité activement, selon un avis de eSentire. La failleCVE-2026-8037 permet une injection d'ordres système et pourrait être utilisée pour obtenir des privilèges complets.
 
 ---
 
-### [Mitsubishi Electric MELSOFT Update Manager SW1DND-UDM-M](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-01)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2025-55188`, `CVE-2025-53817`, `CVE-2025-11001`, `CVE-2025-53816`
-`cve` `vulnerability`
-Les vulnérabilités pourraient permettre aux attaquants locaux de modifier ou détruire des informations, provoquer une condition d'arrêt de service et exécuter du code arbitraire.
-
----
-
-### [Delta Electronics DVP12SE PLC](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-07)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-12818`, `CVE-2026-12819`
-`cve` `malware` `vulnerability`
-Les versions Delta Electronics DVP12SE PLC sont affectées par des vulnérabilités qui pourraient permettre aux attaquants de donner des commandes à distance, modifier les valeurs d'opération et interférer avec la logique de contrôle sans authentification.
-
----
-
-### [Schneider Electric EasyLogic T150 and Saitel DP RTU](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-04)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-9650`, `CVE-2026-9651`
-`cve` `vulnerability`
-Les vulnérabilités permettraient aux attaquants non authentifiés d'accéder et d'exposer des informations sensibles stockées dans le firmware ou les fichiers du système.
-
----
-
-### [XZ Utils vulnerability impacting B&R Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-05)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2025-31115`
+### [Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service](https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html)
+**Source :** The Hacker News  **Publié :** 01/07/2026 09:24 UTC  **CVE :** `CVE-2026-8451`
 `cve` `patch` `vulnerability`
-Une mise à jour est disponible pour résoudre la vulnérabilité affectant les versions de XZ Utils utilisées par B&R. Une attaque pourrait causer l'arrêt du produit ou la corruption des données en mémoire.
+Citrix a corrigé six vulnérabilités dans NetScaler ADC et Gateway qui permettent de lire des fichiers arbitrairement ou d'engendrer une condition DoS. Ces vulnérabilités ont respectivement le CVE-2026-8451, CVE-2026-8453, CVE-2026-8454, CVE-2026-8457, CVE-2026-8459 et CVE-2026-8460.
 
 ---
 
-### [Frangoteam FUXA SCADA/HMI](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-02)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-13207`
-`cve` `malware` `vulnerability`
-Les versions FUXA SCADA/HMI &lt;=1.3.1 sont affectées par une vulnérabilité permettant aux attaquants non authentifiés de lister tous les comptes utilisateurs et leurs rôles sur l'instance FUXA.
-
----
-
-### [Schneider Electric EcoStruxure IT Data Center Expert](https://www.cisa.gov/news-events/ics-advisories/icsa-26-181-03)
-**Source :** CISA Advisories  **Publié :** 30/06/2026 12:00 UTC  **CVE :** `CVE-2026-8045`
-`cve` `vulnerability`
-Schneider Electric est conscient d'une vulnérabilité dans son logiciel de surveillance EcoStruxure IT Data Center Expert. Une mise à jour est nécessaire pour prévenir les failles potentiellement dangereuses.
+### [Cyber Brief 26-07 - June 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-07/)
+**Source :** CERT-EU  **Publié :** 01/07/2026 16:00 UTC
+`cve`
+Des menaces inconnues utilisent ScreenConnect pour déployer AsyncRAT. Des installateurs malveillants, masquant des logiciels populaires, sont distribués via des sites Web trompeurs.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS](https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html)
-**Source :** The Hacker News  **Publié :** 30/06/2026 23:15 UTC
-`malware`
-Le botnet RustDuck, reconstruit en langage Rust, cible des routers et serveurs non sécurisés pour mener des attaques DDoS.
-
----
-
-### [GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks](https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html)
-**Source :** The Hacker News  **Publié :** 30/06/2026 19:56 UTC
-`cve` `ransomware`
-Une vulnérabilité dans les agents d'IA open-source permettrait à un adversaire de faire exécuter une commande dangereuse, malgré la sécurité prévue.
-
----
-
-### [🏴‍☠️ Aurora has just published a new victim : Primed Halberstadt Medizintechnik](https://www.ransomware.live/id/UHJpbWVkIEhhbGJlcnN0YWR0IE1lZGl6aW50ZWNobmlrQGF1cm9yYQ==)
-**Source :** Ransomware.live News  **Publié :** 30/06/2026 19:51 UTC
+### [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
+**Source :** The Hacker News  **Publié :** 01/07/2026 23:23 UTC
 `apt` `malware`
-[manufacturer] *** GmbH — a German manufacturer of medical devices founded in 1946 and now part of the PE-backed PP Medtech group (Wiesmann &amp; Co. KG).
-
-The exfiltration captured four entire server volumes:
-
-Daten (883 GB) — File server: 289 employee home directories (547 GB), Czech subsidiary da
+Un nouveau châtiment multi-stade utilise le blogger pour diffuser PureLogs, un vol de données. Des payloads initiaux sont distribués via des courriels ciblés ou une compromission par drive-by.
 
 ---
 
-### [CIA chief highlights major shifts in agency’s tech approach](https://therecord.media/cia-chief-ratcliffe-highlights-major-shifts-in-agencys-tech-approach)
-**Source :** The Record  **Publié :** 30/06/2026 19:05 UTC
+### [VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer](https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html)
+**Source :** The Hacker News  **Publié :** 01/07/2026 22:48 UTC
+`breach` `malware` `phishing`
+Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs.
+
+The activity has been codenamed VEIL#DROP by Securonix. It's suspected that the initial payloads are distributed e
+
+---
+
+### [🏴‍☠️ Medusalocker has just published a new victim : Penticton and District Society for Community Living](https://www.ransomware.live/id/UGVudGljdG9uIGFuZCBEaXN0cmljdCBTb2NpZXR5IGZvciBDb21tdW5pdHkgTGl2aW5nQG1lZHVzYWxvY2tlcg==)
+**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:28 UTC
 `malware`
-CIA Director John Ratcliffe said artificial intelligence capabilities are "akin to digital nuclear weapons.”
+Medusalocker a ciblé la Penticton and District Society for Community Living, une organisation caritative canadienne dans la Colombie-Britannique.
 
 ---
 
-### [Microsoft accelerates quantum-safe roadmap as risks grow](https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/)
-**Source :** Bleeping Computer  **Publié :** 30/06/2026 17:20 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Keywest Projects](https://www.ransomware.live/id/S2V5d2VzdCBQcm9qZWN0c0B0aGVnZW50bGVtZW4=)
+**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
 `malware`
-Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to replace today's encryption standards sooner than previously expected. [...]
+Thegentlemen a visé Keywest Projects, une entreprise de génie civil basée à Calgary. Cette cible travaille principalement dans l'énergie et le gaz en Amérique du Nord.
 
 ---
 
-### [Malicious PyPI packages give hackers control of Telegram bot servers](https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/)
-**Source :** Bleeping Computer  **Publié :** 30/06/2026 17:02 UTC
-`breach` `malware`
-A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers to read arbitrary files on compromised servers. [...]
+### [🏴‍☠️ Thegentlemen has just published a new victim : Royal Thai Navy Housing Cooperative](https://www.ransomware.live/id/Um95YWwgVGhhaSBOYXZ5IEhvdXNpbmcgQ29vcGVyYXRpdmVAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
+`malware`
+Thegentlemen a ciblé la Royal Thai Navy Housing Cooperative, un organisme de logement pour le personnel naval basé à Bangkok.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : CTM India Limited motherson INDIA](https://www.ransomware.live/id/Q1RNIEluZGlhIExpbWl0ZWQgbW90aGVyc29uIElORElBQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
+`malware`
+Thegentlemen a visé CTM India Limited, une entreprise de la Machine Manufaturing Group située à New Delhi. Cette cible produit des équipements spécialisés pour le secteur industriel.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data](https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html)
-**Source :** The Hacker News  **Publié :** 30/06/2026 23:16 UTC  **Score :** 25
+### 1. [Teen suspect in Scattered Spider hacks is extradited to US](https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us)
+**Source :** The Record  **Publié :** 01/07/2026 20:13 UTC  **Score :** 35
 `breach`
-New Microsoft&nbsp;research&nbsp;shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider.
+Un青少年被引渡至美国，涉嫌参与2025年对一家奢侈品珠宝零售商的网络攻击事件。
 
-The trick is that the agent never breaks a rule. Every step looks routine, so i
-
-### 2. [Insurance giant Aflac discloses data breach after subsidiary hack](https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/)
-**Source :** Bleeping Computer  **Publié :** 30/06/2026 07:12 UTC  **Score :** 25
+### 2. [Japanese insurer, brewer, manufacturer and telecom disclose cyber breaches](https://therecord.media/japan-cyber-breaches-aflac-sapporo-nidec-kddi)
+**Source :** The Record  **Publié :** 01/07/2026 13:10 UTC  **Score :** 35
 `breach`
-L'assureur américain Aflac a divulgué une nouvelle fuite de données après que des hackers ont pénétré son système au Japon, volant des informations personnelles et bancaires.
+多家日本公司近期披露了数据泄露事件，包括保险公司Aflac和啤酒制造商Sapporo。
 
-### 3. [House passes kids’ online safety bill, but Senate approval unlikely](https://therecord.media/house-passes-kids-online-safety-bill-senate-unlikely)
-**Source :** The Record  **Publié :** 30/06/2026 16:23 UTC  **Score :** 15
-Le Sénat américain est peu probablement à approuver la Loi sur la sécurité en ligne pour enfants (KIDS Act), malgré le soutien bipartisane de 267 voix contre 117 dans l'Assemblée.
+### 3. [Webinar: Why traditional email security is no longer enough](https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/)
+**Source :** Bleeping Computer  **Publié :** 01/07/2026 12:54 UTC  **Score :** 35
+`breach` `cve` `phishing`
+传统电子邮件安全已不足以应对现代网络钓鱼、商务邮件欺诈和账户接管攻击，行为AI有望帮助组织自动化检测与响应。
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-01.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-02.md`*
