@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T02:01:11.707341+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "643461815f9098e6",
+        "title": "Gardyn IoT Hub",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-54477",
+          "CVE-2026-13768",
+          "CVE-2026-55726"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités affectent diverses versions de Gardyn IoT Hub, permettant l'accès non authentifié et le contrôle des appareils.",
+        "published_at": "2026-07-02T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "e4ab5b4a40963aa7",
+        "title": "ST Engineering iDirect iQ-Series Terminals",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-38059",
+          "CVE-2026-38057"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans les terminaux ST Engineering iDirect iQ-Series permettent d'obtenir un accès non autorisé ou de provoquer une panne.",
+        "published_at": "2026-07-02T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f652462c46459108",
+        "title": "CubeSpace CW0057 Reaction Wheel",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-13743"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans le CubeSpace CW0057 Reaction Wheel permettent l'upload de firmware malveillant.",
+        "published_at": "2026-07-02T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "04fae94d2827328e",
+        "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+        "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2025-5777"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Les acteurs du ransomware exploitent la vulnérabilité Citrix Bleed 2 pour obtenir un accès initial.",
+        "published_at": "2026-07-03T00:00:33",
+        "score": 32
+      },
+      {
+        "guid": "af053c576b59d09b",
+        "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+        "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-45659"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La vulnérabilité CVE-2026-45659 dans Microsoft SharePoint a été ajoutée aux vulnérabilités exploitées activement par CISA.",
+        "published_at": "2026-07-02T11:16:45",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b335d6e31b4212d8",
+        "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+        "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Des faiblesses sont observées dans divers systèmes, révélant des petits trous de sécurité exploitables.",
+        "published_at": "2026-07-02T20:54:18",
+        "score": 5
+      },
+      {
+        "guid": "8ab3cd6f9bee0838",
+        "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+        "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'FBI a saisi plusieurs domaines associés au service NetNut et à la botnet Popa.",
+        "published_at": "2026-07-02T19:27:33",
+        "score": 37
+      },
+      {
+        "guid": "fa0ae3dc67bbfcd8",
+        "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+        "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware"
+        ],
+        "summary": "Le malware Umbrij attribué à ToddyCat utilise OAuth pour accéder aux comptes Gmail via l'API Google.",
+        "published_at": "2026-07-02T18:34:13",
+        "score": 37
+      },
+      {
+        "guid": "8d1b54734ebf4ee9",
+        "title": "Catan and Mouse",
+        "url": "https://blog.talosintelligence.com/catan-and-mouse/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware"
+        ],
+        "summary": "Un article explore la relation entre les jeux de société et la cybersécurité, soulignant l'importance de la curiosité chez les défenseurs.",
+        "published_at": "2026-07-02T18:00:34",
+        "score": 27
+      },
+      {
+        "guid": "4cbda541bd3d2ace",
+        "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+        "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le guide discute des limitations du gestionnaire de cycle d'identité face à l'IA, soulignant des points faibles dans le modèle traditionnel.",
+        "published_at": "2026-07-02T17:00:00",
+        "score": 17
+      },
+      {
+        "guid": "d8d181ecfb2f2458",
+        "title": "🏴‍☠️ Incransom has just published a new victim : tambasa.com",
+        "url": "https://www.ransomware.live/id/dGFtYmFzYS5jb21AaW5jcmFuc29t",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Tambasa Atacadistas, une grande distributeur B2B brésilien, est victime d'un incident de cryptotortion.",
+        "published_at": "2026-07-02T16:55:44",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d1f35e5a03e1c9a7",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Northeast Pediatrics & Adolescent Medicine",
+        "url": "https://www.ransomware.live/id/Tm9ydGhlYXN0IFBlZGlhdHJpY3MgJiBBZG9sZXNjZW50IE1lZGljaW5lQGFudWJpcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données affecte le personnel et les patients d'une clinique pédiatrique.",
+        "published_at": "2026-07-02T03:21:32",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "36b50683693da614",
+        "title": "Launch of UK's National Cyber Action Plan delayed amid Labour leadership crisis",
+        "url": "https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "La mise en œuvre du plan national britannique de cybersécurité est reportée en raison des troubles au sein du parti travailliste.",
+        "published_at": "2026-07-02T20:32:00",
+        "score": 15,
+        "rank": 2
+      },
+      {
+        "guid": "70836af0ad0effbc",
+        "title": "Supreme Court decision threatens EU-US data transfer agreement",
+        "url": "https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "Max Schrems prévoit de poursuivre pour annuler l'accord de transfert de données entre l'UE et les États-Unis.",
+        "published_at": "2026-07-02T16:50:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 42,
+    "items_selected": 14,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 8,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
