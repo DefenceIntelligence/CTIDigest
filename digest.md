@@ -1,103 +1,107 @@
-# 🛡️ ARGOS CTI Digest — 2 juillet 2026
+# 🛡️ ARGOS CTI Digest — 3 juillet 2026
 
-> Généré le 02/07/2026 à 02:01 UTC  ·  94 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 03/07/2026 à 02:01 UTC  ·  42 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands](https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html)
-**Source :** The Hacker News  **Publié :** 01/07/2026 20:12 UTC  **CVE :** `CVE-2026-50548`, `CVE-2026-50549`
-`cve` `malware` `vulnerability`
-Deux vulnérabilités dans Cursor, un éditeur de code IA, pourraient permettre l'exécution arbitraire de commandes sur une machine via des entrées prompt. Ces vulnérabilités sont nommées DuneSlide et ont respectivement le CVE-2026-50548 et CVE-2026-50549.
+### [Gardyn IoT Hub](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03)
+**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-54477`, `CVE-2026-13768`, `CVE-2026-55726`
+`cve` `vulnerability`
+Des vulnérabilités affectent diverses versions de Gardyn IoT Hub, permettant l'accès non authentifié et le contrôle des appareils.
 
 ---
 
-### [Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts](https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html)
-**Source :** The Hacker News  **Publié :** 01/07/2026 19:26 UTC  **CVE :** `CVE-2026-8037`
-`cve` `malware` `patch` `vulnerability`
-Une vulnérabilité critique impactant Progress Kemp LoadMaster est exploité activement, selon un avis de eSentire. La failleCVE-2026-8037 permet une injection d'ordres système et pourrait être utilisée pour obtenir des privilèges complets.
+### [ST Engineering iDirect iQ-Series Terminals](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01)
+**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-38059`, `CVE-2026-38057`
+`cve` `vulnerability`
+Des vulnérabilités dans les terminaux ST Engineering iDirect iQ-Series permettent d'obtenir un accès non autorisé ou de provoquer une panne.
 
 ---
 
-### [Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service](https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html)
-**Source :** The Hacker News  **Publié :** 01/07/2026 09:24 UTC  **CVE :** `CVE-2026-8451`
-`cve` `patch` `vulnerability`
-Citrix a corrigé six vulnérabilités dans NetScaler ADC et Gateway qui permettent de lire des fichiers arbitrairement ou d'engendrer une condition DoS. Ces vulnérabilités ont respectivement le CVE-2026-8451, CVE-2026-8453, CVE-2026-8454, CVE-2026-8457, CVE-2026-8459 et CVE-2026-8460.
+### [CubeSpace CW0057 Reaction Wheel](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02)
+**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-13743`
+`cve` `vulnerability`
+Des vulnérabilités dans le CubeSpace CW0057 Reaction Wheel permettent l'upload de firmware malveillant.
 
 ---
 
-### [Cyber Brief 26-07 - June 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-07/)
-**Source :** CERT-EU  **Publié :** 01/07/2026 16:00 UTC
-`cve`
-Des menaces inconnues utilisent ScreenConnect pour déployer AsyncRAT. Des installateurs malveillants, masquant des logiciels populaires, sont distribués via des sites Web trompeurs.
+### [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
+**Source :** The Hacker News  **Publié :** 03/07/2026 00:00 UTC  **CVE :** `CVE-2025-5777`
+`apt` `cve` `malware` `ransomware` `vulnerability`
+Les acteurs du ransomware exploitent la vulnérabilité Citrix Bleed 2 pour obtenir un accès initial.
+
+---
+
+### [SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation](https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html)
+**Source :** The Hacker News  **Publié :** 02/07/2026 11:16 UTC  **CVE :** `CVE-2026-45659`
+`cve` `vulnerability`
+La vulnérabilité CVE-2026-45659 dans Microsoft SharePoint a été ajoutée aux vulnérabilités exploitées activement par CISA.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT](https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html)
-**Source :** The Hacker News  **Publié :** 01/07/2026 23:23 UTC
-`apt` `malware`
-Un nouveau châtiment multi-stade utilise le blogger pour diffuser PureLogs, un vol de données. Des payloads initiaux sont distribués via des courriels ciblés ou une compromission par drive-by.
+### [ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories](https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html)
+**Source :** The Hacker News  **Publié :** 02/07/2026 20:54 UTC
+`ransomware` `vulnerability`
+Des faiblesses sont observées dans divers systèmes, révélant des petits trous de sécurité exploitables.
 
 ---
 
-### [VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer](https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html)
-**Source :** The Hacker News  **Publié :** 01/07/2026 22:48 UTC
-`breach` `malware` `phishing`
-Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs.
-
-The activity has been codenamed VEIL#DROP by Securonix. It's suspected that the initial payloads are distributed e
+### [FBI Seizes NetNut Proxy Platform, Popa Botnet](https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/)
+**Source :** Krebs on Security  **Publié :** 02/07/2026 19:27 UTC
+`breach` `malware`
+L'FBI a saisi plusieurs domaines associés au service NetNut et à la botnet Popa.
 
 ---
 
-### [🏴‍☠️ Medusalocker has just published a new victim : Penticton and District Society for Community Living](https://www.ransomware.live/id/UGVudGljdG9uIGFuZCBEaXN0cmljdCBTb2NpZXR5IGZvciBDb21tdW5pdHkgTGl2aW5nQG1lZHVzYWxvY2tlcg==)
-**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:28 UTC
+### [ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)
+**Source :** The Hacker News  **Publié :** 02/07/2026 18:34 UTC
+`apt` `breach` `malware`
+Le malware Umbrij attribué à ToddyCat utilise OAuth pour accéder aux comptes Gmail via l'API Google.
+
+---
+
+### [Catan and Mouse](https://blog.talosintelligence.com/catan-and-mouse/)
+**Source :** Cisco Talos  **Publié :** 02/07/2026 18:00 UTC
+`apt` `cve` `malware`
+Un article explore la relation entre les jeux de société et la cybersécurité, soulignant l'importance de la curiosité chez les défenseurs.
+
+---
+
+### [Identity Lifecycle Management Wasn't Built for AI Agents](https://thehackernews.com/2026/07/identity-lifecycle-management.html)
+**Source :** The Hacker News  **Publié :** 02/07/2026 17:00 UTC
 `malware`
-Medusalocker a ciblé la Penticton and District Society for Community Living, une organisation caritative canadienne dans la Colombie-Britannique.
+Le guide discute des limitations du gestionnaire de cycle d'identité face à l'IA, soulignant des points faibles dans le modèle traditionnel.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Keywest Projects](https://www.ransomware.live/id/S2V5d2VzdCBQcm9qZWN0c0B0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
+### [🏴‍☠️ Incransom has just published a new victim : tambasa.com](https://www.ransomware.live/id/dGFtYmFzYS5jb21AaW5jcmFuc29t)
+**Source :** Ransomware.live News  **Publié :** 02/07/2026 16:55 UTC
 `malware`
-Thegentlemen a visé Keywest Projects, une entreprise de génie civil basée à Calgary. Cette cible travaille principalement dans l'énergie et le gaz en Amérique du Nord.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Royal Thai Navy Housing Cooperative](https://www.ransomware.live/id/Um95YWwgVGhhaSBOYXZ5IEhvdXNpbmcgQ29vcGVyYXRpdmVAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
-`malware`
-Thegentlemen a ciblé la Royal Thai Navy Housing Cooperative, un organisme de logement pour le personnel naval basé à Bangkok.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : CTM India Limited motherson INDIA](https://www.ransomware.live/id/Q1RNIEluZGlhIExpbWl0ZWQgbW90aGVyc29uIElORElBQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 01/07/2026 22:24 UTC
-`malware`
-Thegentlemen a visé CTM India Limited, une entreprise de la Machine Manufaturing Group située à New Delhi. Cette cible produit des équipements spécialisés pour le secteur industriel.
+Tambasa Atacadistas, une grande distributeur B2B brésilien, est victime d'un incident de cryptotortion.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Teen suspect in Scattered Spider hacks is extradited to US](https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us)
-**Source :** The Record  **Publié :** 01/07/2026 20:13 UTC  **Score :** 35
+### 1. [🏴‍☠️ Anubis has just published a new victim : Northeast Pediatrics & Adolescent Medicine](https://www.ransomware.live/id/Tm9ydGhlYXN0IFBlZGlhdHJpY3MgJiBBZG9sZXNjZW50IE1lZGljaW5lQGFudWJpcw==)
+**Source :** Ransomware.live News  **Publié :** 02/07/2026 03:21 UTC  **Score :** 20
 `breach`
-Un青少年被引渡至美国，涉嫌参与2025年对一家奢侈品珠宝零售商的网络攻击事件。
+Une fuite de données affecte le personnel et les patients d'une clinique pédiatrique.
 
-### 2. [Japanese insurer, brewer, manufacturer and telecom disclose cyber breaches](https://therecord.media/japan-cyber-breaches-aflac-sapporo-nidec-kddi)
-**Source :** The Record  **Publié :** 01/07/2026 13:10 UTC  **Score :** 35
-`breach`
-多家日本公司近期披露了数据泄露事件，包括保险公司Aflac和啤酒制造商Sapporo。
+### 2. [Launch of UK's National Cyber Action Plan delayed amid Labour leadership crisis](https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed)
+**Source :** The Record  **Publié :** 02/07/2026 20:32 UTC  **Score :** 15
+`cve`
+La mise en œuvre du plan national britannique de cybersécurité est reportée en raison des troubles au sein du parti travailliste.
 
-### 3. [Webinar: Why traditional email security is no longer enough](https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/)
-**Source :** Bleeping Computer  **Publié :** 01/07/2026 12:54 UTC  **Score :** 35
-`breach` `cve` `phishing`
-传统电子邮件安全已不足以应对现代网络钓鱼、商务邮件欺诈和账户接管攻击，行为AI有望帮助组织自动化检测与响应。
+### 3. [Supreme Court decision threatens EU-US data transfer agreement](https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing)
+**Source :** The Record  **Publié :** 02/07/2026 16:50 UTC  **Score :** 15
+Max Schrems prévoit de poursuivre pour annuler l'accord de transfert de données entre l'UE et les États-Unis.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-02.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-03.md`*
