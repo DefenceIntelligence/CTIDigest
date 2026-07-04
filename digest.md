@@ -1,107 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 3 juillet 2026
+# 🛡️ ARGOS CTI Digest — 4 juillet 2026
 
-> Généré le 03/07/2026 à 02:01 UTC  ·  42 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 04/07/2026 à 02:00 UTC  ·  23 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Gardyn IoT Hub](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-03)
-**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-54477`, `CVE-2026-13768`, `CVE-2026-55726`
+### [New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android](https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 04/07/2026 01:10 UTC  **CVE :** `CVE-2026-46242`
 `cve` `vulnerability`
-Des vulnérabilités affectent diverses versions de Gardyn IoT Hub, permettant l'accès non authentifié et le contrôle des appareils.
-
----
-
-### [ST Engineering iDirect iQ-Series Terminals](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-01)
-**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-38059`, `CVE-2026-38057`
-`cve` `vulnerability`
-Des vulnérabilités dans les terminaux ST Engineering iDirect iQ-Series permettent d'obtenir un accès non autorisé ou de provoquer une panne.
-
----
-
-### [CubeSpace CW0057 Reaction Wheel](https://www.cisa.gov/news-events/ics-advisories/icsa-26-183-02)
-**Source :** CISA Advisories  **Publié :** 02/07/2026 12:00 UTC  **CVE :** `CVE-2026-13743`
-`cve` `vulnerability`
-Des vulnérabilités dans le CubeSpace CW0057 Reaction Wheel permettent l'upload de firmware malveillant.
-
----
-
-### [Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
-**Source :** The Hacker News  **Publié :** 03/07/2026 00:00 UTC  **CVE :** `CVE-2025-5777`
-`apt` `cve` `malware` `ransomware` `vulnerability`
-Les acteurs du ransomware exploitent la vulnérabilité Citrix Bleed 2 pour obtenir un accès initial.
-
----
-
-### [SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation](https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html)
-**Source :** The Hacker News  **Publié :** 02/07/2026 11:16 UTC  **CVE :** `CVE-2026-45659`
-`cve` `vulnerability`
-La vulnérabilité CVE-2026-45659 dans Microsoft SharePoint a été ajoutée aux vulnérabilités exploitées activement par CISA.
+Une vulnérabilité critique dans le noyau Linux appelée Bad Epoll (CVE-2026-46242) permet à un utilisateur non privilégié de devenir root. Elle affecte les systèmes Linux, serveurs et Android.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories](https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html)
-**Source :** The Hacker News  **Publié :** 02/07/2026 20:54 UTC
-`ransomware` `vulnerability`
-Des faiblesses sont observées dans divers systèmes, révélant des petits trous de sécurité exploitables.
+### [New Avalon Malware Framework Packs CrownX Ransomware Capabilities](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
+**Source :** The Hacker News  **Publié :** 04/07/2026 00:25 UTC
+`malware` `phishing` `ransomware`
+Le framework malveillant Avalon, inconnu jusqu'à présent, combine des fonctions telles que la collecte de mots de passe, le mouvement latéral et l'exécution de rançon logiciel.
 
 ---
 
-### [FBI Seizes NetNut Proxy Platform, Popa Botnet](https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/)
-**Source :** Krebs on Security  **Publié :** 02/07/2026 19:27 UTC
+### [North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets](https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html)
+**Source :** The Hacker News  **Publié :** 03/07/2026 21:37 UTC
+`apt`
+Des packages npm malveillants apparentés à la Corée du Nord simulent des polyfills Rollup pour voler les informations des développeurs.
+
+---
+
+### [Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer](https://thehackernews.com/2026/07/armored-likho-targets-government.html)
+**Source :** The Hacker News  **Publié :** 03/07/2026 19:06 UTC
+`apt`
+Le groupe Armored Likho, attribué aux attaques contre l'industrie énergétique et le secteur public en Russie, au Brésil et au Kazakhstan, utilise un logiciel volant nommé BusySnake.
+
+---
+
+### [NetNut proxy network disrupted, 2 million infected devices cut off](https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/)
+**Source :** Bleeping Computer  **Publié :** 03/07/2026 13:50 UTC
 `breach` `malware`
-L'FBI a saisi plusieurs domaines associés au service NetNut et à la botnet Popa.
+Un réseau de proxy résidentiel nommé NetNut a été dissout par une opération conjointe avec Google, empêchant l'accès à 2 millions d'appareils infectés.
 
 ---
 
-### [ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)
-**Source :** The Hacker News  **Publié :** 02/07/2026 18:34 UTC
-`apt` `breach` `malware`
-Le malware Umbrij attribué à ToddyCat utilise OAuth pour accéder aux comptes Gmail via l'API Google.
+### [🏴‍☠️ Apt73 has just published a new victim : aydeniz.com](https://www.ransomware.live/id/YXlkZW5pei5jb21AYXB0NzM=)
+**Source :** Ransomware.live News  **Publié :** 03/07/2026 12:22 UTC
+`apt` `malware`
+Le groupe Aydeniz, lié aux cybersécurité, a été identifié comme nouveau cible de l'APT73.
 
 ---
 
-### [Catan and Mouse](https://blog.talosintelligence.com/catan-and-mouse/)
-**Source :** Cisco Talos  **Publié :** 02/07/2026 18:00 UTC
-`apt` `cve` `malware`
-Un article explore la relation entre les jeux de société et la cybersécurité, soulignant l'importance de la curiosité chez les défenseurs.
-
----
-
-### [Identity Lifecycle Management Wasn't Built for AI Agents](https://thehackernews.com/2026/07/identity-lifecycle-management.html)
-**Source :** The Hacker News  **Publié :** 02/07/2026 17:00 UTC
-`malware`
-Le guide discute des limitations du gestionnaire de cycle d'identité face à l'IA, soulignant des points faibles dans le modèle traditionnel.
-
----
-
-### [🏴‍☠️ Incransom has just published a new victim : tambasa.com](https://www.ransomware.live/id/dGFtYmFzYS5jb21AaW5jcmFuc29t)
-**Source :** Ransomware.live News  **Publié :** 02/07/2026 16:55 UTC
-`malware`
-Tambasa Atacadistas, une grande distributeur B2B brésilien, est victime d'un incident de cryptotortion.
+### [ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit](https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/)
+**Source :** Bleeping Computer  **Publié :** 03/07/2026 10:12 UTC
+`breach` `malware` `phishing`
+La plateforme PhaaS ARToken expose un kit de phishing avancé utilisé par EvilTokens pour compromettre Microsoft 365.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Anubis has just published a new victim : Northeast Pediatrics & Adolescent Medicine](https://www.ransomware.live/id/Tm9ydGhlYXN0IFBlZGlhdHJpY3MgJiBBZG9sZXNjZW50IE1lZGljaW5lQGFudWJpcw==)
-**Source :** Ransomware.live News  **Publié :** 02/07/2026 03:21 UTC  **Score :** 20
+### 1. [Moody Bible Institute - 2,303,416 breached accounts](https://haveibeenpwned.com/Breach/MoodyBibleInstitute)
+**Source :** Have I Been Pwned  **Publié :** 03/07/2026 16:03 UTC  **Score :** 25
 `breach`
-Une fuite de données affecte le personnel et les patients d'une clinique pédiatrique.
+Une fuite de données à Moody Bible Institute a exposé les informations personnelles de plus de 2,3 millions d'individus, y compris des donateurs et des anciens étudiants.
 
-### 2. [Launch of UK's National Cyber Action Plan delayed amid Labour leadership crisis](https://therecord.media/launch-of-uk-national-cyber-action-plan-delayed)
-**Source :** The Record  **Publié :** 02/07/2026 20:32 UTC  **Score :** 15
-`cve`
-La mise en œuvre du plan national britannique de cybersécurité est reportée en raison des troubles au sein du parti travailliste.
+### 2. [Spyware found on phone of European Parliament member probing it](https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member)
+**Source :** The Record  **Publié :** 03/07/2026 05:00 UTC  **Score :** 15
+Stelios Kouloglou, ancien membre de la commission d'enquête de l'European Parliament sur les espions commerciaux, a été infecté par Pegasus deux fois.
 
-### 3. [Supreme Court decision threatens EU-US data transfer agreement](https://therecord.media/supreme-court-decision-threatens-eu-us-data-sharing)
-**Source :** The Record  **Publié :** 02/07/2026 16:50 UTC  **Score :** 15
-Max Schrems prévoit de poursuivre pour annuler l'accord de transfert de données entre l'UE et les États-Unis.
+### 3. [Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html)
+**Source :** The Hacker News  **Publié :** 04/07/2026 01:49 UTC  **Score :** 5
+`vulnerability`
+La société runZero a révélé sept vulnérabilités critiques dans FatFs, un système de fichiers utilisé sur des milliers d'appareils électroniques.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-03.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-04.md`*
