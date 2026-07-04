@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T02:00:59.234946+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "4d113a3798564ab1",
+        "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+        "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-46242"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans le noyau Linux appelée Bad Epoll (CVE-2026-46242) permet à un utilisateur non privilégié de devenir root. Elle affecte les systèmes Linux, serveurs et Android.",
+        "published_at": "2026-07-04T01:10:01",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "ffc32886fcc7b29b",
+        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+        "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing",
+          "ransomware"
+        ],
+        "summary": "Le framework malveillant Avalon, inconnu jusqu'à présent, combine des fonctions telles que la collecte de mots de passe, le mouvement latéral et l'exécution de rançon logiciel.",
+        "published_at": "2026-07-04T00:25:24",
+        "score": 27
+      },
+      {
+        "guid": "8f4f1d03d5078449",
+        "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+        "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des packages npm malveillants apparentés à la Corée du Nord simulent des polyfills Rollup pour voler les informations des développeurs.",
+        "published_at": "2026-07-03T21:37:15",
+        "score": 5
+      },
+      {
+        "guid": "7714f98e61f92eaa",
+        "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+        "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Le groupe Armored Likho, attribué aux attaques contre l'industrie énergétique et le secteur public en Russie, au Brésil et au Kazakhstan, utilise un logiciel volant nommé BusySnake.",
+        "published_at": "2026-07-03T19:06:33",
+        "score": 5
+      },
+      {
+        "guid": "57dd9e5cf013ef8f",
+        "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+        "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Un réseau de proxy résidentiel nommé NetNut a été dissout par une opération conjointe avec Google, empêchant l'accès à 2 millions d'appareils infectés.",
+        "published_at": "2026-07-03T13:50:04",
+        "score": 37
+      },
+      {
+        "guid": "92606384531f799b",
+        "title": "🏴‍☠️ Apt73 has just published a new victim : aydeniz.com",
+        "url": "https://www.ransomware.live/id/YXlkZW5pei5jb21AYXB0NzM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Le groupe Aydeniz, lié aux cybersécurité, a été identifié comme nouveau cible de l'APT73.",
+        "published_at": "2026-07-03T12:22:02",
+        "score": 12
+      },
+      {
+        "guid": "aec3e7c8d1583362",
+        "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+        "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "phishing"
+        ],
+        "summary": "La plateforme PhaaS ARToken expose un kit de phishing avancé utilisé par EvilTokens pour compromettre Microsoft 365.",
+        "published_at": "2026-07-03T10:12:22",
+        "score": 47
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "26a68fc179109d6e",
+        "title": "Moody Bible Institute - 2,303,416 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/MoodyBibleInstitute",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données à Moody Bible Institute a exposé les informations personnelles de plus de 2,3 millions d'individus, y compris des donateurs et des anciens étudiants.",
+        "published_at": "2026-07-03T16:03:25",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "efc59e6f1aef12e9",
+        "title": "Spyware found on phone of European Parliament member probing it",
+        "url": "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "Stelios Kouloglou, ancien membre de la commission d'enquête de l'European Parliament sur les espions commerciaux, a été infecté par Pegasus deux fois.",
+        "published_at": "2026-07-03T05:00:00",
+        "score": 15,
+        "rank": 2
+      },
+      {
+        "guid": "f5a7e055db3ba97c",
+        "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+        "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "La société runZero a révélé sept vulnérabilités critiques dans FatFs, un système de fichiers utilisé sur des milliers d'appareils électroniques.",
+        "published_at": "2026-07-04T01:49:31",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 23,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
