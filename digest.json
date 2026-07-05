@@ -1,172 +1,108 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-04",
-  "generated_at": "2026-07-04T02:00:59.234946+00:00",
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T02:00:40.854430+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "4d113a3798564ab1",
-        "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-        "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-46242"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité critique dans le noyau Linux appelée Bad Epoll (CVE-2026-46242) permet à un utilisateur non privilégié de devenir root. Elle affecte les systèmes Linux, serveurs et Android.",
-        "published_at": "2026-07-04T01:10:01",
-        "score": 20
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "ffc32886fcc7b29b",
-        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-        "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+        "guid": "d3d21be9d62f9a9b",
+        "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+        "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
         "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "phishing",
-          "ransomware"
-        ],
-        "summary": "Le framework malveillant Avalon, inconnu jusqu'à présent, combine des fonctions telles que la collecte de mots de passe, le mouvement latéral et l'exécution de rançon logiciel.",
-        "published_at": "2026-07-04T00:25:24",
-        "score": 27
-      },
-      {
-        "guid": "8f4f1d03d5078449",
-        "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
-        "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt"
-        ],
-        "summary": "Des packages npm malveillants apparentés à la Corée du Nord simulent des polyfills Rollup pour voler les informations des développeurs.",
-        "published_at": "2026-07-03T21:37:15",
-        "score": 5
-      },
-      {
-        "guid": "7714f98e61f92eaa",
-        "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-        "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt"
-        ],
-        "summary": "Le groupe Armored Likho, attribué aux attaques contre l'industrie énergétique et le secteur public en Russie, au Brésil et au Kazakhstan, utilise un logiciel volant nommé BusySnake.",
-        "published_at": "2026-07-03T19:06:33",
-        "score": 5
-      },
-      {
-        "guid": "57dd9e5cf013ef8f",
-        "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-        "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "malware"
+          "ransomware"
         ],
-        "summary": "Un réseau de proxy résidentiel nommé NetNut a été dissout par une opération conjointe avec Google, empêchant l'accès à 2 millions d'appareils infectés.",
-        "published_at": "2026-07-03T13:50:04",
-        "score": 37
+        "summary": "Un entité gouvernementale américaine a payé environ un million de dollars pour empêcher la diffusion de données volées, selon une étude de cas de Rakesh Krishnan sur Ransom-ISAC.",
+        "published_at": "2026-07-04T18:17:53",
+        "score": 25
       },
       {
-        "guid": "92606384531f799b",
-        "title": "🏴‍☠️ Apt73 has just published a new victim : aydeniz.com",
-        "url": "https://www.ransomware.live/id/YXlkZW5pei5jb21AYXB0NzM=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "031f434ed3192f31",
+        "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+        "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "malware"
+          "breach",
+          "ransomware"
         ],
-        "summary": "Le groupe Aydeniz, lié aux cybersécurité, a été identifié comme nouveau cible de l'APT73.",
-        "published_at": "2026-07-03T12:22:02",
-        "score": 12
+        "summary": "Les acteurs à risque liés au campagne Contagious Interview, attribuée aux Coréens du Nord, ont publié 108 paquets et extensions malveillants sur npm, Packagist, Go et Google Chrome.",
+        "published_at": "2026-07-04T16:47:24",
+        "score": 25
       },
       {
-        "guid": "aec3e7c8d1583362",
-        "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-        "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+        "guid": "cefab922ae75a313",
+        "title": "JadePuffer ransomware used AI agent to automate entire attack",
+        "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
           "malware",
-          "phishing"
+          "ransomware"
         ],
-        "summary": "La plateforme PhaaS ARToken expose un kit de phishing avancé utilisé par EvilTokens pour compromettre Microsoft 365.",
-        "published_at": "2026-07-03T10:12:22",
-        "score": 47
+        "summary": "Des chercheurs ont identifié la première opération de rançonnière, JadePuffer, entièrement dirigée par un agent d'apprentissage en profondeur.",
+        "published_at": "2026-07-04T10:16:38",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "26a68fc179109d6e",
-        "title": "Moody Bible Institute - 2,303,416 breached accounts",
-        "url": "https://haveibeenpwned.com/Breach/MoodyBibleInstitute",
-        "source": "Have I Been Pwned",
-        "category": "Général",
+        "guid": "7e7bf028dcdaa88d",
+        "title": "🏴‍☠️ Wallstreet has just published a new victim : Gold Standard Automotive",
+        "url": "https://www.ransomware.live/id/R29sZCBTdGFuZGFyZCBBdXRvbW90aXZlQFdhbGxzdHJlZXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Une fuite de données à Moody Bible Institute a exposé les informations personnelles de plus de 2,3 millions d'individus, y compris des donateurs et des anciens étudiants.",
-        "published_at": "2026-07-03T16:03:25",
-        "score": 25,
+        "tags": [],
+        "summary": "WallStreet a récemment ciblé Gold Standard Automotive Network, une entreprise qui administre des contrats de service pour les voitures après la garantie d'usine.",
+        "published_at": "2026-07-04T20:50:52",
+        "score": 0,
         "rank": 1
       },
       {
-        "guid": "efc59e6f1aef12e9",
-        "title": "Spyware found on phone of European Parliament member probing it",
-        "url": "https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "99202cacf7ea8c2d",
+        "title": "🏴‍☠️ Wallstreet has just published a new victim : Baraga County Memorial Hospital",
+        "url": "https://www.ransomware.live/id/QmFyYWdhIENvdW50eSBNZW1vcmlhbCBIb3NwaXRhbEBXYWxsc3RyZWV0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Stelios Kouloglou, ancien membre de la commission d'enquête de l'European Parliament sur les espions commerciaux, a été infecté par Pegasus deux fois.",
-        "published_at": "2026-07-03T05:00:00",
-        "score": 15,
+        "summary": "WallStreet a également ciblé Baraga County Memorial Hospital, un hôpital crucial dans le comté de Baraga offrant des soins urgents et d'autres services médicaux.",
+        "published_at": "2026-07-04T20:50:32",
+        "score": 0,
         "rank": 2
       },
       {
-        "guid": "f5a7e055db3ba97c",
-        "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-        "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "cfdb0d7c2ef4b91b",
+        "title": "🏴‍☠️ Wallstreet has just published a new victim : Edgewood Police Department",
+        "url": "https://www.ransomware.live/id/RWRnZXdvb2QgUG9saWNlIERlcGFydG1lbnRAV2FsbHN0cmVldA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "vulnerability"
+          "cve"
         ],
-        "summary": "La société runZero a révélé sept vulnérabilités critiques dans FatFs, un système de fichiers utilisé sur des milliers d'appareils électroniques.",
-        "published_at": "2026-07-04T01:49:31",
-        "score": 5,
+        "summary": "WallStreet a récemment attaqué l'Edgewood Police Department, une division de la Pierce County Sheriff’s Department fournissant des services d'assistance publique et de police.",
+        "published_at": "2026-07-04T18:20:51",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 23,
-    "items_selected": 10,
+    "items_analyzed": 10,
+    "items_selected": 6,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
