@@ -1,79 +1,52 @@
-# 🛡️ ARGOS CTI Digest — 4 juillet 2026
+# 🛡️ ARGOS CTI Digest — 5 juillet 2026
 
-> Généré le 04/07/2026 à 02:00 UTC  ·  23 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 05/07/2026 à 02:00 UTC  ·  10 items analysés  ·  6 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android](https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 04/07/2026 01:10 UTC  **CVE :** `CVE-2026-46242`
-`cve` `vulnerability`
-Une vulnérabilité critique dans le noyau Linux appelée Bad Epoll (CVE-2026-46242) permet à un utilisateur non privilégié de devenir root. Elle affecte les systèmes Linux, serveurs et Android.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [New Avalon Malware Framework Packs CrownX Ransomware Capabilities](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
-**Source :** The Hacker News  **Publié :** 04/07/2026 00:25 UTC
-`malware` `phishing` `ransomware`
-Le framework malveillant Avalon, inconnu jusqu'à présent, combine des fonctions telles que la collecte de mots de passe, le mouvement latéral et l'exécution de rançon logiciel.
+### [U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
+**Source :** The Hacker News  **Publié :** 04/07/2026 18:17 UTC
+`breach` `ransomware`
+Un entité gouvernementale américaine a payé environ un million de dollars pour empêcher la diffusion de données volées, selon une étude de cas de Rakesh Krishnan sur Ransom-ISAC.
 
 ---
 
-### [North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets](https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html)
-**Source :** The Hacker News  **Publié :** 03/07/2026 21:37 UTC
-`apt`
-Des packages npm malveillants apparentés à la Corée du Nord simulent des polyfills Rollup pour voler les informations des développeurs.
+### [North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html)
+**Source :** The Hacker News  **Publié :** 04/07/2026 16:47 UTC
+`apt` `breach` `ransomware`
+Les acteurs à risque liés au campagne Contagious Interview, attribuée aux Coréens du Nord, ont publié 108 paquets et extensions malveillants sur npm, Packagist, Go et Google Chrome.
 
 ---
 
-### [Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer](https://thehackernews.com/2026/07/armored-likho-targets-government.html)
-**Source :** The Hacker News  **Publié :** 03/07/2026 19:06 UTC
-`apt`
-Le groupe Armored Likho, attribué aux attaques contre l'industrie énergétique et le secteur public en Russie, au Brésil et au Kazakhstan, utilise un logiciel volant nommé BusySnake.
-
----
-
-### [NetNut proxy network disrupted, 2 million infected devices cut off](https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/)
-**Source :** Bleeping Computer  **Publié :** 03/07/2026 13:50 UTC
-`breach` `malware`
-Un réseau de proxy résidentiel nommé NetNut a été dissout par une opération conjointe avec Google, empêchant l'accès à 2 millions d'appareils infectés.
-
----
-
-### [🏴‍☠️ Apt73 has just published a new victim : aydeniz.com](https://www.ransomware.live/id/YXlkZW5pei5jb21AYXB0NzM=)
-**Source :** Ransomware.live News  **Publié :** 03/07/2026 12:22 UTC
-`apt` `malware`
-Le groupe Aydeniz, lié aux cybersécurité, a été identifié comme nouveau cible de l'APT73.
-
----
-
-### [ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit](https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/)
-**Source :** Bleeping Computer  **Publié :** 03/07/2026 10:12 UTC
-`breach` `malware` `phishing`
-La plateforme PhaaS ARToken expose un kit de phishing avancé utilisé par EvilTokens pour compromettre Microsoft 365.
+### [JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
+**Source :** Bleeping Computer  **Publié :** 04/07/2026 10:16 UTC
+`malware` `ransomware`
+Des chercheurs ont identifié la première opération de rançonnière, JadePuffer, entièrement dirigée par un agent d'apprentissage en profondeur.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Moody Bible Institute - 2,303,416 breached accounts](https://haveibeenpwned.com/Breach/MoodyBibleInstitute)
-**Source :** Have I Been Pwned  **Publié :** 03/07/2026 16:03 UTC  **Score :** 25
-`breach`
-Une fuite de données à Moody Bible Institute a exposé les informations personnelles de plus de 2,3 millions d'individus, y compris des donateurs et des anciens étudiants.
+### 1. [🏴‍☠️ Wallstreet has just published a new victim : Gold Standard Automotive](https://www.ransomware.live/id/R29sZCBTdGFuZGFyZCBBdXRvbW90aXZlQFdhbGxzdHJlZXQ=)
+**Source :** Ransomware.live News  **Publié :** 04/07/2026 20:50 UTC  **Score :** 0
+WallStreet a récemment ciblé Gold Standard Automotive Network, une entreprise qui administre des contrats de service pour les voitures après la garantie d'usine.
 
-### 2. [Spyware found on phone of European Parliament member probing it](https://therecord.media/pegasus-spyware-european-parliament-pega-committee-member)
-**Source :** The Record  **Publié :** 03/07/2026 05:00 UTC  **Score :** 15
-Stelios Kouloglou, ancien membre de la commission d'enquête de l'European Parliament sur les espions commerciaux, a été infecté par Pegasus deux fois.
+### 2. [🏴‍☠️ Wallstreet has just published a new victim : Baraga County Memorial Hospital](https://www.ransomware.live/id/QmFyYWdhIENvdW50eSBNZW1vcmlhbCBIb3NwaXRhbEBXYWxsc3RyZWV0)
+**Source :** Ransomware.live News  **Publié :** 04/07/2026 20:50 UTC  **Score :** 0
+WallStreet a également ciblé Baraga County Memorial Hospital, un hôpital crucial dans le comté de Baraga offrant des soins urgents et d'autres services médicaux.
 
-### 3. [Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html)
-**Source :** The Hacker News  **Publié :** 04/07/2026 01:49 UTC  **Score :** 5
-`vulnerability`
-La société runZero a révélé sept vulnérabilités critiques dans FatFs, un système de fichiers utilisé sur des milliers d'appareils électroniques.
+### 3. [🏴‍☠️ Wallstreet has just published a new victim : Edgewood Police Department](https://www.ransomware.live/id/RWRnZXdvb2QgUG9saWNlIERlcGFydG1lbnRAV2FsbHN0cmVldA==)
+**Source :** Ransomware.live News  **Publié :** 04/07/2026 18:20 UTC  **Score :** 0
+`cve`
+WallStreet a récemment attaqué l'Edgewood Police Department, une division de la Pierce County Sheriff’s Department fournissant des services d'assistance publique et de police.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-04.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-05.md`*
