@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T02:00:36.800038+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "d966abf957747c17",
+        "title": "🏴‍☠️ Payload has just published a new victim : ENB Versich",
+        "url": "https://www.ransomware.live/id/RU5CIFZlcnNpY2hAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ENB Versich est une nouvelle victime d'une attaque.",
+        "published_at": "2026-07-05T21:36:46",
+        "score": 12
+      },
+      {
+        "guid": "69f4b0c6ecae5759",
+        "title": "🏴‍☠️ Payload has just published a new victim : Vela Film S.r.l.",
+        "url": "https://www.ransomware.live/id/VmVsYSBGaWxtIFMuci5sLkBwYXlsb2Fk",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Vela Film S.r.l. est une société italienne de production cinématographique basée à Rome, impliquée dans la création et la production de projets médiatiques.",
+        "published_at": "2026-07-05T14:04:22",
+        "score": 12
+      },
+      {
+        "guid": "a46f41cde272c33c",
+        "title": "🏴‍☠️ Genesis has just published a new victim : Bri-Tech, Inc",
+        "url": "https://www.ransomware.live/id/QnJpLVRlY2gsIEluY0BnZW5lc2lz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Bri-Tech Inc est une nouvelle victime d'Genesis, une entreprise spécialisée en conception et intégration technologique.",
+        "published_at": "2026-07-05T13:57:47",
+        "score": 12
+      },
+      {
+        "guid": "f81ee26dc19b73aa",
+        "title": "Flipper Zero firmware development continues with community help",
+        "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Le développement du firmware de Flipper Zero continue avec l'aide de la communauté.",
+        "published_at": "2026-07-05T10:14:52",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "1f40091f98c47135",
+        "title": "🏴‍☠️ Genesis has just published a new victim : Apex Agro, LLC",
+        "url": "https://www.ransomware.live/id/QXBleCBBZ3JvLCBMTENAZ2VuZXNpcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Apex Agro, LLC est une nouvelle victime d'Genesis, une société de production chimique.",
+        "published_at": "2026-07-05T13:59:07",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "guid": "e244e681c7171d09",
+        "title": "🏴‍☠️ Genesis has just published a new victim : Mirage Endoscopy Center",
+        "url": "https://www.ransomware.live/id/TWlyYWdlIEVuZG9zY29weSBDZW50ZXJAZ2VuZXNpcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Mirage Endoscopy Center est une nouvelle victime d'Genesis, une organisation de santé.",
+        "published_at": "2026-07-05T13:58:29",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "3bc2a47474228f28",
+        "title": "🏴‍☠️ Genesis has just published a new victim : SBI Software",
+        "url": "https://www.ransomware.live/id/U0JJIFNvZnR3YXJlQGdlbmVzaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "SBI Software est une nouvelle victime d'Genesis, une entreprise fournissant des logiciels d'ingénierie des ressources électroniques.",
+        "published_at": "2026-07-05T13:57:09",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 12,
+    "items_selected": 7,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
