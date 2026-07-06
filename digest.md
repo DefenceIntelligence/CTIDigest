@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 5 juillet 2026
+# 🛡️ ARGOS CTI Digest — 6 juillet 2026
 
-> Généré le 05/07/2026 à 02:00 UTC  ·  10 items analysés  ·  6 sélectionnés  ·  22 sources actives
+> Généré le 06/07/2026 à 02:00 UTC  ·  12 items analysés  ·  7 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,43 +10,50 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
-**Source :** The Hacker News  **Publié :** 04/07/2026 18:17 UTC
-`breach` `ransomware`
-Un entité gouvernementale américaine a payé environ un million de dollars pour empêcher la diffusion de données volées, selon une étude de cas de Rakesh Krishnan sur Ransom-ISAC.
+### [🏴‍☠️ Payload has just published a new victim : ENB Versich](https://www.ransomware.live/id/RU5CIFZlcnNpY2hAcGF5bG9hZA==)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 21:36 UTC
+`malware`
+ENB Versich est une nouvelle victime d'une attaque.
 
 ---
 
-### [North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html)
-**Source :** The Hacker News  **Publié :** 04/07/2026 16:47 UTC
-`apt` `breach` `ransomware`
-Les acteurs à risque liés au campagne Contagious Interview, attribuée aux Coréens du Nord, ont publié 108 paquets et extensions malveillants sur npm, Packagist, Go et Google Chrome.
+### [🏴‍☠️ Payload has just published a new victim : Vela Film S.r.l.](https://www.ransomware.live/id/VmVsYSBGaWxtIFMuci5sLkBwYXlsb2Fk)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 14:04 UTC
+`malware`
+Vela Film S.r.l. est une société italienne de production cinématographique basée à Rome, impliquée dans la création et la production de projets médiatiques.
 
 ---
 
-### [JadePuffer ransomware used AI agent to automate entire attack](https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/)
-**Source :** Bleeping Computer  **Publié :** 04/07/2026 10:16 UTC
-`malware` `ransomware`
-Des chercheurs ont identifié la première opération de rançonnière, JadePuffer, entièrement dirigée par un agent d'apprentissage en profondeur.
+### [🏴‍☠️ Genesis has just published a new victim : Bri-Tech, Inc](https://www.ransomware.live/id/QnJpLVRlY2gsIEluY0BnZW5lc2lz)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:57 UTC
+`malware`
+Bri-Tech Inc est une nouvelle victime d'Genesis, une entreprise spécialisée en conception et intégration technologique.
+
+---
+
+### [Flipper Zero firmware development continues with community help](https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/)
+**Source :** Bleeping Computer  **Publié :** 05/07/2026 10:14 UTC
+`ransomware`
+Le développement du firmware de Flipper Zero continue avec l'aide de la communauté.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Wallstreet has just published a new victim : Gold Standard Automotive](https://www.ransomware.live/id/R29sZCBTdGFuZGFyZCBBdXRvbW90aXZlQFdhbGxzdHJlZXQ=)
-**Source :** Ransomware.live News  **Publié :** 04/07/2026 20:50 UTC  **Score :** 0
-WallStreet a récemment ciblé Gold Standard Automotive Network, une entreprise qui administre des contrats de service pour les voitures après la garantie d'usine.
+### 1. [🏴‍☠️ Genesis has just published a new victim : Apex Agro, LLC](https://www.ransomware.live/id/QXBleCBBZ3JvLCBMTENAZ2VuZXNpcw==)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:59 UTC  **Score :** 0
+Apex Agro, LLC est une nouvelle victime d'Genesis, une société de production chimique.
 
-### 2. [🏴‍☠️ Wallstreet has just published a new victim : Baraga County Memorial Hospital](https://www.ransomware.live/id/QmFyYWdhIENvdW50eSBNZW1vcmlhbCBIb3NwaXRhbEBXYWxsc3RyZWV0)
-**Source :** Ransomware.live News  **Publié :** 04/07/2026 20:50 UTC  **Score :** 0
-WallStreet a également ciblé Baraga County Memorial Hospital, un hôpital crucial dans le comté de Baraga offrant des soins urgents et d'autres services médicaux.
+### 2. [🏴‍☠️ Genesis has just published a new victim : Mirage Endoscopy Center](https://www.ransomware.live/id/TWlyYWdlIEVuZG9zY29weSBDZW50ZXJAZ2VuZXNpcw==)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:58 UTC  **Score :** 0
+Mirage Endoscopy Center est une nouvelle victime d'Genesis, une organisation de santé.
 
-### 3. [🏴‍☠️ Wallstreet has just published a new victim : Edgewood Police Department](https://www.ransomware.live/id/RWRnZXdvb2QgUG9saWNlIERlcGFydG1lbnRAV2FsbHN0cmVldA==)
-**Source :** Ransomware.live News  **Publié :** 04/07/2026 18:20 UTC  **Score :** 0
+### 3. [🏴‍☠️ Genesis has just published a new victim : SBI Software](https://www.ransomware.live/id/U0JJIFNvZnR3YXJlQGdlbmVzaXM=)
+**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:57 UTC  **Score :** 0
 `cve`
-WallStreet a récemment attaqué l'Edgewood Police Department, une division de la Pierce County Sheriff’s Department fournissant des services d'assistance publique et de police.
+SBI Software est une nouvelle victime d'Genesis, une entreprise fournissant des logiciels d'ingénierie des ressources électroniques.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-05.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-06.md`*
