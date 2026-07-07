@@ -1,59 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 6 juillet 2026
+# 🛡️ ARGOS CTI Digest — 7 juillet 2026
 
-> Généré le 06/07/2026 à 02:00 UTC  ·  12 items analysés  ·  7 sélectionnés  ·  22 sources actives
+> Généré le 07/07/2026 à 02:01 UTC  ·  62 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems](https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html)
+**Source :** The Hacker News  **Publié :** 06/07/2026 23:07 UTC  **CVE :** `CVE-2026-53359`
+`cve` `malware` `vulnerability`
+Une faille dans KVM, le hyperviseur Linux, permet aux machines virtuelles de s’échapper vers l’hôte via un bug use-after-free. Dénommée Januscape, la vulnérabilité affecte les systèmes Intel et AMD.
+
+---
+
+### [Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure](https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html)
+**Source :** The Hacker News  **Publié :** 06/07/2026 21:58 UTC  **CVE :** `CVE-2026-20896`
+`apt` `cve` `vulnerability`
+Des acteurs menacent d’exploiter une vulnérabilité grave dans Gitea Docker (CVE-2026-20896) 13 jours après sa révélation, selon Sysdig.
+
+---
+
+### [Max severity Adobe ColdFusion flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 06/07/2026 09:18 UTC  **CVE :** `CVE-2026-48282`
+`cve` `vulnerability`
+Des attaquants exploitent une vulnérabilité critique d’Adobe ColdFusion (CVE-2026-48282) pour des opérations de piratage, selon le CCCS.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Payload has just published a new victim : ENB Versich](https://www.ransomware.live/id/RU5CIFZlcnNpY2hAcGF5bG9hZA==)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 21:36 UTC
+### [Un ado de 15 ans accusé d’attaque cyber contre Bandai Channel](https://www.zataz.com/un-ado-de-15-ans-accuse-dattaque-cyber-contre-bandai-channel/)
+**Source :** ZATAZ  **Publié :** 06/07/2026 21:59 UTC
 `malware`
-ENB Versich est une nouvelle victime d'une attaque.
+Un lycéen est accusé d’avoir lancé une attaque cyber contre Bandai Channel en utilisant ChatGPT pour créer un outil pirate.
 
 ---
 
-### [🏴‍☠️ Payload has just published a new victim : Vela Film S.r.l.](https://www.ransomware.live/id/VmVsYSBGaWxtIFMuci5sLkBwYXlsb2Fk)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 14:04 UTC
-`malware`
-Vela Film S.r.l. est une société italienne de production cinématographique basée à Rome, impliquée dans la création et la production de projets médiatiques.
+### [Canadian spy agency reports hacking three criminal groups in 2025](https://therecord.media/canada-cse-2025-cyber-operations-ransomware-drugs-extremism)
+**Source :** The Record  **Publié :** 06/07/2026 20:55 UTC
+`malware` `ransomware`
+Le Communications Security Establishment a mené des opérations offensives contre trois groupes criminels en 2025 : un gang de ransomware, un groupe extrémiste et des trafiquants de drogue.
 
 ---
 
-### [🏴‍☠️ Genesis has just published a new victim : Bri-Tech, Inc](https://www.ransomware.live/id/QnJpLVRlY2gsIEluY0BnZW5lc2lz)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:57 UTC
+### [🏴‍☠️ Safepay has just published a new victim : matrixwebagency.com](https://www.ransomware.live/id/bWF0cml4d2ViYWdlbmN5LmNvbUBzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 19:43 UTC
 `malware`
-Bri-Tech Inc est une nouvelle victime d'Genesis, une entreprise spécialisée en conception et intégration technologique.
+Safepay a révélé que matrixwebagency.com est une nouvelle victime d’une cyberattaque.
 
 ---
 
-### [Flipper Zero firmware development continues with community help](https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/)
-**Source :** Bleeping Computer  **Publié :** 05/07/2026 10:14 UTC
-`ransomware`
-Le développement du firmware de Flipper Zero continue avec l'aide de la communauté.
+### [🏴‍☠️ Safepay has just published a new victim : bmiprojects.de](https://www.ransomware.live/id/Ym1pcHJvamVjdHMuZGVAc2FmZXBheQ==)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 19:42 UTC
+`malware`
+bmiprojects.de, une ancienne Bez Marine Interiors GmbH, est la dernière cible de Safepay dans ses publications sur les victimes d’attaque.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : stedwardscatholicfirstschool.co.uk](https://www.ransomware.live/id/c3RlZHdhcmRzY2F0aG9saWNmaXJzdHNjaG9vbC5jby51a0BzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 19:40 UTC
+`malware`
+stedwardscatholicfirstschool.co.uk, une école pour enfants âgés de 5 à 9 ans, est une nouvelle victime des cyberattaques de Safepay.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : shw-fr.de](https://www.ransomware.live/id/c2h3LWZyLmRlQHNhZmVwYXk=)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 19:39 UTC
+`malware`
+Un fabricant de dispositifs médicaux informe près de 4 millions d’individus concernés par un incident de sécurité, sans preuve de diffusion publique des informations compromises.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Genesis has just published a new victim : Apex Agro, LLC](https://www.ransomware.live/id/QXBleCBBZ3JvLCBMTENAZ2VuZXNpcw==)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:59 UTC  **Score :** 0
-Apex Agro, LLC est une nouvelle victime d'Genesis, une société de production chimique.
+### 1. [Major medical device manufacturer notifies nearly 4 million of breach](https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach)
+**Source :** The Record  **Publié :** 06/07/2026 18:03 UTC  **Score :** 35
+`breach`
+Un breaching affecte presque 4 millions de personnes chez un fabricant de dispositifs médicaux, mais l’entreprise n’a pas constaté de diffusion publique des informations compromises.
 
-### 2. [🏴‍☠️ Genesis has just published a new victim : Mirage Endoscopy Center](https://www.ransomware.live/id/TWlyYWdlIEVuZG9zY29weSBDZW50ZXJAZ2VuZXNpcw==)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:58 UTC  **Score :** 0
-Mirage Endoscopy Center est une nouvelle victime d'Genesis, une organisation de santé.
+### 2. [🏴‍☠️ Booba project has just published a new victim : Upstaging](https://www.ransomware.live/id/VXBzdGFnaW5nQEJvb2JhIFByb2plY3Q=)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 12:50 UTC  **Score :** 20
+`breach`
+Booba project a volé des données d'un fournisseur de divertissement, s'étendant à un volume de 10 GB.
 
-### 3. [🏴‍☠️ Genesis has just published a new victim : SBI Software](https://www.ransomware.live/id/U0JJIFNvZnR3YXJlQGdlbmVzaXM=)
-**Source :** Ransomware.live News  **Publié :** 05/07/2026 13:57 UTC  **Score :** 0
-`cve`
-SBI Software est une nouvelle victime d'Genesis, une entreprise fournissant des logiciels d'ingénierie des ressources électroniques.
+### 3. [🏴‍☠️ Booba project has just published a new victim : Frosty Acres Brands](https://www.ransomware.live/id/RnJvc3R5IEFjcmVzIEJyYW5kc0BCb29iYSBQcm9qZWN0)
+**Source :** Ransomware.live News  **Publié :** 06/07/2026 06:32 UTC  **Score :** 20
+`breach`
+Booba project a compromis les données d'une entreprise alimentaire et de boissons, avec un volume de 8 GB volé.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-06.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-07.md`*
