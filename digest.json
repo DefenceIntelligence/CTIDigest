@@ -1,205 +1,297 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-07",
-  "generated_at": "2026-07-07T02:01:08.988924+00:00",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T02:01:27.728567+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "cf26b533969e2d7f",
-        "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-        "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "ca8e0458337641b8",
+        "title": "Hitachi Energy PROMOD V",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-53359"
+          "CVE-2026-10763"
         ],
         "tags": [
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Une faille dans KVM, le hyperviseur Linux, permet aux machines virtuelles de s’échapper vers l’hôte via un bug use-after-free. Dénommée Januscape, la vulnérabilité affecte les systèmes Intel et AMD.",
-        "published_at": "2026-07-06T23:07:01",
-        "score": 32
+        "summary": "Hitachi Energy PROMOD V est vulnérable à une faille permettant l'interception ou la manipulation de données sensibles en transit.",
+        "published_at": "2026-07-07T12:00:00",
+        "score": 15
       },
       {
-        "guid": "9e0c14e6e8614813",
-        "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-        "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "b7987ed0cb64ecab",
+        "title": "Labcenter Proteus 9",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-20896"
+          "CVE-2026-42953"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Labcenter Proteus 9 (version 9.1_SP4_Build_42914) est vulnérable à des failles permettant l'exécution arbitraire de code.",
+        "published_at": "2026-07-07T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "8b7c8926226e3f7f",
+        "title": "Hitachi Energy e-mesh EMS",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-42945"
         ],
         "tags": [
           "apt",
           "cve",
           "vulnerability"
         ],
-        "summary": "Des acteurs menacent d’exploiter une vulnérabilité grave dans Gitea Docker (CVE-2026-20896) 13 jours après sa révélation, selon Sysdig.",
-        "published_at": "2026-07-06T21:58:59",
-        "score": 20
+        "summary": "Hitachi Energy e-mesh EMS est vulnérable à une faille de débordement de tampon pouvant entraîner un refus de service et l'exécution arbitraire de code.",
+        "published_at": "2026-07-07T12:00:00",
+        "score": 15
       },
       {
-        "guid": "02b016c1d6eb2a72",
-        "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-        "source": "Bleeping Computer",
+        "guid": "a7fcbb57411e7d6c",
+        "title": "Digi International PortServer TS, Digi One SP IA",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12352"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Digi International PortServer TS et Digi One SP IA sont vulnérables à des failles permettant le passage d'authentification et l'accès à des ressources restreintes.",
+        "published_at": "2026-07-07T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "3f90e35b3f539f43",
+        "title": "Hydro-Québec Le Circuit Electrique charging station backend",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-20744"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des hackers chinois sont exploitant des vulnérabilités dans le logiciel de chargement Le Circuit Electrique pour voler les identifiants d'accès.",
+        "published_at": "2026-07-07T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "fd45c09c80cb7c22",
+        "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+        "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-48282"
+          "CVE-2024-42009"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des attaquants exploitent une vulnérabilité critique d’Adobe ColdFusion (CVE-2026-48282) pour des opérations de piratage, selon le CCCS.",
-        "published_at": "2026-07-06T09:18:37",
+        "summary": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.\n\nThe activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+        "published_at": "2026-07-07T14:40:51",
+        "score": 20
+      },
+      {
+        "guid": "3a01fbb3c521d4d8",
+        "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+        "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-11405"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Firmware Tenda contient un accès administratif non documenté permettant le saut de la vérification du mot de passe.",
+        "published_at": "2026-07-07T12:10:47",
+        "score": 32
+      },
+      {
+        "guid": "6b1c8ec5bb7d284f",
+        "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+        "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-40138"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "BeyondTrust corrige deux vulnérabilités critiques dans ses produits Remote Support et PRA, potentiellement permettant le contrôle par des attaquants non authentifiés.",
+        "published_at": "2026-07-07T10:46:51",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "169074a4923046f7",
-        "title": "Un ado de 15 ans accusé d’attaque cyber contre Bandai Channel",
-        "url": "https://www.zataz.com/un-ado-de-15-ans-accuse-dattaque-cyber-contre-bandai-channel/",
+        "guid": "1718ea8bd69fa119",
+        "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+        "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "RedWing est une nouvelle malware à prêt sur Telegram utilisée pour voler les informations bancaires des victimes.",
+        "published_at": "2026-07-07T22:40:15",
+        "score": 17
+      },
+      {
+        "guid": "db5c1d09fd028919",
+        "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+        "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Une campagne de phishing Microsoft 365 utilise un flux de code d'appareil malveillant pour contrôler les comptes des victimes entre juin et juillet 2026.",
+        "published_at": "2026-07-07T20:44:14",
+        "score": 27
+      },
+      {
+        "guid": "b9fb5318bc904136",
+        "title": "Nayax visée par un « Syndicate » du cybercrime",
+        "url": "https://www.zataz.com/nayax-visee-par-un-syndicate-du-cybercrime/",
         "source": "ZATAZ",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Un lycéen est accusé d’avoir lancé une attaque cyber contre Bandai Channel en utilisant ChatGPT pour créer un outil pirate.",
-        "published_at": "2026-07-06T21:59:43",
+        "summary": "Nayax est visée par une attaque massive ; des données de paiement et des clients sont sous surveillance, potentiellement affectant 1 milliard de cartes bancaires.",
+        "published_at": "2026-07-07T19:30:20",
         "score": 17
       },
       {
-        "guid": "c99b2e5f9231a1e5",
-        "title": "Canadian spy agency reports hacking three criminal groups in 2025",
-        "url": "https://therecord.media/canada-cse-2025-cyber-operations-ransomware-drugs-extremism",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "7bda3b1f0556f69e",
+        "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+        "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
+          "breach",
           "malware",
-          "ransomware"
+          "vulnerability"
         ],
-        "summary": "Le Communications Security Establishment a mené des opérations offensives contre trois groupes criminels en 2025 : un gang de ransomware, un groupe extrémiste et des trafiquants de drogue.",
-        "published_at": "2026-07-06T20:55:00",
-        "score": 27
+        "summary": "Une vulnérabilité critique dans Writer AI pourrait permettre à un tiers d'accéder aux sessions de tout locataire, selon une recherche de sécurité.",
+        "published_at": "2026-07-07T18:57:09",
+        "score": 37
       },
       {
-        "guid": "ccafc39d1bc6815e",
-        "title": "🏴‍☠️ Safepay has just published a new victim : matrixwebagency.com",
-        "url": "https://www.ransomware.live/id/bWF0cml4d2ViYWdlbmN5LmNvbUBzYWZlcGF5",
+        "guid": "4bbb0f8a726fa01b",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Shamrock Holdings Inc.",
+        "url": "https://www.ransomware.live/id/U2hhbXJvY2sgSG9sZGluZ3MgSW5jLkB0aGVnZW50bGVtZW4=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Safepay a révélé que matrixwebagency.com est une nouvelle victime d’une cyberattaque.",
-        "published_at": "2026-07-06T19:43:00",
+        "summary": "Shamrock Holdings Inc., une société d'investissement fondée par Roy E. Disney, a été victime d'une attaque informatique.",
+        "published_at": "2026-07-07T18:35:04",
         "score": 12
       },
       {
-        "guid": "dc67c3735d2260a6",
-        "title": "🏴‍☠️ Safepay has just published a new victim : bmiprojects.de",
-        "url": "https://www.ransomware.live/id/Ym1pcHJvamVjdHMuZGVAc2FmZXBheQ==",
+        "guid": "9aca492176a86ecc",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Virginia Historical Society",
+        "url": "https://www.ransomware.live/id/VmlyZ2luaWEgSGlzdG9yaWNhbCBTb2NpZXR5QHRoZWdlbnRsZW1lbg==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "bmiprojects.de, une ancienne Bez Marine Interiors GmbH, est la dernière cible de Safepay dans ses publications sur les victimes d’attaque.",
-        "published_at": "2026-07-06T19:42:23",
-        "score": 12
-      },
-      {
-        "guid": "3a948a897e1d2f6b",
-        "title": "🏴‍☠️ Safepay has just published a new victim : stedwardscatholicfirstschool.co.uk",
-        "url": "https://www.ransomware.live/id/c3RlZHdhcmRzY2F0aG9saWNmaXJzdHNjaG9vbC5jby51a0BzYWZlcGF5",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "stedwardscatholicfirstschool.co.uk, une école pour enfants âgés de 5 à 9 ans, est une nouvelle victime des cyberattaques de Safepay.",
-        "published_at": "2026-07-06T19:40:12",
-        "score": 12
-      },
-      {
-        "guid": "cbcd7feca943da1e",
-        "title": "🏴‍☠️ Safepay has just published a new victim : shw-fr.de",
-        "url": "https://www.ransomware.live/id/c2h3LWZyLmRlQHNhZmVwYXk=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Un fabricant de dispositifs médicaux informe près de 4 millions d’individus concernés par un incident de sécurité, sans preuve de diffusion publique des informations compromises.",
-        "published_at": "2026-07-06T19:39:07",
+        "summary": "La Virginia Historical Society, une institution historique privée établie en 1831, a été victime d'une attaque informatique.",
+        "published_at": "2026-07-07T18:34:36",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "c2f501bed14a30ba",
-        "title": "Major medical device manufacturer notifies nearly 4 million of breach",
-        "url": "https://therecord.media/medical-device-maker-notifies-nearly-4-million-of-breach",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "ad4d3e101f5b1710",
+        "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "phishing"
         ],
-        "summary": "Un breaching affecte presque 4 millions de personnes chez un fabricant de dispositifs médicaux, mais l’entreprise n’a pas constaté de diffusion publique des informations compromises.",
-        "published_at": "2026-07-06T18:03:00",
+        "summary": "Un webinaire examinera comment l'IA comportementale peut détecter des attaques sophistiquées par email tout en réduisant la fatigue d'avertissement.",
+        "published_at": "2026-07-07T08:12:20",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "18e5909da8b3458e",
-        "title": "🏴‍☠️ Booba project has just published a new victim : Upstaging",
-        "url": "https://www.ransomware.live/id/VXBzdGFnaW5nQEJvb2JhIFByb2plY3Q=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "c32b51a7a586f7cc",
+        "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+        "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "vulnerability"
         ],
-        "summary": "Booba project a volé des données d'un fournisseur de divertissement, s'étendant à un volume de 10 GB.",
-        "published_at": "2026-07-06T12:50:20",
-        "score": 20,
+        "summary": "Une vulnérabilité critique dans Dialogflow CX de Google pourrait permettre à un attaquant de compromettre d'autres agents, lisant et modifiant les conversations en direct.",
+        "published_at": "2026-07-07T22:07:33",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "f2dcf902b89f9672",
-        "title": "🏴‍☠️ Booba project has just published a new victim : Frosty Acres Brands",
-        "url": "https://www.ransomware.live/id/RnJvc3R5IEFjcmVzIEJyYW5kc0BCb29iYSBQcm9qZWN0",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "1d69d12e8b6298f7",
+        "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+        "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Booba project a compromis les données d'une entreprise alimentaire et de boissons, avec un volume de 8 GB volé.",
-        "published_at": "2026-07-06T06:32:03",
-        "score": 20,
+        "summary": "Une vulnérabilité dans GitHub Agentic Workflows pourrait permettre à un tiers de泄露翻译成英文是：",
+        "published_at": "2026-07-07T19:34:50",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 62,
-    "items_selected": 12,
+    "items_analyzed": 82,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 8,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
