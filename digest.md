@@ -1,131 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 8 juillet 2026
+# 🛡️ ARGOS CTI Digest — 9 juillet 2026
 
-> Généré le 08/07/2026 à 02:01 UTC  ·  82 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 09/07/2026 à 02:00 UTC  ·  44 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hitachi Energy PROMOD V](https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-02)
-**Source :** CISA Advisories  **Publié :** 07/07/2026 12:00 UTC  **CVE :** `CVE-2026-10763`
+### [Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS](https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 20:08 UTC  **CVE :** `CVE-2026-50746`
 `cve` `vulnerability`
-Hitachi Energy PROMOD V est vulnérable à une faille permettant l'interception ou la manipulation de données sensibles en transit.
+Ubiquiti a mis à jour ses produits pour corriger des failles critiques dans UniFi Connect, Talk, Access, Protect et OS, potentiellement menaçantes.
 
 ---
 
-### [Labcenter Proteus 9](https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-06)
-**Source :** CISA Advisories  **Publié :** 07/07/2026 12:00 UTC  **CVE :** `CVE-2026-42953`
+### [15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros](https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 11:46 UTC  **CVE :** `CVE-2026-43499`
 `cve` `vulnerability`
-Labcenter Proteus 9 (version 9.1_SP4_Build_42914) est vulnérable à des failles permettant l'exécution arbitraire de code.
+GhostLock est une vulnérabilité de 15 ans du noyau Linux permettant le vol total des droits root sur la plupart des distributions.
 
 ---
 
-### [Hitachi Energy e-mesh EMS](https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-03)
-**Source :** CISA Advisories  **Publié :** 07/07/2026 12:00 UTC  **CVE :** `CVE-2026-42945`
-`apt` `cve` `vulnerability`
-Hitachi Energy e-mesh EMS est vulnérable à une faille de débordement de tampon pouvant entraîner un refus de service et l'exécution arbitraire de code.
-
----
-
-### [Digi International PortServer TS, Digi One SP IA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-07)
-**Source :** CISA Advisories  **Publié :** 07/07/2026 12:00 UTC  **CVE :** `CVE-2026-12352`
-`cve` `malware` `vulnerability`
-Digi International PortServer TS et Digi One SP IA sont vulnérables à des failles permettant le passage d'authentification et l'accès à des ressources restreintes.
-
----
-
-### [Hydro-Québec Le Circuit Electrique charging station backend](https://www.cisa.gov/news-events/ics-advisories/icsa-26-188-01)
-**Source :** CISA Advisories  **Publié :** 07/07/2026 12:00 UTC  **CVE :** `CVE-2026-20744`
-`cve` `malware` `vulnerability`
-Des hackers chinois sont exploitant des vulnérabilités dans le logiciel de chargement Le Circuit Electrique pour voler les identifiants d'accès.
-
----
-
-### [Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities](https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 14:40 UTC  **CVE :** `CVE-2024-42009`
+### [CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV](https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 11:03 UTC  **CVE :** `CVE-2026-48282`
 `cve` `vulnerability`
-A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign.
-
-The activity involves the exploitation of now-patched, critical security flaws in t
-
----
-
-### [CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware](https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 12:10 UTC  **CVE :** `CVE-2026-11405`
-`cve` `malware` `vulnerability`
-Firmware Tenda contient un accès administratif non documenté permettant le saut de la vérification du mot de passe.
-
----
-
-### [BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA](https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 10:46 UTC  **CVE :** `CVE-2026-40138`
-`cve` `vulnerability`
-BeyondTrust corrige deux vulnérabilités critiques dans ses produits Remote Support et PRA, potentiellement permettant le contrôle par des attaquants non authentifiés.
+CISA a ajouté quatre vulnérabilités exploitées activement à sa liste KEV, comprenant Adobe ColdFusion et Joomla.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service](https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 22:40 UTC
+### [New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware](https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 20:37 UTC
+`malware`
+Les assistants IA pourraient être utilisés dans un nouvel attaque appelée HalluSquatting pour installer du malware sur les systèmes des utilisateurs.
+
+---
+
+### [SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users](https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 18:22 UTC
 `apt` `malware`
-RedWing est une nouvelle malware à prêt sur Telegram utilisée pour voler les informations bancaires des victimes.
+SCMBANKER utilise des pièges ClickFix pour cibler des utilisateurs mexicains de banques et d'échanges cryptomonnaies.
 
 ---
 
-### [DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts](https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 20:44 UTC
-`malware` `phishing`
-Une campagne de phishing Microsoft 365 utilise un flux de code d'appareil malveillant pour contrôler les comptes des victimes entre juin et juillet 2026.
+### [Taiwan charges two businessmen over alleged role in Chinese espionage campaign](https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign)
+**Source :** The Record  **Publié :** 08/07/2026 16:55 UTC
+`apt`
+A company based in Taiwan was leasing out accounts on the popular LINE messaging app to Chinese spies, according to prosecutors, who charged two men in the alleged scheme.
 
 ---
 
-### [Nayax visée par un « Syndicate » du cybercrime](https://www.zataz.com/nayax-visee-par-un-syndicate-du-cybercrime/)
-**Source :** ZATAZ  **Publié :** 07/07/2026 19:30 UTC
+### [Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials](https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/)
+**Source :** Bleeping Computer  **Publié :** 08/07/2026 15:54 UTC
 `malware`
-Nayax est visée par une attaque massive ; des données de paiement et des clients sont sous surveillance, potentiellement affectant 1 milliard de cartes bancaires.
+Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]
 
 ---
 
-### [Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants](https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 18:57 UTC
-`breach` `malware` `vulnerability`
-Une vulnérabilité critique dans Writer AI pourrait permettre à un tiers d'accéder aux sessions de tout locataire, selon une recherche de sécurité.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Shamrock Holdings Inc.](https://www.ransomware.live/id/U2hhbXJvY2sgSG9sZGluZ3MgSW5jLkB0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 07/07/2026 18:35 UTC
+### [InTruth veut vérifier les politiques en direct](https://www.zataz.com/intruth-veut-verifier-les-politiques-en-direct/)
+**Source :** ZATAZ  **Publié :** 08/07/2026 15:40 UTC
 `malware`
-Shamrock Holdings Inc., une société d'investissement fondée par Roy E. Disney, a été victime d'une attaque informatique.
+InTruth utilise l’IA pour vérifier en direct les déclarations politiques et limiter l’impact des fausses informations.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Virginia Historical Society](https://www.ransomware.live/id/VmlyZ2luaWEgSGlzdG9yaWNhbCBTb2NpZXR5QHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 07/07/2026 18:34 UTC
-`malware`
-La Virginia Historical Society, une institution historique privée établie en 1831, a été victime d'une attaque informatique.
+### [Hackers exploit Roundcube flaw to spy on academic researchers](https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/)
+**Source :** Bleeping Computer  **Publié :** 08/07/2026 14:56 UTC
+`cve` `malware` `vulnerability`
+A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Webinar tomorrow: Why modern email attacks require a new approach to defense](https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/)
-**Source :** Bleeping Computer  **Publié :** 07/07/2026 08:12 UTC  **Score :** 35
-`breach` `phishing`
-Un webinaire examinera comment l'IA comportementale peut détecter des attaques sophistiquées par email tout en réduisant la fatigue d'avertissement.
-
-### 2. [Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots](https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 22:07 UTC  **Score :** 25
-`breach` `vulnerability`
-Une vulnérabilité critique dans Dialogflow CX de Google pourrait permettre à un attaquant de compromettre d'autres agents, lisant et modifiant les conversations en direct.
-
-### 3. [Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data](https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html)
-**Source :** The Hacker News  **Publié :** 07/07/2026 19:34 UTC  **Score :** 25
+### 1. [Mount Royal University confirms breach as hackers claim attack](https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/)
+**Source :** Bleeping Computer  **Publié :** 08/07/2026 17:26 UTC  **Score :** 25
 `breach`
-Une vulnérabilité dans GitHub Agentic Workflows pourrait permettre à un tiers de泄露翻译成英文是：
+Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]
+
+### 2. [The Verification Step Is the New ATO Battleground in 2026](https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html)
+**Source :** The Hacker News  **Publié :** 08/07/2026 17:00 UTC  **Score :** 25
+`breach`
+L'époque des attaques par soufflage de crédenciaux se termine avec l'adoption croissante des passkeys.
+
+### 3. [Telco giant KDDI says data breach affects over 12 million people](https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/)
+**Source :** Bleeping Computer  **Publié :** 08/07/2026 07:24 UTC  **Score :** 25
+`breach`
+KDDI confirme un vaste incident de fuite de données concernant plus de 12 millions de personnes au Japon.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-08.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-09.md`*
