@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T02:00:44.536154+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "d1e513644ed3edf5",
+        "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+        "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50746"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Ubiquiti a mis à jour ses produits pour corriger des failles critiques dans UniFi Connect, Talk, Access, Protect et OS, potentiellement menaçantes.",
+        "published_at": "2026-07-08T20:08:05",
+        "score": 20
+      },
+      {
+        "guid": "a3226fa278e0d137",
+        "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+        "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-43499"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "GhostLock est une vulnérabilité de 15 ans du noyau Linux permettant le vol total des droits root sur la plupart des distributions.",
+        "published_at": "2026-07-08T11:46:44",
+        "score": 20
+      },
+      {
+        "guid": "defb4674e9b5b9b3",
+        "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+        "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48282"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté quatre vulnérabilités exploitées activement à sa liste KEV, comprenant Adobe ColdFusion et Joomla.",
+        "published_at": "2026-07-08T11:03:12",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "cb0e82fb714d2b9a",
+        "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+        "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les assistants IA pourraient être utilisés dans un nouvel attaque appelée HalluSquatting pour installer du malware sur les systèmes des utilisateurs.",
+        "published_at": "2026-07-08T20:37:24",
+        "score": 17
+      },
+      {
+        "guid": "7768bd5972420e8b",
+        "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+        "url": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "SCMBANKER utilise des pièges ClickFix pour cibler des utilisateurs mexicains de banques et d'échanges cryptomonnaies.",
+        "published_at": "2026-07-08T18:22:15",
+        "score": 17
+      },
+      {
+        "guid": "0ab77d8857484504",
+        "title": "Taiwan charges two businessmen over alleged role in Chinese espionage campaign",
+        "url": "https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "A company based in Taiwan was leasing out accounts on the popular LINE messaging app to Chinese spies, according to prosecutors, who charged two men in the alleged scheme.",
+        "published_at": "2026-07-08T16:55:00",
+        "score": 15
+      },
+      {
+        "guid": "e348e279412392e5",
+        "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+        "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
+        "published_at": "2026-07-08T15:54:59",
+        "score": 17
+      },
+      {
+        "guid": "ccb99a5e76283a2f",
+        "title": "InTruth veut vérifier les politiques en direct",
+        "url": "https://www.zataz.com/intruth-veut-verifier-les-politiques-en-direct/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "InTruth utilise l’IA pour vérifier en direct les déclarations politiques et limiter l’impact des fausses informations.",
+        "published_at": "2026-07-08T15:40:33",
+        "score": 17
+      },
+      {
+        "guid": "86f6790d0a09fff3",
+        "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
+        "published_at": "2026-07-08T14:56:02",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "044175fc78c2ceae",
+        "title": "Mount Royal University confirms breach as hackers claim attack",
+        "url": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
+        "published_at": "2026-07-08T17:26:59",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "eecf0d63d36f455b",
+        "title": "The Verification Step Is the New ATO Battleground in 2026",
+        "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'époque des attaques par soufflage de crédenciaux se termine avec l'adoption croissante des passkeys.",
+        "published_at": "2026-07-08T17:00:00",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "a0b2662e0d4ef9e3",
+        "title": "Telco giant KDDI says data breach affects over 12 million people",
+        "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "KDDI confirme un vaste incident de fuite de données concernant plus de 12 millions de personnes au Japon.",
+        "published_at": "2026-07-08T07:24:16",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 44,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
