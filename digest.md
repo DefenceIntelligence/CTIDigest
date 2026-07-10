@@ -1,94 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 9 juillet 2026
+# 🛡️ ARGOS CTI Digest — 10 juillet 2026
 
-> Généré le 09/07/2026 à 02:00 UTC  ·  44 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 10/07/2026 à 02:01 UTC  ·  54 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS](https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 20:08 UTC  **CVE :** `CVE-2026-50746`
+### [OpenPLC v3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01)
+**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC  **CVE :** `CVE-2026-14480`
 `cve` `vulnerability`
-Ubiquiti a mis à jour ses produits pour corriger des failles critiques dans UniFi Connect, Talk, Access, Protect et OS, potentiellement menaçantes.
+Cette vulnérabilité dans OpenPLC v3 pourrait permettre à un attaquant authentifié d'écrire des fichiers arbitraires sur le système de fichier et d'escalader cette attaque en exécution native arbitraire, potentiellement conduisant à l'exécution de code en tant qu'utilisateur de runtime OpenPLC.
 
 ---
 
-### [15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros](https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 11:46 UTC  **CVE :** `CVE-2026-43499`
-`cve` `vulnerability`
-GhostLock est une vulnérabilité de 15 ans du noyau Linux permettant le vol total des droits root sur la plupart des distributions.
+### [Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges](https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html)
+**Source :** The Hacker News  **Publié :** 09/07/2026 14:18 UTC  **CVE :** `CVE-2026-50656`
+`cve` `malware` `patch` `vulnerability`
+Microsoft a publié des mises à jour de sécurité pour le bug RoguePlanet, une faille de privilèges dans l'engine antivirus mpengine.dll, avec un score CVSS de 7.8.
 
 ---
 
-### [CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV](https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 11:03 UTC  **CVE :** `CVE-2026-48282`
+### [Schneider Electric Easergy MiCOM Px40 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03)
+**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC
+`vulnerability`
+Schneider Electric a identifié une vulnérabilité chez ses relais Easergy MiCOM Px40, série de protections pour les réseaux électriques de haute tension.
+
+---
+
+### [Schneider Electric PowerChute Serial Shutdown](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02)
+**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC
 `cve` `vulnerability`
-CISA a ajouté quatre vulnérabilités exploitées activement à sa liste KEV, comprenant Adobe ColdFusion et Joomla.
+Ces vulnérabilités dans PowerChute peuvent permettre à l'attaquant d'écraser des fichiers critiques, injecter ou forger des données de journalisation et accéder à des comptes non autorisés.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware](https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 20:37 UTC
+### [Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs](https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html)
+**Source :** The Hacker News  **Publié :** 10/07/2026 00:08 UTC
+`breach` `malware`
+Des opérations ciblent les organisations GitHub en utilisant des comptes vieux d'années et des tokens OAuth compromis pour recueillir des informations sur les entreprises.
+
+---
+
+### [New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware](https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html)
+**Source :** The Hacker News  **Publié :** 09/07/2026 23:38 UTC
+`malware` `ransomware`
+GigaWiper est un backdoor Windows contenant trois logiciels détruisants : effacement du disque, écrasement de la partition Windows et rançon-logiciel faux.
+
+---
+
+### [🏴‍☠️ Moneymessage has just published a new victim : Envision Unlimited](https://www.ransomware.live/id/RW52aXNpb24gVW5saW1pdGVkQG1vbmV5bWVzc2FnZQ==)
+**Source :** Ransomware.live News  **Publié :** 09/07/2026 17:27 UTC
 `malware`
-Les assistants IA pourraient être utilisés dans un nouvel attaque appelée HalluSquatting pour installer du malware sur les systèmes des utilisateurs.
+[AI generated] Envision Unlimited is a nonprofit human services organization based in the United States, primarily operating in Illinois. Founded in Chicago, it provides support services for individuals with intellectual and developmental disabilities. Its programs include residential services, day
 
 ---
 
-### [SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users](https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 18:22 UTC
-`apt` `malware`
-SCMBANKER utilise des pièges ClickFix pour cibler des utilisateurs mexicains de banques et d'échanges cryptomonnaies.
-
----
-
-### [Taiwan charges two businessmen over alleged role in Chinese espionage campaign](https://therecord.media/taiwan-charges-businessmen-china-cyber-espionage-campaign)
-**Source :** The Record  **Publié :** 08/07/2026 16:55 UTC
-`apt`
-A company based in Taiwan was leasing out accounts on the popular LINE messaging app to Chinese spies, according to prosecutors, who charged two men in the alleged scheme.
-
----
-
-### [Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials](https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/)
-**Source :** Bleeping Computer  **Publié :** 08/07/2026 15:54 UTC
+### [FFE : une nouvelle fuite massive à la veille des Championnats de France](https://www.zataz.com/ffe-une-nouvelle-fuite-massive-a-la-veille-des-championnats-de-france/)
+**Source :** ZATAZ  **Publié :** 09/07/2026 16:48 UTC
 `malware`
-Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]
+Une fuite de données se produit à la Fédération française d'équitation avant les Championnats de France.
 
 ---
 
-### [InTruth veut vérifier les politiques en direct](https://www.zataz.com/intruth-veut-verifier-les-politiques-en-direct/)
-**Source :** ZATAZ  **Publié :** 08/07/2026 15:40 UTC
+### [GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
+**Source :** The Hacker News  **Publié :** 09/07/2026 16:13 UTC
+`malware` `ransomware`
+Le ransomware GodDamn utilise le driver PoisonX pour désactiver les défenses anti-malwares, évitant ainsi la détection et l'interruption.
+
+---
+
+### [🏴‍☠️ Braincipher has just published a new victim : robroy.com](https://www.ransomware.live/id/cm9icm95LmNvbUBCcmFpbkNpcGhlcg==)
+**Source :** Ransomware.live News  **Publié :** 09/07/2026 15:21 UTC
 `malware`
-InTruth utilise l’IA pour vérifier en direct les déclarations politiques et limiter l’impact des fausses informations.
-
----
-
-### [Hackers exploit Roundcube flaw to spy on academic researchers](https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/)
-**Source :** Bleeping Computer  **Publié :** 08/07/2026 14:56 UTC
-`cve` `malware` `vulnerability`
-A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]
+Braincipher a infecté le site web robroy.com, une entreprise spécialisée dans les systèmes de conduits électriques pour environnements corrosifs et dangereux.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Mount Royal University confirms breach as hackers claim attack](https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/)
-**Source :** Bleeping Computer  **Publié :** 08/07/2026 17:26 UTC  **Score :** 25
+### 1. [Injective SDK on npm infected with cryptocurrency wallet stealer](https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/)
+**Source :** Bleeping Computer  **Publié :** 09/07/2026 16:10 UTC  **Score :** 25
 `breach`
-Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]
+Les hackers ont compromise le dépôt GitHub du projet Injective Labs SDK et publié un paquet malveillant sur npm, volant les clés privées et les phrases mneumoniques de portefeuilles cryptographiques.
 
-### 2. [The Verification Step Is the New ATO Battleground in 2026](https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html)
-**Source :** The Hacker News  **Publié :** 08/07/2026 17:00 UTC  **Score :** 25
+### 2. [AssuranceAmerica data breach exposes records of 6.9 million drivers](https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/)
+**Source :** Bleeping Computer  **Publié :** 09/07/2026 03:47 UTC  **Score :** 25
 `breach`
-L'époque des attaques par soufflage de crédenciaux se termine avec l'adoption croissante des passkeys.
+L'assureur américain AssuranceAmerica a divulgué un incident de fuite de données concernant près de 7 millions de conducteurs après que des hackers aient accédé à ses systèmes.
 
-### 3. [Telco giant KDDI says data breach affects over 12 million people](https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/)
-**Source :** Bleeping Computer  **Publié :** 08/07/2026 07:24 UTC  **Score :** 25
+### 3. [🏴‍☠️ Crpxo has just published a new victim : Creative Smiles Pediatric Dentistry](https://www.ransomware.live/id/Q3JlYXRpdmUgU21pbGVzIFBlZGlhdHJpYyBEZW50aXN0cnlAQ1JQeE8=)
+**Source :** Ransomware.live News  **Publié :** 09/07/2026 06:44 UTC  **Score :** 20
 `breach`
-KDDI confirme un vaste incident de fuite de données concernant plus de 12 millions de personnes au Japon.
+Crpxo a divulgué les données de la clinique pédiatrique Creative Smiles, comprenant 2,5 Go d'informations.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-09.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-10.md`*
