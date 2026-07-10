@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T02:01:15.858408+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e71ddc5d73012425",
+        "title": "OpenPLC v3",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-14480"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Cette vulnérabilité dans OpenPLC v3 pourrait permettre à un attaquant authentifié d'écrire des fichiers arbitraires sur le système de fichier et d'escalader cette attaque en exécution native arbitraire, potentiellement conduisant à l'exécution de code en tant qu'utilisateur de runtime OpenPLC.",
+        "published_at": "2026-07-09T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "eb7f14aa078619ed",
+        "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+        "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-50656"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a publié des mises à jour de sécurité pour le bug RoguePlanet, une faille de privilèges dans l'engine antivirus mpengine.dll, avec un score CVSS de 7.8.",
+        "published_at": "2026-07-09T14:18:48",
+        "score": 32
+      },
+      {
+        "guid": "36bf78d4d907c365",
+        "title": "Schneider Electric Easergy MiCOM Px40 Series",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Schneider Electric a identifié une vulnérabilité chez ses relais Easergy MiCOM Px40, série de protections pour les réseaux électriques de haute tension.",
+        "published_at": "2026-07-09T12:00:00",
+        "score": 0
+      },
+      {
+        "guid": "c6190da0782bfc69",
+        "title": "Schneider Electric PowerChute Serial Shutdown",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Ces vulnérabilités dans PowerChute peuvent permettre à l'attaquant d'écraser des fichiers critiques, injecter ou forger des données de journalisation et accéder à des comptes non autorisés.",
+        "published_at": "2026-07-09T12:00:00",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "d24bd7d02cc2f9ba",
+        "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+        "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des opérations ciblent les organisations GitHub en utilisant des comptes vieux d'années et des tokens OAuth compromis pour recueillir des informations sur les entreprises.",
+        "published_at": "2026-07-10T00:08:49",
+        "score": 37
+      },
+      {
+        "guid": "7a9568dd3855f8f9",
+        "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+        "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "GigaWiper est un backdoor Windows contenant trois logiciels détruisants : effacement du disque, écrasement de la partition Windows et rançon-logiciel faux.",
+        "published_at": "2026-07-09T23:38:07",
+        "score": 17
+      },
+      {
+        "guid": "ee21ee8a359e75f6",
+        "title": "🏴‍☠️ Moneymessage has just published a new victim : Envision Unlimited",
+        "url": "https://www.ransomware.live/id/RW52aXNpb24gVW5saW1pdGVkQG1vbmV5bWVzc2FnZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] Envision Unlimited is a nonprofit human services organization based in the United States, primarily operating in Illinois. Founded in Chicago, it provides support services for individuals with intellectual and developmental disabilities. Its programs include residential services, day programs, employment support, and behavioral health services, aimed at promoting independence, inclusion, and quality of life for the people it serves.",
+        "published_at": "2026-07-09T17:27:17",
+        "score": 12
+      },
+      {
+        "guid": "7f594aa594d169b0",
+        "title": "FFE : une nouvelle fuite massive à la veille des Championnats de France",
+        "url": "https://www.zataz.com/ffe-une-nouvelle-fuite-massive-a-la-veille-des-championnats-de-france/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une fuite de données se produit à la Fédération française d'équitation avant les Championnats de France.",
+        "published_at": "2026-07-09T16:48:57",
+        "score": 17
+      },
+      {
+        "guid": "a316451df73a9d54",
+        "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
+        "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le ransomware GodDamn utilise le driver PoisonX pour désactiver les défenses anti-malwares, évitant ainsi la détection et l'interruption.",
+        "published_at": "2026-07-09T16:13:09",
+        "score": 17
+      },
+      {
+        "guid": "245921947a655ef5",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : robroy.com",
+        "url": "https://www.ransomware.live/id/cm9icm95LmNvbUBCcmFpbkNpcGhlcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Braincipher a infecté le site web robroy.com, une entreprise spécialisée dans les systèmes de conduits électriques pour environnements corrosifs et dangereux.",
+        "published_at": "2026-07-09T15:21:13",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "7e5ae1facf73398e",
+        "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+        "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les hackers ont compromise le dépôt GitHub du projet Injective Labs SDK et publié un paquet malveillant sur npm, volant les clés privées et les phrases mneumoniques de portefeuilles cryptographiques.",
+        "published_at": "2026-07-09T16:10:00",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "d81b456878def2e0",
+        "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+        "url": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'assureur américain AssuranceAmerica a divulgué un incident de fuite de données concernant près de 7 millions de conducteurs après que des hackers aient accédé à ses systèmes.",
+        "published_at": "2026-07-09T03:47:16",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "9db5c29f3be6feb7",
+        "title": "🏴‍☠️ Crpxo has just published a new victim : Creative Smiles Pediatric Dentistry",
+        "url": "https://www.ransomware.live/id/Q3JlYXRpdmUgU21pbGVzIFBlZGlhdHJpYyBEZW50aXN0cnlAQ1JQeE8=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Crpxo a divulgué les données de la clinique pédiatrique Creative Smiles, comprenant 2,5 Go d'informations.",
+        "published_at": "2026-07-09T06:44:00",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 54,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
