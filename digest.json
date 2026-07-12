@@ -1,81 +1,30 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-10",
-  "generated_at": "2026-07-10T02:01:15.858408+00:00",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T02:00:50.796187+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "e71ddc5d73012425",
-        "title": "OpenPLC v3",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-14480"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Cette vulnérabilité dans OpenPLC v3 pourrait permettre à un attaquant authentifié d'écrire des fichiers arbitraires sur le système de fichier et d'escalader cette attaque en exécution native arbitraire, potentiellement conduisant à l'exécution de code en tant qu'utilisateur de runtime OpenPLC.",
-        "published_at": "2026-07-09T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "eb7f14aa078619ed",
-        "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-        "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-50656"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Microsoft a publié des mises à jour de sécurité pour le bug RoguePlanet, une faille de privilèges dans l'engine antivirus mpengine.dll, avec un score CVSS de 7.8.",
-        "published_at": "2026-07-09T14:18:48",
-        "score": 32
-      },
-      {
-        "guid": "36bf78d4d907c365",
-        "title": "Schneider Electric Easergy MiCOM Px40 Series",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03",
-        "source": "CISA Advisories",
+        "guid": "89ffc22673e67bdf",
+        "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
+        "url": "https://isc.sans.edu/diary/rss/33146",
+        "source": "SANS ISC",
         "category": "Vulnérabilités",
         "cve": [],
         "tags": [
           "vulnerability"
         ],
-        "summary": "Schneider Electric a identifié une vulnérabilité chez ses relais Easergy MiCOM Px40, série de protections pour les réseaux électriques de haute tension.",
-        "published_at": "2026-07-09T12:00:00",
-        "score": 0
-      },
-      {
-        "guid": "c6190da0782bfc69",
-        "title": "Schneider Electric PowerChute Serial Shutdown",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Ces vulnérabilités dans PowerChute peuvent permettre à l'attaquant d'écraser des fichiers critiques, injecter ou forger des données de journalisation et accéder à des comptes non autorisés.",
-        "published_at": "2026-07-09T12:00:00",
+        "summary": "Wireshark 4.6.7 a été libérée pour corriger 12 vulnérabilités et 16 bogues.",
+        "published_at": "2026-07-11T09:07:06",
         "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "d24bd7d02cc2f9ba",
-        "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-        "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+        "guid": "be3f8eb1742213ec",
+        "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+        "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -83,137 +32,136 @@
           "breach",
           "malware"
         ],
-        "summary": "Des opérations ciblent les organisations GitHub en utilisant des comptes vieux d'années et des tokens OAuth compromis pour recueillir des informations sur les entreprises.",
-        "published_at": "2026-07-10T00:08:49",
+        "summary": "Le package npm jscrambler 8.14.0 est compromis, exécutant un voleur d'informations lors de l'installation.",
+        "published_at": "2026-07-11T23:29:26",
         "score": 37
       },
       {
-        "guid": "7a9568dd3855f8f9",
-        "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-        "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+        "guid": "f472739c19c162c2",
+        "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+        "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware",
-          "ransomware"
+          "apt",
+          "breach",
+          "cve"
         ],
-        "summary": "GigaWiper est un backdoor Windows contenant trois logiciels détruisants : effacement du disque, écrasement de la partition Windows et rançon-logiciel faux.",
-        "published_at": "2026-07-09T23:38:07",
-        "score": 17
+        "summary": "Des cyberespionnages persistants ont été menés contre des organisations de police pakistanaises par des acteurs chinois et indiens.",
+        "published_at": "2026-07-11T23:19:31",
+        "score": 25
       },
       {
-        "guid": "ee21ee8a359e75f6",
-        "title": "🏴‍☠️ Moneymessage has just published a new victim : Envision Unlimited",
-        "url": "https://www.ransomware.live/id/RW52aXNpb24gVW5saW1pdGVkQG1vbmV5bWVzc2FnZQ==",
+        "guid": "7d739b0add784ceb",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Access Equipment Hire",
+        "url": "https://www.ransomware.live/id/QWNjZXNzIEVxdWlwbWVudCBIaXJlQGRyYWdvbmZvcmNl",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
+          "apt",
+          "cve",
           "malware"
         ],
-        "summary": "[AI generated] Envision Unlimited is a nonprofit human services organization based in the United States, primarily operating in Illinois. Founded in Chicago, it provides support services for individuals with intellectual and developmental disabilities. Its programs include residential services, day programs, employment support, and behavioral health services, aimed at promoting independence, inclusion, and quality of life for the people it serves.",
-        "published_at": "2026-07-09T17:27:17",
+        "summary": "Access Equipment Hire, fournisseur d'équipement de chantier en Australie, est victime d'une attaque ciblée.",
+        "published_at": "2026-07-11T15:25:06",
         "score": 12
       },
       {
-        "guid": "7f594aa594d169b0",
-        "title": "FFE : une nouvelle fuite massive à la veille des Championnats de France",
-        "url": "https://www.zataz.com/ffe-une-nouvelle-fuite-massive-a-la-veille-des-championnats-de-france/",
+        "guid": "e36cfe910e03a50e",
+        "title": "🏴‍☠️ Cmdorganization has just published a new victim : Golden Star Resources",
+        "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXIgUmVzb3VyY2VzQGNtZG9yZ2FuaXphdGlvbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Golden Star Resources, une entreprise minière en Ghana, est la nouvelle victime de Lockbit5.",
+        "published_at": "2026-07-11T10:50:29",
+        "score": 12
+      },
+      {
+        "guid": "190dd48c943b0ad2",
+        "title": "ToolPie : comparer deux visages pour une enquête OSINT ?",
+        "url": "https://www.zataz.com/toolpie-comparer-deux-visages-pour-une-enquete-osint/",
         "source": "ZATAZ",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Une fuite de données se produit à la Fédération française d'équitation avant les Championnats de France.",
-        "published_at": "2026-07-09T16:48:57",
+        "summary": "ToolPie compare des visages sans recherche sur Internet pour aider à vérifier des identités.",
+        "published_at": "2026-07-11T09:22:22",
         "score": 17
       },
       {
-        "guid": "a316451df73a9d54",
-        "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
-        "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Le ransomware GodDamn utilise le driver PoisonX pour désactiver les défenses anti-malwares, évitant ainsi la détection et l'interruption.",
-        "published_at": "2026-07-09T16:13:09",
-        "score": 17
-      },
-      {
-        "guid": "245921947a655ef5",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : robroy.com",
-        "url": "https://www.ransomware.live/id/cm9icm95LmNvbUBCcmFpbkNpcGhlcg==",
+        "guid": "ba711c4da2d76a29",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : bancrofteng.com",
+        "url": "https://www.ransomware.live/id/YmFuY3JvZnRlbmcuY29tQGxvY2tiaXQ1",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "Braincipher a infecté le site web robroy.com, une entreprise spécialisée dans les systèmes de conduits électriques pour environnements corrosifs et dangereux.",
-        "published_at": "2026-07-09T15:21:13",
-        "score": 12
+        "summary": "Bancroft Engineering est la nouvelle victime de l'acteur de ransomware Lockbit5.",
+        "published_at": "2026-07-11T07:30:08",
+        "score": 0
       }
     ],
     "top_reads": [
       {
-        "guid": "7e5ae1facf73398e",
-        "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-        "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-        "source": "Bleeping Computer",
+        "guid": "f580851c6e83db2a",
+        "title": "Glendale Community College - 793,925 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/GlendaleCommunityCollege",
+        "source": "Have I Been Pwned",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Les hackers ont compromise le dépôt GitHub du projet Injective Labs SDK et publié un paquet malveillant sur npm, volant les clés privées et les phrases mneumoniques de portefeuilles cryptographiques.",
-        "published_at": "2026-07-09T16:10:00",
+        "summary": "Glendale Community College a subi une fuite d'environ 794 000 comptes, publiés par un groupe d'extorsionistas.",
+        "published_at": "2026-07-11T10:40:09",
         "score": 25,
         "rank": 1
       },
       {
-        "guid": "d81b456878def2e0",
-        "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-        "url": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-        "source": "Bleeping Computer",
+        "guid": "6d918a51aebf3dcb",
+        "title": "Doctolib réutilisera des données de santé pour l’IA",
+        "url": "https://www.zataz.com/doctolib-reutilisera-des-donnees-de-sante-pour-lia/",
+        "source": "ZATAZ",
         "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "L'assureur américain AssuranceAmerica a divulgué un incident de fuite de données concernant près de 7 millions de conducteurs après que des hackers aient accédé à ses systèmes.",
-        "published_at": "2026-07-09T03:47:16",
-        "score": 25,
+        "tags": [],
+        "summary": "Doctolib prépare des recherches médicales avec l’IA utilisant des données de santé, garanties et options de refus annoncées.",
+        "published_at": "2026-07-11T14:33:26",
+        "score": 5,
         "rank": 2
       },
       {
-        "guid": "9db5c29f3be6feb7",
-        "title": "🏴‍☠️ Crpxo has just published a new victim : Creative Smiles Pediatric Dentistry",
-        "url": "https://www.ransomware.live/id/Q3JlYXRpdmUgU21pbGVzIFBlZGlhdHJpYyBEZW50aXN0cnlAQ1JQeE8=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "4f815f4852847756",
+        "title": "Cyber actualités ZATAZ de la semaine du 6 au 12 juillet 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-6-au-12-juillet-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Crpxo a divulgué les données de la clinique pédiatrique Creative Smiles, comprenant 2,5 Go d'informations.",
-        "published_at": "2026-07-09T06:44:00",
-        "score": 20,
+        "tags": [],
+        "summary": "Cette semaine, ZATAZ revient sur plusieurs fuites massives, des marchés clandestins d’identités, ainsi que sur des affaires judiciaires liées au dark web.",
+        "published_at": "2026-07-11T13:52:31",
+        "score": 5,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 54,
-    "items_selected": 13,
+    "items_analyzed": 47,
+    "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 2,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
