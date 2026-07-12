@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T02:00:50.796187+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "89ffc22673e67bdf",
+        "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
+        "url": "https://isc.sans.edu/diary/rss/33146",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Wireshark 4.6.7 a été libérée pour corriger 12 vulnérabilités et 16 bogues.",
+        "published_at": "2026-07-11T09:07:06",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "be3f8eb1742213ec",
+        "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+        "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le package npm jscrambler 8.14.0 est compromis, exécutant un voleur d'informations lors de l'installation.",
+        "published_at": "2026-07-11T23:29:26",
+        "score": 37
+      },
+      {
+        "guid": "f472739c19c162c2",
+        "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+        "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "Des cyberespionnages persistants ont été menés contre des organisations de police pakistanaises par des acteurs chinois et indiens.",
+        "published_at": "2026-07-11T23:19:31",
+        "score": 25
+      },
+      {
+        "guid": "7d739b0add784ceb",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Access Equipment Hire",
+        "url": "https://www.ransomware.live/id/QWNjZXNzIEVxdWlwbWVudCBIaXJlQGRyYWdvbmZvcmNl",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware"
+        ],
+        "summary": "Access Equipment Hire, fournisseur d'équipement de chantier en Australie, est victime d'une attaque ciblée.",
+        "published_at": "2026-07-11T15:25:06",
+        "score": 12
+      },
+      {
+        "guid": "e36cfe910e03a50e",
+        "title": "🏴‍☠️ Cmdorganization has just published a new victim : Golden Star Resources",
+        "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXIgUmVzb3VyY2VzQGNtZG9yZ2FuaXphdGlvbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Golden Star Resources, une entreprise minière en Ghana, est la nouvelle victime de Lockbit5.",
+        "published_at": "2026-07-11T10:50:29",
+        "score": 12
+      },
+      {
+        "guid": "190dd48c943b0ad2",
+        "title": "ToolPie : comparer deux visages pour une enquête OSINT ?",
+        "url": "https://www.zataz.com/toolpie-comparer-deux-visages-pour-une-enquete-osint/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ToolPie compare des visages sans recherche sur Internet pour aider à vérifier des identités.",
+        "published_at": "2026-07-11T09:22:22",
+        "score": 17
+      },
+      {
+        "guid": "ba711c4da2d76a29",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : bancrofteng.com",
+        "url": "https://www.ransomware.live/id/YmFuY3JvZnRlbmcuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Bancroft Engineering est la nouvelle victime de l'acteur de ransomware Lockbit5.",
+        "published_at": "2026-07-11T07:30:08",
+        "score": 0
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "f580851c6e83db2a",
+        "title": "Glendale Community College - 793,925 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/GlendaleCommunityCollege",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Glendale Community College a subi une fuite d'environ 794 000 comptes, publiés par un groupe d'extorsionistas.",
+        "published_at": "2026-07-11T10:40:09",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "6d918a51aebf3dcb",
+        "title": "Doctolib réutilisera des données de santé pour l’IA",
+        "url": "https://www.zataz.com/doctolib-reutilisera-des-donnees-de-sante-pour-lia/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Doctolib prépare des recherches médicales avec l’IA utilisant des données de santé, garanties et options de refus annoncées.",
+        "published_at": "2026-07-11T14:33:26",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "4f815f4852847756",
+        "title": "Cyber actualités ZATAZ de la semaine du 6 au 12 juillet 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-6-au-12-juillet-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Cette semaine, ZATAZ revient sur plusieurs fuites massives, des marchés clandestins d’identités, ainsi que sur des affaires judiciaires liées au dark web.",
+        "published_at": "2026-07-11T13:52:31",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 47,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
