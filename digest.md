@@ -1,101 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 10 juillet 2026
+# 🛡️ ARGOS CTI Digest — 12 juillet 2026
 
-> Généré le 10/07/2026 à 02:01 UTC  ·  54 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 12/07/2026 à 02:00 UTC  ·  47 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [OpenPLC v3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-01)
-**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC  **CVE :** `CVE-2026-14480`
-`cve` `vulnerability`
-Cette vulnérabilité dans OpenPLC v3 pourrait permettre à un attaquant authentifié d'écrire des fichiers arbitraires sur le système de fichier et d'escalader cette attaque en exécution native arbitraire, potentiellement conduisant à l'exécution de code en tant qu'utilisateur de runtime OpenPLC.
-
----
-
-### [Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges](https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html)
-**Source :** The Hacker News  **Publié :** 09/07/2026 14:18 UTC  **CVE :** `CVE-2026-50656`
-`cve` `malware` `patch` `vulnerability`
-Microsoft a publié des mises à jour de sécurité pour le bug RoguePlanet, une faille de privilèges dans l'engine antivirus mpengine.dll, avec un score CVSS de 7.8.
-
----
-
-### [Schneider Electric Easergy MiCOM Px40 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-03)
-**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC
+### [Wireshark 4.6.7 Released, (Sat, Jul 11th)](https://isc.sans.edu/diary/rss/33146)
+**Source :** SANS ISC  **Publié :** 11/07/2026 09:07 UTC
 `vulnerability`
-Schneider Electric a identifié une vulnérabilité chez ses relais Easergy MiCOM Px40, série de protections pour les réseaux électriques de haute tension.
-
----
-
-### [Schneider Electric PowerChute Serial Shutdown](https://www.cisa.gov/news-events/ics-advisories/icsa-26-190-02)
-**Source :** CISA Advisories  **Publié :** 09/07/2026 12:00 UTC
-`cve` `vulnerability`
-Ces vulnérabilités dans PowerChute peuvent permettre à l'attaquant d'écraser des fichiers critiques, injecter ou forger des données de journalisation et accéder à des comptes non autorisés.
+Wireshark 4.6.7 a été libérée pour corriger 12 vulnérabilités et 16 bogues.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs](https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html)
-**Source :** The Hacker News  **Publié :** 10/07/2026 00:08 UTC
+### [Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install](https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html)
+**Source :** The Hacker News  **Publié :** 11/07/2026 23:29 UTC
 `breach` `malware`
-Des opérations ciblent les organisations GitHub en utilisant des comptes vieux d'années et des tokens OAuth compromis pour recueillir des informations sur les entreprises.
+Le package npm jscrambler 8.14.0 est compromis, exécutant un voleur d'informations lors de l'installation.
 
 ---
 
-### [New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware](https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html)
-**Source :** The Hacker News  **Publié :** 09/07/2026 23:38 UTC
-`malware` `ransomware`
-GigaWiper est un backdoor Windows contenant trois logiciels détruisants : effacement du disque, écrasement de la partition Windows et rançon-logiciel faux.
+### [Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns](https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html)
+**Source :** The Hacker News  **Publié :** 11/07/2026 23:19 UTC
+`apt` `breach` `cve`
+Des cyberespionnages persistants ont été menés contre des organisations de police pakistanaises par des acteurs chinois et indiens.
 
 ---
 
-### [🏴‍☠️ Moneymessage has just published a new victim : Envision Unlimited](https://www.ransomware.live/id/RW52aXNpb24gVW5saW1pdGVkQG1vbmV5bWVzc2FnZQ==)
-**Source :** Ransomware.live News  **Publié :** 09/07/2026 17:27 UTC
+### [🏴‍☠️ Dragonforce has just published a new victim : Access Equipment Hire](https://www.ransomware.live/id/QWNjZXNzIEVxdWlwbWVudCBIaXJlQGRyYWdvbmZvcmNl)
+**Source :** Ransomware.live News  **Publié :** 11/07/2026 15:25 UTC
+`apt` `cve` `malware`
+Access Equipment Hire, fournisseur d'équipement de chantier en Australie, est victime d'une attaque ciblée.
+
+---
+
+### [🏴‍☠️ Cmdorganization has just published a new victim : Golden Star Resources](https://www.ransomware.live/id/R29sZGVuIFN0YXIgUmVzb3VyY2VzQGNtZG9yZ2FuaXphdGlvbg==)
+**Source :** Ransomware.live News  **Publié :** 11/07/2026 10:50 UTC
+`cve` `malware`
+Golden Star Resources, une entreprise minière en Ghana, est la nouvelle victime de Lockbit5.
+
+---
+
+### [ToolPie : comparer deux visages pour une enquête OSINT ?](https://www.zataz.com/toolpie-comparer-deux-visages-pour-une-enquete-osint/)
+**Source :** ZATAZ  **Publié :** 11/07/2026 09:22 UTC
 `malware`
-[AI generated] Envision Unlimited is a nonprofit human services organization based in the United States, primarily operating in Illinois. Founded in Chicago, it provides support services for individuals with intellectual and developmental disabilities. Its programs include residential services, day
+ToolPie compare des visages sans recherche sur Internet pour aider à vérifier des identités.
 
 ---
 
-### [FFE : une nouvelle fuite massive à la veille des Championnats de France](https://www.zataz.com/ffe-une-nouvelle-fuite-massive-a-la-veille-des-championnats-de-france/)
-**Source :** ZATAZ  **Publié :** 09/07/2026 16:48 UTC
-`malware`
-Une fuite de données se produit à la Fédération française d'équitation avant les Championnats de France.
-
----
-
-### [GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
-**Source :** The Hacker News  **Publié :** 09/07/2026 16:13 UTC
-`malware` `ransomware`
-Le ransomware GodDamn utilise le driver PoisonX pour désactiver les défenses anti-malwares, évitant ainsi la détection et l'interruption.
-
----
-
-### [🏴‍☠️ Braincipher has just published a new victim : robroy.com](https://www.ransomware.live/id/cm9icm95LmNvbUBCcmFpbkNpcGhlcg==)
-**Source :** Ransomware.live News  **Publié :** 09/07/2026 15:21 UTC
-`malware`
-Braincipher a infecté le site web robroy.com, une entreprise spécialisée dans les systèmes de conduits électriques pour environnements corrosifs et dangereux.
+### [🏴‍☠️ Lockbit5 has just published a new victim : bancrofteng.com](https://www.ransomware.live/id/YmFuY3JvZnRlbmcuY29tQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 11/07/2026 07:30 UTC
+`ransomware`
+Bancroft Engineering est la nouvelle victime de l'acteur de ransomware Lockbit5.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Injective SDK on npm infected with cryptocurrency wallet stealer](https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/)
-**Source :** Bleeping Computer  **Publié :** 09/07/2026 16:10 UTC  **Score :** 25
+### 1. [Glendale Community College - 793,925 breached accounts](https://haveibeenpwned.com/Breach/GlendaleCommunityCollege)
+**Source :** Have I Been Pwned  **Publié :** 11/07/2026 10:40 UTC  **Score :** 25
 `breach`
-Les hackers ont compromise le dépôt GitHub du projet Injective Labs SDK et publié un paquet malveillant sur npm, volant les clés privées et les phrases mneumoniques de portefeuilles cryptographiques.
+Glendale Community College a subi une fuite d'environ 794 000 comptes, publiés par un groupe d'extorsionistas.
 
-### 2. [AssuranceAmerica data breach exposes records of 6.9 million drivers](https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/)
-**Source :** Bleeping Computer  **Publié :** 09/07/2026 03:47 UTC  **Score :** 25
-`breach`
-L'assureur américain AssuranceAmerica a divulgué un incident de fuite de données concernant près de 7 millions de conducteurs après que des hackers aient accédé à ses systèmes.
+### 2. [Doctolib réutilisera des données de santé pour l’IA](https://www.zataz.com/doctolib-reutilisera-des-donnees-de-sante-pour-lia/)
+**Source :** ZATAZ  **Publié :** 11/07/2026 14:33 UTC  **Score :** 5
+Doctolib prépare des recherches médicales avec l’IA utilisant des données de santé, garanties et options de refus annoncées.
 
-### 3. [🏴‍☠️ Crpxo has just published a new victim : Creative Smiles Pediatric Dentistry](https://www.ransomware.live/id/Q3JlYXRpdmUgU21pbGVzIFBlZGlhdHJpYyBEZW50aXN0cnlAQ1JQeE8=)
-**Source :** Ransomware.live News  **Publié :** 09/07/2026 06:44 UTC  **Score :** 20
-`breach`
-Crpxo a divulgué les données de la clinique pédiatrique Creative Smiles, comprenant 2,5 Go d'informations.
+### 3. [Cyber actualités ZATAZ de la semaine du 6 au 12 juillet 2026](https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-6-au-12-juillet-2026/)
+**Source :** ZATAZ  **Publié :** 11/07/2026 13:52 UTC  **Score :** 5
+Cette semaine, ZATAZ revient sur plusieurs fuites massives, des marchés clandestins d’identités, ainsi que sur des affaires judiciaires liées au dark web.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-10.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-12.md`*
