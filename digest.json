@@ -1,77 +1,15 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-12",
-  "generated_at": "2026-07-12T02:00:50.796187+00:00",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T02:00:44.146125+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "89ffc22673e67bdf",
-        "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
-        "url": "https://isc.sans.edu/diary/rss/33146",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [],
-        "tags": [
-          "vulnerability"
-        ],
-        "summary": "Wireshark 4.6.7 a été libérée pour corriger 12 vulnérabilités et 16 bogues.",
-        "published_at": "2026-07-11T09:07:06",
-        "score": 0
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "be3f8eb1742213ec",
-        "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-        "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Le package npm jscrambler 8.14.0 est compromis, exécutant un voleur d'informations lors de l'installation.",
-        "published_at": "2026-07-11T23:29:26",
-        "score": 37
-      },
-      {
-        "guid": "f472739c19c162c2",
-        "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-        "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach",
-          "cve"
-        ],
-        "summary": "Des cyberespionnages persistants ont été menés contre des organisations de police pakistanaises par des acteurs chinois et indiens.",
-        "published_at": "2026-07-11T23:19:31",
-        "score": 25
-      },
-      {
-        "guid": "7d739b0add784ceb",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : Access Equipment Hire",
-        "url": "https://www.ransomware.live/id/QWNjZXNzIEVxdWlwbWVudCBIaXJlQGRyYWdvbmZvcmNl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "apt",
-          "cve",
-          "malware"
-        ],
-        "summary": "Access Equipment Hire, fournisseur d'équipement de chantier en Australie, est victime d'une attaque ciblée.",
-        "published_at": "2026-07-11T15:25:06",
-        "score": 12
-      },
-      {
-        "guid": "e36cfe910e03a50e",
-        "title": "🏴‍☠️ Cmdorganization has just published a new victim : Golden Star Resources",
-        "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXIgUmVzb3VyY2VzQGNtZG9yZ2FuaXphdGlvbg==",
+        "guid": "efa03e09fd639b37",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Al - Saidi Factory",
+        "url": "https://www.ransomware.live/id/QWwgLSBTYWlkaSBGYWN0b3J5QGRyYWdvbmZvcmNl",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -79,86 +17,135 @@
           "cve",
           "malware"
         ],
-        "summary": "Golden Star Resources, une entreprise minière en Ghana, est la nouvelle victime de Lockbit5.",
-        "published_at": "2026-07-11T10:50:29",
+        "summary": "Al Saidi Trading and Industry, une entreprise de logistique et chimie en Arabie Saoudite, est devenue la nouvelle cible d'attaques cybersécurité.",
+        "published_at": "2026-07-12T17:55:26",
         "score": 12
       },
       {
-        "guid": "190dd48c943b0ad2",
-        "title": "ToolPie : comparer deux visages pour une enquête OSINT ?",
-        "url": "https://www.zataz.com/toolpie-comparer-deux-visages-pour-une-enquete-osint/",
-        "source": "ZATAZ",
+        "guid": "48c58810dd7769d2",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : STEP Oiltools",
+        "url": "https://www.ransomware.live/id/U1RFUCBPaWx0b29sc0BkcmFnb25mb3JjZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "STEP Oiltools, une entreprise spécialisée dans le traitement des sédiments en forage pétrolier, fait également partie des cibles d'attaques cybersécurité.",
+        "published_at": "2026-07-12T17:55:01",
+        "score": 12
+      },
+      {
+        "guid": "b000a8ab66586dbd",
+        "title": "🏴‍☠️ M3rx has just published a new victim : eclective.ie",
+        "url": "https://www.ransomware.live/id/ZWNsZWN0aXZlLmllQG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Eclective, un groupe hôtelier irlandais, est la nouvelle victime d'une attaque.",
+        "published_at": "2026-07-12T13:01:24",
+        "score": 32
+      },
+      {
+        "guid": "6aa165e8da751527",
+        "title": "RedHook Android malware now uses Wireless ADB for shell access",
+        "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "ToolPie compare des visages sans recherche sur Internet pour aider à vérifier des identités.",
-        "published_at": "2026-07-11T09:22:22",
+        "summary": "RedHook Android malware utilise le Wireless ADB pour accéder au shell sans connexion à un ordinateur.",
+        "published_at": "2026-07-12T10:27:32",
         "score": 17
       },
       {
-        "guid": "ba711c4da2d76a29",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : bancrofteng.com",
-        "url": "https://www.ransomware.live/id/YmFuY3JvZnRlbmcuY29tQGxvY2tiaXQ1",
+        "guid": "16b351b60922de89",
+        "title": "🏴‍☠️ Titan has just published a new victim : Cooperate service CZ s.r.o.",
+        "url": "https://www.ransomware.live/id/Q29vcGVyYXRlIHNlcnZpY2UgQ1ogcy5yLm8uQHRpdGFu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "ransomware"
+          "malware"
         ],
-        "summary": "Bancroft Engineering est la nouvelle victime de l'acteur de ransomware Lockbit5.",
-        "published_at": "2026-07-11T07:30:08",
-        "score": 0
+        "summary": "Cooperate service CZ s.r.o. est la nouvelle cible d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
+        "published_at": "2026-07-12T09:22:29",
+        "score": 12
+      },
+      {
+        "guid": "36e8bb464c64d1a2",
+        "title": "🏴‍☠️ Titan has just published a new victim : Eureka Construction INC",
+        "url": "https://www.ransomware.live/id/RXVyZWthIENvbnN0cnVjdGlvbiBJTkNAdGl0YW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Eureka Construction INC fait également partie des victimes récentes d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
+        "published_at": "2026-07-12T09:22:00",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "f580851c6e83db2a",
-        "title": "Glendale Community College - 793,925 breached accounts",
-        "url": "https://haveibeenpwned.com/Breach/GlendaleCommunityCollege",
-        "source": "Have I Been Pwned",
-        "category": "Général",
+        "guid": "77e4eabdfc87de59",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Community Advocates",
+        "url": "https://www.ransomware.live/id/Q29tbXVuaXR5IEFkdm9jYXRlc0BhbnViaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Glendale Community College a subi une fuite d'environ 794 000 comptes, publiés par un groupe d'extorsionistas.",
-        "published_at": "2026-07-11T10:40:09",
-        "score": 25,
+        "summary": "Des données personnelles de clients de cabinets juridiques ont été exposées par une attaque.",
+        "published_at": "2026-07-12T22:22:11",
+        "score": 20,
         "rank": 1
       },
       {
-        "guid": "6d918a51aebf3dcb",
-        "title": "Doctolib réutilisera des données de santé pour l’IA",
-        "url": "https://www.zataz.com/doctolib-reutilisera-des-donnees-de-sante-pour-lia/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "ba0277749f780342",
+        "title": "🏴‍☠️ M3rx has just published a new victim : foreconinc.com",
+        "url": "https://www.ransomware.live/id/Zm9yZWNvbmluYy5jb21AbTNyeA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
-        "tags": [],
-        "summary": "Doctolib prépare des recherches médicales avec l’IA utilisant des données de santé, garanties et options de refus annoncées.",
-        "published_at": "2026-07-11T14:33:26",
-        "score": 5,
+        "tags": [
+          "breach",
+          "patch"
+        ],
+        "summary": "FORECON Inc., une entreprise de gestion forestière, est la nouvelle cible d'attaques cybersécurité.",
+        "published_at": "2026-07-12T13:01:03",
+        "score": 20,
         "rank": 2
       },
       {
-        "guid": "4f815f4852847756",
-        "title": "Cyber actualités ZATAZ de la semaine du 6 au 12 juillet 2026",
-        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-6-au-12-juillet-2026/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "c5f066619497aeec",
+        "title": "🏴‍☠️ M3rx has just published a new victim : wrtworld.com",
+        "url": "https://www.ransomware.live/id/d3J0d29ybGQuY29tQG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
-        "tags": [],
-        "summary": "Cette semaine, ZATAZ revient sur plusieurs fuites massives, des marchés clandestins d’identités, ainsi que sur des affaires judiciaires liées au dark web.",
-        "published_at": "2026-07-11T13:52:31",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "WRT World Enterprises, un fournisseur de services logistiques pour les grands retailers en Amérique latine, fait également partie des cibles d'attaques cybersécurité.",
+        "published_at": "2026-07-12T13:00:40",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 47,
-    "items_selected": 10,
+    "items_analyzed": 14,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
     "cves_total": 0,
