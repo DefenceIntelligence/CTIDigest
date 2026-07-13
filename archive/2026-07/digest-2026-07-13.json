@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T02:00:44.146125+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "efa03e09fd639b37",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Al - Saidi Factory",
+        "url": "https://www.ransomware.live/id/QWwgLSBTYWlkaSBGYWN0b3J5QGRyYWdvbmZvcmNl",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Al Saidi Trading and Industry, une entreprise de logistique et chimie en Arabie Saoudite, est devenue la nouvelle cible d'attaques cybersécurité.",
+        "published_at": "2026-07-12T17:55:26",
+        "score": 12
+      },
+      {
+        "guid": "48c58810dd7769d2",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : STEP Oiltools",
+        "url": "https://www.ransomware.live/id/U1RFUCBPaWx0b29sc0BkcmFnb25mb3JjZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "STEP Oiltools, une entreprise spécialisée dans le traitement des sédiments en forage pétrolier, fait également partie des cibles d'attaques cybersécurité.",
+        "published_at": "2026-07-12T17:55:01",
+        "score": 12
+      },
+      {
+        "guid": "b000a8ab66586dbd",
+        "title": "🏴‍☠️ M3rx has just published a new victim : eclective.ie",
+        "url": "https://www.ransomware.live/id/ZWNsZWN0aXZlLmllQG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Eclective, un groupe hôtelier irlandais, est la nouvelle victime d'une attaque.",
+        "published_at": "2026-07-12T13:01:24",
+        "score": 32
+      },
+      {
+        "guid": "6aa165e8da751527",
+        "title": "RedHook Android malware now uses Wireless ADB for shell access",
+        "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "RedHook Android malware utilise le Wireless ADB pour accéder au shell sans connexion à un ordinateur.",
+        "published_at": "2026-07-12T10:27:32",
+        "score": 17
+      },
+      {
+        "guid": "16b351b60922de89",
+        "title": "🏴‍☠️ Titan has just published a new victim : Cooperate service CZ s.r.o.",
+        "url": "https://www.ransomware.live/id/Q29vcGVyYXRlIHNlcnZpY2UgQ1ogcy5yLm8uQHRpdGFu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Cooperate service CZ s.r.o. est la nouvelle cible d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
+        "published_at": "2026-07-12T09:22:29",
+        "score": 12
+      },
+      {
+        "guid": "36e8bb464c64d1a2",
+        "title": "🏴‍☠️ Titan has just published a new victim : Eureka Construction INC",
+        "url": "https://www.ransomware.live/id/RXVyZWthIENvbnN0cnVjdGlvbiBJTkNAdGl0YW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Eureka Construction INC fait également partie des victimes récentes d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
+        "published_at": "2026-07-12T09:22:00",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "77e4eabdfc87de59",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Community Advocates",
+        "url": "https://www.ransomware.live/id/Q29tbXVuaXR5IEFkdm9jYXRlc0BhbnViaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des données personnelles de clients de cabinets juridiques ont été exposées par une attaque.",
+        "published_at": "2026-07-12T22:22:11",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "ba0277749f780342",
+        "title": "🏴‍☠️ M3rx has just published a new victim : foreconinc.com",
+        "url": "https://www.ransomware.live/id/Zm9yZWNvbmluYy5jb21AbTNyeA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "patch"
+        ],
+        "summary": "FORECON Inc., une entreprise de gestion forestière, est la nouvelle cible d'attaques cybersécurité.",
+        "published_at": "2026-07-12T13:01:03",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "c5f066619497aeec",
+        "title": "🏴‍☠️ M3rx has just published a new victim : wrtworld.com",
+        "url": "https://www.ransomware.live/id/d3J0d29ybGQuY29tQG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "WRT World Enterprises, un fournisseur de services logistiques pour les grands retailers en Amérique latine, fait également partie des cibles d'attaques cybersécurité.",
+        "published_at": "2026-07-12T13:00:40",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 14,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
