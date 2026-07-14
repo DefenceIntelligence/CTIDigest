@@ -1,75 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 13 juillet 2026
+# 🛡️ ARGOS CTI Digest — 14 juillet 2026
 
-> Généré le 13/07/2026 à 02:00 UTC  ·  14 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 14/07/2026 à 02:00 UTC  ·  52 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days](https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html)
+**Source :** The Hacker News  **Publié :** 13/07/2026 11:06 UTC  **CVE :** `CVE-2026-48939`
+`cve` `malware` `vulnerability`
+La CISA a ajouté deux vulnérabilités critiques de Joomla à sa liste des vulnérabilités exploitées, potentiellement en tant que zéro-jour.
+
+---
+
+### [Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a)
+**Source :** CISA Advisories  **Publié :** 13/07/2026 12:00 UTC
+`cve` `malware` `patch` `ransomware` `vulnerability`
+Les acteurs du FSB exploitent des équipements réseau vulnérables dans divers secteurs critiques à travers le monde.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Dragonforce has just published a new victim : Al - Saidi Factory](https://www.ransomware.live/id/QWwgLSBTYWlkaSBGYWN0b3J5QGRyYWdvbmZvcmNl)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 17:55 UTC
-`cve` `malware`
-Al Saidi Trading and Industry, une entreprise de logistique et chimie en Arabie Saoudite, est devenue la nouvelle cible d'attaques cybersécurité.
-
----
-
-### [🏴‍☠️ Dragonforce has just published a new victim : STEP Oiltools](https://www.ransomware.live/id/U1RFUCBPaWx0b29sc0BkcmFnb25mb3JjZQ==)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 17:55 UTC
-`cve` `malware`
-STEP Oiltools, une entreprise spécialisée dans le traitement des sédiments en forage pétrolier, fait également partie des cibles d'attaques cybersécurité.
-
----
-
-### [🏴‍☠️ M3rx has just published a new victim : eclective.ie](https://www.ransomware.live/id/ZWNsZWN0aXZlLmllQG0zcng=)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 13:01 UTC
+### [CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
+**Source :** The Hacker News  **Publié :** 13/07/2026 23:06 UTC
 `breach` `malware`
-Eclective, un groupe hôtelier irlandais, est la nouvelle victime d'une attaque.
+CrashStealer, un malware macOS, utilise un chargeur notarisé pour contourner la vérification Gatekeeper.
 
 ---
 
-### [RedHook Android malware now uses Wireless ADB for shell access](https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/)
-**Source :** Bleeping Computer  **Publié :** 12/07/2026 10:27 UTC
-`malware`
-RedHook Android malware utilise le Wireless ADB pour accéder au shell sans connexion à un ordinateur.
+### [⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More](https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html)
+**Source :** The Hacker News  **Publié :** 13/07/2026 20:35 UTC
+`ransomware`
+Ce récapitulatif semainier souligne des menaces de sécurité comme le malware ShareFile, le ransomware Citrix Bleed 2 et les attaques par IA.
 
 ---
 
-### [🏴‍☠️ Titan has just published a new victim : Cooperate service CZ s.r.o.](https://www.ransomware.live/id/Q29vcGVyYXRlIHNlcnZpY2UgQ1ogcy5yLm8uQHRpdGFu)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 09:22 UTC
+### [🏴‍☠️ Titan has just published a new victim : DataOstrov s.r.o.](https://www.ransomware.live/id/RGF0YU9zdHJvdiBzLnIuby5AdGl0YW4=)
+**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:34 UTC
 `malware`
-Cooperate service CZ s.r.o. est la nouvelle cible d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.
+N/A
 
 ---
 
-### [🏴‍☠️ Titan has just published a new victim : Eureka Construction INC](https://www.ransomware.live/id/RXVyZWthIENvbnN0cnVjdGlvbiBJTkNAdGl0YW4=)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 09:22 UTC
+### [🏴‍☠️ Titan has just published a new victim : Ozmit s.r.o.](https://www.ransomware.live/id/T3ptaXQgcy5yLm8uQHRpdGFu)
+**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:34 UTC
 `malware`
-Eureka Construction INC fait également partie des victimes récentes d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.
+N/A
+
+---
+
+### [🏴‍☠️ Titan has just published a new victim : Cooperate consulting CZ s.r.o.](https://www.ransomware.live/id/Q29vcGVyYXRlIGNvbnN1bHRpbmcgQ1ogcy5yLm8uQHRpdGFu)
+**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:03 UTC
+`malware`
+N/A
+
+---
+
+### [VPN service favored by ransomware groups is sanctioned by US](https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups)
+**Source :** The Record  **Publié :** 13/07/2026 18:50 UTC
+`malware` `ransomware`
+Les États-Unis ont imposé des sanctions à First VPN Service et son administrateur ukrainien pour faciliter les groupes de rançonnière. Un Belarussien a également été sanctionné.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Anubis has just published a new victim : Community Advocates](https://www.ransomware.live/id/Q29tbXVuaXR5IEFkdm9jYXRlc0BhbnViaXM=)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 22:22 UTC  **Score :** 20
+### 1. [Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach](https://therecord.media/ksenia-sobchak-russian-hackers-leak)
+**Source :** The Record  **Publié :** 13/07/2026 17:15 UTC  **Score :** 35
 `breach`
-Des données personnelles de clients de cabinets juridiques ont été exposées par une attaque.
+Ksenia Sobchak, journaliste russe controversée, a accusé des hackers d'avoir accédé à ses canaux Telegram via une fuite de courriels.
 
-### 2. [🏴‍☠️ M3rx has just published a new victim : foreconinc.com](https://www.ransomware.live/id/Zm9yZWNvbmluYy5jb21AbTNyeA==)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 13:01 UTC  **Score :** 20
-`breach` `patch`
-FORECON Inc., une entreprise de gestion forestière, est la nouvelle cible d'attaques cybersécurité.
-
-### 3. [🏴‍☠️ M3rx has just published a new victim : wrtworld.com](https://www.ransomware.live/id/d3J0d29ybGQuY29tQG0zcng=)
-**Source :** Ransomware.live News  **Publié :** 12/07/2026 13:00 UTC  **Score :** 20
+### 2. [Lessons Learned from CISA’s Recent GitHub Leak](https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/)
+**Source :** Krebs on Security  **Publié :** 13/07/2026 15:03 UTC  **Score :** 25
 `breach`
-WRT World Enterprises, un fournisseur de services logistiques pour les grands retailers en Amérique latine, fait également partie des cibles d'attaques cybersécurité.
+CISA a publié un post-mortem sur une fuite de données dans GitHub où un contractant a partagé des informations confidentielles pendant six mois avant d'être informé.
+
+### 3. [Lidl discloses online shop breach after service provider hack](https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/)
+**Source :** Bleeping Computer  **Publié :** 13/07/2026 10:19 UTC  **Score :** 25
+`breach`
+Lidl informe ses clients en Allemagne, en Belgique et aux Pays-Bas d'une fuite de données personnelles suite à une attaque sur un fournisseur de services.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-13.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-14.md`*
