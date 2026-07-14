@@ -1,154 +1,189 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-13",
-  "generated_at": "2026-07-13T02:00:44.146125+00:00",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T02:00:54.413818+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
+    "vulnerabilities": [
+      {
+        "guid": "2d1c1c5f2cc7bfa4",
+        "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+        "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48939"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "La CISA a ajouté deux vulnérabilités critiques de Joomla à sa liste des vulnérabilités exploitées, potentiellement en tant que zéro-jour.",
+        "published_at": "2026-07-13T11:06:02",
+        "score": 32
+      },
+      {
+        "guid": "50d8f9cd39873750",
+        "title": "Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Les acteurs du FSB exploitent des équipements réseau vulnérables dans divers secteurs critiques à travers le monde.",
+        "published_at": "2026-07-13T12:00:00",
+        "score": 12
+      }
+    ],
     "campaigns": [
       {
-        "guid": "efa03e09fd639b37",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : Al - Saidi Factory",
-        "url": "https://www.ransomware.live/id/QWwgLSBTYWlkaSBGYWN0b3J5QGRyYWdvbmZvcmNl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Al Saidi Trading and Industry, une entreprise de logistique et chimie en Arabie Saoudite, est devenue la nouvelle cible d'attaques cybersécurité.",
-        "published_at": "2026-07-12T17:55:26",
-        "score": 12
-      },
-      {
-        "guid": "48c58810dd7769d2",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : STEP Oiltools",
-        "url": "https://www.ransomware.live/id/U1RFUCBPaWx0b29sc0BkcmFnb25mb3JjZQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "STEP Oiltools, une entreprise spécialisée dans le traitement des sédiments en forage pétrolier, fait également partie des cibles d'attaques cybersécurité.",
-        "published_at": "2026-07-12T17:55:01",
-        "score": 12
-      },
-      {
-        "guid": "b000a8ab66586dbd",
-        "title": "🏴‍☠️ M3rx has just published a new victim : eclective.ie",
-        "url": "https://www.ransomware.live/id/ZWNsZWN0aXZlLmllQG0zcng=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "91ce5dd38e109bbf",
+        "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+        "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "malware"
         ],
-        "summary": "Eclective, un groupe hôtelier irlandais, est la nouvelle victime d'une attaque.",
-        "published_at": "2026-07-12T13:01:24",
-        "score": 32
+        "summary": "CrashStealer, un malware macOS, utilise un chargeur notarisé pour contourner la vérification Gatekeeper.",
+        "published_at": "2026-07-13T23:06:12",
+        "score": 37
       },
       {
-        "guid": "6aa165e8da751527",
-        "title": "RedHook Android malware now uses Wireless ADB for shell access",
-        "url": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-        "source": "Bleeping Computer",
+        "guid": "0bb16111aa320515",
+        "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+        "url": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "RedHook Android malware utilise le Wireless ADB pour accéder au shell sans connexion à un ordinateur.",
-        "published_at": "2026-07-12T10:27:32",
-        "score": 17
+        "summary": "Ce récapitulatif semainier souligne des menaces de sécurité comme le malware ShareFile, le ransomware Citrix Bleed 2 et les attaques par IA.",
+        "published_at": "2026-07-13T20:35:57",
+        "score": 5
       },
       {
-        "guid": "16b351b60922de89",
-        "title": "🏴‍☠️ Titan has just published a new victim : Cooperate service CZ s.r.o.",
-        "url": "https://www.ransomware.live/id/Q29vcGVyYXRlIHNlcnZpY2UgQ1ogcy5yLm8uQHRpdGFu",
+        "guid": "c1eb75ac18f8a1e0",
+        "title": "🏴‍☠️ Titan has just published a new victim : DataOstrov s.r.o.",
+        "url": "https://www.ransomware.live/id/RGF0YU9zdHJvdiBzLnIuby5AdGl0YW4=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Cooperate service CZ s.r.o. est la nouvelle cible d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
-        "published_at": "2026-07-12T09:22:29",
+        "summary": "N/A",
+        "published_at": "2026-07-13T20:34:28",
         "score": 12
       },
       {
-        "guid": "36e8bb464c64d1a2",
-        "title": "🏴‍☠️ Titan has just published a new victim : Eureka Construction INC",
-        "url": "https://www.ransomware.live/id/RXVyZWthIENvbnN0cnVjdGlvbiBJTkNAdGl0YW4=",
+        "guid": "b28498a31116245a",
+        "title": "🏴‍☠️ Titan has just published a new victim : Ozmit s.r.o.",
+        "url": "https://www.ransomware.live/id/T3ptaXQgcy5yLm8uQHRpdGFu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Eureka Construction INC fait également partie des victimes récentes d'attaques cybersécurité selon Titan, mais aucune information supplémentaire n'est disponible.",
-        "published_at": "2026-07-12T09:22:00",
+        "summary": "N/A",
+        "published_at": "2026-07-13T20:34:00",
         "score": 12
+      },
+      {
+        "guid": "de3e2afdd89d84a6",
+        "title": "🏴‍☠️ Titan has just published a new victim : Cooperate consulting CZ s.r.o.",
+        "url": "https://www.ransomware.live/id/Q29vcGVyYXRlIGNvbnN1bHRpbmcgQ1ogcy5yLm8uQHRpdGFu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-07-13T20:03:11",
+        "score": 12
+      },
+      {
+        "guid": "f100ed72a9a7bea7",
+        "title": "VPN service favored by ransomware groups is sanctioned by US",
+        "url": "https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Les États-Unis ont imposé des sanctions à First VPN Service et son administrateur ukrainien pour faciliter les groupes de rançonnière. Un Belarussien a également été sanctionné.",
+        "published_at": "2026-07-13T18:50:00",
+        "score": 27
       }
     ],
     "top_reads": [
       {
-        "guid": "77e4eabdfc87de59",
-        "title": "🏴‍☠️ Anubis has just published a new victim : Community Advocates",
-        "url": "https://www.ransomware.live/id/Q29tbXVuaXR5IEFkdm9jYXRlc0BhbnViaXM=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "967095a8d3a40139",
+        "title": "Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach",
+        "url": "https://therecord.media/ksenia-sobchak-russian-hackers-leak",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Des données personnelles de clients de cabinets juridiques ont été exposées par une attaque.",
-        "published_at": "2026-07-12T22:22:11",
-        "score": 20,
+        "summary": "Ksenia Sobchak, journaliste russe controversée, a accusé des hackers d'avoir accédé à ses canaux Telegram via une fuite de courriels.",
+        "published_at": "2026-07-13T17:15:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "ba0277749f780342",
-        "title": "🏴‍☠️ M3rx has just published a new victim : foreconinc.com",
-        "url": "https://www.ransomware.live/id/Zm9yZWNvbmluYy5jb21AbTNyeA==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "patch"
-        ],
-        "summary": "FORECON Inc., une entreprise de gestion forestière, est la nouvelle cible d'attaques cybersécurité.",
-        "published_at": "2026-07-12T13:01:03",
-        "score": 20,
-        "rank": 2
-      },
-      {
-        "guid": "c5f066619497aeec",
-        "title": "🏴‍☠️ M3rx has just published a new victim : wrtworld.com",
-        "url": "https://www.ransomware.live/id/d3J0d29ybGQuY29tQG0zcng=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "5cf762ac7009530b",
+        "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+        "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+        "source": "Krebs on Security",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "WRT World Enterprises, un fournisseur de services logistiques pour les grands retailers en Amérique latine, fait également partie des cibles d'attaques cybersécurité.",
-        "published_at": "2026-07-12T13:00:40",
-        "score": 20,
+        "summary": "CISA a publié un post-mortem sur une fuite de données dans GitHub où un contractant a partagé des informations confidentielles pendant six mois avant d'être informé.",
+        "published_at": "2026-07-13T15:03:28",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "9782f350e3806c28",
+        "title": "Lidl discloses online shop breach after service provider hack",
+        "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Lidl informe ses clients en Allemagne, en Belgique et aux Pays-Bas d'une fuite de données personnelles suite à une attaque sur un fournisseur de services.",
+        "published_at": "2026-07-13T10:19:43",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 14,
-    "items_selected": 9,
+    "items_analyzed": 52,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
