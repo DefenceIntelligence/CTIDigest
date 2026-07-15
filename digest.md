@@ -1,87 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 14 juillet 2026
+# 🛡️ ARGOS CTI Digest — 15 juillet 2026
 
-> Généré le 14/07/2026 à 02:00 UTC  ·  52 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 15/07/2026 à 02:01 UTC  ·  72 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days](https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html)
-**Source :** The Hacker News  **Publié :** 13/07/2026 11:06 UTC  **CVE :** `CVE-2026-48939`
-`cve` `malware` `vulnerability`
-La CISA a ajouté deux vulnérabilités critiques de Joomla à sa liste des vulnérabilités exploitées, potentiellement en tant que zéro-jour.
+### [CISA Urges SharePoint Hardening After New Exploitations](https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations)
+**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-55040`, `CVE-2026-58644`, `CVE-2026-56164`, `CVE-2026-45659`, `CVE-2026-32201`
+`apt` `breach` `cve` `malware` `patch`
+CISA alerte sur l'exploitation de vulnérabilités dans SharePoint, affectant toutes les versions prises en charge.
 
 ---
 
-### [Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a)
-**Source :** CISA Advisories  **Publié :** 13/07/2026 12:00 UTC
-`cve` `malware` `patch` `ransomware` `vulnerability`
-Les acteurs du FSB exploitent des équipements réseau vulnérables dans divers secteurs critiques à travers le monde.
+### [ABB T-MAC Plus](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03)
+**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2025-14772`, `CVE-2025-14774`, `CVE-2025-14773`, `CVE-2025-14771`
+`breach` `cve` `malware` `patch` `vulnerability`
+ABB met à disposition des mises à jour pour résoudre des vulnérabilités potentiellement compromettantes dans ses produits.
+
+---
+
+### [SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/)
+**Source :** Bleeping Computer  **Publié :** 14/07/2026 17:23 UTC  **CVE :** `CVE-2026-15410`, `CVE-2026-15409`
+`apt` `cve` `patch` `vulnerability`
+SonicWall alerte sur deux vulnérabilités SMA1000 exploitées en attaques zero-day et conseille d'appliquer les mises à jour de sécurité.
+
+---
+
+### [ABB Advant Master Online Builder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01)
+**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2025-13162`
+`cve` `patch` `vulnerability`
+ABB met à disposition des mises à jour pour résoudre une vulnérabilité dans Online Builder (ONB) affectant certaines versions du produit.
+
+---
+
+### [ABB Ability Edgenius](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02)
+**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-31431`
+`breach` `cve` `patch` `vulnerability`
+Rockwell Automation alerte sur des vulnérabilités potentiellement dangereuses dans le 1715-AENTR EtherNet/IP Adapter.
+
+---
+
+### [Rockwell Automation 1715-AENTR EtherNet/IP Adapter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04)
+**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-10577`
+`apt` `cve` `vulnerability`
+SAP a mis à disposition des mises à jour pour corriger une vulnérabilité critique dans NetWeaver ABAP.
+
+---
+
+### [SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data](https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html)
+**Source :** The Hacker News  **Publié :** 14/07/2026 23:47 UTC  **CVE :** `CVE-2026-44747`
+`cve` `patch` `vulnerability`
+Microsoft a publié des mises à jour de sécurité pour juillet 2026, incluant des vulnérabilités critiques et exploitées en milieu sauvage.
+
+---
+
+### [Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities](https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/)
+**Source :** Cisco Talos  **Publié :** 14/07/2026 20:27 UTC  **CVE :** `CVE-2026-56155`
+`cve` `patch` `vulnerability`
+<p>Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical&quot;.</p><p>Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wil
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks](https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html)
-**Source :** The Hacker News  **Publié :** 13/07/2026 23:06 UTC
-`breach` `malware`
-CrashStealer, un malware macOS, utilise un chargeur notarisé pour contourner la vérification Gatekeeper.
-
----
-
-### [⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More](https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html)
-**Source :** The Hacker News  **Publié :** 13/07/2026 20:35 UTC
-`ransomware`
-Ce récapitulatif semainier souligne des menaces de sécurité comme le malware ShareFile, le ransomware Citrix Bleed 2 et les attaques par IA.
-
----
-
-### [🏴‍☠️ Titan has just published a new victim : DataOstrov s.r.o.](https://www.ransomware.live/id/RGF0YU9zdHJvdiBzLnIuby5AdGl0YW4=)
-**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:34 UTC
+### [LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts](https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html)
+**Source :** The Hacker News  **Publié :** 14/07/2026 22:22 UTC
 `malware`
-N/A
+LabubaRAT, un trojan-rat masquant l'identité de logiciel NVIDIA, est utilisé par les acteurs du cybercriminel pour contrôler des hôtes Windows.
 
 ---
 
-### [🏴‍☠️ Titan has just published a new victim : Ozmit s.r.o.](https://www.ransomware.live/id/T3ptaXQgcy5yLm8uQHRpdGFu)
-**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:34 UTC
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Axiom GlobalNEW](https://www.ransomware.live/id/QXhpb20gR2xvYmFsTkVXQGNvaW5iYXNlY2FydGVs)
+**Source :** Ransomware.live News  **Publié :** 14/07/2026 20:53 UTC
 `malware`
-N/A
+[AI generated] N/A
 
 ---
 
-### [🏴‍☠️ Titan has just published a new victim : Cooperate consulting CZ s.r.o.](https://www.ransomware.live/id/Q29vcGVyYXRlIGNvbnN1bHRpbmcgQ1ogcy5yLm8uQHRpdGFu)
-**Source :** Ransomware.live News  **Publié :** 13/07/2026 20:03 UTC
+### [🏴‍☠️ Arcusmedia has just published a new victim : Perpustam](https://www.ransomware.live/id/UGVycHVzdGFtQGFyY3VzbWVkaWE=)
+**Source :** Ransomware.live News  **Publié :** 14/07/2026 20:12 UTC
 `malware`
-N/A
+Perpustam, une bibliothèque publique malaisienne, a été victime d'une attaque.
 
 ---
 
-### [VPN service favored by ransomware groups is sanctioned by US](https://therecord.media/first-vpn-administrator-us-sanctions-ransomware-groups)
-**Source :** The Record  **Publié :** 13/07/2026 18:50 UTC
-`malware` `ransomware`
-Les États-Unis ont imposé des sanctions à First VPN Service et son administrateur ukrainien pour faciliter les groupes de rançonnière. Un Belarussien a également été sanctionné.
+### [🏴‍☠️ Incransom has just published a new victim : Golden Glasko & Associates](https://www.ransomware.live/id/R29sZGVuIEdsYXNrbyAmIEFzc29jaWF0ZXNAaW5jcmFuc29t)
+**Source :** Ransomware.live News  **Publié :** 14/07/2026 19:27 UTC
+`malware`
+Golden Glasko & Associates, une firme de droit spécialisée en estate law basée à Miami, est victime d'un rançongiciel.
+
+---
+
+### [US unseals indictment against alleged operators of Russian bulletproof hosting service](https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting)
+**Source :** The Record  **Publié :** 14/07/2026 19:26 UTC
+`malware`
+Des Russes sont inculpés pour avoir fourni des services de hébergement cybersécurisé aux cybercriminels.
+
+---
+
+### [Microsoft Patches a Record 570 Security Flaws](https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/)
+**Source :** Krebs on Security  **Publié :** 14/07/2026 19:22 UTC
+`malware` `patch` `vulnerability`
+Microsoft a corrigé 570 vulnérabilités dans ses systèmes d'exploitation et logiciels.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Russian celebrity journalist Ksenia Sobchak says hackers accessed Telegram channels via email breach](https://therecord.media/ksenia-sobchak-russian-hackers-leak)
-**Source :** The Record  **Publié :** 13/07/2026 17:15 UTC  **Score :** 35
+### 1. [Finland issues wanted notice for hacker behind massive psychotherapy data breach](https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach)
+**Source :** The Record  **Publié :** 14/07/2026 17:28 UTC  **Score :** 35
 `breach`
-Ksenia Sobchak, journaliste russe controversée, a accusé des hackers d'avoir accédé à ses canaux Telegram via une fuite de courriels.
+Un hacker est recherché en Finlande pour un vaste fuite de données liées à la psychothérapie.
 
-### 2. [Lessons Learned from CISA’s Recent GitHub Leak](https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/)
-**Source :** Krebs on Security  **Publié :** 13/07/2026 15:03 UTC  **Score :** 25
-`breach`
-CISA a publié un post-mortem sur une fuite de données dans GitHub où un contractant a partagé des informations confidentielles pendant six mois avant d'être informé.
+### 2. [Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack](https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html)
+**Source :** The Hacker News  **Publié :** 15/07/2026 01:55 UTC  **Score :** 25
+`breach` `cve` `patch` `vulnerability`
+Microsoft a publié des mises à jour correctives pour 622 vulnérabilités, dont deux exploitées actuellement.
 
-### 3. [Lidl discloses online shop breach after service provider hack](https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/)
-**Source :** Bleeping Computer  **Publié :** 13/07/2026 10:19 UTC  **Score :** 25
+### 3. [Spanish Police take down €140 million cyber fraud ring, arrest four](https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/)
+**Source :** Bleeping Computer  **Publié :** 14/07/2026 16:23 UTC  **Score :** 25
 `breach`
-Lidl informe ses clients en Allemagne, en Belgique et aux Pays-Bas d'une fuite de données personnelles suite à une attaque sur un fournisseur de services.
+Les forces policières espagnoles ont démantelé une organisation de fraude et blanchiment de capitaux en ligne, volant 140 millions d'euros.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-14.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-15.md`*
