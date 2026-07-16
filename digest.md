@@ -1,129 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 15 juillet 2026
+# 🛡️ ARGOS CTI Digest — 16 juillet 2026
 
-> Généré le 15/07/2026 à 02:01 UTC  ·  72 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 16/07/2026 à 02:01 UTC  ·  51 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Urges SharePoint Hardening After New Exploitations](https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations)
-**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-55040`, `CVE-2026-58644`, `CVE-2026-56164`, `CVE-2026-45659`, `CVE-2026-32201`
-`apt` `breach` `cve` `malware` `patch`
-CISA alerte sur l'exploitation de vulnérabilités dans SharePoint, affectant toutes les versions prises en charge.
+### [Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws](https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html)
+**Source :** The Hacker News  **Publié :** 15/07/2026 18:48 UTC  **CVE :** `CVE-2026-15718`, `CVE-2026-15719`
+`cve` `vulnerability`
+Mozilla a mis à jour Firefox pour corriger deux vulnérabilités critiques, dont une permettant l'exécution arbitraire de commandes.
 
 ---
 
-### [ABB T-MAC Plus](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03)
-**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2025-14772`, `CVE-2025-14774`, `CVE-2025-14773`, `CVE-2025-14771`
-`breach` `cve` `malware` `patch` `vulnerability`
-ABB met à disposition des mises à jour pour résoudre des vulnérabilités potentiellement compromettantes dans ses produits.
+### [Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands](https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html)
+**Source :** The Hacker News  **Publié :** 15/07/2026 11:00 UTC  **CVE :** `CVE-2026-15409`
+`cve` `vulnerability`
+SonicWall alerte sur la exploitation active de deux vulnérabilités zero-day dans ses appliances SMA 1000, l'une pouvant conduire à l'exécution arbitraire de commandes.
 
 ---
 
-### [SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now](https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/)
-**Source :** Bleeping Computer  **Publié :** 14/07/2026 17:23 UTC  **CVE :** `CVE-2026-15410`, `CVE-2026-15409`
-`apt` `cve` `patch` `vulnerability`
-SonicWall alerte sur deux vulnérabilités SMA1000 exploitées en attaques zero-day et conseille d'appliquer les mises à jour de sécurité.
-
----
-
-### [ABB Advant Master Online Builder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01)
-**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2025-13162`
-`cve` `patch` `vulnerability`
-ABB met à disposition des mises à jour pour résoudre une vulnérabilité dans Online Builder (ONB) affectant certaines versions du produit.
-
----
-
-### [ABB Ability Edgenius](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02)
-**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-31431`
-`breach` `cve` `patch` `vulnerability`
-Rockwell Automation alerte sur des vulnérabilités potentiellement dangereuses dans le 1715-AENTR EtherNet/IP Adapter.
-
----
-
-### [Rockwell Automation 1715-AENTR EtherNet/IP Adapter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04)
-**Source :** CISA Advisories  **Publié :** 14/07/2026 12:00 UTC  **CVE :** `CVE-2026-10577`
-`apt` `cve` `vulnerability`
-SAP a mis à disposition des mises à jour pour corriger une vulnérabilité critique dans NetWeaver ABAP.
-
----
-
-### [SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data](https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html)
-**Source :** The Hacker News  **Publié :** 14/07/2026 23:47 UTC  **CVE :** `CVE-2026-44747`
-`cve` `patch` `vulnerability`
-Microsoft a publié des mises à jour de sécurité pour juillet 2026, incluant des vulnérabilités critiques et exploitées en milieu sauvage.
-
----
-
-### [Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities](https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/)
-**Source :** Cisco Talos  **Publié :** 14/07/2026 20:27 UTC  **CVE :** `CVE-2026-56155`
-`cve` `patch` `vulnerability`
-<p>Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical&quot;.</p><p>Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wil
+### [Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers](https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers)
+**Source :** CISA Advisories  **Publié :** 15/07/2026 12:00 UTC
+`breach` `malware` `vulnerability`
+CISA et NSA ont publié des lignes directrices pour mettre en place un programme de divulgation coordonnée de vulnérabilités avec les chercheurs de sécurité.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts](https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html)
-**Source :** The Hacker News  **Publié :** 14/07/2026 22:22 UTC
+### [TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development](https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html)
+**Source :** The Hacker News  **Publié :** 16/07/2026 00:13 UTC
 `malware`
-LabubaRAT, un trojan-rat masquant l'identité de logiciel NVIDIA, est utilisé par les acteurs du cybercriminel pour contrôler des hôtes Windows.
+Des chercheurs ont dévoilé TuxBot v3 Evolution, un framework d'IoT botnet qui a montré des signes d'une création assistée par une IA.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Axiom GlobalNEW](https://www.ransomware.live/id/QXhpb20gR2xvYmFsTkVXQGNvaW5iYXNlY2FydGVs)
-**Source :** Ransomware.live News  **Publié :** 14/07/2026 20:53 UTC
-`malware`
-[AI generated] N/A
+### [OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps](https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html)
+**Source :** The Hacker News  **Publié :** 15/07/2026 21:00 UTC
+`malware` `phishing`
+OkoBot est un malware qui phishing de phrases de récupération sur les appareils Ledger et Trezor.
 
 ---
 
-### [🏴‍☠️ Arcusmedia has just published a new victim : Perpustam](https://www.ransomware.live/id/UGVycHVzdGFtQGFyY3VzbWVkaWE=)
-**Source :** Ransomware.live News  **Publié :** 14/07/2026 20:12 UTC
-`malware`
-Perpustam, une bibliothèque publique malaisienne, a été victime d'une attaque.
+### [Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities](https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse)
+**Source :** The Record  **Publié :** 15/07/2026 20:00 UTC
+`malware` `vulnerability`
+Le programme Gold Eagle utilisera l'IA pour détecter, prioriser et corriger rapidement les vulnérabilités de sécurité.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : Golden Glasko & Associates](https://www.ransomware.live/id/R29sZGVuIEdsYXNrbyAmIEFzc29jaWF0ZXNAaW5jcmFuc29t)
-**Source :** Ransomware.live News  **Publié :** 14/07/2026 19:27 UTC
+### [🏴‍☠️ Ransomhouse has just published a new victim : Fidelity Services Group](https://www.ransomware.live/id/RmlkZWxpdHkgU2VydmljZXMgR3JvdXBAcmFuc29taG91c2U=)
+**Source :** Ransomware.live News  **Publié :** 15/07/2026 19:28 UTC
 `malware`
-Golden Glasko & Associates, une firme de droit spécialisée en estate law basée à Miami, est victime d'un rançongiciel.
+Fidelity Services Group, une entreprise sud-africaine de services de sécurité, a été victime d'un rançongiciel.
 
 ---
 
-### [US unseals indictment against alleged operators of Russian bulletproof hosting service](https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting)
-**Source :** The Record  **Publié :** 14/07/2026 19:26 UTC
+### [SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.](https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html)
+**Source :** The Hacker News  **Publié :** 15/07/2026 17:20 UTC
 `malware`
-Des Russes sont inculpés pour avoir fourni des services de hébergement cybersécurisé aux cybercriminels.
+Le modèle traditionnel d'inspection des paquets est insuffisant face aux nouvelles entreprises qui utilisent SaaS, AI et extensions non autorisées.
 
 ---
 
-### [Microsoft Patches a Record 570 Security Flaws](https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/)
-**Source :** Krebs on Security  **Publié :** 14/07/2026 19:22 UTC
-`malware` `patch` `vulnerability`
-Microsoft a corrigé 570 vulnérabilités dans ses systèmes d'exploitation et logiciels.
+### [🏴‍☠️ Coinbasecartel has just published a new victim : PanasonicAero](https://www.ransomware.live/id/UGFuYXNvbmljQWVyb0Bjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 15/07/2026 17:01 UTC
+`malware`
+Coinbasecartel a ciblé PanasonicAero, une filiale de Panasonic spécialisée dans l'entertainment in-flight et la connectivité aérienne.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Finland issues wanted notice for hacker behind massive psychotherapy data breach](https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach)
-**Source :** The Record  **Publié :** 14/07/2026 17:28 UTC  **Score :** 35
+### 1. [23andMe reaches $18 million settlement with states for massive breach](https://therecord.media/genetic-testing-settlement-data-breach)
+**Source :** The Record  **Publié :** 15/07/2026 17:45 UTC  **Score :** 35
 `breach`
-Un hacker est recherché en Finlande pour un vaste fuite de données liées à la psychothérapie.
+23andMe s'est vu imposer un règlement de 18 millions de dollars par des procureurs d'Etats pour une faille de sécurité.
 
-### 2. [Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack](https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html)
-**Source :** The Hacker News  **Publié :** 15/07/2026 01:55 UTC  **Score :** 25
-`breach` `cve` `patch` `vulnerability`
-Microsoft a publié des mises à jour correctives pour 622 vulnérabilités, dont deux exploitées actuellement.
+### 2. [Goose Creek - 6,574,121 breached accounts](https://haveibeenpwned.com/Breach/GooseCreek)
+**Source :** Have I Been Pwned  **Publié :** 15/07/2026 05:03 UTC  **Score :** 25
+`breach` `vulnerability`
+En juin 2026, une entité a prétendu avoir accès à des données de la compagnie Goose Creek Candle Company et a envoyé des emails aux clients concernant une vulnérabilité de sécurité et un déversement de données comprenant 6,574,121 adresses électroniques uniques ainsi que des noms, numéros de télépho
 
-### 3. [Spanish Police take down €140 million cyber fraud ring, arrest four](https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/)
-**Source :** Bleeping Computer  **Publié :** 14/07/2026 16:23 UTC  **Score :** 25
+### 3. [🏴‍☠️ Booba project has just published a new victim : Jani-King](https://www.ransomware.live/id/SmFuaS1LaW5nQEJvb2JhIFByb2plY3Q=)
+**Source :** Ransomware.live News  **Publié :** 15/07/2026 12:20 UTC  **Score :** 20
 `breach`
-Les forces policières espagnoles ont démantelé une organisation de fraude et blanchiment de capitaux en ligne, volant 140 millions d'euros.
+Le projet Booba a récemment dévoilé une nouvelle victime : Jani-King. Des données de 12 GB ont été volées dans le contexte des services de facilités.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-15.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-16.md`*
