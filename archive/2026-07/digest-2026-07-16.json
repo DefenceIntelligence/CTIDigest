@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T02:01:12.245525+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "bf33b9dd519f1861",
+        "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+        "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-15718",
+          "CVE-2026-15719"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Mozilla a mis à jour Firefox pour corriger deux vulnérabilités critiques, dont une permettant l'exécution arbitraire de commandes.",
+        "published_at": "2026-07-15T18:48:53",
+        "score": 20
+      },
+      {
+        "guid": "08898de7d245d909",
+        "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+        "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-15409"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "SonicWall alerte sur la exploitation active de deux vulnérabilités zero-day dans ses appliances SMA 1000, l'une pouvant conduire à l'exécution arbitraire de commandes.",
+        "published_at": "2026-07-15T11:00:21",
+        "score": 20
+      },
+      {
+        "guid": "73900957d4f7acde",
+        "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
+        "url": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA et NSA ont publié des lignes directrices pour mettre en place un programme de divulgation coordonnée de vulnérabilités avec les chercheurs de sécurité.",
+        "published_at": "2026-07-15T12:00:00",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "bc71f094c6cf1838",
+        "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+        "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des chercheurs ont dévoilé TuxBot v3 Evolution, un framework d'IoT botnet qui a montré des signes d'une création assistée par une IA.",
+        "published_at": "2026-07-16T00:13:08",
+        "score": 17
+      },
+      {
+        "guid": "feb3e77965f169d7",
+        "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+        "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "OkoBot est un malware qui phishing de phrases de récupération sur les appareils Ledger et Trezor.",
+        "published_at": "2026-07-15T21:00:30",
+        "score": 27
+      },
+      {
+        "guid": "ac59b8d2e538aac3",
+        "title": "Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities",
+        "url": "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Le programme Gold Eagle utilisera l'IA pour détecter, prioriser et corriger rapidement les vulnérabilités de sécurité.",
+        "published_at": "2026-07-15T20:00:00",
+        "score": 27
+      },
+      {
+        "guid": "fd1874113691726b",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Fidelity Services Group",
+        "url": "https://www.ransomware.live/id/RmlkZWxpdHkgU2VydmljZXMgR3JvdXBAcmFuc29taG91c2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Fidelity Services Group, une entreprise sud-africaine de services de sécurité, a été victime d'un rançongiciel.",
+        "published_at": "2026-07-15T19:28:42",
+        "score": 12
+      },
+      {
+        "guid": "4597566e8638a772",
+        "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+        "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le modèle traditionnel d'inspection des paquets est insuffisant face aux nouvelles entreprises qui utilisent SaaS, AI et extensions non autorisées.",
+        "published_at": "2026-07-15T17:20:01",
+        "score": 17
+      },
+      {
+        "guid": "438f5226a6c9973f",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : PanasonicAero",
+        "url": "https://www.ransomware.live/id/UGFuYXNvbmljQWVyb0Bjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Coinbasecartel a ciblé PanasonicAero, une filiale de Panasonic spécialisée dans l'entertainment in-flight et la connectivité aérienne.",
+        "published_at": "2026-07-15T17:01:52",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "4d9a4e570d994f36",
+        "title": "23andMe reaches $18 million settlement with states for massive breach",
+        "url": "https://therecord.media/genetic-testing-settlement-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "23andMe s'est vu imposer un règlement de 18 millions de dollars par des procureurs d'Etats pour une faille de sécurité.",
+        "published_at": "2026-07-15T17:45:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d0f31bfca22ee9f1",
+        "title": "Goose Creek - 6,574,121 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/GooseCreek",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "En juin 2026, une entité a prétendu avoir accès à des données de la compagnie Goose Creek Candle Company et a envoyé des emails aux clients concernant une vulnérabilité de sécurité et un déversement de données comprenant 6,574,121 adresses électroniques uniques ainsi que des noms, numéros de téléphone et adresses physiques.",
+        "published_at": "2026-07-15T05:03:14",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "e8a653a1926d7fc4",
+        "title": "🏴‍☠️ Booba project has just published a new victim : Jani-King",
+        "url": "https://www.ransomware.live/id/SmFuaS1LaW5nQEJvb2JhIFByb2plY3Q=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le projet Booba a récemment dévoilé une nouvelle victime : Jani-King. Des données de 12 GB ont été volées dans le contexte des services de facilités.",
+        "published_at": "2026-07-15T12:20:24",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 51,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
