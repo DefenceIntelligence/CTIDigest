@@ -1,315 +1,205 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-15",
-  "generated_at": "2026-07-15T02:01:15.614693+00:00",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T02:01:12.245525+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "956ef5e1ee7e62a9",
-        "title": "CISA Urges SharePoint Hardening After New Exploitations",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-55040",
-          "CVE-2026-58644",
-          "CVE-2026-56164",
-          "CVE-2026-45659",
-          "CVE-2026-32201"
-        ],
-        "tags": [
-          "apt",
-          "breach",
-          "cve",
-          "malware",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "CISA alerte sur l'exploitation de vulnérabilités dans SharePoint, affectant toutes les versions prises en charge.",
-        "published_at": "2026-07-14T12:00:00",
-        "score": 47
-      },
-      {
-        "guid": "078de1abb4050999",
-        "title": "ABB T-MAC Plus",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2025-14772",
-          "CVE-2025-14774",
-          "CVE-2025-14773",
-          "CVE-2025-14771"
-        ],
-        "tags": [
-          "breach",
-          "cve",
-          "malware",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "ABB met à disposition des mises à jour pour résoudre des vulnérabilités potentiellement compromettantes dans ses produits.",
-        "published_at": "2026-07-14T12:00:00",
-        "score": 47
-      },
-      {
-        "guid": "0cfff9fcb544b6a3",
-        "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
-        "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-15410",
-          "CVE-2026-15409"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "SonicWall alerte sur deux vulnérabilités SMA1000 exploitées en attaques zero-day et conseille d'appliquer les mises à jour de sécurité.",
-        "published_at": "2026-07-14T17:23:24",
-        "score": 20
-      },
-      {
-        "guid": "b0006314d7631921",
-        "title": "ABB Advant Master Online Builder",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2025-13162"
-        ],
-        "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "ABB met à disposition des mises à jour pour résoudre une vulnérabilité dans Online Builder (ONB) affectant certaines versions du produit.",
-        "published_at": "2026-07-14T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "640617de3ec7dbae",
-        "title": "ABB Ability Edgenius",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-31431"
-        ],
-        "tags": [
-          "breach",
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Rockwell Automation alerte sur des vulnérabilités potentiellement dangereuses dans le 1715-AENTR EtherNet/IP Adapter.",
-        "published_at": "2026-07-14T12:00:00",
-        "score": 35
-      },
-      {
-        "guid": "f29101ed76f5b980",
-        "title": "Rockwell Automation 1715-AENTR EtherNet/IP Adapter",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-10577"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "SAP a mis à disposition des mises à jour pour corriger une vulnérabilité critique dans NetWeaver ABAP.",
-        "published_at": "2026-07-14T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "c2c185f637e46046",
-        "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
-        "url": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+        "guid": "bf33b9dd519f1861",
+        "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+        "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-44747"
+          "CVE-2026-15718",
+          "CVE-2026-15719"
         ],
         "tags": [
           "cve",
-          "patch",
           "vulnerability"
         ],
-        "summary": "Microsoft a publié des mises à jour de sécurité pour juillet 2026, incluant des vulnérabilités critiques et exploitées en milieu sauvage.",
-        "published_at": "2026-07-14T23:47:57",
+        "summary": "Mozilla a mis à jour Firefox pour corriger deux vulnérabilités critiques, dont une permettant l'exécution arbitraire de commandes.",
+        "published_at": "2026-07-15T18:48:53",
         "score": 20
       },
       {
-        "guid": "50e56ebf218d9cd3",
-        "title": "Microsoft Patch Tuesday for July 2026 — Snort rules and prominent vulnerabilities",
-        "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-july-2026/",
-        "source": "Cisco Talos",
-        "category": "Éditorial",
+        "guid": "08898de7d245d909",
+        "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+        "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-56155"
+          "CVE-2026-15409"
         ],
         "tags": [
           "cve",
-          "patch",
           "vulnerability"
         ],
-        "summary": "<p>Microsoft has released its monthly security update for July 2026, which includes 622 vulnerabilities affecting a range of products, including 57 that Microsoft marked as &quot;critical&quot;.</p><p>Microsoft notes that two of the vulnerabilities disclosed this month have been exploited in the wild.</p><p><a href=\"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-56155\">CVE-2026-56155</a> is an important-</p>",
-        "published_at": "2026-07-14T20:27:33",
-        "score": 30
+        "summary": "SonicWall alerte sur la exploitation active de deux vulnérabilités zero-day dans ses appliances SMA 1000, l'une pouvant conduire à l'exécution arbitraire de commandes.",
+        "published_at": "2026-07-15T11:00:21",
+        "score": 20
+      },
+      {
+        "guid": "73900957d4f7acde",
+        "title": "Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers",
+        "url": "https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA et NSA ont publié des lignes directrices pour mettre en place un programme de divulgation coordonnée de vulnérabilités avec les chercheurs de sécurité.",
+        "published_at": "2026-07-15T12:00:00",
+        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "abde68b969a120e3",
-        "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-        "url": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+        "guid": "bc71f094c6cf1838",
+        "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+        "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "LabubaRAT, un trojan-rat masquant l'identité de logiciel NVIDIA, est utilisé par les acteurs du cybercriminel pour contrôler des hôtes Windows.",
-        "published_at": "2026-07-14T22:22:37",
+        "summary": "Des chercheurs ont dévoilé TuxBot v3 Evolution, un framework d'IoT botnet qui a montré des signes d'une création assistée par une IA.",
+        "published_at": "2026-07-16T00:13:08",
         "score": 17
       },
       {
-        "guid": "ede3a984852e71f4",
-        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Axiom GlobalNEW",
-        "url": "https://www.ransomware.live/id/QXhpb20gR2xvYmFsTkVXQGNvaW5iYXNlY2FydGVs",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "[AI generated] N/A",
-        "published_at": "2026-07-14T20:53:23",
-        "score": 12
-      },
-      {
-        "guid": "32eb95cd7d329a55",
-        "title": "🏴‍☠️ Arcusmedia has just published a new victim : Perpustam",
-        "url": "https://www.ransomware.live/id/UGVycHVzdGFtQGFyY3VzbWVkaWE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Perpustam, une bibliothèque publique malaisienne, a été victime d'une attaque.",
-        "published_at": "2026-07-14T20:12:59",
-        "score": 12
-      },
-      {
-        "guid": "ab40422512e95e20",
-        "title": "🏴‍☠️ Incransom has just published a new victim : Golden Glasko & Associates",
-        "url": "https://www.ransomware.live/id/R29sZGVuIEdsYXNrbyAmIEFzc29jaWF0ZXNAaW5jcmFuc29t",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Golden Glasko & Associates, une firme de droit spécialisée en estate law basée à Miami, est victime d'un rançongiciel.",
-        "published_at": "2026-07-14T19:27:24",
-        "score": 12
-      },
-      {
-        "guid": "6f99c8755816b30e",
-        "title": "US unseals indictment against alleged operators of Russian bulletproof hosting service",
-        "url": "https://therecord.media/us-unseals-indictment-russians-bulletproof-hosting",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Des Russes sont inculpés pour avoir fourni des services de hébergement cybersécurisé aux cybercriminels.",
-        "published_at": "2026-07-14T19:26:00",
-        "score": 27
-      },
-      {
-        "guid": "7b94f06e4fd6ffa2",
-        "title": "Microsoft Patches a Record 570 Security Flaws",
-        "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-        "source": "Krebs on Security",
+        "guid": "feb3e77965f169d7",
+        "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+        "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware",
-          "patch",
+          "phishing"
+        ],
+        "summary": "OkoBot est un malware qui phishing de phrases de récupération sur les appareils Ledger et Trezor.",
+        "published_at": "2026-07-15T21:00:30",
+        "score": 27
+      },
+      {
+        "guid": "ac59b8d2e538aac3",
+        "title": "Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities",
+        "url": "https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
           "vulnerability"
         ],
-        "summary": "Microsoft a corrigé 570 vulnérabilités dans ses systèmes d'exploitation et logiciels.",
-        "published_at": "2026-07-14T19:22:42",
+        "summary": "Le programme Gold Eagle utilisera l'IA pour détecter, prioriser et corriger rapidement les vulnérabilités de sécurité.",
+        "published_at": "2026-07-15T20:00:00",
+        "score": 27
+      },
+      {
+        "guid": "fd1874113691726b",
+        "title": "🏴‍☠️ Ransomhouse has just published a new victim : Fidelity Services Group",
+        "url": "https://www.ransomware.live/id/RmlkZWxpdHkgU2VydmljZXMgR3JvdXBAcmFuc29taG91c2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Fidelity Services Group, une entreprise sud-africaine de services de sécurité, a été victime d'un rançongiciel.",
+        "published_at": "2026-07-15T19:28:42",
+        "score": 12
+      },
+      {
+        "guid": "4597566e8638a772",
+        "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
+        "url": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le modèle traditionnel d'inspection des paquets est insuffisant face aux nouvelles entreprises qui utilisent SaaS, AI et extensions non autorisées.",
+        "published_at": "2026-07-15T17:20:01",
         "score": 17
+      },
+      {
+        "guid": "438f5226a6c9973f",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : PanasonicAero",
+        "url": "https://www.ransomware.live/id/UGFuYXNvbmljQWVyb0Bjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Coinbasecartel a ciblé PanasonicAero, une filiale de Panasonic spécialisée dans l'entertainment in-flight et la connectivité aérienne.",
+        "published_at": "2026-07-15T17:01:52",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "114d2a806d17d9b8",
-        "title": "Finland issues wanted notice for hacker behind massive psychotherapy data breach",
-        "url": "https://therecord.media/finland-issues-wanted-notice-for-hacker-vastaamo-breach",
+        "guid": "4d9a4e570d994f36",
+        "title": "23andMe reaches $18 million settlement with states for massive breach",
+        "url": "https://therecord.media/genetic-testing-settlement-data-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Un hacker est recherché en Finlande pour un vaste fuite de données liées à la psychothérapie.",
-        "published_at": "2026-07-14T17:28:00",
+        "summary": "23andMe s'est vu imposer un règlement de 18 millions de dollars par des procureurs d'Etats pour une faille de sécurité.",
+        "published_at": "2026-07-15T17:45:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "3e6fe26d667997fc",
-        "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
-        "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
-        "source": "The Hacker News",
+        "guid": "d0f31bfca22ee9f1",
+        "title": "Goose Creek - 6,574,121 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/GooseCreek",
+        "source": "Have I Been Pwned",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve",
-          "patch",
           "vulnerability"
         ],
-        "summary": "Microsoft a publié des mises à jour correctives pour 622 vulnérabilités, dont deux exploitées actuellement.",
-        "published_at": "2026-07-15T01:55:47",
+        "summary": "En juin 2026, une entité a prétendu avoir accès à des données de la compagnie Goose Creek Candle Company et a envoyé des emails aux clients concernant une vulnérabilité de sécurité et un déversement de données comprenant 6,574,121 adresses électroniques uniques ainsi que des noms, numéros de téléphone et adresses physiques.",
+        "published_at": "2026-07-15T05:03:14",
         "score": 25,
         "rank": 2
       },
       {
-        "guid": "7a192816c9fdbd96",
-        "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
-        "url": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "e8a653a1926d7fc4",
+        "title": "🏴‍☠️ Booba project has just published a new victim : Jani-King",
+        "url": "https://www.ransomware.live/id/SmFuaS1LaW5nQEJvb2JhIFByb2plY3Q=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Les forces policières espagnoles ont démantelé une organisation de fraude et blanchiment de capitaux en ligne, volant 140 millions d'euros.",
-        "published_at": "2026-07-14T16:23:09",
-        "score": 25,
+        "summary": "Le projet Booba a récemment dévoilé une nouvelle victime : Jani-King. Des données de 12 GB ont été volées dans le contexte des services de facilités.",
+        "published_at": "2026-07-15T12:20:24",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 72,
-    "items_selected": 17,
+    "items_analyzed": 51,
+    "items_selected": 12,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 16,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
