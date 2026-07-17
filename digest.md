@@ -1,94 +1,130 @@
-# 🛡️ ARGOS CTI Digest — 16 juillet 2026
+# 🛡️ ARGOS CTI Digest — 17 juillet 2026
 
-> Généré le 16/07/2026 à 02:01 UTC  ·  51 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 17/07/2026 à 02:01 UTC  ·  87 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws](https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html)
-**Source :** The Hacker News  **Publié :** 15/07/2026 18:48 UTC  **CVE :** `CVE-2026-15718`, `CVE-2026-15719`
+### [AutomationDirect Productivity Suite](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-61389`, `CVE-2026-57896`, `CVE-2026-60073`, `CVE-2026-60140`, `CVE-2026-60063`
 `cve` `vulnerability`
-Mozilla a mis à jour Firefox pour corriger deux vulnérabilités critiques, dont une permettant l'exécution arbitraire de commandes.
+Des vulnérabilités dans la suite Productivity d'AutomationDirect pourraient entraîner une corruption de mémoire, une divulgation non intentionnelle d’informations, un désagrément du service ou une indisponibilité totale.
 
 ---
 
-### [Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands](https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html)
-**Source :** The Hacker News  **Publié :** 15/07/2026 11:00 UTC  **CVE :** `CVE-2026-15409`
+### [Rockwell Automation Arena](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-8312`, `CVE-2026-8085`, `CVE-2026-8314`, `CVE-2026-8313`
 `cve` `vulnerability`
-SonicWall alerte sur la exploitation active de deux vulnérabilités zero-day dans ses appliances SMA 1000, l'une pouvant conduire à l'exécution arbitraire de commandes.
+Les versions antérieures à V17.00.00 de Rockwell Automation Arena sont sujettes à des vulnérabilités pouvant permettre l’exécution de code arbitraire.
 
 ---
 
-### [Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers](https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers)
-**Source :** CISA Advisories  **Publié :** 15/07/2026 12:00 UTC
-`breach` `malware` `vulnerability`
-CISA et NSA ont publié des lignes directrices pour mettre en place un programme de divulgation coordonnée de vulnérabilités avec les chercheurs de sécurité.
+### [Siemens SICAM 8](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-54799`, `CVE-2026-54800`, `CVE-2026-54801`, `CVE-2026-54798`
+`cve` `vulnerability`
+Plusieurs produits Siemens SICAM 8, y compris le firmware du dispositif, sont touchés par des vulnérabilités potentiellement menant à une indisponibilité totale.
+
+---
+
+### [Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2025-12012`, `CVE-2025-12011`, `CVE-2025-11698`
+`cve` `vulnerability`
+Les versions antérieures à V35.015 de Rockwell Automation CompactLogix, ControlLogix et GuardLogix sont sujettes à des vulnérabilités pouvant causer une indisponibilité totale.
+
+---
+
+### [NASA Core Flight System (cFS) Health & Safety (HS) Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-15352`
+`cve` `vulnerability`
+La version du Core Flight System (cFS) Health & Safety d’ASA est vulnérable, entraînant potentiellement une indisponibilité totale.
+
+---
+
+### [Rockwell Automation Flex 5000 Adapter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-12659`
+`apt` `cve` `vulnerability`
+La version 6.011 du Flex 5000 Adapter d’Rockwell Automation est vulnérable, entraînant potentiellement une indisponibilité totale.
+
+---
+
+### [Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-9653`
+`cve` `ransomware` `vulnerability`
+Les versions antérieures à V12.001 de Rockwell Automation 1756-EN2, 1756-EN3 et 1756-ENBT sont vulnérables, entraînant potentiellement une indisponibilité totale.
+
+---
+
+### [Rockwell Automation FactoryTalk DataMosaix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09)
+**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-9292`
+`cve` `malware` `vulnerability`
+Une vulnérabilité dans FactoryTalk DataMosaix d’Rockwell Automation permettrait à un attaquant authentifié d’injection de scripts malveillants sur le serveur.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development](https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html)
-**Source :** The Hacker News  **Publié :** 16/07/2026 00:13 UTC
+### [ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories](https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html)
+**Source :** The Hacker News  **Publié :** 16/07/2026 21:11 UTC
+`ransomware`
+Ce résumé ne contient pas d'informations techniques spécifiques et est donc omis des résumés factuels et concis demandés.
+
+---
+
+### [Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation](https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter)
+**Source :** The Record  **Publié :** 16/07/2026 21:00 UTC
 `malware`
-Des chercheurs ont dévoilé TuxBot v3 Evolution, un framework d'IoT botnet qui a montré des signes d'une création assistée par une IA.
+Un sénateur américain demande au gouvernement américain de pressionner le Canada pour empêcher l’adoption d’une proposition visant à utiliser la technologie américaine pour des activités de surveillance.
 
 ---
 
-### [OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps](https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html)
-**Source :** The Hacker News  **Publié :** 15/07/2026 21:00 UTC
-`malware` `phishing`
-OkoBot est un malware qui phishing de phrases de récupération sur les appareils Ledger et Trezor.
-
----
-
-### [Trump administration unveils AI-supported clearinghouse for cyber vulnerabilities](https://therecord.media/gold-eagle-cybersecurity-vulnerabilities-clearinghouse)
-**Source :** The Record  **Publié :** 15/07/2026 20:00 UTC
-`malware` `vulnerability`
-Le programme Gold Eagle utilisera l'IA pour détecter, prioriser et corriger rapidement les vulnérabilités de sécurité.
-
----
-
-### [🏴‍☠️ Ransomhouse has just published a new victim : Fidelity Services Group](https://www.ransomware.live/id/RmlkZWxpdHkgU2VydmljZXMgR3JvdXBAcmFuc29taG91c2U=)
-**Source :** Ransomware.live News  **Publié :** 15/07/2026 19:28 UTC
+### [🏴‍☠️ Gunra has just published a new victim : Dissinger and Dissinger Law Firm](https://www.ransomware.live/id/RGlzc2luZ2VyIGFuZCBEaXNzaW5nZXIgTGF3IEZpcm1AZ3VucmE=)
+**Source :** Ransomware.live News  **Publié :** 16/07/2026 18:57 UTC
 `malware`
-Fidelity Services Group, une entreprise sud-africaine de services de sécurité, a été victime d'un rançongiciel.
+[AI generated] N/A
 
 ---
 
-### [SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.](https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html)
-**Source :** The Hacker News  **Publié :** 15/07/2026 17:20 UTC
+### [🏴‍☠️ Incransom has just published a new victim : asa-international.com](https://www.ransomware.live/id/YXNhLWludGVybmF0aW9uYWwuY29tQGluY3JhbnNvbQ==)
+**Source :** Ransomware.live News  **Publié :** 16/07/2026 18:28 UTC
 `malware`
-Le modèle traditionnel d'inspection des paquets est insuffisant face aux nouvelles entreprises qui utilisent SaaS, AI et extensions non autorisées.
+ASA International is a major international microfinance institution operating across South Asia, Southeast Asia, and Africa. The company&#x27;s shares are traded on the London Stock Exchange under the ticker symbol ASAI
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : PanasonicAero](https://www.ransomware.live/id/UGFuYXNvbmljQWVyb0Bjb2luYmFzZWNhcnRlbA==)
-**Source :** Ransomware.live News  **Publié :** 15/07/2026 17:01 UTC
+### [New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands](https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html)
+**Source :** The Hacker News  **Publié :** 16/07/2026 18:20 UTC
 `malware`
-Coinbasecartel a ciblé PanasonicAero, une filiale de Panasonic spécialisée dans l'entertainment in-flight et la connectivité aérienne.
+Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.
+
+"The malware is full-featured, lightweight, and modular," Elastic Security Labs researcher Cyril François said in a technica
+
+---
+
+### [New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password](https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html)
+**Source :** The Hacker News  **Publié :** 16/07/2026 18:03 UTC
+`malware`
+ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [23andMe reaches $18 million settlement with states for massive breach](https://therecord.media/genetic-testing-settlement-data-breach)
-**Source :** The Record  **Publié :** 15/07/2026 17:45 UTC  **Score :** 35
+### 1. [23andMe to pay $18 million in new genetics data breach settlement](https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/)
+**Source :** Bleeping Computer  **Publié :** 16/07/2026 09:47 UTC  **Score :** 25
 `breach`
-23andMe s'est vu imposer un règlement de 18 millions de dollars par des procureurs d'Etats pour une faille de sécurité.
+Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]
 
-### 2. [Goose Creek - 6,574,121 breached accounts](https://haveibeenpwned.com/Breach/GooseCreek)
-**Source :** Have I Been Pwned  **Publié :** 15/07/2026 05:03 UTC  **Score :** 25
-`breach` `vulnerability`
-En juin 2026, une entité a prétendu avoir accès à des données de la compagnie Goose Creek Candle Company et a envoyé des emails aux clients concernant une vulnérabilité de sécurité et un déversement de données comprenant 6,574,121 adresses électroniques uniques ainsi que des noms, numéros de télépho
-
-### 3. [🏴‍☠️ Booba project has just published a new victim : Jani-King](https://www.ransomware.live/id/SmFuaS1LaW5nQEJvb2JhIFByb2plY3Q=)
-**Source :** Ransomware.live News  **Publié :** 15/07/2026 12:20 UTC  **Score :** 20
+### 2. [🏴‍☠️ Interlock has just published a new victim : District of Columbia Housing Authority](https://www.ransomware.live/id/RGlzdHJpY3Qgb2YgQ29sdW1iaWEgSG91c2luZyBBdXRob3JpdHlAaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 16/07/2026 23:54 UTC  **Score :** 20
 `breach`
-Le projet Booba a récemment dévoilé une nouvelle victime : Jani-King. Des données de 12 GB ont été volées dans le contexte des services de facilités.
+DC Housing, the organization entrusted with the powers of the District of Columbia Housing Authority, was completely compromised due to its negligence and greed in security, and all confidential information, databases, passports, and personal data of clients were stolen. We offer you 1.6 TB of confi
+
+### 3. [Begun, the Patch Wars have](https://blog.talosintelligence.com/begun-the-patch-wars-have/)
+**Source :** Cisco Talos  **Publié :** 16/07/2026 18:00 UTC  **Score :** 15
+Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-16.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-17.md`*
