@@ -1,130 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 17 juillet 2026
+# 🛡️ ARGOS CTI Digest — 18 juillet 2026
 
-> Généré le 17/07/2026 à 02:01 UTC  ·  87 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 18/07/2026 à 02:01 UTC  ·  44 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [AutomationDirect Productivity Suite](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-61389`, `CVE-2026-57896`, `CVE-2026-60073`, `CVE-2026-60140`, `CVE-2026-60063`
+### [CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV](https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html)
+**Source :** The Hacker News  **Publié :** 17/07/2026 12:12 UTC  **CVE :** `CVE-2026-58644`
 `cve` `vulnerability`
-Des vulnérabilités dans la suite Productivity d'AutomationDirect pourraient entraîner une corruption de mémoire, une divulgation non intentionnelle d’informations, un désagrément du service ou une indisponibilité totale.
-
----
-
-### [Rockwell Automation Arena](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-8312`, `CVE-2026-8085`, `CVE-2026-8314`, `CVE-2026-8313`
-`cve` `vulnerability`
-Les versions antérieures à V17.00.00 de Rockwell Automation Arena sont sujettes à des vulnérabilités pouvant permettre l’exécution de code arbitraire.
-
----
-
-### [Siemens SICAM 8](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-54799`, `CVE-2026-54800`, `CVE-2026-54801`, `CVE-2026-54798`
-`cve` `vulnerability`
-Plusieurs produits Siemens SICAM 8, y compris le firmware du dispositif, sont touchés par des vulnérabilités potentiellement menant à une indisponibilité totale.
-
----
-
-### [Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2025-12012`, `CVE-2025-12011`, `CVE-2025-11698`
-`cve` `vulnerability`
-Les versions antérieures à V35.015 de Rockwell Automation CompactLogix, ControlLogix et GuardLogix sont sujettes à des vulnérabilités pouvant causer une indisponibilité totale.
-
----
-
-### [NASA Core Flight System (cFS) Health & Safety (HS) Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-15352`
-`cve` `vulnerability`
-La version du Core Flight System (cFS) Health & Safety d’ASA est vulnérable, entraînant potentiellement une indisponibilité totale.
-
----
-
-### [Rockwell Automation Flex 5000 Adapter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-12659`
-`apt` `cve` `vulnerability`
-La version 6.011 du Flex 5000 Adapter d’Rockwell Automation est vulnérable, entraînant potentiellement une indisponibilité totale.
-
----
-
-### [Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-9653`
-`cve` `ransomware` `vulnerability`
-Les versions antérieures à V12.001 de Rockwell Automation 1756-EN2, 1756-EN3 et 1756-ENBT sont vulnérables, entraînant potentiellement une indisponibilité totale.
-
----
-
-### [Rockwell Automation FactoryTalk DataMosaix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09)
-**Source :** CISA Advisories  **Publié :** 16/07/2026 12:00 UTC  **CVE :** `CVE-2026-9292`
-`cve` `malware` `vulnerability`
-Une vulnérabilité dans FactoryTalk DataMosaix d’Rockwell Automation permettrait à un attaquant authentifié d’injection de scripts malveillants sur le serveur.
+CISA a ajouté une vulnérabilité zero-day impactant SharePoint à sa liste de vulnérabilités connues exploitées, exigant que les agences FCEB appliquent les correctifs d'ici le 19 juillet 2026.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories](https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html)
-**Source :** The Hacker News  **Publié :** 16/07/2026 21:11 UTC
-`ransomware`
-Ce résumé ne contient pas d'informations techniques spécifiques et est donc omis des résumés factuels et concis demandés.
+### [Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT](https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html)
+**Source :** The Hacker News  **Publié :** 18/07/2026 00:24 UTC
+`malware`
+Seven packages malveillants sur npm visant Vite utilisent une C2 basée sur la blockchain pour délivrer un agent de contrôle à distance.
 
 ---
 
-### [Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation](https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter)
-**Source :** The Record  **Publié :** 16/07/2026 21:00 UTC
+### [New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens](https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html)
+**Source :** The Hacker News  **Publié :** 17/07/2026 22:42 UTC
 `malware`
-Un sénateur américain demande au gouvernement américain de pressionner le Canada pour empêcher l’adoption d’une proposition visant à utiliser la technologie américaine pour des activités de surveillance.
+Le botnet NadMesh cherche des services d'IA exposés dans le cloud et des tokens Kubernetes, exploitant des API non sécurisées.
 
 ---
 
-### [🏴‍☠️ Gunra has just published a new victim : Dissinger and Dissinger Law Firm](https://www.ransomware.live/id/RGlzc2luZ2VyIGFuZCBEaXNzaW5nZXIgTGF3IEZpcm1AZ3VucmE=)
-**Source :** Ransomware.live News  **Publié :** 16/07/2026 18:57 UTC
-`malware`
-[AI generated] N/A
+### [GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft](https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html)
+**Source :** The Hacker News  **Publié :** 17/07/2026 22:09 UTC
+`apt` `breach`
+Une sous-groupe de GoldenEyeDog est liée à l'incident de sécurité chez DigiCert impliquant la volatilisation de certificats de code-signature.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : asa-international.com](https://www.ransomware.live/id/YXNhLWludGVybmF0aW9uYWwuY29tQGluY3JhbnNvbQ==)
-**Source :** Ransomware.live News  **Publié :** 16/07/2026 18:28 UTC
+### [Friday Squid Blogging: Squid Washing Up on Cape Cod Beach](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html)
+**Source :** Schneier on Security  **Publié :** 17/07/2026 21:01 UTC
 `malware`
-ASA International is a major international microfinance institution operating across South Asia, Southeast Asia, and Africa. The company&#x27;s shares are traded on the London Stock Exchange under the ticker symbol ASAI
+Article non pertinents pour la sécurité informatique, évoque les masserisations d'anguilles sur une plage du Massachusetts.
 
 ---
 
-### [New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands](https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html)
-**Source :** The Hacker News  **Publié :** 16/07/2026 18:20 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Advantage Home Health Care](https://www.ransomware.live/id/QWR2YW50YWdlIEhvbWUgSGVhbHRoIENhcmVAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 17/07/2026 19:19 UTC
 `malware`
-Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.
-
-"The malware is full-featured, lightweight, and modular," Elastic Security Labs researcher Cyril François said in a technica
+Thegentlemen a compromis Advantage Home Health Care, un fournisseur de services de santé à domicile américain.
 
 ---
 
-### [New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password](https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html)
-**Source :** The Hacker News  **Publié :** 16/07/2026 18:03 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Sunway Scientific](https://www.ransomware.live/id/U3Vud2F5IFNjaWVudGlmaWNAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 17/07/2026 19:19 UTC
 `malware`
-ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and
+Thegentlemen a dévoilé une vulnérabilité chez Sunway Scientific, une entreprise taiwanaise d'équipements scientifiques.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [23andMe to pay $18 million in new genetics data breach settlement](https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/)
-**Source :** Bleeping Computer  **Publié :** 16/07/2026 09:47 UTC  **Score :** 25
+### 1. [Ernst & Young discloses data breach after support system hack](https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/)
+**Source :** Bleeping Computer  **Publié :** 17/07/2026 10:55 UTC  **Score :** 25
 `breach`
-Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]
+Ernst & Young informe ses clients d'une fuite de données due à la compromission d'un système de tickets de support par un tiers.
 
-### 2. [🏴‍☠️ Interlock has just published a new victim : District of Columbia Housing Authority](https://www.ransomware.live/id/RGlzdHJpY3Qgb2YgQ29sdW1iaWEgSG91c2luZyBBdXRob3JpdHlAaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 16/07/2026 23:54 UTC  **Score :** 20
+### 2. [US charges two over laundering $43 million from investment fraud](https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/)
+**Source :** Bleeping Computer  **Publié :** 17/07/2026 04:13 UTC  **Score :** 25
 `breach`
-DC Housing, the organization entrusted with the powers of the District of Columbia Housing Authority, was completely compromised due to its negligence and greed in security, and all confidential information, databases, passports, and personal data of clients were stolen. We offer you 1.6 TB of confi
+Deux personnes sont accusées aux États-Unis pour avoir lavez 43 millions de dollars volés dans des escroqueries d'investissement en ligne.
 
-### 3. [Begun, the Patch Wars have](https://blog.talosintelligence.com/begun-the-patch-wars-have/)
-**Source :** Cisco Talos  **Publié :** 16/07/2026 18:00 UTC  **Score :** 15
-Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.
+### 3. [🏴‍☠️ Interlock has just published a new victim : Paragon Store Fixtures](https://www.ransomware.live/id/UGFyYWdvbiBTdG9yZSBGaXh0dXJlc0BpbnRlcmxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 17/07/2026 14:25 UTC  **Score :** 20
+`breach`
+Interlock a signalé un incident de sécurité chez Paragon Store Fixtures, exposant des fichiers internes et clientels hautement sensibles.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-17.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-18.md`*
