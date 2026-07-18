@@ -1,301 +1,169 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-17",
-  "generated_at": "2026-07-17T02:01:34.801569+00:00",
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T02:01:00.935904+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "0f147fca9e4c3ebf",
-        "title": "AutomationDirect Productivity Suite",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "11b2a8a8ec7ab672",
+        "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+        "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-61389",
-          "CVE-2026-57896",
-          "CVE-2026-60073",
-          "CVE-2026-60140",
-          "CVE-2026-60063",
-          "CVE-2026-61378"
+          "CVE-2026-58644"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des vulnérabilités dans la suite Productivity d'AutomationDirect pourraient entraîner une corruption de mémoire, une divulgation non intentionnelle d’informations, un désagrément du service ou une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "3aa8ddf480d0c749",
-        "title": "Rockwell Automation Arena",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-8312",
-          "CVE-2026-8085",
-          "CVE-2026-8314",
-          "CVE-2026-8313"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions antérieures à V17.00.00 de Rockwell Automation Arena sont sujettes à des vulnérabilités pouvant permettre l’exécution de code arbitraire.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "a8389756e0cf6ff7",
-        "title": "Siemens SICAM 8",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-05",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-54799",
-          "CVE-2026-54800",
-          "CVE-2026-54801",
-          "CVE-2026-54798"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Plusieurs produits Siemens SICAM 8, y compris le firmware du dispositif, sont touchés par des vulnérabilités potentiellement menant à une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "b2fe3feff7240f09",
-        "title": "Rockwell Automation CompactLogix, ControlLogix, Compact GuardLogix and GuardLogix",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-06",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2025-12012",
-          "CVE-2025-12011",
-          "CVE-2025-11698"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions antérieures à V35.015 de Rockwell Automation CompactLogix, ControlLogix et GuardLogix sont sujettes à des vulnérabilités pouvant causer une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "94c7bbef3f8ccc3a",
-        "title": "NASA Core Flight System (cFS) Health & Safety (HS) Application",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-15352"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "La version du Core Flight System (cFS) Health & Safety d’ASA est vulnérable, entraînant potentiellement une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "f55095831d216fe4",
-        "title": "Rockwell Automation Flex 5000 Adapter",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-08",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-12659"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "La version 6.011 du Flex 5000 Adapter d’Rockwell Automation est vulnérable, entraînant potentiellement une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "8f990f5b530035cd",
-        "title": "Rockwell Automation 1756-EN2, 1756-EN3, and 1756-ENBT",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-9653"
-        ],
-        "tags": [
-          "cve",
-          "ransomware",
-          "vulnerability"
-        ],
-        "summary": "Les versions antérieures à V12.001 de Rockwell Automation 1756-EN2, 1756-EN3 et 1756-ENBT sont vulnérables, entraînant potentiellement une indisponibilité totale.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "ec4b0b355dc23b55",
-        "title": "Rockwell Automation FactoryTalk DataMosaix",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-197-09",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-9292"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité dans FactoryTalk DataMosaix d’Rockwell Automation permettrait à un attaquant authentifié d’injection de scripts malveillants sur le serveur.",
-        "published_at": "2026-07-16T12:00:00",
-        "score": 27
+        "summary": "CISA a ajouté une vulnérabilité zero-day impactant SharePoint à sa liste de vulnérabilités connues exploitées, exigant que les agences FCEB appliquent les correctifs d'ici le 19 juillet 2026.",
+        "published_at": "2026-07-17T12:12:23",
+        "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "c62f98e55bcdec5b",
-        "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-        "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+        "guid": "bae020106e7eb91d",
+        "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+        "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "ransomware"
+          "malware"
         ],
-        "summary": "Ce résumé ne contient pas d'informations techniques spécifiques et est donc omis des résumés factuels et concis demandés.",
-        "published_at": "2026-07-16T21:11:15",
-        "score": 5
+        "summary": "Seven packages malveillants sur npm visant Vite utilisent une C2 basée sur la blockchain pour délivrer un agent de contrôle à distance.",
+        "published_at": "2026-07-18T00:24:51",
+        "score": 17
       },
       {
-        "guid": "9a645fa7060190df",
-        "title": "Senator calls on Rubio, Blanche to push back against Canadian surveillance legislation",
-        "url": "https://therecord.media/canada-lawful-access-act-surveillance-wyden-letter",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "f5b2fa74a710fcb7",
+        "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+        "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Un sénateur américain demande au gouvernement américain de pressionner le Canada pour empêcher l’adoption d’une proposition visant à utiliser la technologie américaine pour des activités de surveillance.",
-        "published_at": "2026-07-16T21:00:35",
-        "score": 27
+        "summary": "Le botnet NadMesh cherche des services d'IA exposés dans le cloud et des tokens Kubernetes, exploitant des API non sécurisées.",
+        "published_at": "2026-07-17T22:42:23",
+        "score": 17
       },
       {
-        "guid": "35c2526b7cc02212",
-        "title": "🏴‍☠️ Gunra has just published a new victim : Dissinger and Dissinger Law Firm",
-        "url": "https://www.ransomware.live/id/RGlzc2luZ2VyIGFuZCBEaXNzaW5nZXIgTGF3IEZpcm1AZ3VucmE=",
+        "guid": "d18f7a0364a9b78a",
+        "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+        "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach"
+        ],
+        "summary": "Une sous-groupe de GoldenEyeDog est liée à l'incident de sécurité chez DigiCert impliquant la volatilisation de certificats de code-signature.",
+        "published_at": "2026-07-17T22:09:16",
+        "score": 25
+      },
+      {
+        "guid": "27fb42ee01ecfbdf",
+        "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
+        "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Article non pertinents pour la sécurité informatique, évoque les masserisations d'anguilles sur une plage du Massachusetts.",
+        "published_at": "2026-07-17T21:01:37",
+        "score": 17
+      },
+      {
+        "guid": "df43c82e3cc4d747",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Advantage Home Health Care",
+        "url": "https://www.ransomware.live/id/QWR2YW50YWdlIEhvbWUgSGVhbHRoIENhcmVAdGhlZ2VudGxlbWVu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "[AI generated] N/A",
-        "published_at": "2026-07-16T18:57:22",
+        "summary": "Thegentlemen a compromis Advantage Home Health Care, un fournisseur de services de santé à domicile américain.",
+        "published_at": "2026-07-17T19:19:39",
         "score": 12
       },
       {
-        "guid": "3890d85f2549b165",
-        "title": "🏴‍☠️ Incransom has just published a new victim : asa-international.com",
-        "url": "https://www.ransomware.live/id/YXNhLWludGVybmF0aW9uYWwuY29tQGluY3JhbnNvbQ==",
+        "guid": "8b215b0bb8983e18",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Sunway Scientific",
+        "url": "https://www.ransomware.live/id/U3Vud2F5IFNjaWVudGlmaWNAdGhlZ2VudGxlbWVu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "ASA International is a major international microfinance institution operating across South Asia, Southeast Asia, and Africa. The company&#x27;s shares are traded on the London Stock Exchange under the ticker symbol ASAI",
-        "published_at": "2026-07-16T18:28:30",
+        "summary": "Thegentlemen a dévoilé une vulnérabilité chez Sunway Scientific, une entreprise taiwanaise d'équipements scientifiques.",
+        "published_at": "2026-07-17T19:19:19",
         "score": 12
-      },
-      {
-        "guid": "9230a6d0874b7a9a",
-        "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-        "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026.\n\n\"The malware is full-featured, lightweight, and modular,\" Elastic Security Labs researcher Cyril François said in a technical report. \"While the number of C2 [command-and-control] domains is currently small, the daily",
-        "published_at": "2026-07-16T18:20:13",
-        "score": 17
-      },
-      {
-        "guid": "030cb91bb322ddaa",
-        "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-        "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for the password behind a fake system dialog, and when the victim cancels, installs two LaunchAgents and quietly exits.\n\nAt the next login, Finder, the Dock, Spotlight, Terminal, Activity Monitor, and",
-        "published_at": "2026-07-16T18:03:42",
-        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "17d74d1d48cfec89",
-        "title": "23andMe to pay $18 million in new genetics data breach settlement",
-        "url": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
+        "guid": "9c17f736fb605087",
+        "title": "Ernst & Young discloses data breach after support system hack",
+        "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-        "published_at": "2026-07-16T09:47:23",
+        "summary": "Ernst & Young informe ses clients d'une fuite de données due à la compromission d'un système de tickets de support par un tiers.",
+        "published_at": "2026-07-17T10:55:28",
         "score": 25,
         "rank": 1
       },
       {
-        "guid": "636802f0e632b8a0",
-        "title": "🏴‍☠️ Interlock has just published a new victim : District of Columbia Housing Authority",
-        "url": "https://www.ransomware.live/id/RGlzdHJpY3Qgb2YgQ29sdW1iaWEgSG91c2luZyBBdXRob3JpdHlAaW50ZXJsb2Nr",
+        "guid": "949a1722998675ec",
+        "title": "US charges two over laundering $43 million from investment fraud",
+        "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Deux personnes sont accusées aux États-Unis pour avoir lavez 43 millions de dollars volés dans des escroqueries d'investissement en ligne.",
+        "published_at": "2026-07-17T04:13:37",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "77ac537d2ad9bfca",
+        "title": "🏴‍☠️ Interlock has just published a new victim : Paragon Store Fixtures",
+        "url": "https://www.ransomware.live/id/UGFyYWdvbiBTdG9yZSBGaXh0dXJlc0BpbnRlcmxvY2s=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "DC Housing, the organization entrusted with the powers of the District of Columbia Housing Authority, was completely compromised due to its negligence and greed in security, and all confidential information, databases, passports, and personal data of clients were stolen. We offer you 1.6 TB of confidential information, including all data of District residents and large databases.",
-        "published_at": "2026-07-16T23:54:14",
+        "summary": "Interlock a signalé un incident de sécurité chez Paragon Store Fixtures, exposant des fichiers internes et clientels hautement sensibles.",
+        "published_at": "2026-07-17T14:25:00",
         "score": 20,
-        "rank": 2
-      },
-      {
-        "guid": "d50d7469ecf130ac",
-        "title": "Begun, the Patch Wars have",
-        "url": "https://blog.talosintelligence.com/begun-the-patch-wars-have/",
-        "source": "Cisco Talos",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [],
-        "summary": "Long foretold, the Great Patching has begun and it’s a doozy. Buckle in as Joe takes you through the story.",
-        "published_at": "2026-07-16T18:00:50",
-        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 87,
-    "items_selected": 17,
+    "items_analyzed": 44,
+    "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 21,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
