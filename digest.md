@@ -1,80 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 18 juillet 2026
+# 🛡️ ARGOS CTI Digest — 19 juillet 2026
 
-> Généré le 18/07/2026 à 02:01 UTC  ·  44 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 19/07/2026 à 02:00 UTC  ·  30 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV](https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html)
-**Source :** The Hacker News  **Publié :** 17/07/2026 12:12 UTC  **CVE :** `CVE-2026-58644`
-`cve` `vulnerability`
-CISA a ajouté une vulnérabilité zero-day impactant SharePoint à sa liste de vulnérabilités connues exploitées, exigant que les agences FCEB appliquent les correctifs d'ici le 19 juillet 2026.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT](https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html)
-**Source :** The Hacker News  **Publié :** 18/07/2026 00:24 UTC
+### [🏴‍☠️ Nova has just published a new victim : FMZ Tecnologia em Sistemas](https://www.ransomware.live/id/Rk1aIFRlY25vbG9naWEgZW0gU2lzdGVtYXNAbm92YQ==)
+**Source :** Ransomware.live News  **Publié :** 18/07/2026 14:27 UTC
 `malware`
-Seven packages malveillants sur npm visant Vite utilisent une C2 basée sur la blockchain pour délivrer un agent de contrôle à distance.
+FMZ Tecnologia em Sistemas est une entreprise brésilienne de logiciels spécialisée dans l’industrie du livre, avec un ERP appelé HORUS.
 
 ---
 
-### [New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens](https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html)
-**Source :** The Hacker News  **Publié :** 17/07/2026 22:42 UTC
-`malware`
-Le botnet NadMesh cherche des services d'IA exposés dans le cloud et des tokens Kubernetes, exploitant des API non sécurisées.
+### [WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/)
+**Source :** Bleeping Computer  **Publié :** 18/07/2026 13:22 UTC
+`cve` `malware` `vulnerability`
+Des exploits publics ont été publiés pour les vulnérabilités RCE « wp2shell » dans WordPress Core, nécessitant des mises à jour immédiates.
 
 ---
 
-### [GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft](https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html)
-**Source :** The Hacker News  **Publié :** 17/07/2026 22:09 UTC
-`apt` `breach`
-Une sous-groupe de GoldenEyeDog est liée à l'incident de sécurité chez DigiCert impliquant la volatilisation de certificats de code-signature.
+### [🏴‍☠️ Dragonforce has just published a new victim : NewNet](https://www.ransomware.live/id/TmV3TmV0QGRyYWdvbmZvcmNl)
+**Source :** Ransomware.live News  **Publié :** 18/07/2026 11:59 UTC
+`cve` `malware` `ransomware`
+Six groupes pirates ont ciblé seize organisations françaises du 1er au 16 juillet 2026.
 
 ---
 
-### [Friday Squid Blogging: Squid Washing Up on Cape Cod Beach](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html)
-**Source :** Schneier on Security  **Publié :** 17/07/2026 21:01 UTC
+### [Canicule : les serveurs français sous pression pirate](https://www.zataz.com/canicule-les-serveurs-francais-sous-pression-pirate/)
+**Source :** ZATAZ  **Publié :** 18/07/2026 11:38 UTC
 `malware`
-Article non pertinents pour la sécurité informatique, évoque les masserisations d'anguilles sur une plage du Massachusetts.
+Des serveurs français subissent des attaques de pirates entre le 1er et le 16 juillet 2026.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Advantage Home Health Care](https://www.ransomware.live/id/QWR2YW50YWdlIEhvbWUgSGVhbHRoIENhcmVAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 17/07/2026 19:19 UTC
+### [Cyber actualités de la semaine du 19 juillet 2026](https://www.zataz.com/cyber-actualites-de-la-semaine-du-19-juillet-2026/)
+**Source :** ZATAZ  **Publié :** 18/07/2026 11:20 UTC
 `malware`
-Thegentlemen a compromis Advantage Home Health Care, un fournisseur de services de santé à domicile américain.
+Bonjour à toutes et tous Cette semaine, les fuites de données dominent l’actualité avec NEBBIA, Croqvacances, seize millions de CV exposés et le piratage de l’opérateur Odido. LeakBase voit aussi réapparaître dix téraoctets de données volées.La menace prorusse reste active : NoName057(16) revendique
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Sunway Scientific](https://www.ransomware.live/id/U3Vud2F5IFNjaWVudGlmaWNAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 17/07/2026 19:19 UTC
+### [La base piratée de LFI ressurgit sur un forum pirate](https://www.zataz.com/la-base-piratee-de-lfi-ressurgit-sur-un-forum-pirate/)
+**Source :** ZATAZ  **Publié :** 18/07/2026 11:08 UTC
 `malware`
-Thegentlemen a dévoilé une vulnérabilité chez Sunway Scientific, une entreprise taiwanaise d'équipements scientifiques.
+La base volée d’Action populaire ressurgit, exposant militants et organisation aux risques cyber et politiques.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Ernst & Young discloses data breach after support system hack](https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/)
-**Source :** Bleeping Computer  **Publié :** 17/07/2026 10:55 UTC  **Score :** 25
-`breach`
-Ernst & Young informe ses clients d'une fuite de données due à la compromission d'un système de tickets de support par un tiers.
+### 1. [Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/)
+**Source :** Bleeping Computer  **Publié :** 18/07/2026 15:32 UTC  **Score :** 5
+`cve` `vulnerability`
+7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
 
-### 2. [US charges two over laundering $43 million from investment fraud](https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/)
-**Source :** Bleeping Computer  **Publié :** 17/07/2026 04:13 UTC  **Score :** 25
-`breach`
-Deux personnes sont accusées aux États-Unis pour avoir lavez 43 millions de dollars volés dans des escroqueries d'investissement en ligne.
+### 2. [The Future of Age Verification: Your Face Never Leaves Your Device](https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/)
+**Source :** Bleeping Computer  **Publié :** 18/07/2026 09:15 UTC  **Score :** 5
+As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting c
 
-### 3. [🏴‍☠️ Interlock has just published a new victim : Paragon Store Fixtures](https://www.ransomware.live/id/UGFyYWdvbiBTdG9yZSBGaXh0dXJlc0BpbnRlcmxvY2s=)
-**Source :** Ransomware.live News  **Publié :** 17/07/2026 14:25 UTC  **Score :** 20
-`breach`
-Interlock a signalé un incident de sécurité chez Paragon Store Fixtures, exposant des fichiers internes et clientels hautement sensibles.
+### 3. [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 18/07/2026 02:50 UTC  **Score :** 5
+`cve` `vulnerability`
+An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.
+
+Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.
+
+Adam
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-18.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-19.md`*
