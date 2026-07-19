@@ -1,169 +1,154 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-18",
-  "generated_at": "2026-07-18T02:01:00.935904+00:00",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T02:00:34.723837+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "11b2a8a8ec7ab672",
-        "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-        "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-58644"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "CISA a ajouté une vulnérabilité zero-day impactant SharePoint à sa liste de vulnérabilités connues exploitées, exigant que les agences FCEB appliquent les correctifs d'ici le 19 juillet 2026.",
-        "published_at": "2026-07-17T12:12:23",
-        "score": 20
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "bae020106e7eb91d",
-        "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-        "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Seven packages malveillants sur npm visant Vite utilisent une C2 basée sur la blockchain pour délivrer un agent de contrôle à distance.",
-        "published_at": "2026-07-18T00:24:51",
-        "score": 17
-      },
-      {
-        "guid": "f5b2fa74a710fcb7",
-        "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-        "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le botnet NadMesh cherche des services d'IA exposés dans le cloud et des tokens Kubernetes, exploitant des API non sécurisées.",
-        "published_at": "2026-07-17T22:42:23",
-        "score": 17
-      },
-      {
-        "guid": "d18f7a0364a9b78a",
-        "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-        "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach"
-        ],
-        "summary": "Une sous-groupe de GoldenEyeDog est liée à l'incident de sécurité chez DigiCert impliquant la volatilisation de certificats de code-signature.",
-        "published_at": "2026-07-17T22:09:16",
-        "score": 25
-      },
-      {
-        "guid": "27fb42ee01ecfbdf",
-        "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
-        "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
-        "source": "Schneier on Security",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Article non pertinents pour la sécurité informatique, évoque les masserisations d'anguilles sur une plage du Massachusetts.",
-        "published_at": "2026-07-17T21:01:37",
-        "score": 17
-      },
-      {
-        "guid": "df43c82e3cc4d747",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Advantage Home Health Care",
-        "url": "https://www.ransomware.live/id/QWR2YW50YWdlIEhvbWUgSGVhbHRoIENhcmVAdGhlZ2VudGxlbWVu",
+        "guid": "305d1f52a063c51f",
+        "title": "🏴‍☠️ Nova has just published a new victim : FMZ Tecnologia em Sistemas",
+        "url": "https://www.ransomware.live/id/Rk1aIFRlY25vbG9naWEgZW0gU2lzdGVtYXNAbm92YQ==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Thegentlemen a compromis Advantage Home Health Care, un fournisseur de services de santé à domicile américain.",
-        "published_at": "2026-07-17T19:19:39",
+        "summary": "FMZ Tecnologia em Sistemas est une entreprise brésilienne de logiciels spécialisée dans l’industrie du livre, avec un ERP appelé HORUS.",
+        "published_at": "2026-07-18T14:27:42",
         "score": 12
       },
       {
-        "guid": "8b215b0bb8983e18",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Sunway Scientific",
-        "url": "https://www.ransomware.live/id/U3Vud2F5IFNjaWVudGlmaWNAdGhlZ2VudGxlbWVu",
+        "guid": "20845afe1e74775f",
+        "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+        "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des exploits publics ont été publiés pour les vulnérabilités RCE « wp2shell » dans WordPress Core, nécessitant des mises à jour immédiates.",
+        "published_at": "2026-07-18T13:22:47",
+        "score": 17
+      },
+      {
+        "guid": "e8e54eff1334d08f",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : NewNet",
+        "url": "https://www.ransomware.live/id/TmV3TmV0QGRyYWdvbmZvcmNl",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Six groupes pirates ont ciblé seize organisations françaises du 1er au 16 juillet 2026.",
+        "published_at": "2026-07-18T11:59:18",
+        "score": 12
+      },
+      {
+        "guid": "48d2e06ea796c0bd",
+        "title": "Canicule : les serveurs français sous pression pirate",
+        "url": "https://www.zataz.com/canicule-les-serveurs-francais-sous-pression-pirate/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "Thegentlemen a dévoilé une vulnérabilité chez Sunway Scientific, une entreprise taiwanaise d'équipements scientifiques.",
-        "published_at": "2026-07-17T19:19:19",
-        "score": 12
+        "summary": "Des serveurs français subissent des attaques de pirates entre le 1er et le 16 juillet 2026.",
+        "published_at": "2026-07-18T11:38:31",
+        "score": 17
+      },
+      {
+        "guid": "4a090825ceefd4d1",
+        "title": "Cyber actualités de la semaine du 19 juillet 2026",
+        "url": "https://www.zataz.com/cyber-actualites-de-la-semaine-du-19-juillet-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Bonjour à toutes et tous Cette semaine, les fuites de données dominent l’actualité avec NEBBIA, Croqvacances, seize millions de CV exposés et le piratage de l’opérateur Odido. LeakBase voit aussi réapparaître dix téraoctets de données volées.La menace prorusse reste active : NoName057(16) revendique une opération contre une journaliste, tandis que des caméras, des services français [&#8230;]",
+        "published_at": "2026-07-18T11:20:25",
+        "score": 17
+      },
+      {
+        "guid": "62943a2e4426d78f",
+        "title": "La base piratée de LFI ressurgit sur un forum pirate",
+        "url": "https://www.zataz.com/la-base-piratee-de-lfi-ressurgit-sur-un-forum-pirate/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La base volée d’Action populaire ressurgit, exposant militants et organisation aux risques cyber et politiques.",
+        "published_at": "2026-07-18T11:08:26",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "9c17f736fb605087",
-        "title": "Ernst & Young discloses data breach after support system hack",
-        "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+        "guid": "d7a319d082921fee",
+        "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+        "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "cve",
+          "vulnerability"
         ],
-        "summary": "Ernst & Young informe ses clients d'une fuite de données due à la compromission d'un système de tickets de support par un tiers.",
-        "published_at": "2026-07-17T10:55:28",
-        "score": 25,
+        "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+        "published_at": "2026-07-18T15:32:02",
+        "score": 5,
         "rank": 1
       },
       {
-        "guid": "949a1722998675ec",
-        "title": "US charges two over laundering $43 million from investment fraud",
-        "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+        "guid": "4b1641fccf1391c3",
+        "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+        "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Deux personnes sont accusées aux États-Unis pour avoir lavez 43 millions de dollars volés dans des escroqueries d'investissement en ligne.",
-        "published_at": "2026-07-17T04:13:37",
-        "score": 25,
+        "tags": [],
+        "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
+        "published_at": "2026-07-18T09:15:24",
+        "score": 5,
         "rank": 2
       },
       {
-        "guid": "77ac537d2ad9bfca",
-        "title": "🏴‍☠️ Interlock has just published a new victim : Paragon Store Fixtures",
-        "url": "https://www.ransomware.live/id/UGFyYWdvbiBTdG9yZSBGaXh0dXJlc0BpbnRlcmxvY2s=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "c1cca8c74e17be99",
+        "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+        "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "cve",
+          "vulnerability"
         ],
-        "summary": "Interlock a signalé un incident de sécurité chez Paragon Store Fixtures, exposant des fichiers internes et clientels hautement sensibles.",
-        "published_at": "2026-07-17T14:25:00",
-        "score": 20,
+        "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.\n\nAdam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
+        "published_at": "2026-07-18T02:50:10",
+        "score": 5,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 44,
-    "items_selected": 10,
+    "items_analyzed": 30,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
