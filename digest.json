@@ -1,154 +1,183 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-19",
-  "generated_at": "2026-07-19T02:00:34.723837+00:00",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T02:01:05.787692+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
-    "campaigns": [
+    "vulnerabilities": [
       {
-        "guid": "305d1f52a063c51f",
-        "title": "🏴‍☠️ Nova has just published a new victim : FMZ Tecnologia em Sistemas",
-        "url": "https://www.ransomware.live/id/Rk1aIFRlY25vbG9naWEgZW0gU2lzdGVtYXNAbm92YQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "FMZ Tecnologia em Sistemas est une entreprise brésilienne de logiciels spécialisée dans l’industrie du livre, avec un ERP appelé HORUS.",
-        "published_at": "2026-07-18T14:27:42",
-        "score": 12
-      },
-      {
-        "guid": "20845afe1e74775f",
-        "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
-        "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
-        "source": "Bleeping Computer",
+        "guid": "9d0995a9a408dda4",
+        "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+        "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+        "source": "The Hacker News",
         "category": "Général",
-        "cve": [],
+        "cve": [
+          "CVE-2026-42533"
+        ],
         "tags": [
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Des exploits publics ont été publiés pour les vulnérabilités RCE « wp2shell » dans WordPress Core, nécessitant des mises à jour immédiates.",
-        "published_at": "2026-07-18T13:22:47",
-        "score": 17
+        "summary": "Une vulnérabilité critique dans nginx peut entraîner un débordement de tampon sur le processus travailleur et laisser une exécution de code à distance. Les utilisateurs devraient mettre à jour vers les versions 1.30.4 (stable) ou 1.31.3 (mainline) et NGINX Plus 37.0.3.1.",
+        "published_at": "2026-07-20T02:12:49",
+        "score": 20
       },
       {
-        "guid": "e8e54eff1334d08f",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : NewNet",
-        "url": "https://www.ransomware.live/id/TmV3TmV0QGRyYWdvbmZvcmNl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "3c04eada862b94bf",
+        "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
+        "url": "https://isc.sans.edu/diary/rss/33164",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "ransomware"
+          "vulnerability"
         ],
-        "summary": "Six groupes pirates ont ciblé seize organisations françaises du 1er au 16 juillet 2026.",
-        "published_at": "2026-07-18T11:59:18",
-        "score": 12
-      },
-      {
-        "guid": "48d2e06ea796c0bd",
-        "title": "Canicule : les serveurs français sous pression pirate",
-        "url": "https://www.zataz.com/canicule-les-serveurs-francais-sous-pression-pirate/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Des serveurs français subissent des attaques de pirates entre le 1er et le 16 juillet 2026.",
-        "published_at": "2026-07-18T11:38:31",
-        "score": 17
-      },
-      {
-        "guid": "4a090825ceefd4d1",
-        "title": "Cyber actualités de la semaine du 19 juillet 2026",
-        "url": "https://www.zataz.com/cyber-actualites-de-la-semaine-du-19-juillet-2026/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Bonjour à toutes et tous Cette semaine, les fuites de données dominent l’actualité avec NEBBIA, Croqvacances, seize millions de CV exposés et le piratage de l’opérateur Odido. LeakBase voit aussi réapparaître dix téraoctets de données volées.La menace prorusse reste active : NoName057(16) revendique une opération contre une journaliste, tandis que des caméras, des services français [&#8230;]",
-        "published_at": "2026-07-18T11:20:25",
-        "score": 17
-      },
-      {
-        "guid": "62943a2e4426d78f",
-        "title": "La base piratée de LFI ressurgit sur un forum pirate",
-        "url": "https://www.zataz.com/la-base-piratee-de-lfi-ressurgit-sur-un-forum-pirate/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La base volée d’Action populaire ressurgit, exposant militants et organisation aux risques cyber et politiques.",
-        "published_at": "2026-07-18T11:08:26",
-        "score": 17
+        "summary": "Les caméras Hikvision sont souvent ciblées par des scans de vulnérabilités, comme d'habitude depuis longtemps pour ce type de produit.",
+        "published_at": "2026-07-19T15:00:38",
+        "score": 0
       }
     ],
-    "top_reads": [
+    "campaigns": [
       {
-        "guid": "d7a319d082921fee",
-        "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-        "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
-        "published_at": "2026-07-18T15:32:02",
-        "score": 5,
-        "rank": 1
-      },
-      {
-        "guid": "4b1641fccf1391c3",
-        "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
-        "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [],
-        "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
-        "published_at": "2026-07-18T09:15:24",
-        "score": 5,
-        "rank": 2
-      },
-      {
-        "guid": "c1cca8c74e17be99",
-        "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
-        "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "guid": "3df7b1db1526e39d",
+        "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+        "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "vulnerability"
+          "apt",
+          "malware"
         ],
-        "summary": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.\n\nEvery 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.\n\nAdam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
-        "published_at": "2026-07-18T02:50:10",
-        "score": 5,
+        "summary": "Des acteurs étatiques russes utilisent ClickFix pour infecter des appareils ukrainiens avec du malware. Cette activité est attribuée à UAC-0145, un sous-groupe de l'unité d'infiltration avancée Sandworm.",
+        "published_at": "2026-07-19T19:00:55",
+        "score": 17
+      },
+      {
+        "guid": "d6b961ec59971e9f",
+        "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+        "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "Un acteur non identifié a exploité des failles zero-day dans SonicWall SMA avant leur disclosure publique, pour obtenir un accès root. L'acteur est suivi par Volexity sous le nom UTA0533.",
+        "published_at": "2026-07-19T18:48:56",
+        "score": 25
+      },
+      {
+        "guid": "f9d473a667036a0d",
+        "title": "🏴‍☠️ Nova has just published a new victim : Dephub",
+        "url": "https://www.ransomware.live/id/RGVwaHViQG5vdmE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Déhub, une victime nouvelle pour Nova, a été identifiée sans plus de détails supplémentaires.",
+        "published_at": "2026-07-19T18:07:58",
+        "score": 12
+      },
+      {
+        "guid": "67a3853e8a5c8ab4",
+        "title": "🏴‍☠️ Krybit has just published a new victim : eurohold.bg",
+        "url": "https://www.ransomware.live/id/ZXVyb2hvbGQuYmdAa3J5Yml0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit a identifié une nouvelle victime: eurohold.bg. Aucune autre information n'est fournie.",
+        "published_at": "2026-07-19T18:03:26",
+        "score": 12
+      },
+      {
+        "guid": "e7120d5030da0af3",
+        "title": "🏴‍☠️ Blackout has just published a new victim : bluebellgroup.com",
+        "url": "https://www.ransomware.live/id/Ymx1ZWJlbGxncm91cC5jb21AYmxhY2tvdXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Blackout a identifié un nouveau ciblage: bluebellgroup.com, avec une date limite de fuite le 8 août 2026.",
+        "published_at": "2026-07-19T12:21:30",
+        "score": 12
+      },
+      {
+        "guid": "06a0bbf770abf553",
+        "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des hackers exploitent la mise à jour du logiciel ViPNet pour cibler des organisations russes, y compris les agences gouvernementales.",
+        "published_at": "2026-07-19T10:23:46",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "cd05e3333aa939db",
+        "title": "🏴‍☠️ Nova has just published a new victim : meralmanisa",
+        "url": "https://www.ransomware.live/id/bWVyYWxtYW5pc2FAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nova a identifié une nouvelle victime: meralmanisa, un fabricant turc de filtres et de roues pour véhicules.",
+        "published_at": "2026-07-19T18:08:14",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "d08ef27a8afb640d",
+        "title": "🏴‍☠️ Nova has just published a new victim : Jota Joias Premium",
+        "url": "https://www.ransomware.live/id/Sm90YSBKb2lhcyBQcmVtaXVtQG5vdmE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nova a identifié Jota Joias Premium, une entreprise brésilienne de joaillerie en ligne, comme nouvelle victime. Des données volées sont fournies à la société par l'attaquant.",
+        "published_at": "2026-07-19T18:07:22",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "bd9c6dcbb4ea07a1",
+        "title": "🏴‍☠️ Doommageddon has just published a new victim : Reni Farmácias Associadas",
+        "url": "https://www.ransomware.live/id/UmVuaSBGYXJtw6FjaWFzIEFzc29jaWFkYXNARG9vbW1hZ2VkZG9u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Doommageddon a récemment ciblé Reni Farmácias Associadas en tant que nouvelle victime.",
+        "published_at": "2026-07-19T22:20:57",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 30,
-    "items_selected": 9,
+    "items_analyzed": 23,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
