@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T02:01:05.787692+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "9d0995a9a408dda4",
+        "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+        "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-42533"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans nginx peut entraîner un débordement de tampon sur le processus travailleur et laisser une exécution de code à distance. Les utilisateurs devraient mettre à jour vers les versions 1.30.4 (stable) ou 1.31.3 (mainline) et NGINX Plus 37.0.3.1.",
+        "published_at": "2026-07-20T02:12:49",
+        "score": 20
+      },
+      {
+        "guid": "3c04eada862b94bf",
+        "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
+        "url": "https://isc.sans.edu/diary/rss/33164",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Les caméras Hikvision sont souvent ciblées par des scans de vulnérabilités, comme d'habitude depuis longtemps pour ce type de produit.",
+        "published_at": "2026-07-19T15:00:38",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "3df7b1db1526e39d",
+        "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+        "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des acteurs étatiques russes utilisent ClickFix pour infecter des appareils ukrainiens avec du malware. Cette activité est attribuée à UAC-0145, un sous-groupe de l'unité d'infiltration avancée Sandworm.",
+        "published_at": "2026-07-19T19:00:55",
+        "score": 17
+      },
+      {
+        "guid": "d6b961ec59971e9f",
+        "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+        "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve"
+        ],
+        "summary": "Un acteur non identifié a exploité des failles zero-day dans SonicWall SMA avant leur disclosure publique, pour obtenir un accès root. L'acteur est suivi par Volexity sous le nom UTA0533.",
+        "published_at": "2026-07-19T18:48:56",
+        "score": 25
+      },
+      {
+        "guid": "f9d473a667036a0d",
+        "title": "🏴‍☠️ Nova has just published a new victim : Dephub",
+        "url": "https://www.ransomware.live/id/RGVwaHViQG5vdmE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Déhub, une victime nouvelle pour Nova, a été identifiée sans plus de détails supplémentaires.",
+        "published_at": "2026-07-19T18:07:58",
+        "score": 12
+      },
+      {
+        "guid": "67a3853e8a5c8ab4",
+        "title": "🏴‍☠️ Krybit has just published a new victim : eurohold.bg",
+        "url": "https://www.ransomware.live/id/ZXVyb2hvbGQuYmdAa3J5Yml0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit a identifié une nouvelle victime: eurohold.bg. Aucune autre information n'est fournie.",
+        "published_at": "2026-07-19T18:03:26",
+        "score": 12
+      },
+      {
+        "guid": "e7120d5030da0af3",
+        "title": "🏴‍☠️ Blackout has just published a new victim : bluebellgroup.com",
+        "url": "https://www.ransomware.live/id/Ymx1ZWJlbGxncm91cC5jb21AYmxhY2tvdXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Blackout a identifié un nouveau ciblage: bluebellgroup.com, avec une date limite de fuite le 8 août 2026.",
+        "published_at": "2026-07-19T12:21:30",
+        "score": 12
+      },
+      {
+        "guid": "06a0bbf770abf553",
+        "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des hackers exploitent la mise à jour du logiciel ViPNet pour cibler des organisations russes, y compris les agences gouvernementales.",
+        "published_at": "2026-07-19T10:23:46",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "cd05e3333aa939db",
+        "title": "🏴‍☠️ Nova has just published a new victim : meralmanisa",
+        "url": "https://www.ransomware.live/id/bWVyYWxtYW5pc2FAbm92YQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nova a identifié une nouvelle victime: meralmanisa, un fabricant turc de filtres et de roues pour véhicules.",
+        "published_at": "2026-07-19T18:08:14",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "d08ef27a8afb640d",
+        "title": "🏴‍☠️ Nova has just published a new victim : Jota Joias Premium",
+        "url": "https://www.ransomware.live/id/Sm90YSBKb2lhcyBQcmVtaXVtQG5vdmE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nova a identifié Jota Joias Premium, une entreprise brésilienne de joaillerie en ligne, comme nouvelle victime. Des données volées sont fournies à la société par l'attaquant.",
+        "published_at": "2026-07-19T18:07:22",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "bd9c6dcbb4ea07a1",
+        "title": "🏴‍☠️ Doommageddon has just published a new victim : Reni Farmácias Associadas",
+        "url": "https://www.ransomware.live/id/UmVuaSBGYXJtw6FjaWFzIEFzc29jaWFkYXNARG9vbW1hZ2VkZG9u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Doommageddon a récemment ciblé Reni Farmácias Associadas en tant que nouvelle victime.",
+        "published_at": "2026-07-19T22:20:57",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 23,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
