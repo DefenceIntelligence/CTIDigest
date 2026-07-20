@@ -1,78 +1,86 @@
-# 🛡️ ARGOS CTI Digest — 19 juillet 2026
+# 🛡️ ARGOS CTI Digest — 20 juillet 2026
 
-> Généré le 19/07/2026 à 02:00 UTC  ·  30 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 20/07/2026 à 02:01 UTC  ·  23 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution](https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html)
+**Source :** The Hacker News  **Publié :** 20/07/2026 02:12 UTC  **CVE :** `CVE-2026-42533`
+`cve` `vulnerability`
+Une vulnérabilité critique dans nginx peut entraîner un débordement de tampon sur le processus travailleur et laisser une exécution de code à distance. Les utilisateurs devraient mettre à jour vers les versions 1.30.4 (stable) ou 1.31.3 (mainline) et NGINX Plus 37.0.3.1.
+
+---
+
+### [Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)](https://isc.sans.edu/diary/rss/33164)
+**Source :** SANS ISC  **Publié :** 19/07/2026 15:00 UTC
+`vulnerability`
+Les caméras Hikvision sont souvent ciblées par des scans de vulnérabilités, comme d'habitude depuis longtemps pour ce type de produit.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Nova has just published a new victim : FMZ Tecnologia em Sistemas](https://www.ransomware.live/id/Rk1aIFRlY25vbG9naWEgZW0gU2lzdGVtYXNAbm92YQ==)
-**Source :** Ransomware.live News  **Publié :** 18/07/2026 14:27 UTC
+### [UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware](https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html)
+**Source :** The Hacker News  **Publié :** 19/07/2026 19:00 UTC
+`apt` `malware`
+Des acteurs étatiques russes utilisent ClickFix pour infecter des appareils ukrainiens avec du malware. Cette activité est attribuée à UAC-0145, un sous-groupe de l'unité d'infiltration avancée Sandworm.
+
+---
+
+### [SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access](https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html)
+**Source :** The Hacker News  **Publié :** 19/07/2026 18:48 UTC
+`apt` `breach` `cve`
+Un acteur non identifié a exploité des failles zero-day dans SonicWall SMA avant leur disclosure publique, pour obtenir un accès root. L'acteur est suivi par Volexity sous le nom UTA0533.
+
+---
+
+### [🏴‍☠️ Nova has just published a new victim : Dephub](https://www.ransomware.live/id/RGVwaHViQG5vdmE=)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 18:07 UTC
 `malware`
-FMZ Tecnologia em Sistemas est une entreprise brésilienne de logiciels spécialisée dans l’industrie du livre, avec un ERP appelé HORUS.
+Déhub, une victime nouvelle pour Nova, a été identifiée sans plus de détails supplémentaires.
 
 ---
 
-### [WordPress Core "wp2shell" RCE flaws get public exploits, patch now](https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/)
-**Source :** Bleeping Computer  **Publié :** 18/07/2026 13:22 UTC
-`cve` `malware` `vulnerability`
-Des exploits publics ont été publiés pour les vulnérabilités RCE « wp2shell » dans WordPress Core, nécessitant des mises à jour immédiates.
-
----
-
-### [🏴‍☠️ Dragonforce has just published a new victim : NewNet](https://www.ransomware.live/id/TmV3TmV0QGRyYWdvbmZvcmNl)
-**Source :** Ransomware.live News  **Publié :** 18/07/2026 11:59 UTC
-`cve` `malware` `ransomware`
-Six groupes pirates ont ciblé seize organisations françaises du 1er au 16 juillet 2026.
-
----
-
-### [Canicule : les serveurs français sous pression pirate](https://www.zataz.com/canicule-les-serveurs-francais-sous-pression-pirate/)
-**Source :** ZATAZ  **Publié :** 18/07/2026 11:38 UTC
+### [🏴‍☠️ Krybit has just published a new victim : eurohold.bg](https://www.ransomware.live/id/ZXVyb2hvbGQuYmdAa3J5Yml0)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 18:03 UTC
 `malware`
-Des serveurs français subissent des attaques de pirates entre le 1er et le 16 juillet 2026.
+Krybit a identifié une nouvelle victime: eurohold.bg. Aucune autre information n'est fournie.
 
 ---
 
-### [Cyber actualités de la semaine du 19 juillet 2026](https://www.zataz.com/cyber-actualites-de-la-semaine-du-19-juillet-2026/)
-**Source :** ZATAZ  **Publié :** 18/07/2026 11:20 UTC
+### [🏴‍☠️ Blackout has just published a new victim : bluebellgroup.com](https://www.ransomware.live/id/Ymx1ZWJlbGxncm91cC5jb21AYmxhY2tvdXQ=)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 12:21 UTC
 `malware`
-Bonjour à toutes et tous Cette semaine, les fuites de données dominent l’actualité avec NEBBIA, Croqvacances, seize millions de CV exposés et le piratage de l’opérateur Odido. LeakBase voit aussi réapparaître dix téraoctets de données volées.La menace prorusse reste active : NoName057(16) revendique
+Blackout a identifié un nouveau ciblage: bluebellgroup.com, avec une date limite de fuite le 8 août 2026.
 
 ---
 
-### [La base piratée de LFI ressurgit sur un forum pirate](https://www.zataz.com/la-base-piratee-de-lfi-ressurgit-sur-un-forum-pirate/)
-**Source :** ZATAZ  **Publié :** 18/07/2026 11:08 UTC
-`malware`
-La base volée d’Action populaire ressurgit, exposant militants et organisation aux risques cyber et politiques.
+### [Hackers abuse ViPNet software to target Russian govt agencies](https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/)
+**Source :** Bleeping Computer  **Publié :** 19/07/2026 10:23 UTC
+`apt`
+Des hackers exploitent la mise à jour du logiciel ViPNet pour cibler des organisations russes, y compris les agences gouvernementales.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Update now: 7-Zip fixes RCE flaw exploitable with malicious archives](https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/)
-**Source :** Bleeping Computer  **Publié :** 18/07/2026 15:32 UTC  **Score :** 5
-`cve` `vulnerability`
-7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]
+### 1. [🏴‍☠️ Nova has just published a new victim : meralmanisa](https://www.ransomware.live/id/bWVyYWxtYW5pc2FAbm92YQ==)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 18:08 UTC  **Score :** 20
+`breach`
+Nova a identifié une nouvelle victime: meralmanisa, un fabricant turc de filtres et de roues pour véhicules.
 
-### 2. [The Future of Age Verification: Your Face Never Leaves Your Device](https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/)
-**Source :** Bleeping Computer  **Publié :** 18/07/2026 09:15 UTC  **Score :** 5
-As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting c
+### 2. [🏴‍☠️ Nova has just published a new victim : Jota Joias Premium](https://www.ransomware.live/id/Sm90YSBKb2lhcyBQcmVtaXVtQG5vdmE=)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 18:07 UTC  **Score :** 20
+`breach`
+Nova a identifié Jota Joias Premium, une entreprise brésilienne de joaillerie en ligne, comme nouvelle victime. Des données volées sont fournies à la société par l'attaquant.
 
-### 3. [New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 18/07/2026 02:50 UTC  **Score :** 5
-`cve` `vulnerability`
-An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable.
-
-Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system.
-
-Adam
+### 3. [🏴‍☠️ Doommageddon has just published a new victim : Reni Farmácias Associadas](https://www.ransomware.live/id/UmVuaSBGYXJtw6FjaWFzIEFzc29jaWFkYXNARG9vbW1hZ2VkZG9u)
+**Source :** Ransomware.live News  **Publié :** 19/07/2026 22:20 UTC  **Score :** 0
+Doommageddon a récemment ciblé Reni Farmácias Associadas en tant que nouvelle victime.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-19.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-20.md`*
