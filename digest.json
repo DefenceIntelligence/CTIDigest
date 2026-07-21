@@ -1,10 +1,61 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-20",
-  "generated_at": "2026-07-20T02:01:05.787692+00:00",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T02:01:16.458017+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
+      {
+        "guid": "8e38f855fdd65a6c",
+        "title": "WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)",
+        "url": "https://isc.sans.edu/diary/rss/33168",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-63030"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité SQL injection dans WordPress Core, sans CVE initialement, a été assignée le CVE-2026-63030. Elle permet l'exécution de code non authentifié et est déjà exploitée.",
+        "published_at": "2026-07-20T18:41:24",
+        "score": 15
+      },
+      {
+        "guid": "197270198d352491",
+        "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+        "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-14266"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans 7-Zip, CVE-2026-14266, permet l'exécution de code lors de la décompression d'archives malicieuses.",
+        "published_at": "2026-07-20T14:40:56",
+        "score": 20
+      },
+      {
+        "guid": "eaebeadd20b2d5be",
+        "title": "Critical ServiceNow code execution flaw now exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-6875"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans ServiceNow AI Platform a été exploitée pour des attaques, selon Defused.",
+        "published_at": "2026-07-20T05:29:20",
+        "score": 20
+      },
       {
         "guid": "9d0995a9a408dda4",
         "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
@@ -18,166 +69,158 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité critique dans nginx peut entraîner un débordement de tampon sur le processus travailleur et laisser une exécution de code à distance. Les utilisateurs devraient mettre à jour vers les versions 1.30.4 (stable) ou 1.31.3 (mainline) et NGINX Plus 37.0.3.1.",
+        "summary": "Une vulnérabilité grave dans NGINX peut provoquer un plantage et permettre l'exécution de code non authentifié, selon F5.",
         "published_at": "2026-07-20T02:12:49",
         "score": 20
-      },
-      {
-        "guid": "3c04eada862b94bf",
-        "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
-        "url": "https://isc.sans.edu/diary/rss/33164",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [],
-        "tags": [
-          "vulnerability"
-        ],
-        "summary": "Les caméras Hikvision sont souvent ciblées par des scans de vulnérabilités, comme d'habitude depuis longtemps pour ce type de produit.",
-        "published_at": "2026-07-19T15:00:38",
-        "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "3df7b1db1526e39d",
-        "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
-        "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+        "guid": "d0ea7f2c2808bbb6",
+        "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+        "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
           "malware"
         ],
-        "summary": "Des acteurs étatiques russes utilisent ClickFix pour infecter des appareils ukrainiens avec du malware. Cette activité est attribuée à UAC-0145, un sous-groupe de l'unité d'infiltration avancée Sandworm.",
-        "published_at": "2026-07-19T19:00:55",
+        "summary": "Un campagne FakeGit a exploité 7,600 repositories GitHub pour diffuser le malware SmartLoader.",
+        "published_at": "2026-07-20T23:53:03",
         "score": 17
       },
       {
-        "guid": "d6b961ec59971e9f",
-        "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
-        "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "guid": "3fe0bddb248d4512",
+        "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+        "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Un toolkit de phishing basé sur l'IA a été découvert chez un serveur exposé, utilisant des techniques de contrefaçon pour délivrer une infostealer.",
+        "published_at": "2026-07-20T22:59:50",
+        "score": 27
+      },
+      {
+        "guid": "d3c3dc46cfde202a",
+        "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+        "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
           "breach",
-          "cve"
-        ],
-        "summary": "Un acteur non identifié a exploité des failles zero-day dans SonicWall SMA avant leur disclosure publique, pour obtenir un accès root. L'acteur est suivi par Volexity sous le nom UTA0533.",
-        "published_at": "2026-07-19T18:48:56",
-        "score": 25
-      },
-      {
-        "guid": "f9d473a667036a0d",
-        "title": "🏴‍☠️ Nova has just published a new victim : Dephub",
-        "url": "https://www.ransomware.live/id/RGVwaHViQG5vdmE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
           "malware"
         ],
-        "summary": "Déhub, une victime nouvelle pour Nova, a été identifiée sans plus de détails supplémentaires.",
-        "published_at": "2026-07-19T18:07:58",
-        "score": 12
+        "summary": "La menace HollowGraph utilise un calendrier Microsoft 365 pour communiquer et enlever des fichiers, masquant ses activités aux défenseurs.",
+        "published_at": "2026-07-20T20:03:43",
+        "score": 37
       },
       {
-        "guid": "67a3853e8a5c8ab4",
-        "title": "🏴‍☠️ Krybit has just published a new victim : eurohold.bg",
-        "url": "https://www.ransomware.live/id/ZXVyb2hvbGQuYmdAa3J5Yml0",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Krybit a identifié une nouvelle victime: eurohold.bg. Aucune autre information n'est fournie.",
-        "published_at": "2026-07-19T18:03:26",
-        "score": 12
-      },
-      {
-        "guid": "e7120d5030da0af3",
-        "title": "🏴‍☠️ Blackout has just published a new victim : bluebellgroup.com",
-        "url": "https://www.ransomware.live/id/Ymx1ZWJlbGxncm91cC5jb21AYmxhY2tvdXQ=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Blackout a identifié un nouveau ciblage: bluebellgroup.com, avec une date limite de fuite le 8 août 2026.",
-        "published_at": "2026-07-19T12:21:30",
-        "score": 12
-      },
-      {
-        "guid": "06a0bbf770abf553",
-        "title": "Hackers abuse ViPNet software to target Russian govt agencies",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
-        "source": "Bleeping Computer",
+        "guid": "fdd541bd70c5832c",
+        "title": "Suno - 55,282,226 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/Suno",
+        "source": "Have I Been Pwned",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt"
+          "breach",
+          "malware"
         ],
-        "summary": "Des hackers exploitent la mise à jour du logiciel ViPNet pour cibler des organisations russes, y compris les agences gouvernementales.",
-        "published_at": "2026-07-19T10:23:46",
-        "score": 5
+        "summary": "Un data breach de l'outil de génération musicale Suno a révélé plus de 55 millions d'adresses courriel et des numéros de téléphone.",
+        "published_at": "2026-07-20T19:49:51",
+        "score": 37
+      },
+      {
+        "guid": "5de668d22effe246",
+        "title": "🏴‍☠️ Safepay has just published a new victim : lbb-treuhand.de",
+        "url": "https://www.ransomware.live/id/bGJiLXRyZXVoYW5kLmRlQHNhZmVwYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Safepay a ajouté une nouvelle victime, lbb-treuhand.de, spécialisé dans les services fiscaux pour particuliers et auto-entrepreneurs.",
+        "published_at": "2026-07-20T19:05:53",
+        "score": 12
+      },
+      {
+        "guid": "6bd9a37e584850df",
+        "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+        "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Cette semaine, des vulnérabilités ont permis l'exécution de code, la perte de mémoire et le vol de clés sur des systèmes exposés.",
+        "published_at": "2026-07-20T19:02:26",
+        "score": 37
       }
     ],
     "top_reads": [
       {
-        "guid": "cd05e3333aa939db",
-        "title": "🏴‍☠️ Nova has just published a new victim : meralmanisa",
-        "url": "https://www.ransomware.live/id/bWVyYWxtYW5pc2FAbm92YQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "9f0eafd131260055",
+        "title": "Hackers were inside South Korea's diplomat training system for 9 months",
+        "url": "https://therecord.media/south-korea-cyberattack-foreign-ministry",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Nova a identifié une nouvelle victime: meralmanisa, un fabricant turc de filtres et de roues pour véhicules.",
-        "published_at": "2026-07-19T18:08:14",
-        "score": 20,
+        "summary": "Des hackers ont compromis un système d'enseignement en ligne utilisé par l'académie diplomatique sud-coréenne, volant des informations personnelles d'ex et actuels employés du ministère de l'Affaires étrangères.",
+        "published_at": "2026-07-20T15:15:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "d08ef27a8afb640d",
-        "title": "🏴‍☠️ Nova has just published a new victim : Jota Joias Premium",
-        "url": "https://www.ransomware.live/id/Sm90YSBKb2lhcyBQcmVtaXVtQG5vdmE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "733faf5f672b07b8",
+        "title": "On Flock License Plate Tracking Cameras",
+        "url": "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
+        "source": "Schneier on Security",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Nova a identifié Jota Joias Premium, une entreprise brésilienne de joaillerie en ligne, comme nouvelle victime. Des données volées sont fournies à la société par l'attaquant.",
-        "published_at": "2026-07-19T18:07:22",
-        "score": 20,
+        "summary": "Un auteur a été faussement identifié, suivi et arrêté par la police en utilisant des données de caméras Flock après une erreur dans l'identification d'un véhicule volé.",
+        "published_at": "2026-07-20T11:03:45",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "bd9c6dcbb4ea07a1",
-        "title": "🏴‍☠️ Doommageddon has just published a new victim : Reni Farmácias Associadas",
-        "url": "https://www.ransomware.live/id/UmVuaSBGYXJtw6FjaWFzIEFzc29jaWFkYXNARG9vbW1hZ2VkZG9u",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "e2c70531d387176a",
+        "title": "Hugging Face discloses breach linked to autonomous AI agent",
+        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Doommageddon a récemment ciblé Reni Farmácias Associadas en tant que nouvelle victime.",
-        "published_at": "2026-07-19T22:20:57",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Hugging Face a dévoilé une violation de sécurité où des attaquants ont accédé à ses données internes et à ses identifiants via un système d'agent IA autonome.",
+        "published_at": "2026-07-20T07:56:28",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 23,
-    "items_selected": 11,
+    "items_analyzed": 57,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 4,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
