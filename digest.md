@@ -1,101 +1,128 @@
-# 🛡️ ARGOS CTI Digest — 21 juillet 2026
+# 🛡️ ARGOS CTI Digest — 22 juillet 2026
 
-> Généré le 21/07/2026 à 02:01 UTC  ·  57 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 22/07/2026 à 02:01 UTC  ·  65 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)](https://isc.sans.edu/diary/rss/33168)
-**Source :** SANS ISC  **Publié :** 20/07/2026 18:41 UTC  **CVE :** `CVE-2026-63030`
-`cve` `vulnerability`
-Une vulnérabilité SQL injection dans WordPress Core, sans CVE initialement, a été assignée le CVE-2026-63030. Elle permet l'exécution de code non authentifié et est déjà exploitée.
+### [Rockwell Automation Studio 5000 Logix Designer](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-9108`, `CVE-2026-9127`, `CVE-2026-9128`
+`cve` `malware` `vulnerability`
+Les vulnérabilités affectant Rockwell Automation Studio 5000 Logix Designer permettent l'exécution de code arbitraire et la modification des configurations.
 
 ---
 
-### [New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 14:40 UTC  **CVE :** `CVE-2026-14266`
-`cve` `vulnerability`
-Une vulnérabilité dans 7-Zip, CVE-2026-14266, permet l'exécution de code lors de la décompression d'archives malicieuses.
+### [WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning](https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html)
+**Source :** The Hacker News  **Publié :** 21/07/2026 14:29 UTC  **CVE :** `CVE-2026-63030`, `CVE-2026-60137`
+`breach` `cve` `vulnerability`
+Les vulnérabilités wp2shell dans WordPress permettent l'exécution de code à distance sans authentication, exposant les sites Web affectés.
 
 ---
 
-### [Critical ServiceNow code execution flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 20/07/2026 05:29 UTC  **CVE :** `CVE-2026-6875`
+### [Critical wp2shell WordPress flaws exploited to install webshells](https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/)
+**Source :** Bleeping Computer  **Publié :** 21/07/2026 12:41 UTC  **CVE :** `CVE-2026-63030`, `CVE-2026-60137`
 `cve` `vulnerability`
-Une vulnérabilité critique dans ServiceNow AI Platform a été exploitée pour des attaques, selon Defused.
+Les vulnérabilités wp2shell dans WordPress sont exploitées pour installer des webshells et des plugins malicieux.
 
 ---
 
-### [Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution](https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 02:12 UTC  **CVE :** `CVE-2026-42533`
+### [Siemens Opcenter X](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-56451`
+`cve` `malware` `vulnerability`
+Siemens Opcenter X antérieure à V2604 est affectée par une vulnérabilité d'authentification, permettant un accès non autorisé.
+
+---
+
+### [Rockwell Automation FactoryTalk Services Platform](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-10714`
+`cve` `malware` `vulnerability`
+Les versions anciennes de Rockwell Automation FactoryTalk Services Platform sont sujettes à une vulnérabilité d'impersonation.
+
+---
+
+### [Siemens CADRA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2005-2096`
 `cve` `vulnerability`
-Une vulnérabilité grave dans NGINX peut provoquer un plantage et permettre l'exécution de code non authentifié, selon F5.
+Siemens CADRA est affectée par des vulnérabilités zlib et Foxit, recommandant la mise à jour vers les versions récentes.
+
+---
+
+### [Rockwell Automation 1718-AENTR/1719-AENTR](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-9140`
+`cve` `vulnerability`
+Les versions anciennes de Rockwell Automation 1718-AENTR/1719-AENTR sont sujettes à un déni de service.
+
+---
+
+### [Rockwell Automation 1734 POINT I/O](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09)
+**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-10573`
+`cve` `vulnerability`
+Les versions anciennes de Rockwell Automation 1734 POINT I/O sont sujettes à un déni de service.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware](https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 23:53 UTC
-`malware`
-Un campagne FakeGit a exploité 7,600 repositories GitHub pour diffuser le malware SmartLoader.
+### [AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code](https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html)
+**Source :** The Hacker News  **Publié :** 21/07/2026 21:36 UTC
+`cve` `malware` `vulnerability`
+Kiro, l'IDE codage d'AWS, est vulnérable à une attaque permettant la réécriture du fichier de configuration et l'exécution de code distant.
 
 ---
 
-### [Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign](https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 22:59 UTC
+### [Police dismantle Kratos phishing platform, arrest developer](https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/)
+**Source :** Bleeping Computer  **Publié :** 21/07/2026 19:07 UTC
 `malware` `phishing`
-Un toolkit de phishing basé sur l'IA a été découvert chez un serveur exposé, utilisant des techniques de contrefaçon pour délivrer une infostealer.
+Les infrastructures de Kratos, plateforme PhaaS, ont été démantelées par les autorités allemandes et américaines, avec l'arrestation du développeur en Indonésie.
 
 ---
 
-### [HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050](https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 20:03 UTC
-`apt` `breach` `malware`
-La menace HollowGraph utilise un calendrier Microsoft 365 pour communiquer et enlever des fichiers, masquant ses activités aux défenseurs.
+### [FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware](https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/)
+**Source :** Bleeping Computer  **Publié :** 21/07/2026 18:34 UTC
+`malware`
+Une campagne nommée FakeGit utilise 7 600 dépôts GitHub malveillants pour diffuser le malware SmartLoader et StealC, générant plus de 14 millions de téléchargements.
 
 ---
 
-### [Suno - 55,282,226 breached accounts](https://haveibeenpwned.com/Breach/Suno)
-**Source :** Have I Been Pwned  **Publié :** 20/07/2026 19:49 UTC
+### [🏴‍☠️ Nova has just published a new victim : La Financière d'Orion (finorion)](https://www.ransomware.live/id/TGEgRmluYW5jacOocmUgZCdPcmlvbiAoZmlub3Jpb24pQG5vdmE=)
+**Source :** Ransomware.live News  **Publié :** 21/07/2026 18:09 UTC
 `breach` `malware`
-Un data breach de l'outil de génération musicale Suno a révélé plus de 55 millions d'adresses courriel et des numéros de téléphone.
+Nova a piraté La Financière d'Orion (finorion), volant des données financières et clientéliques importantes, avec un volume de 20 GB.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : lbb-treuhand.de](https://www.ransomware.live/id/bGJiLXRyZXVoYW5kLmRlQHNhZmVwYXk=)
-**Source :** Ransomware.live News  **Publié :** 20/07/2026 19:05 UTC
-`malware` `patch`
-Safepay a ajouté une nouvelle victime, lbb-treuhand.de, spécialisé dans les services fiscaux pour particuliers et auto-entrepreneurs.
+### [🏴‍☠️ Chaos has just published a new victim : argonautms.com](https://www.ransomware.live/id/YXJnb25hdXRtcy5jb21AY2hhb3M=)
+**Source :** Ransomware.live News  **Publié :** 21/07/2026 17:57 UTC
+`malware`
+Argonaut Manufacturing Services a été victime d'une attaque impliquant une exfiltration de 295 Go de données critiques, technique et opérationnelles.
 
 ---
 
-### [⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More](https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html)
-**Source :** The Hacker News  **Publié :** 20/07/2026 19:02 UTC
-`breach` `cve` `malware`
-Cette semaine, des vulnérabilités ont permis l'exécution de code, la perte de mémoire et le vol de clés sur des systèmes exposés.
+### [Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs](https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html)
+**Source :** The Hacker News  **Publié :** 21/07/2026 17:28 UTC
+`cve` `malware`
+Des applications Android peuvent transférer des instructions à des agents d'IA invisibles, permettant l'exécution de commandes sur les PC associés.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers were inside South Korea's diplomat training system for 9 months](https://therecord.media/south-korea-cyberattack-foreign-ministry)
-**Source :** The Record  **Publié :** 20/07/2026 15:15 UTC  **Score :** 35
+### 1. [Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hack](https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach)
+**Source :** The Record  **Publié :** 21/07/2026 17:10 UTC  **Score :** 35
 `breach`
-Des hackers ont compromis un système d'enseignement en ligne utilisé par l'académie diplomatique sud-coréenne, volant des informations personnelles d'ex et actuels employés du ministère de l'Affaires étrangères.
+23andMe a été amendé près de 3 millions d'euros pour des faiblesses en matière de cybersécurité ayant conduit à une attaque en 2023.
 
-### 2. [On Flock License Plate Tracking Cameras](https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html)
-**Source :** Schneier on Security  **Publié :** 20/07/2026 11:03 UTC  **Score :** 25
+### 2. [Closing the Identity Gaps in Critical Infrastructure Security](https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/)
+**Source :** Bleeping Computer  **Publié :** 21/07/2026 10:00 UTC  **Score :** 25
 `breach`
-Un auteur a été faussement identifié, suivi et arrêté par la police en utilisant des données de caméras Flock après une erreur dans l'identification d'un véhicule volé.
+Specops Software suggère d'appliquer le Zero Trust pour vérifier identités et confiance des appareils avant l'accès aux systèmes critiques.
 
-### 3. [Hugging Face discloses breach linked to autonomous AI agent](https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/)
-**Source :** Bleeping Computer  **Publié :** 20/07/2026 07:56 UTC  **Score :** 25
-`breach`
-Hugging Face a dévoilé une violation de sécurité où des attaquants ont accédé à ses données internes et à ses identifiants via un système d'agent IA autonome.
+### 3. [DNI nominee Clayton wins Senate panel’s approval](https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval)
+**Source :** The Record  **Publié :** 21/07/2026 19:00 UTC  **Score :** 15
+Le nommé Jay Clayton a été approuvé par la commission de renseignement du Sénat pour diriger l'ODNI, par un vote partisan.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-21.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-22.md`*
