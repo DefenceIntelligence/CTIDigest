@@ -1,226 +1,298 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-21",
-  "generated_at": "2026-07-21T02:01:16.458017+00:00",
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T02:01:34.190385+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "8e38f855fdd65a6c",
-        "title": "WordPress Exploitation Underway (CVE-2026-63030), (Mon, Jul 20th)",
-        "url": "https://isc.sans.edu/diary/rss/33168",
-        "source": "SANS ISC",
+        "guid": "71b9f97713c39ea7",
+        "title": "Rockwell Automation Studio 5000 Logix Designer",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10",
+        "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-63030"
+          "CVE-2026-9108",
+          "CVE-2026-9127",
+          "CVE-2026-9128"
         ],
         "tags": [
           "cve",
+          "malware",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité SQL injection dans WordPress Core, sans CVE initialement, a été assignée le CVE-2026-63030. Elle permet l'exécution de code non authentifié et est déjà exploitée.",
-        "published_at": "2026-07-20T18:41:24",
-        "score": 15
+        "summary": "Les vulnérabilités affectant Rockwell Automation Studio 5000 Logix Designer permettent l'exécution de code arbitraire et la modification des configurations.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 27
       },
       {
-        "guid": "197270198d352491",
-        "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-        "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+        "guid": "b29576e68e5f5fce",
+        "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+        "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-14266"
+          "CVE-2026-63030",
+          "CVE-2026-60137"
         ],
         "tags": [
+          "breach",
           "cve",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité dans 7-Zip, CVE-2026-14266, permet l'exécution de code lors de la décompression d'archives malicieuses.",
-        "published_at": "2026-07-20T14:40:56",
-        "score": 20
+        "summary": "Les vulnérabilités wp2shell dans WordPress permettent l'exécution de code à distance sans authentication, exposant les sites Web affectés.",
+        "published_at": "2026-07-21T14:29:30",
+        "score": 40
       },
       {
-        "guid": "eaebeadd20b2d5be",
-        "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+        "guid": "5abf96a7afb77dc9",
+        "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [
-          "CVE-2026-6875"
+          "CVE-2026-63030",
+          "CVE-2026-60137"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité critique dans ServiceNow AI Platform a été exploitée pour des attaques, selon Defused.",
-        "published_at": "2026-07-20T05:29:20",
+        "summary": "Les vulnérabilités wp2shell dans WordPress sont exploitées pour installer des webshells et des plugins malicieux.",
+        "published_at": "2026-07-21T12:41:50",
         "score": 20
       },
       {
-        "guid": "9d0995a9a408dda4",
-        "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-        "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "2f12d4d8bb7132a3",
+        "title": "Siemens Opcenter X",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-42533"
+          "CVE-2026-56451"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Siemens Opcenter X antérieure à V2604 est affectée par une vulnérabilité d'authentification, permettant un accès non autorisé.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "e214f53d7f886fe8",
+        "title": "Rockwell Automation FactoryTalk Services Platform",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-10714"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions anciennes de Rockwell Automation FactoryTalk Services Platform sont sujettes à une vulnérabilité d'impersonation.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "5174b11ada27e67f",
+        "title": "Siemens CADRA",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2005-2096"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité grave dans NGINX peut provoquer un plantage et permettre l'exécution de code non authentifié, selon F5.",
-        "published_at": "2026-07-20T02:12:49",
-        "score": 20
+        "summary": "Siemens CADRA est affectée par des vulnérabilités zlib et Foxit, recommandant la mise à jour vers les versions récentes.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "3eca8e14f8b10786",
+        "title": "Rockwell Automation 1718-AENTR/1719-AENTR",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9140"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions anciennes de Rockwell Automation 1718-AENTR/1719-AENTR sont sujettes à un déni de service.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "2bd937569a93d492",
+        "title": "Rockwell Automation 1734 POINT I/O",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-10573"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions anciennes de Rockwell Automation 1734 POINT I/O sont sujettes à un déni de service.",
+        "published_at": "2026-07-21T12:00:00",
+        "score": 15
       }
     ],
     "campaigns": [
       {
-        "guid": "d0ea7f2c2808bbb6",
-        "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-        "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+        "guid": "9d34989281ab3e40",
+        "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+        "url": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware"
+          "cve",
+          "malware",
+          "vulnerability"
         ],
-        "summary": "Un campagne FakeGit a exploité 7,600 repositories GitHub pour diffuser le malware SmartLoader.",
-        "published_at": "2026-07-20T23:53:03",
+        "summary": "Kiro, l'IDE codage d'AWS, est vulnérable à une attaque permettant la réécriture du fichier de configuration et l'exécution de code distant.",
+        "published_at": "2026-07-21T21:36:12",
         "score": 17
       },
       {
-        "guid": "3fe0bddb248d4512",
-        "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
-        "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
-        "source": "The Hacker News",
+        "guid": "fb64702779c166cc",
+        "title": "Police dismantle Kratos phishing platform, arrest developer",
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware",
           "phishing"
         ],
-        "summary": "Un toolkit de phishing basé sur l'IA a été découvert chez un serveur exposé, utilisant des techniques de contrefaçon pour délivrer une infostealer.",
-        "published_at": "2026-07-20T22:59:50",
+        "summary": "Les infrastructures de Kratos, plateforme PhaaS, ont été démantelées par les autorités allemandes et américaines, avec l'arrestation du développeur en Indonésie.",
+        "published_at": "2026-07-21T19:07:33",
         "score": 27
       },
       {
-        "guid": "d3c3dc46cfde202a",
-        "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-        "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
-        "source": "The Hacker News",
+        "guid": "99ec3e12c84d5f37",
+        "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+        "url": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
-          "breach",
           "malware"
         ],
-        "summary": "La menace HollowGraph utilise un calendrier Microsoft 365 pour communiquer et enlever des fichiers, masquant ses activités aux défenseurs.",
-        "published_at": "2026-07-20T20:03:43",
-        "score": 37
+        "summary": "Une campagne nommée FakeGit utilise 7 600 dépôts GitHub malveillants pour diffuser le malware SmartLoader et StealC, générant plus de 14 millions de téléchargements.",
+        "published_at": "2026-07-21T18:34:17",
+        "score": 17
       },
       {
-        "guid": "fdd541bd70c5832c",
-        "title": "Suno - 55,282,226 breached accounts",
-        "url": "https://haveibeenpwned.com/Breach/Suno",
-        "source": "Have I Been Pwned",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Un data breach de l'outil de génération musicale Suno a révélé plus de 55 millions d'adresses courriel et des numéros de téléphone.",
-        "published_at": "2026-07-20T19:49:51",
-        "score": 37
-      },
-      {
-        "guid": "5de668d22effe246",
-        "title": "🏴‍☠️ Safepay has just published a new victim : lbb-treuhand.de",
-        "url": "https://www.ransomware.live/id/bGJiLXRyZXVoYW5kLmRlQHNhZmVwYXk=",
+        "guid": "6a2c9f989f6f1b76",
+        "title": "🏴‍☠️ Nova has just published a new victim : La Financière d'Orion (finorion)",
+        "url": "https://www.ransomware.live/id/TGEgRmluYW5jacOocmUgZCdPcmlvbiAoZmlub3Jpb24pQG5vdmE=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware",
-          "patch"
+          "breach",
+          "malware"
         ],
-        "summary": "Safepay a ajouté une nouvelle victime, lbb-treuhand.de, spécialisé dans les services fiscaux pour particuliers et auto-entrepreneurs.",
-        "published_at": "2026-07-20T19:05:53",
+        "summary": "Nova a piraté La Financière d'Orion (finorion), volant des données financières et clientéliques importantes, avec un volume de 20 GB.",
+        "published_at": "2026-07-21T18:09:05",
+        "score": 32
+      },
+      {
+        "guid": "49c8e27dd695710d",
+        "title": "🏴‍☠️ Chaos has just published a new victim : argonautms.com",
+        "url": "https://www.ransomware.live/id/YXJnb25hdXRtcy5jb21AY2hhb3M=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Argonaut Manufacturing Services a été victime d'une attaque impliquant une exfiltration de 295 Go de données critiques, technique et opérationnelles.",
+        "published_at": "2026-07-21T17:57:41",
         "score": 12
       },
       {
-        "guid": "6bd9a37e584850df",
-        "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-        "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+        "guid": "18822790143b3a12",
+        "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+        "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
           "cve",
           "malware"
         ],
-        "summary": "Cette semaine, des vulnérabilités ont permis l'exécution de code, la perte de mémoire et le vol de clés sur des systèmes exposés.",
-        "published_at": "2026-07-20T19:02:26",
-        "score": 37
+        "summary": "Des applications Android peuvent transférer des instructions à des agents d'IA invisibles, permettant l'exécution de commandes sur les PC associés.",
+        "published_at": "2026-07-21T17:28:00",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "9f0eafd131260055",
-        "title": "Hackers were inside South Korea's diplomat training system for 9 months",
-        "url": "https://therecord.media/south-korea-cyberattack-foreign-ministry",
+        "guid": "dce1d2a097a5d48c",
+        "title": "Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hack",
+        "url": "https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Des hackers ont compromis un système d'enseignement en ligne utilisé par l'académie diplomatique sud-coréenne, volant des informations personnelles d'ex et actuels employés du ministère de l'Affaires étrangères.",
-        "published_at": "2026-07-20T15:15:00",
+        "summary": "23andMe a été amendé près de 3 millions d'euros pour des faiblesses en matière de cybersécurité ayant conduit à une attaque en 2023.",
+        "published_at": "2026-07-21T17:10:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "733faf5f672b07b8",
-        "title": "On Flock License Plate Tracking Cameras",
-        "url": "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
-        "source": "Schneier on Security",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Un auteur a été faussement identifié, suivi et arrêté par la police en utilisant des données de caméras Flock après une erreur dans l'identification d'un véhicule volé.",
-        "published_at": "2026-07-20T11:03:45",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "e2c70531d387176a",
-        "title": "Hugging Face discloses breach linked to autonomous AI agent",
-        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+        "guid": "383b8c9866aaa8da",
+        "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+        "url": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Hugging Face a dévoilé une violation de sécurité où des attaquants ont accédé à ses données internes et à ses identifiants via un système d'agent IA autonome.",
-        "published_at": "2026-07-20T07:56:28",
+        "summary": "Specops Software suggère d'appliquer le Zero Trust pour vérifier identités et confiance des appareils avant l'accès aux systèmes critiques.",
+        "published_at": "2026-07-21T10:00:10",
         "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "09445fa0c457f941",
+        "title": "DNI nominee Clayton wins Senate panel’s approval",
+        "url": "https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "Le nommé Jay Clayton a été approuvé par la commission de renseignement du Sénat pour diriger l'ODNI, par un vote partisan.",
+        "published_at": "2026-07-21T19:00:00",
+        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 57,
-    "items_selected": 13,
+    "items_analyzed": 65,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 4,
+    "cves_total": 12,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
