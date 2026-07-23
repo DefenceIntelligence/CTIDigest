@@ -1,128 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 22 juillet 2026
+# 🛡️ ARGOS CTI Digest — 23 juillet 2026
 
-> Généré le 22/07/2026 à 02:01 UTC  ·  65 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 23/07/2026 à 02:01 UTC  ·  49 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Rockwell Automation Studio 5000 Logix Designer](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-10)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-9108`, `CVE-2026-9127`, `CVE-2026-9128`
-`cve` `malware` `vulnerability`
-Les vulnérabilités affectant Rockwell Automation Studio 5000 Logix Designer permettent l'exécution de code arbitraire et la modification des configurations.
-
----
-
-### [WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning](https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html)
-**Source :** The Hacker News  **Publié :** 21/07/2026 14:29 UTC  **CVE :** `CVE-2026-63030`, `CVE-2026-60137`
-`breach` `cve` `vulnerability`
-Les vulnérabilités wp2shell dans WordPress permettent l'exécution de code à distance sans authentication, exposant les sites Web affectés.
-
----
-
-### [Critical wp2shell WordPress flaws exploited to install webshells](https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/)
-**Source :** Bleeping Computer  **Publié :** 21/07/2026 12:41 UTC  **CVE :** `CVE-2026-63030`, `CVE-2026-60137`
+### [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
+**Source :** The Hacker News  **Publié :** 22/07/2026 23:37 UTC  **CVE :** `CVE-2026-8933`
 `cve` `vulnerability`
-Les vulnérabilités wp2shell dans WordPress sont exploitées pour installer des webshells et des plugins malicieux.
+Une faille dans snap-confine de Ubuntu pourrait permettre à un utilisateur non privilégié d’obtenir le contrôle total du système en obtenant les droits root.
 
 ---
 
-### [Siemens Opcenter X](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-03)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-56451`
-`cve` `malware` `vulnerability`
-Siemens Opcenter X antérieure à V2604 est affectée par une vulnérabilité d'authentification, permettant un accès non autorisé.
-
----
-
-### [Rockwell Automation FactoryTalk Services Platform](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-07)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-10714`
-`cve` `malware` `vulnerability`
-Les versions anciennes de Rockwell Automation FactoryTalk Services Platform sont sujettes à une vulnérabilité d'impersonation.
-
----
-
-### [Siemens CADRA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-06)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2005-2096`
+### [Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data](https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html)
+**Source :** The Hacker News  **Publié :** 22/07/2026 20:31 UTC  **CVE :** `CVE-2026-48294`
 `cve` `vulnerability`
-Siemens CADRA est affectée par des vulnérabilités zlib et Foxit, recommandant la mise à jour vers les versions récentes.
+Une chaîne de vulnérabilités dans l’extension Adobe Acrobat pour Chrome pourrait permettre le vol silencieux des données WhatsApp d’un utilisateur.
 
 ---
 
-### [Rockwell Automation 1718-AENTR/1719-AENTR](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-08)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-9140`
+### [Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication](https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html)
+**Source :** The Hacker News  **Publié :** 22/07/2026 18:06 UTC  **CVE :** `CVE-2026-29059`
 `cve` `vulnerability`
-Les versions anciennes de Rockwell Automation 1718-AENTR/1719-AENTR sont sujettes à un déni de service.
-
----
-
-### [Rockwell Automation 1734 POINT I/O](https://www.cisa.gov/news-events/ics-advisories/icsa-26-202-09)
-**Source :** CISA Advisories  **Publié :** 21/07/2026 12:00 UTC  **CVE :** `CVE-2026-10573`
-`cve` `vulnerability`
-Les versions anciennes de Rockwell Automation 1734 POINT I/O sont sujettes à un déni de service.
+Une faille high-severity dans Windmill a été exploitée sans authentication pour lire des fichiers serveur arbitraires.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code](https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html)
-**Source :** The Hacker News  **Publié :** 21/07/2026 21:36 UTC
-`cve` `malware` `vulnerability`
-Kiro, l'IDE codage d'AWS, est vulnérable à une attaque permettant la réécriture du fichier de configuration et l'exécution de code distant.
-
----
-
-### [Police dismantle Kratos phishing platform, arrest developer](https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/)
-**Source :** Bleeping Computer  **Publié :** 21/07/2026 19:07 UTC
-`malware` `phishing`
-Les infrastructures de Kratos, plateforme PhaaS, ont été démantelées par les autorités allemandes et américaines, avec l'arrestation du développeur en Indonésie.
-
----
-
-### [FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware](https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/)
-**Source :** Bleeping Computer  **Publié :** 21/07/2026 18:34 UTC
+### [🏴‍☠️ Kairos has just published a new victim : LR Reed](https://www.ransomware.live/id/TFIgUmVlZEBrYWlyb3M=)
+**Source :** Ransomware.live News  **Publié :** 22/07/2026 20:27 UTC
 `malware`
-Une campagne nommée FakeGit utilise 7 600 dépôts GitHub malveillants pour diffuser le malware SmartLoader et StealC, générant plus de 14 millions de téléchargements.
+LR Reed, une entreprise familiale spécialisée en gestion d’Owners Corporations, a été victime d’une attaque informatique.
 
 ---
 
-### [🏴‍☠️ Nova has just published a new victim : La Financière d'Orion (finorion)](https://www.ransomware.live/id/TGEgRmluYW5jacOocmUgZCdPcmlvbiAoZmlub3Jpb24pQG5vdmE=)
-**Source :** Ransomware.live News  **Publié :** 21/07/2026 18:09 UTC
-`breach` `malware`
-Nova a piraté La Financière d'Orion (finorion), volant des données financières et clientéliques importantes, avec un volume de 20 GB.
-
----
-
-### [🏴‍☠️ Chaos has just published a new victim : argonautms.com](https://www.ransomware.live/id/YXJnb25hdXRtcy5jb21AY2hhb3M=)
-**Source :** Ransomware.live News  **Publié :** 21/07/2026 17:57 UTC
+### [🏴‍☠️ Blacknevas has just published a new victim : Zuni Shopping Center, Inc.](https://www.ransomware.live/id/WnVuaSBTaG9wcGluZyBDZW50ZXIsIEluYy5AYmxhY2tuZXZhcw==)
+**Source :** Ransomware.live News  **Publié :** 22/07/2026 19:23 UTC
 `malware`
-Argonaut Manufacturing Services a été victime d'une attaque impliquant une exfiltration de 295 Go de données critiques, technique et opérationnelles.
+Zuni Shopping Center, Inc., une entreprise familiale de commerces, a été identifié comme nouveau victim du groupe Blacknevas.
 
 ---
 
-### [Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs](https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html)
-**Source :** The Hacker News  **Publié :** 21/07/2026 17:28 UTC
+### [Upbound says hack caused $13 million in fraudulent Acima leases](https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/)
+**Source :** Bleeping Computer  **Publié :** 22/07/2026 17:43 UTC
+`apt`
+Une attaque sur Upbound a causé des pertes de 13 millions de dollars en créant des contrats frauduleux Acima.
+
+---
+
+### [The Fastest Path to AI Adoption Runs Through Security](https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html)
+**Source :** The Hacker News  **Publié :** 22/07/2026 17:28 UTC
 `cve` `malware`
-Des applications Android peuvent transférer des instructions à des agents d'IA invisibles, permettant l'exécution de commandes sur les PC associés.
+Les dirigeants de la sécurité qui adoptent rapidement l’IA contribuent à une visibilité accrue pour les équipes et des stratégies plus efficaces.
+
+---
+
+### [🏴‍☠️ Braincipher has just published a new victim : windiam.com](https://www.ransomware.live/id/d2luZGlhbS5jb21AQnJhaW5DaXBoZXI=)
+**Source :** Ransomware.live News  **Publié :** 22/07/2026 17:20 UTC
+`malware`
+N/A
+
+---
+
+### [Why Modern SOCs Need Multi-Layered Detections](https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html)
+**Source :** The Hacker News  **Publié :** 22/07/2026 16:55 UTC
+`apt` `malware` `ransomware`
+Les systèmes de gestion d’incidentes modernes nécessitent des détecteurs multiples pour faire face à l’évolution rapide des menaces.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Spain fines 23andMe nearly $3 million for cybersecurity failings enabling 2023 hack](https://therecord.media/spain-fines-23andme-3-million-cyber-failings-data-breach)
-**Source :** The Record  **Publié :** 21/07/2026 17:10 UTC  **Score :** 35
-`breach`
-23andMe a été amendé près de 3 millions d'euros pour des faiblesses en matière de cybersécurité ayant conduit à une attaque en 2023.
+### 1. [Federal agencies broaden alert on Iran-linked OT attacks](https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks)
+**Source :** The Record  **Publié :** 22/07/2026 19:18 UTC  **Score :** 35
+`breach` `patch`
+Des attaques OT liées à l’Iran sont signalées, impliquant des interactions de fichiers malveillants et la manipulation de données sur les interfaces humanoïdes et les systèmes de contrôle supervisé.
 
-### 2. [Closing the Identity Gaps in Critical Infrastructure Security](https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/)
-**Source :** Bleeping Computer  **Publié :** 21/07/2026 10:00 UTC  **Score :** 25
+### 2. [OpenAI models behind breach of Hugging Face systems, companies say](https://therecord.media/openai-cyberattack-hugging-face)
+**Source :** The Record  **Publié :** 22/07/2026 12:00 UTC  **Score :** 35
 `breach`
-Specops Software suggère d'appliquer le Zero Trust pour vérifier identités et confiance des appareils avant l'accès aux systèmes critiques.
+OpenAI a annoncé que ses modèles étaient à l'origine d'une violation des systèmes de Hugging Face, qui avait précédemment repéré une attaque menée par « un agent IA autonome. »
 
-### 3. [DNI nominee Clayton wins Senate panel’s approval](https://therecord.media/jay-clayton-dni-nomination-senate-committee-approval)
-**Source :** The Record  **Publié :** 21/07/2026 19:00 UTC  **Score :** 15
-Le nommé Jay Clayton a été approuvé par la commission de renseignement du Sénat pour diriger l'ODNI, par un vote partisan.
+### 3. [South Korea discloses data breach impacting diplomats worldwide](https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/)
+**Source :** Bleeping Computer  **Publié :** 22/07/2026 16:06 UTC  **Score :** 25
+`breach`
+La Corée du Sud a dévoilé qu'un groupe de hackers avait perdu accès à son système d'éducation en ligne pendant dix mois, volant des informations personnelles de diplomates actuels et anciens employés du ministère des Affaires étrangères.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-22.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-23.md`*
