@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T02:01:09.249922+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "a34f25407444ae93",
+        "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+        "url": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-8933"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans snap-confine de Ubuntu pourrait permettre à un utilisateur non privilégié d’obtenir le contrôle total du système en obtenant les droits root.",
+        "published_at": "2026-07-22T23:37:16",
+        "score": 20
+      },
+      {
+        "guid": "42915d9f33a7e78d",
+        "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+        "url": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48294"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une chaîne de vulnérabilités dans l’extension Adobe Acrobat pour Chrome pourrait permettre le vol silencieux des données WhatsApp d’un utilisateur.",
+        "published_at": "2026-07-22T20:31:21",
+        "score": 20
+      },
+      {
+        "guid": "f6d98e9304f40405",
+        "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+        "url": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-29059"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille high-severity dans Windmill a été exploitée sans authentication pour lire des fichiers serveur arbitraires.",
+        "published_at": "2026-07-22T18:06:36",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "8913d1e8b55d4ce4",
+        "title": "🏴‍☠️ Kairos has just published a new victim : LR Reed",
+        "url": "https://www.ransomware.live/id/TFIgUmVlZEBrYWlyb3M=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "LR Reed, une entreprise familiale spécialisée en gestion d’Owners Corporations, a été victime d’une attaque informatique.",
+        "published_at": "2026-07-22T20:27:32",
+        "score": 12
+      },
+      {
+        "guid": "3d4ae83483dbc7ae",
+        "title": "🏴‍☠️ Blacknevas has just published a new victim : Zuni Shopping Center, Inc.",
+        "url": "https://www.ransomware.live/id/WnVuaSBTaG9wcGluZyBDZW50ZXIsIEluYy5AYmxhY2tuZXZhcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Zuni Shopping Center, Inc., une entreprise familiale de commerces, a été identifié comme nouveau victim du groupe Blacknevas.",
+        "published_at": "2026-07-22T19:23:28",
+        "score": 12
+      },
+      {
+        "guid": "ff27f6a34da53b25",
+        "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+        "url": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Une attaque sur Upbound a causé des pertes de 13 millions de dollars en créant des contrats frauduleux Acima.",
+        "published_at": "2026-07-22T17:43:39",
+        "score": 5
+      },
+      {
+        "guid": "9be0450e4ffd66db",
+        "title": "The Fastest Path to AI Adoption Runs Through Security",
+        "url": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Les dirigeants de la sécurité qui adoptent rapidement l’IA contribuent à une visibilité accrue pour les équipes et des stratégies plus efficaces.",
+        "published_at": "2026-07-22T17:28:00",
+        "score": 17
+      },
+      {
+        "guid": "f72ad4741bf5ae46",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : windiam.com",
+        "url": "https://www.ransomware.live/id/d2luZGlhbS5jb21AQnJhaW5DaXBoZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-07-22T17:20:37",
+        "score": 12
+      },
+      {
+        "guid": "58bde91a73b8500f",
+        "title": "Why Modern SOCs Need Multi-Layered Detections",
+        "url": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Les systèmes de gestion d’incidentes modernes nécessitent des détecteurs multiples pour faire face à l’évolution rapide des menaces.",
+        "published_at": "2026-07-22T16:55:35",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "ebe3f482eeeca979",
+        "title": "Federal agencies broaden alert on Iran-linked OT attacks",
+        "url": "https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "patch"
+        ],
+        "summary": "Des attaques OT liées à l’Iran sont signalées, impliquant des interactions de fichiers malveillants et la manipulation de données sur les interfaces humanoïdes et les systèmes de contrôle supervisé.",
+        "published_at": "2026-07-22T19:18:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "db9cb20a9682ccd7",
+        "title": "OpenAI models behind breach of Hugging Face systems, companies say",
+        "url": "https://therecord.media/openai-cyberattack-hugging-face",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "OpenAI a annoncé que ses modèles étaient à l'origine d'une violation des systèmes de Hugging Face, qui avait précédemment repéré une attaque menée par « un agent IA autonome. »",
+        "published_at": "2026-07-22T12:00:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "1e8937020293c692",
+        "title": "South Korea discloses data breach impacting diplomats worldwide",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La Corée du Sud a dévoilé qu'un groupe de hackers avait perdu accès à son système d'éducation en ligne pendant dix mois, volant des informations personnelles de diplomates actuels et anciens employés du ministère des Affaires étrangères.",
+        "published_at": "2026-07-22T16:06:54",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 49,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
