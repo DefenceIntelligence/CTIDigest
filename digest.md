@@ -1,94 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 23 juillet 2026
+# 🛡️ ARGOS CTI Digest — 24 juillet 2026
 
-> Généré le 23/07/2026 à 02:01 UTC  ·  49 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 24/07/2026 à 02:01 UTC  ·  89 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs](https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html)
-**Source :** The Hacker News  **Publié :** 22/07/2026 23:37 UTC  **CVE :** `CVE-2026-8933`
+### [Panduit IntraVUE](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-40430`
 `cve` `vulnerability`
-Une faille dans snap-confine de Ubuntu pourrait permettre à un utilisateur non privilégié d’obtenir le contrôle total du système en obtenant les droits root.
+Les vulnérabilités dans Panduit IntraVUE permettent d'exécuter des codes distants sans accès physique ou connaissance spécialisée.
 
 ---
 
-### [Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data](https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html)
-**Source :** The Hacker News  **Publié :** 22/07/2026 20:31 UTC  **CVE :** `CVE-2026-48294`
+### [Johnson Controls C-CURE 9000 and Victor application server](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-21655`
 `cve` `vulnerability`
-Une chaîne de vulnérabilités dans l’extension Adobe Acrobat pour Chrome pourrait permettre le vol silencieux des données WhatsApp d’un utilisateur.
+Les versions antérieures à v2.90_v3.0 de C-CURE 9000 et victor peuvent être exploitées pour exécuter des codes distants.
 
 ---
 
-### [Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication](https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html)
-**Source :** The Hacker News  **Publié :** 22/07/2026 18:06 UTC  **CVE :** `CVE-2026-29059`
+### [MZ Automation lib60870](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-16002`
 `cve` `vulnerability`
-Une faille high-severity dans Windmill a été exploitée sans authentication pour lire des fichiers serveur arbitraires.
+Les versions inférieures à 2.4.0 de lib60870 peuvent provoquer un service indisponible en cas d'exploitation réussie.
+
+---
+
+### [MZ Automation libIEC61850](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-50039`
+`cve` `vulnerability`
+Les versions antérieures à 2.4 de libIEC61850 peuvent permettre l'exécution arbitraire de codes et le dérangement des fonctions de protection.
+
+---
+
+### [Johnson Controls XAAP Android](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-34490`
+`breach` `cve` `malware` `vulnerability`
+Les versions antérieures à 1.53 de XAAP Android peuvent révéler des informations confidentielles.
+
+---
+
+### [Weintek cMT3092X](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-60134`
+`cve` `vulnerability`
+Les vulnérabilités dans cMT3092X permettent la volatilisation des privilèges d'utilisateur non autorisé.
+
+---
+
+### [Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
+**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2025-66376`
+`apt` `cve` `malware` `phishing` `ransomware`
+Des acteurs cybers soutenus par l'État russe mènent une campagne de phishing contre Zimbra Collaboration Suite.
+
+---
+
+### [Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs](https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html)
+**Source :** The Hacker News  **Publié :** 23/07/2026 13:34 UTC  **CVE :** `CVE-2026-64600`
+`cve` `malware` `vulnerability`
+Une vulnérabilité non identifiée dans Zimbra a été exploitée pour voler des codes 2FA et les informations de messagerie.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Kairos has just published a new victim : LR Reed](https://www.ransomware.live/id/TFIgUmVlZEBrYWlyb3M=)
-**Source :** Ransomware.live News  **Publié :** 22/07/2026 20:27 UTC
+### [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
+**Source :** The Hacker News  **Publié :** 24/07/2026 00:06 UTC
+`apt` `cve` `vulnerability`
+Un groupe espion russe a exploité une vulnérabilité dans Zimbra pour accéder aux courriels et codes 2FA d'organisations occidentales.
+
+---
+
+### [🏴‍☠️ Incransom has just published a new victim : cabincreekhealth.com](https://www.ransomware.live/id/Y2FiaW5jcmVla2hlYWx0aC5jb21AaW5jcmFuc29t)
+**Source :** Ransomware.live News  **Publié :** 23/07/2026 20:26 UTC
 `malware`
-LR Reed, une entreprise familiale spécialisée en gestion d’Owners Corporations, a été victime d’une attaque informatique.
+Incransom a infecté le site web cabincreekhealth.com, une organisation de santé communautaire non lucrative au Kansas.
 
 ---
 
-### [🏴‍☠️ Blacknevas has just published a new victim : Zuni Shopping Center, Inc.](https://www.ransomware.live/id/WnVuaSBTaG9wcGluZyBDZW50ZXIsIEluYy5AYmxhY2tuZXZhcw==)
-**Source :** Ransomware.live News  **Publié :** 22/07/2026 19:23 UTC
+### [Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge](https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html)
+**Source :** The Hacker News  **Publié :** 23/07/2026 18:41 UTC
+`breach` `malware` `ransomware`
+Le groupe de ransomware Chaos utilise msaRAT pour diriger les communications C2 via le navigateur headless Chrome ou Edge du victime.
+
+---
+
+### [China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks](https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html)
+**Source :** The Hacker News  **Publié :** 23/07/2026 17:50 UTC
 `malware`
-Zuni Shopping Center, Inc., une entreprise familiale de commerces, a été identifié comme nouveau victim du groupe Blacknevas.
+Group-IB a découvert l'opération JadeProx, visant des organisations gouvernementales et de santé en Asie et Amérique latine avec un chargeur Windows inconnu nommé TriBack Loader.
 
 ---
 
-### [Upbound says hack caused $13 million in fraudulent Acima leases](https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/)
-**Source :** Bleeping Computer  **Publié :** 22/07/2026 17:43 UTC
-`apt`
-Une attaque sur Upbound a causé des pertes de 13 millions de dollars en créant des contrats frauduleux Acima.
-
----
-
-### [The Fastest Path to AI Adoption Runs Through Security](https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html)
-**Source :** The Hacker News  **Publié :** 22/07/2026 17:28 UTC
-`cve` `malware`
-Les dirigeants de la sécurité qui adoptent rapidement l’IA contribuent à une visibilité accrue pour les équipes et des stratégies plus efficaces.
-
----
-
-### [🏴‍☠️ Braincipher has just published a new victim : windiam.com](https://www.ransomware.live/id/d2luZGlhbS5jb21AQnJhaW5DaXBoZXI=)
-**Source :** Ransomware.live News  **Publié :** 22/07/2026 17:20 UTC
+### [New Dolphin X malware uses AI to rank high-value targets](https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/)
+**Source :** Bleeping Computer  **Publié :** 23/07/2026 17:20 UTC
 `malware`
-N/A
+Le nouveau Dolphin X malware utilise l'intelligence artificielle pour évaluer et classer les victimes infectées, aidant ainsi les criminels cybergardiens à cibler prioritairement.
 
 ---
 
-### [Why Modern SOCs Need Multi-Layered Detections](https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html)
-**Source :** The Hacker News  **Publié :** 22/07/2026 16:55 UTC
-`apt` `malware` `ransomware`
-Les systèmes de gestion d’incidentes modernes nécessitent des détecteurs multiples pour faire face à l’évolution rapide des menaces.
+### [State Department imposes visa restrictions on foreign cyber scammers](https://therecord.media/visa-restrictions-cyber-scammers)
+**Source :** The Record  **Publié :** 23/07/2026 16:29 UTC
+`malware`
+Le ministère des Affaires étrangères américano-impose des restrictions de visa aux individus liés à des opérations de fraude cyberspace transnationales.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Federal agencies broaden alert on Iran-linked OT attacks](https://therecord.media/federal-agencies-broaden-alert-on-iran-linked-ot-attacks)
-**Source :** The Record  **Publié :** 22/07/2026 19:18 UTC  **Score :** 35
-`breach` `patch`
-Des attaques OT liées à l’Iran sont signalées, impliquant des interactions de fichiers malveillants et la manipulation de données sur les interfaces humanoïdes et les systèmes de contrôle supervisé.
-
-### 2. [OpenAI models behind breach of Hugging Face systems, companies say](https://therecord.media/openai-cyberattack-hugging-face)
-**Source :** The Record  **Publié :** 22/07/2026 12:00 UTC  **Score :** 35
+### 1. [Major Australian energy supplier confirms customer data compromised](https://therecord.media/australia-origin-energy-data-breach)
+**Source :** The Record  **Publié :** 23/07/2026 13:20 UTC  **Score :** 35
 `breach`
-OpenAI a annoncé que ses modèles étaient à l'origine d'une violation des systèmes de Hugging Face, qui avait précédemment repéré une attaque menée par « un agent IA autonome. »
+Origin Energy confirme un compromis de données chez ses clients, travaillant pour déterminer l'ampleur du breach.
 
-### 3. [South Korea discloses data breach impacting diplomats worldwide](https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/)
-**Source :** Bleeping Computer  **Publié :** 22/07/2026 16:06 UTC  **Score :** 25
+### 2. [Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers](https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html)
+**Source :** The Hacker News  **Publié :** 23/07/2026 16:58 UTC  **Score :** 25
 `breach`
-La Corée du Sud a dévoilé qu'un groupe de hackers avait perdu accès à son système d'éducation en ligne pendant dix mois, volant des informations personnelles de diplomates actuels et anciens employés du ministère des Affaires étrangères.
+Des attaquants ont exploité des runners GitHub en tant qu'infrastructure d'attaque pour cibler des instances cPanel et WHM.
+
+### 3. [International alert spotlights Russia-linked attacks on Zimbra webmail](https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear)
+**Source :** The Record  **Publié :** 23/07/2026 16:58 UTC  **Score :** 25
+`phishing`
+Un groupe russe connu sous le nom de Laundry Bear a utilisé une technique de phishing zero-click pour compromise des comptes Zimbra webmail à l'échelle mondiale.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-23.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-24.md`*
