@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T02:01:33.773437+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "89fc09b681b11a83",
+        "title": "Panduit IntraVUE",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-40430"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les vulnérabilités dans Panduit IntraVUE permettent d'exécuter des codes distants sans accès physique ou connaissance spécialisée.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "575b7a315e935591",
+        "title": "Johnson Controls C-CURE 9000 and Victor application server",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-21655"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures à v2.90_v3.0 de C-CURE 9000 et victor peuvent être exploitées pour exécuter des codes distants.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "a5ccd4ad772e60a6",
+        "title": "MZ Automation lib60870",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-16002"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions inférieures à 2.4.0 de lib60870 peuvent provoquer un service indisponible en cas d'exploitation réussie.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f9610a9c3e266b5e",
+        "title": "MZ Automation libIEC61850",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-50039"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures à 2.4 de libIEC61850 peuvent permettre l'exécution arbitraire de codes et le dérangement des fonctions de protection.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "32ec26f5059e0e92",
+        "title": "Johnson Controls XAAP Android",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-34490"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures à 1.53 de XAAP Android peuvent révéler des informations confidentielles.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 47
+      },
+      {
+        "guid": "91effd11f9002dbf",
+        "title": "Weintek cMT3092X",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-60134"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les vulnérabilités dans cMT3092X permettent la volatilisation des privilèges d'utilisateur non autorisé.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "0ca48c8da8b95618",
+        "title": "Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-66376"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "phishing",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Des acteurs cybers soutenus par l'État russe mènent une campagne de phishing contre Zimbra Collaboration Suite.",
+        "published_at": "2026-07-23T12:00:00",
+        "score": 37
+      },
+      {
+        "guid": "8b9a047fee16c2e7",
+        "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+        "url": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-64600"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité non identifiée dans Zimbra a été exploitée pour voler des codes 2FA et les informations de messagerie.",
+        "published_at": "2026-07-23T13:34:35",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "8abb9fc08a52561c",
+        "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+        "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un groupe espion russe a exploité une vulnérabilité dans Zimbra pour accéder aux courriels et codes 2FA d'organisations occidentales.",
+        "published_at": "2026-07-24T00:06:08",
+        "score": 5
+      },
+      {
+        "guid": "42c01bb6dd72c361",
+        "title": "🏴‍☠️ Incransom has just published a new victim : cabincreekhealth.com",
+        "url": "https://www.ransomware.live/id/Y2FiaW5jcmVla2hlYWx0aC5jb21AaW5jcmFuc29t",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Incransom a infecté le site web cabincreekhealth.com, une organisation de santé communautaire non lucrative au Kansas.",
+        "published_at": "2026-07-23T20:26:25",
+        "score": 12
+      },
+      {
+        "guid": "197a275aa8f9a6c5",
+        "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+        "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le groupe de ransomware Chaos utilise msaRAT pour diriger les communications C2 via le navigateur headless Chrome ou Edge du victime.",
+        "published_at": "2026-07-23T18:41:09",
+        "score": 37
+      },
+      {
+        "guid": "e430e5ea0140238f",
+        "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+        "url": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Group-IB a découvert l'opération JadeProx, visant des organisations gouvernementales et de santé en Asie et Amérique latine avec un chargeur Windows inconnu nommé TriBack Loader.",
+        "published_at": "2026-07-23T17:50:23",
+        "score": 17
+      },
+      {
+        "guid": "e2fb42879552b605",
+        "title": "New Dolphin X malware uses AI to rank high-value targets",
+        "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le nouveau Dolphin X malware utilise l'intelligence artificielle pour évaluer et classer les victimes infectées, aidant ainsi les criminels cybergardiens à cibler prioritairement.",
+        "published_at": "2026-07-23T17:20:34",
+        "score": 17
+      },
+      {
+        "guid": "d63c77713c25353b",
+        "title": "State Department imposes visa restrictions on foreign cyber scammers",
+        "url": "https://therecord.media/visa-restrictions-cyber-scammers",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le ministère des Affaires étrangères américano-impose des restrictions de visa aux individus liés à des opérations de fraude cyberspace transnationales.",
+        "published_at": "2026-07-23T16:29:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "b14849eea35845c8",
+        "title": "Major Australian energy supplier confirms customer data compromised",
+        "url": "https://therecord.media/australia-origin-energy-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Origin Energy confirme un compromis de données chez ses clients, travaillant pour déterminer l'ampleur du breach.",
+        "published_at": "2026-07-23T13:20:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "45856b31c28b2814",
+        "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+        "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des attaquants ont exploité des runners GitHub en tant qu'infrastructure d'attaque pour cibler des instances cPanel et WHM.",
+        "published_at": "2026-07-23T16:58:54",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "314e2a2fc8c09d1d",
+        "title": "International alert spotlights Russia-linked attacks on Zimbra webmail",
+        "url": "https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Un groupe russe connu sous le nom de Laundry Bear a utilisé une technique de phishing zero-click pour compromise des comptes Zimbra webmail à l'échelle mondiale.",
+        "published_at": "2026-07-23T16:58:00",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 89,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 8,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
