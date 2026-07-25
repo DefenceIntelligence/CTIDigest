@@ -1,129 +1,82 @@
-# 🛡️ ARGOS CTI Digest — 24 juillet 2026
+# 🛡️ ARGOS CTI Digest — 25 juillet 2026
 
-> Généré le 24/07/2026 à 02:01 UTC  ·  89 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 25/07/2026 à 02:00 UTC  ·  50 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Panduit IntraVUE](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-40430`
+### [Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
+**Source :** The Hacker News  **Publié :** 24/07/2026 17:15 UTC  **CVE :** `CVE-2026-32194`
 `cve` `vulnerability`
-Les vulnérabilités dans Panduit IntraVUE permettent d'exécuter des codes distants sans accès physique ou connaissance spécialisée.
-
----
-
-### [Johnson Controls C-CURE 9000 and Victor application server](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-21655`
-`cve` `vulnerability`
-Les versions antérieures à v2.90_v3.0 de C-CURE 9000 et victor peuvent être exploitées pour exécuter des codes distants.
-
----
-
-### [MZ Automation lib60870](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-07)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-16002`
-`cve` `vulnerability`
-Les versions inférieures à 2.4.0 de lib60870 peuvent provoquer un service indisponible en cas d'exploitation réussie.
-
----
-
-### [MZ Automation libIEC61850](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-06)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-50039`
-`cve` `vulnerability`
-Les versions antérieures à 2.4 de libIEC61850 peuvent permettre l'exécution arbitraire de codes et le dérangement des fonctions de protection.
-
----
-
-### [Johnson Controls XAAP Android](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-02)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-34490`
-`breach` `cve` `malware` `vulnerability`
-Les versions antérieures à 1.53 de XAAP Android peuvent révéler des informations confidentielles.
-
----
-
-### [Weintek cMT3092X](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-03)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2026-60134`
-`cve` `vulnerability`
-Les vulnérabilités dans cMT3092X permettent la volatilisation des privilèges d'utilisateur non autorisé.
-
----
-
-### [Russian State-Supported Cyber Actors Conduct Phishing Campaign Targeting Users of Zimbra Collaboration Suite](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-204a)
-**Source :** CISA Advisories  **Publié :** 23/07/2026 12:00 UTC  **CVE :** `CVE-2025-66376`
-`apt` `cve` `malware` `phishing` `ransomware`
-Des acteurs cybers soutenus par l'État russe mènent une campagne de phishing contre Zimbra Collaboration Suite.
-
----
-
-### [Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs](https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html)
-**Source :** The Hacker News  **Publié :** 23/07/2026 13:34 UTC  **CVE :** `CVE-2026-64600`
-`cve` `malware` `vulnerability`
-Une vulnérabilité non identifiée dans Zimbra a été exploitée pour voler des codes 2FA et les informations de messagerie.
+Des SVG malicieux soumis à Bing ont permis l'exécution de commandes en SYSTEM sur les serveurs Microsoft et en root sur des machines Linux, provoquant deux CVEs critiques.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes](https://thehackernews.com/2026/07/russian-espionage-group-exploited.html)
-**Source :** The Hacker News  **Publié :** 24/07/2026 00:06 UTC
-`apt` `cve` `vulnerability`
-Un groupe espion russe a exploité une vulnérabilité dans Zimbra pour accéder aux courriels et codes 2FA d'organisations occidentales.
+### [🏴‍☠️ Nova has just published a new victim : Center Of Information Technologies In Finance Public Institution](https://www.ransomware.live/id/Q2VudGVyIE9mIEluZm9ybWF0aW9uIFRlY2hub2xvZ2llcyBJbiBGaW5hbmNlIFB1YmxpYyBJbnN0aXR1dGlvbkBub3Zh)
+**Source :** Ransomware.live News  **Publié :** 24/07/2026 22:57 UTC
+`breach` `malware`
+Le CTIF a été victime d'une attaque de phishing par Nova, une menace connue.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : cabincreekhealth.com](https://www.ransomware.live/id/Y2FiaW5jcmVla2hlYWx0aC5jb21AaW5jcmFuc29t)
-**Source :** Ransomware.live News  **Publié :** 23/07/2026 20:26 UTC
+### [🏴‍☠️ Safepay has just published a new victim : upland.k12.ca.us](https://www.ransomware.live/id/dXBsYW5kLmsxMi5jYS51c0BzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 24/07/2026 21:59 UTC
 `malware`
-Incransom a infecté le site web cabincreekhealth.com, une organisation de santé communautaire non lucrative au Kansas.
+Upland.k12.ca.us est la nouvelle victime de Safepay selon l'annonce.
 
 ---
 
-### [Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge](https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html)
-**Source :** The Hacker News  **Publié :** 23/07/2026 18:41 UTC
-`breach` `malware` `ransomware`
-Le groupe de ransomware Chaos utilise msaRAT pour diriger les communications C2 via le navigateur headless Chrome ou Edge du victime.
-
----
-
-### [China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks](https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html)
-**Source :** The Hacker News  **Publié :** 23/07/2026 17:50 UTC
+### [Friday Squid Blogging: Illex Squid Catch in the Falklands](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html)
+**Source :** Schneier on Security  **Publié :** 24/07/2026 21:06 UTC
 `malware`
-Group-IB a découvert l'opération JadeProx, visant des organisations gouvernementales et de santé en Asie et Amérique latine avec un chargeur Windows inconnu nommé TriBack Loader.
+BlueNoroff utilise un kit de phishing pour cibler des crypto-wallets avant la distribution de malware.
 
 ---
 
-### [New Dolphin X malware uses AI to rank high-value targets](https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/)
-**Source :** Bleeping Computer  **Publié :** 23/07/2026 17:20 UTC
-`malware`
-Le nouveau Dolphin X malware utilise l'intelligence artificielle pour évaluer et classer les victimes infectées, aidant ainsi les criminels cybergardiens à cibler prioritairement.
+### [BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
+**Source :** The Hacker News  **Publié :** 24/07/2026 20:42 UTC
+`apt` `breach` `malware` `phishing`
+The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.
+
+"BlueNoroff has
 
 ---
 
-### [State Department imposes visa restrictions on foreign cyber scammers](https://therecord.media/visa-restrictions-cyber-scammers)
-**Source :** The Record  **Publié :** 23/07/2026 16:29 UTC
+### [Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry](https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk)
+**Source :** The Record  **Publié :** 24/07/2026 17:14 UTC
+`ransomware`
+Andy Burnham maintient Liz Lloyd dans son rôle de cyber sécurité, malgré l'élimination du ministère.
+
+---
+
+### [🏴‍☠️ Insomnia has just published a new victim : Brooklyn Defender Services](https://www.ransomware.live/id/QnJvb2tseW4gRGVmZW5kZXIgU2VydmljZXNAaW5zb21uaWE=)
+**Source :** Ransomware.live News  **Publié :** 24/07/2026 16:56 UTC
 `malware`
-Le ministère des Affaires étrangères américano-impose des restrictions de visa aux individus liés à des opérations de fraude cyberspace transnationales.
+Insomnia a été victime d'une attaque par plugin Notepad++ falso et MATCHBOIL.V2.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Major Australian energy supplier confirms customer data compromised](https://therecord.media/australia-origin-energy-data-breach)
-**Source :** The Record  **Publié :** 23/07/2026 13:20 UTC  **Score :** 35
-`breach`
-Origin Energy confirme un compromis de données chez ses clients, travaillant pour déterminer l'ampleur du breach.
+### 1. [Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks](https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html)
+**Source :** The Hacker News  **Publié :** 24/07/2026 12:20 UTC  **Score :** 25
+`breach` `vulnerability`
+CERT-UA alerte sur une campagne utilisant un faux plugin Notepad++ pour délivrer MATCHBOIL.V2 dans des attaques UAC-0099.
 
-### 2. [Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers](https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html)
-**Source :** The Hacker News  **Publié :** 23/07/2026 16:58 UTC  **Score :** 25
+### 2. [Chick-fil-A data breach affects more than 13,000 customers](https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/)
+**Source :** Bleeping Computer  **Publié :** 24/07/2026 10:04 UTC  **Score :** 25
 `breach`
-Des attaquants ont exploité des runners GitHub en tant qu'infrastructure d'attaque pour cibler des instances cPanel et WHM.
+Plus de 13,000 clients Chick-fil-A ont été victimes d'une fuite de données par attaque de stuffinging de credenciaux.
 
-### 3. [International alert spotlights Russia-linked attacks on Zimbra webmail](https://therecord.media/zimbra-webmail-zero-click-phishing-russia-laundry-bear)
-**Source :** The Record  **Publié :** 23/07/2026 16:58 UTC  **Score :** 25
-`phishing`
-Un groupe russe connu sous le nom de Laundry Bear a utilisé une technique de phishing zero-click pour compromise des comptes Zimbra webmail à l'échelle mondiale.
+### 3. [🏴‍☠️ M3rx has just published a new victim : ausproof.com.au](https://www.ransomware.live/id/YXVzcHJvb2YuY29tLmF1QG0zcng=)
+**Source :** Ransomware.live News  **Publié :** 24/07/2026 19:28 UTC  **Score :** 20
+`breach`
+AusProof a été victime d'un faux plugin Notepad++ pour délivrer MATCHBOIL.V2.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-24.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-25.md`*
