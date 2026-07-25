@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T02:00:52.652303+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "6942ac8b6efa0312",
+        "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+        "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-32194"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des SVG malicieux soumis à Bing ont permis l'exécution de commandes en SYSTEM sur les serveurs Microsoft et en root sur des machines Linux, provoquant deux CVEs critiques.",
+        "published_at": "2026-07-24T17:15:17",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "6b53b616d074bf84",
+        "title": "🏴‍☠️ Nova has just published a new victim : Center Of Information Technologies In Finance Public Institution",
+        "url": "https://www.ransomware.live/id/Q2VudGVyIE9mIEluZm9ybWF0aW9uIFRlY2hub2xvZ2llcyBJbiBGaW5hbmNlIFB1YmxpYyBJbnN0aXR1dGlvbkBub3Zh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le CTIF a été victime d'une attaque de phishing par Nova, une menace connue.",
+        "published_at": "2026-07-24T22:57:47",
+        "score": 32
+      },
+      {
+        "guid": "2a150eb738cfdfd3",
+        "title": "🏴‍☠️ Safepay has just published a new victim : upland.k12.ca.us",
+        "url": "https://www.ransomware.live/id/dXBsYW5kLmsxMi5jYS51c0BzYWZlcGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Upland.k12.ca.us est la nouvelle victime de Safepay selon l'annonce.",
+        "published_at": "2026-07-24T21:59:45",
+        "score": 12
+      },
+      {
+        "guid": "f908de67ed1b48c7",
+        "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
+        "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "BlueNoroff utilise un kit de phishing pour cibler des crypto-wallets avant la distribution de malware.",
+        "published_at": "2026-07-24T21:06:00",
+        "score": 17
+      },
+      {
+        "guid": "f555d35eb3a509a3",
+        "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+        "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware",
+          "phishing"
+        ],
+        "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.\n\n\"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet",
+        "published_at": "2026-07-24T20:42:35",
+        "score": 47
+      },
+      {
+        "guid": "13dd294c748228e6",
+        "title": "Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry",
+        "url": "https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Andy Burnham maintient Liz Lloyd dans son rôle de cyber sécurité, malgré l'élimination du ministère.",
+        "published_at": "2026-07-24T17:14:00",
+        "score": 15
+      },
+      {
+        "guid": "98413441c56687d3",
+        "title": "🏴‍☠️ Insomnia has just published a new victim : Brooklyn Defender Services",
+        "url": "https://www.ransomware.live/id/QnJvb2tseW4gRGVmZW5kZXIgU2VydmljZXNAaW5zb21uaWE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Insomnia a été victime d'une attaque par plugin Notepad++ falso et MATCHBOIL.V2.",
+        "published_at": "2026-07-24T16:56:10",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "9f7e90cf75bbd011",
+        "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+        "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "CERT-UA alerte sur une campagne utilisant un faux plugin Notepad++ pour délivrer MATCHBOIL.V2 dans des attaques UAC-0099.",
+        "published_at": "2026-07-24T12:20:57",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "7affac67e238b73e",
+        "title": "Chick-fil-A data breach affects more than 13,000 customers",
+        "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plus de 13,000 clients Chick-fil-A ont été victimes d'une fuite de données par attaque de stuffinging de credenciaux.",
+        "published_at": "2026-07-24T10:04:29",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "04a11708ae120eed",
+        "title": "🏴‍☠️ M3rx has just published a new victim : ausproof.com.au",
+        "url": "https://www.ransomware.live/id/YXVzcHJvb2YuY29tLmF1QG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "AusProof a été victime d'un faux plugin Notepad++ pour délivrer MATCHBOIL.V2.",
+        "published_at": "2026-07-24T19:28:48",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 50,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
