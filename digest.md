@@ -1,82 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 25 juillet 2026
+# 🛡️ ARGOS CTI Digest — 26 juillet 2026
 
-> Généré le 25/07/2026 à 02:00 UTC  ·  50 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 26/07/2026 à 02:00 UTC  ·  34 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
-**Source :** The Hacker News  **Publié :** 24/07/2026 17:15 UTC  **CVE :** `CVE-2026-32194`
+### [Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
+**Source :** The Hacker News  **Publié :** 25/07/2026 18:22 UTC  **CVE :** `CVE-2026-16723`
 `cve` `vulnerability`
-Des SVG malicieux soumis à Bing ont permis l'exécution de commandes en SYSTEM sur les serveurs Microsoft et en root sur des machines Linux, provoquant deux CVEs critiques.
+Des attaquants ciblent une vulnérabilité critique dans Fastjson, utilisé dans des applications Spring Boot, sans patch disponible.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Nova has just published a new victim : Center Of Information Technologies In Finance Public Institution](https://www.ransomware.live/id/Q2VudGVyIE9mIEluZm9ybWF0aW9uIFRlY2hub2xvZ2llcyBJbiBGaW5hbmNlIFB1YmxpYyBJbnN0aXR1dGlvbkBub3Zh)
-**Source :** Ransomware.live News  **Publié :** 24/07/2026 22:57 UTC
-`breach` `malware`
-Le CTIF a été victime d'une attaque de phishing par Nova, une menace connue.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : upland.k12.ca.us](https://www.ransomware.live/id/dXBsYW5kLmsxMi5jYS51c0BzYWZlcGF5)
-**Source :** Ransomware.live News  **Publié :** 24/07/2026 21:59 UTC
+### [Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
+**Source :** The Hacker News  **Publié :** 26/07/2026 00:18 UTC
 `malware`
-Upland.k12.ca.us est la nouvelle victime de Safepay selon l'annonce.
+La campagne malveillante SourTrade assemble le malware sur les appareils victimes à partir d'une base licitement utilisée, imitant des sites comme TradingView et Solana.
 
 ---
 
-### [Friday Squid Blogging: Illex Squid Catch in the Falklands](https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html)
-**Source :** Schneier on Security  **Publié :** 24/07/2026 21:06 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Advanced Marketing](https://www.ransomware.live/id/QWR2YW5jZWQgTWFya2V0aW5nQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 25/07/2026 18:05 UTC
 `malware`
-BlueNoroff utilise un kit de phishing pour cibler des crypto-wallets avant la distribution de malware.
+Advanced Marketing, une grande entreprise mexicaine de distribution de livres, a été victime d'une attaque cybernétique.
 
 ---
 
-### [BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
-**Source :** The Hacker News  **Publié :** 24/07/2026 20:42 UTC
-`apt` `breach` `malware` `phishing`
-The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.
-
-"BlueNoroff has
+### [🏴‍☠️ Deadlock has just published a new victim : HİDROMEK](https://www.ransomware.live/id/SMSwRFJPTUVLQERlYWRsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:56 UTC
+`breach` `malware` `ransomware`
+HİDROMEK, un fabricant turc de matériel de construction lourd, a perdu des données sensibles importantes après une attaque.
 
 ---
 
-### [Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry](https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk)
-**Source :** The Record  **Publié :** 24/07/2026 17:14 UTC
-`ransomware`
-Andy Burnham maintient Liz Lloyd dans son rôle de cyber sécurité, malgré l'élimination du ministère.
-
----
-
-### [🏴‍☠️ Insomnia has just published a new victim : Brooklyn Defender Services](https://www.ransomware.live/id/QnJvb2tseW4gRGVmZW5kZXIgU2VydmljZXNAaW5zb21uaWE=)
-**Source :** Ransomware.live News  **Publié :** 24/07/2026 16:56 UTC
+### [🏴‍☠️ Deadlock has just published a new victim : BioResearch](https://www.ransomware.live/id/QmlvUmVzZWFyY2hARGVhZGxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:55 UTC
 `malware`
-Insomnia a été victime d'une attaque par plugin Notepad++ falso et MATCHBOIL.V2.
+BioResearch, une entreprise polonaise spécialisée dans les essais cliniques en stade initial, a été victime d'une cyberattaque.
+
+---
+
+### [🏴‍☠️ Deadlock has just published a new victim : CNA](https://www.ransomware.live/id/Q05BQERlYWRsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:53 UTC
+`malware`
+Des attaques de phishing sur l'assurance ont évolué vers le hijacking des comptes en temps réel, sans collecter d'abord les informations.
+
+---
+
+### [CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
+**Source :** The Hacker News  **Publié :** 25/07/2026 15:44 UTC
+`breach` `malware` `phishing`
+CNA Toscana Centro, une association de commerce pour artisans et entreprises, a été victime d'une cyberattaque.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks](https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html)
-**Source :** The Hacker News  **Publié :** 24/07/2026 12:20 UTC  **Score :** 25
-`breach` `vulnerability`
-CERT-UA alerte sur une campagne utilisant un faux plugin Notepad++ pour délivrer MATCHBOIL.V2 dans des attaques UAC-0099.
-
-### 2. [Chick-fil-A data breach affects more than 13,000 customers](https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/)
-**Source :** Bleeping Computer  **Publié :** 24/07/2026 10:04 UTC  **Score :** 25
+### 1. [🏴‍☠️ Nova has just published a new victim : SistNet](https://www.ransomware.live/id/U2lzdE5ldEBub3Zh)
+**Source :** Ransomware.live News  **Publié :** 25/07/2026 09:27 UTC  **Score :** 20
 `breach`
-Plus de 13,000 clients Chick-fil-A ont été victimes d'une fuite de données par attaque de stuffinging de credenciaux.
+Nova, un fournisseur de solutions en technologies de l'information, a été victime d'une attaque.
 
-### 3. [🏴‍☠️ M3rx has just published a new victim : ausproof.com.au](https://www.ransomware.live/id/YXVzcHJvb2YuY29tLmF1QG0zcng=)
-**Source :** Ransomware.live News  **Publié :** 24/07/2026 19:28 UTC  **Score :** 20
-`breach`
-AusProof a été victime d'un faux plugin Notepad++ pour délivrer MATCHBOIL.V2.
+### 2. [Steam forum ClickFix attacks infect gamers with XMRig cryptominers](https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/)
+**Source :** Bleeping Computer  **Publié :** 25/07/2026 18:37 UTC  **Score :** 5
+Les forums Steam sont utilisés pour des attaques ClickFix qui infectent les appareils avec des cryptomineurs XMRig.
+
+### 3. [OpenAI confirms ChatGPT is down worldwide](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/)
+**Source :** Bleeping Computer  **Publié :** 25/07/2026 05:31 UTC  **Score :** 5
+ChatGPT rencontre des problèmes de connectivité mondiaux, confirmés par OpenAI.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-25.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-26.md`*
