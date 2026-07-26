@@ -1,169 +1,164 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-25",
-  "generated_at": "2026-07-25T02:00:52.652303+00:00",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T02:00:57.096206+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "6942ac8b6efa0312",
-        "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-        "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+        "guid": "be5dd33104511e7e",
+        "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+        "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-32194"
+          "CVE-2026-16723"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des SVG malicieux soumis à Bing ont permis l'exécution de commandes en SYSTEM sur les serveurs Microsoft et en root sur des machines Linux, provoquant deux CVEs critiques.",
-        "published_at": "2026-07-24T17:15:17",
+        "summary": "Des attaquants ciblent une vulnérabilité critique dans Fastjson, utilisé dans des applications Spring Boot, sans patch disponible.",
+        "published_at": "2026-07-25T18:22:43",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "6b53b616d074bf84",
-        "title": "🏴‍☠️ Nova has just published a new victim : Center Of Information Technologies In Finance Public Institution",
-        "url": "https://www.ransomware.live/id/Q2VudGVyIE9mIEluZm9ybWF0aW9uIFRlY2hub2xvZ2llcyBJbiBGaW5hbmNlIFB1YmxpYyBJbnN0aXR1dGlvbkBub3Zh",
+        "guid": "f29a7d0aad4a90af",
+        "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+        "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La campagne malveillante SourTrade assemble le malware sur les appareils victimes à partir d'une base licitement utilisée, imitant des sites comme TradingView et Solana.",
+        "published_at": "2026-07-26T00:18:44",
+        "score": 17
+      },
+      {
+        "guid": "24b3daee26b10a80",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Advanced Marketing",
+        "url": "https://www.ransomware.live/id/QWR2YW5jZWQgTWFya2V0aW5nQHRoZWdlbnRsZW1lbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Advanced Marketing, une grande entreprise mexicaine de distribution de livres, a été victime d'une attaque cybernétique.",
+        "published_at": "2026-07-25T18:05:58",
+        "score": 12
+      },
+      {
+        "guid": "863435d15d20b3a9",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : HİDROMEK",
+        "url": "https://www.ransomware.live/id/SMSwRFJPTUVLQERlYWRsb2Nr",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach",
-          "malware"
+          "malware",
+          "ransomware"
         ],
-        "summary": "Le CTIF a été victime d'une attaque de phishing par Nova, une menace connue.",
-        "published_at": "2026-07-24T22:57:47",
+        "summary": "HİDROMEK, un fabricant turc de matériel de construction lourd, a perdu des données sensibles importantes après une attaque.",
+        "published_at": "2026-07-25T17:56:19",
         "score": 32
       },
       {
-        "guid": "2a150eb738cfdfd3",
-        "title": "🏴‍☠️ Safepay has just published a new victim : upland.k12.ca.us",
-        "url": "https://www.ransomware.live/id/dXBsYW5kLmsxMi5jYS51c0BzYWZlcGF5",
+        "guid": "293877835514921d",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : BioResearch",
+        "url": "https://www.ransomware.live/id/QmlvUmVzZWFyY2hARGVhZGxvY2s=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Upland.k12.ca.us est la nouvelle victime de Safepay selon l'annonce.",
-        "published_at": "2026-07-24T21:59:45",
+        "summary": "BioResearch, une entreprise polonaise spécialisée dans les essais cliniques en stade initial, a été victime d'une cyberattaque.",
+        "published_at": "2026-07-25T17:55:18",
         "score": 12
       },
       {
-        "guid": "f908de67ed1b48c7",
-        "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
-        "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
-        "source": "Schneier on Security",
-        "category": "Général",
+        "guid": "701edb3ee4a4c752",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : CNA",
+        "url": "https://www.ransomware.live/id/Q05BQERlYWRsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "BlueNoroff utilise un kit de phishing pour cibler des crypto-wallets avant la distribution de malware.",
-        "published_at": "2026-07-24T21:06:00",
-        "score": 17
+        "summary": "Des attaques de phishing sur l'assurance ont évolué vers le hijacking des comptes en temps réel, sans collecter d'abord les informations.",
+        "published_at": "2026-07-25T17:53:56",
+        "score": 12
       },
       {
-        "guid": "f555d35eb3a509a3",
-        "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-        "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+        "guid": "1e548f9aecc94262",
+        "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+        "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
           "breach",
           "malware",
           "phishing"
         ],
-        "summary": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware.\n\n\"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet",
-        "published_at": "2026-07-24T20:42:35",
+        "summary": "CNA Toscana Centro, une association de commerce pour artisans et entreprises, a été victime d'une cyberattaque.",
+        "published_at": "2026-07-25T15:44:21",
         "score": 47
-      },
-      {
-        "guid": "13dd294c748228e6",
-        "title": "Andy Burnham signals continuity on UK cyber policy, reappoints minister despite scrapping ministry",
-        "url": "https://therecord.media/andy-burnham-liz-lloyd-cyber-policy-uk",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Andy Burnham maintient Liz Lloyd dans son rôle de cyber sécurité, malgré l'élimination du ministère.",
-        "published_at": "2026-07-24T17:14:00",
-        "score": 15
-      },
-      {
-        "guid": "98413441c56687d3",
-        "title": "🏴‍☠️ Insomnia has just published a new victim : Brooklyn Defender Services",
-        "url": "https://www.ransomware.live/id/QnJvb2tseW4gRGVmZW5kZXIgU2VydmljZXNAaW5zb21uaWE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Insomnia a été victime d'une attaque par plugin Notepad++ falso et MATCHBOIL.V2.",
-        "published_at": "2026-07-24T16:56:10",
-        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "9f7e90cf75bbd011",
-        "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-        "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "vulnerability"
-        ],
-        "summary": "CERT-UA alerte sur une campagne utilisant un faux plugin Notepad++ pour délivrer MATCHBOIL.V2 dans des attaques UAC-0099.",
-        "published_at": "2026-07-24T12:20:57",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "7affac67e238b73e",
-        "title": "Chick-fil-A data breach affects more than 13,000 customers",
-        "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Plus de 13,000 clients Chick-fil-A ont été victimes d'une fuite de données par attaque de stuffinging de credenciaux.",
-        "published_at": "2026-07-24T10:04:29",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "04a11708ae120eed",
-        "title": "🏴‍☠️ M3rx has just published a new victim : ausproof.com.au",
-        "url": "https://www.ransomware.live/id/YXVzcHJvb2YuY29tLmF1QG0zcng=",
+        "guid": "3584326cf843cd01",
+        "title": "🏴‍☠️ Nova has just published a new victim : SistNet",
+        "url": "https://www.ransomware.live/id/U2lzdE5ldEBub3Zh",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "AusProof a été victime d'un faux plugin Notepad++ pour délivrer MATCHBOIL.V2.",
-        "published_at": "2026-07-24T19:28:48",
+        "summary": "Nova, un fournisseur de solutions en technologies de l'information, a été victime d'une attaque.",
+        "published_at": "2026-07-25T09:27:23",
         "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "548af51398071f15",
+        "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+        "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Les forums Steam sont utilisés pour des attaques ClickFix qui infectent les appareils avec des cryptomineurs XMRig.",
+        "published_at": "2026-07-25T18:37:47",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "625113b5f0a18dda",
+        "title": "OpenAI confirms ChatGPT is down worldwide",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "ChatGPT rencontre des problèmes de connectivité mondiaux, confirmés par OpenAI.",
+        "published_at": "2026-07-25T05:31:09",
+        "score": 5,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 50,
+    "items_analyzed": 34,
     "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
