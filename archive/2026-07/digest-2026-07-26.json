@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T02:00:57.096206+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "be5dd33104511e7e",
+        "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+        "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-16723"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants ciblent une vulnérabilité critique dans Fastjson, utilisé dans des applications Spring Boot, sans patch disponible.",
+        "published_at": "2026-07-25T18:22:43",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "f29a7d0aad4a90af",
+        "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+        "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La campagne malveillante SourTrade assemble le malware sur les appareils victimes à partir d'une base licitement utilisée, imitant des sites comme TradingView et Solana.",
+        "published_at": "2026-07-26T00:18:44",
+        "score": 17
+      },
+      {
+        "guid": "24b3daee26b10a80",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Advanced Marketing",
+        "url": "https://www.ransomware.live/id/QWR2YW5jZWQgTWFya2V0aW5nQHRoZWdlbnRsZW1lbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Advanced Marketing, une grande entreprise mexicaine de distribution de livres, a été victime d'une attaque cybernétique.",
+        "published_at": "2026-07-25T18:05:58",
+        "score": 12
+      },
+      {
+        "guid": "863435d15d20b3a9",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : HİDROMEK",
+        "url": "https://www.ransomware.live/id/SMSwRFJPTUVLQERlYWRsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "HİDROMEK, un fabricant turc de matériel de construction lourd, a perdu des données sensibles importantes après une attaque.",
+        "published_at": "2026-07-25T17:56:19",
+        "score": 32
+      },
+      {
+        "guid": "293877835514921d",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : BioResearch",
+        "url": "https://www.ransomware.live/id/QmlvUmVzZWFyY2hARGVhZGxvY2s=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "BioResearch, une entreprise polonaise spécialisée dans les essais cliniques en stade initial, a été victime d'une cyberattaque.",
+        "published_at": "2026-07-25T17:55:18",
+        "score": 12
+      },
+      {
+        "guid": "701edb3ee4a4c752",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : CNA",
+        "url": "https://www.ransomware.live/id/Q05BQERlYWRsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des attaques de phishing sur l'assurance ont évolué vers le hijacking des comptes en temps réel, sans collecter d'abord les informations.",
+        "published_at": "2026-07-25T17:53:56",
+        "score": 12
+      },
+      {
+        "guid": "1e548f9aecc94262",
+        "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+        "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "phishing"
+        ],
+        "summary": "CNA Toscana Centro, une association de commerce pour artisans et entreprises, a été victime d'une cyberattaque.",
+        "published_at": "2026-07-25T15:44:21",
+        "score": 47
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "3584326cf843cd01",
+        "title": "🏴‍☠️ Nova has just published a new victim : SistNet",
+        "url": "https://www.ransomware.live/id/U2lzdE5ldEBub3Zh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nova, un fournisseur de solutions en technologies de l'information, a été victime d'une attaque.",
+        "published_at": "2026-07-25T09:27:23",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "548af51398071f15",
+        "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+        "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Les forums Steam sont utilisés pour des attaques ClickFix qui infectent les appareils avec des cryptomineurs XMRig.",
+        "published_at": "2026-07-25T18:37:47",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "625113b5f0a18dda",
+        "title": "OpenAI confirms ChatGPT is down worldwide",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "ChatGPT rencontre des problèmes de connectivité mondiaux, confirmés par OpenAI.",
+        "published_at": "2026-07-25T05:31:09",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 34,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
