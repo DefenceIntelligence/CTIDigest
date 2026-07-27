@@ -1,0 +1,167 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T02:00:48.378256+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "6f75b45a02b69d02",
+        "title": "Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)",
+        "url": "https://isc.sans.edu/diary/rss/33184",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "ESAFENET CDG a été découvert précédemment avec des vulnérabilités de base comme l'injection SQL et les mots de passe par défaut.",
+        "published_at": "2026-07-26T15:26:14",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "d9646cb716dd6dc7",
+        "title": "🏴‍☠️ Genesis has just published a new victim : JJP Slip Forming Inc.",
+        "url": "https://www.ransomware.live/id/SkpQIFNsaXAgRm9ybWluZyBJbmMuQGdlbmVzaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Genesis cible un nouveau client, JJP Slip Forming Inc., opérant dans l'industrie des restaurants.",
+        "published_at": "2026-07-26T23:26:41",
+        "score": 12
+      },
+      {
+        "guid": "138bbaf6f6c40350",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : West African Resources ltd",
+        "url": "https://www.ransomware.live/id/V2VzdCBBZnJpY2FuIFJlc291cmNlcyBsdGRARGVhZGxvY2s=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Deadlock a identifié une nouvelle victime : West African Resources Ltd, une compagnie minière au Ghana.",
+        "published_at": "2026-07-26T19:21:20",
+        "score": 12
+      },
+      {
+        "guid": "585fc5c17eea854a",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : Caspian One",
+        "url": "https://www.ransomware.live/id/Q2FzcGlhbiBPbmVARGVhZGxvY2s=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Global secret group a frappé Prism Telecom pour analyser le trafic backbone et les vulnérabilités SS7 à travers trois continents.",
+        "published_at": "2026-07-26T19:20:59",
+        "score": 12
+      },
+      {
+        "guid": "9a7e4c10868cd8f5",
+        "title": "🏴‍☠️ Global secret group has just published a new victim : Prism Telecom",
+        "url": "https://www.ransomware.live/id/UHJpc20gVGVsZWNvbUBHbG9iYWwgU2VjcmV0IEdyb3Vw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Backbone network traffic analysis and SS7 protocol vulnerability assessment across 3 continents.",
+        "published_at": "2026-07-26T18:14:42",
+        "score": 0
+      },
+      {
+        "guid": "f6cd7b10df65bd82",
+        "title": "🏴‍☠️ Global secret group has just published a new victim : Stratos Network",
+        "url": "https://www.ransomware.live/id/U3RyYXRvcyBOZXR3b3JrQEdsb2JhbCBTZWNyZXQgR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Stratos Network a été victime d'une analyse approfondie de la communication par satellite via 14 stations terrestres.",
+        "published_at": "2026-07-26T18:13:59",
+        "score": 12
+      },
+      {
+        "guid": "2b97b9c84469577c",
+        "title": "🏴‍☠️ Global secret group has just published a new victim : OmniLink AG",
+        "url": "https://www.ransomware.live/id/T21uaUxpbmsgQUdAR2xvYmFsIFNlY3JldCBHcm91cA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Global secret group a mené une attaque sur OmniLink AG pour tester le pipeline et l'API des transactions financières.",
+        "published_at": "2026-07-26T18:13:39",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "20e2fa8697dc31b1",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Eagle Crest Communities",
+        "url": "https://www.ransomware.live/id/RWFnbGUgQ3Jlc3QgQ29tbXVuaXRpZXNAYW51Ymlz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Anubis a frappé Eagle Crest Communities, entraînant une fuite de données patient et employé dans un service d'assistance pour personnes âgées.",
+        "published_at": "2026-07-26T19:24:27",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "9e90d88c75a149a3",
+        "title": "🏴‍☠️ M3rx has just published a new victim : hydraulic-components.net",
+        "url": "https://www.ransomware.live/id/aHlkcmF1bGljLWNvbXBvbmVudHMubmV0QG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "M3rx a visé hydraulic-components.net, fournisseur de composants hydrauliques, affectant sa chaîne d'approvisionnement et son infrastructure.",
+        "published_at": "2026-07-26T11:28:39",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "a7463bbfff132a29",
+        "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "GitHub et PyPI ont mis en place des mécanismes temporalierts pour protéger contre les attaques par chaîne de la supply chain.",
+        "published_at": "2026-07-26T10:13:39",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 66,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
