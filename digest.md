@@ -1,78 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 26 juillet 2026
+# 🛡️ ARGOS CTI Digest — 27 juillet 2026
 
-> Généré le 26/07/2026 à 02:00 UTC  ·  34 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 27/07/2026 à 02:00 UTC  ·  66 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
-**Source :** The Hacker News  **Publié :** 25/07/2026 18:22 UTC  **CVE :** `CVE-2026-16723`
-`cve` `vulnerability`
-Des attaquants ciblent une vulnérabilité critique dans Fastjson, utilisé dans des applications Spring Boot, sans patch disponible.
+### [Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)](https://isc.sans.edu/diary/rss/33184)
+**Source :** SANS ISC  **Publié :** 26/07/2026 15:26 UTC
+`breach` `vulnerability`
+ESAFENET CDG a été découvert précédemment avec des vulnérabilités de base comme l'injection SQL et les mots de passe par défaut.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
-**Source :** The Hacker News  **Publié :** 26/07/2026 00:18 UTC
+### [🏴‍☠️ Genesis has just published a new victim : JJP Slip Forming Inc.](https://www.ransomware.live/id/SkpQIFNsaXAgRm9ybWluZyBJbmMuQGdlbmVzaXM=)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 23:26 UTC
 `malware`
-La campagne malveillante SourTrade assemble le malware sur les appareils victimes à partir d'une base licitement utilisée, imitant des sites comme TradingView et Solana.
+Genesis cible un nouveau client, JJP Slip Forming Inc., opérant dans l'industrie des restaurants.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Advanced Marketing](https://www.ransomware.live/id/QWR2YW5jZWQgTWFya2V0aW5nQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 25/07/2026 18:05 UTC
+### [🏴‍☠️ Deadlock has just published a new victim : West African Resources ltd](https://www.ransomware.live/id/V2VzdCBBZnJpY2FuIFJlc291cmNlcyBsdGRARGVhZGxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:21 UTC
+`cve` `malware`
+Deadlock a identifié une nouvelle victime : West African Resources Ltd, une compagnie minière au Ghana.
+
+---
+
+### [🏴‍☠️ Deadlock has just published a new victim : Caspian One](https://www.ransomware.live/id/Q2FzcGlhbiBPbmVARGVhZGxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:20 UTC
 `malware`
-Advanced Marketing, une grande entreprise mexicaine de distribution de livres, a été victime d'une attaque cybernétique.
+Global secret group a frappé Prism Telecom pour analyser le trafic backbone et les vulnérabilités SS7 à travers trois continents.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : HİDROMEK](https://www.ransomware.live/id/SMSwRFJPTUVLQERlYWRsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:56 UTC
-`breach` `malware` `ransomware`
-HİDROMEK, un fabricant turc de matériel de construction lourd, a perdu des données sensibles importantes après une attaque.
+### [🏴‍☠️ Global secret group has just published a new victim : Prism Telecom](https://www.ransomware.live/id/UHJpc20gVGVsZWNvbUBHbG9iYWwgU2VjcmV0IEdyb3Vw)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:14 UTC
+`ransomware` `vulnerability`
+Backbone network traffic analysis and SS7 protocol vulnerability assessment across 3 continents.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : BioResearch](https://www.ransomware.live/id/QmlvUmVzZWFyY2hARGVhZGxvY2s=)
-**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:55 UTC
+### [🏴‍☠️ Global secret group has just published a new victim : Stratos Network](https://www.ransomware.live/id/U3RyYXRvcyBOZXR3b3JrQEdsb2JhbCBTZWNyZXQgR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:13 UTC
 `malware`
-BioResearch, une entreprise polonaise spécialisée dans les essais cliniques en stade initial, a été victime d'une cyberattaque.
+Stratos Network a été victime d'une analyse approfondie de la communication par satellite via 14 stations terrestres.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : CNA](https://www.ransomware.live/id/Q05BQERlYWRsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 25/07/2026 17:53 UTC
+### [🏴‍☠️ Global secret group has just published a new victim : OmniLink AG](https://www.ransomware.live/id/T21uaUxpbmsgQUdAR2xvYmFsIFNlY3JldCBHcm91cA==)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:13 UTC
 `malware`
-Des attaques de phishing sur l'assurance ont évolué vers le hijacking des comptes en temps réel, sans collecter d'abord les informations.
-
----
-
-### [CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
-**Source :** The Hacker News  **Publié :** 25/07/2026 15:44 UTC
-`breach` `malware` `phishing`
-CNA Toscana Centro, une association de commerce pour artisans et entreprises, a été victime d'une cyberattaque.
+Global secret group a mené une attaque sur OmniLink AG pour tester le pipeline et l'API des transactions financières.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Nova has just published a new victim : SistNet](https://www.ransomware.live/id/U2lzdE5ldEBub3Zh)
-**Source :** Ransomware.live News  **Publié :** 25/07/2026 09:27 UTC  **Score :** 20
+### 1. [🏴‍☠️ Anubis has just published a new victim : Eagle Crest Communities](https://www.ransomware.live/id/RWFnbGUgQ3Jlc3QgQ29tbXVuaXRpZXNAYW51Ymlz)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:24 UTC  **Score :** 20
 `breach`
-Nova, un fournisseur de solutions en technologies de l'information, a été victime d'une attaque.
+Anubis a frappé Eagle Crest Communities, entraînant une fuite de données patient et employé dans un service d'assistance pour personnes âgées.
 
-### 2. [Steam forum ClickFix attacks infect gamers with XMRig cryptominers](https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/)
-**Source :** Bleeping Computer  **Publié :** 25/07/2026 18:37 UTC  **Score :** 5
-Les forums Steam sont utilisés pour des attaques ClickFix qui infectent les appareils avec des cryptomineurs XMRig.
+### 2. [🏴‍☠️ M3rx has just published a new victim : hydraulic-components.net](https://www.ransomware.live/id/aHlkcmF1bGljLWNvbXBvbmVudHMubmV0QG0zcng=)
+**Source :** Ransomware.live News  **Publié :** 26/07/2026 11:28 UTC  **Score :** 20
+`breach`
+M3rx a visé hydraulic-components.net, fournisseur de composants hydrauliques, affectant sa chaîne d'approvisionnement et son infrastructure.
 
-### 3. [OpenAI confirms ChatGPT is down worldwide](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/)
-**Source :** Bleeping Computer  **Publié :** 25/07/2026 05:31 UTC  **Score :** 5
-ChatGPT rencontre des problèmes de connectivité mondiaux, confirmés par OpenAI.
+### 3. [GitHub, PyPI add time-absed defenses against supply chain attacks](https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/)
+**Source :** Bleeping Computer  **Publié :** 26/07/2026 10:13 UTC  **Score :** 5
+GitHub et PyPI ont mis en place des mécanismes temporalierts pour protéger contre les attaques par chaîne de la supply chain.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-26.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-27.md`*
