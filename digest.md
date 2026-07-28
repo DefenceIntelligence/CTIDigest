@@ -1,79 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 27 juillet 2026
+# 🛡️ ARGOS CTI Digest — 28 juillet 2026
 
-> Généré le 27/07/2026 à 02:00 UTC  ·  66 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 28/07/2026 à 02:00 UTC  ·  72 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Scans for ESAFENET CDG 3 Document Management System Weak Logins, (Sun, Jul 26th)](https://isc.sans.edu/diary/rss/33184)
-**Source :** SANS ISC  **Publié :** 26/07/2026 15:26 UTC
-`breach` `vulnerability`
-ESAFENET CDG a été découvert précédemment avec des vulnérabilités de base comme l'injection SQL et les mots de passe par défaut.
+### [n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process](https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html)
+**Source :** The Hacker News  **Publié :** 27/07/2026 18:35 UTC  **CVE :** `CVE-2026-27577`
+`cve` `malware` `vulnerability`
+n8n a corrigé une vulnérabilité critique permettant l'exécution de commandes système par des éditeurs d'ajustements non authentifiés.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Genesis has just published a new victim : JJP Slip Forming Inc.](https://www.ransomware.live/id/SkpQIFNsaXAgRm9ybWluZyBJbmMuQGdlbmVzaXM=)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 23:26 UTC
-`malware`
-Genesis cible un nouveau client, JJP Slip Forming Inc., opérant dans l'industrie des restaurants.
-
----
-
-### [🏴‍☠️ Deadlock has just published a new victim : West African Resources ltd](https://www.ransomware.live/id/V2VzdCBBZnJpY2FuIFJlc291cmNlcyBsdGRARGVhZGxvY2s=)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:21 UTC
+### [Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption](https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html)
+**Source :** The Hacker News  **Publié :** 27/07/2026 22:46 UTC
 `cve` `malware`
-Deadlock a identifié une nouvelle victime : West African Resources Ltd, une compagnie minière au Ghana.
+Dysphoria, un botnet IoT, a intégré des services nommés basés sur la blockchain et des relais infectés après l'opération contre JackSkid.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : Caspian One](https://www.ransomware.live/id/Q2FzcGlhbiBPbmVARGVhZGxvY2s=)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:20 UTC
+### [Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw](https://thehackernews.com/2026/07/public-exploit-released-for-patched.html)
+**Source :** The Hacker News  **Publié :** 27/07/2026 20:10 UTC
+`cve` `malware` `vulnerability`
+Un exploit public a été révélé pour une faille de code exécution pré-autorisée dans vBulletin, non corrigée.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : paritaet-nrw.org](https://www.ransomware.live/id/cGFyaXRhZXQtbnJ3Lm9yZ0BzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 27/07/2026 19:02 UTC
 `malware`
-Global secret group a frappé Prism Telecom pour analyser le trafic backbone et les vulnérabilités SS7 à travers trois continents.
+Safepay a déclaré que paritaet-nrw.org est une nouvelle victime d'attaques malveillantes.
 
 ---
 
-### [🏴‍☠️ Global secret group has just published a new victim : Prism Telecom](https://www.ransomware.live/id/UHJpc20gVGVsZWNvbUBHbG9iYWwgU2VjcmV0IEdyb3Vw)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:14 UTC
-`ransomware` `vulnerability`
-Backbone network traffic analysis and SS7 protocol vulnerability assessment across 3 continents.
-
----
-
-### [🏴‍☠️ Global secret group has just published a new victim : Stratos Network](https://www.ransomware.live/id/U3RyYXRvcyBOZXR3b3JrQEdsb2JhbCBTZWNyZXQgR3JvdXA=)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:13 UTC
+### [🏴‍☠️ Safepay has just published a new victim : bnpdist.com](https://www.ransomware.live/id/Ym5wZGlzdC5jb21Ac2FmZXBheQ==)
+**Source :** Ransomware.live News  **Publié :** 27/07/2026 18:59 UTC
 `malware`
-Stratos Network a été victime d'une analyse approfondie de la communication par satellite via 14 stations terrestres.
+Safepay a également annoncé que bnpdist.com est une autre victime récente de cyber-attaques.
 
 ---
 
-### [🏴‍☠️ Global secret group has just published a new victim : OmniLink AG](https://www.ransomware.live/id/T21uaUxpbmsgQUdAR2xvYmFsIFNlY3JldCBHcm91cA==)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 18:13 UTC
-`malware`
-Global secret group a mené une attaque sur OmniLink AG pour tester le pipeline et l'API des transactions financières.
+### [Arista patches VeloCloud Orchestrator zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 27/07/2026 18:49 UTC
+`cve` `malware` `vulnerability`
+Arista a corrigé une vulnérabilité critique en injection de commande dans son VeloCloud Orchestrator utilisé dans des attaques actives.
+
+---
+
+### [Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update](https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html)
+**Source :** The Hacker News  **Publié :** 27/07/2026 18:07 UTC
+`breach` `malware` `phishing`
+Une campagne de phishing utilisant Microsoft Teams a été découverte, distribuant des outils RMM frauduleux via un faux Microsoft Store.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Anubis has just published a new victim : Eagle Crest Communities](https://www.ransomware.live/id/RWFnbGUgQ3Jlc3QgQ29tbXVuaXRpZXNAYW51Ymlz)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 19:24 UTC  **Score :** 20
-`breach`
-Anubis a frappé Eagle Crest Communities, entraînant une fuite de données patient et employé dans un service d'assistance pour personnes âgées.
+### 1. [New Certighost PoC exploit lets attackers hijack Windows domains](https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/)
+**Source :** Bleeping Computer  **Publié :** 27/07/2026 17:00 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Un exploit PoC pour Certighost a été publié, permettant l'hijacking d'AD Windows par des attaques authentifiées.
 
-### 2. [🏴‍☠️ M3rx has just published a new victim : hydraulic-components.net](https://www.ransomware.live/id/aHlkcmF1bGljLWNvbXBvbmVudHMubmV0QG0zcng=)
-**Source :** Ransomware.live News  **Publié :** 26/07/2026 11:28 UTC  **Score :** 20
-`breach`
-M3rx a visé hydraulic-components.net, fournisseur de composants hydrauliques, affectant sa chaîne d'approvisionnement et son infrastructure.
+### 2. [Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis](https://therecord.media/telegram-belarus-activist-russia-cyberattack)
+**Source :** The Record  **Publié :** 27/07/2026 16:00 UTC  **Score :** 25
+`phishing`
+Une campagne de phishing Telegram visant activement des activistes biélorusses et des citoyens russes et kazakhstanais a été découvert.
 
-### 3. [GitHub, PyPI add time-absed defenses against supply chain attacks](https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/)
-**Source :** Bleeping Computer  **Publié :** 26/07/2026 10:13 UTC  **Score :** 5
-GitHub et PyPI ont mis en place des mécanismes temporalierts pour protéger contre les attaques par chaîne de la supply chain.
+### 3. [Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin](https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/)
+**Source :** Bleeping Computer  **Publié :** 27/07/2026 13:29 UTC  **Score :** 25
+`breach`
+Apple est poursuivi pour avoir permis l'installation d'une application crypto-monnaie frauduleuse via l'App Store, causant une perte de 1,8 million de Bitcoin.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-27.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-28.md`*
