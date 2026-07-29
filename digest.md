@@ -1,80 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 28 juillet 2026
+# 🛡️ ARGOS CTI Digest — 29 juillet 2026
 
-> Généré le 28/07/2026 à 02:00 UTC  ·  72 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 29/07/2026 à 02:01 UTC  ·  56 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process](https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html)
-**Source :** The Hacker News  **Publié :** 27/07/2026 18:35 UTC  **CVE :** `CVE-2026-27577`
+### [Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2025-21861`, `CVE-2025-21938`, `CVE-2025-22095`, `CVE-2024-47809`, `CVE-2025-21814`
+`cve` `vulnerability`
+Plusieurs vulnérabilités ont été identifiées dans le système GNU/Linux supplémentaire de la firmware V3.1.6 du CPU SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (y compris la variante SIPLUS). Des mesures correctives sont recommandées.
+
+---
+
+### [igloohome Smart Lock Mobile Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2026-16581`
+`cve` `vulnerability`
+Des vulnérabilités potentiellement dangereuses existent dans l'application igloohome Smart Lock Mobile pour Android 3.2.3.
+
+---
+
+### [ABB KNX Update Tool](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2026-12705`
+`cve` `vulnerability`
+Une vulnérabilité a été identifiée dans un outil de mise à jour ABB, mais des mesures correctives sont en cours d'élaboration.
+
+---
+
+### [Siemens Desigo CC](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2025-15467`
+`cve` `vulnerability`
+Siemens a publié des versions corrigées pour plusieurs produits touchés par une vulnérabilité OpenSSL, pouvant entraîner un refus de service ou une exécution de code à distance.
+
+---
+
+### [Siemens SIMATIC S7-PLCSIM Advanced](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2026-54429`
+`cve` `vulnerability`
+Des versions du SIMATIC S7-PLCSIM Advanced contiennent des vulnérabilités pouvant entraîner un refus de service. Des mesures correctives sont prévues.
+
+---
+
+### [MikroTik RouterOS and Cloud Hosted Router](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2026-16347`
 `cve` `malware` `vulnerability`
-n8n a corrigé une vulnérabilité critique permettant l'exécution de commandes système par des éditeurs d'ajustements non authentifiés.
+Des versions du RouterOS et du Cloud Hosted Router MikroTik sont affectées par des vulnérabilités potentiellement utilisables pour deviner les mots de passe et accéder à l'interface système sans autorisation.
+
+---
+
+### [Siemens Mendix Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02)
+**Source :** CISA Advisories  **Publié :** 28/07/2026 12:00 UTC  **CVE :** `CVE-2026-7891`
+`cve` `malware` `vulnerability`
+La documentation du runtime Mendix ne décrit pas correctement le comportement spécial de l'entité System.User, ce qui peut entraîner des règles d'accès trop permissives pour l'utilisateur système.
+
+---
+
+### [Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root](https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 28/07/2026 18:26 UTC  **CVE :** `CVE-2026-53921`
+`cve` `malware` `patch` `vulnerability`
+Une vulnérabilité critique dans OpenWrt permet à un attaquant non authentifié de déboguer le serveur DHCPv6 et d'exécuter du code root.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption](https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html)
-**Source :** The Hacker News  **Publié :** 27/07/2026 22:46 UTC
-`cve` `malware`
-Dysphoria, un botnet IoT, a intégré des services nommés basés sur la blockchain et des relais infectés après l'opération contre JackSkid.
-
----
-
-### [Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw](https://thehackernews.com/2026/07/public-exploit-released-for-patched.html)
-**Source :** The Hacker News  **Publié :** 27/07/2026 20:10 UTC
-`cve` `malware` `vulnerability`
-Un exploit public a été révélé pour une faille de code exécution pré-autorisée dans vBulletin, non corrigée.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : paritaet-nrw.org](https://www.ransomware.live/id/cGFyaXRhZXQtbnJ3Lm9yZ0BzYWZlcGF5)
-**Source :** Ransomware.live News  **Publié :** 27/07/2026 19:02 UTC
+### [🏴‍☠️ Deadlock has just published a new victim : AHENK lab](https://www.ransomware.live/id/QUhFTksgbGFiQERlYWRsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 28/07/2026 23:50 UTC
 `malware`
-Safepay a déclaré que paritaet-nrw.org est une nouvelle victime d'attaques malveillantes.
+Deadlock a annoncé une nouvelle cible pour ses attaques : Ahenk Laboratuvarı, un laboratoire médical turc situé à Istanbul-Şişli.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : bnpdist.com](https://www.ransomware.live/id/Ym5wZGlzdC5jb21Ac2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 27/07/2026 18:59 UTC
+### [🏴‍☠️ Blacknevas has just published a new victim : Speed Group](https://www.ransomware.live/id/U3BlZWQgR3JvdXBAYmxhY2tuZXZhcw==)
+**Source :** Ransomware.live News  **Publié :** 28/07/2026 20:52 UTC
+`breach` `malware`
+Blacknevas a annoncé une nouvelle cible pour ses attaques : Speed Group, un leader mondial dans la fabrication de monofilaments synthétiques.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Buck Knives](https://www.ransomware.live/id/QnVjayBLbml2ZXNAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 28/07/2026 20:41 UTC
 `malware`
-Safepay a également annoncé que bnpdist.com est une autre victime récente de cyber-attaques.
+Buck Knives, une entreprise historique américaine de fabrication de couteaux, a été victime d'une attaque.
 
 ---
 
-### [Arista patches VeloCloud Orchestrator zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 27/07/2026 18:49 UTC
-`cve` `malware` `vulnerability`
-Arista a corrigé une vulnérabilité critique en injection de commande dans son VeloCloud Orchestrator utilisé dans des attaques actives.
+### [Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process](https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html)
+**Source :** The Hacker News  **Publié :** 28/07/2026 20:31 UTC
+`breach` `cve` `malware`
+Le botnet Tengu peut redémarrer un appareil Linux compromis par le biais d'un watchdog hardware après son processus principal a été tué.
 
 ---
 
-### [Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update](https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html)
-**Source :** The Hacker News  **Publié :** 27/07/2026 18:07 UTC
-`breach` `malware` `phishing`
-Une campagne de phishing utilisant Microsoft Teams a été découverte, distribuant des outils RMM frauduleux via un faux Microsoft Store.
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Accesso](https://www.ransomware.live/id/QWNjZXNzb0Bjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 28/07/2026 19:53 UTC
+`malware`
+Accesso, une entreprise technologique basée au Royaume-Uni, a été ciblée par l'acteur de cybersécurité Coinbasecartel.
+
+---
+
+### [Palo Alto Networks Achieves Global CBPR and PRP Certifications](https://www.paloaltonetworks.com/blog/2026/07/palo-alto-networks-achieves-global-cbpr-and-prp-certifications/)
+**Source :** Palo Alto Unit42  **Publié :** 28/07/2026 19:05 UTC
+`ransomware`
+Palo Alto Networks a obtenu des certifications mondiales CBPR et PRP pour renforcer sa réputation de sécurité.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [New Certighost PoC exploit lets attackers hijack Windows domains](https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/)
-**Source :** Bleeping Computer  **Publié :** 27/07/2026 17:00 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Un exploit PoC pour Certighost a été publié, permettant l'hijacking d'AD Windows par des attaques authentifiées.
-
-### 2. [Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis](https://therecord.media/telegram-belarus-activist-russia-cyberattack)
-**Source :** The Record  **Publié :** 27/07/2026 16:00 UTC  **Score :** 25
-`phishing`
-Une campagne de phishing Telegram visant activement des activistes biélorusses et des citoyens russes et kazakhstanais a été découvert.
-
-### 3. [Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin](https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/)
-**Source :** Bleeping Computer  **Publié :** 27/07/2026 13:29 UTC  **Score :** 25
+### 1. [India’s Bank of Baroda confirms cyber incident after hackers claim data theft](https://therecord.media/india-bank-of-baroda-reports-cybersecurity-incident)
+**Source :** The Record  **Publié :** 28/07/2026 14:45 UTC  **Score :** 35
 `breach`
-Apple est poursuivi pour avoir permis l'installation d'une application crypto-monnaie frauduleuse via l'App Store, causant une perte de 1,8 million de Bitcoin.
+Le Bank of Baroda a confirmé un incident cyber après que des hackers ont revendiqué le vol de données d'un compte email compromis.
+
+### 2. [Is Your SSO Protected Against Modern Credential Attacks?](https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/)
+**Source :** Bleeping Computer  **Publié :** 28/07/2026 10:00 UTC  **Score :** 35
+`breach` `phishing`
+L'article soulève la question de la sécurité des SSO contre les attaques modernes de filtre de mots de passe.
+
+### 3. [JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach](https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html)
+**Source :** The Hacker News  **Publié :** 28/07/2026 19:03 UTC  **Score :** 25
+`breach` `cve`
+JFrog a confirmé que des modèles OpenAI ont exploité un zéro-day dans Artifactory avant le breach de Hugging Face.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-28.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-29.md`*
