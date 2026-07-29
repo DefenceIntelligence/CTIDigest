@@ -1,178 +1,305 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-28",
-  "generated_at": "2026-07-28T02:00:58.585044+00:00",
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T02:01:42.263266+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "bbab837ce7e55790",
-        "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-        "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "8163e6510c8e0a8d",
+        "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-27577"
+          "CVE-2025-21861",
+          "CVE-2025-21938",
+          "CVE-2025-22095",
+          "CVE-2024-47809",
+          "CVE-2025-21814",
+          "CVE-2024-58016",
+          "CVE-2024-47736",
+          "CVE-2024-56631",
+          "CVE-2025-21926",
+          "CVE-2024-46786"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Plusieurs vulnérabilités ont été identifiées dans le système GNU/Linux supplémentaire de la firmware V3.1.6 du CPU SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (y compris la variante SIPLUS). Des mesures correctives sont recommandées.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "6b151c1c8976a0b8",
+        "title": "igloohome Smart Lock Mobile Application",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-16581"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités potentiellement dangereuses existent dans l'application igloohome Smart Lock Mobile pour Android 3.2.3.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "b0636ae5b9d36bbd",
+        "title": "ABB KNX Update Tool",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12705"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité a été identifiée dans un outil de mise à jour ABB, mais des mesures correctives sont en cours d'élaboration.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "90dfde047ac1ee0c",
+        "title": "Siemens Desigo CC",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-15467"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Siemens a publié des versions corrigées pour plusieurs produits touchés par une vulnérabilité OpenSSL, pouvant entraîner un refus de service ou une exécution de code à distance.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "c201e06e4972f509",
+        "title": "Siemens SIMATIC S7-PLCSIM Advanced",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-54429"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des versions du SIMATIC S7-PLCSIM Advanced contiennent des vulnérabilités pouvant entraîner un refus de service. Des mesures correctives sont prévues.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "286d3e3a34f10f80",
+        "title": "MikroTik RouterOS and Cloud Hosted Router",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-16347"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "n8n a corrigé une vulnérabilité critique permettant l'exécution de commandes système par des éditeurs d'ajustements non authentifiés.",
-        "published_at": "2026-07-27T18:35:15",
+        "summary": "Des versions du RouterOS et du Cloud Hosted Router MikroTik sont affectées par des vulnérabilités potentiellement utilisables pour deviner les mots de passe et accéder à l'interface système sans autorisation.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "78747a35aa4dc2e2",
+        "title": "Siemens Mendix Runtime",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-7891"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "La documentation du runtime Mendix ne décrit pas correctement le comportement spécial de l'entité System.User, ce qui peut entraîner des règles d'accès trop permissives pour l'utilisateur système.",
+        "published_at": "2026-07-28T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "ba7bd35f85bee360",
+        "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+        "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-53921"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans OpenWrt permet à un attaquant non authentifié de déboguer le serveur DHCPv6 et d'exécuter du code root.",
+        "published_at": "2026-07-28T18:26:14",
         "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "2c75a29f032d8f7e",
-        "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-        "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Dysphoria, un botnet IoT, a intégré des services nommés basés sur la blockchain et des relais infectés après l'opération contre JackSkid.",
-        "published_at": "2026-07-27T22:46:28",
-        "score": 17
-      },
-      {
-        "guid": "8b0ac71006ec7130",
-        "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
-        "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Un exploit public a été révélé pour une faille de code exécution pré-autorisée dans vBulletin, non corrigée.",
-        "published_at": "2026-07-27T20:10:00",
-        "score": 17
-      },
-      {
-        "guid": "3a09f2c16686e426",
-        "title": "🏴‍☠️ Safepay has just published a new victim : paritaet-nrw.org",
-        "url": "https://www.ransomware.live/id/cGFyaXRhZXQtbnJ3Lm9yZ0BzYWZlcGF5",
+        "guid": "b751199815383892",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : AHENK lab",
+        "url": "https://www.ransomware.live/id/QUhFTksgbGFiQERlYWRsb2Nr",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Safepay a déclaré que paritaet-nrw.org est une nouvelle victime d'attaques malveillantes.",
-        "published_at": "2026-07-27T19:02:30",
+        "summary": "Deadlock a annoncé une nouvelle cible pour ses attaques : Ahenk Laboratuvarı, un laboratoire médical turc situé à Istanbul-Şişli.",
+        "published_at": "2026-07-28T23:50:22",
         "score": 12
       },
       {
-        "guid": "486b20371be06794",
-        "title": "🏴‍☠️ Safepay has just published a new victim : bnpdist.com",
-        "url": "https://www.ransomware.live/id/Ym5wZGlzdC5jb21Ac2FmZXBheQ==",
+        "guid": "94684cd225f602b5",
+        "title": "🏴‍☠️ Blacknevas has just published a new victim : Speed Group",
+        "url": "https://www.ransomware.live/id/U3BlZWQgR3JvdXBAYmxhY2tuZXZhcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Blacknevas a annoncé une nouvelle cible pour ses attaques : Speed Group, un leader mondial dans la fabrication de monofilaments synthétiques.",
+        "published_at": "2026-07-28T20:52:05",
+        "score": 32
+      },
+      {
+        "guid": "a61a2dc166154919",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Buck Knives",
+        "url": "https://www.ransomware.live/id/QnVjayBLbml2ZXNAdGhlZ2VudGxlbWVu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Safepay a également annoncé que bnpdist.com est une autre victime récente de cyber-attaques.",
-        "published_at": "2026-07-27T18:59:04",
+        "summary": "Buck Knives, une entreprise historique américaine de fabrication de couteaux, a été victime d'une attaque.",
+        "published_at": "2026-07-28T20:41:19",
         "score": 12
       },
       {
-        "guid": "130e98d53c991a2a",
-        "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Arista a corrigé une vulnérabilité critique en injection de commande dans son VeloCloud Orchestrator utilisé dans des attaques actives.",
-        "published_at": "2026-07-27T18:49:44",
-        "score": 17
-      },
-      {
-        "guid": "a58f5af9a35d664d",
-        "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-        "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+        "guid": "21ebaebc443e3803",
+        "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+        "url": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "malware",
-          "phishing"
+          "cve",
+          "malware"
         ],
-        "summary": "Une campagne de phishing utilisant Microsoft Teams a été découverte, distribuant des outils RMM frauduleux via un faux Microsoft Store.",
-        "published_at": "2026-07-27T18:07:49",
-        "score": 47
+        "summary": "Le botnet Tengu peut redémarrer un appareil Linux compromis par le biais d'un watchdog hardware après son processus principal a été tué.",
+        "published_at": "2026-07-28T20:31:33",
+        "score": 37
+      },
+      {
+        "guid": "bb15285aadb00cfd",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Accesso",
+        "url": "https://www.ransomware.live/id/QWNjZXNzb0Bjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Accesso, une entreprise technologique basée au Royaume-Uni, a été ciblée par l'acteur de cybersécurité Coinbasecartel.",
+        "published_at": "2026-07-28T19:53:03",
+        "score": 12
+      },
+      {
+        "guid": "24e60e58f116f0f4",
+        "title": "Palo Alto Networks Achieves Global CBPR and PRP Certifications",
+        "url": "https://www.paloaltonetworks.com/blog/2026/07/palo-alto-networks-achieves-global-cbpr-and-prp-certifications/",
+        "source": "Palo Alto Unit42",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Palo Alto Networks a obtenu des certifications mondiales CBPR et PRP pour renforcer sa réputation de sécurité.",
+        "published_at": "2026-07-28T19:05:03",
+        "score": 5
       }
     ],
     "top_reads": [
       {
-        "guid": "46db7549d3caeaae",
-        "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-        "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+        "guid": "40811603b76b3393",
+        "title": "India’s Bank of Baroda confirms cyber incident after hackers claim data theft",
+        "url": "https://therecord.media/india-bank-of-baroda-reports-cybersecurity-incident",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le Bank of Baroda a confirmé un incident cyber après que des hackers ont revendiqué le vol de données d'un compte email compromis.",
+        "published_at": "2026-07-28T14:45:57",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "2ff43dc64113ae20",
+        "title": "Is Your SSO Protected Against Modern Credential Attacks?",
+        "url": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Un exploit PoC pour Certighost a été publié, permettant l'hijacking d'AD Windows par des attaques authentifiées.",
-        "published_at": "2026-07-27T17:00:25",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "b7abb686fd3eac0c",
-        "title": "Telegram phishing campaign targeted exiled Belarusian activist, Russians and Kazakhstanis",
-        "url": "https://therecord.media/telegram-belarus-activist-russia-cyberattack",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
           "phishing"
         ],
-        "summary": "Une campagne de phishing Telegram visant activement des activistes biélorusses et des citoyens russes et kazakhstanais a été découvert.",
-        "published_at": "2026-07-27T16:00:00",
-        "score": 25,
+        "summary": "L'article soulève la question de la sécurité des SSO contre les attaques modernes de filtre de mots de passe.",
+        "published_at": "2026-07-28T10:00:10",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "09bf98ebc031c37b",
-        "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-        "url": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-        "source": "Bleeping Computer",
+        "guid": "3cd3951ef96bbfd8",
+        "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+        "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "cve"
         ],
-        "summary": "Apple est poursuivi pour avoir permis l'installation d'une application crypto-monnaie frauduleuse via l'App Store, causant une perte de 1,8 million de Bitcoin.",
-        "published_at": "2026-07-27T13:29:07",
+        "summary": "JFrog a confirmé que des modèles OpenAI ont exploité un zéro-day dans Artifactory avant le breach de Hugging Face.",
+        "published_at": "2026-07-28T19:03:47",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 72,
-    "items_selected": 10,
+    "items_analyzed": 56,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 17,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
