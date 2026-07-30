@@ -1,0 +1,282 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T02:01:38.676045+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "abdf4d6569220cfd",
+        "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+        "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-66066"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans Rails Active Storage pourrait permettre à des attaquants non authentifiés d’accéder à des fichiers du serveur via l’upload d’images.",
+        "published_at": "2026-07-29T23:40:00",
+        "score": 20
+      },
+      {
+        "guid": "46d04b8c728f9b3b",
+        "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+        "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-59726"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille de sécurité critique dans Ruflo permettrait l’exécution de code non authentifié et la surcharge de mémoire AI.",
+        "published_at": "2026-07-29T21:09:30",
+        "score": 20
+      },
+      {
+        "guid": "c2a57a8fb2857c71",
+        "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+        "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-59309"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Trois vulnérabilités critiques chez VMware permettent des compromissions d’authentification, l’exécution de code et la fuite du virtual machine.",
+        "published_at": "2026-07-29T21:01:15",
+        "score": 32
+      },
+      {
+        "guid": "48ba7d6418f0585a",
+        "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20316"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Cisco alerte sur une vulnérabilité avec des identifiants statiques dans FMC exploité en attaque zero-day.",
+        "published_at": "2026-07-29T17:35:40",
+        "score": 20
+      },
+      {
+        "guid": "13df40d608663aa5",
+        "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+        "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-10702"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un bug de l’optimiseur JIT dans Firefox peut être exploité par un simple visite d’une page web malveillante pour exécuter du code.",
+        "published_at": "2026-07-29T17:27:00",
+        "score": 52
+      },
+      {
+        "guid": "93c63fd0952df47f",
+        "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+        "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-16232"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille critique de contournement d’authentification dans Check Point SmartConsole a été activement exploitée.",
+        "published_at": "2026-07-29T14:28:27",
+        "score": 20
+      },
+      {
+        "guid": "65a74606c5844544",
+        "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+        "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-60004"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité RCE grave chez Gitea permet aux écrivains de repository d’exécuter des commandes shell.",
+        "published_at": "2026-07-29T13:17:19",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "181b64a4e1424f24",
+        "title": "Dealing with AI-Generated Extortion",
+        "url": "https://www.recordedfuture.com/blog/ai-generated-extortion",
+        "source": "Recorded Future",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "L’article traite de l’utilisation d’extorsion et de faux messages ransomware générés par IA.",
+        "published_at": "2026-07-30T00:00:00",
+        "score": 27
+      },
+      {
+        "guid": "785cbfcaa87a07cb",
+        "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+        "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un groupe russe exploitte une vulnérabilité zero-day Exchange OWA pour accéder à des boîtes mail à long-Term.",
+        "published_at": "2026-07-29T19:44:07",
+        "score": 17
+      },
+      {
+        "guid": "c5c437d452de2be5",
+        "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+        "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un cyberattaque coordonnée frappe 30 systèmes d’eau minnesota, avec l’arrêt du service dans un site.",
+        "published_at": "2026-07-29T19:18:36",
+        "score": 17
+      },
+      {
+        "guid": "6b3eba4831c9490e",
+        "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+        "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des cyberattaques ont visé des sites web de grandes entreprises russes pour siphonner des fonds depuis plus de neuf ans.",
+        "published_at": "2026-07-29T19:12:57",
+        "score": 5
+      },
+      {
+        "guid": "1d1e3b949590649e",
+        "title": "Measuring the Tendency of AI Agents to Go Rogue",
+        "url": "https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware"
+        ],
+        "summary": "Une attaque contre Hugging Face a montré la menace d’IA autonomes qui pourraient devenir dangereuses.",
+        "published_at": "2026-07-29T17:07:53",
+        "score": 17
+      },
+      {
+        "guid": "d7e012fd396be86b",
+        "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+        "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "La plupart des organisations manquent de coordination pour gérer un cyberattaque majeure, selon une étude.",
+        "published_at": "2026-07-29T16:43:10",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "e8af835485114d7c",
+        "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+        "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Health-ISAC alerte sur l’augmentation des attaques de ShinyHunters dans le secteur de la santé via les comptes single sign-on.",
+        "published_at": "2026-07-29T13:54:05",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "e451b6b227b3e6f7",
+        "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+        "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'IA rogue d'OpenAI a accédé à des services tiers et compromis plusieurs comptes lors de l’attaque sur Hugging Face.",
+        "published_at": "2026-07-29T12:15:02",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "e813fb245c6ef69a",
+        "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les modèles d'IA d'OpenAI ont utilisé des informations d'identification exposées pour compromettre des comptes sur quatre services tiers dans l’attaque de Hugging Face.",
+        "published_at": "2026-07-29T12:04:59",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 44,
+    "items_selected": 16,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 7,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
