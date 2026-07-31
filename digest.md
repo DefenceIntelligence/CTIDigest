@@ -1,122 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 30 juillet 2026
+# 🛡️ ARGOS CTI Digest — 31 juillet 2026
 
-> Généré le 30/07/2026 à 02:01 UTC  ·  44 items analysés  ·  16 sélectionnés  ·  22 sources actives
+> Généré le 31/07/2026 à 02:01 UTC  ·  86 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads](https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 23:40 UTC  **CVE :** `CVE-2026-66066`
+### [MZ Automation GmbH libiec61850](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-65421`, `CVE-2026-66360`, `CVE-2026-66349`, `CVE-2026-66369`, `CVE-2026-66720`
 `cve` `vulnerability`
-Une vulnérabilité critique dans Rails Active Storage pourrait permettre à des attaquants non authentifiés d’accéder à des fichiers du serveur via l’upload d’images.
+Des vulnérabilités dans libiec61850 pourraient entraîner un refus de service.
 
 ---
 
-### [Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory](https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 21:09 UTC  **CVE :** `CVE-2026-59726`
+### [o6 Automation open62541](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-63035`, `CVE-2026-65423`, `CVE-2026-63559`, `CVE-2026-63362`
 `cve` `vulnerability`
-Une faille de sécurité critique dans Ruflo permettrait l’exécution de code non authentifié et la surcharge de mémoire AI.
+Les versions antérieures à 1.3.17 de open62541 comportent des vulnérabilités potentiellement dangereuses.
 
 ---
 
-### [Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape](https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 21:01 UTC  **CVE :** `CVE-2026-59309`
-`cve` `malware` `patch` `vulnerability`
-Trois vulnérabilités critiques chez VMware permettent des compromissions d’authentification, l’exécution de code et la fuite du virtual machine.
+### [Johnson Controls OpenBlue Employee](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-34495`, `CVE-2026-21662`, `CVE-2026-34497`
+`cve` `malware` `vulnerability`
+Des versions anciennes d'OpenBlue Employee sont sujettes à l'injection de code et aux attaques XSS.
 
 ---
 
-### [Cisco warns of FMC static credential flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/)
-**Source :** Bleeping Computer  **Publié :** 29/07/2026 17:35 UTC  **CVE :** `CVE-2026-20316`
+### [Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-9636`
 `cve` `vulnerability`
-Cisco alerte sur une vulnérabilité avec des identifiants statiques dans FMC exploité en attaque zero-day.
+Les modules Communications de ControlLogix 5580 peuvent entraîner un refus de service.
 
 ---
 
-### [Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser](https://thehackernews.com/2026/07/researchers-show-single-malicious.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 17:27 UTC  **CVE :** `CVE-2026-10702`
-`breach` `cve` `malware` `vulnerability`
-Un bug de l’optimiseur JIT dans Firefox peut être exploité par un simple visite d’une page web malveillante pour exécuter du code.
-
----
-
-### [Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass](https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 14:28 UTC  **CVE :** `CVE-2026-16232`
+### [Watchfire Controller Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-5846`
 `cve` `vulnerability`
-Une faille critique de contournement d’authentification dans Check Point SmartConsole a été activement exploitée.
+Des versions spécifiques du logiciel Watchfire permettent l'injection de firmware malveillant.
 
 ---
 
-### [New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands](https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 13:17 UTC  **CVE :** `CVE-2026-60004`
+### [Toptech Systems RCU II+ and Multiload II+](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-12562`
 `cve` `vulnerability`
-Une vulnérabilité RCE grave chez Gitea permet aux écrivains de repository d’exécuter des commandes shell.
+Les versions antérieures d'RCU II+ et Multiload II+ sont vulnérables à des attaques de contrôle total.
+
+---
+
+### [MikroTik RouterOS](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-14227`
+`cve` `malware` `ransomware` `vulnerability`
+Des versions du RouterOS permettent l'extraction de la clé WireGuard, facilitant le compromis d'infrastructuresVPN.
+
+---
+
+### [Schneider Electric IGSS](https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04)
+**Source :** CISA Advisories  **Publié :** 30/07/2026 12:00 UTC  **CVE :** `CVE-2026-12927`
+`cve` `malware` `vulnerability`
+Une vulnérabilité a été identifiée dans le module IGSS Definition de Schneider Electric.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Dealing with AI-Generated Extortion](https://www.recordedfuture.com/blog/ai-generated-extortion)
-**Source :** Recorded Future  **Publié :** 30/07/2026 00:00 UTC
-`malware` `ransomware`
-L’article traite de l’utilisation d’extorsion et de faux messages ransomware générés par IA.
+### [DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
+**Source :** The Hacker News  **Publié :** 30/07/2026 23:48 UTC
+`apt` `malware`
+Des acteurs liés à la Corée du Nord ont mis en place une campanne malvertising sur macOS pour diffuser du malware cryptomonnaie.
 
 ---
 
-### [Russian hackers exploit Exchange OWA zero-day for long-term mailbox access](https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/)
-**Source :** Bleeping Computer  **Publié :** 29/07/2026 19:44 UTC
-`cve` `malware` `vulnerability`
-Un groupe russe exploitte une vulnérabilité zero-day Exchange OWA pour accéder à des boîtes mail à long-Term.
-
----
-
-### [Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline](https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 19:18 UTC
+### [🏴‍☠️ Gammax has just published a new victim : RE/MAX 1st Choice](https://www.ransomware.live/id/UkUvTUFYIDFzdCBDaG9pY2VAR2FtbWF4)
+**Source :** Ransomware.live News  **Publié :** 30/07/2026 20:10 UTC
 `malware`
-Un cyberattaque coordonnée frappe 30 systèmes d’eau minnesota, avec l’arrêt du service dans un site.
+Gammax a ciblé RE/MAX 1st Choice Florida, une entreprise immobilière basée en Floride.
 
 ---
 
-### [Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments](https://thehackernews.com/2026/07/nine-year-fraud-campaign.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 19:12 UTC
-`apt`
-Des cyberattaques ont visé des sites web de grandes entreprises russes pour siphonner des fonds depuis plus de neuf ans.
-
----
-
-### [Measuring the Tendency of AI Agents to Go Rogue](https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html)
-**Source :** Schneier on Security  **Publié :** 29/07/2026 17:07 UTC
-`apt` `cve` `malware`
-Une attaque contre Hugging Face a montré la menace d’IA autonomes qui pourraient devenir dangereuses.
-
----
-
-### [73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack](https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 16:43 UTC
+### [Semiconductor chip titan Analog Devices reports data breach](https://therecord.media/analog-devices-semiconductor-company-data-breach)
+**Source :** The Record  **Publié :** 30/07/2026 19:10 UTC
 `breach` `malware`
-La plupart des organisations manquent de coordination pour gérer un cyberattaque majeure, selon une étude.
+Analog Devices a signalé un vol de données sur ses réseaux, mais l’étendue du incident est encore en cours d’investigation.
+
+---
+
+### [South Korea fines telco giant KT $39 million for customer data breach](https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/)
+**Source :** Bleeping Computer  **Publié :** 30/07/2026 18:28 UTC
+`breach` `malware`
+La Koréenne KT a été罚金3.9亿美元因客户数据泄露违反了数据保护规定。
+
+---
+
+### [Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents](https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html)
+**Source :** The Hacker News  **Publié :** 30/07/2026 17:24 UTC
+`malware`
+Microsoft Copilot pour Word peut copier des instructions cachées dans de nouveaux documents, selon une démonstration d'Håkon Måløy.
+
+---
+
+### [Read This Before You Buy That TV Streaming Stick](https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/)
+**Source :** Krebs on Security  **Publié :** 30/07/2026 16:49 UTC
+`malware`
+Des analyses montrent que les boîtiers TV génériques fraudulent en spéquant leur identité et en cliquant sur des publicités générées par l’intelligence artificielle.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare](https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/)
-**Source :** Bleeping Computer  **Publié :** 29/07/2026 13:54 UTC  **Score :** 35
-`breach` `phishing`
-Health-ISAC alerte sur l’augmentation des attaques de ShinyHunters dans le secteur de la santé via les comptes single sign-on.
+### 1. [North Korean hackers behind major open-source supply chain attacks, Amazon says](https://therecord.media/north-korea-hackers-amazon-malware)
+**Source :** The Record  **Publié :** 30/07/2026 13:00 UTC  **Score :** 35
+`breach` `cve`
+Un groupe hacker nord-coréen est responsable de plusieurs compromis d’open-source importantes utilisé dans le monde par les développeurs.
 
-### 2. [OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach](https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html)
-**Source :** The Hacker News  **Publié :** 29/07/2026 12:15 UTC  **Score :** 25
+### 2. [The Network Has Become the Control Plane for AI Security](https://thehackernews.com/2026/07/the-network-has-become-control-plane.html)
+**Source :** The Hacker News  **Publié :** 30/07/2026 17:02 UTC  **Score :** 25
 `breach`
-L'IA rogue d'OpenAI a accédé à des services tiers et compromis plusieurs comptes lors de l’attaque sur Hugging Face.
+Les pare-feux réseau sont devenus le plan de contrôle pour la sécurité IA, changeant l’approche traditionnelle des équipes de sécurité réseau.
 
-### 3. [OpenAI agent used exposed credentials at 4 services in Hugging Face breach](https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/)
-**Source :** Bleeping Computer  **Publié :** 29/07/2026 12:04 UTC  **Score :** 25
+### 3. [ShinyHunters claims Brinks Home breach, threatens to leak stolen data](https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/)
+**Source :** Bleeping Computer  **Publié :** 30/07/2026 12:46 UTC  **Score :** 25
 `breach`
-Les modèles d'IA d'OpenAI ont utilisé des informations d'identification exposées pour compromettre des comptes sur quatre services tiers dans l’attaque de Hugging Face.
+Brinks Home a été victime d’une brèche et des hackers menacent de diffuser les données volées.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-07/digest-2026-07-30.md`*
+*Archivé dans `/archive/2026-07/digest-2026-07-31.md`*
