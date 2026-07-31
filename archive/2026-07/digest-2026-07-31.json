@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T02:01:26.333139+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e31d39e4594d8218",
+        "title": "MZ Automation GmbH libiec61850",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-65421",
+          "CVE-2026-66360",
+          "CVE-2026-66349",
+          "CVE-2026-66369",
+          "CVE-2026-66720",
+          "CVE-2026-63550",
+          "CVE-2026-56758",
+          "CVE-2026-66364"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans libiec61850 pourraient entraîner un refus de service.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "31e98e02f4dbdf36",
+        "title": "o6 Automation open62541",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-63035",
+          "CVE-2026-65423",
+          "CVE-2026-63559",
+          "CVE-2026-63362"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures à 1.3.17 de open62541 comportent des vulnérabilités potentiellement dangereuses.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "cea3e5d287378b84",
+        "title": "Johnson Controls OpenBlue Employee",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-34495",
+          "CVE-2026-21662",
+          "CVE-2026-34497"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des versions anciennes d'OpenBlue Employee sont sujettes à l'injection de code et aux attaques XSS.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "e7aa3cd315800132",
+        "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9636"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les modules Communications de ControlLogix 5580 peuvent entraîner un refus de service.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "5bdf90a25085494a",
+        "title": "Watchfire Controller Software",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-5846"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des versions spécifiques du logiciel Watchfire permettent l'injection de firmware malveillant.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "53ef8425faf8bcc9",
+        "title": "Toptech Systems RCU II+ and Multiload II+",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12562"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures d'RCU II+ et Multiload II+ sont vulnérables à des attaques de contrôle total.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "1ef8884b280a62c8",
+        "title": "MikroTik RouterOS",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-14227"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Des versions du RouterOS permettent l'extraction de la clé WireGuard, facilitant le compromis d'infrastructuresVPN.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "97fed1c2fc480625",
+        "title": "Schneider Electric IGSS",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-12927"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité a été identifiée dans le module IGSS Definition de Schneider Electric.",
+        "published_at": "2026-07-30T12:00:00",
+        "score": 27
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b4455761165e8c60",
+        "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+        "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des acteurs liés à la Corée du Nord ont mis en place une campanne malvertising sur macOS pour diffuser du malware cryptomonnaie.",
+        "published_at": "2026-07-30T23:48:24",
+        "score": 17
+      },
+      {
+        "guid": "1b808723ee7487f0",
+        "title": "🏴‍☠️ Gammax has just published a new victim : RE/MAX 1st Choice",
+        "url": "https://www.ransomware.live/id/UkUvTUFYIDFzdCBDaG9pY2VAR2FtbWF4",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Gammax a ciblé RE/MAX 1st Choice Florida, une entreprise immobilière basée en Floride.",
+        "published_at": "2026-07-30T20:10:52",
+        "score": 12
+      },
+      {
+        "guid": "b2c0a20dd607cd94",
+        "title": "Semiconductor chip titan Analog Devices reports data breach",
+        "url": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Analog Devices a signalé un vol de données sur ses réseaux, mais l’étendue du incident est encore en cours d’investigation.",
+        "published_at": "2026-07-30T19:10:00",
+        "score": 47
+      },
+      {
+        "guid": "f33dc113c175a5dc",
+        "title": "South Korea fines telco giant KT $39 million for customer data breach",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "La Koréenne KT a été罚金3.9亿美元因客户数据泄露违反了数据保护规定。",
+        "published_at": "2026-07-30T18:28:30",
+        "score": 37
+      },
+      {
+        "guid": "09e076226444d266",
+        "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+        "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Microsoft Copilot pour Word peut copier des instructions cachées dans de nouveaux documents, selon une démonstration d'Håkon Måløy.",
+        "published_at": "2026-07-30T17:24:49",
+        "score": 17
+      },
+      {
+        "guid": "c61dbd48f40aba77",
+        "title": "Read This Before You Buy That TV Streaming Stick",
+        "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des analyses montrent que les boîtiers TV génériques fraudulent en spéquant leur identité et en cliquant sur des publicités générées par l’intelligence artificielle.",
+        "published_at": "2026-07-30T16:49:00",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "925d8714c4893b9f",
+        "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
+        "url": "https://therecord.media/north-korea-hackers-amazon-malware",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Un groupe hacker nord-coréen est responsable de plusieurs compromis d’open-source importantes utilisé dans le monde par les développeurs.",
+        "published_at": "2026-07-30T13:00:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "fd45f697da46e024",
+        "title": "The Network Has Become the Control Plane for AI Security",
+        "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les pare-feux réseau sont devenus le plan de contrôle pour la sécurité IA, changeant l’approche traditionnelle des équipes de sécurité réseau.",
+        "published_at": "2026-07-30T17:02:46",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "82fb68673c6f3c42",
+        "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Brinks Home a été victime d’une brèche et des hackers menacent de diffuser les données volées.",
+        "published_at": "2026-07-30T12:46:15",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 86,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 20,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
