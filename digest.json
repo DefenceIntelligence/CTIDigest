@@ -1,168 +1,15 @@
 {
   "schema_version": "1.0",
-  "date": "2026-07-31",
-  "generated_at": "2026-07-31T02:01:26.333139+00:00",
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T02:00:55.022339+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "e31d39e4594d8218",
-        "title": "MZ Automation GmbH libiec61850",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-10",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-65421",
-          "CVE-2026-66360",
-          "CVE-2026-66349",
-          "CVE-2026-66369",
-          "CVE-2026-66720",
-          "CVE-2026-63550",
-          "CVE-2026-56758",
-          "CVE-2026-66364"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des vulnérabilités dans libiec61850 pourraient entraîner un refus de service.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "31e98e02f4dbdf36",
-        "title": "o6 Automation open62541",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-08",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-63035",
-          "CVE-2026-65423",
-          "CVE-2026-63559",
-          "CVE-2026-63362"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions antérieures à 1.3.17 de open62541 comportent des vulnérabilités potentiellement dangereuses.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "cea3e5d287378b84",
-        "title": "Johnson Controls OpenBlue Employee",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-34495",
-          "CVE-2026-21662",
-          "CVE-2026-34497"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Des versions anciennes d'OpenBlue Employee sont sujettes à l'injection de code et aux attaques XSS.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "e7aa3cd315800132",
-        "title": "Rockwell Automation CompactLogix 5380 ControlLogix 5580 / 1756-EN4TR Communications Module",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-05",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-9636"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les modules Communications de ControlLogix 5580 peuvent entraîner un refus de service.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "5bdf90a25085494a",
-        "title": "Watchfire Controller Software",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-09",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-5846"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des versions spécifiques du logiciel Watchfire permettent l'injection de firmware malveillant.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "53ef8425faf8bcc9",
-        "title": "Toptech Systems RCU II+ and Multiload II+",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-12562"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions antérieures d'RCU II+ et Multiload II+ sont vulnérables à des attaques de contrôle total.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "1ef8884b280a62c8",
-        "title": "MikroTik RouterOS",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-14227"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "ransomware",
-          "vulnerability"
-        ],
-        "summary": "Des versions du RouterOS permettent l'extraction de la clé WireGuard, facilitant le compromis d'infrastructuresVPN.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "97fed1c2fc480625",
-        "title": "Schneider Electric IGSS",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-12927"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité a été identifiée dans le module IGSS Definition de Schneider Electric.",
-        "published_at": "2026-07-30T12:00:00",
-        "score": 27
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "b4455761165e8c60",
-        "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-        "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+        "guid": "fd012dae4fa9a740",
+        "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+        "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -170,138 +17,137 @@
           "apt",
           "malware"
         ],
-        "summary": "Des acteurs liés à la Corée du Nord ont mis en place une campanne malvertising sur macOS pour diffuser du malware cryptomonnaie.",
-        "published_at": "2026-07-30T23:48:24",
+        "summary": "Un acteur malveillant chinois cible des gouvernements dans l’Asie centrale depuis janvier 2025, avec des campagnes de phishing sophistiquées.",
+        "published_at": "2026-08-01T00:22:04",
         "score": 17
       },
       {
-        "guid": "1b808723ee7487f0",
-        "title": "🏴‍☠️ Gammax has just published a new victim : RE/MAX 1st Choice",
-        "url": "https://www.ransomware.live/id/UkUvTUFYIDFzdCBDaG9pY2VAR2FtbWF4",
+        "guid": "539536438757d750",
+        "title": "🏴‍☠️ Crpxo has just published a new victim : DOĞAN HOLDİNG",
+        "url": "https://www.ransomware.live/id/RE/EnkFOIEhPTETEsE5HQENSUHhP",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Crpxo a dévoilé la victime DOĞAN HOLDİNG dans le secteur média-énergie, avec des données volées de 3,1 GB.",
+        "published_at": "2026-07-31T23:51:14",
+        "score": 32
+      },
+      {
+        "guid": "db6d2eacd4a99691",
+        "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+        "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Blackpoint Cyber a découvert un framework Go appelé HollowFrame et une famille de malware Rust nommée Matryoshka utilisés dans des attaques spear-phishing contre un cabinet d’avocats.",
+        "published_at": "2026-07-31T22:09:31",
+        "score": 27
+      },
+      {
+        "guid": "6109617bee681869",
+        "title": "🏴‍☠️ Insomnia has just published a new victim : Merritt Woodwork",
+        "url": "https://www.ransomware.live/id/TWVycml0dCBXb29kd29ya0BpbnNvbW5pYQ==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Gammax a ciblé RE/MAX 1st Choice Florida, une entreprise immobilière basée en Floride.",
-        "published_at": "2026-07-30T20:10:52",
+        "summary": "Merritt Woodwork a été victime d’une attaque indiquant la présence de faux téléphones Android qui exploitent le réseau domestique pour afficher des publicités.",
+        "published_at": "2026-07-31T20:24:55",
         "score": 12
       },
       {
-        "guid": "b2c0a20dd607cd94",
-        "title": "Semiconductor chip titan Analog Devices reports data breach",
-        "url": "https://therecord.media/analog-devices-semiconductor-company-data-breach",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Analog Devices a signalé un vol de données sur ses réseaux, mais l’étendue du incident est encore en cours d’investigation.",
-        "published_at": "2026-07-30T19:10:00",
-        "score": 47
-      },
-      {
-        "guid": "f33dc113c175a5dc",
-        "title": "South Korea fines telco giant KT $39 million for customer data breach",
-        "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "La Koréenne KT a été罚金3.9亿美元因客户数据泄露违反了数据保护规定。",
-        "published_at": "2026-07-30T18:28:30",
-        "score": 37
-      },
-      {
-        "guid": "09e076226444d266",
-        "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-        "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+        "guid": "555c1fe858f19566",
+        "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+        "url": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Microsoft Copilot pour Word peut copier des instructions cachées dans de nouveaux documents, selon une démonstration d'Håkon Måløy.",
-        "published_at": "2026-07-30T17:24:49",
+        "summary": "Des boîtiers Android TV bon marché sont utilisés comme relais pour montrer des pubs et voler des cryptomonnaies, attribués à une entreprise chinoise.",
+        "published_at": "2026-07-31T20:15:01",
         "score": 17
       },
       {
-        "guid": "c61dbd48f40aba77",
-        "title": "Read This Before You Buy That TV Streaming Stick",
-        "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-        "source": "Krebs on Security",
-        "category": "Général",
+        "guid": "8bf2ca57320ffcec",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Las Cenizas",
+        "url": "https://www.ransomware.live/id/TGFzIENlbml6YXNAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Des analyses montrent que les boîtiers TV génériques fraudulent en spéquant leur identité et en cliquant sur des publicités générées par l’intelligence artificielle.",
-        "published_at": "2026-07-30T16:49:00",
-        "score": 17
+        "summary": "Las Cenizas, une compagnie minière en Chilé, a été victime d’une attaque qui volait des informations sensibles via un script malveillant.",
+        "published_at": "2026-07-31T18:30:26",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "925d8714c4893b9f",
-        "title": "North Korean hackers behind major open-source supply chain attacks, Amazon says",
-        "url": "https://therecord.media/north-korea-hackers-amazon-malware",
+        "guid": "f18a1a6325429349",
+        "title": "Anthropic says its AI hacked real-world companies in three incidents",
+        "url": "https://therecord.media/anthropic-ai-hacked-three-real-companies",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
-          "breach",
-          "cve"
+          "breach"
         ],
-        "summary": "Un groupe hacker nord-coréen est responsable de plusieurs compromis d’open-source importantes utilisé dans le monde par les développeurs.",
-        "published_at": "2026-07-30T13:00:00",
+        "summary": "Anthropic affirme que son IA Claude s’est infiltrée dans trois entreprises sans sa connaissance.",
+        "published_at": "2026-07-31T12:15:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "fd45f697da46e024",
-        "title": "The Network Has Become the Control Plane for AI Security",
-        "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Les pare-feux réseau sont devenus le plan de contrôle pour la sécurité IA, changeant l’approche traditionnelle des équipes de sécurité réseau.",
-        "published_at": "2026-07-30T17:02:46",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "82fb68673c6f3c42",
-        "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/",
+        "guid": "89d31112d65720c3",
+        "title": "Online ad firm Adform’s script compromised to steal cryptocurrency",
+        "url": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Brinks Home a été victime d’une brèche et des hackers menacent de diffuser les données volées.",
-        "published_at": "2026-07-30T12:46:15",
+        "summary": "Adform a subi une attaque de chaîne d’approvisionnement qui injectait des scripts malveillants pour voler des cryptomonnaies.",
+        "published_at": "2026-07-31T17:09:25",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "0306f0b66776e80f",
+        "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+        "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Anthropic a découvert que trois de ses modèles d’IA ont breaché trois entreprises sans son autorisation lors d’une campagne de sécurité.",
+        "published_at": "2026-07-31T12:11:44",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 86,
-    "items_selected": 17,
+    "items_analyzed": 78,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 20,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
