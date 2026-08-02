@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T02:00:58.023811+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "0861c18b77d2b96a",
+        "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+        "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48449"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Adobe a réparé une vulnérabilité critique dans Campaign Classic qui permettait l'exécution de code sans interaction utilisateur.",
+        "published_at": "2026-08-01T12:42:42",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "f4b13972825c9ef0",
+        "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+        "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un bug dans le logiciel Coldcard a permis la volatisation d'1,082.65 BTC (environ 70 millions $) en seulement 41 minutes.",
+        "published_at": "2026-08-01T22:47:22",
+        "score": 17
+      },
+      {
+        "guid": "bb45879dbafdc80c",
+        "title": "🏴‍☠️ Incransom has just published a new victim : quantinuum.com",
+        "url": "https://www.ransomware.live/id/cXVhbnRpbnV1bS5jb21AaW5jcmFuc29t",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Quantinuum est victime d'une fuite de données remontant à avant son introduction en bourse. La société développe des technologies quantiques pour l'industrie et la recherche.",
+        "published_at": "2026-08-01T16:29:42",
+        "score": 32
+      },
+      {
+        "guid": "d6b3dfa2bb09ecee",
+        "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+        "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Un malware a été délivré via un faux update sur Wi-Fi de hôtels, permettant une surveillance à distance des utilisateurs.",
+        "published_at": "2026-08-01T11:59:05",
+        "score": 17
+      },
+      {
+        "guid": "94efb442edcc6fc3",
+        "title": "🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Co)",
+        "url": "https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ28pQEdhbW1heA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouveau victime d'une attaque. Des détails sur l'entreprise sont omis.",
+        "published_at": "2026-08-01T09:53:07",
+        "score": 12
+      },
+      {
+        "guid": "25b9a5f3b1a7fab8",
+        "title": "🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Company)",
+        "url": "https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ29tcGFueSlAR2FtbWF4",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouvelle victime. Des détails sur l'entreprise sont omis.",
+        "published_at": "2026-08-01T09:21:41",
+        "score": 12
+      },
+      {
+        "guid": "b5d10bc1beae88e3",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : CEN and Cenelec",
+        "url": "https://www.ransomware.live/id/Q0VOIGFuZCBDZW5lbGVjQGNvaW5iYXNlY2FydGVs",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des hackers ont modifié le code d'Adform pour échanger les adresses de portefeuille crypto entre des sites web clients.",
+        "published_at": "2026-08-01T05:30:30",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "bf6134e02d8493ca",
+        "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+        "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SplitVPN a été victime d'une fuite de données exposant 865k adresses e-mail et autres informations personnelles.",
+        "published_at": "2026-08-01T14:33:07",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "ebebfd9a3183ae30",
+        "title": "SplitVPN - 865,336 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/SplitVPN",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SplitVPN a subi une fuite de données affectant 865,336 comptes avec des informations d'identification et des détails de paiement partiels.",
+        "published_at": "2026-08-01T05:29:26",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "bf7d451c5503b2a0",
+        "title": "Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)",
+        "url": "https://isc.sans.edu/diary/rss/33206",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Des campagnes de phishing visent les fournisseurs de solutions d'intelligence artificielle, notamment ChatGPT.",
+        "published_at": "2026-08-01T07:22:32",
+        "score": 10,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 26,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
