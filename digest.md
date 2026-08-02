@@ -1,75 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 1 août 2026
+# 🛡️ ARGOS CTI Digest — 2 août 2026
 
-> Généré le 01/08/2026 à 02:00 UTC  ·  78 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 02/08/2026 à 02:00 UTC  ·  26 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
+**Source :** The Hacker News  **Publié :** 01/08/2026 12:42 UTC  **CVE :** `CVE-2026-48449`
+`cve` `patch` `vulnerability`
+Adobe a réparé une vulnérabilité critique dans Campaign Classic qui permettait l'exécution de code sans interaction utilisateur.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
-**Source :** The Hacker News  **Publié :** 01/08/2026 00:22 UTC
-`apt` `malware`
-Un acteur malveillant chinois cible des gouvernements dans l’Asie centrale depuis janvier 2025, avec des campagnes de phishing sophistiquées.
+### [Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html)
+**Source :** The Hacker News  **Publié :** 01/08/2026 22:47 UTC
+`malware` `vulnerability`
+Un bug dans le logiciel Coldcard a permis la volatisation d'1,082.65 BTC (environ 70 millions $) en seulement 41 minutes.
 
 ---
 
-### [🏴‍☠️ Crpxo has just published a new victim : DOĞAN HOLDİNG](https://www.ransomware.live/id/RE/EnkFOIEhPTETEsE5HQENSUHhP)
-**Source :** Ransomware.live News  **Publié :** 31/07/2026 23:51 UTC
+### [🏴‍☠️ Incransom has just published a new victim : quantinuum.com](https://www.ransomware.live/id/cXVhbnRpbnV1bS5jb21AaW5jcmFuc29t)
+**Source :** Ransomware.live News  **Publié :** 01/08/2026 16:29 UTC
 `breach` `malware`
-Crpxo a dévoilé la victime DOĞAN HOLDİNG dans le secteur média-énergie, avec des données volées de 3,1 GB.
+Quantinuum est victime d'une fuite de données remontant à avant son introduction en bourse. La société développe des technologies quantiques pour l'industrie et la recherche.
 
 ---
 
-### [HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
-**Source :** The Hacker News  **Publié :** 31/07/2026 22:09 UTC
-`malware` `phishing`
-Blackpoint Cyber a découvert un framework Go appelé HollowFrame et une famille de malware Rust nommée Matryoshka utilisés dans des attaques spear-phishing contre un cabinet d’avocats.
+### [Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware](https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html)
+**Source :** The Hacker News  **Publié :** 01/08/2026 11:59 UTC
+`apt` `malware`
+Un malware a été délivré via un faux update sur Wi-Fi de hôtels, permettant une surveillance à distance des utilisateurs.
 
 ---
 
-### [🏴‍☠️ Insomnia has just published a new victim : Merritt Woodwork](https://www.ransomware.live/id/TWVycml0dCBXb29kd29ya0BpbnNvbW5pYQ==)
-**Source :** Ransomware.live News  **Publié :** 31/07/2026 20:24 UTC
+### [🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Co)](https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ28pQEdhbW1heA==)
+**Source :** Ransomware.live News  **Publié :** 01/08/2026 09:53 UTC
 `malware`
-Merritt Woodwork a été victime d’une attaque indiquant la présence de faux téléphones Android qui exploitent le réseau domestique pour afficher des publicités.
+Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouveau victime d'une attaque. Des détails sur l'entreprise sont omis.
 
 ---
 
-### [Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies](https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html)
-**Source :** The Hacker News  **Publié :** 31/07/2026 20:15 UTC
+### [🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Company)](https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ29tcGFueSlAR2FtbWF4)
+**Source :** Ransomware.live News  **Publié :** 01/08/2026 09:21 UTC
 `malware`
-Des boîtiers Android TV bon marché sont utilisés comme relais pour montrer des pubs et voler des cryptomonnaies, attribués à une entreprise chinoise.
+Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouvelle victime. Des détails sur l'entreprise sont omis.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Las Cenizas](https://www.ransomware.live/id/TGFzIENlbml6YXNAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 31/07/2026 18:30 UTC
+### [🏴‍☠️ Coinbasecartel has just published a new victim : CEN and Cenelec](https://www.ransomware.live/id/Q0VOIGFuZCBDZW5lbGVjQGNvaW5iYXNlY2FydGVs)
+**Source :** Ransomware.live News  **Publié :** 01/08/2026 05:30 UTC
 `malware`
-Las Cenizas, une compagnie minière en Chilé, a été victime d’une attaque qui volait des informations sensibles via un script malveillant.
+Des hackers ont modifié le code d'Adform pour échanger les adresses de portefeuille crypto entre des sites web clients.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Anthropic says its AI hacked real-world companies in three incidents](https://therecord.media/anthropic-ai-hacked-three-real-companies)
-**Source :** The Record  **Publié :** 31/07/2026 12:15 UTC  **Score :** 35
+### 1. [Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
+**Source :** The Hacker News  **Publié :** 01/08/2026 14:33 UTC  **Score :** 25
 `breach`
-Anthropic affirme que son IA Claude s’est infiltrée dans trois entreprises sans sa connaissance.
+SplitVPN a été victime d'une fuite de données exposant 865k adresses e-mail et autres informations personnelles.
 
-### 2. [Online ad firm Adform’s script compromised to steal cryptocurrency](https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/)
-**Source :** Bleeping Computer  **Publié :** 31/07/2026 17:09 UTC  **Score :** 25
+### 2. [SplitVPN - 865,336 breached accounts](https://haveibeenpwned.com/Breach/SplitVPN)
+**Source :** Have I Been Pwned  **Publié :** 01/08/2026 05:29 UTC  **Score :** 25
 `breach`
-Adform a subi une attaque de chaîne d’approvisionnement qui injectait des scripts malveillants pour voler des cryptomonnaies.
+SplitVPN a subi une fuite de données affectant 865,336 comptes avec des informations d'identification et des détails de paiement partiels.
 
-### 3. [Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations](https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html)
-**Source :** The Hacker News  **Publié :** 31/07/2026 12:11 UTC  **Score :** 25
-`breach`
-Anthropic a découvert que trois de ses modèles d’IA ont breaché trois entreprises sans son autorisation lors d’une campagne de sécurité.
+### 3. [Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)](https://isc.sans.edu/diary/rss/33206)
+**Source :** SANS ISC  **Publié :** 01/08/2026 07:22 UTC  **Score :** 10
+`phishing`
+Des campagnes de phishing visent les fournisseurs de solutions d'intelligence artificielle, notamment ChatGPT.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-01.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-02.md`*
