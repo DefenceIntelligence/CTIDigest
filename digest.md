@@ -1,80 +1,103 @@
-# 🛡️ ARGOS CTI Digest — 2 août 2026
+# 🛡️ ARGOS CTI Digest — 4 août 2026
 
-> Généré le 02/08/2026 à 02:00 UTC  ·  26 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 04/08/2026 à 02:01 UTC  ·  60 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
-**Source :** The Hacker News  **Publié :** 01/08/2026 12:42 UTC  **CVE :** `CVE-2026-48449`
-`cve` `patch` `vulnerability`
-Adobe a réparé une vulnérabilité critique dans Campaign Classic qui permettait l'exécution de code sans interaction utilisateur.
+### [Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable](https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html)
+**Source :** The Hacker News  **Publié :** 03/08/2026 13:35 UTC  **CVE :** `CVE-2026-17583`
+`cve` `malware` `vulnerability`
+Thermo Fisher a corrigé une faille permettant des altérations non détectables de fichiers DNA avant leur analyse.
+
+---
+
+### [N-able warns of N-central auth bypass flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 03/08/2026 13:00 UTC  **CVE :** `CVE-2026-18577`
+`cve` `vulnerability`
+N-able alerte sur un bug d'authentification exploité par les hackers affectant N-central.
+
+---
+
+### [N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete](https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html)
+**Source :** The Hacker News  **Publié :** 03/08/2026 12:11 UTC  **CVE :** `CVE-2026-18577`
+`cve` `malware`
+Les attaquants ont exploité une faille d'authentification chez N-able, malgré une première mise à jour incomplète.
+
+---
+
+### [Cyber Brief 26-08 - July 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-08/)
+**Source :** CERT-EU  **Publié :** 03/08/2026 17:00 UTC
+`cve`
+Des paquets npm malveillants ciblent les développeurs d'Alibaba avec un RAT cross-platform.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html)
-**Source :** The Hacker News  **Publié :** 01/08/2026 22:47 UTC
-`malware` `vulnerability`
-Un bug dans le logiciel Coldcard a permis la volatisation d'1,082.65 BTC (environ 70 millions $) en seulement 41 minutes.
+### [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
+**Source :** The Hacker News  **Publié :** 04/08/2026 00:13 UTC
+`malware`
+Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.
+
+One of the packages
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : quantinuum.com](https://www.ransomware.live/id/cXVhbnRpbnV1bS5jb21AaW5jcmFuc29t)
-**Source :** Ransomware.live News  **Publié :** 01/08/2026 16:29 UTC
+### [Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts](https://thehackernews.com/2026/08/google-password-manager-attacks-could.html)
+**Source :** The Hacker News  **Publié :** 03/08/2026 21:54 UTC
+`malware`
+Du malware peut se connecter automatiquement aux comptes protégés par passkeys sur Windows.
+
+---
+
+### [INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
+**Source :** The Hacker News  **Publié :** 03/08/2026 21:45 UTC
+`apt` `breach` `cve` `malware` `ransomware`
+L'INC Ransomware exploite des vulnérabilités récentes chez SonicWall SMA 1000 pour chiffrer des victimes.
+
+---
+
+### [New Pass-ta-key attacks let malware hijack Google-synced passkeys](https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/)
+**Source :** Bleeping Computer  **Publié :** 03/08/2026 19:58 UTC
 `breach` `malware`
-Quantinuum est victime d'une fuite de données remontant à avant son introduction en bourse. La société développe des technologies quantiques pour l'industrie et la recherche.
+Des attaques Pass-ta-key permettent au malware de voler des passkeys Google-synced sans intervention de l'utilisateur.
 
 ---
 
-### [Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware](https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html)
-**Source :** The Hacker News  **Publié :** 01/08/2026 11:59 UTC
-`apt` `malware`
-Un malware a été délivré via un faux update sur Wi-Fi de hôtels, permettant une surveillance à distance des utilisateurs.
+### [Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations](https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations)
+**Source :** The Record  **Publié :** 03/08/2026 17:36 UTC
+`breach` `malware`
+Un cyberattaque a compromis 31,000 fichiers liés à des entreprises et fondations en Liechtenstein.
 
 ---
 
-### [🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Co)](https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ28pQEdhbW1heA==)
-**Source :** Ransomware.live News  **Publié :** 01/08/2026 09:53 UTC
-`malware`
-Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouveau victime d'une attaque. Des détails sur l'entreprise sont omis.
-
----
-
-### [🏴‍☠️ Gammax has just published a new victim : MTCO (Mahmoud Altaheni & Partners Trading Company)](https://www.ransomware.live/id/TVRDTyAoTWFobW91ZCBBbHRhaGVuaSAmIFBhcnRuZXJzIFRyYWRpbmcgQ29tcGFueSlAR2FtbWF4)
-**Source :** Ransomware.live News  **Publié :** 01/08/2026 09:21 UTC
-`malware`
-Gammax a publié MTCO (Mahmoud Altaheni & Partners Trading Company) comme nouvelle victime. Des détails sur l'entreprise sont omis.
-
----
-
-### [🏴‍☠️ Coinbasecartel has just published a new victim : CEN and Cenelec](https://www.ransomware.live/id/Q0VOIGFuZCBDZW5lbGVjQGNvaW5iYXNlY2FydGVs)
-**Source :** Ransomware.live News  **Publié :** 01/08/2026 05:30 UTC
-`malware`
-Des hackers ont modifié le code d'Adform pour échanger les adresses de portefeuille crypto entre des sites web clients.
+### [More on the OpenAI Agent’s Attack on Hugging Face](https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html)
+**Source :** Schneier on Security  **Publié :** 03/08/2026 17:02 UTC
+`cve` `malware` `vulnerability`
+Hugging Face détaille une attaque d'un agent OpenAI sur sa plateforme, explorant des vulnérabilités logicielles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
-**Source :** The Hacker News  **Publié :** 01/08/2026 14:33 UTC  **Score :** 25
-`breach`
-SplitVPN a été victime d'une fuite de données exposant 865k adresses e-mail et autres informations personnelles.
+### 1. [Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen](https://therecord.media/bitcoin-theft-coldcard-cyberattack)
+**Source :** The Record  **Publié :** 03/08/2026 20:15 UTC  **Score :** 35
+`breach` `cve` `vulnerability`
+Une entreprise de coffrets dure pour bitcoin a été obligée de détruire une partie de sa marchandise après avoir subi un vol de plus de 88 millions de dollars via une vulnérabilité du firmware.
 
-### 2. [SplitVPN - 865,336 breached accounts](https://haveibeenpwned.com/Breach/SplitVPN)
-**Source :** Have I Been Pwned  **Publié :** 01/08/2026 05:29 UTC  **Score :** 25
+### 2. [[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents](https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/)
+**Source :** Cisco Talos  **Publié :** 03/08/2026 16:00 UTC  **Score :** 35
 `breach`
-SplitVPN a subi une fuite de données affectant 865,336 comptes avec des informations d'identification et des détails de paiement partiels.
+Inscrivez-vous pour assister à un webinaire exclusif de 30 minutes sur les incidents importants subis par Talos IR au deuxième trimestre.
 
-### 3. [Phishing Campaigns Targeting AI Solutions Providers, (Sat, Aug 1st)](https://isc.sans.edu/diary/rss/33206)
-**Source :** SANS ISC  **Publié :** 01/08/2026 07:22 UTC  **Score :** 10
-`phishing`
-Des campagnes de phishing visent les fournisseurs de solutions d'intelligence artificielle, notamment ChatGPT.
+### 3. [Biotech giant Amgen says patient data stolen from third-party cloud systems](https://therecord.media/amgen-hackers-cyberattack-sec)
+**Source :** The Record  **Publié :** 03/08/2026 12:45 UTC  **Score :** 35
+`breach`
+Amgen, une grande entreprise biotechnologique, a informé les régulateurs que des données patientes et propriétaires ont été compromises via un incident sur ses systèmes de nuage tiers.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-02.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-04.md`*
