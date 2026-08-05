@@ -1,103 +1,108 @@
-# 🛡️ ARGOS CTI Digest — 4 août 2026
+# 🛡️ ARGOS CTI Digest — 5 août 2026
 
-> Généré le 04/08/2026 à 02:01 UTC  ·  60 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 05/08/2026 à 02:01 UTC  ·  72 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable](https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html)
-**Source :** The Hacker News  **Publié :** 03/08/2026 13:35 UTC  **CVE :** `CVE-2026-17583`
+### [CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises](https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html)
+**Source :** The Hacker News  **Publié :** 04/08/2026 12:30 UTC  **CVE :** `CVE-2026-18556`, `CVE-2026-18577`
+`breach` `cve` `vulnerability`
+CISA a ajouté une faille critique dans N-able N-central à son catalogue KEV après des rapports d’exploitation active.
+
+---
+
+### [Acrisure KARR BT and DR-100](https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01)
+**Source :** CISA Advisories  **Publié :** 04/08/2026 12:00 UTC  **CVE :** `CVE-2026-18411`
 `cve` `malware` `vulnerability`
-Thermo Fisher a corrigé une faille permettant des altérations non détectables de fichiers DNA avant leur analyse.
+Des versions obsolètes de Acrisure KARR BT et DR-100 sont vulnérables à des opérations non autorisées de contrôle de véhicule.
 
 ---
 
-### [N-able warns of N-central auth bypass flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 03/08/2026 13:00 UTC  **CVE :** `CVE-2026-18577`
-`cve` `vulnerability`
-N-able alerte sur un bug d'authentification exploité par les hackers affectant N-central.
+### [New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root](https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 04/08/2026 16:06 UTC  **CVE :** `CVE-2026-58048`
+`cve` `malware` `vulnerability`
+Une faille critique dans cPanel permettrait l’exécution d’SQL en contexte root de la base de données à un compte client authentifié.
 
 ---
 
-### [N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete](https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html)
-**Source :** The Hacker News  **Publié :** 03/08/2026 12:11 UTC  **CVE :** `CVE-2026-18577`
-`cve` `malware`
-Les attaquants ont exploité une faille d'authentification chez N-able, malgré une première mise à jour incomplète.
+### [Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)](https://isc.sans.edu/diary/rss/33214)
+**Source :** SANS ISC  **Publié :** 04/08/2026 12:46 UTC
+`cve` `malware` `vulnerability`
+Des sources cherchent des vulnérabilités dans des outils diagnostiques.
 
 ---
 
-### [Cyber Brief 26-08 - July 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-08/)
-**Source :** CERT-EU  **Publié :** 03/08/2026 17:00 UTC
-`cve`
-Des paquets npm malveillants ciblent les développeurs d'Alibaba avec un RAT cross-platform.
+### [Thermo Fisher Applied Biosystems Genetic Analyzers](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01)
+**Source :** CISA Advisories  **Publié :** 04/08/2026 12:00 UTC
+`cve` `malware` `vulnerability`
+La Thermo Fisher Applied Biosystems a identifié une faille qui permettrait la modification de fichiers DNA.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users](https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html)
-**Source :** The Hacker News  **Publié :** 04/08/2026 00:13 UTC
+### [🏴‍☠️ Blacknevas has just published a new victim : Arkın Group / Arkın Casino, The Arkın Colony, The Arkın Iskele, and Arkın Palm Beach](https://www.ransomware.live/id/QXJrxLFuIEdyb3VwIC8gQXJrxLFuIENhc2lubywgVGhlIEFya8SxbiBDb2xvbnksIFRoZSBBcmvEsW4gSXNrZWxlLCBhbmQgQXJrxLFuIFBhbG0gQmVhY2hAYmxhY2tuZXZhcw==)
+**Source :** Ransomware.live News  **Publié :** 04/08/2026 22:22 UTC
+`breach` `cve` `malware` `ransomware`
+L’Arkın Group, un groupe d’hôtels en Turquie, a subi une importante fuite de données.
+
+---
+
+### [OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud](https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption)
+**Source :** The Record  **Publié :** 04/08/2026 20:15 UTC
 `malware`
-Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.
-
-One of the packages
+OpenAI a découvert et bloqué des comptes utilisés pour des escroqueries en Inde par le biais de ChatGPT.
 
 ---
 
-### [Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts](https://thehackernews.com/2026/08/google-password-manager-attacks-could.html)
-**Source :** The Hacker News  **Publié :** 03/08/2026 21:54 UTC
+### [OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
+**Source :** Bleeping Computer  **Publié :** 04/08/2026 19:39 UTC
+`breach` `malware` `phishing`
+Les agents d’Anthropic ont été testés malgré eux dans une cyberattaque réelle.
+
+---
+
+### [Iran Cyberattacks Against Minnesota Water Systems](https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html)
+**Source :** Schneier on Security  **Publié :** 04/08/2026 19:00 UTC
 `malware`
-Du malware peut se connecter automatiquement aux comptes protégés par passkeys sur Windows.
+Des attaques cybers de l’Iran contre des systèmes d’eau du Minnesota seraient en cours d’enquête mais sans dommages actuels.
 
 ---
 
-### [INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws](https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html)
-**Source :** The Hacker News  **Publié :** 03/08/2026 21:45 UTC
-`apt` `breach` `cve` `malware` `ransomware`
-L'INC Ransomware exploite des vulnérabilités récentes chez SonicWall SMA 1000 pour chiffrer des victimes.
+### [🏴‍☠️ Incransom has just published a new victim : TRULITE GLASS & ALUMINUM SOLUTIONS](https://www.ransomware.live/id/VFJVTElURSBHTEFTUyAmIEFMVU1JTlVNIFNPTFVUSU9OU0BpbmNyYW5zb20=)
+**Source :** Ransomware.live News  **Publié :** 04/08/2026 17:57 UTC
+`breach` `cve` `malware`
+Trulite Glass & Aluminum Solutions est la nouvelle victime d’Incransom, un groupe de rançongiciels.
 
 ---
 
-### [New Pass-ta-key attacks let malware hijack Google-synced passkeys](https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/)
-**Source :** Bleeping Computer  **Publié :** 03/08/2026 19:58 UTC
-`breach` `malware`
-Des attaques Pass-ta-key permettent au malware de voler des passkeys Google-synced sans intervention de l'utilisateur.
-
----
-
-### [Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations](https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations)
-**Source :** The Record  **Publié :** 03/08/2026 17:36 UTC
-`breach` `malware`
-Un cyberattaque a compromis 31,000 fichiers liés à des entreprises et fondations en Liechtenstein.
-
----
-
-### [More on the OpenAI Agent’s Attack on Hugging Face](https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html)
-**Source :** Schneier on Security  **Publié :** 03/08/2026 17:02 UTC
-`cve` `malware` `vulnerability`
-Hugging Face détaille une attaque d'un agent OpenAI sur sa plateforme, explorant des vulnérabilités logicielles.
+### [When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted](https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html)
+**Source :** The Hacker News  **Publié :** 04/08/2026 17:00 UTC
+`apt`
+La cybersecurity a longtemps supposé que la capacité offensive évolue avec l'expertise technique. Cette supposition commence à se rompre, révélant l'apparition de nouvelles menaces moins qualifiées.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen](https://therecord.media/bitcoin-theft-coldcard-cyberattack)
-**Source :** The Record  **Publié :** 03/08/2026 20:15 UTC  **Score :** 35
+### 1. [Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected](https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities)
+**Source :** The Record  **Publié :** 04/08/2026 12:45 UTC  **Score :** 35
+`breach` `vulnerability`
+L'Office fédéral suisse BIT a détecté des anomalies sur ses serveurs Microsoft. Les détails exacts de l'intrusion et le mode d'accession aux 200 comptes compromis restent inconnus.
+
+### 2. [TP-Link patches Omada ZTP flaws allowing hackers to breach networks](https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/)
+**Source :** Bleeping Computer  **Publié :** 04/08/2026 18:18 UTC  **Score :** 25
 `breach` `cve` `vulnerability`
-Une entreprise de coffrets dure pour bitcoin a été obligée de détruire une partie de sa marchandise après avoir subi un vol de plus de 88 millions de dollars via une vulnérabilité du firmware.
+TP-Link a corrigé 15 vulnérabilités dans le protocole de provisionnement sans contact des appareils Omada, permettant potentiellement une exécution de code distant.
 
-### 2. [[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents](https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/)
-**Source :** Cisco Talos  **Publié :** 03/08/2026 16:00 UTC  **Score :** 35
-`breach`
-Inscrivez-vous pour assister à un webinaire exclusif de 30 minutes sur les incidents importants subis par Talos IR au deuxième trimestre.
-
-### 3. [Biotech giant Amgen says patient data stolen from third-party cloud systems](https://therecord.media/amgen-hackers-cyberattack-sec)
-**Source :** The Record  **Publié :** 03/08/2026 12:45 UTC  **Score :** 35
-`breach`
-Amgen, une grande entreprise biotechnologique, a informé les régulateurs que des données patientes et propriétaires ont été compromises via un incident sur ses systèmes de nuage tiers.
+### 3. [Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens](https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html)
+**Source :** The Hacker News  **Publié :** 04/08/2026 22:57 UTC  **Score :** 15
+`phishing`
+La PhaaS Greatness intègre désormais le phishing par code d'appareil pour contourner l'authentification multi-facteurs et voler des tokens utilisateur.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-04.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-05.md`*
