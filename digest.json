@@ -1,228 +1,248 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04T02:01:04.871120+00:00",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T02:01:19.316323+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "5c10003ebab11906",
-        "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable",
-        "url": "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html",
+        "guid": "9c79eb48c3eda20a",
+        "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+        "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-17583"
+          "CVE-2026-18556",
+          "CVE-2026-18577"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté une faille critique dans N-able N-central à son catalogue KEV après des rapports d’exploitation active.",
+        "published_at": "2026-08-04T12:30:13",
+        "score": 40
+      },
+      {
+        "guid": "796ab01f48531959",
+        "title": "Acrisure KARR BT and DR-100",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-18411"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Thermo Fisher a corrigé une faille permettant des altérations non détectables de fichiers DNA avant leur analyse.",
-        "published_at": "2026-08-03T13:35:30",
-        "score": 32
+        "summary": "Des versions obsolètes de Acrisure KARR BT et DR-100 sont vulnérables à des opérations non autorisées de contrôle de véhicule.",
+        "published_at": "2026-08-04T12:00:00",
+        "score": 27
       },
       {
-        "guid": "917d0fb833d4e65a",
-        "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-18577"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "N-able alerte sur un bug d'authentification exploité par les hackers affectant N-central.",
-        "published_at": "2026-08-03T13:00:56",
-        "score": 20
-      },
-      {
-        "guid": "554ab1b8308495fa",
-        "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-        "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+        "guid": "207511c935ccf397",
+        "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+        "url": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-18577"
+          "CVE-2026-58048"
         ],
         "tags": [
           "cve",
-          "malware"
+          "malware",
+          "vulnerability"
         ],
-        "summary": "Les attaquants ont exploité une faille d'authentification chez N-able, malgré une première mise à jour incomplète.",
-        "published_at": "2026-08-03T12:11:46",
+        "summary": "Une faille critique dans cPanel permettrait l’exécution d’SQL en contexte root de la base de données à un compte client authentifié.",
+        "published_at": "2026-08-04T16:06:27",
         "score": 32
       },
       {
-        "guid": "0aad397fe2a64b0b",
-        "title": "Cyber Brief 26-08 - July 2026",
-        "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-08/",
-        "source": "CERT-EU",
-        "category": "Officiel",
+        "guid": "9ac15d472c70a620",
+        "title": "Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)",
+        "url": "https://isc.sans.edu/diary/rss/33214",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
         "cve": [],
         "tags": [
-          "cve"
+          "cve",
+          "malware",
+          "vulnerability"
         ],
-        "summary": "Des paquets npm malveillants ciblent les développeurs d'Alibaba avec un RAT cross-platform.",
-        "published_at": "2026-08-03T17:00:00",
-        "score": 20
+        "summary": "Des sources cherchent des vulnérabilités dans des outils diagnostiques. ",
+        "published_at": "2026-08-04T12:46:19",
+        "score": 12
+      },
+      {
+        "guid": "8998100f0fc2baee",
+        "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "La Thermo Fisher Applied Biosystems a identifié une faille qui permettrait la modification de fichiers DNA.",
+        "published_at": "2026-08-04T12:00:00",
+        "score": 12
       }
     ],
     "campaigns": [
       {
-        "guid": "7c27d955bd537c8e",
-        "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-        "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "ddb3a796a88bdc1e",
+        "title": "🏴‍☠️ Blacknevas has just published a new victim : Arkın Group / Arkın Casino, The Arkın Colony, The Arkın Iskele, and Arkın Palm Beach",
+        "url": "https://www.ransomware.live/id/QXJrxLFuIEdyb3VwIC8gQXJrxLFuIENhc2lubywgVGhlIEFya8SxbiBDb2xvbnksIFRoZSBBcmvEsW4gSXNrZWxlLCBhbmQgQXJrxLFuIFBhbG0gQmVhY2hAYmxhY2tuZXZhcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
-        ],
-        "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments.\n\nOne of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
-        "published_at": "2026-08-04T00:13:53",
-        "score": 17
-      },
-      {
-        "guid": "6b9a143188ee7fd1",
-        "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-        "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Du malware peut se connecter automatiquement aux comptes protégés par passkeys sur Windows.",
-        "published_at": "2026-08-03T21:54:47",
-        "score": 17
-      },
-      {
-        "guid": "e60bf4abf990c97a",
-        "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-        "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
           "breach",
           "cve",
           "malware",
-          "ransomware",
-          "vulnerability"
+          "ransomware"
         ],
-        "summary": "L'INC Ransomware exploite des vulnérabilités récentes chez SonicWall SMA 1000 pour chiffrer des victimes.",
-        "published_at": "2026-08-03T21:45:13",
-        "score": 37
+        "summary": "L’Arkın Group, un groupe d’hôtels en Turquie, a subi une importante fuite de données. ",
+        "published_at": "2026-08-04T22:22:18",
+        "score": 32
       },
       {
-        "guid": "e9a4006898f198f3",
-        "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-        "url": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
+        "guid": "5b2d262d5020d1f4",
+        "title": "OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud",
+        "url": "https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "OpenAI a découvert et bloqué des comptes utilisés pour des escroqueries en Inde par le biais de ChatGPT.",
+        "published_at": "2026-08-04T20:15:00",
+        "score": 27
+      },
+      {
+        "guid": "40bc713000b87048",
+        "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "malware"
+          "malware",
+          "phishing"
         ],
-        "summary": "Des attaques Pass-ta-key permettent au malware de voler des passkeys Google-synced sans intervention de l'utilisateur.",
-        "published_at": "2026-08-03T19:58:01",
-        "score": 37
-      },
-      {
-        "guid": "57677d9430db592f",
-        "title": "Hackers steal 31,000 records identifying people behind Liechtenstein companies, foundations",
-        "url": "https://therecord.media/hackers-steal-records-liechtenstein-companies-foundations",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Un cyberattaque a compromis 31,000 fichiers liés à des entreprises et fondations en Liechtenstein.",
-        "published_at": "2026-08-03T17:36:00",
+        "summary": "Les agents d’Anthropic ont été testés malgré eux dans une cyberattaque réelle. ",
+        "published_at": "2026-08-04T19:39:59",
         "score": 47
       },
       {
-        "guid": "30cae8d8b4561eef",
-        "title": "More on the OpenAI Agent’s Attack on Hugging Face",
-        "url": "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
+        "guid": "caae5ae9b849e840",
+        "title": "Iran Cyberattacks Against Minnesota Water Systems",
+        "url": "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
         "source": "Schneier on Security",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Hugging Face détaille une attaque d'un agent OpenAI sur sa plateforme, explorant des vulnérabilités logicielles.",
-        "published_at": "2026-08-03T17:02:46",
+        "summary": "Des attaques cybers de l’Iran contre des systèmes d’eau du Minnesota seraient en cours d’enquête mais sans dommages actuels. ",
+        "published_at": "2026-08-04T19:00:53",
         "score": 17
+      },
+      {
+        "guid": "6dc7335dbdf250e3",
+        "title": "🏴‍☠️ Incransom has just published a new victim : TRULITE GLASS & ALUMINUM SOLUTIONS",
+        "url": "https://www.ransomware.live/id/VFJVTElURSBHTEFTUyAmIEFMVU1JTlVNIFNPTFVUSU9OU0BpbmNyYW5zb20=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Trulite Glass & Aluminum Solutions est la nouvelle victime d’Incransom, un groupe de rançongiciels.",
+        "published_at": "2026-08-04T17:57:04",
+        "score": 32
+      },
+      {
+        "guid": "0bc6826fed320bfc",
+        "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+        "url": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "La cybersecurity a longtemps supposé que la capacité offensive évolue avec l'expertise technique. Cette supposition commence à se rompre, révélant l'apparition de nouvelles menaces moins qualifiées.",
+        "published_at": "2026-08-04T17:00:00",
+        "score": 5
       }
     ],
     "top_reads": [
       {
-        "guid": "5a8841c64f9d1688",
-        "title": "Bitcoin hardware wallet maker destroys some inventory after more than $88 million stolen",
-        "url": "https://therecord.media/bitcoin-theft-coldcard-cyberattack",
+        "guid": "c01296c15c8462cc",
+        "title": "Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected",
+        "url": "https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities",
         "source": "The Record",
         "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "L'Office fédéral suisse BIT a détecté des anomalies sur ses serveurs Microsoft. Les détails exacts de l'intrusion et le mode d'accession aux 200 comptes compromis restent inconnus.",
+        "published_at": "2026-08-04T12:45:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d0626b1cc2ac921d",
+        "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
+        "url": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "cve",
           "vulnerability"
         ],
-        "summary": "Une entreprise de coffrets dure pour bitcoin a été obligée de détruire une partie de sa marchandise après avoir subi un vol de plus de 88 millions de dollars via une vulnérabilité du firmware.",
-        "published_at": "2026-08-03T20:15:00",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "706cffc43de0b743",
-        "title": "[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents",
-        "url": "https://blog.talosintelligence.com/webinar-tales-from-the-frontlines-an-exclusive-briefing-on-q2-incidents/",
-        "source": "Cisco Talos",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Inscrivez-vous pour assister à un webinaire exclusif de 30 minutes sur les incidents importants subis par Talos IR au deuxième trimestre.",
-        "published_at": "2026-08-03T16:00:12",
-        "score": 35,
+        "summary": "TP-Link a corrigé 15 vulnérabilités dans le protocole de provisionnement sans contact des appareils Omada, permettant potentiellement une exécution de code distant.",
+        "published_at": "2026-08-04T18:18:20",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "b16adff29872dac0",
-        "title": "Biotech giant Amgen says patient data stolen from third-party cloud systems",
-        "url": "https://therecord.media/amgen-hackers-cyberattack-sec",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "6eb3d9f5b9598dc7",
+        "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+        "url": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "phishing"
         ],
-        "summary": "Amgen, une grande entreprise biotechnologique, a informé les régulateurs que des données patientes et propriétaires ont été compromises via un incident sur ses systèmes de nuage tiers.",
-        "published_at": "2026-08-03T12:45:00",
-        "score": 35,
+        "summary": "La PhaaS Greatness intègre désormais le phishing par code d'appareil pour contourner l'authentification multi-facteurs et voler des tokens utilisateur.",
+        "published_at": "2026-08-04T22:57:39",
+        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 60,
-    "items_selected": 13,
+    "items_analyzed": 72,
+    "items_selected": 14,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 4,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
