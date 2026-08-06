@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T02:01:21.975262+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "37768d39aeb9d6cb",
+        "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+        "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-64531"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille de mémoire corrompue dans Open vSwitch du noyau Linux permet à des utilisateurs locaux ordinaires d'obtenir les droits root sur une large gamme de distributions par défaut, avec un exploit public disponible pour environ 800 builds de noyaux.",
+        "published_at": "2026-08-05T17:13:27",
+        "score": 20
+      },
+      {
+        "guid": "fea15aea69d7a2f8",
+        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-59774"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un attaquant non authentifié peut lire n'importe quel fichier accessible par le compte du service dans Gitea, versions 1.22.1 à 1.27.0, sans connexion ni accès de répertoire. La faille est réparée dans la version 1.27.1.",
+        "published_at": "2026-08-05T16:34:23",
+        "score": 32
+      },
+      {
+        "guid": "cc6b3a7af1e775d4",
+        "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+        "url": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-9198"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté trois vulnérabilités à sa liste de vulnérabilités exploitées activement : CVE-2026-9198, une injection de code dans Langflow permettant aux attaquants non authentifiés d'obtenir un contrôle total à distance.",
+        "published_at": "2026-08-05T13:10:39",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "f08eb8f819573a8f",
+        "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+        "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Plus de 250 domaines ClickFix utilisent la fingerprinting pour dissimuler une malware lure à macOS utilisateurs, masquant le contenu malveillant aux robots et sandboxing les visiteurs choisis.",
+        "published_at": "2026-08-06T00:14:31",
+        "score": 17
+      },
+      {
+        "guid": "d53511d9044ac9c3",
+        "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+        "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "OpenAI a interrompu une opération de fraude cambodgienne utilisant ChatGPT pour différents schémas d'escroquerie, en bannisant probablement des réseaux de comptes ChatGPT originaires du sud-est asiatique.",
+        "published_at": "2026-08-06T00:03:47",
+        "score": 17
+      },
+      {
+        "guid": "5d74c5f9f895c0f9",
+        "title": "🏴‍☠️ Panzer has just published a new victim : Surakarta University",
+        "url": "https://www.ransomware.live/id/U3VyYWthcnRhIFVuaXZlcnNpdHlAUGFuemVy",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Universitas Surakarta est une université technologique axée sur l'excellence, offrant des programmes d'études supérieures et professionnels pour développer des diplômés compétents et éthiques.",
+        "published_at": "2026-08-05T21:29:31",
+        "score": 12
+      },
+      {
+        "guid": "83e5630339d6b004",
+        "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+        "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Plusieurs services sont proposés sur les forums cybercriminels pour accéder illégalement à des modèles d'IA, notamment Poison Claude prétendant offrir l'accès aux modèles Opus et Sonnet de Anthropic.",
+        "published_at": "2026-08-05T21:06:03",
+        "score": 17
+      },
+      {
+        "guid": "df79a2b50fcbfa88",
+        "title": "🏴‍☠️ Clop has just published a new victim : nuv*******",
+        "url": "https://www.ransomware.live/id/bnV2KioqKioqKkBjbG9w",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "[CVE-2026-12569] Les données volées incluaient des informations sur le projet, des fichiers PDF et des fichiers Cad.",
+        "published_at": "2026-08-05T21:00:53",
+        "score": 32
+      },
+      {
+        "guid": "3e96e89d34cb9eac",
+        "title": "🏴‍☠️ Clop has just published a new victim : ipm*******",
+        "url": "https://www.ransomware.live/id/aXBtKioqKioqKkBjbG9w",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "[CVE-2026-12569] Les données volées incluaient des fichiers PDF, des fichiers Cad et des logiciels.",
+        "published_at": "2026-08-05T21:00:20",
+        "score": 32
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "61068744a611dc8e",
+        "title": "Canadian man pleads guilty to Snowflake hacks that led to 165 breaches",
+        "url": "https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un Canadien de 26 ans a reconnu sa culpabilité dans les hacks du cloud Snowflake, impliquant 165 breaches et faisant face à une peine maximale de 32 ans de prison.",
+        "published_at": "2026-08-05T20:15:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "b3e5f38c186b8288",
+        "title": "Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident",
+        "url": "https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La chaîne néerlandaise de luxe De Bijenkorf a prévenu que des données clients pourraient avoir été exposées suite à une incident cybernétique impliquant un fournisseur logistique tiers.",
+        "published_at": "2026-08-05T15:36:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "e0840efe8933440b",
+        "title": "Anthropic AI agent faked identities, phished real developers in UK government hacking test",
+        "url": "https://therecord.media/anthropic-ai-hacking-uk",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Un agent d'IA développé par Anthropic a simulé des identités et lancé des phishing contre de vrais développeurs lors d'évaluations de sécurité gouvernementales au Royaume-Uni.",
+        "published_at": "2026-08-05T13:00:00",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 103,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
