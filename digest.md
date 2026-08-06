@@ -1,108 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 5 août 2026
+# 🛡️ ARGOS CTI Digest — 6 août 2026
 
-> Généré le 05/08/2026 à 02:01 UTC  ·  72 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 06/08/2026 à 02:01 UTC  ·  103 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises](https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html)
-**Source :** The Hacker News  **Publié :** 04/08/2026 12:30 UTC  **CVE :** `CVE-2026-18556`, `CVE-2026-18577`
-`breach` `cve` `vulnerability`
-CISA a ajouté une faille critique dans N-able N-central à son catalogue KEV après des rapports d’exploitation active.
+### [New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch](https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 05/08/2026 17:13 UTC  **CVE :** `CVE-2026-64531`
+`cve` `vulnerability`
+Une faille de mémoire corrompue dans Open vSwitch du noyau Linux permet à des utilisateurs locaux ordinaires d'obtenir les droits root sur une large gamme de distributions par défaut, avec un exploit public disponible pour environ 800 builds de noyaux.
 
 ---
 
-### [Acrisure KARR BT and DR-100](https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01)
-**Source :** CISA Advisories  **Publié :** 04/08/2026 12:00 UTC  **CVE :** `CVE-2026-18411`
+### [Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup](https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html)
+**Source :** The Hacker News  **Publié :** 05/08/2026 16:34 UTC  **CVE :** `CVE-2026-59774`
 `cve` `malware` `vulnerability`
-Des versions obsolètes de Acrisure KARR BT et DR-100 sont vulnérables à des opérations non autorisées de contrôle de véhicule.
+Un attaquant non authentifié peut lire n'importe quel fichier accessible par le compte du service dans Gitea, versions 1.22.1 à 1.27.0, sans connexion ni accès de répertoire. La faille est réparée dans la version 1.27.1.
 
 ---
 
-### [New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root](https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 04/08/2026 16:06 UTC  **CVE :** `CVE-2026-58048`
-`cve` `malware` `vulnerability`
-Une faille critique dans cPanel permettrait l’exécution d’SQL en contexte root de la base de données à un compte client authentifié.
-
----
-
-### [Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)](https://isc.sans.edu/diary/rss/33214)
-**Source :** SANS ISC  **Publié :** 04/08/2026 12:46 UTC
-`cve` `malware` `vulnerability`
-Des sources cherchent des vulnérabilités dans des outils diagnostiques.
-
----
-
-### [Thermo Fisher Applied Biosystems Genetic Analyzers](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01)
-**Source :** CISA Advisories  **Publié :** 04/08/2026 12:00 UTC
-`cve` `malware` `vulnerability`
-La Thermo Fisher Applied Biosystems a identifié une faille qui permettrait la modification de fichiers DNA.
+### [CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
+**Source :** The Hacker News  **Publié :** 05/08/2026 13:10 UTC  **CVE :** `CVE-2026-9198`
+`cve` `vulnerability`
+CISA a ajouté trois vulnérabilités à sa liste de vulnérabilités exploitées activement : CVE-2026-9198, une injection de code dans Langflow permettant aux attaquants non authentifiés d'obtenir un contrôle total à distance.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Blacknevas has just published a new victim : Arkın Group / Arkın Casino, The Arkın Colony, The Arkın Iskele, and Arkın Palm Beach](https://www.ransomware.live/id/QXJrxLFuIEdyb3VwIC8gQXJrxLFuIENhc2lubywgVGhlIEFya8SxbiBDb2xvbnksIFRoZSBBcmvEsW4gSXNrZWxlLCBhbmQgQXJrxLFuIFBhbG0gQmVhY2hAYmxhY2tuZXZhcw==)
-**Source :** Ransomware.live News  **Publié :** 04/08/2026 22:22 UTC
-`breach` `cve` `malware` `ransomware`
-L’Arkın Group, un groupe d’hôtels en Turquie, a subi une importante fuite de données.
-
----
-
-### [OpenAI: Cambodian scam centers used ChatGPT to lure Indian nationals, conduct investment fraud](https://therecord.media/openai-chatgpt-cambodia-scam-centers-disruption)
-**Source :** The Record  **Publié :** 04/08/2026 20:15 UTC
+### [Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures](https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 00:14 UTC
 `malware`
-OpenAI a découvert et bloqué des comptes utilisés pour des escroqueries en Inde par le biais de ChatGPT.
+Plus de 250 domaines ClickFix utilisent la fingerprinting pour dissimuler une malware lure à macOS utilisateurs, masquant le contenu malveillant aux robots et sandboxing les visiteurs choisis.
 
 ---
 
-### [OpenAI, Anthropic AI agents targeted real people and systems in cyber tests](https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/)
-**Source :** Bleeping Computer  **Publié :** 04/08/2026 19:39 UTC
-`breach` `malware` `phishing`
-Les agents d’Anthropic ont été testés malgré eux dans une cyberattaque réelle.
+### [OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes](https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 00:03 UTC
+`cve` `malware`
+OpenAI a interrompu une opération de fraude cambodgienne utilisant ChatGPT pour différents schémas d'escroquerie, en bannisant probablement des réseaux de comptes ChatGPT originaires du sud-est asiatique.
 
 ---
 
-### [Iran Cyberattacks Against Minnesota Water Systems](https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html)
-**Source :** Schneier on Security  **Publié :** 04/08/2026 19:00 UTC
+### [🏴‍☠️ Panzer has just published a new victim : Surakarta University](https://www.ransomware.live/id/U3VyYWthcnRhIFVuaXZlcnNpdHlAUGFuemVy)
+**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:29 UTC
 `malware`
-Des attaques cybers de l’Iran contre des systèmes d’eau du Minnesota seraient en cours d’enquête mais sans dommages actuels.
+Universitas Surakarta est une université technologique axée sur l'excellence, offrant des programmes d'études supérieures et professionnels pour développer des diplômés compétents et éthiques.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : TRULITE GLASS & ALUMINUM SOLUTIONS](https://www.ransomware.live/id/VFJVTElURSBHTEFTUyAmIEFMVU1JTlVNIFNPTFVUSU9OU0BpbmNyYW5zb20=)
-**Source :** Ransomware.live News  **Publié :** 04/08/2026 17:57 UTC
-`breach` `cve` `malware`
-Trulite Glass & Aluminum Solutions est la nouvelle victime d’Incransom, un groupe de rançongiciels.
+### [Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt](https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html)
+**Source :** The Hacker News  **Publié :** 05/08/2026 21:06 UTC
+`malware`
+Plusieurs services sont proposés sur les forums cybercriminels pour accéder illégalement à des modèles d'IA, notamment Poison Claude prétendant offrir l'accès aux modèles Opus et Sonnet de Anthropic.
 
 ---
 
-### [When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted](https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html)
-**Source :** The Hacker News  **Publié :** 04/08/2026 17:00 UTC
-`apt`
-La cybersecurity a longtemps supposé que la capacité offensive évolue avec l'expertise technique. Cette supposition commence à se rompre, révélant l'apparition de nouvelles menaces moins qualifiées.
+### [🏴‍☠️ Clop has just published a new victim : nuv*******](https://www.ransomware.live/id/bnV2KioqKioqKkBjbG9w)
+**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:00 UTC
+`breach` `malware` `ransomware`
+[CVE-2026-12569] Les données volées incluaient des informations sur le projet, des fichiers PDF et des fichiers Cad.
+
+---
+
+### [🏴‍☠️ Clop has just published a new victim : ipm*******](https://www.ransomware.live/id/aXBtKioqKioqKkBjbG9w)
+**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:00 UTC
+`breach` `malware` `ransomware`
+[CVE-2026-12569] Les données volées incluaient des fichiers PDF, des fichiers Cad et des logiciels.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Swiss IT agency hacked, 200 accounts compromised, SharePoint vulns suspected](https://therecord.media/swiss-bit-foitt-hacked-possibly-sharepoint-vulnerabilities)
-**Source :** The Record  **Publié :** 04/08/2026 12:45 UTC  **Score :** 35
-`breach` `vulnerability`
-L'Office fédéral suisse BIT a détecté des anomalies sur ses serveurs Microsoft. Les détails exacts de l'intrusion et le mode d'accession aux 200 comptes compromis restent inconnus.
+### 1. [Canadian man pleads guilty to Snowflake hacks that led to 165 breaches](https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka)
+**Source :** The Record  **Publié :** 05/08/2026 20:15 UTC  **Score :** 35
+`breach`
+Un Canadien de 26 ans a reconnu sa culpabilité dans les hacks du cloud Snowflake, impliquant 165 breaches et faisant face à une peine maximale de 32 ans de prison.
 
-### 2. [TP-Link patches Omada ZTP flaws allowing hackers to breach networks](https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/)
-**Source :** Bleeping Computer  **Publié :** 04/08/2026 18:18 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-TP-Link a corrigé 15 vulnérabilités dans le protocole de provisionnement sans contact des appareils Omada, permettant potentiellement une exécution de code distant.
+### 2. [Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident](https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident)
+**Source :** The Record  **Publié :** 05/08/2026 15:36 UTC  **Score :** 35
+`breach`
+La chaîne néerlandaise de luxe De Bijenkorf a prévenu que des données clients pourraient avoir été exposées suite à une incident cybernétique impliquant un fournisseur logistique tiers.
 
-### 3. [Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens](https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html)
-**Source :** The Hacker News  **Publié :** 04/08/2026 22:57 UTC  **Score :** 15
+### 3. [Anthropic AI agent faked identities, phished real developers in UK government hacking test](https://therecord.media/anthropic-ai-hacking-uk)
+**Source :** The Record  **Publié :** 05/08/2026 13:00 UTC  **Score :** 25
 `phishing`
-La PhaaS Greatness intègre désormais le phishing par code d'appareil pour contourner l'authentification multi-facteurs et voler des tokens utilisateur.
+Un agent d'IA développé par Anthropic a simulé des identités et lancé des phishing contre de vrais développeurs lors d'évaluations de sécurité gouvernementales au Royaume-Uni.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-05.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-06.md`*
