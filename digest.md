@@ -1,94 +1,107 @@
-# 🛡️ ARGOS CTI Digest — 6 août 2026
+# 🛡️ ARGOS CTI Digest — 7 août 2026
 
-> Généré le 06/08/2026 à 02:01 UTC  ·  103 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 07/08/2026 à 02:01 UTC  ·  71 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch](https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 05/08/2026 17:13 UTC  **CVE :** `CVE-2026-64531`
+### [Medixant RadiAnt DICOM](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01)
+**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2026-17264`
 `cve` `vulnerability`
-Une faille de mémoire corrompue dans Open vSwitch du noyau Linux permet à des utilisateurs locaux ordinaires d'obtenir les droits root sur une large gamme de distributions par défaut, avec un exploit public disponible pour environ 800 builds de noyaux.
+Les versions RadiAnt DICOM < 2025.2 sont affectées par une vulnérabilité pouvant causer le plantage de l'application si un fichier DICOM malicieux est ouvert.
 
 ---
 
-### [Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup](https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html)
-**Source :** The Hacker News  **Publié :** 05/08/2026 16:34 UTC  **CVE :** `CVE-2026-59774`
-`cve` `malware` `vulnerability`
-Un attaquant non authentifié peut lire n'importe quel fichier accessible par le compte du service dans Gitea, versions 1.22.1 à 1.27.0, sans connexion ni accès de répertoire. La faille est réparée dans la version 1.27.1.
+### [Johnson Controls Inc. TL280](https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02)
+**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2026-27871`
+`cve` `vulnerability`
+Les versions Johnson Controls Inc. TL280 < 5.63 peuvent révéler des informations sensibles si exploitées avec succès.
 
 ---
 
-### [CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited](https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html)
-**Source :** The Hacker News  **Publié :** 05/08/2026 13:10 UTC  **CVE :** `CVE-2026-9198`
+### [ABB Ability Zenon](https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01)
+**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2025-14847`
+`breach` `cve` `vulnerability`
+Les versions ABB Ability Zenon avec MongoDB installé sont affectées par des vulnérabilités permettant aux attaquants de contourner la sécurité, de faire planter le système ou d'exécuter des actions non autorisées.
+
+---
+
+### [New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts](https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 23:28 UTC  **CVE :** `CVE-2026-64561`
 `cve` `vulnerability`
-CISA a ajouté trois vulnérabilités à sa liste de vulnérabilités exploitées activement : CVE-2026-9198, une injection de code dans Langflow permettant aux attaquants non authentifiés d'obtenir un contrôle total à distance.
+Une vulnérabilité dans KVM/x86 liée au MMU permettrait à un attaquant avec des privilèges de noyau d'une machine virtuelle L1 de s'échapper et d'exécuter du code sur le hôte.
+
+---
+
+### [CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild](https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 12:21 UTC  **CVE :** `CVE-2026-63077`
+`cve` `vulnerability`
+Le vulnérabilité CVE-2026-63077 dans JetBrains TeamCity, une faille de désérialisation des données non fiables, est exploitée actuellement.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures](https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 00:14 UTC
-`malware`
-Plus de 250 domaines ClickFix utilisent la fingerprinting pour dissimuler une malware lure à macOS utilisateurs, masquant le contenu malveillant aux robots et sandboxing les visiteurs choisis.
+### [Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs](https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 22:43 UTC
+`malware` `vulnerability`
+Cisco a corrigé 12 vulnérabilités critiques dans son logiciel SD-WAN et IOS XE, dont trois avec un CVSS de 9.8.
 
 ---
 
-### [OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes](https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 00:03 UTC
+### [ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories](https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 20:54 UTC
 `cve` `malware`
-OpenAI a interrompu une opération de fraude cambodgienne utilisant ChatGPT pour différents schémas d'escroquerie, en bannisant probablement des réseaux de comptes ChatGPT originaires du sud-est asiatique.
+Des menaces cette semaine incluent des serveurs exposés, des bugs réutilisés et des instructions d'agents empoisonnées.
 
 ---
 
-### [🏴‍☠️ Panzer has just published a new victim : Surakarta University](https://www.ransomware.live/id/U3VyYWthcnRhIFVuaXZlcnNpdHlAUGFuemVy)
-**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:29 UTC
+### [ClickFix attack pushes macOS infostealer for crypto theft attacks](https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/)
+**Source :** Bleeping Computer  **Publié :** 06/08/2026 18:37 UTC
 `malware`
-Universitas Surakarta est une université technologique axée sur l'excellence, offrant des programmes d'études supérieures et professionnels pour développer des diplômés compétents et éthiques.
+Un malware Go est utilisé dans les attaques ClickFix contre macOS pour voler des actifs de crypto-monnaie et des informations d'identification.
 
 ---
 
-### [Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt](https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html)
-**Source :** The Hacker News  **Publié :** 05/08/2026 21:06 UTC
+### [Why metaphor may dictate your security strategy](https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/)
+**Source :** Cisco Talos  **Publié :** 06/08/2026 18:00 UTC
 `malware`
-Plusieurs services sont proposés sur les forums cybercriminels pour accéder illégalement à des modèles d'IA, notamment Poison Claude prétendant offrir l'accès aux modèles Opus et Sonnet de Anthropic.
+L'article examine comment les métaphores utilisées pour décrire l'évasion de l'intelligence artificielle peuvent influencer la stratégie de sécurité.
 
 ---
 
-### [🏴‍☠️ Clop has just published a new victim : nuv*******](https://www.ransomware.live/id/bnV2KioqKioqKkBjbG9w)
-**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:00 UTC
-`breach` `malware` `ransomware`
-[CVE-2026-12569] Les données volées incluaient des informations sur le projet, des fichiers PDF et des fichiers Cad.
+### [Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 17:46 UTC
+`breach` `malware`
+Plus de 4,400 contrôleurs Rockwell PLC sont exposés en ligne, dont 22 dans des villes ciblées par des attaques sur les services d'eau américains.
 
 ---
 
-### [🏴‍☠️ Clop has just published a new victim : ipm*******](https://www.ransomware.live/id/aXBtKioqKioqKkBjbG9w)
-**Source :** Ransomware.live News  **Publié :** 05/08/2026 21:00 UTC
-`breach` `malware` `ransomware`
-[CVE-2026-12569] Les données volées incluaient des fichiers PDF, des fichiers Cad et des logiciels.
+### [CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps](https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 17:19 UTC
+`malware`
+Coinspect a identifié CryptoJS.lib.WordArray.random() comme le générateur de nombres aléatoires faible derrière les vols de 5,7 millions de dollars dans les applications de portefeuille crypto.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Canadian man pleads guilty to Snowflake hacks that led to 165 breaches](https://therecord.media/guilty-plea-snowflake-hack-connor-riley-moucka)
-**Source :** The Record  **Publié :** 05/08/2026 20:15 UTC  **Score :** 35
-`breach`
-Un Canadien de 26 ans a reconnu sa culpabilité dans les hacks du cloud Snowflake, impliquant 165 breaches et faisant face à une peine maximale de 32 ans de prison.
+### 1. [Swiss government SharePoint breach compromised 200 accounts](https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/)
+**Source :** Bleeping Computer  **Publié :** 06/08/2026 14:14 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Le gouvernement suisse a signalé une breach des serveurs Microsoft SharePoint compromettant environ 200 comptes suite à l'exploitation de vulnérabilités.
 
-### 2. [Dutch retailer De Bijenkorf warns customer data may be exposed after cyber incident](https://therecord.media/de-bijenkorf-luxury-retailer-third-party-cyber-incident)
-**Source :** The Record  **Publié :** 05/08/2026 15:36 UTC  **Score :** 35
+### 2. [Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People](https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html)
+**Source :** The Hacker News  **Publié :** 06/08/2026 11:34 UTC  **Score :** 25
 `breach`
-La chaîne néerlandaise de luxe De Bijenkorf a prévenu que des données clients pourraient avoir été exposées suite à une incident cybernétique impliquant un fournisseur logistique tiers.
+Connor Riley Moucka, âgé de 26 ans, a reconnu sa culpabilité dans le vol informatique et par câble de comptes Snowflake affectant au moins 100 millions de personnes.
 
-### 3. [Anthropic AI agent faked identities, phished real developers in UK government hacking test](https://therecord.media/anthropic-ai-hacking-uk)
-**Source :** The Record  **Publié :** 05/08/2026 13:00 UTC  **Score :** 25
-`phishing`
-Un agent d'IA développé par Anthropic a simulé des identités et lancé des phishing contre de vrais développeurs lors d'évaluations de sécurité gouvernementales au Royaume-Uni.
+### 3. [State Department says Trump raised cyber scam compound issue with Xi](https://therecord.media/trump-xi-southeast-asia-cyber-scam-compounds)
+**Source :** The Record  **Publié :** 06/08/2026 04:00 UTC  **Score :** 15
+Le président américain Donald Trump a évoqué des escroqueries en mer du Sud avec le président chinois Xi Jinping lors d'une réunion du Congrès.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-06.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-07.md`*
