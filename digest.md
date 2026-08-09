@@ -1,107 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 7 août 2026
+# 🛡️ ARGOS CTI Digest — 9 août 2026
 
-> Généré le 07/08/2026 à 02:01 UTC  ·  71 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 09/08/2026 à 02:01 UTC  ·  21 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Medixant RadiAnt DICOM](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01)
-**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2026-17264`
+### [Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts](https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html)
+**Source :** The Hacker News  **Publié :** 08/08/2026 12:22 UTC  **CVE :** `CVE-2026-8037`
 `cve` `vulnerability`
-Les versions RadiAnt DICOM < 2025.2 sont affectées par une vulnérabilité pouvant causer le plantage de l'application si un fichier DICOM malicieux est ouvert.
-
----
-
-### [Johnson Controls Inc. TL280](https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02)
-**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2026-27871`
-`cve` `vulnerability`
-Les versions Johnson Controls Inc. TL280 < 5.63 peuvent révéler des informations sensibles si exploitées avec succès.
-
----
-
-### [ABB Ability Zenon](https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01)
-**Source :** CISA Advisories  **Publié :** 06/08/2026 12:00 UTC  **CVE :** `CVE-2025-14847`
-`breach` `cve` `vulnerability`
-Les versions ABB Ability Zenon avec MongoDB installé sont affectées par des vulnérabilités permettant aux attaquants de contourner la sécurité, de faire planter le système ou d'exécuter des actions non autorisées.
-
----
-
-### [New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts](https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 23:28 UTC  **CVE :** `CVE-2026-64561`
-`cve` `vulnerability`
-Une vulnérabilité dans KVM/x86 liée au MMU permettrait à un attaquant avec des privilèges de noyau d'une machine virtuelle L1 de s'échapper et d'exécuter du code sur le hôte.
-
----
-
-### [CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild](https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 12:21 UTC  **CVE :** `CVE-2026-63077`
-`cve` `vulnerability`
-Le vulnérabilité CVE-2026-63077 dans JetBrains TeamCity, une faille de désérialisation des données non fiables, est exploitée actuellement.
+La CISA a ajouté un défaut critique de Progress Kemp LoadMaster à sa liste KEV après des rapports d'exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs](https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 22:43 UTC
-`malware` `vulnerability`
-Cisco a corrigé 12 vulnérabilités critiques dans son logiciel SD-WAN et IOS XE, dont trois avec un CVSS de 9.8.
+### [🏴‍☠️ Incransom has just published a new victim : Louisville Bar Association](https://www.ransomware.live/id/TG91aXN2aWxsZSBCYXIgQXNzb2NpYXRpb25AaW5jcmFuc29t)
+**Source :** Ransomware.live News  **Publié :** 08/08/2026 14:25 UTC
+`cve` `ransomware`
+Le LBA, une association professionnelle juridique, est victime du rançoniciel Incransom.
 
 ---
 
-### [ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories](https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 20:54 UTC
-`cve` `malware`
-Des menaces cette semaine incluent des serveurs exposés, des bugs réutilisés et des instructions d'agents empoisonnées.
-
----
-
-### [ClickFix attack pushes macOS infostealer for crypto theft attacks](https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/)
-**Source :** Bleeping Computer  **Publié :** 06/08/2026 18:37 UTC
+### [Un milliard d’identifiants français sur le darkweb](https://www.zataz.com/un-milliard-didentifiants-francais-sur-le-darkweb/)
+**Source :** ZATAZ  **Publié :** 08/08/2026 14:18 UTC
 `malware`
-Un malware Go est utilisé dans les attaques ClickFix contre macOS pour voler des actifs de crypto-monnaie et des informations d'identification.
+ZATAZ a découvert 1,7 milliard d'identifiants français uniques sur le darkweb.
 
 ---
 
-### [Why metaphor may dictate your security strategy](https://blog.talosintelligence.com/why-metaphor-may-dictate-your-security-strategy/)
-**Source :** Cisco Talos  **Publié :** 06/08/2026 18:00 UTC
+### [New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens](https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html)
+**Source :** The Hacker News  **Publié :** 08/08/2026 13:33 UTC
+`apt`
+Des attaques CSS peuvent briser les défenses de la messagerie web pour voler des mots de passe et des jetons.
+
+---
+
+### [N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist](https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html)
+**Source :** The Hacker News  **Publié :** 08/08/2026 12:27 UTC
+`apt` `cve` `patch` `vulnerability`
+N-able a publié un hotfix pour N-central en réponse à l'exploitation continue d'une vulnérabilité récente dans sa solution RMM.
+
+---
+
+### [🏴‍☠️ Everest has just published a new victim : Ingersoll Rand](https://www.ransomware.live/id/SW5nZXJzb2xsIFJhbmRAZXZlcmVzdA==)
+**Source :** Ransomware.live News  **Publié :** 08/08/2026 12:24 UTC
 `malware`
-L'article examine comment les métaphores utilisées pour décrire l'évasion de l'intelligence artificielle peuvent influencer la stratégie de sécurité.
+Ingersoll Rand est victime de l'acteur Everest.
 
 ---
 
-### [Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities](https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 17:46 UTC
-`breach` `malware`
-Plus de 4,400 contrôleurs Rockwell PLC sont exposés en ligne, dont 22 dans des villes ciblées par des attaques sur les services d'eau américains.
-
----
-
-### [CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps](https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 17:19 UTC
+### [🏴‍☠️ Everest has just published a new victim : Omnicell](https://www.ransomware.live/id/T21uaWNlbGxAZXZlcmVzdA==)
+**Source :** Ransomware.live News  **Publié :** 08/08/2026 12:23 UTC
 `malware`
-Coinspect a identifié CryptoJS.lib.WordArray.random() comme le générateur de nombres aléatoires faible derrière les vols de 5,7 millions de dollars dans les applications de portefeuille crypto.
+Omnicell est victime de l'acteur Everest.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Swiss government SharePoint breach compromised 200 accounts](https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/)
-**Source :** Bleeping Computer  **Publié :** 06/08/2026 14:14 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Le gouvernement suisse a signalé une breach des serveurs Microsoft SharePoint compromettant environ 200 comptes suite à l'exploitation de vulnérabilités.
-
-### 2. [Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People](https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html)
-**Source :** The Hacker News  **Publié :** 06/08/2026 11:34 UTC  **Score :** 25
+### 1. [Brinks Home - 732,162 breached accounts](https://haveibeenpwned.com/Breach/BrinksHome)
+**Source :** Have I Been Pwned  **Publié :** 08/08/2026 10:44 UTC  **Score :** 25
 `breach`
-Connor Riley Moucka, âgé de 26 ans, a reconnu sa culpabilité dans le vol informatique et par câble de comptes Snowflake affectant au moins 100 millions de personnes.
+Brinks Home a été ciblé par ShinyHunters, qui a volé 732k comptes uniques.
 
-### 3. [State Department says Trump raised cyber scam compound issue with Xi](https://therecord.media/trump-xi-southeast-asia-cyber-scam-compounds)
-**Source :** The Record  **Publié :** 06/08/2026 04:00 UTC  **Score :** 15
-Le président américain Donald Trump a évoqué des escroqueries en mer du Sud avec le président chinois Xi Jinping lors d'une réunion du Congrès.
+### 2. [Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html)
+**Source :** The Hacker News  **Publié :** 08/08/2026 14:24 UTC  **Score :** 5
+Atlassian Rovo peut être trompé pour envoyer des données Jira ou Confluence à des attaquants.
+
+### 3. [Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html)
+**Source :** The Hacker News  **Publié :** 08/08/2026 12:28 UTC  **Score :** 5
+`cve` `vulnerability`
+Une vulnérabilité non identifiée dans Metabase permet un accès administratif non authentifié.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-07.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-09.md`*
