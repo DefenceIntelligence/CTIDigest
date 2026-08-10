@@ -1,79 +1,58 @@
-# 🛡️ ARGOS CTI Digest — 9 août 2026
+# 🛡️ ARGOS CTI Digest — 10 août 2026
 
-> Généré le 09/08/2026 à 02:01 UTC  ·  21 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 10/08/2026 à 02:00 UTC  ·  22 items analysés  ·  7 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts](https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html)
-**Source :** The Hacker News  **Publié :** 08/08/2026 12:22 UTC  **CVE :** `CVE-2026-8037`
-`cve` `vulnerability`
-La CISA a ajouté un défaut critique de Progress Kemp LoadMaster à sa liste KEV après des rapports d'exploitation active.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Incransom has just published a new victim : Louisville Bar Association](https://www.ransomware.live/id/TG91aXN2aWxsZSBCYXIgQXNzb2NpYXRpb25AaW5jcmFuc29t)
-**Source :** Ransomware.live News  **Publié :** 08/08/2026 14:25 UTC
-`cve` `ransomware`
-Le LBA, une association professionnelle juridique, est victime du rançoniciel Incransom.
-
----
-
-### [Un milliard d’identifiants français sur le darkweb](https://www.zataz.com/un-milliard-didentifiants-francais-sur-le-darkweb/)
-**Source :** ZATAZ  **Publié :** 08/08/2026 14:18 UTC
+### [🏴‍☠️ Qilin has just published a new victim : East Field Corporation](https://www.ransomware.live/id/RWFzdCBGaWVsZCBDb3Jwb3JhdGlvbkBxaWxpbg==)
+**Source :** Ransomware.live News  **Publié :** 09/08/2026 17:01 UTC
 `malware`
-ZATAZ a découvert 1,7 milliard d'identifiants français uniques sur le darkweb.
+Qilin a ciblé une nouvelle victime, la société East Field Corporation.
 
 ---
 
-### [New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens](https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html)
-**Source :** The Hacker News  **Publié :** 08/08/2026 13:33 UTC
-`apt`
-Des attaques CSS peuvent briser les défenses de la messagerie web pour voler des mots de passe et des jetons.
+### [Alcon - 218,395 breached accounts](https://haveibeenpwned.com/Breach/Alcon)
+**Source :** Have I Been Pwned  **Publié :** 09/08/2026 10:04 UTC
+`breach` `cve` `malware`
+En août 2026, ShinyHunters a menacé d'exposer les données d'Alcon contenant 218k adresses électroniques uniques et des informations de contact B2B.
 
 ---
 
-### [N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist](https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html)
-**Source :** The Hacker News  **Publié :** 08/08/2026 12:27 UTC
-`apt` `cve` `patch` `vulnerability`
-N-able a publié un hotfix pour N-central en réponse à l'exploitation continue d'une vulnérabilité récente dans sa solution RMM.
+### [🏴‍☠️ Shinyhunters has just published a new victim : Ali** **********](https://www.ransomware.live/id/QWxpKiogKioqKioqKioqKkBzaGlueWh1bnRlcnM=)
+**Source :** Ransomware.live News  **Publié :** 09/08/2026 09:29 UTC
+`breach` `cve` `malware`
+Shinyhunters a compromis plus de 11,5 millions de fichiers chez Ali***, avec 3,1TB de données internes, en émettant un ultimatum le 10 août 2026.
 
 ---
 
-### [🏴‍☠️ Everest has just published a new victim : Ingersoll Rand](https://www.ransomware.live/id/SW5nZXJzb2xsIFJhbmRAZXZlcmVzdA==)
-**Source :** Ransomware.live News  **Publié :** 08/08/2026 12:24 UTC
+### [Cyber actualités ZATAZ de la semaine du 3 au 9 août 2026](https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-3-au-9-aout-2026/)
+**Source :** ZATAZ  **Publié :** 09/08/2026 07:52 UTC
 `malware`
-Ingersoll Rand est victime de l'acteur Everest.
-
----
-
-### [🏴‍☠️ Everest has just published a new victim : Omnicell](https://www.ransomware.live/id/T21uaWNlbGxAZXZlcmVzdA==)
-**Source :** Ransomware.live News  **Publié :** 08/08/2026 12:23 UTC
-`malware`
-Omnicell est victime de l'acteur Everest.
+Cette semaine du 3 au 9 août 2026, ZATAZ a découvert des identifiants français dans un cloud piraté et 43 rançongiciels ont ciblé la France.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Brinks Home - 732,162 breached accounts](https://haveibeenpwned.com/Breach/BrinksHome)
-**Source :** Have I Been Pwned  **Publié :** 08/08/2026 10:44 UTC  **Score :** 25
-`breach`
-Brinks Home a été ciblé par ShinyHunters, qui a volé 732k comptes uniques.
+### 1. [🏴‍☠️ Play has just published a new victim : MIE Solutions](https://www.ransomware.live/id/TUlFIFNvbHV0aW9uc0BwbGF5)
+**Source :** Ransomware.live News  **Publié :** 09/08/2026 19:26 UTC  **Score :** 0
+Play a menacé une nouvelle victime, MIE Solutions, aux États-Unis.
 
-### 2. [Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers](https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html)
-**Source :** The Hacker News  **Publié :** 08/08/2026 14:24 UTC  **Score :** 5
-Atlassian Rovo peut être trompé pour envoyer des données Jira ou Confluence à des attaquants.
+### 2. [🏴‍☠️ Play has just published a new victim : Rilpa Enterprises](https://www.ransomware.live/id/UmlscGEgRW50ZXJwcmlzZXNAcGxheQ==)
+**Source :** Ransomware.live News  **Publié :** 09/08/2026 19:26 UTC  **Score :** 0
+Play a menacé Rilpa Enterprises au Canada.
 
-### 3. [Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication](https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html)
-**Source :** The Hacker News  **Publié :** 08/08/2026 12:28 UTC  **Score :** 5
-`cve` `vulnerability`
-Une vulnérabilité non identifiée dans Metabase permet un accès administratif non authentifié.
+### 3. [🏴‍☠️ Play has just published a new victim : Marconi Industrial Services](https://www.ransomware.live/id/TWFyY29uaSBJbmR1c3RyaWFsIFNlcnZpY2VzQHBsYXk=)
+**Source :** Ransomware.live News  **Publié :** 09/08/2026 18:56 UTC  **Score :** 0
+Play a menacé Marconi Industrial Services en Italie.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-09.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-10.md`*
