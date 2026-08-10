@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T02:00:39.074936+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "f32229a74af19be7",
+        "title": "🏴‍☠️ Qilin has just published a new victim : East Field Corporation",
+        "url": "https://www.ransomware.live/id/RWFzdCBGaWVsZCBDb3Jwb3JhdGlvbkBxaWxpbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Qilin a ciblé une nouvelle victime, la société East Field Corporation.",
+        "published_at": "2026-08-09T17:01:33",
+        "score": 12
+      },
+      {
+        "guid": "daa96e2ebb22ad1d",
+        "title": "Alcon - 218,395 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/Alcon",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "En août 2026, ShinyHunters a menacé d'exposer les données d'Alcon contenant 218k adresses électroniques uniques et des informations de contact B2B.",
+        "published_at": "2026-08-09T10:04:34",
+        "score": 37
+      },
+      {
+        "guid": "a4ddce221ae317b0",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : Ali** **********",
+        "url": "https://www.ransomware.live/id/QWxpKiogKioqKioqKioqKkBzaGlueWh1bnRlcnM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Shinyhunters a compromis plus de 11,5 millions de fichiers chez Ali***, avec 3,1TB de données internes, en émettant un ultimatum le 10 août 2026.",
+        "published_at": "2026-08-09T09:29:48",
+        "score": 32
+      },
+      {
+        "guid": "88eec665cae1bfa4",
+        "title": "Cyber actualités ZATAZ de la semaine du 3 au 9 août 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-3-au-9-aout-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Cette semaine du 3 au 9 août 2026, ZATAZ a découvert des identifiants français dans un cloud piraté et 43 rançongiciels ont ciblé la France.",
+        "published_at": "2026-08-09T07:52:19",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "a15e4a477d45e41e",
+        "title": "🏴‍☠️ Play has just published a new victim : MIE Solutions",
+        "url": "https://www.ransomware.live/id/TUlFIFNvbHV0aW9uc0BwbGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Play a menacé une nouvelle victime, MIE Solutions, aux États-Unis.",
+        "published_at": "2026-08-09T19:26:53",
+        "score": 0,
+        "rank": 1
+      },
+      {
+        "guid": "727f3498b76ad943",
+        "title": "🏴‍☠️ Play has just published a new victim : Rilpa Enterprises",
+        "url": "https://www.ransomware.live/id/UmlscGEgRW50ZXJwcmlzZXNAcGxheQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Play a menacé Rilpa Enterprises au Canada.",
+        "published_at": "2026-08-09T19:26:26",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "927626386f436982",
+        "title": "🏴‍☠️ Play has just published a new victim : Marconi Industrial Services",
+        "url": "https://www.ransomware.live/id/TWFyY29uaSBJbmR1c3RyaWFsIFNlcnZpY2VzQHBsYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Play a menacé Marconi Industrial Services en Italie.",
+        "published_at": "2026-08-09T18:56:25",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 22,
+    "items_selected": 7,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
