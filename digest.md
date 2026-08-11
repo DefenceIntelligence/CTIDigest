@@ -1,58 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 10 août 2026
+# 🛡️ ARGOS CTI Digest — 11 août 2026
 
-> Généré le 10/08/2026 à 02:00 UTC  ·  22 items analysés  ·  7 sélectionnés  ·  22 sources actives
+> Généré le 11/08/2026 à 02:01 UTC  ·  83 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [#StopRansomware: Gunra Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a)
+**Source :** CISA Advisories  **Publié :** 10/08/2026 12:00 UTC
+`breach` `cve` `malware` `patch` `ransomware`
+Gunra est un ransomware-as-a-service utilisé par des affiliés pour cibler les organismes gouvernementaux et d'infrastructure critique. La variante Gunra a été déployée en 2025 et opère comme service à la demande en 2026.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Qilin has just published a new victim : East Field Corporation](https://www.ransomware.live/id/RWFzdCBGaWVsZCBDb3Jwb3JhdGlvbkBxaWxpbg==)
-**Source :** Ransomware.live News  **Publié :** 09/08/2026 17:01 UTC
+### [Deux pirates revendiquent le piratage de pro du Cloud](https://www.zataz.com/deux-pirates-revendiquent-le-piratage-de-pro-du-cloud/)
+**Source :** ZATAZ  **Publié :** 10/08/2026 22:52 UTC
 `malware`
-Qilin a ciblé une nouvelle victime, la société East Field Corporation.
+Deux hackers revendiquent le piratage d'un professionnel du cloud, accédant ainsi à 159 instances contenant des données client.
 
 ---
 
-### [Alcon - 218,395 breached accounts](https://haveibeenpwned.com/Breach/Alcon)
-**Source :** Have I Been Pwned  **Publié :** 09/08/2026 10:04 UTC
-`breach` `cve` `malware`
-En août 2026, ShinyHunters a menacé d'exposer les données d'Alcon contenant 218k adresses électroniques uniques et des informations de contact B2B.
+### [China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
+**Source :** The Hacker News  **Publié :** 10/08/2026 22:08 UTC
+`apt` `ransomware` `vulnerability`
+Storm-1175, un groupe chinois financé par l'argent, a lancé le ransomware StormEncryptor via une faille non documentée dans N-central.
 
 ---
 
-### [🏴‍☠️ Shinyhunters has just published a new victim : Ali** **********](https://www.ransomware.live/id/QWxpKiogKioqKioqKioqKkBzaGlueWh1bnRlcnM=)
-**Source :** Ransomware.live News  **Publié :** 09/08/2026 09:29 UTC
-`breach` `cve` `malware`
-Shinyhunters a compromis plus de 11,5 millions de fichiers chez Ali***, avec 3,1TB de données internes, en émettant un ultimatum le 10 août 2026.
+### [Une fausse lettre AR24 vole les identifiants mail](https://www.zataz.com/une-fausse-lettre-ar24-vole-les-identifiants-mail/)
+**Source :** ZATAZ  **Publié :** 10/08/2026 21:41 UTC
+`apt` `phishing`
+Un nouveau faux e-mail AR24 vole les identifiants mail, testant un phishing en direct et vérifiant une notification AR24.
 
 ---
 
-### [Cyber actualités ZATAZ de la semaine du 3 au 9 août 2026](https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-3-au-9-aout-2026/)
-**Source :** ZATAZ  **Publié :** 09/08/2026 07:52 UTC
+### [Une nouvelle fuite pour la FF Handball ?](https://www.zataz.com/une-nouvelle-fuite-pour-la-ff-handball/)
+**Source :** ZATAZ  **Publié :** 10/08/2026 20:50 UTC
 `malware`
-Cette semaine du 3 au 9 août 2026, ZATAZ a découvert des identifiants français dans un cloud piraté et 43 rançongiciels ont ciblé la France.
+Un pirate revendique la volée de 1,3 million de lignes à la FF Handball après plusieurs publications visant des groupes français.
+
+---
+
+### [⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors](https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html)
+**Source :** The Hacker News  **Publié :** 10/08/2026 20:30 UTC
+`cve` `malware`
+Le groupe Gunra cible l'infrastructure critique en exploitant des vulnérabilités dans les pare-feu populaires, selon le FBI et le gouvernement sud-coréen.
+
+---
+
+### [FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure](https://therecord.media/ransomware-south-korea-fbi-gunra)
+**Source :** The Record  **Publié :** 10/08/2026 19:30 UTC
+`breach` `ransomware` `vulnerability`
+Le groupe Gunra cible l'infrastructure critique en exploitant des vulnérabilités dans les pare-feu populaires, selon le FBI et le gouvernement sud-coréen.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Play has just published a new victim : MIE Solutions](https://www.ransomware.live/id/TUlFIFNvbHV0aW9uc0BwbGF5)
-**Source :** Ransomware.live News  **Publié :** 09/08/2026 19:26 UTC  **Score :** 0
-Play a menacé une nouvelle victime, MIE Solutions, aux États-Unis.
+### 1. [Valve notifies Steam hardware customers of a data breach](https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/)
+**Source :** Bleeping Computer  **Publié :** 10/08/2026 07:47 UTC  **Score :** 25
+`breach`
+Valve informe ses clients de matériel Steam en Europe d'une violation de données après l'hacking de son partenaire logistique, CEVA Logistics.
 
-### 2. [🏴‍☠️ Play has just published a new victim : Rilpa Enterprises](https://www.ransomware.live/id/UmlscGEgRW50ZXJwcmlzZXNAcGxheQ==)
-**Source :** Ransomware.live News  **Publié :** 09/08/2026 19:26 UTC  **Score :** 0
-Play a menacé Rilpa Enterprises au Canada.
+### 2. [🏴‍☠️ Anubis has just published a new victim : Cleaver-Brooks](https://www.ransomware.live/id/Q2xlYXZlci1Ccm9va3NAYW51Ymlz)
+**Source :** Ransomware.live News  **Publié :** 10/08/2026 22:22 UTC  **Score :** 20
+`breach`
+Un important accès illégal se produit chez un fabricant industriel majeur.
 
-### 3. [🏴‍☠️ Play has just published a new victim : Marconi Industrial Services](https://www.ransomware.live/id/TWFyY29uaSBJbmR1c3RyaWFsIFNlcnZpY2VzQHBsYXk=)
-**Source :** Ransomware.live News  **Publié :** 09/08/2026 18:56 UTC  **Score :** 0
-Play a menacé Marconi Industrial Services en Italie.
+### 3. [🏴‍☠️ Deadlock has just published a new victim : LT Group / Fortune Tobacco Corp](https://www.ransomware.live/id/TFQgR3JvdXAgLyBGb3J0dW5lIFRvYmFjY28gQ29ycEBEZWFkbG9jaw==)
+**Source :** Ransomware.live News  **Publié :** 10/08/2026 22:20 UTC  **Score :** 20
+`breach`
+Une fuite de 27 gigaoctets contenant 107 passeports, 1712 états bancaires et 231 déclarations fiscales a été publiée après une période d'ignorance de 72 heures.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-10.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-11.md`*
