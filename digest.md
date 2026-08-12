@@ -1,80 +1,108 @@
-# 🛡️ ARGOS CTI Digest — 11 août 2026
+# 🛡️ ARGOS CTI Digest — 12 août 2026
 
-> Généré le 11/08/2026 à 02:01 UTC  ·  83 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 12/08/2026 à 02:01 UTC  ·  66 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [#StopRansomware: Gunra Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-222a)
-**Source :** CISA Advisories  **Publié :** 10/08/2026 12:00 UTC
-`breach` `cve` `malware` `patch` `ransomware`
-Gunra est un ransomware-as-a-service utilisé par des affiliés pour cibler les organismes gouvernementaux et d'infrastructure critique. La variante Gunra a été déployée en 2025 et opère comme service à la demande en 2026.
+### [Mira Hormone Monitor, Mira Android App](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01)
+**Source :** CISA Advisories  **Publié :** 11/08/2026 12:00 UTC  **CVE :** `CVE-2026-66340`, `CVE-2026-67568`, `CVE-2026-67558`, `CVE-2026-66832`, `CVE-2026-66875`
+`cve` `malware` `vulnerability`
+Vulnérabilités dans le Mira Hormone Monitor pourraient permettre à un attaquant d'accéder à des informations de santé non autorisées, modifier les informations de santé, provoquer une condition de refus de service et dérober des informations sur les tokens de session.
+
+---
+
+### [Pulsetto Vagus Nerve Stimulator](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02)
+**Source :** CISA Advisories  **Publié :** 11/08/2026 12:00 UTC  **CVE :** `CVE-2026-18844`
+`cve` `vulnerability`
+La version du Pulsetto Vagus Nerve Stimulator est affectée par une vulnérabilité qui pourrait permettre à un attaquant d'utiliser des commandes cachées pour désactiver les mécanismes de sécurité électriques ou modifier d'autres paramètres de stimulation.
+
+---
+
+### [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
+**Source :** The Hacker News  **Publié :** 12/08/2026 01:40 UTC  **CVE :** `CVE-2026-68820`
+`cve` `malware` `patch` `vulnerability`
+Microsoft a publié des mises à jour de sécurité qui résolvent 398 faiblesses, dont certaines sont déjà utilisées dans les attaques. Le bug affecte un pilote réseau du noyau Windows.
+
+---
+
+### [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
+**Source :** The Hacker News  **Publié :** 11/08/2026 22:17 UTC  **CVE :** `CVE-2026-55040`
+`cve` `malware` `vulnerability`
+Une vulnérabilité dans SharePoint permet d'accéder aux serveurs Microsoft comme n'importe quel utilisateur, y compris un administrateur, sans compte valide. La faille est liée à CVE-2026-55040.
+
+---
+
+### [Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)](https://isc.sans.edu/diary/rss/33236)
+**Source :** SANS ISC  **Publié :** 11/08/2026 17:54 UTC
+`cve` `patch` `vulnerability`
+Microsoft a publié des mises à jour de sécurité pour 418 faiblesses, dont 62 sont critiques. Certaines vulnérabilités sont déjà exploitées dans la nature.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Deux pirates revendiquent le piratage de pro du Cloud](https://www.zataz.com/deux-pirates-revendiquent-le-piratage-de-pro-du-cloud/)
-**Source :** ZATAZ  **Publié :** 10/08/2026 22:52 UTC
+### [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
+**Source :** The Hacker News  **Publié :** 12/08/2026 01:06 UTC
 `malware`
-Deux hackers revendiquent le piratage d'un professionnel du cloud, accédant ainsi à 159 instances contenant des données client.
+La nouvelle version de Kimwolf v7, un botnet Android et IoT, peut utiliser HTTP/2 pour masquer des attaques DDoS comme du trafic légitime.
 
 ---
 
-### [China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw](https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html)
-**Source :** The Hacker News  **Publié :** 10/08/2026 22:08 UTC
-`apt` `ransomware` `vulnerability`
-Storm-1175, un groupe chinois financé par l'argent, a lancé le ransomware StormEncryptor via une faille non documentée dans N-central.
+### [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
+**Source :** The Hacker News  **Publié :** 12/08/2026 00:06 UTC
+`apt` `malware` `phishing`
+Une campagne de phishing orchestrée par des acteurs nationaux russes cible le personnel IT en Ukraine pour installer du malware prétendument sous l'apparence de recruteurs.
 
 ---
 
-### [Une fausse lettre AR24 vole les identifiants mail](https://www.zataz.com/une-fausse-lettre-ar24-vole-les-identifiants-mail/)
-**Source :** ZATAZ  **Publié :** 10/08/2026 21:41 UTC
-`apt` `phishing`
-Un nouveau faux e-mail AR24 vole les identifiants mail, testant un phishing en direct et vérifiant une notification AR24.
+### [DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html)
+**Source :** The Hacker News  **Publié :** 11/08/2026 22:05 UTC
+`breach` `cve` `malware` `ransomware`
+Le groupe DeadLock utilise des contrats intelligents polygon pour rendre plus difficile la perturbation de ses infrastructures d'extorsion, combinant le réseau Session avec des services blockchain.
 
 ---
 
-### [Une nouvelle fuite pour la FF Handball ?](https://www.zataz.com/une-nouvelle-fuite-pour-la-ff-handball/)
-**Source :** ZATAZ  **Publié :** 10/08/2026 20:50 UTC
-`malware`
-Un pirate revendique la volée de 1,3 million de lignes à la FF Handball après plusieurs publications visant des groupes français.
+### [Microsoft Plugs Nearly 400 Security Holes](https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/)
+**Source :** Krebs on Security  **Publié :** 11/08/2026 21:28 UTC
+`cve` `malware` `vulnerability`
+Microsoft a publié des mises à jour de sécurité pour 398 faiblesses dans ses systèmes d'exploitation et logiciels, dont certains sont déjà exploités par les attaquants.
 
 ---
 
-### [⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors](https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html)
-**Source :** The Hacker News  **Publié :** 10/08/2026 20:30 UTC
-`cve` `malware`
-Le groupe Gunra cible l'infrastructure critique en exploitant des vulnérabilités dans les pare-feu populaires, selon le FBI et le gouvernement sud-coréen.
+### [Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout](https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response)
+**Source :** The Record  **Publié :** 11/08/2026 19:15 UTC
+`breach` `malware` `ransomware`
+Un groupe de rançonlogiciel a piraté la page Facebook d'un système hospitalier et a prétendu avoir volé 6 To de données sensibles, y compris des informations sur des incidents de harcèlement sexuel et de santé mentale.
 
 ---
 
-### [FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure](https://therecord.media/ransomware-south-korea-fbi-gunra)
-**Source :** The Record  **Publié :** 10/08/2026 19:30 UTC
-`breach` `ransomware` `vulnerability`
-Le groupe Gunra cible l'infrastructure critique en exploitant des vulnérabilités dans les pare-feu populaires, selon le FBI et le gouvernement sud-coréen.
+### [OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development](https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html)
+**Source :** The Hacker News  **Publié :** 11/08/2026 18:41 UTC
+`breach` `cve` `malware` `vulnerability`
+OpenAI a lancé GPT-5.6-Cyber, un modèle dédié à la cybersecurity avec des fonctionnalités améliorées pour la recherche de vulnérabilités et le développement d'exploits.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Valve notifies Steam hardware customers of a data breach](https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/)
-**Source :** Bleeping Computer  **Publié :** 10/08/2026 07:47 UTC  **Score :** 25
+### 1. [Wesco confirms security incident after ExfilSquad claims data theft](https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/)
+**Source :** Bleeping Computer  **Publié :** 11/08/2026 11:59 UTC  **Score :** 25
 `breach`
-Valve informe ses clients de matériel Steam en Europe d'une violation de données après l'hacking de son partenaire logistique, CEVA Logistics.
+Wesco confirme une incident de sécurité après des allégations de vol de données par ExfilSquad.
 
-### 2. [🏴‍☠️ Anubis has just published a new victim : Cleaver-Brooks](https://www.ransomware.live/id/Q2xlYXZlci1Ccm9va3NAYW51Ymlz)
-**Source :** Ransomware.live News  **Publié :** 10/08/2026 22:22 UTC  **Score :** 20
-`breach`
-Un important accès illégal se produit chez un fabricant industriel majeur.
+### 2. [BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins](https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html)
+**Source :** The Hacker News  **Publié :** 11/08/2026 11:18 UTC  **Score :** 25
+`breach` `cve`
+BdThemes a été compromise via sa chaîne d'approvisionnement, créant des administrateurs WordPress frauduleux sans modification du code source.
 
-### 3. [🏴‍☠️ Deadlock has just published a new victim : LT Group / Fortune Tobacco Corp](https://www.ransomware.live/id/TFQgR3JvdXAgLyBGb3J0dW5lIFRvYmFjY28gQ29ycEBEZWFkbG9jaw==)
-**Source :** Ransomware.live News  **Publié :** 10/08/2026 22:20 UTC  **Score :** 20
-`breach`
-Une fuite de 27 gigaoctets contenant 107 passeports, 1712 états bancaires et 231 déclarations fiscales a été publiée après une période d'ignorance de 72 heures.
+### 3. [Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities](https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/)
+**Source :** Cisco Talos  **Publié :** 11/08/2026 22:21 UTC  **Score :** 15
+`patch` `vulnerability`
+Microsoft a publié ses mises à jour de sécurité pour août 2026, corrigeant 421 vulnérabilités, dont 62 marquées comme "critiques".
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-11.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-12.md`*
