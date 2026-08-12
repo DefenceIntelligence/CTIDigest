@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T02:01:23.443546+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e7c16fe6c99f9159",
+        "title": "Mira Hormone Monitor, Mira Android App",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-66340",
+          "CVE-2026-67568",
+          "CVE-2026-67558",
+          "CVE-2026-66832",
+          "CVE-2026-66875",
+          "CVE-2026-64934",
+          "CVE-2026-66098",
+          "CVE-2026-68067"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Vulnérabilités dans le Mira Hormone Monitor pourraient permettre à un attaquant d'accéder à des informations de santé non autorisées, modifier les informations de santé, provoquer une condition de refus de service et dérober des informations sur les tokens de session.",
+        "published_at": "2026-08-11T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "85b756f666c8e5fe",
+        "title": "Pulsetto Vagus Nerve Stimulator",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-18844"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La version du Pulsetto Vagus Nerve Stimulator est affectée par une vulnérabilité qui pourrait permettre à un attaquant d'utiliser des commandes cachées pour désactiver les mécanismes de sécurité électriques ou modifier d'autres paramètres de stimulation.",
+        "published_at": "2026-08-11T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "67432c55f80bda18",
+        "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+        "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-68820"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a publié des mises à jour de sécurité qui résolvent 398 faiblesses, dont certaines sont déjà utilisées dans les attaques. Le bug affecte un pilote réseau du noyau Windows.",
+        "published_at": "2026-08-12T01:40:55",
+        "score": 32
+      },
+      {
+        "guid": "424525e9dd5bdb9e",
+        "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-55040"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans SharePoint permet d'accéder aux serveurs Microsoft comme n'importe quel utilisateur, y compris un administrateur, sans compte valide. La faille est liée à CVE-2026-55040.",
+        "published_at": "2026-08-11T22:17:44",
+        "score": 32
+      },
+      {
+        "guid": "27e40fa4e6b63381",
+        "title": "Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)",
+        "url": "https://isc.sans.edu/diary/rss/33236",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a publié des mises à jour de sécurité pour 418 faiblesses, dont 62 sont critiques. Certaines vulnérabilités sont déjà exploitées dans la nature.",
+        "published_at": "2026-08-11T17:54:49",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "33946c69d21c032d",
+        "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+        "url": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La nouvelle version de Kimwolf v7, un botnet Android et IoT, peut utiliser HTTP/2 pour masquer des attaques DDoS comme du trafic légitime.",
+        "published_at": "2026-08-12T01:06:37",
+        "score": 17
+      },
+      {
+        "guid": "cac7a7a27ca0bbed",
+        "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+        "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Une campagne de phishing orchestrée par des acteurs nationaux russes cible le personnel IT en Ukraine pour installer du malware prétendument sous l'apparence de recruteurs.",
+        "published_at": "2026-08-12T00:06:47",
+        "score": 27
+      },
+      {
+        "guid": "b08fc0b7807fc528",
+        "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+        "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le groupe DeadLock utilise des contrats intelligents polygon pour rendre plus difficile la perturbation de ses infrastructures d'extorsion, combinant le réseau Session avec des services blockchain.",
+        "published_at": "2026-08-11T22:05:27",
+        "score": 37
+      },
+      {
+        "guid": "a5790a7f702fcdae",
+        "title": "Microsoft Plugs Nearly 400 Security Holes",
+        "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a publié des mises à jour de sécurité pour 398 faiblesses dans ses systèmes d'exploitation et logiciels, dont certains sont déjà exploités par les attaquants.",
+        "published_at": "2026-08-11T21:28:35",
+        "score": 17
+      },
+      {
+        "guid": "51dcb81002e95183",
+        "title": "Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout",
+        "url": "https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Un groupe de rançonlogiciel a piraté la page Facebook d'un système hospitalier et a prétendu avoir volé 6 To de données sensibles, y compris des informations sur des incidents de harcèlement sexuel et de santé mentale.",
+        "published_at": "2026-08-11T19:15:00",
+        "score": 47
+      },
+      {
+        "guid": "53102f68e7e16602",
+        "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+        "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "OpenAI a lancé GPT-5.6-Cyber, un modèle dédié à la cybersecurity avec des fonctionnalités améliorées pour la recherche de vulnérabilités et le développement d'exploits.",
+        "published_at": "2026-08-11T18:41:23",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "252f1a95b82e6636",
+        "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+        "url": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Wesco confirme une incident de sécurité après des allégations de vol de données par ExfilSquad.",
+        "published_at": "2026-08-11T11:59:35",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "7a0ac636ee898a2f",
+        "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+        "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "BdThemes a été compromise via sa chaîne d'approvisionnement, créant des administrateurs WordPress frauduleux sans modification du code source.",
+        "published_at": "2026-08-11T11:18:44",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "16bec13df717a60f",
+        "title": "Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities",
+        "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a publié ses mises à jour de sécurité pour août 2026, corrigeant 421 vulnérabilités, dont 62 marquées comme \"critiques\".",
+        "published_at": "2026-08-11T22:21:02",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 66,
+    "items_selected": 14,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 11,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
