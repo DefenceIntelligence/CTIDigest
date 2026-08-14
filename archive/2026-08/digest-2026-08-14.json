@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T02:01:46.557479+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "59d5bb568ff17074",
+        "title": "ANDRITZ HIPASE-250 and 250 SCALA",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-65310",
+          "CVE-2026-65311",
+          "CVE-2026-65309",
+          "CVE-2026-65313"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected workstations.</strong></p>\n<p>The following versions of ANDRITZ HIPASE-250 and 250 SCALA are affected:</p>\n<ul>\n<li>HIPASE-250 &lt;=7.20 (CVE-2026-65309, CVE-2026-65310, CVE-2026-65311, CVE-2026-65313)</li",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "8beb5b6c81578eb2",
+        "title": "Hitachi Energy APM Edge Product",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-43500",
+          "CVE-2026-43284"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for information about the mitiga",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "b2c49507dc5fc09e",
+        "title": "Siemens LOGO! Soft Comfort",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-57262",
+          "CVE-2026-57263"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-13.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master key, allowing them to decrypt project data or remove project passwords. The lack of password salting enables offline dictionary or br",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "c720c32ed69b1a84",
+        "title": "Johnson Controls Inc. Airwall",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-34492",
+          "CVE-2026-64887"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or gain unauthorized access to protected system resources.</strong></p>\n<p>The following versions of Johnson Controls Inc. Airwall are ",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "59aa5e75463a2a4c",
+        "title": "Siemens License Server (SLS)",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-69108",
+          "CVE-2026-69109"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siemens License Server (SLS) and recommends to update to the latest version.</strong></p>\n<p>The following versions of Siemens License S",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 35
+      },
+      {
+        "guid": "13f4e709df560538",
+        "title": "AVEVA Enterprise SCADA",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-7639"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization.</strong></p>\n<p>The following versions of AVEVA Enterprise SCADA are affected:</p>\n<ul>\n<li>Enterprise SCADA 2025 (CVE-2025-7639)</li>\n<li>Enterprise SCADA &gt;=2024|&l",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "d4d20bd0a7af56d3",
+        "title": "Haiwell IoT Cloud HMI Gateway",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-19188"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges.</strong></p>\n<p>The following versions of Haiwell IoT Cloud HMI Gateway are affected:</p>\n<ul>\n<li>Haiwell IoT Cloud HMI Gateway 3.40.1.12 (CVE-2026-19188)</li>\n</ul>\n<div class=\"csaf-table\">\n<table c",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "bfe67d768aa0e3a8",
+        "title": "Flow Neuroscience FL-100",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-18164"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-225-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation parameters and override safety limits.</strong></p>\n<p>The following versions of Flow Neuroscience FL-100 are affected:</p>\n<ul>\n<li>Flow Neuroscience FL-100</li>\n<li>Halo Neuroscience FL-100</li>\n</ul>\n<div ",
+        "published_at": "2026-08-13T12:00:00",
+        "score": 15
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "02ceb8e6864d3a4e",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Reminger",
+        "url": "https://www.ransomware.live/id/UmVtaW5nZXJAU2lsZW50UmFuc29tR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Reminger Attorneys at Law is a law firm with a strong presence in Ohio, Kentucky, and Indiana, operati…",
+        "published_at": "2026-08-13T23:52:14",
+        "score": 12
+      },
+      {
+        "guid": "0a247c87861e43d9",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Hitachi High-Tech",
+        "url": "https://www.ransomware.live/id/SGl0YWNoaSBIaWdoLVRlY2hAY29pbmJhc2VjYXJ0ZWw=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] Hitachi High-Tech is a Japanese technology company headquartered in Tokyo, Japan, and a subsidiary of Hitachi Ltd. It operates in the high-technology and precision equipment industry, specializing in semiconductor manufacturing equipment, analytical and medical instruments, and industrial systems. The company serves sectors including healthcare, electronics, and scientific research, supplying solutions globally across manufacturing and laboratory environments.",
+        "published_at": "2026-08-13T20:53:02",
+        "score": 12
+      },
+      {
+        "guid": "28fd8274fd82111c",
+        "title": "Fisc : un accès illégitime confirmé a exposé des données",
+        "url": "https://www.zataz.com/fisc-un-acces-illegitime-confirme-a-expose-des-donnees/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une cyberattaque a été menée contre la Direction générale des finances publiques, exposant de nombreuses données et entraînant une seconde fuite revendiquée.",
+        "published_at": "2026-08-13T18:38:26",
+        "score": 17
+      },
+      {
+        "guid": "48918dd573421321",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : SIA Medical Centre",
+        "url": "https://www.ransomware.live/id/U0lBIE1lZGljYWwgQ2VudHJlQHJoeXNpZGE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "SIA Medical Centre a été victime d'une attaque, avec l'exposition de 20 000 dossiers médicaux et des documents personnels des employés.",
+        "published_at": "2026-08-13T17:57:28",
+        "score": 32
+      },
+      {
+        "guid": "d61e6478c9f8057a",
+        "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
+        "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "ransomware"
+        ],
+        "summary": "Un affilié Akira a désactivé le système EDR en redémarrant en Safe Mode, exfiltrant les données sans les chiffrer.",
+        "published_at": "2026-08-13T16:47:02",
+        "score": 25
+      },
+      {
+        "guid": "fffe682a6387bd42",
+        "title": "New Mirai variant adds stealth capabilities to notorious botnet code",
+        "url": "https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une nouvelle variante de Mirai intègre des fonctionnalités de communication chiffrée et d'analyse des informations d'accès par défaut.",
+        "published_at": "2026-08-13T15:52:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "ba82f4d5b1e682c5",
+        "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Trezor a divulgué un vol de données concernant près de 14 000 de ses clients après une attaque contre son prestataire ShipMonk.",
+        "published_at": "2026-08-13T11:13:19",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "8c6e0f361d709cf0",
+        "title": "RingCentral - 1,596,490 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/RingCentral",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "RingCentral a été ciblé par ShinyHunters, qui ont publiquement partagé des informations sur 1 596 490 comptes volés.",
+        "published_at": "2026-08-13T10:54:40",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "9f9b0bdec511bdce",
+        "title": "Dissecting the JWR phishing framework",
+        "url": "https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Cisco Talos a découvert le framework de phishing JWR, un outil non officiel utilisé pour simuler des pages d'enregistrement et de paiement.",
+        "published_at": "2026-08-13T10:00:35",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 55,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 15,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
