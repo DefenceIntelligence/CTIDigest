@@ -1,108 +1,145 @@
-# 🛡️ ARGOS CTI Digest — 12 août 2026
+# 🛡️ ARGOS CTI Digest — 14 août 2026
 
-> Généré le 12/08/2026 à 02:01 UTC  ·  66 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 14/08/2026 à 02:01 UTC  ·  55 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Mira Hormone Monitor, Mira Android App](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01)
-**Source :** CISA Advisories  **Publié :** 11/08/2026 12:00 UTC  **CVE :** `CVE-2026-66340`, `CVE-2026-67568`, `CVE-2026-67558`, `CVE-2026-66832`, `CVE-2026-66875`
-`cve` `malware` `vulnerability`
-Vulnérabilités dans le Mira Hormone Monitor pourraient permettre à un attaquant d'accéder à des informations de santé non autorisées, modifier les informations de santé, provoquer une condition de refus de service et dérober des informations sur les tokens de session.
+### [ANDRITZ HIPASE-250 and 250 SCALA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-65310`, `CVE-2026-65311`, `CVE-2026-65309`, `CVE-2026-65313`
+`apt` `cve` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-05.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected works
 
 ---
 
-### [Pulsetto Vagus Nerve Stimulator](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02)
-**Source :** CISA Advisories  **Publié :** 11/08/2026 12:00 UTC  **CVE :** `CVE-2026-18844`
+### [Hitachi Energy APM Edge Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-43500`, `CVE-2026-43284`
 `cve` `vulnerability`
-La version du Pulsetto Vagus Nerve Stimulator est affectée par une vulnérabilité qui pourrait permettre à un attaquant d'utiliser des commandes cachées pour désactiver les mécanismes de sécurité électriques ou modifier d'autres paramètres de stimulation.
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-04.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploi
 
 ---
 
-### [Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack](https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html)
-**Source :** The Hacker News  **Publié :** 12/08/2026 01:40 UTC  **CVE :** `CVE-2026-68820`
-`cve` `malware` `patch` `vulnerability`
-Microsoft a publié des mises à jour de sécurité qui résolvent 398 faiblesses, dont certaines sont déjà utilisées dans les attaques. Le bug affecte un pilote réseau du noyau Windows.
-
----
-
-### [Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE](https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html)
-**Source :** The Hacker News  **Publié :** 11/08/2026 22:17 UTC  **CVE :** `CVE-2026-55040`
+### [Siemens LOGO! Soft Comfort](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-57262`, `CVE-2026-57263`
 `cve` `malware` `vulnerability`
-Une vulnérabilité dans SharePoint permet d'accéder aux serveurs Microsoft comme n'importe quel utilisateur, y compris un administrateur, sans compte valide. La faille est liée à CVE-2026-55040.
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-13.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local
 
 ---
 
-### [Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)](https://isc.sans.edu/diary/rss/33236)
-**Source :** SANS ISC  **Publié :** 11/08/2026 17:54 UTC
-`cve` `patch` `vulnerability`
-Microsoft a publié des mises à jour de sécurité pour 418 faiblesses, dont 62 sont critiques. Certaines vulnérabilités sont déjà exploitées dans la nature.
+### [Johnson Controls Inc. Airwall](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-34492`, `CVE-2026-64887`
+`cve` `malware` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-03.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, ga
+
+---
+
+### [Siemens License Server (SLS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-69108`, `CVE-2026-69109`
+`breach` `cve` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-07.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitr
+
+---
+
+### [AVEVA Enterprise SCADA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2025-7639`
+`cve` `malware` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-01.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code ex
+
+---
+
+### [Haiwell IoT Cloud HMI Gateway](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-19188`
+`cve` `malware` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-02.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges.<
+
+---
+
+### [Flow Neuroscience FL-100](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01)
+**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-18164`
+`cve` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-225-01.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation paramete
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing](https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html)
-**Source :** The Hacker News  **Publié :** 12/08/2026 01:06 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Reminger](https://www.ransomware.live/id/UmVtaW5nZXJAU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 13/08/2026 23:52 UTC
 `malware`
-La nouvelle version de Kimwolf v7, un botnet Android et IoT, peut utiliser HTTP/2 pour masquer des attaques DDoS comme du trafic légitime.
+Reminger Attorneys at Law is a law firm with a strong presence in Ohio, Kentucky, and Indiana, operati…
 
 ---
 
-### [Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands](https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html)
-**Source :** The Hacker News  **Publié :** 12/08/2026 00:06 UTC
-`apt` `malware` `phishing`
-Une campagne de phishing orchestrée par des acteurs nationaux russes cible le personnel IT en Ukraine pour installer du malware prétendument sous l'apparence de recruteurs.
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Hitachi High-Tech](https://www.ransomware.live/id/SGl0YWNoaSBIaWdoLVRlY2hAY29pbmJhc2VjYXJ0ZWw=)
+**Source :** Ransomware.live News  **Publié :** 13/08/2026 20:53 UTC
+`malware`
+[AI generated] Hitachi High-Tech is a Japanese technology company headquartered in Tokyo, Japan, and a subsidiary of Hitachi Ltd. It operates in the high-technology and precision equipment industry, specializing in semiconductor manufacturing equipment, analytical and medical instruments, and indust
 
 ---
 
-### [DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt](https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html)
-**Source :** The Hacker News  **Publié :** 11/08/2026 22:05 UTC
-`breach` `cve` `malware` `ransomware`
-Le groupe DeadLock utilise des contrats intelligents polygon pour rendre plus difficile la perturbation de ses infrastructures d'extorsion, combinant le réseau Session avec des services blockchain.
+### [Fisc : un accès illégitime confirmé a exposé des données](https://www.zataz.com/fisc-un-acces-illegitime-confirme-a-expose-des-donnees/)
+**Source :** ZATAZ  **Publié :** 13/08/2026 18:38 UTC
+`malware`
+Une cyberattaque a été menée contre la Direction générale des finances publiques, exposant de nombreuses données et entraînant une seconde fuite revendiquée.
 
 ---
 
-### [Microsoft Plugs Nearly 400 Security Holes](https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/)
-**Source :** Krebs on Security  **Publié :** 11/08/2026 21:28 UTC
-`cve` `malware` `vulnerability`
-Microsoft a publié des mises à jour de sécurité pour 398 faiblesses dans ses systèmes d'exploitation et logiciels, dont certains sont déjà exploités par les attaquants.
-
----
-
-### [Ransomware group hijacks hospital system’s Facebook page amid ongoing cyberattack fallout](https://therecord.media/ransomware-group-hijacks-hospital-facebook-amid-cyberattack-response)
-**Source :** The Record  **Publié :** 11/08/2026 19:15 UTC
+### [🏴‍☠️ Rhysida has just published a new victim : SIA Medical Centre](https://www.ransomware.live/id/U0lBIE1lZGljYWwgQ2VudHJlQHJoeXNpZGE=)
+**Source :** Ransomware.live News  **Publié :** 13/08/2026 17:57 UTC
 `breach` `malware` `ransomware`
-Un groupe de rançonlogiciel a piraté la page Facebook d'un système hospitalier et a prétendu avoir volé 6 To de données sensibles, y compris des informations sur des incidents de harcèlement sexuel et de santé mentale.
+SIA Medical Centre a été victime d'une attaque, avec l'exposition de 20 000 dossiers médicaux et des documents personnels des employés.
 
 ---
 
-### [OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development](https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html)
-**Source :** The Hacker News  **Publié :** 11/08/2026 18:41 UTC
-`breach` `cve` `malware` `vulnerability`
-OpenAI a lancé GPT-5.6-Cyber, un modèle dédié à la cybersecurity avec des fonctionnalités améliorées pour la recherche de vulnérabilités et le développement d'exploits.
+### [Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt](https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/)
+**Source :** Bleeping Computer  **Publié :** 13/08/2026 16:47 UTC
+`breach` `ransomware`
+Un affilié Akira a désactivé le système EDR en redémarrant en Safe Mode, exfiltrant les données sans les chiffrer.
+
+---
+
+### [New Mirai variant adds stealth capabilities to notorious botnet code](https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code)
+**Source :** The Record  **Publié :** 13/08/2026 15:52 UTC
+`malware`
+Une nouvelle variante de Mirai intègre des fonctionnalités de communication chiffrée et d'analyse des informations d'accès par défaut.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Wesco confirms security incident after ExfilSquad claims data theft](https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/)
-**Source :** Bleeping Computer  **Publié :** 11/08/2026 11:59 UTC  **Score :** 25
+### 1. [Trezor discloses data breach affecting nearly 14,000 customers](https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/)
+**Source :** Bleeping Computer  **Publié :** 13/08/2026 11:13 UTC  **Score :** 25
 `breach`
-Wesco confirme une incident de sécurité après des allégations de vol de données par ExfilSquad.
+Trezor a divulgué un vol de données concernant près de 14 000 de ses clients après une attaque contre son prestataire ShipMonk.
 
-### 2. [BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins](https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html)
-**Source :** The Hacker News  **Publié :** 11/08/2026 11:18 UTC  **Score :** 25
-`breach` `cve`
-BdThemes a été compromise via sa chaîne d'approvisionnement, créant des administrateurs WordPress frauduleux sans modification du code source.
+### 2. [RingCentral - 1,596,490 breached accounts](https://haveibeenpwned.com/Breach/RingCentral)
+**Source :** Have I Been Pwned  **Publié :** 13/08/2026 10:54 UTC  **Score :** 25
+`breach`
+RingCentral a été ciblé par ShinyHunters, qui ont publiquement partagé des informations sur 1 596 490 comptes volés.
 
-### 3. [Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities](https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/)
-**Source :** Cisco Talos  **Publié :** 11/08/2026 22:21 UTC  **Score :** 15
-`patch` `vulnerability`
-Microsoft a publié ses mises à jour de sécurité pour août 2026, corrigeant 421 vulnérabilités, dont 62 marquées comme "critiques".
+### 3. [Dissecting the JWR phishing framework](https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/)
+**Source :** Cisco Talos  **Publié :** 13/08/2026 10:00 UTC  **Score :** 25
+`phishing`
+Cisco Talos a découvert le framework de phishing JWR, un outil non officiel utilisé pour simuler des pages d'enregistrement et de paiement.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-12.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-14.md`*
