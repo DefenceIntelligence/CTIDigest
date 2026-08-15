@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T02:00:43.394018+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "62557d8580e41d7d",
+        "title": "Friday Squid Blogging: Searching for the Colossal Squid",
+        "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un vidéo montre que les lampes blanches effraient les créatures sous-marines, tandis que des lumières rouges sont moins perturbantes.",
+        "published_at": "2026-08-14T21:01:49",
+        "score": 17
+      },
+      {
+        "guid": "42767c9d06bda193",
+        "title": "How Anthropic plans to watermark Claude's AI-generated text",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Anthropic développe un système de marquage pour identifier le contenu généré par IA sur les réseaux sociaux.",
+        "published_at": "2026-08-14T19:24:17",
+        "score": 17
+      },
+      {
+        "guid": "8711470986ebb4a7",
+        "title": "🏴‍☠️ Safepay has just published a new victim : granjarinya.com",
+        "url": "https://www.ransomware.live/id/Z3JhbmphcmlueWEuY29tQHNhZmVwYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a découvert une nouvelle victime : granjarinya.com, une entreprise familiale basée en Espagne.",
+        "published_at": "2026-08-14T17:28:25",
+        "score": 12
+      },
+      {
+        "guid": "a744ca5e1ab72c63",
+        "title": "🏴‍☠️ Interlock has just published a new victim : Connell Enterprises LLC",
+        "url": "https://www.ransomware.live/id/Q29ubmVsbCBFbnRlcnByaXNlcyBMTENAaW50ZXJsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Connell Enterprises LLC, administrateur de réseaux, a été compromise après avoir distribué du contenu pornographique et généré du matériel pédopornographique.",
+        "published_at": "2026-08-14T14:32:04",
+        "score": 32
+      },
+      {
+        "guid": "d8d8c6ecb93ef9ca",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Turner and Townsend",
+        "url": "https://www.ransomware.live/id/VHVybmVyIGFuZCBUb3duc2VuZEBjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Turner and Townsend, une entreprise de services professionnels basée au Royaume-Uni, a été victime d'une attaque.",
+        "published_at": "2026-08-14T13:56:02",
+        "score": 12
+      },
+      {
+        "guid": "e42ee278726c882f",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Serruya private equity",
+        "url": "https://www.ransomware.live/id/U2VycnV5YSBwcml2YXRlIGVxdWl0eUBjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Serruya Private Equity, une société canadienne de capital-risque, est la nouvelle victime d'une attaque.",
+        "published_at": "2026-08-14T13:55:21",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "8a12368e56bcd927",
+        "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+        "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Les attaques Google Workspace peuvent se produire par l'intermédiaire de stolen OAuth tokens, non seulement via le phishing.",
+        "published_at": "2026-08-14T10:00:10",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "c56992655929aa8e",
+        "title": "RingCentral data breach exposed info of 1.6 million accounts",
+        "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un groupe d'extraction a volé des informations personnelles d'environ 1,6 million de comptes RingCentral.",
+        "published_at": "2026-08-14T06:52:05",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "21e9af26f6fadbfe",
+        "title": "🏴‍☠️ M3rx has just published a new victim : tecnoabi.com",
+        "url": "https://www.ransomware.live/id/dGVjbm9hYmkuY29tQG0zcng=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "M3rx a identifié une nouvelle victime : Tecnoabi.com, une entreprise espagnole spécialisée dans le développement logiciel B2B.",
+        "published_at": "2026-08-14T07:56:05",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 68,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
