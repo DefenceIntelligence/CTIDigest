@@ -1,145 +1,75 @@
-# 🛡️ ARGOS CTI Digest — 14 août 2026
+# 🛡️ ARGOS CTI Digest — 15 août 2026
 
-> Généré le 14/08/2026 à 02:01 UTC  ·  55 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 15/08/2026 à 02:00 UTC  ·  68 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [ANDRITZ HIPASE-250 and 250 SCALA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-65310`, `CVE-2026-65311`, `CVE-2026-65309`, `CVE-2026-65313`
-`apt` `cve` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-05.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected works
-
----
-
-### [Hitachi Energy APM Edge Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-04)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-43500`, `CVE-2026-43284`
-`cve` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-04.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Hitachi Energy is aware of Dirty Frag vulnerabilities that affect APM Edge product versions listed in this document. Successful exploi
-
----
-
-### [Siemens LOGO! Soft Comfort](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-57262`, `CVE-2026-57263`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-13.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local
-
----
-
-### [Johnson Controls Inc. Airwall](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-34492`, `CVE-2026-64887`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-03.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, ga
-
----
-
-### [Siemens License Server (SLS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-69108`, `CVE-2026-69109`
-`breach` `cve` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-07.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitr
-
----
-
-### [AVEVA Enterprise SCADA](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2025-7639`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-01.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code ex
-
----
-
-### [Haiwell IoT Cloud HMI Gateway](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-19188`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-225-02.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges.<
-
----
-
-### [Flow Neuroscience FL-100](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-225-01)
-**Source :** CISA Advisories  **Publié :** 13/08/2026 12:00 UTC  **CVE :** `CVE-2026-18164`
-`cve` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsma-26-225-01.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to manipulate brain stimulation paramete
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Reminger](https://www.ransomware.live/id/UmVtaW5nZXJAU2lsZW50UmFuc29tR3JvdXA=)
-**Source :** Ransomware.live News  **Publié :** 13/08/2026 23:52 UTC
+### [Friday Squid Blogging: Searching for the Colossal Squid](https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html)
+**Source :** Schneier on Security  **Publié :** 14/08/2026 21:01 UTC
 `malware`
-Reminger Attorneys at Law is a law firm with a strong presence in Ohio, Kentucky, and Indiana, operati…
+Un vidéo montre que les lampes blanches effraient les créatures sous-marines, tandis que des lumières rouges sont moins perturbantes.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Hitachi High-Tech](https://www.ransomware.live/id/SGl0YWNoaSBIaWdoLVRlY2hAY29pbmJhc2VjYXJ0ZWw=)
-**Source :** Ransomware.live News  **Publié :** 13/08/2026 20:53 UTC
+### [How Anthropic plans to watermark Claude's AI-generated text](https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/)
+**Source :** Bleeping Computer  **Publié :** 14/08/2026 19:24 UTC
 `malware`
-[AI generated] Hitachi High-Tech is a Japanese technology company headquartered in Tokyo, Japan, and a subsidiary of Hitachi Ltd. It operates in the high-technology and precision equipment industry, specializing in semiconductor manufacturing equipment, analytical and medical instruments, and indust
+Anthropic développe un système de marquage pour identifier le contenu généré par IA sur les réseaux sociaux.
 
 ---
 
-### [Fisc : un accès illégitime confirmé a exposé des données](https://www.zataz.com/fisc-un-acces-illegitime-confirme-a-expose-des-donnees/)
-**Source :** ZATAZ  **Publié :** 13/08/2026 18:38 UTC
+### [🏴‍☠️ Safepay has just published a new victim : granjarinya.com](https://www.ransomware.live/id/Z3JhbmphcmlueWEuY29tQHNhZmVwYXk=)
+**Source :** Ransomware.live News  **Publié :** 14/08/2026 17:28 UTC
 `malware`
-Une cyberattaque a été menée contre la Direction générale des finances publiques, exposant de nombreuses données et entraînant une seconde fuite revendiquée.
+Safepay a découvert une nouvelle victime : granjarinya.com, une entreprise familiale basée en Espagne.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : SIA Medical Centre](https://www.ransomware.live/id/U0lBIE1lZGljYWwgQ2VudHJlQHJoeXNpZGE=)
-**Source :** Ransomware.live News  **Publié :** 13/08/2026 17:57 UTC
-`breach` `malware` `ransomware`
-SIA Medical Centre a été victime d'une attaque, avec l'exposition de 20 000 dossiers médicaux et des documents personnels des employés.
+### [🏴‍☠️ Interlock has just published a new victim : Connell Enterprises LLC](https://www.ransomware.live/id/Q29ubmVsbCBFbnRlcnByaXNlcyBMTENAaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 14/08/2026 14:32 UTC
+`breach` `cve` `malware`
+Connell Enterprises LLC, administrateur de réseaux, a été compromise après avoir distribué du contenu pornographique et généré du matériel pédopornographique.
 
 ---
 
-### [Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt](https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/)
-**Source :** Bleeping Computer  **Publié :** 13/08/2026 16:47 UTC
-`breach` `ransomware`
-Un affilié Akira a désactivé le système EDR en redémarrant en Safe Mode, exfiltrant les données sans les chiffrer.
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Turner and Townsend](https://www.ransomware.live/id/VHVybmVyIGFuZCBUb3duc2VuZEBjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 14/08/2026 13:56 UTC
+`cve` `malware`
+Turner and Townsend, une entreprise de services professionnels basée au Royaume-Uni, a été victime d'une attaque.
 
 ---
 
-### [New Mirai variant adds stealth capabilities to notorious botnet code](https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code)
-**Source :** The Record  **Publié :** 13/08/2026 15:52 UTC
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Serruya private equity](https://www.ransomware.live/id/U2VycnV5YSBwcml2YXRlIGVxdWl0eUBjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 14/08/2026 13:55 UTC
 `malware`
-Une nouvelle variante de Mirai intègre des fonctionnalités de communication chiffrée et d'analyse des informations d'accès par défaut.
+Serruya Private Equity, une société canadienne de capital-risque, est la nouvelle victime d'une attaque.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Trezor discloses data breach affecting nearly 14,000 customers](https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/)
-**Source :** Bleeping Computer  **Publié :** 13/08/2026 11:13 UTC  **Score :** 25
-`breach`
-Trezor a divulgué un vol de données concernant près de 14 000 de ses clients après une attaque contre son prestataire ShipMonk.
+### 1. [The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI](https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/)
+**Source :** Bleeping Computer  **Publié :** 14/08/2026 10:00 UTC  **Score :** 35
+`breach` `phishing`
+Les attaques Google Workspace peuvent se produire par l'intermédiaire de stolen OAuth tokens, non seulement via le phishing.
 
-### 2. [RingCentral - 1,596,490 breached accounts](https://haveibeenpwned.com/Breach/RingCentral)
-**Source :** Have I Been Pwned  **Publié :** 13/08/2026 10:54 UTC  **Score :** 25
+### 2. [RingCentral data breach exposed info of 1.6 million accounts](https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/)
+**Source :** Bleeping Computer  **Publié :** 14/08/2026 06:52 UTC  **Score :** 25
 `breach`
-RingCentral a été ciblé par ShinyHunters, qui ont publiquement partagé des informations sur 1 596 490 comptes volés.
+Un groupe d'extraction a volé des informations personnelles d'environ 1,6 million de comptes RingCentral.
 
-### 3. [Dissecting the JWR phishing framework](https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/)
-**Source :** Cisco Talos  **Publié :** 13/08/2026 10:00 UTC  **Score :** 25
-`phishing`
-Cisco Talos a découvert le framework de phishing JWR, un outil non officiel utilisé pour simuler des pages d'enregistrement et de paiement.
+### 3. [🏴‍☠️ M3rx has just published a new victim : tecnoabi.com](https://www.ransomware.live/id/dGVjbm9hYmkuY29tQG0zcng=)
+**Source :** Ransomware.live News  **Publié :** 14/08/2026 07:56 UTC  **Score :** 20
+`breach`
+M3rx a identifié une nouvelle victime : Tecnoabi.com, une entreprise espagnole spécialisée dans le développement logiciel B2B.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-14.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-15.md`*
