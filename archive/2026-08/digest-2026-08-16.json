@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T02:00:30.540632+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "a6da6dd8ee6a6355",
+        "title": "🏴‍☠️ Spacebears has just published a new victim : SEARS (Grupo Sanborns)",
+        "url": "https://www.ransomware.live/id/U0VBUlMgKEdydXBvIFNhbmJvcm5zKUBzcGFjZWJlYXJz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "SEARS (Grupo Sanborns) a été victime d'une attaque de la part de Spacebears.",
+        "published_at": "2026-08-15T15:30:23",
+        "score": 12
+      },
+      {
+        "guid": "4fd56a208e6c8dc3",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : VR Advogados",
+        "url": "https://www.ransomware.live/id/VlIgQWR2b2dhZG9zQEJhcnJhY3VkYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "VR Advogados, une entreprise juridique brésilienne, a eu ses données personnelles volées par Barracuda.",
+        "published_at": "2026-08-15T12:50:32",
+        "score": 12
+      },
+      {
+        "guid": "63d06514771af199",
+        "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+        "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Evooo1Bot, un nouveau botnet Mirai basé sur Linux, transforme les routeurs en nœuds de relais de trafic.",
+        "published_at": "2026-08-15T10:14:38",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "be62aef8ab7b75d7",
+        "title": "🏴‍☠️ Blackwater has just published a new victim : www.amca.org.ar",
+        "url": "https://www.ransomware.live/id/d3d3LmFtY2Eub3JnLmFyQGJsYWNrd2F0ZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "www.amca.org.ar a subi une attaque et ses données ont été bloquées par Blackwater.",
+        "published_at": "2026-08-15T09:23:53",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "e80e8d0e9b04155c",
+        "title": "🏴‍☠️ Blackwater has just published a new victim : www.shalina.com",
+        "url": "https://www.ransomware.live/id/d3d3LnNoYWxpbmEuY29tQGJsYWNrd2F0ZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "www.shalina.com a été victime d'une attaque avec blocage des données par Blackwater.",
+        "published_at": "2026-08-15T09:23:19",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "941b7af0338a0292",
+        "title": "🏴‍☠️ Xpl0itrs has just published a new victim : Dynatrace",
+        "url": "https://www.ransomware.live/id/RHluYXRyYWNlQHhwbDBpdHJz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Dynatrace, une plateforme d'observabilité IA, a été la cible de Xpl0itrs.",
+        "published_at": "2026-08-15T21:44:14",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 18,
+    "items_selected": 6,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
