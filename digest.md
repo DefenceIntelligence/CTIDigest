@@ -1,53 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 16 août 2026
+# 🛡️ ARGOS CTI Digest — 17 août 2026
 
-> Généré le 16/08/2026 à 02:00 UTC  ·  18 items analysés  ·  6 sélectionnés  ·  22 sources actives
+> Généré le 17/08/2026 à 02:00 UTC  ·  46 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Wireshark 4.6.8 Released, (Sun, Aug 16th)](https://isc.sans.edu/diary/rss/33248)
+**Source :** SANS ISC  **Publié :** 16/08/2026 21:31 UTC
+`vulnerability`
+Wireshark 4.6.8 a été lancé, corrigeant 28 vulnérabilités et 25 bugs.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Spacebears has just published a new victim : SEARS (Grupo Sanborns)](https://www.ransomware.live/id/U0VBUlMgKEdydXBvIFNhbmJvcm5zKUBzcGFjZWJlYXJz)
-**Source :** Ransomware.live News  **Publié :** 15/08/2026 15:30 UTC
+### [SafePal data breach impacts 39,798 customers, stolen info for sale](https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/)
+**Source :** Bleeping Computer  **Publié :** 16/08/2026 19:47 UTC
+`apt` `breach` `cve` `vulnerability`
+Une fuite de données affecte SafePal avec des informations sur 39 798 clients volées et mises en vente.
+
+---
+
+### [🏴‍☠️ Eclipse has just published a new victim : Moscord](https://www.ransomware.live/id/TW9zY29yZEBFY2xpcHNl)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 16:18 UTC
 `cve` `malware`
-SEARS (Grupo Sanborns) a été victime d'une attaque de la part de Spacebears.
+Moscord, un marché numérique pour l'industrie maritime, est victime d'une fuite de données.
 
 ---
 
-### [🏴‍☠️ Barracuda has just published a new victim : VR Advogados](https://www.ransomware.live/id/VlIgQWR2b2dhZG9zQEJhcnJhY3VkYQ==)
-**Source :** Ransomware.live News  **Publié :** 15/08/2026 12:50 UTC
-`malware` `ransomware`
-VR Advogados, une entreprise juridique brésilienne, a eu ses données personnelles volées par Barracuda.
-
----
-
-### [New Evooo1Bot Linux botnet turns routers into traffic relay nodes](https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/)
-**Source :** Bleeping Computer  **Publié :** 15/08/2026 10:14 UTC
+### [🏴‍☠️ Settra has just published a new victim : tiltstudio.com](https://www.ransomware.live/id/dGlsdHN0dWRpby5jb21Ac2V0dHJh)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 15:26 UTC
 `malware`
-Evooo1Bot, un nouveau botnet Mirai basé sur Linux, transforme les routeurs en nœuds de relais de trafic.
+Le site tiltstudio.com a été compromis dans une fuite de données corporative.
+
+---
+
+### [🏴‍☠️ Medusalocker has just published a new victim : Twal Family IT Lab](https://www.ransomware.live/id/VHdhbCBGYW1pbHkgSVQgTGFiQG1lZHVzYWxvY2tlcg==)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 15:21 UTC
+`cve` `malware`
+Twal Family IT Lab est victime d'un rançongiciel, avec des informations sur un laboratoire familial.
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : actua.fr](https://www.ransomware.live/id/YWN0dWEuZnJAbG9ja2JpdDU=)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 14:53 UTC
+`ransomware`
+actua.fr, une entreprise de recrutement, a été ciblée par Lockbit5 dans une fuite de données.
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : dupouy-associes.fr](https://www.ransomware.live/id/ZHVwb3V5LWFzc29jaWVzLmZyQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 14:52 UTC
+`malware` `ransomware`
+dupouy-associes.fr, un cabinet d'expertise comptable, a subi une attaque de rançongiciel.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Blackwater has just published a new victim : www.amca.org.ar](https://www.ransomware.live/id/d3d3LmFtY2Eub3JnLmFyQGJsYWNrd2F0ZXI=)
-**Source :** Ransomware.live News  **Publié :** 15/08/2026 09:23 UTC  **Score :** 20
-`breach`
-www.amca.org.ar a subi une attaque et ses données ont été bloquées par Blackwater.
+### 1. [Anthropic confirms Claude is down in major outage affecting multiple services](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/)
+**Source :** Bleeping Computer  **Publié :** 16/08/2026 18:28 UTC  **Score :** 5
+Claude, une plateforme de services Anthropic, expérimente une grave panne affectant plusieurs services.
 
-### 2. [🏴‍☠️ Blackwater has just published a new victim : www.shalina.com](https://www.ransomware.live/id/d3d3LnNoYWxpbmEuY29tQGJsYWNrd2F0ZXI=)
-**Source :** Ransomware.live News  **Publié :** 15/08/2026 09:23 UTC  **Score :** 20
-`breach`
-www.shalina.com a été victime d'une attaque avec blocage des données par Blackwater.
+### 2. [Large-scale DDoS attacks disrupted Threema secure messaging service](https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/)
+**Source :** Bleeping Computer  **Publié :** 16/08/2026 13:29 UTC  **Score :** 5
+De nombreux attaques DDoS perturbent les services de messagerie sécurisée Threema.
 
-### 3. [🏴‍☠️ Xpl0itrs has just published a new victim : Dynatrace](https://www.ransomware.live/id/RHluYXRyYWNlQHhwbDBpdHJz)
-**Source :** Ransomware.live News  **Publié :** 15/08/2026 21:44 UTC  **Score :** 0
-Dynatrace, une plateforme d'observabilité IA, a été la cible de Xpl0itrs.
+### 3. [🏴‍☠️ Emperador has just published a new victim : Albania's official national teacher training portal.](https://www.ransomware.live/id/QWxiYW5pYSdzIG9mZmljaWFsIG5hdGlvbmFsIHRlYWNoZXIgdHJhaW5pbmcgcG9ydGFsLkBlbXBlcmFkb3I=)
+**Source :** Ransomware.live News  **Publié :** 16/08/2026 21:50 UTC  **Score :** 0
+`cve`
+Le site officiel de formation des enseignants d'Albanie a été victime d'une fuite de données incluant 100 000 numéros d'identité nationaux et certificats. [Sector: Éducation, Gouvernement]
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-16.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-17.md`*
