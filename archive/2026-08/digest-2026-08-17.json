@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T02:00:45.187827+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "11066d96b7a7e22c",
+        "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
+        "url": "https://isc.sans.edu/diary/rss/33248",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Wireshark 4.6.8 a été lancé, corrigeant 28 vulnérabilités et 25 bugs.",
+        "published_at": "2026-08-16T21:31:48",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "fa1d00fd3a6532c3",
+        "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+        "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une fuite de données affecte SafePal avec des informations sur 39 798 clients volées et mises en vente.",
+        "published_at": "2026-08-16T19:47:06",
+        "score": 25
+      },
+      {
+        "guid": "2a29bbbf4ee1a22a",
+        "title": "🏴‍☠️ Eclipse has just published a new victim : Moscord",
+        "url": "https://www.ransomware.live/id/TW9zY29yZEBFY2xpcHNl",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Moscord, un marché numérique pour l'industrie maritime, est victime d'une fuite de données.",
+        "published_at": "2026-08-16T16:18:45",
+        "score": 12
+      },
+      {
+        "guid": "69de47624c6e7a96",
+        "title": "🏴‍☠️ Settra has just published a new victim : tiltstudio.com",
+        "url": "https://www.ransomware.live/id/dGlsdHN0dWRpby5jb21Ac2V0dHJh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le site tiltstudio.com a été compromis dans une fuite de données corporative.",
+        "published_at": "2026-08-16T15:26:34",
+        "score": 12
+      },
+      {
+        "guid": "13da7724b3ae6f80",
+        "title": "🏴‍☠️ Medusalocker has just published a new victim : Twal Family IT Lab",
+        "url": "https://www.ransomware.live/id/VHdhbCBGYW1pbHkgSVQgTGFiQG1lZHVzYWxvY2tlcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Twal Family IT Lab est victime d'un rançongiciel, avec des informations sur un laboratoire familial.",
+        "published_at": "2026-08-16T15:21:57",
+        "score": 12
+      },
+      {
+        "guid": "bbaa57a668a38ace",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : actua.fr",
+        "url": "https://www.ransomware.live/id/YWN0dWEuZnJAbG9ja2JpdDU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "actua.fr, une entreprise de recrutement, a été ciblée par Lockbit5 dans une fuite de données.",
+        "published_at": "2026-08-16T14:53:14",
+        "score": 0
+      },
+      {
+        "guid": "1df967c991f361e4",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : dupouy-associes.fr",
+        "url": "https://www.ransomware.live/id/ZHVwb3V5LWFzc29jaWVzLmZyQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "dupouy-associes.fr, un cabinet d'expertise comptable, a subi une attaque de rançongiciel.",
+        "published_at": "2026-08-16T14:52:43",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "9aa5069c9be0709e",
+        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Claude, une plateforme de services Anthropic, expérimente une grave panne affectant plusieurs services.",
+        "published_at": "2026-08-16T18:28:57",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "ad0ba1621044c5d7",
+        "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+        "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "De nombreux attaques DDoS perturbent les services de messagerie sécurisée Threema.",
+        "published_at": "2026-08-16T13:29:52",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "15b4c351faa0a5a8",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Albania's official national teacher training portal.",
+        "url": "https://www.ransomware.live/id/QWxiYW5pYSdzIG9mZmljaWFsIG5hdGlvbmFsIHRlYWNoZXIgdHJhaW5pbmcgcG9ydGFsLkBlbXBlcmFkb3I=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Le site officiel de formation des enseignants d'Albanie a été victime d'une fuite de données incluant 100 000 numéros d'identité nationaux et certificats. [Sector: Éducation, Gouvernement]",
+        "published_at": "2026-08-16T21:50:56",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 46,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
