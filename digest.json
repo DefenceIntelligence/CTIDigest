@@ -1,167 +1,259 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-17",
-  "generated_at": "2026-08-17T02:00:45.187827+00:00",
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T02:01:20.837323+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "11066d96b7a7e22c",
-        "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
-        "url": "https://isc.sans.edu/diary/rss/33248",
+        "guid": "27857d1d69e4779e",
+        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+        "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-19478"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "GitLab a publié des mises à jour de sécurité pour corriger une vulnérabilité critique (CVE-2026-19478) qui permettrait aux attaquants non authentifiés d'effacer des projets et des données utilisateur publics.",
+        "published_at": "2026-08-18T02:33:04",
+        "score": 32
+      },
+      {
+        "guid": "440b085b7fa9b73e",
+        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+        "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-15748"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un vulnérabilité critique (CVE-2026-15748) a été découvert dans Forminator Forms pour WordPress, permettant une exécution arbitraire de code par des utilisateurs non authentifiés.",
+        "published_at": "2026-08-17T23:52:09",
+        "score": 32
+      },
+      {
+        "guid": "c2ed8bed91c01793",
+        "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+        "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-59310"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Un acteur suspecté d'avoir des liens avec la Chine a exploité une vulnérabilité grave (CVE-2026-59310) dans VMware vCenter, déployant un rançon-logiciel dérivé de Babuk.",
+        "published_at": "2026-08-17T13:06:19",
+        "score": 20
+      },
+      {
+        "guid": "251e2eba96b32b30",
+        "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+        "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-54121"
+        ],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Une vulnérabilité (CVE-2026-54121) a permis à un utilisateur standard d'exploiter une autorité de certification entreprise pour fonctionner comme un contrôleur d’ordinateur.",
+        "published_at": "2026-08-17T10:00:10",
+        "score": 20
+      },
+      {
+        "guid": "d7c6d949091787bc",
+        "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+        "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-69414"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Microsoft travaille sur une mise à jour de sécurité pour corriger le vulnérabilité ShieldBreak (CVE-2026-69414) divulguée par Nightmare Eclipse.",
+        "published_at": "2026-08-17T05:05:33",
+        "score": 20
+      },
+      {
+        "guid": "c97adc65636c6db0",
+        "title": "Apple Patches iOS and macOS, (Mon, Aug 17th)",
+        "url": "https://isc.sans.edu/diary/rss/33254",
         "source": "SANS ISC",
         "category": "Vulnérabilités",
         "cve": [],
         "tags": [
           "vulnerability"
         ],
-        "summary": "Wireshark 4.6.8 a été lancé, corrigeant 28 vulnérabilités et 25 bugs.",
-        "published_at": "2026-08-16T21:31:48",
+        "summary": "Apple a publié des mises à jour de sécurité pour iOS/iPadOS (26 et 18) et macOS 26, corrigeant 108 vulnérabilités.",
+        "published_at": "2026-08-17T20:26:39",
         "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "fa1d00fd3a6532c3",
-        "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-        "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+        "guid": "212b75146156576a",
+        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+        "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "ransomware"
+        ],
+        "summary": "Les chercheurs de sécurité ont identifié des composants inédits du Cavern C2, utilisé par des hackers iraniens dans des attaques ciblant l'Israel.",
+        "published_at": "2026-08-17T23:11:06",
+        "score": 5
+      },
+      {
+        "guid": "b8a31ea8853a690d",
+        "title": "Éducation nationale : un pirate annonce une fuite qui exposerait des millions de données",
+        "url": "https://www.zataz.com/education-nationale-un-pirate-annonce-une-fuite-qui-exposerait-des-millions-de-donnees/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un pirate revendique une intrusion dans les systèmes de l’Éducation nationale, impactant élèves et enseignants.",
+        "published_at": "2026-08-17T21:41:05",
+        "score": 17
+      },
+      {
+        "guid": "dd6246d61998a87f",
+        "title": "How MCP Servers Can Expose Enterprise Secrets",
+        "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les serveurs MCP peuvent exposer des secrets d'entreprise à travers des fichiers de configuration en clair, un accès trop permis et l'injection de commandes.",
+        "published_at": "2026-08-17T17:28:00",
+        "score": 17
+      },
+      {
+        "guid": "52d73135dd60b6eb",
+        "title": "🏴‍☠️ Aurora has just published a new victim : Planungsgruppe M+M AG",
+        "url": "https://www.ransomware.live/id/UGxhbnVuZ3NncnVwcGUgTStNIEFHQGF1cm9yYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'attaque Aurora a victorieusement ciblé Planungsgruppe M+M AG, une entreprise allemande avec 432 employés et plus de 5 200 projets accomplis.",
+        "published_at": "2026-08-17T16:22:52",
+        "score": 32
+      },
+      {
+        "guid": "33c8c501f56454c2",
+        "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+        "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "breach",
-          "cve",
-          "vulnerability"
+          "breach"
         ],
-        "summary": "Une fuite de données affecte SafePal avec des informations sur 39 798 clients volées et mises en vente.",
-        "published_at": "2026-08-16T19:47:06",
+        "summary": "Un hacker vend des bases de données d'employés volées depuis l'infrastructure Azure de grandes entreprises américaines, ayant accédé par des informations d'identification compromises.",
+        "published_at": "2026-08-17T15:35:01",
         "score": 25
       },
       {
-        "guid": "2a29bbbf4ee1a22a",
-        "title": "🏴‍☠️ Eclipse has just published a new victim : Moscord",
-        "url": "https://www.ransomware.live/id/TW9zY29yZEBFY2xpcHNl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "56bda927eb6cd89a",
+        "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+        "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "cve",
-          "malware"
-        ],
-        "summary": "Moscord, un marché numérique pour l'industrie maritime, est victime d'une fuite de données.",
-        "published_at": "2026-08-16T16:18:45",
-        "score": 12
-      },
-      {
-        "guid": "69de47624c6e7a96",
-        "title": "🏴‍☠️ Settra has just published a new victim : tiltstudio.com",
-        "url": "https://www.ransomware.live/id/dGlsdHN0dWRpby5jb21Ac2V0dHJh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le site tiltstudio.com a été compromis dans une fuite de données corporative.",
-        "published_at": "2026-08-16T15:26:34",
-        "score": 12
-      },
-      {
-        "guid": "13da7724b3ae6f80",
-        "title": "🏴‍☠️ Medusalocker has just published a new victim : Twal Family IT Lab",
-        "url": "https://www.ransomware.live/id/VHdhbCBGYW1pbHkgSVQgTGFiQG1lZHVzYWxvY2tlcg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Twal Family IT Lab est victime d'un rançongiciel, avec des informations sur un laboratoire familial.",
-        "published_at": "2026-08-16T15:21:57",
-        "score": 12
-      },
-      {
-        "guid": "bbaa57a668a38ace",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : actua.fr",
-        "url": "https://www.ransomware.live/id/YWN0dWEuZnJAbG9ja2JpdDU=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "actua.fr, une entreprise de recrutement, a été ciblée par Lockbit5 dans une fuite de données.",
-        "published_at": "2026-08-16T14:53:14",
-        "score": 0
-      },
-      {
-        "guid": "1df967c991f361e4",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : dupouy-associes.fr",
-        "url": "https://www.ransomware.live/id/ZHVwb3V5LWFzc29jaWVzLmZyQGxvY2tiaXQ1",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
           "malware",
-          "ransomware"
+          "vulnerability"
         ],
-        "summary": "dupouy-associes.fr, un cabinet d'expertise comptable, a subi une attaque de rançongiciel.",
-        "published_at": "2026-08-16T14:52:43",
-        "score": 12
+        "summary": "La famille de botnet Evooo1Bot, basée sur Mirai, transforme les appareils internet-facing en proxies SOCKS5, exploitant des vulnérabilités connues.",
+        "published_at": "2026-08-17T14:59:55",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "9aa5069c9be0709e",
-        "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "3fcc5838a52f9660",
+        "title": "Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach",
+        "url": "https://therecord.media/financial-info-leak-debt-consolidator",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [],
-        "summary": "Claude, une plateforme de services Anthropic, expérimente une grave panne affectant plusieurs services.",
-        "published_at": "2026-08-16T18:28:57",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plus de 750 000 personnes ont eu leurs informations financières et SSN compromises dans une fuite d'information chez une société de prêts en Caroline du Sud.",
+        "published_at": "2026-08-17T20:05:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "ad0ba1621044c5d7",
-        "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-        "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "2250b18448daa4b0",
+        "title": "SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted",
+        "url": "https://therecord.media/safepal-crypto-hardware-breach",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [],
-        "summary": "De nombreux attaques DDoS perturbent les services de messagerie sécurisée Threema.",
-        "published_at": "2026-08-16T13:29:52",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "SafePal, fabricant de porte-monnaie crypto matériel, a confirmé un vol d'informations concernant environ 40 000 clients après une incident de sécurité.",
+        "published_at": "2026-08-17T17:00:00",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "15b4c351faa0a5a8",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Albania's official national teacher training portal.",
-        "url": "https://www.ransomware.live/id/QWxiYW5pYSdzIG9mZmljaWFsIG5hdGlvbmFsIHRlYWNoZXIgdHJhaW5pbmcgcG9ydGFsLkBlbXBlcmFkb3I=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "7eae5a1adf5a81bb",
+        "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
+        "url": "https://therecord.media/irregular-ai-hacking-model-blog",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
-          "cve"
+          "breach"
         ],
-        "summary": "Le site officiel de formation des enseignants d'Albanie a été victime d'une fuite de données incluant 100 000 numéros d'identité nationaux et certificats. [Sector: Éducation, Gouvernement]",
-        "published_at": "2026-08-16T21:50:56",
-        "score": 0,
+        "summary": "Une entreprise impliquée dans l'hack d'IA, qui a compromis des systèmes informatiques réels lors des évaluations de sécurité, est critiquée pour une rapport qui laisse de nombreuses questions sans réponse.",
+        "published_at": "2026-08-17T16:15:00",
+        "score": 35,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 46,
-    "items_selected": 10,
+    "items_analyzed": 53,
+    "items_selected": 15,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 5,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
