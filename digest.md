@@ -1,115 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 18 août 2026
+# 🛡️ ARGOS CTI Digest — 19 août 2026
 
-> Généré le 18/08/2026 à 02:01 UTC  ·  53 items analysés  ·  15 sélectionnés  ·  22 sources actives
+> Généré le 19/08/2026 à 02:01 UTC  ·  53 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
+### [CISA Malcolm](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01)
+**Source :** CISA Advisories  **Publié :** 18/08/2026 12:00 UTC  **CVE :** `CVE-2026-55676`, `CVE-2026-63177`, `CVE-2026-19670`, `CVE-2026-19671`, `CVE-2026-63134`
+`cve` `vulnerability`
+Des vulnérabilités affectent les versions Malcolm inférieures à 26.06.1 et 26.07.0, permettant une exécution arbitraire de code.
+
+---
+
+### [Siemens Simcenter Nastran](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02)
+**Source :** CISA Advisories  **Publié :** 18/08/2026 12:00 UTC  **CVE :** `CVE-2026-59086`
+`cve` `vulnerability`
+Simcenter Nastran est affecté par une vulnérabilité de surcharge de pile qui pourrait permettre l'exécution de代码已结束。接下来，我将继续用法语总结剩余的文章摘要，并以JSON格式返回结果。请等待片刻。代码将继续...代码继续如下所示：````json中的下一个部分是：```json    },    {
+
+---
+
 ### [Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)
 **Source :** The Hacker News  **Publié :** 18/08/2026 02:33 UTC  **CVE :** `CVE-2026-19478`
 `cve` `malware` `patch` `vulnerability`
-GitLab a publié des mises à jour de sécurité pour corriger une vulnérabilité critique (CVE-2026-19478) qui permettrait aux attaquants non authentifiés d'effacer des projets et des données utilisateur publics.
-
----
-
-### [Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads](https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html)
-**Source :** The Hacker News  **Publié :** 17/08/2026 23:52 UTC  **CVE :** `CVE-2026-15748`
-`cve` `malware` `vulnerability`
-Un vulnérabilité critique (CVE-2026-15748) a été découvert dans Forminator Forms pour WordPress, permettant une exécution arbitraire de code par des utilisateurs non authentifiés.
-
----
-
-### [Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware](https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html)
-**Source :** The Hacker News  **Publié :** 17/08/2026 13:06 UTC  **CVE :** `CVE-2026-59310`
-`apt` `cve` `ransomware` `vulnerability`
-Un acteur suspecté d'avoir des liens avec la Chine a exploité une vulnérabilité grave (CVE-2026-59310) dans VMware vCenter, déployant un rançon-logiciel dérivé de Babuk.
-
----
-
-### [Certighost and the Privilege Hiding in Your Certificate Authority](https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/)
-**Source :** Bleeping Computer  **Publié :** 17/08/2026 10:00 UTC  **CVE :** `CVE-2026-54121`
-`cve`
-Une vulnérabilité (CVE-2026-54121) a permis à un utilisateur standard d'exploiter une autorité de certification entreprise pour fonctionner comme un contrôleur d’ordinateur.
-
----
-
-### [Microsoft working on Defender patch for ShieldBreak zero-day](https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/)
-**Source :** Bleeping Computer  **Publié :** 17/08/2026 05:05 UTC  **CVE :** `CVE-2026-69414`
-`cve` `vulnerability`
-Microsoft travaille sur une mise à jour de sécurité pour corriger le vulnérabilité ShieldBreak (CVE-2026-69414) divulguée par Nightmare Eclipse.
-
----
-
-### [Apple Patches iOS and macOS, (Mon, Aug 17th)](https://isc.sans.edu/diary/rss/33254)
-**Source :** SANS ISC  **Publié :** 17/08/2026 20:26 UTC
-`vulnerability`
-Apple a publié des mises à jour de sécurité pour iOS/iPadOS (26 et 18) et macOS 26, corrigeant 108 vulnérabilités.
+Une vulnérabilité grave dans GitLab Community Edition et Enterprise Edition permettrait à un attaquant non authentifié de supprimer des projets publics et d'autres données utilisateur.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic](https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html)
-**Source :** The Hacker News  **Publié :** 17/08/2026 23:11 UTC
-`apt` `ransomware`
-Les chercheurs de sécurité ont identifié des composants inédits du Cavern C2, utilisé par des hackers iraniens dans des attaques ciblant l'Israel.
+### [Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 23:17 UTC
+`malware` `vulnerability`
+Trois vulnérabilités dans Microsoft Copilot Personal pourraient permettre l'exfiltration silencieuse de données à partir d'applications connectées avec un clic unique.
 
 ---
 
-### [Éducation nationale : un pirate annonce une fuite qui exposerait des millions de données](https://www.zataz.com/education-nationale-un-pirate-annonce-une-fuite-qui-exposerait-des-millions-de-donnees/)
-**Source :** ZATAZ  **Publié :** 17/08/2026 21:41 UTC
-`malware`
-Un pirate revendique une intrusion dans les systèmes de l’Éducation nationale, impactant élèves et enseignants.
-
----
-
-### [How MCP Servers Can Expose Enterprise Secrets](https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html)
-**Source :** The Hacker News  **Publié :** 17/08/2026 17:28 UTC
-`malware`
-Les serveurs MCP peuvent exposer des secrets d'entreprise à travers des fichiers de configuration en clair, un accès trop permis et l'injection de commandes.
-
----
-
-### [🏴‍☠️ Aurora has just published a new victim : Planungsgruppe M+M AG](https://www.ransomware.live/id/UGxhbnVuZ3NncnVwcGUgTStNIEFHQGF1cm9yYQ==)
-**Source :** Ransomware.live News  **Publié :** 17/08/2026 16:22 UTC
-`breach` `malware`
-L'attaque Aurora a victorieusement ciblé Planungsgruppe M+M AG, une entreprise allemande avec 432 employés et plus de 5 200 projets accomplis.
-
----
-
-### [Hacker claims 3.6 million Azure account records stolen from major companies](https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/)
-**Source :** Bleeping Computer  **Publié :** 17/08/2026 15:35 UTC
-`apt` `breach`
-Un hacker vend des bases de données d'employés volées depuis l'infrastructure Azure de grandes entreprises américaines, ayant accédé par des informations d'identification compromises.
-
----
-
-### [Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies](https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html)
-**Source :** The Hacker News  **Publié :** 17/08/2026 14:59 UTC
+### [Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets](https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 23:14 UTC
 `cve` `malware` `vulnerability`
-La famille de botnet Evooo1Bot, basée sur Mirai, transforme les appareils internet-facing en proxies SOCKS5, exploitant des vulnérabilités connues.
+Deux vulnérabilités critiques dans MLflow et FUXA sont exploitées pour voler des identifiants cloud et secrets.
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Troutman Pepper Locke](https://www.ransomware.live/id/VHJvdXRtYW4gUGVwcGVyIExvY2tlQFNpbGVudFJhbnNvbUdyb3Vw)
+**Source :** Ransomware.live News  **Publié :** 18/08/2026 22:51 UTC
+`ransomware`
+Silentransomgroup a attaqué Troutman Pepper Locke pour la deuxième fois en un an via une intrusion physique.
+
+---
+
+### [Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000](https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 22:28 UTC
+`breach` `ransomware`
+Ransom Busters prétend avoir hacké des serveurs de rançonlogiciels et demande aux victimes jusqu'à 60 000 $ pour supprimer leurs données volées.
+
+---
+
+### [AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files](https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 18:08 UTC
+`malware`
+Des payloads auto-propagatifs peuvent se propager entre agents d'IA via des fichiers de système d'éditables, potentiellement menaçant la sécurité.
+
+---
+
+### [TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks](https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 18:08 UTC
+`malware`
+TWINLOOT est un cadre Python implant modulaire qui utilise Microsoft SharePoint Online et Teams pour voler des identifiants et se déplacer dans les réseaux.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Nearly 750k had financial info, SSNs leaked in South Carolina loan company breach](https://therecord.media/financial-info-leak-debt-consolidator)
-**Source :** The Record  **Publié :** 17/08/2026 20:05 UTC  **Score :** 35
+### 1. [Berlin cuts two state ministries off government network after security breach](https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach)
+**Source :** The Record  **Publié :** 18/08/2026 16:40 UTC  **Score :** 35
 `breach`
-Plus de 750 000 personnes ont eu leurs informations financières et SSN compromises dans une fuite d'information chez une société de prêts en Caroline du Sud.
+Deux ministères d'État à Berlin ont été isolés du réseau gouvernemental en raison d'une faille de sécurité.
 
-### 2. [SafePal latest crypto hardware wallet maker affected by breach, with nearly 40,000 impacted](https://therecord.media/safepal-crypto-hardware-breach)
-**Source :** The Record  **Publié :** 17/08/2026 17:00 UTC  **Score :** 35
+### 2. [🏴‍☠️ Anubis has just published a new victim : Scholle IPN / SIG](https://www.ransomware.live/id/U2Nob2xsZSBJUE4gLyBTSUdAYW51Ymlz)
+**Source :** Ransomware.live News  **Publié :** 18/08/2026 03:21 UTC  **Score :** 20
 `breach`
-SafePal, fabricant de porte-monnaie crypto matériel, a confirmé un vol d'informations concernant environ 40 000 clients après une incident de sécurité.
+Une fuite de données s'est produite chez une entreprise mondiale spécialisée dans la fabrication du conditionnement.
 
-### 3. [Irregular faces criticism over ‘spin’ in AI hacking postmortem](https://therecord.media/irregular-ai-hacking-model-blog)
-**Source :** The Record  **Publié :** 17/08/2026 16:15 UTC  **Score :** 35
-`breach`
-Une entreprise impliquée dans l'hack d'IA, qui a compromis des systèmes informatiques réels lors des évaluations de sécurité, est critiquée pour une rapport qui laisse de nombreuses questions sans réponse.
+### 3. [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html)
+**Source :** The Hacker News  **Publié :** 18/08/2026 17:00 UTC  **Score :** 5
+`cve`
+Depuis 2025, un attaqueur a extrait des données de portails Salesforce et ServiceNow chez divers clients durant plus d'un an.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-18.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-19.md`*
