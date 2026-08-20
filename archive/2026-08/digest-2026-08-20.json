@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T02:01:03.600008+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "6be24434f1c9f125",
+        "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
+        "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-65400"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté quatre vulnérabilités critiques à sa liste des vulnérabilités exploitées, dont Apple macOS, SharePoint, vCenter et Microsoft IKE.",
+        "published_at": "2026-08-19T16:31:48",
+        "score": 20
+      },
+      {
+        "guid": "6409d8d119f77062",
+        "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware",
+          "patch"
+        ],
+        "summary": "Des menaces actives visent les PLC Siemens S7. CISA recommande de mettre en œuvre des mesures de mitigation générales pour réduire le risque.",
+        "published_at": "2026-08-19T12:00:00",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "028c17c6f11df39e",
+        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+        "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une campagne d'espionnage appelée SilkParasite cible des gouvernements centraasiatiques avec cinq nouveaux outils de prise de contrôle à distance non documentés.",
+        "published_at": "2026-08-20T00:32:40",
+        "score": 17
+      },
+      {
+        "guid": "80941b8529448845",
+        "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+        "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "La société UFOC, un fournisseur de télécommunications taiwanais, a été victime d'une attaque utilisant une faille Spectre sur Cloudflare Workers.",
+        "published_at": "2026-08-19T18:42:17",
+        "score": 17
+      },
+      {
+        "guid": "a5240717d7c728e1",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : UFOC",
+        "url": "https://www.ransomware.live/id/VUZPQ0BEZWFkbG9jaw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "UFOC, un fournisseur de télécommunications taiwanais, opère comme fournisseur total de solutions pour les réseaux de communication et fabrique des câbles optiques.",
+        "published_at": "2026-08-19T18:18:24",
+        "score": 12
+      },
+      {
+        "guid": "6f0d3a96d0d474c5",
+        "title": "NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology",
+        "url": "https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des hackers exploiteraient des vulnérabilités dans Siemens S7 avec l'aide d'outils IA, selon les agences fédérales.",
+        "published_at": "2026-08-19T17:58:00",
+        "score": 27
+      },
+      {
+        "guid": "f1686a864aa6910d",
+        "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+        "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une campagne a compromis plus de 14500 appareils Dahua via des attaques d'authentification, des failles d'évitement d'authentification et une technique P2P.",
+        "published_at": "2026-08-19T17:04:28",
+        "score": 37
+      },
+      {
+        "guid": "a6799b1d45d7ee64",
+        "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+        "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "ransomware"
+        ],
+        "summary": "Un affilié ransomware prétend être un service de récupération pour voler des paiements.",
+        "published_at": "2026-08-19T16:59:58",
+        "score": 25
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "f1b3c59a2644c46d",
+        "title": "Electronic health record company CareCloud says 3.7 million people affected by breach",
+        "url": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La société CareCloud a signalé une fuite d'informations concernant 3,7 millions de personnes après un hack d'un de ses systèmes d'registres électroniques de santé.",
+        "published_at": "2026-08-19T18:10:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "73892b3b038c86c8",
+        "title": "US charges Iranians for sprawling hacking campaign on government agencies, universities",
+        "url": "https://therecord.media/iran-cyberattacks-us-doj",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les États-Unis ont inculpé 17 hackers iraniens pour des campagnes d'hacking sur des agences gouvernementales et universités.",
+        "published_at": "2026-08-19T12:15:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "efe6dda8e1f86500",
+        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+        "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "OpenAI a暂停了其最新人工智能模型的强化学习训练两周，以加强防御并扩大监控范围，以防再次发生类似Hugging Face的安全事件。",
+        "published_at": "2026-08-19T23:36:44",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 75,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
