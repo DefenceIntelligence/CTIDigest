@@ -1,94 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 19 août 2026
+# 🛡️ ARGOS CTI Digest — 20 août 2026
 
-> Généré le 19/08/2026 à 02:01 UTC  ·  53 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 20/08/2026 à 02:01 UTC  ·  75 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Malcolm](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01)
-**Source :** CISA Advisories  **Publié :** 18/08/2026 12:00 UTC  **CVE :** `CVE-2026-55676`, `CVE-2026-63177`, `CVE-2026-19670`, `CVE-2026-19671`, `CVE-2026-63134`
+### [Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation](https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html)
+**Source :** The Hacker News  **Publié :** 19/08/2026 16:31 UTC  **CVE :** `CVE-2026-65400`
 `cve` `vulnerability`
-Des vulnérabilités affectent les versions Malcolm inférieures à 26.06.1 et 26.07.0, permettant une exécution arbitraire de code.
+CISA a ajouté quatre vulnérabilités critiques à sa liste des vulnérabilités exploitées, dont Apple macOS, SharePoint, vCenter et Microsoft IKE.
 
 ---
 
-### [Siemens Simcenter Nastran](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02)
-**Source :** CISA Advisories  **Publié :** 18/08/2026 12:00 UTC  **CVE :** `CVE-2026-59086`
-`cve` `vulnerability`
-Simcenter Nastran est affecté par une vulnérabilité de surcharge de pile qui pourrait permettre l'exécution de代码已结束。接下来，我将继续用法语总结剩余的文章摘要，并以JSON格式返回结果。请等待片刻。代码将继续...代码继续如下所示：````json中的下一个部分是：```json    },    {
-
----
-
-### [Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 02:33 UTC  **CVE :** `CVE-2026-19478`
-`cve` `malware` `patch` `vulnerability`
-Une vulnérabilité grave dans GitLab Community Edition et Enterprise Edition permettrait à un attaquant non authentifié de supprimer des projets publics et d'autres données utilisateur.
+### [Defending Against an Active Threat to Siemens S7 Series PLCs](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a)
+**Source :** CISA Advisories  **Publié :** 19/08/2026 12:00 UTC
+`apt` `breach` `cve` `malware` `patch`
+Des menaces actives visent les PLC Siemens S7. CISA recommande de mettre en œuvre des mesures de mitigation générales pour réduire le risque.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 23:17 UTC
-`malware` `vulnerability`
-Trois vulnérabilités dans Microsoft Copilot Personal pourraient permettre l'exfiltration silencieuse de données à partir d'applications connectées avec un clic unique.
+### [Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second](https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 00:32 UTC
+`malware`
+Une campagne d'espionnage appelée SilkParasite cible des gouvernements centraasiatiques avec cinq nouveaux outils de prise de contrôle à distance non documentés.
 
 ---
 
-### [Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets](https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 23:14 UTC
+### [SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs](https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html)
+**Source :** The Hacker News  **Publié :** 19/08/2026 18:42 UTC
+`apt` `malware`
+La société UFOC, un fournisseur de télécommunications taiwanais, a été victime d'une attaque utilisant une faille Spectre sur Cloudflare Workers.
+
+---
+
+### [🏴‍☠️ Deadlock has just published a new victim : UFOC](https://www.ransomware.live/id/VUZPQ0BEZWFkbG9jaw==)
+**Source :** Ransomware.live News  **Publié :** 19/08/2026 18:18 UTC
+`malware`
+UFOC, un fournisseur de télécommunications taiwanais, opère comme fournisseur total de solutions pour les réseaux de communication et fabrique des câbles optiques.
+
+---
+
+### [NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology](https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure)
+**Source :** The Record  **Publié :** 19/08/2026 17:58 UTC
 `cve` `malware` `vulnerability`
-Deux vulnérabilités critiques dans MLflow et FUXA sont exploitées pour voler des identifiants cloud et secrets.
+Des hackers exploiteraient des vulnérabilités dans Siemens S7 avec l'aide d'outils IA, selon les agences fédérales.
 
 ---
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Troutman Pepper Locke](https://www.ransomware.live/id/VHJvdXRtYW4gUGVwcGVyIExvY2tlQFNpbGVudFJhbnNvbUdyb3Vw)
-**Source :** Ransomware.live News  **Publié :** 18/08/2026 22:51 UTC
-`ransomware`
-Silentransomgroup a attaqué Troutman Pepper Locke pour la deuxième fois en un an via une intrusion physique.
+### [Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P](https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html)
+**Source :** The Hacker News  **Publié :** 19/08/2026 17:04 UTC
+`breach` `malware` `vulnerability`
+Une campagne a compromis plus de 14500 appareils Dahua via des attaques d'authentification, des failles d'évitement d'authentification et une technique P2P.
 
 ---
 
-### [Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000](https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 22:28 UTC
+### [Rogue ransomware affiliate poses as recovery firm to steal payments](https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/)
+**Source :** Bleeping Computer  **Publié :** 19/08/2026 16:59 UTC
 `breach` `ransomware`
-Ransom Busters prétend avoir hacké des serveurs de rançonlogiciels et demande aux victimes jusqu'à 60 000 $ pour supprimer leurs données volées.
-
----
-
-### [AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files](https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 18:08 UTC
-`malware`
-Des payloads auto-propagatifs peuvent se propager entre agents d'IA via des fichiers de système d'éditables, potentiellement menaçant la sécurité.
-
----
-
-### [TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks](https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 18:08 UTC
-`malware`
-TWINLOOT est un cadre Python implant modulaire qui utilise Microsoft SharePoint Online et Teams pour voler des identifiants et se déplacer dans les réseaux.
+Un affilié ransomware prétend être un service de récupération pour voler des paiements.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Berlin cuts two state ministries off government network after security breach](https://therecord.media/berlin-cuts-two-state-ministries-off-government-breach)
-**Source :** The Record  **Publié :** 18/08/2026 16:40 UTC  **Score :** 35
+### 1. [Electronic health record company CareCloud says 3.7 million people affected by breach](https://therecord.media/electronic-health-record-company-carecloud-data-breach)
+**Source :** The Record  **Publié :** 19/08/2026 18:10 UTC  **Score :** 35
 `breach`
-Deux ministères d'État à Berlin ont été isolés du réseau gouvernemental en raison d'une faille de sécurité.
+La société CareCloud a signalé une fuite d'informations concernant 3,7 millions de personnes après un hack d'un de ses systèmes d'registres électroniques de santé.
 
-### 2. [🏴‍☠️ Anubis has just published a new victim : Scholle IPN / SIG](https://www.ransomware.live/id/U2Nob2xsZSBJUE4gLyBTSUdAYW51Ymlz)
-**Source :** Ransomware.live News  **Publié :** 18/08/2026 03:21 UTC  **Score :** 20
+### 2. [US charges Iranians for sprawling hacking campaign on government agencies, universities](https://therecord.media/iran-cyberattacks-us-doj)
+**Source :** The Record  **Publié :** 19/08/2026 12:15 UTC  **Score :** 35
 `breach`
-Une fuite de données s'est produite chez une entreprise mondiale spécialisée dans la fabrication du conditionnement.
+Les États-Unis ont inculpé 17 hackers iraniens pour des campagnes d'hacking sur des agences gouvernementales et universités.
 
-### 3. [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html)
-**Source :** The Hacker News  **Publié :** 18/08/2026 17:00 UTC  **Score :** 5
-`cve`
-Depuis 2025, un attaqueur a extrait des données de portails Salesforce et ServiceNow chez divers clients durant plus d'un an.
+### 3. [OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior](https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html)
+**Source :** The Hacker News  **Publié :** 19/08/2026 23:36 UTC  **Score :** 25
+`breach` `cve`
+OpenAI a暂停了其最新人工智能模型的强化学习训练两周，以加强防御并扩大监控范围，以防再次发生类似Hugging Face的安全事件。
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-19.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-20.md`*
