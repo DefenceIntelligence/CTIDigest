@@ -1,87 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 20 août 2026
+# 🛡️ ARGOS CTI Digest — 21 août 2026
 
-> Généré le 20/08/2026 à 02:01 UTC  ·  75 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 21/08/2026 à 02:01 UTC  ·  82 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation](https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html)
-**Source :** The Hacker News  **Publié :** 19/08/2026 16:31 UTC  **CVE :** `CVE-2026-65400`
-`cve` `vulnerability`
-CISA a ajouté quatre vulnérabilités critiques à sa liste des vulnérabilités exploitées, dont Apple macOS, SharePoint, vCenter et Microsoft IKE.
+### [Johnson Controls Simplex Incident Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01)
+**Source :** CISA Advisories  **Publié :** 20/08/2026 12:00 UTC  **CVE :** `CVE-2026-27875`
+`breach` `cve` `vulnerability`
+Une vulnérabilité dans Johnson Controls Simplex Incident Manager pourrait permettre à un attaquant local de voler des informations d'identification, entraînant potentiellement un accès non autorisé.
 
 ---
 
-### [Defending Against an Active Threat to Siemens S7 Series PLCs](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a)
-**Source :** CISA Advisories  **Publié :** 19/08/2026 12:00 UTC
-`apt` `breach` `cve` `malware` `patch`
-Des menaces actives visent les PLC Siemens S7. CISA recommande de mettre en œuvre des mesures de mitigation générales pour réduire le risque.
+### [Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution](https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 18:54 UTC  **CVE :** `CVE-2026-73570`
+`cve` `malware` `vulnerability`
+Une faille dans Zimbra Collaboration a été exploitée, menant à l'exécution de code distant sans authentification.
+
+---
+
+### [Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code](https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 11:34 UTC  **CVE :** `CVE-2026-32475`
+`cve` `vulnerability`
+Un vulnérabilité critique dans Elementor Pro pourrait permettre la délivrance et l'exécution de code par des attaquants non authentifiés.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second](https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 00:32 UTC
-`malware`
-Une campagne d'espionnage appelée SilkParasite cible des gouvernements centraasiatiques avec cinq nouveaux outils de prise de contrôle à distance non documentés.
+### [Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads](https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html)
+**Source :** The Hacker News  **Publié :** 21/08/2026 01:52 UTC
+`breach` `malware`
+Trois crates Rust ont été infectés par un mainteneur compromis, introduisant du malware au moment de la compilation.
 
 ---
 
-### [SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs](https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html)
-**Source :** The Hacker News  **Publié :** 19/08/2026 18:42 UTC
+### [Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts](https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html)
+**Source :** The Hacker News  **Publié :** 21/08/2026 01:29 UTC
+`apt`
+Des groupes suspects russes exploitent des flux d'authentification légitimes pour cibler des individus dans l'académie, l'aérospatiale et la défense.
+
+---
+
+### [ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More](https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 22:53 UTC
+`cve` `malware`
+Cette semaine, de nombreux vecteurs de menace exploitent des applications autorisées pour introduire des menaces potentielles.
+
+---
+
+### [AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 22:29 UTC
+`cve` `malware`
+Des opérations espionnes chinoises utilisent l'IA pour développer du malware ciblant les infrastructures critiques américaines.
+
+---
+
+### [China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware](https://therecord.media/china-cyber-espionage-central-asia)
+**Source :** The Record  **Publié :** 20/08/2026 19:30 UTC
 `apt` `malware`
-La société UFOC, un fournisseur de télécommunications taiwanais, a été victime d'une attaque utilisant une faille Spectre sur Cloudflare Workers.
+Des hackers militaires chinois utilisent l'IA dans une campagne d'intrusion contre des gouvernements centraasiatiques.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : UFOC](https://www.ransomware.live/id/VUZPQ0BEZWFkbG9jaw==)
-**Source :** Ransomware.live News  **Publié :** 19/08/2026 18:18 UTC
+### [Is Cyber missing the Marque?](https://blog.talosintelligence.com/is-cyber-missing-the-marque/)
+**Source :** Cisco Talos  **Publié :** 20/08/2026 18:00 UTC
 `malware`
-UFOC, un fournisseur de télécommunications taiwanais, opère comme fournisseur total de solutions pour les réseaux de communication et fabrique des câbles optiques.
-
----
-
-### [NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology](https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure)
-**Source :** The Record  **Publié :** 19/08/2026 17:58 UTC
-`cve` `malware` `vulnerability`
-Des hackers exploiteraient des vulnérabilités dans Siemens S7 avec l'aide d'outils IA, selon les agences fédérales.
-
----
-
-### [Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P](https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html)
-**Source :** The Hacker News  **Publié :** 19/08/2026 17:04 UTC
-`breach` `malware` `vulnerability`
-Une campagne a compromis plus de 14500 appareils Dahua via des attaques d'authentification, des failles d'évitement d'authentification et une technique P2P.
-
----
-
-### [Rogue ransomware affiliate poses as recovery firm to steal payments](https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/)
-**Source :** Bleeping Computer  **Publié :** 19/08/2026 16:59 UTC
-`breach` `ransomware`
-Un affilié ransomware prétend être un service de récupération pour voler des paiements.
+Un nouveau contributeur explique les implications opérationnelles et de sécurité d'une nouvelle directive du Pentagone sur l'offensive cyberspace privée.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Electronic health record company CareCloud says 3.7 million people affected by breach](https://therecord.media/electronic-health-record-company-carecloud-data-breach)
-**Source :** The Record  **Publié :** 19/08/2026 18:10 UTC  **Score :** 35
+### 1. [Why "Shady AI" is Security's Next Big Governance Problem](https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html)
+**Source :** The Hacker News  **Publié :** 20/08/2026 17:15 UTC  **Score :** 25
 `breach`
-La société CareCloud a signalé une fuite d'informations concernant 3,7 millions de personnes après un hack d'un de ses systèmes d'registres électroniques de santé.
+Des risques liés à l'utilisation non régulée d'IA sont soulignés en lien avec une fuite de données sensible chez Meta.
 
-### 2. [US charges Iranians for sprawling hacking campaign on government agencies, universities](https://therecord.media/iran-cyberattacks-us-doj)
-**Source :** The Record  **Publié :** 19/08/2026 12:15 UTC  **Score :** 35
+### 2. [🏴‍☠️ Payload has just published a new victim : Qualiflex Datacenter | HWZ-Studiengnge (fh-hwz.ch), myenb.ch, etc](https://www.ransomware.live/id/UXVhbGlmbGV4IERhdGFjZW50ZXIgfCBIV1otU3R1ZGllbmduZ2UgKGZoLWh3ei5jaCksIG15ZW5iLmNoLCBldGNAcGF5bG9hZA==)
+**Source :** Ransomware.live News  **Publié :** 20/08/2026 17:26 UTC  **Score :** 20
 `breach`
-Les États-Unis ont inculpé 17 hackers iraniens pour des campagnes d'hacking sur des agences gouvernementales et universités.
+Qualiflex Datacenter a volé des données de sociétés comme HWZ-Studiengänge, myenb.ch, schelling.ch et autres.
 
-### 3. [OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior](https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html)
-**Source :** The Hacker News  **Publié :** 19/08/2026 23:36 UTC  **Score :** 25
-`breach` `cve`
-OpenAI a暂停了其最新人工智能模型的强化学习训练两周，以加强防御并扩大监控范围，以防再次发生类似Hugging Face的安全事件。
+### 3. [🏴‍☠️ Dysphor1a has just published a new victim : GUSTO College GLMS](https://www.ransomware.live/id/R1VTVE8gQ29sbGVnZSBHTE1TQERZU1BIT1IxQQ==)
+**Source :** Ransomware.live News  **Publié :** 20/08/2026 14:37 UTC  **Score :** 20
+`breach`
+Dysphor1a a compromis des comptes utilisateurs du système de gestion des apprenants GLMS de GUSTO College, révélant les identifiants d'utilisateurs sur gusto-education.com.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-20.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-21.md`*
