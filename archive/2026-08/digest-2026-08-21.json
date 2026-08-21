@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T02:01:01.942290+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "dd2545840165b4a4",
+        "title": "Johnson Controls Simplex Incident Manager",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-27875"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans Johnson Controls Simplex Incident Manager pourrait permettre à un attaquant local de voler des informations d'identification, entraînant potentiellement un accès non autorisé.",
+        "published_at": "2026-08-20T12:00:00",
+        "score": 35
+      },
+      {
+        "guid": "ceec5475211fafbd",
+        "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-73570"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans Zimbra Collaboration a été exploitée, menant à l'exécution de code distant sans authentification.",
+        "published_at": "2026-08-20T18:54:28",
+        "score": 32
+      },
+      {
+        "guid": "c6437cf077792cd6",
+        "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+        "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-32475"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un vulnérabilité critique dans Elementor Pro pourrait permettre la délivrance et l'exécution de code par des attaquants non authentifiés.",
+        "published_at": "2026-08-20T11:34:34",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "50a99fa0ef79b822",
+        "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+        "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Trois crates Rust ont été infectés par un mainteneur compromis, introduisant du malware au moment de la compilation.",
+        "published_at": "2026-08-21T01:52:35",
+        "score": 37
+      },
+      {
+        "guid": "173c6a76272b250d",
+        "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+        "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des groupes suspects russes exploitent des flux d'authentification légitimes pour cibler des individus dans l'académie, l'aérospatiale et la défense.",
+        "published_at": "2026-08-21T01:29:19",
+        "score": 5
+      },
+      {
+        "guid": "63a8d275a8b50abe",
+        "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+        "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Cette semaine, de nombreux vecteurs de menace exploitent des applications autorisées pour introduire des menaces potentielles.",
+        "published_at": "2026-08-20T22:53:48",
+        "score": 17
+      },
+      {
+        "guid": "e915cbf2fbfa3239",
+        "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+        "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Des opérations espionnes chinoises utilisent l'IA pour développer du malware ciblant les infrastructures critiques américaines.",
+        "published_at": "2026-08-20T22:29:44",
+        "score": 17
+      },
+      {
+        "guid": "1cb7e1854799b95c",
+        "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
+        "url": "https://therecord.media/china-cyber-espionage-central-asia",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des hackers militaires chinois utilisent l'IA dans une campagne d'intrusion contre des gouvernements centraasiatiques.",
+        "published_at": "2026-08-20T19:30:00",
+        "score": 27
+      },
+      {
+        "guid": "61f8a453081ccea3",
+        "title": "Is Cyber missing the Marque?",
+        "url": "https://blog.talosintelligence.com/is-cyber-missing-the-marque/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un nouveau contributeur explique les implications opérationnelles et de sécurité d'une nouvelle directive du Pentagone sur l'offensive cyberspace privée.",
+        "published_at": "2026-08-20T18:00:18",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "724ea56c33fa3a38",
+        "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+        "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des risques liés à l'utilisation non régulée d'IA sont soulignés en lien avec une fuite de données sensible chez Meta.",
+        "published_at": "2026-08-20T17:15:00",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "476d911df5ddd078",
+        "title": "🏴‍☠️ Payload has just published a new victim : Qualiflex Datacenter | HWZ-Studiengnge (fh-hwz.ch), myenb.ch, etc",
+        "url": "https://www.ransomware.live/id/UXVhbGlmbGV4IERhdGFjZW50ZXIgfCBIV1otU3R1ZGllbmduZ2UgKGZoLWh3ei5jaCksIG15ZW5iLmNoLCBldGNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Qualiflex Datacenter a volé des données de sociétés comme HWZ-Studiengänge, myenb.ch, schelling.ch et autres.",
+        "published_at": "2026-08-20T17:26:46",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "fdc434543ee89652",
+        "title": "🏴‍☠️ Dysphor1a has just published a new victim : GUSTO College GLMS",
+        "url": "https://www.ransomware.live/id/R1VTVE8gQ29sbGVnZSBHTE1TQERZU1BIT1IxQQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Dysphor1a a compromis des comptes utilisateurs du système de gestion des apprenants GLMS de GUSTO College, révélant les identifiants d'utilisateurs sur gusto-education.com.",
+        "published_at": "2026-08-20T14:37:09",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 82,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
