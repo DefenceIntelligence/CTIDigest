@@ -1,193 +1,208 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T02:01:03.600008+00:00",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T02:01:01.942290+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "6be24434f1c9f125",
-        "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-        "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+        "guid": "dd2545840165b4a4",
+        "title": "Johnson Controls Simplex Incident Manager",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-27875"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans Johnson Controls Simplex Incident Manager pourrait permettre à un attaquant local de voler des informations d'identification, entraînant potentiellement un accès non autorisé.",
+        "published_at": "2026-08-20T12:00:00",
+        "score": 35
+      },
+      {
+        "guid": "ceec5475211fafbd",
+        "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-65400"
+          "CVE-2026-73570"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans Zimbra Collaboration a été exploitée, menant à l'exécution de code distant sans authentification.",
+        "published_at": "2026-08-20T18:54:28",
+        "score": 32
+      },
+      {
+        "guid": "c6437cf077792cd6",
+        "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+        "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-32475"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "CISA a ajouté quatre vulnérabilités critiques à sa liste des vulnérabilités exploitées, dont Apple macOS, SharePoint, vCenter et Microsoft IKE.",
-        "published_at": "2026-08-19T16:31:48",
+        "summary": "Un vulnérabilité critique dans Elementor Pro pourrait permettre la délivrance et l'exécution de code par des attaquants non authentifiés.",
+        "published_at": "2026-08-20T11:34:34",
         "score": 20
-      },
-      {
-        "guid": "6409d8d119f77062",
-        "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
-        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach",
-          "cve",
-          "malware",
-          "patch"
-        ],
-        "summary": "Des menaces actives visent les PLC Siemens S7. CISA recommande de mettre en œuvre des mesures de mitigation générales pour réduire le risque.",
-        "published_at": "2026-08-19T12:00:00",
-        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "028c17c6f11df39e",
-        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-        "url": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "guid": "50a99fa0ef79b822",
+        "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+        "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
+          "breach",
           "malware"
         ],
-        "summary": "Une campagne d'espionnage appelée SilkParasite cible des gouvernements centraasiatiques avec cinq nouveaux outils de prise de contrôle à distance non documentés.",
-        "published_at": "2026-08-20T00:32:40",
+        "summary": "Trois crates Rust ont été infectés par un mainteneur compromis, introduisant du malware au moment de la compilation.",
+        "published_at": "2026-08-21T01:52:35",
+        "score": 37
+      },
+      {
+        "guid": "173c6a76272b250d",
+        "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+        "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des groupes suspects russes exploitent des flux d'authentification légitimes pour cibler des individus dans l'académie, l'aérospatiale et la défense.",
+        "published_at": "2026-08-21T01:29:19",
+        "score": 5
+      },
+      {
+        "guid": "63a8d275a8b50abe",
+        "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+        "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Cette semaine, de nombreux vecteurs de menace exploitent des applications autorisées pour introduire des menaces potentielles.",
+        "published_at": "2026-08-20T22:53:48",
         "score": 17
       },
       {
-        "guid": "80941b8529448845",
-        "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-        "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+        "guid": "e915cbf2fbfa3239",
+        "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+        "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
         "source": "The Hacker News",
         "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Des opérations espionnes chinoises utilisent l'IA pour développer du malware ciblant les infrastructures critiques américaines.",
+        "published_at": "2026-08-20T22:29:44",
+        "score": 17
+      },
+      {
+        "guid": "1cb7e1854799b95c",
+        "title": "China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware",
+        "url": "https://therecord.media/china-cyber-espionage-central-asia",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "apt",
           "malware"
         ],
-        "summary": "La société UFOC, un fournisseur de télécommunications taiwanais, a été victime d'une attaque utilisant une faille Spectre sur Cloudflare Workers.",
-        "published_at": "2026-08-19T18:42:17",
-        "score": 17
+        "summary": "Des hackers militaires chinois utilisent l'IA dans une campagne d'intrusion contre des gouvernements centraasiatiques.",
+        "published_at": "2026-08-20T19:30:00",
+        "score": 27
       },
       {
-        "guid": "a5240717d7c728e1",
-        "title": "🏴‍☠️ Deadlock has just published a new victim : UFOC",
-        "url": "https://www.ransomware.live/id/VUZPQ0BEZWFkbG9jaw==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "61f8a453081ccea3",
+        "title": "Is Cyber missing the Marque?",
+        "url": "https://blog.talosintelligence.com/is-cyber-missing-the-marque/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "UFOC, un fournisseur de télécommunications taiwanais, opère comme fournisseur total de solutions pour les réseaux de communication et fabrique des câbles optiques.",
-        "published_at": "2026-08-19T18:18:24",
-        "score": 12
-      },
-      {
-        "guid": "6f0d3a96d0d474c5",
-        "title": "NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology",
-        "url": "https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Des hackers exploiteraient des vulnérabilités dans Siemens S7 avec l'aide d'outils IA, selon les agences fédérales.",
-        "published_at": "2026-08-19T17:58:00",
+        "summary": "Un nouveau contributeur explique les implications opérationnelles et de sécurité d'une nouvelle directive du Pentagone sur l'offensive cyberspace privée.",
+        "published_at": "2026-08-20T18:00:18",
         "score": 27
-      },
-      {
-        "guid": "f1686a864aa6910d",
-        "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-        "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une campagne a compromis plus de 14500 appareils Dahua via des attaques d'authentification, des failles d'évitement d'authentification et une technique P2P.",
-        "published_at": "2026-08-19T17:04:28",
-        "score": 37
-      },
-      {
-        "guid": "a6799b1d45d7ee64",
-        "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-        "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "ransomware"
-        ],
-        "summary": "Un affilié ransomware prétend être un service de récupération pour voler des paiements.",
-        "published_at": "2026-08-19T16:59:58",
-        "score": 25
       }
     ],
     "top_reads": [
       {
-        "guid": "f1b3c59a2644c46d",
-        "title": "Electronic health record company CareCloud says 3.7 million people affected by breach",
-        "url": "https://therecord.media/electronic-health-record-company-carecloud-data-breach",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "La société CareCloud a signalé une fuite d'informations concernant 3,7 millions de personnes après un hack d'un de ses systèmes d'registres électroniques de santé.",
-        "published_at": "2026-08-19T18:10:00",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "73892b3b038c86c8",
-        "title": "US charges Iranians for sprawling hacking campaign on government agencies, universities",
-        "url": "https://therecord.media/iran-cyberattacks-us-doj",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Les États-Unis ont inculpé 17 hackers iraniens pour des campagnes d'hacking sur des agences gouvernementales et universités.",
-        "published_at": "2026-08-19T12:15:00",
-        "score": 35,
-        "rank": 2
-      },
-      {
-        "guid": "efe6dda8e1f86500",
-        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-        "url": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "guid": "724ea56c33fa3a38",
+        "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+        "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
-          "cve"
+          "breach"
         ],
-        "summary": "OpenAI a暂停了其最新人工智能模型的强化学习训练两周，以加强防御并扩大监控范围，以防再次发生类似Hugging Face的安全事件。",
-        "published_at": "2026-08-19T23:36:44",
+        "summary": "Des risques liés à l'utilisation non régulée d'IA sont soulignés en lien avec une fuite de données sensible chez Meta.",
+        "published_at": "2026-08-20T17:15:00",
         "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "476d911df5ddd078",
+        "title": "🏴‍☠️ Payload has just published a new victim : Qualiflex Datacenter | HWZ-Studiengnge (fh-hwz.ch), myenb.ch, etc",
+        "url": "https://www.ransomware.live/id/UXVhbGlmbGV4IERhdGFjZW50ZXIgfCBIV1otU3R1ZGllbmduZ2UgKGZoLWh3ei5jaCksIG15ZW5iLmNoLCBldGNAcGF5bG9hZA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Qualiflex Datacenter a volé des données de sociétés comme HWZ-Studiengänge, myenb.ch, schelling.ch et autres.",
+        "published_at": "2026-08-20T17:26:46",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "fdc434543ee89652",
+        "title": "🏴‍☠️ Dysphor1a has just published a new victim : GUSTO College GLMS",
+        "url": "https://www.ransomware.live/id/R1VTVE8gQ29sbGVnZSBHTE1TQERZU1BIT1IxQQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Dysphor1a a compromis des comptes utilisateurs du système de gestion des apprenants GLMS de GUSTO College, révélant les identifiants d'utilisateurs sur gusto-education.com.",
+        "published_at": "2026-08-20T14:37:09",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 75,
-    "items_selected": 11,
+    "items_analyzed": 82,
+    "items_selected": 12,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "argos_version": "2.0.0"
   }
