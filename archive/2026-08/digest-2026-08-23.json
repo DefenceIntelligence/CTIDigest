@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T02:00:41.892399+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "1b3f66cc2ed18118",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Vietnam Electricity(EVNHANOI)",
+        "url": "https://www.ransomware.live/id/VmlldG5hbSBFbGVjdHJpY2l0eShFVk5IQU5PSSlAZW1wZXJhZG9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La compagnie énergétique vietnamienne EVN est la nouvelle victime de l'acteur Emperador.",
+        "published_at": "2026-08-22T16:20:45",
+        "score": 12
+      },
+      {
+        "guid": "b0d7f1a7da5f3c73",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Integrated Health Systems",
+        "url": "https://www.ransomware.live/id/SW50ZWdyYXRlZCBIZWFsdGggU3lzdGVtc0Bjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Coinbasecartel a ciblé le groupe Integrated Health Systems.",
+        "published_at": "2026-08-22T14:01:24",
+        "score": 12
+      },
+      {
+        "guid": "b77a82dbcdd7e047",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : RXPE Group",
+        "url": "https://www.ransomware.live/id/UlhQRSBHcm91cEBjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Coinbasecartel a visé la compagnie d'assurance RXPE Group.",
+        "published_at": "2026-08-22T14:00:44",
+        "score": 12
+      },
+      {
+        "guid": "82c1ac70e29d0b90",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Tower Insurance",
+        "url": "https://www.ransomware.live/id/VG93ZXIgSW5zdXJhbmNlQGNvaW5iYXNlY2FydGVs",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La compagnie de transport argentine Flecha Bus est une nouvelle cible de Coinbasecartel.",
+        "published_at": "2026-08-22T14:00:01",
+        "score": 12
+      },
+      {
+        "guid": "f0ba9e0999706e02",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Flecha Bus",
+        "url": "https://www.ransomware.live/id/RmxlY2hhIEJ1c0Bjb2luYmFzZWNhcnRlbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "OTEIS Conseil & Ingénierie, un cabinet français d'ingénierie et de conseil, a été victime d'une nouvelle attaque.",
+        "published_at": "2026-08-22T13:59:20",
+        "score": 12
+      },
+      {
+        "guid": "7797cf50dec917c9",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : OTEIS Conseil & Ingénierie",
+        "url": "https://www.ransomware.live/id/T1RFSVMgQ29uc2VpbCAmIEluZ8OpbmllcmllQGNvaW5iYXNlY2FydGVs",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Golf Canada a connu une fuite de données impliquant 568 972 comptes avec des informations personnelles.",
+        "published_at": "2026-08-22T13:58:39",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d4b294bd759647de",
+        "title": "Golf Canada - 568,972 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/GolfCanada",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Golf Canada a été victime d'une fuite de données, avec 568 972 comptes compromis.",
+        "published_at": "2026-08-22T07:17:23",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "da6b85ecf2794578",
+        "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+        "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "TikTok concrétise un accord pour un règlement de 400 millions de dollars dans une affaire liée à la protection des mineurs aux États-Unis.",
+        "published_at": "2026-08-22T20:02:41",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "088b1835591eb299",
+        "title": "Cyber actualités ZATAZ de la semaine du 17 au 23 août 2026",
+        "url": "https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-17-au-23-aout-2026/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "ZATAZ publie les actualités cyber du 17 au 23 août 2026.",
+        "published_at": "2026-08-22T13:27:25",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 39,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
