@@ -1,94 +1,73 @@
-# 🛡️ ARGOS CTI Digest — 21 août 2026
+# 🛡️ ARGOS CTI Digest — 23 août 2026
 
-> Généré le 21/08/2026 à 02:01 UTC  ·  82 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 23/08/2026 à 02:00 UTC  ·  39 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Johnson Controls Simplex Incident Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01)
-**Source :** CISA Advisories  **Publié :** 20/08/2026 12:00 UTC  **CVE :** `CVE-2026-27875`
-`breach` `cve` `vulnerability`
-Une vulnérabilité dans Johnson Controls Simplex Incident Manager pourrait permettre à un attaquant local de voler des informations d'identification, entraînant potentiellement un accès non autorisé.
-
----
-
-### [Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution](https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 18:54 UTC  **CVE :** `CVE-2026-73570`
-`cve` `malware` `vulnerability`
-Une faille dans Zimbra Collaboration a été exploitée, menant à l'exécution de code distant sans authentification.
-
----
-
-### [Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code](https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 11:34 UTC  **CVE :** `CVE-2026-32475`
-`cve` `vulnerability`
-Un vulnérabilité critique dans Elementor Pro pourrait permettre la délivrance et l'exécution de code par des attaquants non authentifiés.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads](https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html)
-**Source :** The Hacker News  **Publié :** 21/08/2026 01:52 UTC
-`breach` `malware`
-Trois crates Rust ont été infectés par un mainteneur compromis, introduisant du malware au moment de la compilation.
-
----
-
-### [Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts](https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html)
-**Source :** The Hacker News  **Publié :** 21/08/2026 01:29 UTC
-`apt`
-Des groupes suspects russes exploitent des flux d'authentification légitimes pour cibler des individus dans l'académie, l'aérospatiale et la défense.
-
----
-
-### [ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More](https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 22:53 UTC
-`cve` `malware`
-Cette semaine, de nombreux vecteurs de menace exploitent des applications autorisées pour introduire des menaces potentielles.
-
----
-
-### [AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure](https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 22:29 UTC
-`cve` `malware`
-Des opérations espionnes chinoises utilisent l'IA pour développer du malware ciblant les infrastructures critiques américaines.
-
----
-
-### [China’s ‘SilkParasite’ espionage operation targeting Central Asia with AI-assisted malware](https://therecord.media/china-cyber-espionage-central-asia)
-**Source :** The Record  **Publié :** 20/08/2026 19:30 UTC
-`apt` `malware`
-Des hackers militaires chinois utilisent l'IA dans une campagne d'intrusion contre des gouvernements centraasiatiques.
-
----
-
-### [Is Cyber missing the Marque?](https://blog.talosintelligence.com/is-cyber-missing-the-marque/)
-**Source :** Cisco Talos  **Publié :** 20/08/2026 18:00 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Vietnam Electricity(EVNHANOI)](https://www.ransomware.live/id/VmlldG5hbSBFbGVjdHJpY2l0eShFVk5IQU5PSSlAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 16:20 UTC
 `malware`
-Un nouveau contributeur explique les implications opérationnelles et de sécurité d'une nouvelle directive du Pentagone sur l'offensive cyberspace privée.
+La compagnie énergétique vietnamienne EVN est la nouvelle victime de l'acteur Emperador.
+
+---
+
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Integrated Health Systems](https://www.ransomware.live/id/SW50ZWdyYXRlZCBIZWFsdGggU3lzdGVtc0Bjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:01 UTC
+`malware`
+Coinbasecartel a ciblé le groupe Integrated Health Systems.
+
+---
+
+### [🏴‍☠️ Coinbasecartel has just published a new victim : RXPE Group](https://www.ransomware.live/id/UlhQRSBHcm91cEBjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:00 UTC
+`malware`
+Coinbasecartel a visé la compagnie d'assurance RXPE Group.
+
+---
+
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Tower Insurance](https://www.ransomware.live/id/VG93ZXIgSW5zdXJhbmNlQGNvaW5iYXNlY2FydGVs)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:00 UTC
+`malware`
+La compagnie de transport argentine Flecha Bus est une nouvelle cible de Coinbasecartel.
+
+---
+
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Flecha Bus](https://www.ransomware.live/id/RmxlY2hhIEJ1c0Bjb2luYmFzZWNhcnRlbA==)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 13:59 UTC
+`malware`
+OTEIS Conseil & Ingénierie, un cabinet français d'ingénierie et de conseil, a été victime d'une nouvelle attaque.
+
+---
+
+### [🏴‍☠️ Coinbasecartel has just published a new victim : OTEIS Conseil & Ingénierie](https://www.ransomware.live/id/T1RFSVMgQ29uc2VpbCAmIEluZ8OpbmllcmllQGNvaW5iYXNlY2FydGVs)
+**Source :** Ransomware.live News  **Publié :** 22/08/2026 13:58 UTC
+`malware`
+Golf Canada a connu une fuite de données impliquant 568 972 comptes avec des informations personnelles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Why "Shady AI" is Security's Next Big Governance Problem](https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html)
-**Source :** The Hacker News  **Publié :** 20/08/2026 17:15 UTC  **Score :** 25
-`breach`
-Des risques liés à l'utilisation non régulée d'IA sont soulignés en lien avec une fuite de données sensible chez Meta.
+### 1. [Golf Canada - 568,972 breached accounts](https://haveibeenpwned.com/Breach/GolfCanada)
+**Source :** Have I Been Pwned  **Publié :** 22/08/2026 07:17 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Golf Canada a été victime d'une fuite de données, avec 568 972 comptes compromis.
 
-### 2. [🏴‍☠️ Payload has just published a new victim : Qualiflex Datacenter | HWZ-Studiengnge (fh-hwz.ch), myenb.ch, etc](https://www.ransomware.live/id/UXVhbGlmbGV4IERhdGFjZW50ZXIgfCBIV1otU3R1ZGllbmduZ2UgKGZoLWh3ei5jaCksIG15ZW5iLmNoLCBldGNAcGF5bG9hZA==)
-**Source :** Ransomware.live News  **Publié :** 20/08/2026 17:26 UTC  **Score :** 20
-`breach`
-Qualiflex Datacenter a volé des données de sociétés comme HWZ-Studiengänge, myenb.ch, schelling.ch et autres.
+### 2. [TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit](https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html)
+**Source :** The Hacker News  **Publié :** 22/08/2026 20:02 UTC  **Score :** 5
+TikTok concrétise un accord pour un règlement de 400 millions de dollars dans une affaire liée à la protection des mineurs aux États-Unis.
 
-### 3. [🏴‍☠️ Dysphor1a has just published a new victim : GUSTO College GLMS](https://www.ransomware.live/id/R1VTVE8gQ29sbGVnZSBHTE1TQERZU1BIT1IxQQ==)
-**Source :** Ransomware.live News  **Publié :** 20/08/2026 14:37 UTC  **Score :** 20
-`breach`
-Dysphor1a a compromis des comptes utilisateurs du système de gestion des apprenants GLMS de GUSTO College, révélant les identifiants d'utilisateurs sur gusto-education.com.
+### 3. [Cyber actualités ZATAZ de la semaine du 17 au 23 août 2026](https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-17-au-23-aout-2026/)
+**Source :** ZATAZ  **Publié :** 22/08/2026 13:27 UTC  **Score :** 5
+ZATAZ publie les actualités cyber du 17 au 23 août 2026.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-21.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-23.md`*
