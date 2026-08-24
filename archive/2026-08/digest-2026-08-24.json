@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T02:00:42.917198+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "697408c6f0f3e241",
+        "title": "🏴‍☠️ Coinbasecartel has just published a new victim : Westwing Group SE",
+        "url": "https://www.ransomware.live/id/V2VzdHdpbmcgR3JvdXAgU0VAY29pbmJhc2VjYXJ0ZWw=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Westwing Group SE, une entreprise allemande spécialisée dans les produits de maison et de décoration, a été victime d'une nouvelle attaque par Coinbasecartel.",
+        "published_at": "2026-08-23T21:26:15",
+        "score": 12
+      },
+      {
+        "guid": "bab952895c978b1b",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : adt.com",
+        "url": "https://www.ransomware.live/id/YWR0LmNvbUBsb2NrYml0NQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "adt.com, une société de sécurité proposant des systèmes de sécurité et services liés à la domotique, est devenue une nouvelle cible du groupe Lockbit5.",
+        "published_at": "2026-08-23T18:13:35",
+        "score": 0
+      },
+      {
+        "guid": "7960e698a337ac6c",
+        "title": "🏴‍☠️ Killsec has just published a new victim : Global Go",
+        "url": "https://www.ransomware.live/id/R2xvYmFsIEdvQGtpbGxzZWM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Global Go a été identifié comme victime par le groupe Killsec.",
+        "published_at": "2026-08-23T16:20:54",
+        "score": 12
+      },
+      {
+        "guid": "1b4e9b1926bed3b9",
+        "title": "🏴‍☠️ L group has just published a new victim : compendiumusa.net",
+        "url": "https://www.ransomware.live/id/Y29tcGVuZGl1bXVzYS5uZXRATCBHcm91cA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "compendiumusa.net, un site web américain, est devenu une nouvelle cible du groupe L.",
+        "published_at": "2026-08-23T13:51:04",
+        "score": 12
+      },
+      {
+        "guid": "b11bdf9f4cffda9d",
+        "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+        "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ToxicPanda, un malware Android, a été mis à jour avec de nouvelles fonctionnalités et se concentre maintenant sur 349 applications.",
+        "published_at": "2026-08-23T10:23:46",
+        "score": 17
+      },
+      {
+        "guid": "f94725317d5cac98",
+        "title": "🏴‍☠️ Kazu has just published a new victim : PappyJoe: Healthcare Management System",
+        "url": "https://www.ransomware.live/id/UGFwcHlKb2U6IEhlYWx0aGNhcmUgTWFuYWdlbWVudCBTeXN0ZW1Aa2F6dQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "PappyJoe, une plateforme de gestion médicale en nuage basée en Inde, a été victime d'une nouvelle attaque par le groupe Kazu.",
+        "published_at": "2026-08-23T08:10:25",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "a053299125b768f2",
+        "title": "NIUS - 6,090 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/NIUS",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "NIUS, un service de presse allemand, a subi une fuite de données compromettant 6 090 comptes uniques.",
+        "published_at": "2026-08-23T22:25:44",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "9c73ea8c3a36d9a6",
+        "title": "84 000 élèves visés par une fraude aux frais scolaires",
+        "url": "https://www.zataz.com/aix-marseille-visee-par-une-fraude-aux-frais-scolaires/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Des étudiants d'Aix-Marseille ont été victimes d'une fraude aux frais scolaires, une attaque visant à extorquer 450 €.",
+        "published_at": "2026-08-23T11:08:51",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "822eeedc4a5b9285",
+        "title": "🏴‍☠️ Genesis has just published a new victim : Hospitality Health ER (Longview)",
+        "url": "https://www.ransomware.live/id/SG9zcGl0YWxpdHkgSGVhbHRoIEVSIChMb25ndmlldylAZ2VuZXNpcw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Hospitality Health ER (Longview), un organisme de santé, a été identifié comme victime par le groupe Genesis.",
+        "published_at": "2026-08-23T21:27:57",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 53,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
