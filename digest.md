@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 23 août 2026
+# 🛡️ ARGOS CTI Digest — 24 août 2026
 
-> Généré le 23/08/2026 à 02:00 UTC  ·  39 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 24/08/2026 à 02:00 UTC  ·  53 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,64 +10,64 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Emperador has just published a new victim : Vietnam Electricity(EVNHANOI)](https://www.ransomware.live/id/VmlldG5hbSBFbGVjdHJpY2l0eShFVk5IQU5PSSlAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 16:20 UTC
-`malware`
-La compagnie énergétique vietnamienne EVN est la nouvelle victime de l'acteur Emperador.
+### [🏴‍☠️ Coinbasecartel has just published a new victim : Westwing Group SE](https://www.ransomware.live/id/V2VzdHdpbmcgR3JvdXAgU0VAY29pbmJhc2VjYXJ0ZWw=)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 21:26 UTC
+`cve` `malware`
+Westwing Group SE, une entreprise allemande spécialisée dans les produits de maison et de décoration, a été victime d'une nouvelle attaque par Coinbasecartel.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Integrated Health Systems](https://www.ransomware.live/id/SW50ZWdyYXRlZCBIZWFsdGggU3lzdGVtc0Bjb2luYmFzZWNhcnRlbA==)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:01 UTC
-`malware`
-Coinbasecartel a ciblé le groupe Integrated Health Systems.
+### [🏴‍☠️ Lockbit5 has just published a new victim : adt.com](https://www.ransomware.live/id/YWR0LmNvbUBsb2NrYml0NQ==)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 18:13 UTC
+`ransomware`
+adt.com, une société de sécurité proposant des systèmes de sécurité et services liés à la domotique, est devenue une nouvelle cible du groupe Lockbit5.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : RXPE Group](https://www.ransomware.live/id/UlhQRSBHcm91cEBjb2luYmFzZWNhcnRlbA==)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:00 UTC
+### [🏴‍☠️ Killsec has just published a new victim : Global Go](https://www.ransomware.live/id/R2xvYmFsIEdvQGtpbGxzZWM=)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 16:20 UTC
 `malware`
-Coinbasecartel a visé la compagnie d'assurance RXPE Group.
+Global Go a été identifié comme victime par le groupe Killsec.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Tower Insurance](https://www.ransomware.live/id/VG93ZXIgSW5zdXJhbmNlQGNvaW5iYXNlY2FydGVs)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 14:00 UTC
+### [🏴‍☠️ L group has just published a new victim : compendiumusa.net](https://www.ransomware.live/id/Y29tcGVuZGl1bXVzYS5uZXRATCBHcm91cA==)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 13:51 UTC
 `malware`
-La compagnie de transport argentine Flecha Bus est une nouvelle cible de Coinbasecartel.
+compendiumusa.net, un site web américain, est devenu une nouvelle cible du groupe L.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Flecha Bus](https://www.ransomware.live/id/RmxlY2hhIEJ1c0Bjb2luYmFzZWNhcnRlbA==)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 13:59 UTC
+### [ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/)
+**Source :** Bleeping Computer  **Publié :** 23/08/2026 10:23 UTC
 `malware`
-OTEIS Conseil & Ingénierie, un cabinet français d'ingénierie et de conseil, a été victime d'une nouvelle attaque.
+ToxicPanda, un malware Android, a été mis à jour avec de nouvelles fonctionnalités et se concentre maintenant sur 349 applications.
 
 ---
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : OTEIS Conseil & Ingénierie](https://www.ransomware.live/id/T1RFSVMgQ29uc2VpbCAmIEluZ8OpbmllcmllQGNvaW5iYXNlY2FydGVs)
-**Source :** Ransomware.live News  **Publié :** 22/08/2026 13:58 UTC
+### [🏴‍☠️ Kazu has just published a new victim : PappyJoe: Healthcare Management System](https://www.ransomware.live/id/UGFwcHlKb2U6IEhlYWx0aGNhcmUgTWFuYWdlbWVudCBTeXN0ZW1Aa2F6dQ==)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 08:10 UTC
 `malware`
-Golf Canada a connu une fuite de données impliquant 568 972 comptes avec des informations personnelles.
+PappyJoe, une plateforme de gestion médicale en nuage basée en Inde, a été victime d'une nouvelle attaque par le groupe Kazu.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Golf Canada - 568,972 breached accounts](https://haveibeenpwned.com/Breach/GolfCanada)
-**Source :** Have I Been Pwned  **Publié :** 22/08/2026 07:17 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Golf Canada a été victime d'une fuite de données, avec 568 972 comptes compromis.
+### 1. [NIUS - 6,090 breached accounts](https://haveibeenpwned.com/Breach/NIUS)
+**Source :** Have I Been Pwned  **Publié :** 23/08/2026 22:25 UTC  **Score :** 25
+`breach`
+NIUS, un service de presse allemand, a subi une fuite de données compromettant 6 090 comptes uniques.
 
-### 2. [TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit](https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html)
-**Source :** The Hacker News  **Publié :** 22/08/2026 20:02 UTC  **Score :** 5
-TikTok concrétise un accord pour un règlement de 400 millions de dollars dans une affaire liée à la protection des mineurs aux États-Unis.
+### 2. [84 000 élèves visés par une fraude aux frais scolaires](https://www.zataz.com/aix-marseille-visee-par-une-fraude-aux-frais-scolaires/)
+**Source :** ZATAZ  **Publié :** 23/08/2026 11:08 UTC  **Score :** 5
+Des étudiants d'Aix-Marseille ont été victimes d'une fraude aux frais scolaires, une attaque visant à extorquer 450 €.
 
-### 3. [Cyber actualités ZATAZ de la semaine du 17 au 23 août 2026](https://www.zataz.com/cyber-actualites-zataz-de-la-semaine-du-17-au-23-aout-2026/)
-**Source :** ZATAZ  **Publié :** 22/08/2026 13:27 UTC  **Score :** 5
-ZATAZ publie les actualités cyber du 17 au 23 août 2026.
+### 3. [🏴‍☠️ Genesis has just published a new victim : Hospitality Health ER (Longview)](https://www.ransomware.live/id/SG9zcGl0YWxpdHkgSGVhbHRoIEVSIChMb25ndmlldylAZ2VuZXNpcw==)
+**Source :** Ransomware.live News  **Publié :** 23/08/2026 21:27 UTC  **Score :** 0
+Hospitality Health ER (Longview), un organisme de santé, a été identifié comme victime par le groupe Genesis.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-23.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-24.md`*
