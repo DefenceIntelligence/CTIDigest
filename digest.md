@@ -1,73 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 24 août 2026
+# 🛡️ ARGOS CTI Digest — 25 août 2026
 
-> Généré le 24/08/2026 à 02:00 UTC  ·  53 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 25/08/2026 à 02:00 UTC  ·  52 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account](https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html)
+**Source :** The Hacker News  **Publié :** 24/08/2026 17:26 UTC  **CVE :** `CVE-2026-18963`
+`cve` `malware` `vulnerability`
+Une faille critique dans Keycloak permettrait à un attaquant non authentifié d’effectuer un reset de mot de passe et ainsi prendre le contrôle d’un compte utilisateur.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Coinbasecartel has just published a new victim : Westwing Group SE](https://www.ransomware.live/id/V2VzdHdpbmcgR3JvdXAgU0VAY29pbmJhc2VjYXJ0ZWw=)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 21:26 UTC
+### [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
+**Source :** The Hacker News  **Publié :** 24/08/2026 23:11 UTC
+`malware`
+Le Weedhack, une famille de malware, se propage par des sites Web fake et des référencements naturels trompeurs pour des joueurs de Minecraft.
+
+---
+
+### [US sanctions Iranian cyber actors as UK discloses power plant attack](https://therecord.media/iran-cyberattacks-us-uk)
+**Source :** The Record  **Publié :** 24/08/2026 23:00 UTC
+`malware`
+Les États-Unis ont sanctionné plusieurs acteurs cyberguerriers iraniens après un incident d’ingérence informatique sur une centrale électrique au Royaume-Uni.
+
+---
+
+### [🏴‍☠️ Deadlock has just published a new victim : SHAHEEN LAW GROUP PLC - Richmond, Virginia, USA](https://www.ransomware.live/id/U0hBSEVFTiBMQVcgR1JPVVAgUExDIC0gUmljaG1vbmQsIFZpcmdpbmlhLCBVU0FARGVhZGxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 21:21 UTC
 `cve` `malware`
-Westwing Group SE, une entreprise allemande spécialisée dans les produits de maison et de décoration, a été victime d'une nouvelle attaque par Coinbasecartel.
+SHAHEEN LAW GROUP PLC, une entreprise de droit immobilier aux États-Unis, a été victime d’une cyberattaque menant au vol de 150 fichiers internes par mois.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : adt.com](https://www.ransomware.live/id/YWR0LmNvbUBsb2NrYml0NQ==)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 18:13 UTC
-`ransomware`
-adt.com, une société de sécurité proposant des systèmes de sécurité et services liés à la domotique, est devenue une nouvelle cible du groupe Lockbit5.
-
----
-
-### [🏴‍☠️ Killsec has just published a new victim : Global Go](https://www.ransomware.live/id/R2xvYmFsIEdvQGtpbGxzZWM=)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 16:20 UTC
+### [🏴‍☠️ Deadlock has just published a new victim : FBC](https://www.ransomware.live/id/RkJDQERlYWRsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 21:21 UTC
 `malware`
-Global Go a été identifié comme victime par le groupe Killsec.
+Le conseil tarifaire FBC pour le secteur du mobilier a été victime d’une cyberattaque, menant au vol de 67 gigabytes de données.
 
 ---
 
-### [🏴‍☠️ L group has just published a new victim : compendiumusa.net](https://www.ransomware.live/id/Y29tcGVuZGl1bXVzYS5uZXRATCBHcm91cA==)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 13:51 UTC
-`malware`
-compendiumusa.net, un site web américain, est devenu une nouvelle cible du groupe L.
+### [🏴‍☠️ Dark project has just published a new victim : The Liberty Group](https://www.ransomware.live/id/VGhlIExpYmVydHkgR3JvdXBARGFyayBQcm9qZWN0)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 18:21 UTC
+`breach` `malware`
+L’entreprise The Liberty Group a subi un vol de 27 000 fichiers internes dans une cyberattaque.
 
 ---
 
-### [ToxicPanda Android malware uses VPN permissions to block Google Play](https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/)
-**Source :** Bleeping Computer  **Publié :** 23/08/2026 10:23 UTC
-`malware`
-ToxicPanda, un malware Android, a été mis à jour avec de nouvelles fonctionnalités et se concentre maintenant sur 349 applications.
-
----
-
-### [🏴‍☠️ Kazu has just published a new victim : PappyJoe: Healthcare Management System](https://www.ransomware.live/id/UGFwcHlKb2U6IEhlYWx0aGNhcmUgTWFuYWdlbWVudCBTeXN0ZW1Aa2F6dQ==)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 08:10 UTC
-`malware`
-PappyJoe, une plateforme de gestion médicale en nuage basée en Inde, a été victime d'une nouvelle attaque par le groupe Kazu.
+### [🏴‍☠️ Dark project has just published a new victim : Jones, Little & Co., CPAs, LLP](https://www.ransomware.live/id/Sm9uZXMsIExpdHRsZSAmIENvLiwgQ1BBcywgTExQQERhcmsgUHJvamVjdA==)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 18:20 UTC
+`breach` `malware`
+La société Jones, Little &amp; Co., CPAs a été victime d’une attaque informatique volant 100 gigabytes de données.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [NIUS - 6,090 breached accounts](https://haveibeenpwned.com/Breach/NIUS)
-**Source :** Have I Been Pwned  **Publié :** 23/08/2026 22:25 UTC  **Score :** 25
+### 1. [ReliaQuest confirms failed data-theft attack after ShinyHunters breach](https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/)
+**Source :** Bleeping Computer  **Publié :** 24/08/2026 11:17 UTC  **Score :** 35
+`breach` `phishing`
+ReliaQuest a confirmé une tentative d’attaque pour le vol de données après une tentative de phishing par des hackers.
+
+### 2. [🏴‍☠️ Booba project has just published a new victim : Davroc](https://www.ransomware.live/id/RGF2cm9jQEJvb2JhIFByb2plY3Q=)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 14:50 UTC  **Score :** 20
 `breach`
-NIUS, un service de presse allemand, a subi une fuite de données compromettant 6 090 comptes uniques.
+L'entreprise Davroc, fabricant de mobilier et d’intérieurs, a été victime d’une cyberattaque volant 15 gigabytes de données.
 
-### 2. [84 000 élèves visés par une fraude aux frais scolaires](https://www.zataz.com/aix-marseille-visee-par-une-fraude-aux-frais-scolaires/)
-**Source :** ZATAZ  **Publié :** 23/08/2026 11:08 UTC  **Score :** 5
-Des étudiants d'Aix-Marseille ont été victimes d'une fraude aux frais scolaires, une attaque visant à extorquer 450 €.
-
-### 3. [🏴‍☠️ Genesis has just published a new victim : Hospitality Health ER (Longview)](https://www.ransomware.live/id/SG9zcGl0YWxpdHkgSGVhbHRoIEVSIChMb25ndmlldylAZ2VuZXNpcw==)
-**Source :** Ransomware.live News  **Publié :** 23/08/2026 21:27 UTC  **Score :** 0
-Hospitality Health ER (Longview), un organisme de santé, a été identifié comme victime par le groupe Genesis.
+### 3. [🏴‍☠️ Booba project has just published a new victim : Chernyy & Associates](https://www.ransomware.live/id/Q2hlcm55eSAmIEFzc29jaWF0ZXNAQm9vYmEgUHJvamVjdA==)
+**Source :** Ransomware.live News  **Publié :** 24/08/2026 14:50 UTC  **Score :** 20
+`breach`
+L'entreprise légale Chernyy &amp; Associates a été victime d’une cyberattaque volant 67 gigabytes de données.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-24.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-25.md`*
