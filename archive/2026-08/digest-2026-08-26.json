@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T02:01:28.879367+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "7bcc4430907dd62f",
+        "title": "Bendix EC80 Brake ECU",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-67560"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans l'EC80 Brake ECU de Bendix pourraient permettre à un attaquant d'interrompre la fonction ABS, le contrôle de traction automatique ou d'autres systèmes essentiels.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "7191061691c6140c",
+        "title": "FURUNO FA-50 Class B AIS Transponder",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-59769"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions de l'AIS Transponder FURUNO FA-50 Class B sont vulnérables à des attaques permettant la modification des paramètres du périphérique.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "f55769582f915e3c",
+        "title": "Siemens SIMATIC IoT2050 Advanced",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-58115"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le SIMATIC IoT2050 Advanced, avec Node-RED installé sur l'OS Industriel, présente une vulnérabilité sans authentification dans l'interface HTTP de Node-RED, permettant à un attaquant non authentifié d'exécuter du code arbitraire.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "dafe52dc33d4ed8a",
+        "title": "Zoneminder",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-76060"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions Zoneminder 1.37.48 et 1.38.3 sont vulnérables à une faille permettant l'exécution de code à distance.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "61c91d33c84009a6",
+        "title": "PayRange API",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-18965"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions antérieures de PayRange API peuvent être exploitées pour révéler des informations sensibles, modifier le dispositif ou altérer l'image affichée.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f272887ba6c4a066",
+        "title": "Rently Smart Home",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-75960"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions inférieures à 20.1.0 de Rently Smart Home sont vulnérables et pourraient permettre l'accès à des informations sensibles et le dépassement de droits d'utilisateur.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f819b07fe0c16d74",
+        "title": "Ebyte NE2-D11",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-73125"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans l'interface HTTP du NE2-D11 d'Ebyte pourraient permettre un accès administratif non autorisé, la révélation de renseignements sensibles et la modification de la configuration.",
+        "published_at": "2026-08-25T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "cdbd5c92f48edaa9",
+        "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+        "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-61979"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploite deux vulnérabilités sans authentification dans le plugin Xecurify miniOrange SAML 2.0, permettant d'accéder aux privilèges d'administrateur WordPress.",
+        "published_at": "2026-08-25T14:04:07",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "92bfd5bb67c48349",
+        "title": "🏴‍☠️ Safepay has just published a new victim : industry.airliquide.kr",
+        "url": "https://www.ransomware.live/id/aW5kdXN0cnkuYWlybGlxdWlkZS5rckBzYWZlcGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Air Liquide est la nouvelle cible du fraudeur Safepay en Corée du Sud.",
+        "published_at": "2026-08-25T20:57:25",
+        "score": 12
+      },
+      {
+        "guid": "6830ccaa9e9995b2",
+        "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "phishing"
+        ],
+        "summary": "Les menaces abusent des miroirs npm pour héberger des pages de phishing qui imitent les CAPTCHAs Cloudflare, dirigeant les visiteurs vers des sites contrôlés par l'attaquant.",
+        "published_at": "2026-08-25T17:39:01",
+        "score": 15
+      },
+      {
+        "guid": "debcf5aa50b24fe9",
+        "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+        "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Une campagne de phishing utilise 24 paquets npm pour rediriger vers des pages CAPTCHA fausses, sans infecter les développeurs installant ces packages.",
+        "published_at": "2026-08-25T17:22:43",
+        "score": 27
+      },
+      {
+        "guid": "9de5f53bbf592f63",
+        "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+        "url": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Les FTP banners sont abusés par des acteurs malveillants pour délivrer deux nouveaux RATs, E4del et PINHOLE.",
+        "published_at": "2026-08-25T17:03:44",
+        "score": 17
+      },
+      {
+        "guid": "f397662d523202d4",
+        "title": "🏴‍☠️ Direwolf has just published a new victim : National Kidney Registry",
+        "url": "https://www.ransomware.live/id/TmF0aW9uYWwgS2lkbmV5IFJlZ2lzdHJ5QGRpcmV3b2xm",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le National Kidney Registry, une organisation caritative américaine, a été victime d'une attaque informatique.",
+        "published_at": "2026-08-25T15:57:57",
+        "score": 12
+      },
+      {
+        "guid": "ded96c01d38afa4e",
+        "title": "🏴‍☠️ Shadowbyt3$ has just published a new victim : A-Plus Software Limited",
+        "url": "https://www.ransomware.live/id/QS1QbHVzIFNvZnR3YXJlIExpbWl0ZWRAU2hhZG93Qnl0MyQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un groupe de hackers a exploité une vulnérabilité SQL pour accéder au système d'A-Plus Software Limited et y pirater des comptes administratifs.",
+        "published_at": "2026-08-25T14:25:27",
+        "score": 32
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d54d8000f8f0af78",
+        "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+        "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Le Mirage2FA, un outil de phishing commercial, a ciblé 4,500 entreprises US et européennes en abusant des flux d’authentification Microsoft 365.",
+        "published_at": "2026-08-25T17:26:15",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "b9b9a71e5cd9e1c2",
+        "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+        "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Le PhaaS AnonyMousKIT utilise l'intelligence artificielle pour voler les codes de verrouillage des iPhones volés et désactiver le verrouActivation Lock.",
+        "published_at": "2026-08-25T16:25:26",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "0e846150d2c6c172",
+        "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+        "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les États-Unis ont imposé des sanctions économiques contre des hackers iraniens responsables de breaches critiques d’infrastructure critique.",
+        "published_at": "2026-08-25T23:47:17",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 66,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 8,
+    "llm_provider": "ollama",
+    "argos_version": "2.0.0"
+  }
+}
