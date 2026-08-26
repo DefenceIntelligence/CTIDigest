@@ -1,80 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 25 août 2026
+# 🛡️ ARGOS CTI Digest — 26 août 2026
 
-> Généré le 25/08/2026 à 02:00 UTC  ·  52 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 26/08/2026 à 02:01 UTC  ·  66 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account](https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html)
-**Source :** The Hacker News  **Publié :** 24/08/2026 17:26 UTC  **CVE :** `CVE-2026-18963`
+### [Bendix EC80 Brake ECU](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-67560`
 `cve` `malware` `vulnerability`
-Une faille critique dans Keycloak permettrait à un attaquant non authentifié d’effectuer un reset de mot de passe et ainsi prendre le contrôle d’un compte utilisateur.
+Des vulnérabilités dans l'EC80 Brake ECU de Bendix pourraient permettre à un attaquant d'interrompre la fonction ABS, le contrôle de traction automatique ou d'autres systèmes essentiels.
+
+---
+
+### [FURUNO FA-50 Class B AIS Transponder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-59769`
+`cve` `malware` `vulnerability`
+Les versions de l'AIS Transponder FURUNO FA-50 Class B sont vulnérables à des attaques permettant la modification des paramètres du périphérique.
+
+---
+
+### [Siemens SIMATIC IoT2050 Advanced](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-58115`
+`cve` `vulnerability`
+Le SIMATIC IoT2050 Advanced, avec Node-RED installé sur l'OS Industriel, présente une vulnérabilité sans authentification dans l'interface HTTP de Node-RED, permettant à un attaquant non authentifié d'exécuter du code arbitraire.
+
+---
+
+### [Zoneminder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-76060`
+`cve` `malware` `vulnerability`
+Les versions Zoneminder 1.37.48 et 1.38.3 sont vulnérables à une faille permettant l'exécution de code à distance.
+
+---
+
+### [PayRange API](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-18965`
+`cve` `vulnerability`
+Les versions antérieures de PayRange API peuvent être exploitées pour révéler des informations sensibles, modifier le dispositif ou altérer l'image affichée.
+
+---
+
+### [Rently Smart Home](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-75960`
+`cve` `vulnerability`
+Les versions inférieures à 20.1.0 de Rently Smart Home sont vulnérables et pourraient permettre l'accès à des informations sensibles et le dépassement de droits d'utilisateur.
+
+---
+
+### [Ebyte NE2-D11](https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06)
+**Source :** CISA Advisories  **Publié :** 25/08/2026 12:00 UTC  **CVE :** `CVE-2026-73125`
+`cve` `malware` `vulnerability`
+Des vulnérabilités dans l'interface HTTP du NE2-D11 d'Ebyte pourraient permettre un accès administratif non autorisé, la révélation de renseignements sensibles et la modification de la configuration.
+
+---
+
+### [Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access](https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html)
+**Source :** The Hacker News  **Publié :** 25/08/2026 14:04 UTC  **CVE :** `CVE-2026-61979`
+`cve` `malware` `vulnerability`
+Des attaquants exploite deux vulnérabilités sans authentification dans le plugin Xecurify miniOrange SAML 2.0, permettant d'accéder aux privilèges d'administrateur WordPress.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning](https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html)
-**Source :** The Hacker News  **Publié :** 24/08/2026 23:11 UTC
+### [🏴‍☠️ Safepay has just published a new victim : industry.airliquide.kr](https://www.ransomware.live/id/aW5kdXN0cnkuYWlybGlxdWlkZS5rckBzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 25/08/2026 20:57 UTC
 `malware`
-Le Weedhack, une famille de malware, se propage par des sites Web fake et des référencements naturels trompeurs pour des joueurs de Minecraft.
+Air Liquide est la nouvelle cible du fraudeur Safepay en Corée du Sud.
 
 ---
 
-### [US sanctions Iranian cyber actors as UK discloses power plant attack](https://therecord.media/iran-cyberattacks-us-uk)
-**Source :** The Record  **Publié :** 24/08/2026 23:00 UTC
+### [Hackers abuse npm mirrors to host phishing redirect pages](https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/)
+**Source :** Bleeping Computer  **Publié :** 25/08/2026 17:39 UTC
+`apt` `phishing`
+Les menaces abusent des miroirs npm pour héberger des pages de phishing qui imitent les CAPTCHAs Cloudflare, dirigeant les visiteurs vers des sites contrôlés par l'attaquant.
+
+---
+
+### [24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages](https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html)
+**Source :** The Hacker News  **Publié :** 25/08/2026 17:22 UTC
+`apt` `malware` `phishing`
+Une campagne de phishing utilise 24 paquets npm pour rediriger vers des pages CAPTCHA fausses, sans infecter les développeurs installant ces packages.
+
+---
+
+### [E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands](https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html)
+**Source :** The Hacker News  **Publié :** 25/08/2026 17:03 UTC
+`apt` `malware`
+Les FTP banners sont abusés par des acteurs malveillants pour délivrer deux nouveaux RATs, E4del et PINHOLE.
+
+---
+
+### [🏴‍☠️ Direwolf has just published a new victim : National Kidney Registry](https://www.ransomware.live/id/TmF0aW9uYWwgS2lkbmV5IFJlZ2lzdHJ5QGRpcmV3b2xm)
+**Source :** Ransomware.live News  **Publié :** 25/08/2026 15:57 UTC
 `malware`
-Les États-Unis ont sanctionné plusieurs acteurs cyberguerriers iraniens après un incident d’ingérence informatique sur une centrale électrique au Royaume-Uni.
+Le National Kidney Registry, une organisation caritative américaine, a été victime d'une attaque informatique.
 
 ---
 
-### [🏴‍☠️ Deadlock has just published a new victim : SHAHEEN LAW GROUP PLC - Richmond, Virginia, USA](https://www.ransomware.live/id/U0hBSEVFTiBMQVcgR1JPVVAgUExDIC0gUmljaG1vbmQsIFZpcmdpbmlhLCBVU0FARGVhZGxvY2s=)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 21:21 UTC
-`cve` `malware`
-SHAHEEN LAW GROUP PLC, une entreprise de droit immobilier aux États-Unis, a été victime d’une cyberattaque menant au vol de 150 fichiers internes par mois.
-
----
-
-### [🏴‍☠️ Deadlock has just published a new victim : FBC](https://www.ransomware.live/id/RkJDQERlYWRsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 21:21 UTC
-`malware`
-Le conseil tarifaire FBC pour le secteur du mobilier a été victime d’une cyberattaque, menant au vol de 67 gigabytes de données.
-
----
-
-### [🏴‍☠️ Dark project has just published a new victim : The Liberty Group](https://www.ransomware.live/id/VGhlIExpYmVydHkgR3JvdXBARGFyayBQcm9qZWN0)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 18:21 UTC
-`breach` `malware`
-L’entreprise The Liberty Group a subi un vol de 27 000 fichiers internes dans une cyberattaque.
-
----
-
-### [🏴‍☠️ Dark project has just published a new victim : Jones, Little & Co., CPAs, LLP](https://www.ransomware.live/id/Sm9uZXMsIExpdHRsZSAmIENvLiwgQ1BBcywgTExQQERhcmsgUHJvamVjdA==)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 18:20 UTC
-`breach` `malware`
-La société Jones, Little &amp; Co., CPAs a été victime d’une attaque informatique volant 100 gigabytes de données.
+### [🏴‍☠️ Shadowbyt3$ has just published a new victim : A-Plus Software Limited](https://www.ransomware.live/id/QS1QbHVzIFNvZnR3YXJlIExpbWl0ZWRAU2hhZG93Qnl0MyQ=)
+**Source :** Ransomware.live News  **Publié :** 25/08/2026 14:25 UTC
+`breach` `malware` `vulnerability`
+Un groupe de hackers a exploité une vulnérabilité SQL pour accéder au système d'A-Plus Software Limited et y pirater des comptes administratifs.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [ReliaQuest confirms failed data-theft attack after ShinyHunters breach](https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/)
-**Source :** Bleeping Computer  **Publié :** 24/08/2026 11:17 UTC  **Score :** 35
+### 1. [Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows](https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html)
+**Source :** The Hacker News  **Publié :** 25/08/2026 17:26 UTC  **Score :** 35
 `breach` `phishing`
-ReliaQuest a confirmé une tentative d’attaque pour le vol de données après une tentative de phishing par des hackers.
+Le Mirage2FA, un outil de phishing commercial, a ciblé 4,500 entreprises US et européennes en abusant des flux d’authentification Microsoft 365.
 
-### 2. [🏴‍☠️ Booba project has just published a new victim : Davroc](https://www.ransomware.live/id/RGF2cm9jQEJvb2JhIFByb2plY3Q=)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 14:50 UTC  **Score :** 20
-`breach`
-L'entreprise Davroc, fabricant de mobilier et d’intérieurs, a été victime d’une cyberattaque volant 15 gigabytes de données.
+### 2. [AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes](https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/)
+**Source :** Bleeping Computer  **Publié :** 25/08/2026 16:25 UTC  **Score :** 35
+`breach` `phishing`
+Le PhaaS AnonyMousKIT utilise l'intelligence artificielle pour voler les codes de verrouillage des iPhones volés et désactiver le verrouActivation Lock.
 
-### 3. [🏴‍☠️ Booba project has just published a new victim : Chernyy & Associates](https://www.ransomware.live/id/Q2hlcm55eSAmIEFzc29jaWF0ZXNAQm9vYmEgUHJvamVjdA==)
-**Source :** Ransomware.live News  **Publié :** 24/08/2026 14:50 UTC  **Score :** 20
+### 3. [U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches](https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html)
+**Source :** The Hacker News  **Publié :** 25/08/2026 23:47 UTC  **Score :** 25
 `breach`
-L'entreprise légale Chernyy &amp; Associates a été victime d’une cyberattaque volant 67 gigabytes de données.
+Les États-Unis ont imposé des sanctions économiques contre des hackers iraniens responsables de breaches critiques d’infrastructure critique.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-25.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-26.md`*
