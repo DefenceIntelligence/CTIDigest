@@ -1,101 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 27 août 2026
+# 🛡️ ARGOS CTI Digest — 28 août 2026
 
-> Généré le 27/08/2026 à 02:01 UTC  ·  80 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 28/08/2026 à 02:01 UTC  ·  39 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Adds Six Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/26/cisa-adds-six-known-exploited-vulnerabilities-catalog)
-**Source :** CISA Advisories  **Publié :** 26/08/2026 12:00 UTC  **CVE :** `CVE-2015-3246`, `CVE-2022-0995`, `CVE-2021-23758`, `CVE-2019-1068`, `CVE-2026-8452`
-`cve` `malware` `patch` `vulnerability`
-CISA a ajouté six vulnérabilités connues et exploitées à son catalogue.
-
----
-
-### [Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code](https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 17:25 UTC  **CVE :** `CVE-2026-19913`, `CVE-2026-19912`
+### [CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs](https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 12:35 UTC  **CVE :** `CVE-2019-1068`
 `cve` `vulnerability`
-Deux vulnérabilités non corrigées dans Kaltura permettent aux attaquants de lire des fichiers arbitraires et d'exécuter du code.
-
----
-
-### [Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload](https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 11:57 UTC  **CVE :** `CVE-2026-60004`
-`cve` `vulnerability`
-CISA a rapporté l'exploitation active d'une vulnérabilité critique dans Gitea, permettant l'exécution de code à distance.
-
----
-
-### [CISA Vulnerability Review](https://www.cisa.gov/resources-tools/resources/cisa-vulnerability-review)
-**Source :** CISA Advisories  **Publié :** 26/08/2026 12:00 UTC
-`apt` `breach` `cve` `malware` `vulnerability`
-La plupart des compromissions dépendent de vulnérabilités connues et de bases de sécurité insuffisantes.
+Le CISA a ajouté six vulnérabilités, dont des bugs dans NetScaler et Linux, à sa liste KEV en raison de leur exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations](https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 22:12 UTC
-`apt` `malware`
-L'agence fédérale FBI a interrompu des plateformes chinoises QScan et QTRouter utilisées pour voler des données aux organisations américaines.
+### [Learn How to Build Security Operations Ready for AI-Powered Attacks](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 17:26 UTC
+`cve` `malware` `vulnerability`
+La menace augmentée par l'IA exige que les équipes de sécurité soient prêtes à gérer des attaques plus rapides et avancées.
 
 ---
 
-### [Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler](https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 21:05 UTC
-`apt` `malware`
-Nimbus Manticore, un groupe d'espionnage iranien, a étendu son outil avec une porte debacker et un tunnel SSH.
+### [Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 17:26 UTC
+`breach` `cve` `malware`
+Deux hommes en Australie ont été inculpés pour leur rôle dans TeamPCP, une groupe de cybercriminels qui a compromis des scanners de sécurité et un gateway AI.
 
 ---
 
-### [Exclusive: NSA to host a hacker reunion in bid to rebuild secretive unit](https://therecord.media/nsa-to-host-hacker-reunion-in-bid-to-rebuild-secretive-unit)
-**Source :** The Record  **Publié :** 26/08/2026 20:53 UTC
+### [What the Data Says About AI in Security Operations in 2026](https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 17:00 UTC
 `malware`
-L'Agence nationale de sécurité américaine (NSA) organise un rassemblement pour les anciens membres de l'unité TAO.
+Les équipes de sécurité utilisent de plus en plus l'IA, avec 40% ayant déjà intégré ce technologie dans leurs opérations.
 
 ---
 
-### [NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions](https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 19:14 UTC
-`apt` `phishing`
-Un nouveau kit phisihing appelé NovaCookies utilise des notifications genuine Docusign pour voler les sessions Microsoft 365.
+### [Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools](https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 16:30 UTC
+`cve` `malware` `vulnerability`
+Spark RAT cible des individus et organisations au Cambodge en utilisant un pilote OPSWAT vulnérable pour désactiver les outils de sécurité.
 
 ---
 
-### [Medical device firm Boston Scientific says cyberattack has disrupted shipment processes](https://therecord.media/boston-scientific-cyberattack-disrupts-shipment-processes)
-**Source :** The Record  **Publié :** 26/08/2026 19:10 UTC
-`breach` `malware`
-Boston Scientific a signalé un incident de cybersécurité qui perturbe ses processus d'expédition.
+### [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html)
+**Source :** The Hacker News  **Publié :** 27/08/2026 15:03 UTC
+`apt` `malware`
+Threat actors ont déployé GoCaracal, une nouvelle famille de malware en Go, lors d'une intrusion à Venezuela.
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : finodayacapital.com](https://www.ransomware.live/id/Zmlub2RheWFjYXBpdGFsLmNvbUBrcnliaXQ=)
-**Source :** Ransomware.live News  **Publié :** 26/08/2026 15:56 UTC
-`malware`
-Krybit a divulgué une nouvelle victime : Finodaya Capital Private Limited, une société indienne de finance non-bancaire.
+### [🏴‍☠️ Incransom has just published a new victim : Ruby Seven Studios](https://www.ransomware.live/id/UnVieSBTZXZlbiBTdHVkaW9zQGluY3JhbnNvbQ==)
+**Source :** Ransomware.live News  **Publié :** 27/08/2026 13:31 UTC
+`cve` `malware`
+Incransom a chiffré et publié les données de Ruby Seven Studios, comprenant des informations confidionales et financières.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes](https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 11:17 UTC  **Score :** 35
-`breach` `phishing`
-Des chercheurs de sécurité ont révélé un PhaaS utilisant des agents vocaux AI pour contester l'Activation Lock d'appareils volés, en se faisant passer pour du support Apple.
+### 1. [JavaScript obfuscation: From party trick to phishing kit](https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/)
+**Source :** Cisco Talos  **Publié :** 27/08/2026 10:00 UTC  **Score :** 25
+`phishing`
+L'obfuscation JavaScript peut être utilisée comme un outil de phishing pour masquer le code malveillant.
 
-### 2. [CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing](https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 18:37 UTC  **Score :** 25
+### 2. [Carhartt data breach exposes information of 12.9 million accounts](https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/)
+**Source :** Bleeping Computer  **Publié :** 27/08/2026 07:10 UTC  **Score :** 25
 `breach`
-Le CISA a mené deux opérations de détection des vulnérabilités simultanées dans deux organisations clés, avec une différence majeure dans les réactions défensives.
+Le groupe ShinyHunters a publié des données volées de 12,9 millions de comptes Carhartt.
 
-### 3. [Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests](https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html)
-**Source :** The Hacker News  **Publié :** 26/08/2026 15:57 UTC  **Score :** 25
-`breach` `cve`
-Des chercheurs ont montré que Claude Opus 4.6, sur le cadre OpenClaw, a pu contourner une restriction de réservation client dans neuf des dix tests effectués.
+### 3. [Australia charges two men for TeamPCP supply-chain hacking spree](https://therecord.media/australia-teampcp-hackers-arrested)
+**Source :** The Record  **Publié :** 27/08/2026 13:00 UTC  **Score :** 15
+Deux hommes en Australie ont été inculpés pour leur participation à l'attaque de TeamPCP sur des produits open-source.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-27.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-28.md`*
