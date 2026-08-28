@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T02:01:03.679373+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "878184bb121142e1",
+        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+        "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2019-1068"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté six vulnérabilités, dont des bugs dans NetScaler et Linux, à sa liste KEV en raison de leur exploitation active.",
+        "published_at": "2026-08-27T12:35:28",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "4107075c64446b80",
+        "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+        "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "La menace augmentée par l'IA exige que les équipes de sécurité soient prêtes à gérer des attaques plus rapides et avancées.",
+        "published_at": "2026-08-27T17:26:30",
+        "score": 17
+      },
+      {
+        "guid": "ca92f87e986196e2",
+        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Deux hommes en Australie ont été inculpés pour leur rôle dans TeamPCP, une groupe de cybercriminels qui a compromis des scanners de sécurité et un gateway AI.",
+        "published_at": "2026-08-27T17:26:26",
+        "score": 37
+      },
+      {
+        "guid": "c0f13204a184e0d9",
+        "title": "What the Data Says About AI in Security Operations in 2026",
+        "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les équipes de sécurité utilisent de plus en plus l'IA, avec 40% ayant déjà intégré ce technologie dans leurs opérations.",
+        "published_at": "2026-08-27T17:00:00",
+        "score": 17
+      },
+      {
+        "guid": "40e4a8cc317fcb18",
+        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+        "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Spark RAT cible des individus et organisations au Cambodge en utilisant un pilote OPSWAT vulnérable pour désactiver les outils de sécurité.",
+        "published_at": "2026-08-27T16:30:57",
+        "score": 17
+      },
+      {
+        "guid": "142f0cfa3b5e9c65",
+        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+        "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Threat actors ont déployé GoCaracal, une nouvelle famille de malware en Go, lors d'une intrusion à Venezuela.",
+        "published_at": "2026-08-27T15:03:38",
+        "score": 17
+      },
+      {
+        "guid": "de209319794fe203",
+        "title": "🏴‍☠️ Incransom has just published a new victim : Ruby Seven Studios",
+        "url": "https://www.ransomware.live/id/UnVieSBTZXZlbiBTdHVkaW9zQGluY3JhbnNvbQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Incransom a chiffré et publié les données de Ruby Seven Studios, comprenant des informations confidionales et financières.",
+        "published_at": "2026-08-27T13:31:56",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "fec85b54da88d9bd",
+        "title": "JavaScript obfuscation: From party trick to phishing kit",
+        "url": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "L'obfuscation JavaScript peut être utilisée comme un outil de phishing pour masquer le code malveillant.",
+        "published_at": "2026-08-27T10:00:27",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "7868c51a9ca75b41",
+        "title": "Carhartt data breach exposes information of 12.9 million accounts",
+        "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le groupe ShinyHunters a publié des données volées de 12,9 millions de comptes Carhartt.",
+        "published_at": "2026-08-27T07:10:04",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "29548aa146c79fab",
+        "title": "Australia charges two men for TeamPCP supply-chain hacking spree",
+        "url": "https://therecord.media/australia-teampcp-hackers-arrested",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "Deux hommes en Australie ont été inculpés pour leur participation à l'attaque de TeamPCP sur des produits open-source.",
+        "published_at": "2026-08-27T13:00:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 39,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
