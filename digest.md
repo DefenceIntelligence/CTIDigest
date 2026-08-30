@@ -1,79 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 28 août 2026
+# 🛡️ ARGOS CTI Digest — 30 août 2026
 
-> Généré le 28/08/2026 à 02:01 UTC  ·  39 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 30/08/2026 à 02:00 UTC  ·  24 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs](https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 12:35 UTC  **CVE :** `CVE-2019-1068`
+### [Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE](https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html)
+**Source :** The Hacker News  **Publié :** 29/08/2026 21:55 UTC  **CVE :** `CVE-2026-76581`
 `cve` `vulnerability`
-Le CISA a ajouté six vulnérabilités, dont des bugs dans NetScaler et Linux, à sa liste KEV en raison de leur exploitation active.
+Plusieurs vulnérabilités critiques ont été révélées dans des plugins et thèmes WordPress, permettant une prise de contrôle du site ou l'exécution arbitraire de code.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Learn How to Build Security Operations Ready for AI-Powered Attacks](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 17:26 UTC
-`cve` `malware` `vulnerability`
-La menace augmentée par l'IA exige que les équipes de sécurité soient prêtes à gérer des attaques plus rapides et avancées.
-
----
-
-### [Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks](https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 17:26 UTC
-`breach` `cve` `malware`
-Deux hommes en Australie ont été inculpés pour leur rôle dans TeamPCP, une groupe de cybercriminels qui a compromis des scanners de sécurité et un gateway AI.
-
----
-
-### [What the Data Says About AI in Security Operations in 2026](https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 17:00 UTC
+### [🏴‍☠️ Shinyhunters has just published a new victim : Neogen Corporation](https://www.ransomware.live/id/TmVvZ2VuIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==)
+**Source :** Ransomware.live News  **Publié :** 29/08/2026 21:01 UTC
 `malware`
-Les équipes de sécurité utilisent de plus en plus l'IA, avec 40% ayant déjà intégré ce technologie dans leurs opérations.
+Shinyhunters a menacé Neogen Corporation avec la publication d'informations confidentielles si le paiement n'est pas effectué avant le 1er septembre 2026.
 
 ---
 
-### [Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools](https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 16:30 UTC
+### [🏴‍☠️ M3rx has just published a new victim : lindner-group.com](https://www.ransomware.live/id/bGluZG5lci1ncm91cC5jb21AbTNyeA==)
+**Source :** Ransomware.live News  **Publié :** 29/08/2026 12:01 UTC
+`breach` `malware`
+Lindner Group, fabricant européen de systèmes d'isolation et d'aménagement intérieur, a été visé par une nouvelle campagne d'enregistrement.
+
+---
+
+### [Un outil pirate à 500 € pour industrialiser la fraude](https://www.zataz.com/un-outil-pirate-a-500-e-pour-industrialiser-la-fraude/)
+**Source :** ZATAZ  **Publié :** 29/08/2026 10:52 UTC
+`malware`
+Un outil pirate coûtant 500 € permet la centralisation des logs et sessions pour accélérer les opérations de fraude.
+
+---
+
+### [Brave browser adds email aliases to help users evade tracking](https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/)
+**Source :** Bleeping Computer  **Publié :** 29/08/2026 10:19 UTC
+`malware`
+La version 1.94 du navigateur Brave introduit une fonctionnalité d'alias courriel pour aider les utilisateurs à éviter la traçabilité.
+
+---
+
+### [Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html)
+**Source :** The Hacker News  **Publié :** 29/08/2026 03:00 UTC
+`breach` `malware`
+Le gouvernement de Berlin refuse de payer aux hackers qui ont volé des données du réseau administratif municipal après une cyberattaque en août 2026.
+
+---
+
+### [Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable](https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html)
+**Source :** The Hacker News  **Publié :** 29/08/2026 02:08 UTC
 `cve` `malware` `vulnerability`
-Spark RAT cible des individus et organisations au Cambodge en utilisant un pilote OPSWAT vulnérable pour désactiver les outils de sécurité.
-
----
-
-### [GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address](https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html)
-**Source :** The Hacker News  **Publié :** 27/08/2026 15:03 UTC
-`apt` `malware`
-Threat actors ont déployé GoCaracal, une nouvelle famille de malware en Go, lors d'une intrusion à Venezuela.
-
----
-
-### [🏴‍☠️ Incransom has just published a new victim : Ruby Seven Studios](https://www.ransomware.live/id/UnVieSBTZXZlbiBTdHVkaW9zQGluY3JhbnNvbQ==)
-**Source :** Ransomware.live News  **Publié :** 27/08/2026 13:31 UTC
-`cve` `malware`
-Incransom a chiffré et publié les données de Ruby Seven Studios, comprenant des informations confidionales et financières.
+Un défaut critique dans le module Cosmos EVM a été exploité pour drainer des fonds de six blockchains entre le 20 et le 25 août 2026.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [JavaScript obfuscation: From party trick to phishing kit](https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/)
-**Source :** Cisco Talos  **Publié :** 27/08/2026 10:00 UTC  **Score :** 25
-`phishing`
-L'obfuscation JavaScript peut être utilisée comme un outil de phishing pour masquer le code malveillant.
-
-### 2. [Carhartt data breach exposes information of 12.9 million accounts](https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/)
-**Source :** Bleeping Computer  **Publié :** 27/08/2026 07:10 UTC  **Score :** 25
+### 1. [🏴‍☠️ Emperador has just published a new victim : Uniguacu](https://www.ransomware.live/id/VW5pZ3VhY3VAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 29/08/2026 15:21 UTC  **Score :** 20
 `breach`
-Le groupe ShinyHunters a publié des données volées de 12,9 millions de comptes Carhartt.
+Emperador a menacé Uniguacu avec la publication de preuves de cyberattaques financières s'il ne respecte pas un accord prévu pour 13 jours.
 
-### 3. [Australia charges two men for TeamPCP supply-chain hacking spree](https://therecord.media/australia-teampcp-hackers-arrested)
-**Source :** The Record  **Publié :** 27/08/2026 13:00 UTC  **Score :** 15
-Deux hommes en Australie ont été inculpés pour leur participation à l'attaque de TeamPCP sur des produits open-source.
+### 2. [Anthropic is cutting Claude Code's current weekly limits by 17%](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)
+**Source :** Bleeping Computer  **Publié :** 29/08/2026 19:11 UTC  **Score :** 5
+Anthropic augmente temporairement les limites hebdomadaires de Claude Code, mais cette augmentation n'est pas aussi bénéfique qu'elle ne le paraît.
+
+### 3. [🏴‍☠️ Qilin has just published a new victim : Bandit Industries](https://www.ransomware.live/id/QmFuZGl0IEluZHVzdHJpZXNAcWlsaW4=)
+**Source :** Ransomware.live News  **Publié :** 29/08/2026 19:28 UTC  **Score :** 0
+Qilin a visé Bandit Industries comme nouveau cible, mais aucun détail supplémentaire n'est disponible sur cette menace.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-28.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-30.md`*
