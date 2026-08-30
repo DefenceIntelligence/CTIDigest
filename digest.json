@@ -1,79 +1,105 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T02:01:03.679373+00:00",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T02:00:55.948964+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "878184bb121142e1",
-        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-        "url": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "guid": "52d6add10465d023",
+        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2019-1068"
+          "CVE-2026-76581"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Le CISA a ajouté six vulnérabilités, dont des bugs dans NetScaler et Linux, à sa liste KEV en raison de leur exploitation active.",
-        "published_at": "2026-08-27T12:35:28",
+        "summary": "Plusieurs vulnérabilités critiques ont été révélées dans des plugins et thèmes WordPress, permettant une prise de contrôle du site ou l'exécution arbitraire de code.",
+        "published_at": "2026-08-29T21:55:03",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "4107075c64446b80",
-        "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-        "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-        "source": "The Hacker News",
+        "guid": "efa1b054e863956f",
+        "title": "🏴‍☠️ Shinyhunters has just published a new victim : Neogen Corporation",
+        "url": "https://www.ransomware.live/id/TmVvZ2VuIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Shinyhunters a menacé Neogen Corporation avec la publication d'informations confidentielles si le paiement n'est pas effectué avant le 1er septembre 2026.",
+        "published_at": "2026-08-29T21:01:56",
+        "score": 12
+      },
+      {
+        "guid": "ae767b9d3599a2c2",
+        "title": "🏴‍☠️ M3rx has just published a new victim : lindner-group.com",
+        "url": "https://www.ransomware.live/id/bGluZG5lci1ncm91cC5jb21AbTNyeA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Lindner Group, fabricant européen de systèmes d'isolation et d'aménagement intérieur, a été visé par une nouvelle campagne d'enregistrement.",
+        "published_at": "2026-08-29T12:01:00",
+        "score": 32
+      },
+      {
+        "guid": "1b0338217544dfdf",
+        "title": "Un outil pirate à 500 € pour industrialiser la fraude",
+        "url": "https://www.zataz.com/un-outil-pirate-a-500-e-pour-industrialiser-la-fraude/",
+        "source": "ZATAZ",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "La menace augmentée par l'IA exige que les équipes de sécurité soient prêtes à gérer des attaques plus rapides et avancées.",
-        "published_at": "2026-08-27T17:26:30",
+        "summary": "Un outil pirate coûtant 500 € permet la centralisation des logs et sessions pour accélérer les opérations de fraude.",
+        "published_at": "2026-08-29T10:52:45",
         "score": 17
       },
       {
-        "guid": "ca92f87e986196e2",
-        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-        "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "guid": "8140c0aa224b3fca",
+        "title": "Brave browser adds email aliases to help users evade tracking",
+        "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La version 1.94 du navigateur Brave introduit une fonctionnalité d'alias courriel pour aider les utilisateurs à éviter la traçabilité.",
+        "published_at": "2026-08-29T10:19:23",
+        "score": 17
+      },
+      {
+        "guid": "0012fe58d1e5c72f",
+        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+        "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve",
           "malware"
         ],
-        "summary": "Deux hommes en Australie ont été inculpés pour leur rôle dans TeamPCP, une groupe de cybercriminels qui a compromis des scanners de sécurité et un gateway AI.",
-        "published_at": "2026-08-27T17:26:26",
+        "summary": "Le gouvernement de Berlin refuse de payer aux hackers qui ont volé des données du réseau administratif municipal après une cyberattaque en août 2026.",
+        "published_at": "2026-08-29T03:00:52",
         "score": 37
       },
       {
-        "guid": "c0f13204a184e0d9",
-        "title": "What the Data Says About AI in Security Operations in 2026",
-        "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Les équipes de sécurité utilisent de plus en plus l'IA, avec 40% ayant déjà intégré ce technologie dans leurs opérations.",
-        "published_at": "2026-08-27T17:00:00",
-        "score": 17
-      },
-      {
-        "guid": "40e4a8cc317fcb18",
-        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-        "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+        "guid": "6c909e54311a82c0",
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -82,89 +108,57 @@
           "malware",
           "vulnerability"
         ],
-        "summary": "Spark RAT cible des individus et organisations au Cambodge en utilisant un pilote OPSWAT vulnérable pour désactiver les outils de sécurité.",
-        "published_at": "2026-08-27T16:30:57",
+        "summary": "Un défaut critique dans le module Cosmos EVM a été exploité pour drainer des fonds de six blockchains entre le 20 et le 25 août 2026.",
+        "published_at": "2026-08-29T02:08:47",
         "score": 17
-      },
-      {
-        "guid": "142f0cfa3b5e9c65",
-        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-        "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "malware"
-        ],
-        "summary": "Threat actors ont déployé GoCaracal, une nouvelle famille de malware en Go, lors d'une intrusion à Venezuela.",
-        "published_at": "2026-08-27T15:03:38",
-        "score": 17
-      },
-      {
-        "guid": "de209319794fe203",
-        "title": "🏴‍☠️ Incransom has just published a new victim : Ruby Seven Studios",
-        "url": "https://www.ransomware.live/id/UnVieSBTZXZlbiBTdHVkaW9zQGluY3JhbnNvbQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Incransom a chiffré et publié les données de Ruby Seven Studios, comprenant des informations confidionales et financières.",
-        "published_at": "2026-08-27T13:31:56",
-        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "fec85b54da88d9bd",
-        "title": "JavaScript obfuscation: From party trick to phishing kit",
-        "url": "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
-        "source": "Cisco Talos",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "phishing"
-        ],
-        "summary": "L'obfuscation JavaScript peut être utilisée comme un outil de phishing pour masquer le code malveillant.",
-        "published_at": "2026-08-27T10:00:27",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "7868c51a9ca75b41",
-        "title": "Carhartt data breach exposes information of 12.9 million accounts",
-        "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "ad50d194e1b44b13",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Uniguacu",
+        "url": "https://www.ransomware.live/id/VW5pZ3VhY3VAZW1wZXJhZG9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Le groupe ShinyHunters a publié des données volées de 12,9 millions de comptes Carhartt.",
-        "published_at": "2026-08-27T07:10:04",
-        "score": 25,
+        "summary": "Emperador a menacé Uniguacu avec la publication de preuves de cyberattaques financières s'il ne respecte pas un accord prévu pour 13 jours.",
+        "published_at": "2026-08-29T15:21:02",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "50b3b0cb5edde649",
+        "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Anthropic augmente temporairement les limites hebdomadaires de Claude Code, mais cette augmentation n'est pas aussi bénéfique qu'elle ne le paraît.",
+        "published_at": "2026-08-29T19:11:51",
+        "score": 5,
         "rank": 2
       },
       {
-        "guid": "29548aa146c79fab",
-        "title": "Australia charges two men for TeamPCP supply-chain hacking spree",
-        "url": "https://therecord.media/australia-teampcp-hackers-arrested",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "81b7702177cd043d",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Bandit Industries",
+        "url": "https://www.ransomware.live/id/QmFuZGl0IEluZHVzdHJpZXNAcWlsaW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Deux hommes en Australie ont été inculpés pour leur participation à l'attaque de TeamPCP sur des produits open-source.",
-        "published_at": "2026-08-27T13:00:00",
-        "score": 15,
+        "summary": "Qilin a visé Bandit Industries comme nouveau cible, mais aucun détail supplémentaire n'est disponible sur cette menace.",
+        "published_at": "2026-08-29T19:28:32",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 39,
+    "items_analyzed": 24,
     "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
