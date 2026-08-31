@@ -1,168 +1,146 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30T02:00:55.948964+00:00",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T02:01:05.893239+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "52d6add10465d023",
-        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-76581"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Plusieurs vulnérabilités critiques ont été révélées dans des plugins et thèmes WordPress, permettant une prise de contrôle du site ou l'exécution arbitraire de code.",
-        "published_at": "2026-08-29T21:55:03",
-        "score": 20
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "efa1b054e863956f",
-        "title": "🏴‍☠️ Shinyhunters has just published a new victim : Neogen Corporation",
-        "url": "https://www.ransomware.live/id/TmVvZ2VuIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Shinyhunters a menacé Neogen Corporation avec la publication d'informations confidentielles si le paiement n'est pas effectué avant le 1er septembre 2026.",
-        "published_at": "2026-08-29T21:01:56",
-        "score": 12
-      },
-      {
-        "guid": "ae767b9d3599a2c2",
-        "title": "🏴‍☠️ M3rx has just published a new victim : lindner-group.com",
-        "url": "https://www.ransomware.live/id/bGluZG5lci1ncm91cC5jb21AbTNyeA==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Lindner Group, fabricant européen de systèmes d'isolation et d'aménagement intérieur, a été visé par une nouvelle campagne d'enregistrement.",
-        "published_at": "2026-08-29T12:01:00",
-        "score": 32
-      },
-      {
-        "guid": "1b0338217544dfdf",
-        "title": "Un outil pirate à 500 € pour industrialiser la fraude",
-        "url": "https://www.zataz.com/un-outil-pirate-a-500-e-pour-industrialiser-la-fraude/",
+        "guid": "83bac087e6680fcf",
+        "title": "LAPSUS$ réapparaît autour d’une attaque contre Courir",
+        "url": "https://www.zataz.com/lapsus-reapparait-autour-dune-attaque-contre-courir/",
         "source": "ZATAZ",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Un outil pirate coûtant 500 € permet la centralisation des logs et sessions pour accélérer les opérations de fraude.",
-        "published_at": "2026-08-29T10:52:45",
+        "summary": "LAPSUS$ réapparaît sur un forum pirate, recrute des employés et revendique une attaque contre Courir.",
+        "published_at": "2026-08-30T21:23:20",
         "score": 17
       },
       {
-        "guid": "8140c0aa224b3fca",
-        "title": "Brave browser adds email aliases to help users evade tracking",
-        "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
-        "source": "Bleeping Computer",
+        "guid": "d76ecb544ecb81dc",
+        "title": "Cyberattaque : une rentrée scolaire sous tension",
+        "url": "https://www.zataz.com/cyberattaque-une-rentree-scolaire-sous-tension/",
+        "source": "ZATAZ",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "La version 1.94 du navigateur Brave introduit une fonctionnalité d'alias courriel pour aider les utilisateurs à éviter la traçabilité.",
-        "published_at": "2026-08-29T10:19:23",
+        "summary": "Cyberattaques scolaires : plusieurs académies expérimentent des pannes et une rentrée sous tension.",
+        "published_at": "2026-08-30T17:29:31",
         "score": 17
       },
       {
-        "guid": "0012fe58d1e5c72f",
-        "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-        "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Le gouvernement de Berlin refuse de payer aux hackers qui ont volé des données du réseau administratif municipal après une cyberattaque en août 2026.",
-        "published_at": "2026-08-29T03:00:52",
-        "score": 37
-      },
-      {
-        "guid": "6c909e54311a82c0",
-        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-        "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "6b023e21923adf29",
+        "title": "🏴‍☠️ Wallstreet has just published a new victim : Andover",
+        "url": "https://www.ransomware.live/id/QW5kb3ZlckBXYWxsc3RyZWV0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "cve",
-          "malware",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Un défaut critique dans le module Cosmos EVM a été exploité pour drainer des fonds de six blockchains entre le 20 et le 25 août 2026.",
-        "published_at": "2026-08-29T02:08:47",
+        "summary": "La municipalité d'Andover, au Massachusetts, est victime d'une cyberattaque selon un rapport.",
+        "published_at": "2026-08-30T15:21:42",
+        "score": 12
+      },
+      {
+        "guid": "0088789e95dc3f3b",
+        "title": "🏴‍☠️ Falcon has just published a new victim : Globus Medical",
+        "url": "https://www.ransomware.live/id/R2xvYnVzIE1lZGljYWxARmFsY29u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Falcon révèle une nouvelle victime : Globus Medical, avec des données médicales volées de grande envergure.",
+        "published_at": "2026-08-30T14:29:39",
+        "score": 12
+      },
+      {
+        "guid": "3bbffcfe04035ed4",
+        "title": "🏴‍☠️ Falcon has just published a new victim : DistributionNOW (DNOW Inc.)",
+        "url": "https://www.ransomware.live/id/RGlzdHJpYnV0aW9uTk9XIChETk9XIEluYy4pQEZhbGNvbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "DistributionNOW est la nouvelle cible d'une attaque, avec un volume massif de données volées.",
+        "published_at": "2026-08-30T14:29:18",
+        "score": 12
+      },
+      {
+        "guid": "ac4da6fe7700a9e1",
+        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+        "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "TerminalFix utilise des captchas fausses Cloudflare pour installer un backdoor via une reverse-tunnel.",
+        "published_at": "2026-08-30T13:06:33",
         "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "ad50d194e1b44b13",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Uniguacu",
-        "url": "https://www.ransomware.live/id/VW5pZ3VhY3VAZW1wZXJhZG9y",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "56c817a6de724f12",
+        "title": "Alaxione : 6,8 millions de patients revendiqués",
+        "url": "https://www.zataz.com/alaxione-68-millions-de-patients-revendiques/",
+        "source": "ZATAZ",
+        "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Emperador a menacé Uniguacu avec la publication de preuves de cyberattaques financières s'il ne respecte pas un accord prévu pour 13 jours.",
-        "published_at": "2026-08-29T15:21:02",
-        "score": 20,
+        "tags": [],
+        "summary": "Alaxione subit une fuite revendiquée de 6,8 millions de patients et 10,1 millions de rendez-vous.",
+        "published_at": "2026-08-30T13:58:02",
+        "score": 5,
         "rank": 1
       },
       {
-        "guid": "50b3b0cb5edde649",
-        "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+        "guid": "949040ac774ad951",
+        "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
+        "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [],
-        "summary": "Anthropic augmente temporairement les limites hebdomadaires de Claude Code, mais cette augmentation n'est pas aussi bénéfique qu'elle ne le paraît.",
-        "published_at": "2026-08-29T19:11:51",
+        "summary": "FulcrumSec prétend avoir volé 86 GB de données chez Manchester Airports Group.",
+        "published_at": "2026-08-30T11:00:21",
         "score": 5,
         "rank": 2
       },
       {
-        "guid": "81b7702177cd043d",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Bandit Industries",
-        "url": "https://www.ransomware.live/id/QmFuZGl0IEluZHVzdHJpZXNAcWlsaW4=",
+        "guid": "1c3f26209877f4ea",
+        "title": "🏴‍☠️ Qilin has just published a new victim : AFSARD",
+        "url": "https://www.ransomware.live/id/QUZTQVJEQHFpbGlu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Qilin a visé Bandit Industries comme nouveau cible, mais aucun détail supplémentaire n'est disponible sur cette menace.",
-        "published_at": "2026-08-29T19:28:32",
+        "summary": "Qilin dévoile une nouvelle victime, AFSARD, mais sans détail supplémentaire.",
+        "published_at": "2026-08-30T16:07:30",
         "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 24,
-    "items_selected": 10,
+    "items_analyzed": 48,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
