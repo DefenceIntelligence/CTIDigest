@@ -1,78 +1,72 @@
-# 🛡️ ARGOS CTI Digest — 30 août 2026
+# 🛡️ ARGOS CTI Digest — 31 août 2026
 
-> Généré le 30/08/2026 à 02:00 UTC  ·  24 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 31/08/2026 à 02:01 UTC  ·  48 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE](https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html)
-**Source :** The Hacker News  **Publié :** 29/08/2026 21:55 UTC  **CVE :** `CVE-2026-76581`
-`cve` `vulnerability`
-Plusieurs vulnérabilités critiques ont été révélées dans des plugins et thèmes WordPress, permettant une prise de contrôle du site ou l'exécution arbitraire de code.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Shinyhunters has just published a new victim : Neogen Corporation](https://www.ransomware.live/id/TmVvZ2VuIENvcnBvcmF0aW9uQHNoaW55aHVudGVycw==)
-**Source :** Ransomware.live News  **Publié :** 29/08/2026 21:01 UTC
+### [LAPSUS$ réapparaît autour d’une attaque contre Courir](https://www.zataz.com/lapsus-reapparait-autour-dune-attaque-contre-courir/)
+**Source :** ZATAZ  **Publié :** 30/08/2026 21:23 UTC
 `malware`
-Shinyhunters a menacé Neogen Corporation avec la publication d'informations confidentielles si le paiement n'est pas effectué avant le 1er septembre 2026.
+LAPSUS$ réapparaît sur un forum pirate, recrute des employés et revendique une attaque contre Courir.
 
 ---
 
-### [🏴‍☠️ M3rx has just published a new victim : lindner-group.com](https://www.ransomware.live/id/bGluZG5lci1ncm91cC5jb21AbTNyeA==)
-**Source :** Ransomware.live News  **Publié :** 29/08/2026 12:01 UTC
-`breach` `malware`
-Lindner Group, fabricant européen de systèmes d'isolation et d'aménagement intérieur, a été visé par une nouvelle campagne d'enregistrement.
-
----
-
-### [Un outil pirate à 500 € pour industrialiser la fraude](https://www.zataz.com/un-outil-pirate-a-500-e-pour-industrialiser-la-fraude/)
-**Source :** ZATAZ  **Publié :** 29/08/2026 10:52 UTC
+### [Cyberattaque : une rentrée scolaire sous tension](https://www.zataz.com/cyberattaque-une-rentree-scolaire-sous-tension/)
+**Source :** ZATAZ  **Publié :** 30/08/2026 17:29 UTC
 `malware`
-Un outil pirate coûtant 500 € permet la centralisation des logs et sessions pour accélérer les opérations de fraude.
+Cyberattaques scolaires : plusieurs académies expérimentent des pannes et une rentrée sous tension.
 
 ---
 
-### [Brave browser adds email aliases to help users evade tracking](https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/)
-**Source :** Bleeping Computer  **Publié :** 29/08/2026 10:19 UTC
+### [🏴‍☠️ Wallstreet has just published a new victim : Andover](https://www.ransomware.live/id/QW5kb3ZlckBXYWxsc3RyZWV0)
+**Source :** Ransomware.live News  **Publié :** 30/08/2026 15:21 UTC
+`cve` `malware`
+La municipalité d'Andover, au Massachusetts, est victime d'une cyberattaque selon un rapport.
+
+---
+
+### [🏴‍☠️ Falcon has just published a new victim : Globus Medical](https://www.ransomware.live/id/R2xvYnVzIE1lZGljYWxARmFsY29u)
+**Source :** Ransomware.live News  **Publié :** 30/08/2026 14:29 UTC
 `malware`
-La version 1.94 du navigateur Brave introduit une fonctionnalité d'alias courriel pour aider les utilisateurs à éviter la traçabilité.
+Falcon révèle une nouvelle victime : Globus Medical, avec des données médicales volées de grande envergure.
 
 ---
 
-### [Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html)
-**Source :** The Hacker News  **Publié :** 29/08/2026 03:00 UTC
-`breach` `malware`
-Le gouvernement de Berlin refuse de payer aux hackers qui ont volé des données du réseau administratif municipal après une cyberattaque en août 2026.
+### [🏴‍☠️ Falcon has just published a new victim : DistributionNOW (DNOW Inc.)](https://www.ransomware.live/id/RGlzdHJpYnV0aW9uTk9XIChETk9XIEluYy4pQEZhbGNvbg==)
+**Source :** Ransomware.live News  **Publié :** 30/08/2026 14:29 UTC
+`malware`
+DistributionNOW est la nouvelle cible d'une attaque, avec un volume massif de données volées.
 
 ---
 
-### [Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable](https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html)
-**Source :** The Hacker News  **Publié :** 29/08/2026 02:08 UTC
-`cve` `malware` `vulnerability`
-Un défaut critique dans le module Cosmos EVM a été exploité pour drainer des fonds de six blockchains entre le 20 et le 25 août 2026.
+### [TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html)
+**Source :** The Hacker News  **Publié :** 30/08/2026 13:06 UTC
+`apt` `malware`
+TerminalFix utilise des captchas fausses Cloudflare pour installer un backdoor via une reverse-tunnel.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Emperador has just published a new victim : Uniguacu](https://www.ransomware.live/id/VW5pZ3VhY3VAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 29/08/2026 15:21 UTC  **Score :** 20
-`breach`
-Emperador a menacé Uniguacu avec la publication de preuves de cyberattaques financières s'il ne respecte pas un accord prévu pour 13 jours.
+### 1. [Alaxione : 6,8 millions de patients revendiqués](https://www.zataz.com/alaxione-68-millions-de-patients-revendiques/)
+**Source :** ZATAZ  **Publié :** 30/08/2026 13:58 UTC  **Score :** 5
+Alaxione subit une fuite revendiquée de 6,8 millions de patients et 10,1 millions de rendez-vous.
 
-### 2. [Anthropic is cutting Claude Code's current weekly limits by 17%](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)
-**Source :** Bleeping Computer  **Publié :** 29/08/2026 19:11 UTC  **Score :** 5
-Anthropic augmente temporairement les limites hebdomadaires de Claude Code, mais cette augmentation n'est pas aussi bénéfique qu'elle ne le paraît.
+### 2. [FulcrumSec claims Manchester Airports hack, theft of 86 GB of data](https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/)
+**Source :** Bleeping Computer  **Publié :** 30/08/2026 11:00 UTC  **Score :** 5
+FulcrumSec prétend avoir volé 86 GB de données chez Manchester Airports Group.
 
-### 3. [🏴‍☠️ Qilin has just published a new victim : Bandit Industries](https://www.ransomware.live/id/QmFuZGl0IEluZHVzdHJpZXNAcWlsaW4=)
-**Source :** Ransomware.live News  **Publié :** 29/08/2026 19:28 UTC  **Score :** 0
-Qilin a visé Bandit Industries comme nouveau cible, mais aucun détail supplémentaire n'est disponible sur cette menace.
+### 3. [🏴‍☠️ Qilin has just published a new victim : AFSARD](https://www.ransomware.live/id/QUZTQVJEQHFpbGlu)
+**Source :** Ransomware.live News  **Publié :** 30/08/2026 16:07 UTC  **Score :** 0
+Qilin dévoile une nouvelle victime, AFSARD, mais sans détail supplémentaire.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-30.md`*
+*Archivé dans `/archive/2026-08/digest-2026-08-31.md`*
