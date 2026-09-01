@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T02:00:51.800036+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "b31799085028427c",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : svfcu.org",
+        "url": "https://www.ransomware.live/id/c3ZmY3Uub3JnQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Susquehanna Valley Federal Credit Union, un établissement financier membre offrant divers services financiers, est la dernière victime de Lockbit5.",
+        "published_at": "2026-08-31T23:02:07",
+        "score": 0
+      },
+      {
+        "guid": "7f576de434abf571",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hoaattorneys.com",
+        "url": "https://www.ransomware.live/id/aG9hYXR0b3JuZXlzLmNvbUBsb2NrYml0NQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Beaumont Tashjian, une entreprise juridique ayant 40 ans d'expérience dans l'aide aux copropriétés, est la nouvelle victime de Lockbit5.",
+        "published_at": "2026-08-31T22:59:59",
+        "score": 0
+      },
+      {
+        "guid": "6d2f6e77e602b5ed",
+        "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+        "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des acteurs à liens nord-coréens cherchent des emplois dans divers secteurs, non seulement IT, en tant qu'internes, augmentant les risques d'insidieux pour l'industrie.",
+        "published_at": "2026-08-31T22:54:28",
+        "score": 17
+      },
+      {
+        "guid": "fb4c45c57dc5046b",
+        "title": "Five plead guilty in latest federal ATM jackpotting case",
+        "url": "https://therecord.media/kansas-atm-jackpotting-guilty-pleas",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware"
+        ],
+        "summary": "Cinq Vénézuéliens ont reconnu coupable dans un cas d'escroquerie aux automates bancaires, confirmant les préoccupations de la criminalité en ce domaine.",
+        "published_at": "2026-08-31T20:31:00",
+        "score": 15
+      },
+      {
+        "guid": "9036bb9d21c1b5d3",
+        "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
+        "url": "https://isc.sans.edu/diary/rss/33298",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un honeypot dévoile une attaque utilisant un point d'accès LLM simulé pour obtenir des informations confidentielles sur le travailleur informatique.",
+        "published_at": "2026-08-31T20:00:34",
+        "score": 12
+      },
+      {
+        "guid": "f11ad7902653e269",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : icot.es",
+        "url": "https://www.ransomware.live/id/aWNvdC5lc0BCcmFpbkNpcGhlcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-08-31T19:55:00",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "6318fc0d60c2398f",
+        "title": "Fraudsters steal $6 million from Tectonic crypto platform after inflating token price",
+        "url": "https://therecord.media/crypto-tectonic-hack-cronos",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des escrocs ont volé 6 millions de dollars du plateforme crypto Tectonic après avoir manipulé le prix du token Tonic.",
+        "published_at": "2026-08-31T19:45:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "2a8a5150b2b0cf3d",
+        "title": "🏴‍☠️ Interlock has just published a new victim : Super Systems Inc",
+        "url": "https://www.ransomware.live/id/U3VwZXIgU3lzdGVtcyBJbmNAaW50ZXJsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Super Systems Inc, une entreprise negligente en matière de sécurité, a subi des fuites de données qui révèlent des informations confidentielles sur ses clients et ses comptes clients.",
+        "published_at": "2026-08-31T15:57:55",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "39ac6f42161c1339",
+        "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+        "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Anthropic met en place une nouvelle API de conformité pour surveiller l'activité d'agents AI, soulignant les limites des journaux d'activité seules.",
+        "published_at": "2026-08-31T17:01:47",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 78,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
