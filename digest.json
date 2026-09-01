@@ -1,86 +1,43 @@
 {
   "schema_version": "1.0",
-  "date": "2026-08-31",
-  "generated_at": "2026-08-31T02:01:05.893239+00:00",
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T02:00:51.800036+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "83bac087e6680fcf",
-        "title": "LAPSUS$ réapparaît autour d’une attaque contre Courir",
-        "url": "https://www.zataz.com/lapsus-reapparait-autour-dune-attaque-contre-courir/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "LAPSUS$ réapparaît sur un forum pirate, recrute des employés et revendique une attaque contre Courir.",
-        "published_at": "2026-08-30T21:23:20",
-        "score": 17
-      },
-      {
-        "guid": "d76ecb544ecb81dc",
-        "title": "Cyberattaque : une rentrée scolaire sous tension",
-        "url": "https://www.zataz.com/cyberattaque-une-rentree-scolaire-sous-tension/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Cyberattaques scolaires : plusieurs académies expérimentent des pannes et une rentrée sous tension.",
-        "published_at": "2026-08-30T17:29:31",
-        "score": 17
-      },
-      {
-        "guid": "6b023e21923adf29",
-        "title": "🏴‍☠️ Wallstreet has just published a new victim : Andover",
-        "url": "https://www.ransomware.live/id/QW5kb3ZlckBXYWxsc3RyZWV0",
+        "guid": "b31799085028427c",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : svfcu.org",
+        "url": "https://www.ransomware.live/id/c3ZmY3Uub3JnQGxvY2tiaXQ1",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
-          "malware"
+          "ransomware"
         ],
-        "summary": "La municipalité d'Andover, au Massachusetts, est victime d'une cyberattaque selon un rapport.",
-        "published_at": "2026-08-30T15:21:42",
-        "score": 12
+        "summary": "Susquehanna Valley Federal Credit Union, un établissement financier membre offrant divers services financiers, est la dernière victime de Lockbit5.",
+        "published_at": "2026-08-31T23:02:07",
+        "score": 0
       },
       {
-        "guid": "0088789e95dc3f3b",
-        "title": "🏴‍☠️ Falcon has just published a new victim : Globus Medical",
-        "url": "https://www.ransomware.live/id/R2xvYnVzIE1lZGljYWxARmFsY29u",
+        "guid": "7f576de434abf571",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hoaattorneys.com",
+        "url": "https://www.ransomware.live/id/aG9hYXR0b3JuZXlzLmNvbUBsb2NrYml0NQ==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "Falcon révèle une nouvelle victime : Globus Medical, avec des données médicales volées de grande envergure.",
-        "published_at": "2026-08-30T14:29:39",
-        "score": 12
+        "summary": "Beaumont Tashjian, une entreprise juridique ayant 40 ans d'expérience dans l'aide aux copropriétés, est la nouvelle victime de Lockbit5.",
+        "published_at": "2026-08-31T22:59:59",
+        "score": 0
       },
       {
-        "guid": "3bbffcfe04035ed4",
-        "title": "🏴‍☠️ Falcon has just published a new victim : DistributionNOW (DNOW Inc.)",
-        "url": "https://www.ransomware.live/id/RGlzdHJpYnV0aW9uTk9XIChETk9XIEluYy4pQEZhbGNvbg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "DistributionNOW est la nouvelle cible d'une attaque, avec un volume massif de données volées.",
-        "published_at": "2026-08-30T14:29:18",
-        "score": 12
-      },
-      {
-        "guid": "ac4da6fe7700a9e1",
-        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-        "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "guid": "6d2f6e77e602b5ed",
+        "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+        "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -88,55 +45,103 @@
           "apt",
           "malware"
         ],
-        "summary": "TerminalFix utilise des captchas fausses Cloudflare pour installer un backdoor via une reverse-tunnel.",
-        "published_at": "2026-08-30T13:06:33",
+        "summary": "Des acteurs à liens nord-coréens cherchent des emplois dans divers secteurs, non seulement IT, en tant qu'internes, augmentant les risques d'insidieux pour l'industrie.",
+        "published_at": "2026-08-31T22:54:28",
         "score": 17
+      },
+      {
+        "guid": "fb4c45c57dc5046b",
+        "title": "Five plead guilty in latest federal ATM jackpotting case",
+        "url": "https://therecord.media/kansas-atm-jackpotting-guilty-pleas",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware"
+        ],
+        "summary": "Cinq Vénézuéliens ont reconnu coupable dans un cas d'escroquerie aux automates bancaires, confirmant les préoccupations de la criminalité en ce domaine.",
+        "published_at": "2026-08-31T20:31:00",
+        "score": 15
+      },
+      {
+        "guid": "9036bb9d21c1b5d3",
+        "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
+        "url": "https://isc.sans.edu/diary/rss/33298",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un honeypot dévoile une attaque utilisant un point d'accès LLM simulé pour obtenir des informations confidentielles sur le travailleur informatique.",
+        "published_at": "2026-08-31T20:00:34",
+        "score": 12
+      },
+      {
+        "guid": "f11ad7902653e269",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : icot.es",
+        "url": "https://www.ransomware.live/id/aWNvdC5lc0BCcmFpbkNpcGhlcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-08-31T19:55:00",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "56c817a6de724f12",
-        "title": "Alaxione : 6,8 millions de patients revendiqués",
-        "url": "https://www.zataz.com/alaxione-68-millions-de-patients-revendiques/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "6318fc0d60c2398f",
+        "title": "Fraudsters steal $6 million from Tectonic crypto platform after inflating token price",
+        "url": "https://therecord.media/crypto-tectonic-hack-cronos",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [],
-        "summary": "Alaxione subit une fuite revendiquée de 6,8 millions de patients et 10,1 millions de rendez-vous.",
-        "published_at": "2026-08-30T13:58:02",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des escrocs ont volé 6 millions de dollars du plateforme crypto Tectonic après avoir manipulé le prix du token Tonic.",
+        "published_at": "2026-08-31T19:45:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "949040ac774ad951",
-        "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data",
-        "url": "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [],
-        "summary": "FulcrumSec prétend avoir volé 86 GB de données chez Manchester Airports Group.",
-        "published_at": "2026-08-30T11:00:21",
-        "score": 5,
-        "rank": 2
-      },
-      {
-        "guid": "1c3f26209877f4ea",
-        "title": "🏴‍☠️ Qilin has just published a new victim : AFSARD",
-        "url": "https://www.ransomware.live/id/QUZTQVJEQHFpbGlu",
+        "guid": "2a8a5150b2b0cf3d",
+        "title": "🏴‍☠️ Interlock has just published a new victim : Super Systems Inc",
+        "url": "https://www.ransomware.live/id/U3VwZXIgU3lzdGVtcyBJbmNAaW50ZXJsb2Nr",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Super Systems Inc, une entreprise negligente en matière de sécurité, a subi des fuites de données qui révèlent des informations confidentielles sur ses clients et ses comptes clients.",
+        "published_at": "2026-08-31T15:57:55",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "39ac6f42161c1339",
+        "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+        "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
         "tags": [],
-        "summary": "Qilin dévoile une nouvelle victime, AFSARD, mais sans détail supplémentaire.",
-        "published_at": "2026-08-30T16:07:30",
-        "score": 0,
+        "summary": "Anthropic met en place une nouvelle API de conformité pour surveiller l'activité d'agents AI, soulignant les limites des journaux d'activité seules.",
+        "published_at": "2026-08-31T17:01:47",
+        "score": 5,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 48,
+    "items_analyzed": 78,
     "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
