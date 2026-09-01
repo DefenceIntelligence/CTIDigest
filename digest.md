@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 31 août 2026
+# 🛡️ ARGOS CTI Digest — 1 septembre 2026
 
-> Généré le 31/08/2026 à 02:01 UTC  ·  48 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 01/09/2026 à 02:00 UTC  ·  78 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,63 +10,65 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [LAPSUS$ réapparaît autour d’une attaque contre Courir](https://www.zataz.com/lapsus-reapparait-autour-dune-attaque-contre-courir/)
-**Source :** ZATAZ  **Publié :** 30/08/2026 21:23 UTC
-`malware`
-LAPSUS$ réapparaît sur un forum pirate, recrute des employés et revendique une attaque contre Courir.
+### [🏴‍☠️ Lockbit5 has just published a new victim : svfcu.org](https://www.ransomware.live/id/c3ZmY3Uub3JnQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 31/08/2026 23:02 UTC
+`ransomware`
+Susquehanna Valley Federal Credit Union, un établissement financier membre offrant divers services financiers, est la dernière victime de Lockbit5.
 
 ---
 
-### [Cyberattaque : une rentrée scolaire sous tension](https://www.zataz.com/cyberattaque-une-rentree-scolaire-sous-tension/)
-**Source :** ZATAZ  **Publié :** 30/08/2026 17:29 UTC
-`malware`
-Cyberattaques scolaires : plusieurs académies expérimentent des pannes et une rentrée sous tension.
+### [🏴‍☠️ Lockbit5 has just published a new victim : hoaattorneys.com](https://www.ransomware.live/id/aG9hYXR0b3JuZXlzLmNvbUBsb2NrYml0NQ==)
+**Source :** Ransomware.live News  **Publié :** 31/08/2026 22:59 UTC
+`ransomware`
+Beaumont Tashjian, une entreprise juridique ayant 40 ans d'expérience dans l'aide aux copropriétés, est la nouvelle victime de Lockbit5.
 
 ---
 
-### [🏴‍☠️ Wallstreet has just published a new victim : Andover](https://www.ransomware.live/id/QW5kb3ZlckBXYWxsc3RyZWV0)
-**Source :** Ransomware.live News  **Publié :** 30/08/2026 15:21 UTC
-`cve` `malware`
-La municipalité d'Andover, au Massachusetts, est victime d'une cyberattaque selon un rapport.
-
----
-
-### [🏴‍☠️ Falcon has just published a new victim : Globus Medical](https://www.ransomware.live/id/R2xvYnVzIE1lZGljYWxARmFsY29u)
-**Source :** Ransomware.live News  **Publié :** 30/08/2026 14:29 UTC
-`malware`
-Falcon révèle une nouvelle victime : Globus Medical, avec des données médicales volées de grande envergure.
-
----
-
-### [🏴‍☠️ Falcon has just published a new victim : DistributionNOW (DNOW Inc.)](https://www.ransomware.live/id/RGlzdHJpYnV0aW9uTk9XIChETk9XIEluYy4pQEZhbGNvbg==)
-**Source :** Ransomware.live News  **Publié :** 30/08/2026 14:29 UTC
-`malware`
-DistributionNOW est la nouvelle cible d'une attaque, avec un volume massif de données volées.
-
----
-
-### [TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html)
-**Source :** The Hacker News  **Publié :** 30/08/2026 13:06 UTC
+### [North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales](https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html)
+**Source :** The Hacker News  **Publié :** 31/08/2026 22:54 UTC
 `apt` `malware`
-TerminalFix utilise des captchas fausses Cloudflare pour installer un backdoor via une reverse-tunnel.
+Des acteurs à liens nord-coréens cherchent des emplois dans divers secteurs, non seulement IT, en tant qu'internes, augmentant les risques d'insidieux pour l'industrie.
+
+---
+
+### [Five plead guilty in latest federal ATM jackpotting case](https://therecord.media/kansas-atm-jackpotting-guilty-pleas)
+**Source :** The Record  **Publié :** 31/08/2026 20:31 UTC
+`cve` `ransomware`
+Cinq Vénézuéliens ont reconnu coupable dans un cas d'escroquerie aux automates bancaires, confirmant les préoccupations de la criminalité en ce domaine.
+
+---
+
+### [The Coding-Agent Trap: When a "Free" LLM Endpoint Is the Adversary, (Mon, Aug 31st)](https://isc.sans.edu/diary/rss/33298)
+**Source :** SANS ISC  **Publié :** 31/08/2026 20:00 UTC
+`malware`
+Un honeypot dévoile une attaque utilisant un point d'accès LLM simulé pour obtenir des informations confidentielles sur le travailleur informatique.
+
+---
+
+### [🏴‍☠️ Braincipher has just published a new victim : icot.es](https://www.ransomware.live/id/aWNvdC5lc0BCcmFpbkNpcGhlcg==)
+**Source :** Ransomware.live News  **Publié :** 31/08/2026 19:55 UTC
+`malware`
+N/A
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Alaxione : 6,8 millions de patients revendiqués](https://www.zataz.com/alaxione-68-millions-de-patients-revendiques/)
-**Source :** ZATAZ  **Publié :** 30/08/2026 13:58 UTC  **Score :** 5
-Alaxione subit une fuite revendiquée de 6,8 millions de patients et 10,1 millions de rendez-vous.
+### 1. [Fraudsters steal $6 million from Tectonic crypto platform after inflating token price](https://therecord.media/crypto-tectonic-hack-cronos)
+**Source :** The Record  **Publié :** 31/08/2026 19:45 UTC  **Score :** 35
+`breach`
+Des escrocs ont volé 6 millions de dollars du plateforme crypto Tectonic après avoir manipulé le prix du token Tonic.
 
-### 2. [FulcrumSec claims Manchester Airports hack, theft of 86 GB of data](https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/)
-**Source :** Bleeping Computer  **Publié :** 30/08/2026 11:00 UTC  **Score :** 5
-FulcrumSec prétend avoir volé 86 GB de données chez Manchester Airports Group.
+### 2. [🏴‍☠️ Interlock has just published a new victim : Super Systems Inc](https://www.ransomware.live/id/U3VwZXIgU3lzdGVtcyBJbmNAaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 31/08/2026 15:57 UTC  **Score :** 20
+`breach` `vulnerability`
+Super Systems Inc, une entreprise negligente en matière de sécurité, a subi des fuites de données qui révèlent des informations confidentielles sur ses clients et ses comptes clients.
 
-### 3. [🏴‍☠️ Qilin has just published a new victim : AFSARD](https://www.ransomware.live/id/QUZTQVJEQHFpbGlu)
-**Source :** Ransomware.live News  **Publié :** 30/08/2026 16:07 UTC  **Score :** 0
-Qilin dévoile une nouvelle victime, AFSARD, mais sans détail supplémentaire.
+### 3. [Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance](https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html)
+**Source :** The Hacker News  **Publié :** 31/08/2026 17:01 UTC  **Score :** 5
+Anthropic met en place une nouvelle API de conformité pour surveiller l'activité d'agents AI, soulignant les limites des journaux d'activité seules.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-08/digest-2026-08-31.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-01.md`*
