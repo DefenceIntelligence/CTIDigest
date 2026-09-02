@@ -1,153 +1,303 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-01",
-  "generated_at": "2026-09-01T02:00:51.800036+00:00",
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T02:01:34.550991+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
+    "vulnerabilities": [
+      {
+        "guid": "c10806a5358162fa",
+        "title": "Rockwell Automation RSLinx Classic",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9625",
+          "CVE-2026-9622",
+          "CVE-2026-9621",
+          "CVE-2026-9624"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions de RSLinx Classic antérieures à la version 4.50 sont vulnérables aux CVE-2026-9621, -9622, -9624 et -9625, permettant une condition de refus de service.",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "229073c1cabecfe4",
+        "title": "Rockwell Automation Redundancy Module Configuration Tool",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9634",
+          "CVE-2026-9633"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions 10.00.00 du Rockwell Automation Redundancy Module Configuration Tool sont vulnérables au CVE-2026-9633, permettant une exécution de processus avec des privilèges administratifs.",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "dddfadb5e1a72d09",
+        "title": "Rockwell Automation Historian ME",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-12768",
+          "CVE-2026-12661"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions Series B 5.202 et Series C 7.101 du Rockwell Automation Historian ME sont vulnérables aux CVE-2025-12768 et -12661, permettant une exécution de code à distance.",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "0efd250bac267d66",
+        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-0768",
+          "CVE-2026-66066"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les attaquants exploitent deux vulnérabilités critiques dans Langflow et Ruby on Rails : CVE-2026-0768 et CVE-2026-66066.",
+        "published_at": "2026-09-01T12:52:30",
+        "score": 20
+      },
+      {
+        "guid": "38de4353a61d1eef",
+        "title": "Rockwell Automation FactoryTalk Activation Manager",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-16675"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions FactoryTalk Activation Manager de V5.02 et antérieures sont vulnérables au CVE-2026-16675.",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "fec04c403cc8dbed",
+        "title": "Rockwell Automation Logix Platform",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9637"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-244-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p>The following versions of Rockwell Automation Logix Platform are affected:</p>\n<ul>\n<li>ControlLogix 5580 &lt;=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)</li>\n<li>CompactLogix 5380 &lt;=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-963",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "457d46df7a69ae11",
+        "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2021-42260"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix et Compact GuardLogix antérieures à V34.015 sont vulnérables aux CVE-2021-42260.",
+        "published_at": "2026-09-01T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "759b288637bdddef",
+        "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-82329"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les attaquants exploitent une vulnérabilité critique dans JFrog Artifactory, permettant l'accès administratif, malgré la récente mise à jour.",
+        "published_at": "2026-09-01T23:23:11",
+        "score": 32
+      }
+    ],
     "campaigns": [
       {
-        "guid": "b31799085028427c",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : svfcu.org",
-        "url": "https://www.ransomware.live/id/c3ZmY3Uub3JnQGxvY2tiaXQ1",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Susquehanna Valley Federal Credit Union, un établissement financier membre offrant divers services financiers, est la dernière victime de Lockbit5.",
-        "published_at": "2026-08-31T23:02:07",
-        "score": 0
-      },
-      {
-        "guid": "7f576de434abf571",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hoaattorneys.com",
-        "url": "https://www.ransomware.live/id/aG9hYXR0b3JuZXlzLmNvbUBsb2NrYml0NQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Beaumont Tashjian, une entreprise juridique ayant 40 ans d'expérience dans l'aide aux copropriétés, est la nouvelle victime de Lockbit5.",
-        "published_at": "2026-08-31T22:59:59",
-        "score": 0
-      },
-      {
-        "guid": "6d2f6e77e602b5ed",
-        "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-        "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+        "guid": "06ebfdc1a54fb90f",
+        "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+        "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "malware"
+          "cve"
         ],
-        "summary": "Des acteurs à liens nord-coréens cherchent des emplois dans divers secteurs, non seulement IT, en tant qu'internes, augmentant les risques d'insidieux pour l'industrie.",
-        "published_at": "2026-08-31T22:54:28",
-        "score": 17
+        "summary": "Le groupe de cybercriminalité Breeze Comet exploite des systèmes de paiement brésiliens pour réaliser des transactions frauduleuses.",
+        "published_at": "2026-09-01T22:49:24",
+        "score": 5
       },
       {
-        "guid": "fb4c45c57dc5046b",
-        "title": "Five plead guilty in latest federal ATM jackpotting case",
-        "url": "https://therecord.media/kansas-atm-jackpotting-guilty-pleas",
+        "guid": "5052b1944aac3ffa",
+        "title": "China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks",
+        "url": "https://therecord.media/router-hacks-fire-ant-group-china",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
-          "cve",
-          "ransomware"
+          "breach",
+          "malware"
         ],
-        "summary": "Cinq Vénézuéliens ont reconnu coupable dans un cas d'escroquerie aux automates bancaires, confirmant les préoccupations de la criminalité en ce domaine.",
-        "published_at": "2026-08-31T20:31:00",
-        "score": 15
+        "summary": "La campagne Fire Ant a compromis les routers Cisco et a utilisé ces dispositifs pour mener d'autres attaques, selon les chercheurs.",
+        "published_at": "2026-09-01T20:35:00",
+        "score": 47
       },
       {
-        "guid": "9036bb9d21c1b5d3",
-        "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
-        "url": "https://isc.sans.edu/diary/rss/33298",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
+        "guid": "05735f66c9ec0ccb",
+        "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+        "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des paquets malveillants sur Packagist visent les iPhones non corrigés pour voler les semences de portefeuilles crypto.",
+        "published_at": "2026-09-01T19:37:20",
+        "score": 17
+      },
+      {
+        "guid": "96cd688999b154e1",
+        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+        "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le groupe de hackers iranien Nimbus Manticore a développé deux nouvelles familles de malware cross-platform pour infecter des systèmes Linux et macOS.",
+        "published_at": "2026-09-01T18:38:58",
+        "score": 17
+      },
+      {
+        "guid": "7cabc23072b089fa",
+        "title": "What’s the Scam?",
+        "url": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
+        "source": "Schneier on Security",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Un honeypot dévoile une attaque utilisant un point d'accès LLM simulé pour obtenir des informations confidentielles sur le travailleur informatique.",
-        "published_at": "2026-08-31T20:00:34",
-        "score": 12
+        "summary": "Un scénario de phishing implique une demande d'inscription à une newsletter par email automatique, suscitant beaucoup de réponses positives.",
+        "published_at": "2026-09-01T17:36:13",
+        "score": 17
       },
       {
-        "guid": "f11ad7902653e269",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : icot.es",
-        "url": "https://www.ransomware.live/id/aWNvdC5lc0BCcmFpbkNpcGhlcg==",
+        "guid": "5da42c94319fc8f0",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Szechenyi Programiroda Nonprofit Kf",
+        "url": "https://www.ransomware.live/id/U3plY2hlbnlpIFByb2dyYW1pcm9kYSBOb25wcm9maXQgS2ZAcmh5c2lkYQ==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "N/A",
-        "published_at": "2026-08-31T19:55:00",
-        "score": 12
+        "summary": "Rhysida a ciblé un nouveau victime : Szechenyi Programiroda Nonprofit Kf.",
+        "published_at": "2026-09-01T17:27:14",
+        "score": 0
       }
     ],
     "top_reads": [
       {
-        "guid": "6318fc0d60c2398f",
-        "title": "Fraudsters steal $6 million from Tectonic crypto platform after inflating token price",
-        "url": "https://therecord.media/crypto-tectonic-hack-cronos",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "5d6cd9d756e2cb59",
+        "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+        "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Des escrocs ont volé 6 millions de dollars du plateforme crypto Tectonic après avoir manipulé le prix du token Tonic.",
-        "published_at": "2026-08-31T19:45:00",
-        "score": 35,
+        "summary": "Les hackers ont volé une clé API METR pour consommer des crédits d'IA valant environ 600 000 dollars.",
+        "published_at": "2026-09-01T14:35:30",
+        "score": 25,
         "rank": 1
       },
       {
-        "guid": "2a8a5150b2b0cf3d",
-        "title": "🏴‍☠️ Interlock has just published a new victim : Super Systems Inc",
-        "url": "https://www.ransomware.live/id/U3VwZXIgU3lzdGVtcyBJbmNAaW50ZXJsb2Nr",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "9be81a3227df27e0",
+        "title": "Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns",
+        "url": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [
-          "breach",
-          "vulnerability"
-        ],
-        "summary": "Super Systems Inc, une entreprise negligente en matière de sécurité, a subi des fuites de données qui révèlent des informations confidentielles sur ses clients et ses comptes clients.",
-        "published_at": "2026-08-31T15:57:55",
-        "score": 20,
+        "tags": [],
+        "summary": "Andrew Bailey a prévenu de l'urgence du risque cyber pour le système financier mondial face à l'IA frontalière.",
+        "published_at": "2026-09-01T12:28:00",
+        "score": 15,
         "rank": 2
       },
       {
-        "guid": "39ac6f42161c1339",
-        "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-        "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-        "source": "The Hacker News",
+        "guid": "156070692580c7ec",
+        "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+        "source": "Krebs on Security",
         "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Anthropic met en place une nouvelle API de conformité pour surveiller l'activité d'agents AI, soulignant les limites des journaux d'activité seules.",
-        "published_at": "2026-08-31T17:01:47",
+        "tags": [
+          "cve"
+        ],
+        "summary": "Un service d'identité volée vend des copies numériques de 153 millions de permis de conduire sur le dark web.",
+        "published_at": "2026-09-01T22:40:28",
         "score": 5,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 78,
-    "items_selected": 9,
+    "items_analyzed": 72,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 14,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 1,
     "argos_version": "2.0.0"
   }
 }
