@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T02:01:22.419271+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "5924a8c30bc36ab0",
+        "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-9586"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les hackers exploient une vulnérabilité SQL non authentifiée dans Switchvox pour déployer des revers shells.",
+        "published_at": "2026-09-02T17:00:13",
+        "score": 20
+      },
+      {
+        "guid": "9bce7de99b3b38de",
+        "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-83548"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "SonicWall a publié des mises à jour de sécurité pour deux zéros-jours impactant les appareils SMA 1000 exploités par des attaquants.",
+        "published_at": "2026-09-02T16:23:49",
+        "score": 20
+      },
+      {
+        "guid": "b84bfcb6bc2ba93d",
+        "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+        "url": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2021-31886"
+        ],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Vedere Labs a utilisé Claude pour porter un exploit RCE non authentifié de l'un à l'autre des contrôleurs PLC WAGO.",
+        "published_at": "2026-09-02T13:17:13",
+        "score": 20
+      },
+      {
+        "guid": "2b8bc6443a4ebaab",
+        "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-9586"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les menaces exploite une grave vulnérabilité SQL non authentifiée dans Switchvox pour exécuter du code arbitraire à distance.",
+        "published_at": "2026-09-02T12:38:50",
+        "score": 20
+      },
+      {
+        "guid": "acc8abf9d7bc7229",
+        "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-82329"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité d'authentification bousculée critique est exploitée pour créer des tokens administratifs dans JFrog Artifactory.",
+        "published_at": "2026-09-02T11:47:08",
+        "score": 32
+      },
+      {
+        "guid": "b3590d5636772702",
+        "title": "Communicating Under Pressure: Best Practices for Service Providers",
+        "url": "https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Un guide de CISA et de l'FBi offre des pratiques recommandées pour communiquer clairement durant les interruptions IT ou OT.",
+        "published_at": "2026-09-02T12:00:00",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "3259a56c0310e97c",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Greenberg Traurig",
+        "url": "https://www.ransomware.live/id/R3JlZW5iZXJnIFRyYXVyaWdAU2lsZW50UmFuc29tR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a ciblé Greenberg Traurig, un grand cabinet d'avocats international.",
+        "published_at": "2026-09-02T23:21:12",
+        "score": 12
+      },
+      {
+        "guid": "5d2842e99661d97c",
+        "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+        "url": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Un campagnon malveillant utilise des sites de téléchargement de logiciels faux pour désactiver Windows Update et affaiblir Microsoft Defender.",
+        "published_at": "2026-09-02T22:11:06",
+        "score": 37
+      },
+      {
+        "guid": "e5065fdef67fbead",
+        "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+        "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Manifold Security a découvert huit vulnérabilités dans plusieurs agents d'IA qui peuvent exécuter du code malveillant sur les machines des développeurs.",
+        "published_at": "2026-09-02T19:36:59",
+        "score": 17
+      },
+      {
+        "guid": "b8dba941edd0cdee",
+        "title": "Russian national facing 20 years for malware campaign that infected 80,000 freelancers",
+        "url": "https://therecord.media/russian-national-facing-20-years-malware-campaign",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un national russe est en procès pour un campagnon de malware infectant 80 000 freelancers et a été arrêté à Chypre avant d'être extradé aux États-Unis.",
+        "published_at": "2026-09-02T18:43:00",
+        "score": 27
+      },
+      {
+        "guid": "734dc658b140853b",
+        "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+        "url": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des hackers ont utilisé un BGP hijack pour détourner des mises à jour Softaculous et injecter une version malveillante de Virtualizor, compromettant plusieurs serveurs hôtes.",
+        "published_at": "2026-09-02T18:42:45",
+        "score": 37
+      },
+      {
+        "guid": "7feaaa25518ce86e",
+        "title": "AI Agents Are Now Emailing Me with Their Security Concerns",
+        "url": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des agents d'IA ont envoyé des emails au chercheur Bruce Schneier avec des préoccupations en matière de sécurité informatique, reflétant probablement des données d'apprentissage utilisées par l'IA.",
+        "published_at": "2026-09-02T18:28:08",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "7c662ebe9d101546",
+        "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+        "url": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le groupe criminel chinois Gambling Goblin a installé des modules malveillants Apache sur des serveurs brésiliens pour rediriger les visiteurs vers des pages de paris en ligne contrôlées par l'attaque.",
+        "published_at": "2026-09-02T19:14:16",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "263b094703fb2d9d",
+        "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+        "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'introduction de l'IA dans les entreprises soulève des préoccupations en matière de sécurité, et les organisations doivent adopter cette technologie tout en contrôlant les risques cybersécuritaires.",
+        "published_at": "2026-09-02T17:00:00",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "f78d703ff80665d1",
+        "title": "Dropbox accounts breached through Lenovo email verification flaw",
+        "url": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les comptes Dropbox ont été compromises via un défaut dans le processus de vérification par email chez Lenovo, permettant à des identifiants frauduleux d'être créés.",
+        "published_at": "2026-09-02T08:30:22",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 60,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 5,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
