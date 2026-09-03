@@ -1,132 +1,115 @@
-# 🛡️ ARGOS CTI Digest — 2 septembre 2026
+# 🛡️ ARGOS CTI Digest — 3 septembre 2026
 
-> Généré le 02/09/2026 à 02:01 UTC  ·  72 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 03/09/2026 à 02:01 UTC  ·  60 items analysés  ·  15 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Rockwell Automation RSLinx Classic](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2026-9625`, `CVE-2026-9622`, `CVE-2026-9621`, `CVE-2026-9624`
+### [Hackers exploit Sangoma Switchvox flaw to deploy reverse shells](https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/)
+**Source :** Bleeping Computer  **Publié :** 02/09/2026 17:00 UTC  **CVE :** `CVE-2026-9586`
 `cve` `vulnerability`
-Les versions de RSLinx Classic antérieures à la version 4.50 sont vulnérables aux CVE-2026-9621, -9622, -9624 et -9625, permettant une condition de refus de service.
+Les hackers exploient une vulnérabilité SQL non authentifiée dans Switchvox pour déployer des revers shells.
 
 ---
 
-### [Rockwell Automation Redundancy Module Configuration Tool](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2026-9634`, `CVE-2026-9633`
-`cve` `malware` `vulnerability`
-Les versions 10.00.00 du Rockwell Automation Redundancy Module Configuration Tool sont vulnérables au CVE-2026-9633, permettant une exécution de processus avec des privilèges administratifs.
+### [Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain](https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 16:23 UTC  **CVE :** `CVE-2026-83548`
+`cve` `patch` `vulnerability`
+SonicWall a publié des mises à jour de sécurité pour deux zéros-jours impactant les appareils SMA 1000 exploités par des attaquants.
 
 ---
 
-### [Rockwell Automation Historian ME](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2025-12768`, `CVE-2026-12661`
-`cve` `vulnerability`
-Les versions Series B 5.202 et Series C 7.101 du Rockwell Automation Historian ME sont vulnérables aux CVE-2025-12768 et -12661, permettant une exécution de code à distance.
+### [Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another](https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 13:17 UTC  **CVE :** `CVE-2021-31886`
+`cve`
+Vedere Labs a utilisé Claude pour porter un exploit RCE non authentifié de l'un à l'autre des contrôleurs PLC WAGO.
 
 ---
 
-### [Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity](https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 12:52 UTC  **CVE :** `CVE-2026-0768`, `CVE-2026-66066`
+### [Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials](https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 12:38 UTC  **CVE :** `CVE-2026-9586`
 `apt` `cve` `vulnerability`
-Les attaquants exploitent deux vulnérabilités critiques dans Langflow et Ruby on Rails : CVE-2026-0768 et CVE-2026-66066.
+Les menaces exploite une grave vulnérabilité SQL non authentifiée dans Switchvox pour exécuter du code arbitraire à distance.
 
 ---
 
-### [Rockwell Automation FactoryTalk Activation Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2026-16675`
+### [Hackers exploit critical JFrog Artifactory flaw to forge admin tokens](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/)
+**Source :** Bleeping Computer  **Publié :** 02/09/2026 11:47 UTC  **CVE :** `CVE-2026-82329`
 `cve` `malware` `vulnerability`
-Les versions FactoryTalk Activation Manager de V5.02 et antérieures sont vulnérables au CVE-2026-16675.
+Une vulnérabilité d'authentification bousculée critique est exploitée pour créer des tokens administratifs dans JFrog Artifactory.
 
 ---
 
-### [Rockwell Automation Logix Platform](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2026-9637`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-244-03.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p>The following versions of Rockwell Automation Logix Platform are affected:</p>
-<ul>
-<li>ControlLogix 5580 &lt;=V33, V34.011-V34.014, V35.011-V
-
----
-
-### [Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix](https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05)
-**Source :** CISA Advisories  **Publié :** 01/09/2026 12:00 UTC  **CVE :** `CVE-2021-42260`
-`cve` `vulnerability`
-Les versions ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix et Compact GuardLogix antérieures à V34.015 sont vulnérables aux CVE-2021-42260.
-
----
-
-### [Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure](https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 23:23 UTC  **CVE :** `CVE-2026-82329`
-`apt` `cve` `malware` `vulnerability`
-Les attaquants exploitent une vulnérabilité critique dans JFrog Artifactory, permettant l'accès administratif, malgré la récente mise à jour.
+### [Communicating Under Pressure: Best Practices for Service Providers](https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers)
+**Source :** CISA Advisories  **Publié :** 02/09/2026 12:00 UTC
+`apt` `breach` `cve` `malware`
+Un guide de CISA et de l'FBi offre des pratiques recommandées pour communiquer clairement durant les interruptions IT ou OT.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems](https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 22:49 UTC
-`apt` `cve`
-Le groupe de cybercriminalité Breeze Comet exploite des systèmes de paiement brésiliens pour réaliser des transactions frauduleuses.
-
----
-
-### [China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks](https://therecord.media/router-hacks-fire-ant-group-china)
-**Source :** The Record  **Publié :** 01/09/2026 20:35 UTC
-`breach` `malware`
-La campagne Fire Ant a compromis les routers Cisco et a utilisé ces dispositifs pour mener d'autres attaques, selon les chercheurs.
-
----
-
-### [13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds](https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 19:37 UTC
-`malware` `vulnerability`
-Des paquets malveillants sur Packagist visent les iPhones non corrigés pour voler les semences de portefeuilles crypto.
-
----
-
-### [Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests](https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 18:38 UTC
-`malware` `ransomware`
-Le groupe de hackers iranien Nimbus Manticore a développé deux nouvelles familles de malware cross-platform pour infecter des systèmes Linux et macOS.
-
----
-
-### [What’s the Scam?](https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html)
-**Source :** Schneier on Security  **Publié :** 01/09/2026 17:36 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Greenberg Traurig](https://www.ransomware.live/id/R3JlZW5iZXJnIFRyYXVyaWdAU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 02/09/2026 23:21 UTC
 `malware`
-Un scénario de phishing implique une demande d'inscription à une newsletter par email automatique, suscitant beaucoup de réponses positives.
+Silentransomgroup a ciblé Greenberg Traurig, un grand cabinet d'avocats international.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Szechenyi Programiroda Nonprofit Kf](https://www.ransomware.live/id/U3plY2hlbnlpIFByb2dyYW1pcm9kYSBOb25wcm9maXQgS2ZAcmh5c2lkYQ==)
-**Source :** Ransomware.live News  **Publié :** 01/09/2026 17:27 UTC
-`ransomware`
-Rhysida a ciblé un nouveau victime : Szechenyi Programiroda Nonprofit Kf.
+### [Fake Software Installers Disable Windows Update and Weaken Microsoft Defender](https://thehackernews.com/2026/09/fake-software-installers-disable.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 22:11 UTC
+`breach` `malware`
+Un campagnon malveillant utilise des sites de téléchargement de logiciels faux pour désactiver Windows Update et affaiblir Microsoft Defender.
+
+---
+
+### [Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 19:36 UTC
+`cve` `malware` `vulnerability`
+Manifold Security a découvert huit vulnérabilités dans plusieurs agents d'IA qui peuvent exécuter du code malveillant sur les machines des développeurs.
+
+---
+
+### [Russian national facing 20 years for malware campaign that infected 80,000 freelancers](https://therecord.media/russian-national-facing-20-years-malware-campaign)
+**Source :** The Record  **Publié :** 02/09/2026 18:43 UTC
+`malware`
+Un national russe est en procès pour un campagnon de malware infectant 80 000 freelancers et a été arrêté à Chypre avant d'être extradé aux États-Unis.
+
+---
+
+### [BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access](https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 18:42 UTC
+`breach` `malware`
+Des hackers ont utilisé un BGP hijack pour détourner des mises à jour Softaculous et injecter une version malveillante de Virtualizor, compromettant plusieurs serveurs hôtes.
+
+---
+
+### [AI Agents Are Now Emailing Me with Their Security Concerns](https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html)
+**Source :** Schneier on Security  **Publié :** 02/09/2026 18:28 UTC
+`malware`
+Des agents d'IA ont envoyé des emails au chercheur Bruce Schneier avec des préoccupations en matière de sécurité informatique, reflétant probablement des données d'apprentissage utilisées par l'IA.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Attackers Steal METR API Key and Consume AI Credits Worth About $600,000](https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html)
-**Source :** The Hacker News  **Publié :** 01/09/2026 14:35 UTC  **Score :** 25
+### 1. [Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages](https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 19:14 UTC  **Score :** 25
 `breach`
-Les hackers ont volé une clé API METR pour consommer des crédits d'IA valant environ 600 000 dollars.
+Le groupe criminel chinois Gambling Goblin a installé des modules malveillants Apache sur des serveurs brésiliens pour rediriger les visiteurs vers des pages de paris en ligne contrôlées par l'attaque.
 
-### 2. [Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns](https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance)
-**Source :** The Record  **Publié :** 01/09/2026 12:28 UTC  **Score :** 15
-Andrew Bailey a prévenu de l'urgence du risque cyber pour le système financier mondial face à l'IA frontalière.
+### 2. [How to Secure Enterprise AI: From Adoption to Incident Readiness](https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html)
+**Source :** The Hacker News  **Publié :** 02/09/2026 17:00 UTC  **Score :** 25
+`breach`
+L'introduction de l'IA dans les entreprises soulève des préoccupations en matière de sécurité, et les organisations doivent adopter cette technologie tout en contrôlant les risques cybersécuritaires.
 
-### 3. [FBI Probes Service Selling 153M+ Drivers Licenses](https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/)
-**Source :** Krebs on Security  **Publié :** 01/09/2026 22:40 UTC  **Score :** 5
-`cve`
-Un service d'identité volée vend des copies numériques de 153 millions de permis de conduire sur le dark web.
+### 3. [Dropbox accounts breached through Lenovo email verification flaw](https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/)
+**Source :** Bleeping Computer  **Publié :** 02/09/2026 08:30 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Les comptes Dropbox ont été compromises via un défaut dans le processus de vérification par email chez Lenovo, permettant à des identifiants frauduleux d'être créés.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-02.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-03.md`*
