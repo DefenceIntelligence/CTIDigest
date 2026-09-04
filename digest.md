@@ -1,115 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 3 septembre 2026
+# 🛡️ ARGOS CTI Digest — 4 septembre 2026
 
-> Généré le 03/09/2026 à 02:01 UTC  ·  60 items analysés  ·  15 sélectionnés  ·  22 sources actives
+> Généré le 04/09/2026 à 02:02 UTC  ·  68 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hackers exploit Sangoma Switchvox flaw to deploy reverse shells](https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/)
-**Source :** Bleeping Computer  **Publié :** 02/09/2026 17:00 UTC  **CVE :** `CVE-2026-9586`
+### [Tycon Systems TPDIN-Monitor-WEB3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-82712`, `CVE-2026-82684`, `CVE-2026-77847`
 `cve` `vulnerability`
-Les hackers exploient une vulnérabilité SQL non authentifiée dans Switchvox pour déployer des revers shells.
+La vulnérabilité dans Tycon Systems TPDIN-Monitor-WEB3 permettrait à un attaquant de réaliser une attaque MitM, d'effectuer un redémarrage factory, de supprimer des informations de connexion ou d'exfiltrer des informations sensibles.
 
 ---
 
-### [Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain](https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 16:23 UTC  **CVE :** `CVE-2026-83548`
-`cve` `patch` `vulnerability`
-SonicWall a publié des mises à jour de sécurité pour deux zéros-jours impactant les appareils SMA 1000 exploités par des attaquants.
-
----
-
-### [Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another](https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 13:17 UTC  **CVE :** `CVE-2021-31886`
-`cve`
-Vedere Labs a utilisé Claude pour porter un exploit RCE non authentifié de l'un à l'autre des contrôleurs PLC WAGO.
-
----
-
-### [Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials](https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 12:38 UTC  **CVE :** `CVE-2026-9586`
-`apt` `cve` `vulnerability`
-Les menaces exploite une grave vulnérabilité SQL non authentifiée dans Switchvox pour exécuter du code arbitraire à distance.
-
----
-
-### [Hackers exploit critical JFrog Artifactory flaw to forge admin tokens](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/)
-**Source :** Bleeping Computer  **Publié :** 02/09/2026 11:47 UTC  **CVE :** `CVE-2026-82329`
+### [Rockwell Automation ArmorStart LT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-19472`, `CVE-2026-19471`
 `cve` `malware` `vulnerability`
-Une vulnérabilité d'authentification bousculée critique est exploitée pour créer des tokens administratifs dans JFrog Artifactory.
+Les versions inférieures à ArmorStart LT permettraient à un attaquant d'interrompre le serveur web ou d'injecter des scripts malveillants exécutés lors de l'accès par les autres utilisateurs.
 
 ---
 
-### [Communicating Under Pressure: Best Practices for Service Providers](https://www.cisa.gov/resources-tools/resources/communicating-under-pressure-best-practices-service-providers)
-**Source :** CISA Advisories  **Publié :** 02/09/2026 12:00 UTC
-`apt` `breach` `cve` `malware`
-Un guide de CISA et de l'FBi offre des pratiques recommandées pour communiquer clairement durant les interruptions IT ou OT.
+### [Rockwell Automation ControlFLASH](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-1266`, `CVE-2026-12663`
+`cve` `vulnerability`
+Rockwell Automation ControlFLASH versions antérieures à V15.07 seraient vulnérables, permettant à un attaquant d'exécuter n'importe quel code avec les privilèges du utilisateur connecté.
+
+---
+
+### [IXON VPN Client](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-75925`
+`cve` `malware` `vulnerability`
+IXON VPN Client versions antérieures à 1.4.7 seraient exploitées pour exécuter des codes malveillants avec des privilèges élevés sur le poste de travail.
+
+---
+
+### [OPCFoundation OPC UA LocalDiscoveryServer (LDS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-77477`
+`cve` `vulnerability`
+L'exploitation du vulnérabilité dans OPCFoundation OPC UA LocalDiscoveryServer pourrait donner aux attaquants le contrôle d'une terminal avec des privilèges élevés et l'exécution de commandes arbitraires.
+
+---
+
+### [Inductive Automation Ignition](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-77393`
+`cve` `vulnerability`
+Inductive Automation Ignition versions antérieures à 8.1.53 pourraient permettre à un utilisateur authentifié d'créer des projets.
+
+---
+
+### [Rockwell Automation 1756-ENBT Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05)
+**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2025-10478`
+`cve` `vulnerability`
+Les versions de Rockwell Automation 1756-ENBT Module seraient vulnérables, provoquant une panne du module nécessitant un redémarrage pour la récupération.
+
+---
+
+### [Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root](https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 03/09/2026 21:22 UTC  **CVE :** `CVE-2026-20212`
+`cve` `malware` `vulnerability`
+Cisco a publié des correctifs pour le Nexus 9000 affecté par une vulnérabilité critique, permettant à un attaquant non authentifié de s'exécuter en tant que root.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Greenberg Traurig](https://www.ransomware.live/id/R3JlZW5iZXJnIFRyYXVyaWdAU2lsZW50UmFuc29tR3JvdXA=)
-**Source :** Ransomware.live News  **Publié :** 02/09/2026 23:21 UTC
+### [🏴‍☠️ Spacebears has just published a new victim : Studio Oculistico Ciraci](https://www.ransomware.live/id/U3R1ZGlvIE9jdWxpc3RpY28gQ2lyYWNpQHNwYWNlYmVhcnM=)
+**Source :** Ransomware.live News  **Publié :** 03/09/2026 22:59 UTC
 `malware`
-Silentransomgroup a ciblé Greenberg Traurig, un grand cabinet d'avocats international.
+Studio Oculistico Ciraci, une clinique ophtalmologique italienne, a été victime d'une attaque qui pourrait lui permettre de vendre l'accès à son système.
 
 ---
 
-### [Fake Software Installers Disable Windows Update and Weaken Microsoft Defender](https://thehackernews.com/2026/09/fake-software-installers-disable.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 22:11 UTC
+### [BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory](https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html)
+**Source :** The Hacker News  **Publié :** 03/09/2026 20:56 UTC
 `breach` `malware`
-Un campagnon malveillant utilise des sites de téléchargement de logiciels faux pour désactiver Windows Update et affaiblir Microsoft Defender.
+BraZetsu est un malware Python sophistiqué transformant des hôtes infectés en actifs commerciaux pour une marketplace souterraine.
 
 ---
 
-### [Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code](https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 19:36 UTC
-`cve` `malware` `vulnerability`
-Manifold Security a découvert huit vulnérabilités dans plusieurs agents d'IA qui peuvent exécuter du code malveillant sur les machines des développeurs.
-
----
-
-### [Russian national facing 20 years for malware campaign that infected 80,000 freelancers](https://therecord.media/russian-national-facing-20-years-malware-campaign)
-**Source :** The Record  **Publié :** 02/09/2026 18:43 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Katten Muchin Rosenman](https://www.ransomware.live/id/S2F0dGVuIE11Y2hpbiBSb3Nlbm1hbkBTaWxlbnRSYW5zb21Hcm91cA==)
+**Source :** Ransomware.live News  **Publié :** 03/09/2026 20:23 UTC
 `malware`
-Un national russe est en procès pour un campagnon de malware infectant 80 000 freelancers et a été arrêté à Chypre avant d'être extradé aux États-Unis.
+Katten Muchin Rosenman, une grande firme d'avocats, est victime du groupe de rançongiciel Silentransomgroup.
 
 ---
 
-### [BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access](https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 18:42 UTC
+### [Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data](https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html)
+**Source :** The Hacker News  **Publié :** 03/09/2026 20:09 UTC
 `breach` `malware`
-Des hackers ont utilisé un BGP hijack pour détourner des mises à jour Softaculous et injecter une version malveillante de Virtualizor, compromettant plusieurs serveurs hôtes.
+Une faille chez Thomson Reuters a exposé des données personnelles et judiciaires dans 12 juridictions américaines.
 
 ---
 
-### [AI Agents Are Now Emailing Me with Their Security Concerns](https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html)
-**Source :** Schneier on Security  **Publié :** 02/09/2026 18:28 UTC
-`malware`
-Des agents d'IA ont envoyé des emails au chercheur Bruce Schneier avec des préoccupations en matière de sécurité informatique, reflétant probablement des données d'apprentissage utilisées par l'IA.
+### [US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html)
+**Source :** The Hacker News  **Publié :** 03/09/2026 17:28 UTC
+`malware` `phishing`
+Une campagne de phishing RMM ciblant les États-Unis a été découverte par ANY.RUN.
+
+---
+
+### [Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks](https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html)
+**Source :** The Hacker News  **Publié :** 03/09/2026 16:13 UTC
+`apt` `malware`
+Des attaquants utilisent Node.js pour distribuer des payloads malveillants dans plusieurs cyberattaques ciblées.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages](https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 19:14 UTC  **Score :** 25
+### 1. [US and Canadian court data exposed in Thomson Reuters breach](https://therecord.media/thomson-reuters-cyberattack-data)
+**Source :** The Record  **Publié :** 03/09/2026 12:00 UTC  **Score :** 35
 `breach`
-Le groupe criminel chinois Gambling Goblin a installé des modules malveillants Apache sur des serveurs brésiliens pour rediriger les visiteurs vers des pages de paris en ligne contrôlées par l'attaque.
+Une faille chez Thomson Reuters a exposé des informations personnelles et judiciaires de 12 États américains.
 
-### 2. [How to Secure Enterprise AI: From Adoption to Incident Readiness](https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html)
-**Source :** The Hacker News  **Publié :** 02/09/2026 17:00 UTC  **Score :** 25
+### 2. [French hospital fined €500,000 after breach exposes data of 727,000](https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/)
+**Source :** Bleeping Computer  **Publié :** 03/09/2026 18:01 UTC  **Score :** 25
 `breach`
-L'introduction de l'IA dans les entreprises soulève des préoccupations en matière de sécurité, et les organisations doivent adopter cette technologie tout en contrôlant les risques cybersécuritaires.
+France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]
 
-### 3. [Dropbox accounts breached through Lenovo email verification flaw](https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/)
-**Source :** Bleeping Computer  **Publié :** 02/09/2026 08:30 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Les comptes Dropbox ont été compromises via un défaut dans le processus de vérification par email chez Lenovo, permettant à des identifiants frauduleux d'être créés.
+### 3. [Coder's registry infrastructure compromised to push malicious modules](https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/)
+**Source :** Bleeping Computer  **Publié :** 03/09/2026 16:04 UTC  **Score :** 25
+`breach`
+Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-03.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-04.md`*
