@@ -1,301 +1,298 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02T02:01:34.550991+00:00",
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T02:02:15.670543+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "c10806a5358162fa",
-        "title": "Rockwell Automation RSLinx Classic",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-01",
+        "guid": "19b586050d85a64c",
+        "title": "Tycon Systems TPDIN-Monitor-WEB3",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08",
         "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-9625",
-          "CVE-2026-9622",
-          "CVE-2026-9621",
-          "CVE-2026-9624"
+          "CVE-2026-82712",
+          "CVE-2026-82684",
+          "CVE-2026-77847"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Les versions de RSLinx Classic antérieures à la version 4.50 sont vulnérables aux CVE-2026-9621, -9622, -9624 et -9625, permettant une condition de refus de service.",
-        "published_at": "2026-09-01T12:00:00",
+        "summary": "La vulnérabilité dans Tycon Systems TPDIN-Monitor-WEB3 permettrait à un attaquant de réaliser une attaque MitM, d'effectuer un redémarrage factory, de supprimer des informations de connexion ou d'exfiltrer des informations sensibles.",
+        "published_at": "2026-09-03T12:00:00",
         "score": 15
       },
       {
-        "guid": "229073c1cabecfe4",
-        "title": "Rockwell Automation Redundancy Module Configuration Tool",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-02",
+        "guid": "0559a2a6cffb344c",
+        "title": "Rockwell Automation ArmorStart LT",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04",
         "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-9634",
-          "CVE-2026-9633"
+          "CVE-2026-19472",
+          "CVE-2026-19471"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Les versions 10.00.00 du Rockwell Automation Redundancy Module Configuration Tool sont vulnérables au CVE-2026-9633, permettant une exécution de processus avec des privilèges administratifs.",
-        "published_at": "2026-09-01T12:00:00",
+        "summary": "Les versions inférieures à ArmorStart LT permettraient à un attaquant d'interrompre le serveur web ou d'injecter des scripts malveillants exécutés lors de l'accès par les autres utilisateurs.",
+        "published_at": "2026-09-03T12:00:00",
         "score": 27
       },
       {
-        "guid": "dddfadb5e1a72d09",
-        "title": "Rockwell Automation Historian ME",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-06",
+        "guid": "5fbfdc46ba85e91f",
+        "title": "Rockwell Automation ControlFLASH",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03",
         "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2025-12768",
-          "CVE-2026-12661"
+          "CVE-2026-1266",
+          "CVE-2026-12663"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Les versions Series B 5.202 et Series C 7.101 du Rockwell Automation Historian ME sont vulnérables aux CVE-2025-12768 et -12661, permettant une exécution de code à distance.",
-        "published_at": "2026-09-01T12:00:00",
+        "summary": "Rockwell Automation ControlFLASH versions antérieures à V15.07 seraient vulnérables, permettant à un attaquant d'exécuter n'importe quel code avec les privilèges du utilisateur connecté.",
+        "published_at": "2026-09-03T12:00:00",
         "score": 15
       },
       {
-        "guid": "0efd250bac267d66",
-        "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+        "guid": "308d044e799c081a",
+        "title": "IXON VPN Client",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-75925"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "IXON VPN Client versions antérieures à 1.4.7 seraient exploitées pour exécuter des codes malveillants avec des privilèges élevés sur le poste de travail.",
+        "published_at": "2026-09-03T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "1e0e7504e6105d1c",
+        "title": "OPCFoundation OPC UA LocalDiscoveryServer (LDS)",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-77477"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "L'exploitation du vulnérabilité dans OPCFoundation OPC UA LocalDiscoveryServer pourrait donner aux attaquants le contrôle d'une terminal avec des privilèges élevés et l'exécution de commandes arbitraires.",
+        "published_at": "2026-09-03T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "901433e9d34da439",
+        "title": "Inductive Automation Ignition",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-77393"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Inductive Automation Ignition versions antérieures à 8.1.53 pourraient permettre à un utilisateur authentifié d'créer des projets.",
+        "published_at": "2026-09-03T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "f1bb1234b722748f",
+        "title": "Rockwell Automation 1756-ENBT Module",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2025-10478"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions de Rockwell Automation 1756-ENBT Module seraient vulnérables, provoquant une panne du module nécessitant un redémarrage pour la récupération.",
+        "published_at": "2026-09-03T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "7ffa6ca9267f22fd",
+        "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+        "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-0768",
-          "CVE-2026-66066"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les attaquants exploitent deux vulnérabilités critiques dans Langflow et Ruby on Rails : CVE-2026-0768 et CVE-2026-66066.",
-        "published_at": "2026-09-01T12:52:30",
-        "score": 20
-      },
-      {
-        "guid": "38de4353a61d1eef",
-        "title": "Rockwell Automation FactoryTalk Activation Manager",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-16675"
+          "CVE-2026-20212"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Les versions FactoryTalk Activation Manager de V5.02 et antérieures sont vulnérables au CVE-2026-16675.",
-        "published_at": "2026-09-01T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "fec04c403cc8dbed",
-        "title": "Rockwell Automation Logix Platform",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-9637"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-244-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p>The following versions of Rockwell Automation Logix Platform are affected:</p>\n<ul>\n<li>ControlLogix 5580 &lt;=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-9637, CVE-2026-9637, CVE-2026-9637)</li>\n<li>CompactLogix 5380 &lt;=V33, V34.011-V34.014, V35.011-V35.013, V36.011-V36.012 (CVE-2026-9637, CVE-2026-963",
-        "published_at": "2026-09-01T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "457d46df7a69ae11",
-        "title": "Rockwell Automation ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix, Compact GuardLogix",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-244-05",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2021-42260"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions ControlLogix, CompactLogix, CompactLogix 5480, GuardLogix et Compact GuardLogix antérieures à V34.015 sont vulnérables aux CVE-2021-42260.",
-        "published_at": "2026-09-01T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "759b288637bdddef",
-        "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-82329"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Les attaquants exploitent une vulnérabilité critique dans JFrog Artifactory, permettant l'accès administratif, malgré la récente mise à jour.",
-        "published_at": "2026-09-01T23:23:11",
+        "summary": "Cisco a publié des correctifs pour le Nexus 9000 affecté par une vulnérabilité critique, permettant à un attaquant non authentifié de s'exécuter en tant que root.",
+        "published_at": "2026-09-03T21:22:07",
         "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "06ebfdc1a54fb90f",
-        "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-        "url": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "b005ec338290e433",
+        "title": "🏴‍☠️ Spacebears has just published a new victim : Studio Oculistico Ciraci",
+        "url": "https://www.ransomware.live/id/U3R1ZGlvIE9jdWxpc3RpY28gQ2lyYWNpQHNwYWNlYmVhcnM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "apt",
-          "cve"
+          "malware"
         ],
-        "summary": "Le groupe de cybercriminalité Breeze Comet exploite des systèmes de paiement brésiliens pour réaliser des transactions frauduleuses.",
-        "published_at": "2026-09-01T22:49:24",
-        "score": 5
+        "summary": "Studio Oculistico Ciraci, une clinique ophtalmologique italienne, a été victime d'une attaque qui pourrait lui permettre de vendre l'accès à son système.",
+        "published_at": "2026-09-03T22:59:43",
+        "score": 12
       },
       {
-        "guid": "5052b1944aac3ffa",
-        "title": "China's 'Fire Ant' campaign used compromised Cisco routers as platform for more attacks",
-        "url": "https://therecord.media/router-hacks-fire-ant-group-china",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "4b721f830dc2c064",
+        "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+        "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "malware"
         ],
-        "summary": "La campagne Fire Ant a compromis les routers Cisco et a utilisé ces dispositifs pour mener d'autres attaques, selon les chercheurs.",
-        "published_at": "2026-09-01T20:35:00",
-        "score": 47
+        "summary": "BraZetsu est un malware Python sophistiqué transformant des hôtes infectés en actifs commerciaux pour une marketplace souterraine.",
+        "published_at": "2026-09-03T20:56:47",
+        "score": 37
       },
       {
-        "guid": "05735f66c9ec0ccb",
-        "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-        "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Des paquets malveillants sur Packagist visent les iPhones non corrigés pour voler les semences de portefeuilles crypto.",
-        "published_at": "2026-09-01T19:37:20",
-        "score": 17
-      },
-      {
-        "guid": "96cd688999b154e1",
-        "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-        "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Le groupe de hackers iranien Nimbus Manticore a développé deux nouvelles familles de malware cross-platform pour infecter des systèmes Linux et macOS.",
-        "published_at": "2026-09-01T18:38:58",
-        "score": 17
-      },
-      {
-        "guid": "7cabc23072b089fa",
-        "title": "What’s the Scam?",
-        "url": "https://www.schneier.com/blog/archives/2026/09/whats-the-scam.html",
-        "source": "Schneier on Security",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Un scénario de phishing implique une demande d'inscription à une newsletter par email automatique, suscitant beaucoup de réponses positives.",
-        "published_at": "2026-09-01T17:36:13",
-        "score": 17
-      },
-      {
-        "guid": "5da42c94319fc8f0",
-        "title": "🏴‍☠️ Rhysida has just published a new victim : Szechenyi Programiroda Nonprofit Kf",
-        "url": "https://www.ransomware.live/id/U3plY2hlbnlpIFByb2dyYW1pcm9kYSBOb25wcm9maXQgS2ZAcmh5c2lkYQ==",
+        "guid": "b63b864577245013",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Katten Muchin Rosenman",
+        "url": "https://www.ransomware.live/id/S2F0dGVuIE11Y2hpbiBSb3Nlbm1hbkBTaWxlbnRSYW5zb21Hcm91cA==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "ransomware"
+          "malware"
         ],
-        "summary": "Rhysida a ciblé un nouveau victime : Szechenyi Programiroda Nonprofit Kf.",
-        "published_at": "2026-09-01T17:27:14",
-        "score": 0
+        "summary": "Katten Muchin Rosenman, une grande firme d'avocats, est victime du groupe de rançongiciel Silentransomgroup.",
+        "published_at": "2026-09-03T20:23:46",
+        "score": 12
+      },
+      {
+        "guid": "4db81a3af941998a",
+        "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+        "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une faille chez Thomson Reuters a exposé des données personnelles et judiciaires dans 12 juridictions américaines.",
+        "published_at": "2026-09-03T20:09:05",
+        "score": 37
+      },
+      {
+        "guid": "393aa4791775a32e",
+        "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+        "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "phishing"
+        ],
+        "summary": "Une campagne de phishing RMM ciblant les États-Unis a été découverte par ANY.RUN.",
+        "published_at": "2026-09-03T17:28:00",
+        "score": 27
+      },
+      {
+        "guid": "9e088b35c1e2bca7",
+        "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+        "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des attaquants utilisent Node.js pour distribuer des payloads malveillants dans plusieurs cyberattaques ciblées.",
+        "published_at": "2026-09-03T16:13:01",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "5d6cd9d756e2cb59",
-        "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-        "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-        "source": "The Hacker News",
+        "guid": "604609f3e1f3b4a5",
+        "title": "US and Canadian court data exposed in Thomson Reuters breach",
+        "url": "https://therecord.media/thomson-reuters-cyberattack-data",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une faille chez Thomson Reuters a exposé des informations personnelles et judiciaires de 12 États américains.",
+        "published_at": "2026-09-03T12:00:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "47c6be2d77c865ac",
+        "title": "French hospital fined €500,000 after breach exposes data of 727,000",
+        "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Les hackers ont volé une clé API METR pour consommer des crédits d'IA valant environ 600 000 dollars.",
-        "published_at": "2026-09-01T14:35:30",
+        "summary": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
+        "published_at": "2026-09-03T18:01:37",
         "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "9be81a3227df27e0",
-        "title": "Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns",
-        "url": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [],
-        "summary": "Andrew Bailey a prévenu de l'urgence du risque cyber pour le système financier mondial face à l'IA frontalière.",
-        "published_at": "2026-09-01T12:28:00",
-        "score": 15,
         "rank": 2
       },
       {
-        "guid": "156070692580c7ec",
-        "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-        "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-        "source": "Krebs on Security",
+        "guid": "4e63bcc4178b3535",
+        "title": "Coder's registry infrastructure compromised to push malicious modules",
+        "url": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve"
+          "breach"
         ],
-        "summary": "Un service d'identité volée vend des copies numériques de 153 millions de permis de conduire sur le dark web.",
-        "published_at": "2026-09-01T22:40:28",
-        "score": 5,
+        "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
+        "published_at": "2026-09-03T16:04:24",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 72,
+    "items_analyzed": 68,
     "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 14,
+    "cves_total": 12,
     "llm_provider": "ollama",
     "llm_rejected": 1,
     "argos_version": "2.0.0"
