@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T02:01:16.594305+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "0b81588641d688a0",
+        "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+        "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-6471"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "PostgreSQL a publié des mises à jour pour corriger une vulnérabilité liée à la réplication qui permet l'exécution de code arbitraire sous le compte système d'exploitation.",
+        "published_at": "2026-09-04T20:50:19",
+        "score": 32
+      },
+      {
+        "guid": "7bb8f6cc5a9262ea",
+        "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+        "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-14894"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Plus de 440 000 tentatives d’exploitation ciblent deux vulnérabilités critiques dans les plugins Super Forms et Elementor Pro de WordPress.",
+        "published_at": "2026-09-04T14:18:45",
+        "score": 20
+      },
+      {
+        "guid": "fd3ab25d659d8b35",
+        "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+        "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85046"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Google a réparé 12 vulnérabilités, dont une exploitée activement en tant que faille zéro-jour dans Chrome.",
+        "published_at": "2026-09-04T12:48:47",
+        "score": 20
+      },
+      {
+        "guid": "4dc52f843ae0a429",
+        "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-19490"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants ciblent une faille d’authentification critique dans Citrix NetScaler, CVE-2026-19490.",
+        "published_at": "2026-09-04T11:25:59",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "f126de7f16fbda45",
+        "title": "Friday Squid Blogging: Squid on a Stick at the New York State Fair",
+        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Ce billet de blog parle de la cuisine au foie de raie du Temple du Foie de Raie à l’Exposition d'État.",
+        "published_at": "2026-09-04T21:01:35",
+        "score": 17
+      },
+      {
+        "guid": "4836575ab6ad5371",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : pscindustries.com",
+        "url": "https://www.ransomware.live/id/cHNjaW5kdXN0cmllcy5jb21AbG9ja2JpdDU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a publié un nouveau dossier victime : PSC Industries, fournisseur majeur d'isolation et de gaskets.",
+        "published_at": "2026-09-04T20:58:40",
+        "score": 0
+      },
+      {
+        "guid": "37b90af7aad90e3f",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : kalahealth.eu",
+        "url": "https://www.ransomware.live/id/a2FsYWhlYWx0aC5ldUBsb2NrYml0NQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a également ciblé KALA Health, une entreprise internationale de nutraceutiques basée en Europe.",
+        "published_at": "2026-09-04T20:57:31",
+        "score": 0
+      },
+      {
+        "guid": "f5d3a8aed43c0453",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : huisartsencentrumkleiniterson.nl",
+        "url": "https://www.ransomware.live/id/aHVpc2FydHNlbmNlbnRydW1rbGVpbml0ZXJzb24ubmxAbG9ja2JpdDU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a ajouté un nouveau dossier victime : Huisartsencentrum Klein Iterson, une entreprise de soins médicaux primaires.",
+        "published_at": "2026-09-04T20:56:55",
+        "score": 12
+      },
+      {
+        "guid": "06e15e48e140ba75",
+        "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+        "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.\n\nThe attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
+        "published_at": "2026-09-04T20:21:13",
+        "score": 17
+      },
+      {
+        "guid": "a089089cfa117079",
+        "title": "🏴‍☠️ Direwolf has just published a new victim : Wolfram Research",
+        "url": "https://www.ransomware.live/id/V29sZnJhbSBSZXNlYXJjaEBkaXJld29sZg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] Wolfram Research is an American technology and software company founded in 1987 by Stephen Wolfram and headquartered in Champaign, Illinois. It operates in the computational software and artificial intelligence industry, best known for developing Mathematica, a powerful technical computing platform, and Wolfram Alpha, a computational knowledge engine. The company also produces the Wolfram Language, used widely in scientific research, education, and data analysis.",
+        "published_at": "2026-09-04T17:55:01",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "830dadccfdf47964",
+        "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+        "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plusieurs actions en justice ont été déposées contre l'entreprise d'identification par vérification d'identité IDScan, après une supposée fuite de données concernant plus de 153 millions de permis de conduire.",
+        "published_at": "2026-09-04T12:56:45",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "bb4c583c603e784f",
+        "title": "39 New Methods That Compromise Passkey Authentication",
+        "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des chercheurs ont identifié 39 méthodes pour compromettre l'authentification basée sur les passkeys, qui suppriment de nombreux attaques par mots de passe.",
+        "published_at": "2026-09-04T10:01:11",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "6ba198b49f77f55e",
+        "title": "🏴‍☠️ Dysphor1a has just published a new victim : MBT Telecom",
+        "url": "https://www.ransomware.live/id/TUJUIFRlbGVjb21ARFlTUEhPUjFB",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La société myanmarienne MBT Telecom a été victime d'une fuite totale de base de données, exposant les informations personnelles identifiables et les mots de passe de 209 970 utilisateurs.",
+        "published_at": "2026-09-04T16:50:33",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 45,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "llm_rejected": 1,
+    "argos_version": "2.0.0"
+  }
+}
