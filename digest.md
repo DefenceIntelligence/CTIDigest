@@ -1,129 +1,103 @@
-# 🛡️ ARGOS CTI Digest — 4 septembre 2026
+# 🛡️ ARGOS CTI Digest — 5 septembre 2026
 
-> Généré le 04/09/2026 à 02:02 UTC  ·  68 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 05/09/2026 à 02:01 UTC  ·  45 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Tycon Systems TPDIN-Monitor-WEB3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-08)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-82712`, `CVE-2026-82684`, `CVE-2026-77847`
-`cve` `vulnerability`
-La vulnérabilité dans Tycon Systems TPDIN-Monitor-WEB3 permettrait à un attaquant de réaliser une attaque MitM, d'effectuer un redémarrage factory, de supprimer des informations de connexion ou d'exfiltrer des informations sensibles.
-
----
-
-### [Rockwell Automation ArmorStart LT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-04)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-19472`, `CVE-2026-19471`
+### [PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution](https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html)
+**Source :** The Hacker News  **Publié :** 04/09/2026 20:50 UTC  **CVE :** `CVE-2026-6471`
 `cve` `malware` `vulnerability`
-Les versions inférieures à ArmorStart LT permettraient à un attaquant d'interrompre le serveur web ou d'injecter des scripts malveillants exécutés lors de l'accès par les autres utilisateurs.
+PostgreSQL a publié des mises à jour pour corriger une vulnérabilité liée à la réplication qui permet l'exécution de code arbitraire sous le compte système d'exploitation.
 
 ---
 
-### [Rockwell Automation ControlFLASH](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-03)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-1266`, `CVE-2026-12663`
+### [Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html)
+**Source :** The Hacker News  **Publié :** 04/09/2026 14:18 UTC  **CVE :** `CVE-2026-14894`
+`apt` `cve` `vulnerability`
+Plus de 440 000 tentatives d’exploitation ciblent deux vulnérabilités critiques dans les plugins Super Forms et Elementor Pro de WordPress.
+
+---
+
+### [Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day](https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html)
+**Source :** The Hacker News  **Publié :** 04/09/2026 12:48 UTC  **CVE :** `CVE-2026-85046`
+`cve` `patch` `vulnerability`
+Google a réparé 12 vulnérabilités, dont une exploitée activement en tant que faille zéro-jour dans Chrome.
+
+---
+
+### [Critical Citrix NetScaler auth bypass now leveraged in attacks](https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 04/09/2026 11:25 UTC  **CVE :** `CVE-2026-19490`
 `cve` `vulnerability`
-Rockwell Automation ControlFLASH versions antérieures à V15.07 seraient vulnérables, permettant à un attaquant d'exécuter n'importe quel code avec les privilèges du utilisateur connecté.
-
----
-
-### [IXON VPN Client](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-02)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-75925`
-`cve` `malware` `vulnerability`
-IXON VPN Client versions antérieures à 1.4.7 seraient exploitées pour exécuter des codes malveillants avec des privilèges élevés sur le poste de travail.
-
----
-
-### [OPCFoundation OPC UA LocalDiscoveryServer (LDS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-01)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-77477`
-`cve` `vulnerability`
-L'exploitation du vulnérabilité dans OPCFoundation OPC UA LocalDiscoveryServer pourrait donner aux attaquants le contrôle d'une terminal avec des privilèges élevés et l'exécution de commandes arbitraires.
-
----
-
-### [Inductive Automation Ignition](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-06)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2026-77393`
-`cve` `vulnerability`
-Inductive Automation Ignition versions antérieures à 8.1.53 pourraient permettre à un utilisateur authentifié d'créer des projets.
-
----
-
-### [Rockwell Automation 1756-ENBT Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-246-05)
-**Source :** CISA Advisories  **Publié :** 03/09/2026 12:00 UTC  **CVE :** `CVE-2025-10478`
-`cve` `vulnerability`
-Les versions de Rockwell Automation 1756-ENBT Module seraient vulnérables, provoquant une panne du module nécessitant un redémarrage pour la récupération.
-
----
-
-### [Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root](https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 03/09/2026 21:22 UTC  **CVE :** `CVE-2026-20212`
-`cve` `malware` `vulnerability`
-Cisco a publié des correctifs pour le Nexus 9000 affecté par une vulnérabilité critique, permettant à un attaquant non authentifié de s'exécuter en tant que root.
+Des attaquants ciblent une faille d’authentification critique dans Citrix NetScaler, CVE-2026-19490.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Spacebears has just published a new victim : Studio Oculistico Ciraci](https://www.ransomware.live/id/U3R1ZGlvIE9jdWxpc3RpY28gQ2lyYWNpQHNwYWNlYmVhcnM=)
-**Source :** Ransomware.live News  **Publié :** 03/09/2026 22:59 UTC
+### [Friday Squid Blogging: Squid on a Stick at the New York State Fair](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html)
+**Source :** Schneier on Security  **Publié :** 04/09/2026 21:01 UTC
 `malware`
-Studio Oculistico Ciraci, une clinique ophtalmologique italienne, a été victime d'une attaque qui pourrait lui permettre de vendre l'accès à son système.
+Ce billet de blog parle de la cuisine au foie de raie du Temple du Foie de Raie à l’Exposition d'État.
 
 ---
 
-### [BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory](https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html)
-**Source :** The Hacker News  **Publié :** 03/09/2026 20:56 UTC
-`breach` `malware`
-BraZetsu est un malware Python sophistiqué transformant des hôtes infectés en actifs commerciaux pour une marketplace souterraine.
+### [🏴‍☠️ Lockbit5 has just published a new victim : pscindustries.com](https://www.ransomware.live/id/cHNjaW5kdXN0cmllcy5jb21AbG9ja2JpdDU=)
+**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:58 UTC
+`ransomware`
+Lockbit5 a publié un nouveau dossier victime : PSC Industries, fournisseur majeur d'isolation et de gaskets.
 
 ---
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Katten Muchin Rosenman](https://www.ransomware.live/id/S2F0dGVuIE11Y2hpbiBSb3Nlbm1hbkBTaWxlbnRSYW5zb21Hcm91cA==)
-**Source :** Ransomware.live News  **Publié :** 03/09/2026 20:23 UTC
+### [🏴‍☠️ Lockbit5 has just published a new victim : kalahealth.eu](https://www.ransomware.live/id/a2FsYWhlYWx0aC5ldUBsb2NrYml0NQ==)
+**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:57 UTC
+`ransomware`
+Lockbit5 a également ciblé KALA Health, une entreprise internationale de nutraceutiques basée en Europe.
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : huisartsencentrumkleiniterson.nl](https://www.ransomware.live/id/aHVpc2FydHNlbmNlbnRydW1rbGVpbml0ZXJzb24ubmxAbG9ja2JpdDU=)
+**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:56 UTC
+`malware` `ransomware`
+Lockbit5 a ajouté un nouveau dossier victime : Huisartsencentrum Klein Iterson, une entreprise de soins médicaux primaires.
+
+---
+
+### [New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)
+**Source :** The Hacker News  **Publié :** 04/09/2026 20:21 UTC
+`cve` `malware` `vulnerability`
+A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.
+
+The attackers named the implant ted in debug strings left in the bin
+
+---
+
+### [🏴‍☠️ Direwolf has just published a new victim : Wolfram Research](https://www.ransomware.live/id/V29sZnJhbSBSZXNlYXJjaEBkaXJld29sZg==)
+**Source :** Ransomware.live News  **Publié :** 04/09/2026 17:55 UTC
 `malware`
-Katten Muchin Rosenman, une grande firme d'avocats, est victime du groupe de rançongiciel Silentransomgroup.
-
----
-
-### [Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data](https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html)
-**Source :** The Hacker News  **Publié :** 03/09/2026 20:09 UTC
-`breach` `malware`
-Une faille chez Thomson Reuters a exposé des données personnelles et judiciaires dans 12 juridictions américaines.
-
----
-
-### [US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html)
-**Source :** The Hacker News  **Publié :** 03/09/2026 17:28 UTC
-`malware` `phishing`
-Une campagne de phishing RMM ciblant les États-Unis a été découverte par ANY.RUN.
-
----
-
-### [Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks](https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html)
-**Source :** The Hacker News  **Publié :** 03/09/2026 16:13 UTC
-`apt` `malware`
-Des attaquants utilisent Node.js pour distribuer des payloads malveillants dans plusieurs cyberattaques ciblées.
+[AI generated] Wolfram Research is an American technology and software company founded in 1987 by Stephen Wolfram and headquartered in Champaign, Illinois. It operates in the computational software and artificial intelligence industry, best known for developing Mathematica, a powerful technical comp
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [US and Canadian court data exposed in Thomson Reuters breach](https://therecord.media/thomson-reuters-cyberattack-data)
-**Source :** The Record  **Publié :** 03/09/2026 12:00 UTC  **Score :** 35
+### 1. [IDScan sued over alleged data breach affecting 153 million drivers](https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/)
+**Source :** Bleeping Computer  **Publié :** 04/09/2026 12:56 UTC  **Score :** 25
 `breach`
-Une faille chez Thomson Reuters a exposé des informations personnelles et judiciaires de 12 États américains.
+Plusieurs actions en justice ont été déposées contre l'entreprise d'identification par vérification d'identité IDScan, après une supposée fuite de données concernant plus de 153 millions de permis de conduire.
 
-### 2. [French hospital fined €500,000 after breach exposes data of 727,000](https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/)
-**Source :** Bleeping Computer  **Publié :** 03/09/2026 18:01 UTC  **Score :** 25
+### 2. [39 New Methods That Compromise Passkey Authentication](https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/)
+**Source :** Bleeping Computer  **Publié :** 04/09/2026 10:01 UTC  **Score :** 25
 `breach`
-France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]
+Des chercheurs ont identifié 39 méthodes pour compromettre l'authentification basée sur les passkeys, qui suppriment de nombreux attaques par mots de passe.
 
-### 3. [Coder's registry infrastructure compromised to push malicious modules](https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/)
-**Source :** Bleeping Computer  **Publié :** 03/09/2026 16:04 UTC  **Score :** 25
+### 3. [🏴‍☠️ Dysphor1a has just published a new victim : MBT Telecom](https://www.ransomware.live/id/TUJUIFRlbGVjb21ARFlTUEhPUjFB)
+**Source :** Ransomware.live News  **Publié :** 04/09/2026 16:50 UTC  **Score :** 20
 `breach`
-Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]
+La société myanmarienne MBT Telecom a été victime d'une fuite totale de base de données, exposant les informations personnelles identifiables et les mots de passe de 209 970 utilisateurs.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-04.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-05.md`*
