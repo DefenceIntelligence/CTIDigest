@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-06",
+  "generated_at": "2026-09-06T02:01:03.269741+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "a90679e76423024b",
+        "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-81578",
+          "CVE-2026-82078"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des menaces exploitent des vulnérabilités récentes dans PaperCut pour voler les identifiants de l'éducation américaine et européenne.",
+        "published_at": "2026-09-05T13:01:53",
+        "score": 20
+      },
+      {
+        "guid": "7d30015676d2b08f",
+        "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+        "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-59346"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Une faille critique impactant VMware Workstation et Fusion permet l'exécution de code arbitraire par un administrateur local.",
+        "published_at": "2026-09-05T21:35:08",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "837ed5671ff9d7db",
+        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploitent une vulnérabilité non corrigée dans Magento et Adobe Commerce pour injecter du code malveillant sans connexion.",
+        "published_at": "2026-09-06T01:44:47",
+        "score": 17
+      },
+      {
+        "guid": "f6860a2e3f904361",
+        "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+        "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des menaces ont exploité une vulnérabilité récente TeamCity chez JetBrains, volant des identifiants AWS.",
+        "published_at": "2026-09-05T22:22:33",
+        "score": 25
+      },
+      {
+        "guid": "2f9b8824b2bbc8fd",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Leo Schachter Diamonds",
+        "url": "https://www.ransomware.live/id/TGVvIFNjaGFjaHRlciBEaWFtb25kc0B0aGVnZW50bGVtZW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le site de diamants leoschachter.com a été victime d'une cyberattaque sans détails techniques spécifiques.",
+        "published_at": "2026-09-05T18:30:24",
+        "score": 12
+      },
+      {
+        "guid": "e94b3e4951447414",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Zdrowit",
+        "url": "https://www.ransomware.live/id/WmRyb3dpdEB0aGVnZW50bGVtZW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "La chaîne polonaise de pharmacies zdrowit.pl est la nouvelle cible d'un cybercriminel sans détails techniques spécifiques.",
+        "published_at": "2026-09-05T18:30:11",
+        "score": 12
+      },
+      {
+        "guid": "caa5b50647343be5",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Lider Aviacao",
+        "url": "https://www.ransomware.live/id/TGlkZXIgQXZpYWNhb0B0aGVnZW50bGVtZW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "L'entreprise aérienne brésilienne Líder Aviação est victime d'une cyberattaque sans détails techniques spécifiques.",
+        "published_at": "2026-09-05T18:29:44",
+        "score": 12
+      },
+      {
+        "guid": "cd18835abfacad94",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Mega Velocity",
+        "url": "https://www.ransomware.live/id/TWVnYSBWZWxvY2l0eUBWZXh5IFJhbnNvbXdhcmU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "La ransomware Vexy a ciblé la société indienne Mega Velocity sans détails techniques spécifiques.",
+        "published_at": "2026-09-05T17:22:03",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "18adcb11fe0e1fd6",
+        "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+        "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'entreprise Trezor a été informée d'une autre fuite de données impliquant 67,000 clients américains chez ShipMonk sans compromettre les portefeuilles sécurisés.",
+        "published_at": "2026-09-05T19:47:02",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "889be043dc5c13b9",
+        "title": "🏴‍☠️ Dysphor1a has just published a new victim : CitizensPay",
+        "url": "https://www.ransomware.live/id/Q2l0aXplbnNQYXlARFlTUEhPUjFB",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La plateforme de paiement myanmarienne CitizensPay a été compromise, affectant des informations d'agents utilisateurs sans détails techniques spécifiques.",
+        "published_at": "2026-09-05T15:50:36",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "f889e84bba1a09e3",
+        "title": "Togo : une base de contrôle de police exposée ?",
+        "url": "https://www.zataz.com/togo-une-base-de-controle-de-police-exposee/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Une fuite du contrôle de police au Togo aurait exposé plus de 90 000 cartes d’identité.",
+        "published_at": "2026-09-05T14:00:26",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 38,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
