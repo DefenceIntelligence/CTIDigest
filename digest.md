@@ -1,103 +1,86 @@
-# 🛡️ ARGOS CTI Digest — 5 septembre 2026
+# 🛡️ ARGOS CTI Digest — 6 septembre 2026
 
-> Généré le 05/09/2026 à 02:01 UTC  ·  45 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 06/09/2026 à 02:01 UTC  ·  38 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution](https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html)
-**Source :** The Hacker News  **Publié :** 04/09/2026 20:50 UTC  **CVE :** `CVE-2026-6471`
-`cve` `malware` `vulnerability`
-PostgreSQL a publié des mises à jour pour corriger une vulnérabilité liée à la réplication qui permet l'exécution de code arbitraire sous le compte système d'exploitation.
-
----
-
-### [Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html)
-**Source :** The Hacker News  **Publié :** 04/09/2026 14:18 UTC  **CVE :** `CVE-2026-14894`
+### [Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities](https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html)
+**Source :** The Hacker News  **Publié :** 05/09/2026 13:01 UTC  **CVE :** `CVE-2026-81578`, `CVE-2026-82078`
 `apt` `cve` `vulnerability`
-Plus de 440 000 tentatives d’exploitation ciblent deux vulnérabilités critiques dans les plugins Super Forms et Elementor Pro de WordPress.
+Des menaces exploitent des vulnérabilités récentes dans PaperCut pour voler les identifiants de l'éducation américaine et européenne.
 
 ---
 
-### [Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day](https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html)
-**Source :** The Hacker News  **Publié :** 04/09/2026 12:48 UTC  **CVE :** `CVE-2026-85046`
+### [Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code](https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html)
+**Source :** The Hacker News  **Publié :** 05/09/2026 21:35 UTC  **CVE :** `CVE-2026-59346`
 `cve` `patch` `vulnerability`
-Google a réparé 12 vulnérabilités, dont une exploitée activement en tant que faille zéro-jour dans Chrome.
-
----
-
-### [Critical Citrix NetScaler auth bypass now leveraged in attacks](https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 04/09/2026 11:25 UTC  **CVE :** `CVE-2026-19490`
-`cve` `vulnerability`
-Des attaquants ciblent une faille d’authentification critique dans Citrix NetScaler, CVE-2026-19490.
+Une faille critique impactant VMware Workstation et Fusion permet l'exécution de code arbitraire par un administrateur local.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Friday Squid Blogging: Squid on a Stick at the New York State Fair](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html)
-**Source :** Schneier on Security  **Publié :** 04/09/2026 21:01 UTC
+### [Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores](https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html)
+**Source :** The Hacker News  **Publié :** 06/09/2026 01:44 UTC
+`cve` `malware` `patch` `vulnerability`
+Des attaquants exploitent une vulnérabilité non corrigée dans Magento et Adobe Commerce pour injecter du code malveillant sans connexion.
+
+---
+
+### [Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials](https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html)
+**Source :** The Hacker News  **Publié :** 05/09/2026 22:22 UTC
+`apt` `breach` `cve` `vulnerability`
+Des menaces ont exploité une vulnérabilité récente TeamCity chez JetBrains, volant des identifiants AWS.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Leo Schachter Diamonds](https://www.ransomware.live/id/TGVvIFNjaGFjaHRlciBEaWFtb25kc0B0aGVnZW50bGVtZW4=)
+**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:30 UTC
 `malware`
-Ce billet de blog parle de la cuisine au foie de raie du Temple du Foie de Raie à l’Exposition d'État.
+Le site de diamants leoschachter.com a été victime d'une cyberattaque sans détails techniques spécifiques.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : pscindustries.com](https://www.ransomware.live/id/cHNjaW5kdXN0cmllcy5jb21AbG9ja2JpdDU=)
-**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:58 UTC
-`ransomware`
-Lockbit5 a publié un nouveau dossier victime : PSC Industries, fournisseur majeur d'isolation et de gaskets.
+### [🏴‍☠️ Thegentlemen has just published a new victim : Zdrowit](https://www.ransomware.live/id/WmRyb3dpdEB0aGVnZW50bGVtZW4=)
+**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:30 UTC
+`cve` `malware`
+La chaîne polonaise de pharmacies zdrowit.pl est la nouvelle cible d'un cybercriminel sans détails techniques spécifiques.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : kalahealth.eu](https://www.ransomware.live/id/a2FsYWhlYWx0aC5ldUBsb2NrYml0NQ==)
-**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:57 UTC
-`ransomware`
-Lockbit5 a également ciblé KALA Health, une entreprise internationale de nutraceutiques basée en Europe.
+### [🏴‍☠️ Thegentlemen has just published a new victim : Lider Aviacao](https://www.ransomware.live/id/TGlkZXIgQXZpYWNhb0B0aGVnZW50bGVtZW4=)
+**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:29 UTC
+`malware`
+L'entreprise aérienne brésilienne Líder Aviação est victime d'une cyberattaque sans détails techniques spécifiques.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : huisartsencentrumkleiniterson.nl](https://www.ransomware.live/id/aHVpc2FydHNlbmNlbnRydW1rbGVpbml0ZXJzb24ubmxAbG9ja2JpdDU=)
-**Source :** Ransomware.live News  **Publié :** 04/09/2026 20:56 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Mega Velocity](https://www.ransomware.live/id/TWVnYSBWZWxvY2l0eUBWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 05/09/2026 17:22 UTC
 `malware` `ransomware`
-Lockbit5 a ajouté un nouveau dossier victime : Huisartsencentrum Klein Iterson, une entreprise de soins médicaux primaires.
-
----
-
-### [New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)
-**Source :** The Hacker News  **Publié :** 04/09/2026 20:21 UTC
-`cve` `malware` `vulnerability`
-A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors.
-
-The attackers named the implant ted in debug strings left in the bin
-
----
-
-### [🏴‍☠️ Direwolf has just published a new victim : Wolfram Research](https://www.ransomware.live/id/V29sZnJhbSBSZXNlYXJjaEBkaXJld29sZg==)
-**Source :** Ransomware.live News  **Publié :** 04/09/2026 17:55 UTC
-`malware`
-[AI generated] Wolfram Research is an American technology and software company founded in 1987 by Stephen Wolfram and headquartered in Champaign, Illinois. It operates in the computational software and artificial intelligence industry, best known for developing Mathematica, a powerful technical comp
+La ransomware Vexy a ciblé la société indienne Mega Velocity sans détails techniques spécifiques.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [IDScan sued over alleged data breach affecting 153 million drivers](https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/)
-**Source :** Bleeping Computer  **Publié :** 04/09/2026 12:56 UTC  **Score :** 25
+### 1. [Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted](https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html)
+**Source :** The Hacker News  **Publié :** 05/09/2026 19:47 UTC  **Score :** 25
 `breach`
-Plusieurs actions en justice ont été déposées contre l'entreprise d'identification par vérification d'identité IDScan, après une supposée fuite de données concernant plus de 153 millions de permis de conduire.
+L'entreprise Trezor a été informée d'une autre fuite de données impliquant 67,000 clients américains chez ShipMonk sans compromettre les portefeuilles sécurisés.
 
-### 2. [39 New Methods That Compromise Passkey Authentication](https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/)
-**Source :** Bleeping Computer  **Publié :** 04/09/2026 10:01 UTC  **Score :** 25
+### 2. [🏴‍☠️ Dysphor1a has just published a new victim : CitizensPay](https://www.ransomware.live/id/Q2l0aXplbnNQYXlARFlTUEhPUjFB)
+**Source :** Ransomware.live News  **Publié :** 05/09/2026 15:50 UTC  **Score :** 20
 `breach`
-Des chercheurs ont identifié 39 méthodes pour compromettre l'authentification basée sur les passkeys, qui suppriment de nombreux attaques par mots de passe.
+La plateforme de paiement myanmarienne CitizensPay a été compromise, affectant des informations d'agents utilisateurs sans détails techniques spécifiques.
 
-### 3. [🏴‍☠️ Dysphor1a has just published a new victim : MBT Telecom](https://www.ransomware.live/id/TUJUIFRlbGVjb21ARFlTUEhPUjFB)
-**Source :** Ransomware.live News  **Publié :** 04/09/2026 16:50 UTC  **Score :** 20
-`breach`
-La société myanmarienne MBT Telecom a été victime d'une fuite totale de base de données, exposant les informations personnelles identifiables et les mots de passe de 209 970 utilisateurs.
+### 3. [Togo : une base de contrôle de police exposée ?](https://www.zataz.com/togo-une-base-de-controle-de-police-exposee/)
+**Source :** ZATAZ  **Publié :** 05/09/2026 14:00 UTC  **Score :** 5
+Une fuite du contrôle de police au Togo aurait exposé plus de 90 000 cartes d’identité.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-05.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-06.md`*
