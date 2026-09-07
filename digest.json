@@ -1,130 +1,105 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-06",
-  "generated_at": "2026-09-06T02:01:03.269741+00:00",
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T02:00:53.682905+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "a90679e76423024b",
-        "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-        "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-81578",
-          "CVE-2026-82078"
-        ],
+        "guid": "8bbb644a847a1fb8",
+        "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
+        "url": "https://isc.sans.edu/diary/rss/33314",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
         "tags": [
-          "apt",
+          "breach",
           "cve",
           "vulnerability"
         ],
-        "summary": "Des menaces exploitent des vulnérabilités récentes dans PaperCut pour voler les identifiants de l'éducation américaine et européenne.",
-        "published_at": "2026-09-05T13:01:53",
-        "score": 20
-      },
-      {
-        "guid": "7d30015676d2b08f",
-        "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-        "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-59346"
-        ],
-        "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Une faille critique impactant VMware Workstation et Fusion permet l'exécution de code arbitraire par un administrateur local.",
-        "published_at": "2026-09-05T21:35:08",
+        "summary": "MikroTik a publié un correctif pour une vulnérabilité déjà exploitée, permettant un saut de l'authentification SSH. La compromission est probable.",
+        "published_at": "2026-09-06T21:43:17",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "837ed5671ff9d7db",
-        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "guid": "023562535896bf6b",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : rubbermill.com",
+        "url": "https://www.ransomware.live/id/cnViYmVybWlsbC5jb21AZHJhZ29uZm9yY2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Dragonforce a volé les données d’entreprise RubberMill, inc., fabricant OEM américain, comprenant 146 Go de données.",
+        "published_at": "2026-09-06T18:53:26",
+        "score": 12
+      },
+      {
+        "guid": "d1dee6e9ca3ccea8",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Homewood Sales",
+        "url": "https://www.ransomware.live/id/SG9tZXdvb2QgU2FsZXNAZHJhZ29uZm9yY2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Homewood Sales Corporation, spécialisée dans l'extension de la durée de vie des équipements, a été victime d'une attaque.",
+        "published_at": "2026-09-06T18:52:33",
+        "score": 12
+      },
+      {
+        "guid": "59a8a26ab86e66ee",
+        "title": "🏴‍☠️ Dysphor1a has just published a new victim : RTAD GOV MM",
+        "url": "https://www.ransomware.live/id/UlRBRCBHT1YgTU1ARFlTUEhPUjFB",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "RTAD, le département du Service administratif routier gouvernemental, a eu ses bases de données volées et publiées en ligne.",
+        "published_at": "2026-09-06T17:50:31",
+        "score": 12
+      },
+      {
+        "guid": "734643e736ca3d41",
+        "title": "🏴‍☠️ Global has just published a new victim : WHO IS NEXT?",
+        "url": "https://www.ransomware.live/id/V0hPIElTIE5FWFQ/QGdsb2JhbA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "No infrastructure is immune. Any corporation, network, or organization in the world can end up here. Yours could be next.",
+        "published_at": "2026-09-06T15:54:11",
+        "score": 12
+      },
+      {
+        "guid": "98ffe58140fc5723",
+        "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+        "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "cve",
-          "malware",
-          "patch",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Des attaquants exploitent une vulnérabilité non corrigée dans Magento et Adobe Commerce pour injecter du code malveillant sans connexion.",
-        "published_at": "2026-09-06T01:44:47",
+        "summary": "Vexy, rançon_logiciel, a volé Sancity, une entreprise immobilière américaine non listée et opérant dans la construction et le marketing immobilier.",
+        "published_at": "2026-09-06T15:02:38",
         "score": 17
       },
       {
-        "guid": "f6860a2e3f904361",
-        "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-        "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des menaces ont exploité une vulnérabilité récente TeamCity chez JetBrains, volant des identifiants AWS.",
-        "published_at": "2026-09-05T22:22:33",
-        "score": 25
-      },
-      {
-        "guid": "2f9b8824b2bbc8fd",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Leo Schachter Diamonds",
-        "url": "https://www.ransomware.live/id/TGVvIFNjaGFjaHRlciBEaWFtb25kc0B0aGVnZW50bGVtZW4=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le site de diamants leoschachter.com a été victime d'une cyberattaque sans détails techniques spécifiques.",
-        "published_at": "2026-09-05T18:30:24",
-        "score": 12
-      },
-      {
-        "guid": "e94b3e4951447414",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Zdrowit",
-        "url": "https://www.ransomware.live/id/WmRyb3dpdEB0aGVnZW50bGVtZW4=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "La chaîne polonaise de pharmacies zdrowit.pl est la nouvelle cible d'un cybercriminel sans détails techniques spécifiques.",
-        "published_at": "2026-09-05T18:30:11",
-        "score": 12
-      },
-      {
-        "guid": "caa5b50647343be5",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Lider Aviacao",
-        "url": "https://www.ransomware.live/id/TGlkZXIgQXZpYWNhb0B0aGVnZW50bGVtZW4=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "L'entreprise aérienne brésilienne Líder Aviação est victime d'une cyberattaque sans détails techniques spécifiques.",
-        "published_at": "2026-09-05T18:29:44",
-        "score": 12
-      },
-      {
-        "guid": "cd18835abfacad94",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Mega Velocity",
-        "url": "https://www.ransomware.live/id/TWVnYSBWZWxvY2l0eUBWZXh5IFJhbnNvbXdhcmU=",
+        "guid": "d1319216d52deaa2",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Sancity",
+        "url": "https://www.ransomware.live/id/U2FuY2l0eUBWZXh5IFJhbnNvbXdhcmU=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -132,65 +107,63 @@
           "malware",
           "ransomware"
         ],
-        "summary": "La ransomware Vexy a ciblé la société indienne Mega Velocity sans détails techniques spécifiques.",
-        "published_at": "2026-09-05T17:22:03",
+        "summary": "Quatre modules associés à REVSTEALER désactivent Windows Update et Defender pour exécuter un minage de cryptomonnaie.",
+        "published_at": "2026-09-06T15:00:28",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "18adcb11fe0e1fd6",
-        "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-        "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+        "guid": "808ab3284a65fa2d",
+        "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+        "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "L'entreprise Trezor a été informée d'une autre fuite de données impliquant 67,000 clients américains chez ShipMonk sans compromettre les portefeuilles sécurisés.",
-        "published_at": "2026-09-05T19:47:02",
-        "score": 25,
+        "tags": [],
+        "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.\n\nOne of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner.\n\nThe company named the four programs ProManager, WinUpdate, SoftManager, and",
+        "published_at": "2026-09-06T14:04:20",
+        "score": 5,
         "rank": 1
       },
       {
-        "guid": "889be043dc5c13b9",
-        "title": "🏴‍☠️ Dysphor1a has just published a new victim : CitizensPay",
-        "url": "https://www.ransomware.live/id/Q2l0aXplbnNQYXlARFlTUEhPUjFB",
+        "guid": "095b9ce9d2d9294c",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Norwood Law Firm",
+        "url": "https://www.ransomware.live/id/Tm9yd29vZCBMYXcgRmlybUBkcmFnb25mb3JjZQ==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "breach"
+          "cve"
         ],
-        "summary": "La plateforme de paiement myanmarienne CitizensPay a été compromise, affectant des informations d'agents utilisateurs sans détails techniques spécifiques.",
-        "published_at": "2026-09-05T15:50:36",
-        "score": 20,
+        "summary": "Norwood Law, une société d'avocats spécialisée en droit personnel, criminel et des affaires, a été victime d'une attaque informatique.",
+        "published_at": "2026-09-06T18:51:42",
+        "score": 0,
         "rank": 2
       },
       {
-        "guid": "f889e84bba1a09e3",
-        "title": "Togo : une base de contrôle de police exposée ?",
-        "url": "https://www.zataz.com/togo-une-base-de-controle-de-police-exposee/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "af6ac179637ba534",
+        "title": "🏴‍☠️ Direwolf has just published a new victim : eAssist Dental Solutions",
+        "url": "https://www.ransomware.live/id/ZUFzc2lzdCBEZW50YWwgU29sdXRpb25zQGRpcmV3b2xm",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Une fuite du contrôle de police au Togo aurait exposé plus de 90 000 cartes d’identité.",
-        "published_at": "2026-09-05T14:00:26",
-        "score": 5,
+        "summary": "Direwolf a volé les données de eAssist Dental Solutions, une entreprise de soins dentaires américaine.",
+        "published_at": "2026-09-06T16:55:00",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 38,
-    "items_selected": 11,
+    "items_analyzed": 15,
+    "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 0,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 1,
     "argos_version": "2.0.0"
   }
 }
