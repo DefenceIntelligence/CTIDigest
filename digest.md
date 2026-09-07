@@ -1,86 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 6 septembre 2026
+# 🛡️ ARGOS CTI Digest — 7 septembre 2026
 
-> Généré le 06/09/2026 à 02:01 UTC  ·  38 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 07/09/2026 à 02:00 UTC  ·  15 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities](https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html)
-**Source :** The Hacker News  **Publié :** 05/09/2026 13:01 UTC  **CVE :** `CVE-2026-81578`, `CVE-2026-82078`
-`apt` `cve` `vulnerability`
-Des menaces exploitent des vulnérabilités récentes dans PaperCut pour voler les identifiants de l'éducation américaine et européenne.
-
----
-
-### [Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code](https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html)
-**Source :** The Hacker News  **Publié :** 05/09/2026 21:35 UTC  **CVE :** `CVE-2026-59346`
-`cve` `patch` `vulnerability`
-Une faille critique impactant VMware Workstation et Fusion permet l'exécution de code arbitraire par un administrateur local.
+### [Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)](https://isc.sans.edu/diary/rss/33314)
+**Source :** SANS ISC  **Publié :** 06/09/2026 21:43 UTC
+`breach` `cve` `vulnerability`
+MikroTik a publié un correctif pour une vulnérabilité déjà exploitée, permettant un saut de l'authentification SSH. La compromission est probable.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores](https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html)
-**Source :** The Hacker News  **Publié :** 06/09/2026 01:44 UTC
-`cve` `malware` `patch` `vulnerability`
-Des attaquants exploitent une vulnérabilité non corrigée dans Magento et Adobe Commerce pour injecter du code malveillant sans connexion.
-
----
-
-### [Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials](https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html)
-**Source :** The Hacker News  **Publié :** 05/09/2026 22:22 UTC
-`apt` `breach` `cve` `vulnerability`
-Des menaces ont exploité une vulnérabilité récente TeamCity chez JetBrains, volant des identifiants AWS.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Leo Schachter Diamonds](https://www.ransomware.live/id/TGVvIFNjaGFjaHRlciBEaWFtb25kc0B0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:30 UTC
-`malware`
-Le site de diamants leoschachter.com a été victime d'une cyberattaque sans détails techniques spécifiques.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Zdrowit](https://www.ransomware.live/id/WmRyb3dpdEB0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:30 UTC
+### [🏴‍☠️ Dragonforce has just published a new victim : rubbermill.com](https://www.ransomware.live/id/cnViYmVybWlsbC5jb21AZHJhZ29uZm9yY2U=)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:53 UTC
 `cve` `malware`
-La chaîne polonaise de pharmacies zdrowit.pl est la nouvelle cible d'un cybercriminel sans détails techniques spécifiques.
+Dragonforce a volé les données d’entreprise RubberMill, inc., fabricant OEM américain, comprenant 146 Go de données.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Lider Aviacao](https://www.ransomware.live/id/TGlkZXIgQXZpYWNhb0B0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 05/09/2026 18:29 UTC
+### [🏴‍☠️ Dragonforce has just published a new victim : Homewood Sales](https://www.ransomware.live/id/SG9tZXdvb2QgU2FsZXNAZHJhZ29uZm9yY2U=)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:52 UTC
+`cve` `malware`
+Homewood Sales Corporation, spécialisée dans l'extension de la durée de vie des équipements, a été victime d'une attaque.
+
+---
+
+### [🏴‍☠️ Dysphor1a has just published a new victim : RTAD GOV MM](https://www.ransomware.live/id/UlRBRCBHT1YgTU1ARFlTUEhPUjFB)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 17:50 UTC
 `malware`
-L'entreprise aérienne brésilienne Líder Aviação est victime d'une cyberattaque sans détails techniques spécifiques.
+RTAD, le département du Service administratif routier gouvernemental, a eu ses bases de données volées et publiées en ligne.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Mega Velocity](https://www.ransomware.live/id/TWVnYSBWZWxvY2l0eUBWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 05/09/2026 17:22 UTC
+### [🏴‍☠️ Global has just published a new victim : WHO IS NEXT?](https://www.ransomware.live/id/V0hPIElTIE5FWFQ/QGdsb2JhbA==)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 15:54 UTC
+`malware`
+No infrastructure is immune. Any corporation, network, or organization in the world can end up here. Yours could be next.
+
+---
+
+### [Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication](https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html)
+**Source :** The Hacker News  **Publié :** 06/09/2026 15:02 UTC
+`cve` `malware`
+Vexy, rançon_logiciel, a volé Sancity, une entreprise immobilière américaine non listée et opérant dans la construction et le marketing immobilier.
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Sancity](https://www.ransomware.live/id/U2FuY2l0eUBWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 15:00 UTC
 `malware` `ransomware`
-La ransomware Vexy a ciblé la société indienne Mega Velocity sans détails techniques spécifiques.
+Quatre modules associés à REVSTEALER désactivent Windows Update et Defender pour exécuter un minage de cryptomonnaie.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted](https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html)
-**Source :** The Hacker News  **Publié :** 05/09/2026 19:47 UTC  **Score :** 25
-`breach`
-L'entreprise Trezor a été informée d'une autre fuite de données impliquant 67,000 clients américains chez ShipMonk sans compromettre les portefeuilles sécurisés.
+### 1. [Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner](https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html)
+**Source :** The Hacker News  **Publié :** 06/09/2026 14:04 UTC  **Score :** 5
+Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.
 
-### 2. [🏴‍☠️ Dysphor1a has just published a new victim : CitizensPay](https://www.ransomware.live/id/Q2l0aXplbnNQYXlARFlTUEhPUjFB)
-**Source :** Ransomware.live News  **Publié :** 05/09/2026 15:50 UTC  **Score :** 20
-`breach`
-La plateforme de paiement myanmarienne CitizensPay a été compromise, affectant des informations d'agents utilisateurs sans détails techniques spécifiques.
+One of them switches off Windows Update and Microsoft Defender before running a cryptocu
 
-### 3. [Togo : une base de contrôle de police exposée ?](https://www.zataz.com/togo-une-base-de-controle-de-police-exposee/)
-**Source :** ZATAZ  **Publié :** 05/09/2026 14:00 UTC  **Score :** 5
-Une fuite du contrôle de police au Togo aurait exposé plus de 90 000 cartes d’identité.
+### 2. [🏴‍☠️ Dragonforce has just published a new victim : Norwood Law Firm](https://www.ransomware.live/id/Tm9yd29vZCBMYXcgRmlybUBkcmFnb25mb3JjZQ==)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:51 UTC  **Score :** 0
+`cve`
+Norwood Law, une société d'avocats spécialisée en droit personnel, criminel et des affaires, a été victime d'une attaque informatique.
+
+### 3. [🏴‍☠️ Direwolf has just published a new victim : eAssist Dental Solutions](https://www.ransomware.live/id/ZUFzc2lzdCBEZW50YWwgU29sdXRpb25zQGRpcmV3b2xm)
+**Source :** Ransomware.live News  **Publié :** 06/09/2026 16:55 UTC  **Score :** 0
+Direwolf a volé les données de eAssist Dental Solutions, une entreprise de soins dentaires américaine.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-06.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-07.md`*
