@@ -1,80 +1,75 @@
-# 🛡️ ARGOS CTI Digest — 7 septembre 2026
+# 🛡️ ARGOS CTI Digest — 8 septembre 2026
 
-> Généré le 07/09/2026 à 02:00 UTC  ·  15 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 08/09/2026 à 02:00 UTC  ·  66 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)](https://isc.sans.edu/diary/rss/33314)
-**Source :** SANS ISC  **Publié :** 06/09/2026 21:43 UTC
-`breach` `cve` `vulnerability`
-MikroTik a publié un correctif pour une vulnérabilité déjà exploitée, permettant un saut de l'authentification SSH. La compromission est probable.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Dragonforce has just published a new victim : rubbermill.com](https://www.ransomware.live/id/cnViYmVybWlsbC5jb21AZHJhZ29uZm9yY2U=)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:53 UTC
-`cve` `malware`
-Dragonforce a volé les données d’entreprise RubberMill, inc., fabricant OEM américain, comprenant 146 Go de données.
+### [PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution](https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html)
+**Source :** The Hacker News  **Publié :** 07/09/2026 23:42 UTC
+`breach` `cve` `malware`
+Des chercheurs en sécurité ont révélé des détails sur PEEP, un outil post-exploitation basé sur Chromium qui masque son installation comme une extension de favoris dans les navigateurs Chrome et Edge.
 
 ---
 
-### [🏴‍☠️ Dragonforce has just published a new victim : Homewood Sales](https://www.ransomware.live/id/SG9tZXdvb2QgU2FsZXNAZHJhZ29uZm9yY2U=)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:52 UTC
-`cve` `malware`
-Homewood Sales Corporation, spécialisée dans l'extension de la durée de vie des équipements, a été victime d'une attaque.
-
----
-
-### [🏴‍☠️ Dysphor1a has just published a new victim : RTAD GOV MM](https://www.ransomware.live/id/UlRBRCBHT1YgTU1ARFlTUEhPUjFB)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 17:50 UTC
-`malware`
-RTAD, le département du Service administratif routier gouvernemental, a eu ses bases de données volées et publiées en ligne.
-
----
-
-### [🏴‍☠️ Global has just published a new victim : WHO IS NEXT?](https://www.ransomware.live/id/V0hPIElTIE5FWFQ/QGdsb2JhbA==)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 15:54 UTC
-`malware`
-No infrastructure is immune. Any corporation, network, or organization in the world can end up here. Yours could be next.
-
----
-
-### [Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication](https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html)
-**Source :** The Hacker News  **Publié :** 06/09/2026 15:02 UTC
-`cve` `malware`
-Vexy, rançon_logiciel, a volé Sancity, une entreprise immobilière américaine non listée et opérant dans la construction et le marketing immobilier.
-
----
-
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Sancity](https://www.ransomware.live/id/U2FuY2l0eUBWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 15:00 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Hollard Insurance Group](https://www.ransomware.live/id/SG9sbGFyZCBJbnN1cmFuY2UgR3JvdXBAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:56 UTC
 `malware` `ransomware`
-Quatre modules associés à REVSTEALER désactivent Windows Update et Defender pour exécuter un minage de cryptomonnaie.
+Le groupe d'attaques Thegentlemen a ciblé l'assureur sud-africain Hollard, une entreprise familiale de 4000 employés avec des millions de clients.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Mutant](https://www.ransomware.live/id/TXV0YW50QHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:55 UTC
+`malware`
+Le groupe d'attaques Thegentlemen a visé Mutant, un grand fournisseur de services CX et d'intelligence artificielle en Amérique latine.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : University of San Francisco](https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBTYW4gRnJhbmNpc2NvQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:55 UTC
+`malware`
+L'université catholique de San Francisco a été victime d'une attaque informatique par Thegentlemen.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Chip7](https://www.ransomware.live/id/Q2hpcDdAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:54 UTC
+`cve` `malware`
+Chip7, une grande chaîne portugaise de vente d'ordinateurs et de jeux, a été victime d'une attaque informatique par Thegentlemen.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Sharp Office](https://www.ransomware.live/id/U2hhcnAgT2ZmaWNlQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:54 UTC
+`apt` `malware`
+Sharp Office, un grand distributeur d'articles de bureau en Australie, a fait l'objet d'une attaque par Thegentlemen.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner](https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html)
-**Source :** The Hacker News  **Publié :** 06/09/2026 14:04 UTC  **Score :** 5
-Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself.
+### 1. [Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts](https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html)
+**Source :** The Hacker News  **Publié :** 07/09/2026 17:06 UTC  **Score :** 35
+`breach` `phishing`
+Des chercheurs ont découvert une activité similaire à un cheval de Troie qui utilise ConnectWise ScreenConnect pour distribuer des malwares VBScript sur de nouveaux systèmes connectés.
 
-One of them switches off Windows Update and Microsoft Defender before running a cryptocu
+### 2. [N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw](https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html)
+**Source :** The Hacker News  **Publié :** 07/09/2026 14:01 UTC  **Score :** 25
+`breach` `cve` `patch` `vulnerability`
+N-able a déployé un quatrième correctif dans cinq semaines pour son plateforme N-central, corriger une vulnérabilité de commande à distance non authentifiée.
 
-### 2. [🏴‍☠️ Dragonforce has just published a new victim : Norwood Law Firm](https://www.ransomware.live/id/Tm9yd29vZCBMYXcgRmlybUBkcmFnb25mb3JjZQ==)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 18:51 UTC  **Score :** 0
-`cve`
-Norwood Law, une société d'avocats spécialisée en droit personnel, criminel et des affaires, a été victime d'une attaque informatique.
-
-### 3. [🏴‍☠️ Direwolf has just published a new victim : eAssist Dental Solutions](https://www.ransomware.live/id/ZUFzc2lzdCBEZW50YWwgU29sdXRpb25zQGRpcmV3b2xm)
-**Source :** Ransomware.live News  **Publié :** 06/09/2026 16:55 UTC  **Score :** 0
-Direwolf a volé les données de eAssist Dental Solutions, une entreprise de soins dentaires américaine.
+### 3. [Mathspace discloses data breach affecting over 1 million people](https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/)
+**Source :** Bleeping Computer  **Publié :** 07/09/2026 09:05 UTC  **Score :** 25
+`breach`
+Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-07.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-08.md`*
