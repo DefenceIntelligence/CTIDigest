@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T02:01:16.047232+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "7bec99a66d87ed70",
+        "title": "CareCam Pro IP Cameras",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-85083"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les modèles firmware ANJIA AJL33PC0801 de CareCam Pro IP Cameras sont affectés par une vulnérabilité (CVE-2026-85083) qui permettrait un contrôle total du dispositif.",
+        "published_at": "2026-09-08T12:00:00",
+        "score": 47
+      },
+      {
+        "guid": "5adc2d7cb02e0b73",
+        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+        "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-75650"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Adobe a publié des correctifs pour CVE-2026-75650, une vulnérabilité critique exploitée dans la sauvagerie qui affecte Adobe Commerce et Magento Open Source.",
+        "published_at": "2026-09-08T14:43:47",
+        "score": 32
+      },
+      {
+        "guid": "5ff575deab060629",
+        "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+        "url": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-75650"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Adobe a émis un correctif d’urgence pour CVE-2026-75650, une vulnérabilité zéro-jour exploitée activement.",
+        "published_at": "2026-09-08T09:34:47",
+        "score": 32
+      },
+      {
+        "guid": "3ae8ddfd59d5ff2f",
+        "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
+        "url": "https://isc.sans.edu/diary/rss/33320",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a émis des correctifs pour 973 vulnérabilités en septembre 2026, dont 113 sont critiques, un record mensuel.",
+        "published_at": "2026-09-08T19:20:30",
+        "score": 12
+      },
+      {
+        "guid": "921faa0123fd5732",
+        "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Des entreprises d’IA chinoises exploiteraient des campagnes de distillation à grande échelle pour voler des secrets technologiques de sociétés américaines d’IA.",
+        "published_at": "2026-09-08T12:00:00",
+        "score": 12
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "817a916f76883b41",
+        "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
+        "url": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Slim Spider, un acteur malveillant brésilien, cible des institutions financières en volant leurs secrets de cryptogestion.",
+        "published_at": "2026-09-08T21:50:23",
+        "score": 17
+      },
+      {
+        "guid": "51ea3f2aa7f2680a",
+        "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+        "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a corrigé 974 vulnérabilités cette Patch Tuesday, un record absolu mensuel pour la société.",
+        "published_at": "2026-09-08T21:44:22",
+        "score": 17
+      },
+      {
+        "guid": "e45c4308750a2d8a",
+        "title": "🏴‍☠️ Safepay has just published a new victim : palmettoeyeinstitute.com",
+        "url": "https://www.ransomware.live/id/cGFsbWV0dG9leWVpbnN0aXR1dGUuY29tQHNhZmVwYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a signalé que palmettoeyeinstitute.com est une nouvelle victime d’un cyberattaquant.",
+        "published_at": "2026-09-08T19:50:00",
+        "score": 12
+      },
+      {
+        "guid": "8074484653eeef4b",
+        "title": "🏴‍☠️ Safepay has just published a new victim : cannonpuntana.com",
+        "url": "https://www.ransomware.live/id/Y2Fubm9ucHVudGFuYS5jb21Ac2FmZXBheQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a signalé que cannonpuntana.com est une nouvelle victime d’un cyberattaquant.",
+        "published_at": "2026-09-08T19:48:52",
+        "score": 12
+      },
+      {
+        "guid": "581800756e97e337",
+        "title": "🏴‍☠️ Safepay has just published a new victim : cenmar-manila.com",
+        "url": "https://www.ransomware.live/id/Y2VubWFyLW1hbmlsYS5jb21Ac2FmZXBheQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a signalé que cenmar-manila.com est une nouvelle victime d’un cyberattaquant.",
+        "published_at": "2026-09-08T19:47:12",
+        "score": 12
+      },
+      {
+        "guid": "f69afd2213fa88e1",
+        "title": "🏴‍☠️ Safepay has just published a new victim : gsngestion.es",
+        "url": "https://www.ransomware.live/id/Z3NuZ2VzdGlvbi5lc0BzYWZlcGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La société gsngestion.es basée à Madrid a été victime d'une nouvelle attaque.",
+        "published_at": "2026-09-08T19:46:37",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "6febeb3f2d7f8368",
+        "title": "Scammer behind $245 million crypto heist pleads guilty to RICO charges",
+        "url": "https://therecord.media/scammer-behind-245-million-crypto-heist-pleads-guilty-rico",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Malone Lam, accusé de fraude cryptographique d'un montant de 245 millions de dollars, s'est reconnu coupable des charges en vertu du RICO.",
+        "published_at": "2026-09-08T20:52:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d358820e1397fec1",
+        "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Des hackers ont exploité F5 BIG-IP APM pour déployer un rootkit Linux qui injecte une web shell dans la mémoire sans écrire de code malveillant sur le disque.",
+        "published_at": "2026-09-08T16:08:55",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "3a585bcb9d075dd6",
+        "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le gang ShinyHunters revendique l'intrusion du système informatique DAVID du DMV de Floride, comprenant des informations sur plus de 200 000 conducteurs.",
+        "published_at": "2026-09-08T12:35:47",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 74,
+    "items_selected": 14,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
