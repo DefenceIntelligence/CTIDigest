@@ -1,75 +1,108 @@
-# 🛡️ ARGOS CTI Digest — 8 septembre 2026
+# 🛡️ ARGOS CTI Digest — 9 septembre 2026
 
-> Généré le 08/09/2026 à 02:00 UTC  ·  66 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 09/09/2026 à 02:01 UTC  ·  74 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [CareCam Pro IP Cameras](https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01)
+**Source :** CISA Advisories  **Publié :** 08/09/2026 12:00 UTC  **CVE :** `CVE-2026-85083`
+`breach` `cve` `malware` `vulnerability`
+Les modèles firmware ANJIA AJL33PC0801 de CareCam Pro IP Cameras sont affectés par une vulnérabilité (CVE-2026-85083) qui permettrait un contrôle total du dispositif.
+
+---
+
+### [Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell](https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html)
+**Source :** The Hacker News  **Publié :** 08/09/2026 14:43 UTC  **CVE :** `CVE-2026-75650`
+`cve` `malware` `vulnerability`
+Adobe a publié des correctifs pour CVE-2026-75650, une vulnérabilité critique exploitée dans la sauvagerie qui affecte Adobe Commerce et Magento Open Source.
+
+---
+
+### [Adobe fixes critical Magento zero-day exploited to backdoor servers](https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/)
+**Source :** Bleeping Computer  **Publié :** 08/09/2026 09:34 UTC  **CVE :** `CVE-2026-75650`
+`cve` `malware` `vulnerability`
+Adobe a émis un correctif d’urgence pour CVE-2026-75650, une vulnérabilité zéro-jour exploitée activement.
+
+---
+
+### [September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)](https://isc.sans.edu/diary/rss/33320)
+**Source :** SANS ISC  **Publié :** 08/09/2026 19:20 UTC
+`cve` `malware` `patch` `vulnerability`
+Microsoft a émis des correctifs pour 973 vulnérabilités en septembre 2026, dont 113 sont critiques, un record mensuel.
+
+---
+
+### [China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a)
+**Source :** CISA Advisories  **Publié :** 08/09/2026 12:00 UTC
+`malware` `patch`
+Des entreprises d’IA chinoises exploiteraient des campagnes de distillation à grande échelle pour voler des secrets technologiques de sociétés américaines d’IA.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution](https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html)
-**Source :** The Hacker News  **Publié :** 07/09/2026 23:42 UTC
-`breach` `cve` `malware`
-Des chercheurs en sécurité ont révélé des détails sur PEEP, un outil post-exploitation basé sur Chromium qui masque son installation comme une extension de favoris dans les navigateurs Chrome et Edge.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Hollard Insurance Group](https://www.ransomware.live/id/SG9sbGFyZCBJbnN1cmFuY2UgR3JvdXBAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:56 UTC
-`malware` `ransomware`
-Le groupe d'attaques Thegentlemen a ciblé l'assureur sud-africain Hollard, une entreprise familiale de 4000 employés avec des millions de clients.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Mutant](https://www.ransomware.live/id/TXV0YW50QHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:55 UTC
-`malware`
-Le groupe d'attaques Thegentlemen a visé Mutant, un grand fournisseur de services CX et d'intelligence artificielle en Amérique latine.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : University of San Francisco](https://www.ransomware.live/id/VW5pdmVyc2l0eSBvZiBTYW4gRnJhbmNpc2NvQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:55 UTC
-`malware`
-L'université catholique de San Francisco a été victime d'une attaque informatique par Thegentlemen.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Chip7](https://www.ransomware.live/id/Q2hpcDdAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:54 UTC
-`cve` `malware`
-Chip7, une grande chaîne portugaise de vente d'ordinateurs et de jeux, a été victime d'une attaque informatique par Thegentlemen.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Sharp Office](https://www.ransomware.live/id/U2hhcnAgT2ZmaWNlQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 07/09/2026 21:54 UTC
+### [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
+**Source :** The Hacker News  **Publié :** 08/09/2026 21:50 UTC
 `apt` `malware`
-Sharp Office, un grand distributeur d'articles de bureau en Australie, a fait l'objet d'une attaque par Thegentlemen.
+Slim Spider, un acteur malveillant brésilien, cible des institutions financières en volant leurs secrets de cryptogestion.
+
+---
+
+### [Microsoft Plugs Nearly 1,000 Security Holes](https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/)
+**Source :** Krebs on Security  **Publié :** 08/09/2026 21:44 UTC
+`malware` `vulnerability`
+Microsoft a corrigé 974 vulnérabilités cette Patch Tuesday, un record absolu mensuel pour la société.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : palmettoeyeinstitute.com](https://www.ransomware.live/id/cGFsbWV0dG9leWVpbnN0aXR1dGUuY29tQHNhZmVwYXk=)
+**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:50 UTC
+`malware`
+Safepay a signalé que palmettoeyeinstitute.com est une nouvelle victime d’un cyberattaquant.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : cannonpuntana.com](https://www.ransomware.live/id/Y2Fubm9ucHVudGFuYS5jb21Ac2FmZXBheQ==)
+**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:48 UTC
+`malware`
+Safepay a signalé que cannonpuntana.com est une nouvelle victime d’un cyberattaquant.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : cenmar-manila.com](https://www.ransomware.live/id/Y2VubWFyLW1hbmlsYS5jb21Ac2FmZXBheQ==)
+**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:47 UTC
+`malware`
+Safepay a signalé que cenmar-manila.com est une nouvelle victime d’un cyberattaquant.
+
+---
+
+### [🏴‍☠️ Safepay has just published a new victim : gsngestion.es](https://www.ransomware.live/id/Z3NuZ2VzdGlvbi5lc0BzYWZlcGF5)
+**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:46 UTC
+`malware`
+La société gsngestion.es basée à Madrid a été victime d'une nouvelle attaque.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts](https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html)
-**Source :** The Hacker News  **Publié :** 07/09/2026 17:06 UTC  **Score :** 35
-`breach` `phishing`
-Des chercheurs ont découvert une activité similaire à un cheval de Troie qui utilise ConnectWise ScreenConnect pour distribuer des malwares VBScript sur de nouveaux systèmes connectés.
+### 1. [Scammer behind $245 million crypto heist pleads guilty to RICO charges](https://therecord.media/scammer-behind-245-million-crypto-heist-pleads-guilty-rico)
+**Source :** The Record  **Publié :** 08/09/2026 20:52 UTC  **Score :** 35
+`breach` `cve`
+Malone Lam, accusé de fraude cryptographique d'un montant de 245 millions de dollars, s'est reconnu coupable des charges en vertu du RICO.
 
-### 2. [N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw](https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html)
-**Source :** The Hacker News  **Publié :** 07/09/2026 14:01 UTC  **Score :** 25
-`breach` `cve` `patch` `vulnerability`
-N-able a déployé un quatrième correctif dans cinq semaines pour son plateforme N-central, corriger une vulnérabilité de commande à distance non authentifiée.
+### 2. [Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit](https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/)
+**Source :** Bleeping Computer  **Publié :** 08/09/2026 16:08 UTC  **Score :** 25
+`breach` `cve`
+Des hackers ont exploité F5 BIG-IP APM pour déployer un rootkit Linux qui injecte une web shell dans la mémoire sans écrire de code malveillant sur le disque.
 
-### 3. [Mathspace discloses data breach affecting over 1 million people](https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/)
-**Source :** Bleeping Computer  **Publié :** 07/09/2026 09:05 UTC  **Score :** 25
+### 3. [ShinyHunters hackers claim breach of Florida "DAVID" DMV database](https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/)
+**Source :** Bleeping Computer  **Publié :** 08/09/2026 12:35 UTC  **Score :** 25
 `breach`
-Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]
+Le gang ShinyHunters revendique l'intrusion du système informatique DAVID du DMV de Floride, comprenant des informations sur plus de 200 000 conducteurs.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-08.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-09.md`*
