@@ -1,108 +1,115 @@
-# 🛡️ ARGOS CTI Digest — 9 septembre 2026
+# 🛡️ ARGOS CTI Digest — 10 septembre 2026
 
-> Généré le 09/09/2026 à 02:01 UTC  ·  74 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 10/09/2026 à 02:01 UTC  ·  63 items analysés  ·  15 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CareCam Pro IP Cameras](https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01)
-**Source :** CISA Advisories  **Publié :** 08/09/2026 12:00 UTC  **CVE :** `CVE-2026-85083`
-`breach` `cve` `malware` `vulnerability`
-Les modèles firmware ANJIA AJL33PC0801 de CareCam Pro IP Cameras sont affectés par une vulnérabilité (CVE-2026-85083) qui permettrait un contrôle total du dispositif.
+### [Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 09/09/2026 17:40 UTC  **CVE :** `CVE-2026-20079`
+`cve` `vulnerability`
+Cisco a confirmé que la vulnérabilité d'authentification par passation maximale CVE-2026-20079 dans son logiciel Secure Firewall Management Center est activement exploitée.
 
 ---
 
-### [Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell](https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html)
-**Source :** The Hacker News  **Publié :** 08/09/2026 14:43 UTC  **CVE :** `CVE-2026-75650`
-`cve` `malware` `vulnerability`
-Adobe a publié des correctifs pour CVE-2026-75650, une vulnérabilité critique exploitée dans la sauvagerie qui affecte Adobe Commerce et Magento Open Source.
+### [Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox](https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 14:41 UTC  **CVE :** `CVE-2026-87491`
+`cve` `vulnerability`
+Google a lancé des mises à jour pour corriger une vulnérabilité médium-sev CVE-2026-87491 (CVSS: N/A) dans V8, le moteur JavaScript de Chrome.
 
 ---
 
-### [Adobe fixes critical Magento zero-day exploited to backdoor servers](https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/)
-**Source :** Bleeping Computer  **Publié :** 08/09/2026 09:34 UTC  **CVE :** `CVE-2026-75650`
-`cve` `malware` `vulnerability`
-Adobe a émis un correctif d’urgence pour CVE-2026-75650, une vulnérabilité zéro-jour exploitée activement.
+### [Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed](https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 12:17 UTC  **CVE :** `CVE-2026-69414`
+`cve` `vulnerability`
+Un chercheur a partagé un PoC pour une nouvelle vulnérabilité zéro-jour dans Microsoft Defender, codée sous le nom ShieldCrash.
 
 ---
 
-### [September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)](https://isc.sans.edu/diary/rss/33320)
-**Source :** SANS ISC  **Publié :** 08/09/2026 19:20 UTC
-`cve` `malware` `patch` `vulnerability`
-Microsoft a émis des correctifs pour 973 vulnérabilités en septembre 2026, dont 113 sont critiques, un record mensuel.
+### [SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution](https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 11:55 UTC  **CVE :** `CVE-2026-44756`
+`cve` `patch` `vulnerability`
+SAP a publié des mises à jour de sécurité pour corriger une vulnérabilité maximale CVE-2026-44756 (CVSS: 10.0) dans SAP Extended Passport.
 
 ---
 
-### [China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a)
-**Source :** CISA Advisories  **Publié :** 08/09/2026 12:00 UTC
-`malware` `patch`
-Des entreprises d’IA chinoises exploiteraient des campagnes de distillation à grande échelle pour voler des secrets technologiques de sociétés américaines d’IA.
+### [N-able N-central Pre-Auth RCE Flaw Exploited in the Wild](https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 09:57 UTC  **CVE :** `CVE-2026-86218`
+`cve` `vulnerability`
+Un maximum-sev CVE-2026-86218 (CVSS: 10.0) affectant N-able N-central a été ajouté au catalogue des vulnérabilités exploitées.
+
+---
+
+### [Scans for Proxmox Servers, (Wed, Sep 9th)](https://isc.sans.edu/diary/rss/33324)
+**Source :** SANS ISC  **Publié :** 09/09/2026 17:46 UTC
+`patch` `vulnerability`
+Proxmox a publié un avis sur une vulnérabilité dans Proxmox VE 7, version non plus supportée depuis longtemps.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution](https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html)
-**Source :** The Hacker News  **Publié :** 08/09/2026 21:50 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : PharmaEssentia Corporation](https://www.ransomware.live/id/UGhhcm1hRXNzZW50aWEgQ29ycG9yYXRpb25AdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 09/09/2026 22:09 UTC
+`malware`
+pharmaessentia.com zoominfo.com/c/pharmaessentia-corp/145441146 PharmaEssentia Taiwanese global biopharma founded in 2003, known for besremi® (ropeginterferon alfa-2b) — the first drug developed in Taiwan ever approved by the FDA (2021) and the only polycythemia vera (PV) therapy approved in both th
+
+---
+
+### [Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week](https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 22:04 UTC
+`apt` `cve` `vulnerability`
+Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.
+
+The first in-the-wild use of BlueMoon has been attributed to the China-aligned
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : amorsaude.com.br](https://www.ransomware.live/id/YW1vcnNhdWRlLmNvbS5ickBsb2NrYml0NQ==)
+**Source :** Ransomware.live News  **Publié :** 09/09/2026 21:29 UTC
+`ransomware`
+AmorSaúde is a rapidly growing network of popular clinics in Brazil that offers medical, dental, and...
+
+---
+
+### [CISA head says agency must change quickly to prevent the 'worst that could happen'](https://therecord.media/cisa-hiring-nick-andersen-warning)
+**Source :** The Record  **Publié :** 09/09/2026 21:25 UTC
+`malware`
+CISA a exprimé l'importance de se préparer aux pires scénarios potentiels.
+
+---
+
+### [Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA](https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html)
+**Source :** The Hacker News  **Publié :** 09/09/2026 19:53 UTC
+`breach` `malware`
+Des cybercriminels volent des comptes d'IA via les logs de vol d'informations pour créer des « clés volées » qui permettent un accès illégitime aux outils fournis par Google et autres.
+
+---
+
+### [AdaptHealth confirms 4.1 million people exposed in July cyberattack](https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/)
+**Source :** Bleeping Computer  **Publié :** 09/09/2026 17:30 UTC
 `apt` `malware`
-Slim Spider, un acteur malveillant brésilien, cible des institutions financières en volant leurs secrets de cryptogestion.
-
----
-
-### [Microsoft Plugs Nearly 1,000 Security Holes](https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/)
-**Source :** Krebs on Security  **Publié :** 08/09/2026 21:44 UTC
-`malware` `vulnerability`
-Microsoft a corrigé 974 vulnérabilités cette Patch Tuesday, un record absolu mensuel pour la société.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : palmettoeyeinstitute.com](https://www.ransomware.live/id/cGFsbWV0dG9leWVpbnN0aXR1dGUuY29tQHNhZmVwYXk=)
-**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:50 UTC
-`malware`
-Safepay a signalé que palmettoeyeinstitute.com est une nouvelle victime d’un cyberattaquant.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : cannonpuntana.com](https://www.ransomware.live/id/Y2Fubm9ucHVudGFuYS5jb21Ac2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:48 UTC
-`malware`
-Safepay a signalé que cannonpuntana.com est une nouvelle victime d’un cyberattaquant.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : cenmar-manila.com](https://www.ransomware.live/id/Y2VubWFyLW1hbmlsYS5jb21Ac2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:47 UTC
-`malware`
-Safepay a signalé que cenmar-manila.com est une nouvelle victime d’un cyberattaquant.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : gsngestion.es](https://www.ransomware.live/id/Z3NuZ2VzdGlvbi5lc0BzYWZlcGF5)
-**Source :** Ransomware.live News  **Publié :** 08/09/2026 19:46 UTC
-`malware`
-La société gsngestion.es basée à Madrid a été victime d'une nouvelle attaque.
+La société AdaptHealth a confirmé l'exposition des données de 4,1 millions de personnes dans un incident de July causé par le groupe ShinyHunters.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Scammer behind $245 million crypto heist pleads guilty to RICO charges](https://therecord.media/scammer-behind-245-million-crypto-heist-pleads-guilty-rico)
-**Source :** The Record  **Publié :** 08/09/2026 20:52 UTC  **Score :** 35
-`breach` `cve`
-Malone Lam, accusé de fraude cryptographique d'un montant de 245 millions de dollars, s'est reconnu coupable des charges en vertu du RICO.
-
-### 2. [Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit](https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/)
-**Source :** Bleeping Computer  **Publié :** 08/09/2026 16:08 UTC  **Score :** 25
-`breach` `cve`
-Des hackers ont exploité F5 BIG-IP APM pour déployer un rootkit Linux qui injecte une web shell dans la mémoire sans écrire de code malveillant sur le disque.
-
-### 3. [ShinyHunters hackers claim breach of Florida "DAVID" DMV database](https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/)
-**Source :** Bleeping Computer  **Publié :** 08/09/2026 12:35 UTC  **Score :** 25
+### 1. [🏴‍☠️ Anubis has just published a new victim : Gellibrand Support Services](https://www.ransomware.live/id/R2VsbGlicmFuZCBTdXBwb3J0IFNlcnZpY2VzQGFudWJpcw==)
+**Source :** Ransomware.live News  **Publié :** 09/09/2026 04:54 UTC  **Score :** 20
 `breach`
-Le gang ShinyHunters revendique l'intrusion du système informatique DAVID du DMV de Floride, comprenant des informations sur plus de 200 000 conducteurs.
+Anubis a dévoilé une nouvelle victime : Gellibrand Support Services, dans un incident de fuite de données impliquant des patients riant.
+
+### 2. [US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy](https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime)
+**Source :** The Record  **Publié :** 09/09/2026 19:54 UTC  **Score :** 15
+Le gouvernement américain a mis en place une opération pour interrompre la plateforme Xinbi Guarantee, liée à des escroqueries numériques, et saisi 52,8 millions de dollars.
+
+### 3. [Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million](https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million)
+**Source :** The Record  **Publié :** 09/09/2026 18:11 UTC  **Score :** 15
+Grindr a versé 35 millions de dollars pour clore une action en justice engagée par des utilisateurs britanniques concernant la divulgation de leurs statuses d'HIV.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-09.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-10.md`*
