@@ -1,115 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 10 septembre 2026
+# 🛡️ ARGOS CTI Digest — 11 septembre 2026
 
-> Généré le 10/09/2026 à 02:01 UTC  ·  63 items analysés  ·  15 sélectionnés  ·  22 sources actives
+> Généré le 11/09/2026 à 02:01 UTC  ·  61 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 09/09/2026 17:40 UTC  **CVE :** `CVE-2026-20079`
+### [AVEVA Pipeline Integrity Monitor](https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01)
+**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-81824`, `CVE-2026-81822`, `CVE-2026-81823`, `CVE-2026-81821`
+`cve` `malware` `vulnerability`
+Des vulnérabilités dans AVEVA Pipeline Integrity Monitor pourraient permettre à un attaquante de divulguer des informations, d'effectuer une force brute sur des hachages ou exécuter du code arbitraire dans une session navigateur.
+
+---
+
+### [NextGen Healthcare Mirth Connect](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01)
+**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-82583`, `CVE-2026-82578`, `CVE-2026-78224`
+`cve` `malware` `vulnerability`
+Des vulnérabilités chez NextGen Healthcare Mirth Connect pourraient permettre à un attaquante de voler des données ou provoquer une condition d'arrêt du service.
+
+---
+
+### [Orthanc DICOM Server](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02)
+**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-87020`
 `cve` `vulnerability`
-Cisco a confirmé que la vulnérabilité d'authentification par passation maximale CVE-2026-20079 dans son logiciel Secure Firewall Management Center est activement exploitée.
+Une vulnérabilité chez Orthanc DICOM Server pourrait permettre à un attaquante authentifiée de créer une erreur de segmentation en exploitant des images PNG ou JPEG, entraînant l'arrêt du processus Orthanc.
 
 ---
 
-### [Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox](https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 14:41 UTC  **CVE :** `CVE-2026-87491`
+### [CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline](https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html)
+**Source :** The Hacker News  **Publié :** 10/09/2026 16:06 UTC  **CVE :** `CVE-2026-20079`
 `cve` `vulnerability`
-Google a lancé des mises à jour pour corriger une vulnérabilité médium-sev CVE-2026-87491 (CVSS: N/A) dans V8, le moteur JavaScript de Chrome.
-
----
-
-### [Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed](https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 12:17 UTC  **CVE :** `CVE-2026-69414`
-`cve` `vulnerability`
-Un chercheur a partagé un PoC pour une nouvelle vulnérabilité zéro-jour dans Microsoft Defender, codée sous le nom ShieldCrash.
-
----
-
-### [SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution](https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 11:55 UTC  **CVE :** `CVE-2026-44756`
-`cve` `patch` `vulnerability`
-SAP a publié des mises à jour de sécurité pour corriger une vulnérabilité maximale CVE-2026-44756 (CVSS: 10.0) dans SAP Extended Passport.
-
----
-
-### [N-able N-central Pre-Auth RCE Flaw Exploited in the Wild](https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 09:57 UTC  **CVE :** `CVE-2026-86218`
-`cve` `vulnerability`
-Un maximum-sev CVE-2026-86218 (CVSS: 10.0) affectant N-able N-central a été ajouté au catalogue des vulnérabilités exploitées.
-
----
-
-### [Scans for Proxmox Servers, (Wed, Sep 9th)](https://isc.sans.edu/diary/rss/33324)
-**Source :** SANS ISC  **Publié :** 09/09/2026 17:46 UTC
-`patch` `vulnerability`
-Proxmox a publié un avis sur une vulnérabilité dans Proxmox VE 7, version non plus supportée depuis longtemps.
+Le CISA a ajouté trois vulnérabilités aux Flaws KEV, impactant Cisco, Citrix et Fortinet, avec une date limite de mise à jour du 12 septembre 2026.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : PharmaEssentia Corporation](https://www.ransomware.live/id/UGhhcm1hRXNzZW50aWEgQ29ycG9yYXRpb25AdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 09/09/2026 22:09 UTC
-`malware`
-pharmaessentia.com zoominfo.com/c/pharmaessentia-corp/145441146 PharmaEssentia Taiwanese global biopharma founded in 2003, known for besremi® (ropeginterferon alfa-2b) — the first drug developed in Taiwan ever approved by the FDA (2021) and the only polycythemia vera (PV) therapy approved in both th
-
----
-
-### [Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week](https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 22:04 UTC
-`apt` `cve` `vulnerability`
-Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.
-
-The first in-the-wild use of BlueMoon has been attributed to the China-aligned
-
----
-
-### [🏴‍☠️ Lockbit5 has just published a new victim : amorsaude.com.br](https://www.ransomware.live/id/YW1vcnNhdWRlLmNvbS5ickBsb2NrYml0NQ==)
-**Source :** Ransomware.live News  **Publié :** 09/09/2026 21:29 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : i2k2 Networks](https://www.ransomware.live/id/aTJrMiBOZXR3b3Jrc0BWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 10/09/2026 21:27 UTC
 `ransomware`
-AmorSaúde is a rapidly growing network of popular clinics in Brazil that offers medical, dental, and...
+Vexy ransomware a enlevé i2k2 Networks, un fournisseur indien de solutions IT, parmi ses victimes.
 
 ---
 
-### [CISA head says agency must change quickly to prevent the 'worst that could happen'](https://therecord.media/cisa-hiring-nick-andersen-warning)
-**Source :** The Record  **Publié :** 09/09/2026 21:25 UTC
-`malware`
-CISA a exprimé l'importance de se préparer aux pires scénarios potentiels.
+### [🏴‍☠️ Lockbit5 has just published a new victim : alphaomega-eng.com](https://www.ransomware.live/id/YWxwaGFvbWVnYS1lbmcuY29tQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 10/09/2026 19:00 UTC
+`ransomware`
+Lockbit5 a enlevé alphaomega-eng.com, une entreprise d'ingénierie israélienne fondée en 1993, parmi ses victimes.
 
 ---
 
-### [Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA](https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html)
-**Source :** The Hacker News  **Publié :** 09/09/2026 19:53 UTC
-`breach` `malware`
-Des cybercriminels volent des comptes d'IA via les logs de vol d'informations pour créer des « clés volées » qui permettent un accès illégitime aux outils fournis par Google et autres.
+### [🏴‍☠️ Rhysida has just published a new victim : General Santos Doctors Hospital](https://www.ransomware.live/id/R2VuZXJhbCBTYW50b3MgRG9jdG9ycyBIb3NwaXRhbEByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 10/09/2026 18:30 UTC
+`malware` `ransomware`
+Rhysida a enlevé l'hôpital General Santos Doctors Hospital, qui contient de nombreuses données sensibles sur patients et professionnels, parmi ses victimes.
 
 ---
 
-### [AdaptHealth confirms 4.1 million people exposed in July cyberattack](https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/)
-**Source :** Bleeping Computer  **Publié :** 09/09/2026 17:30 UTC
-`apt` `malware`
-La société AdaptHealth a confirmé l'exposition des données de 4,1 millions de personnes dans un incident de July causé par le groupe ShinyHunters.
+### [🏴‍☠️ Rhysida has just published a new victim : Professional Retail Services](https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIFJldGFpbCBTZXJ2aWNlc0ByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 10/09/2026 18:29 UTC
+`malware` `ransomware`
+Rhysida a enlevé Professional Retail Services, une entreprise retail israélienne, parmi ses victimes.
+
+---
+
+### [We've got one word for it, and it's usually the wrong one](https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/)
+**Source :** Cisco Talos  **Publié :** 10/09/2026 18:00 UTC
+`apt` `cve`
+Cette semaine dans le Threat Source, Joe explique pourquoi l'utilisation du terme "burnout" pour décrire les problèmes de la cybersecurity peut être insuffisante.
+
+---
+
+### [New Android malware encrypts files, steals data, and harasses victims](https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/)
+**Source :** Bleeping Computer  **Publié :** 10/09/2026 17:40 UTC
+`malware` `ransomware`
+Une nouvelle malveillance Android nommée Mantax Otax combine des capacités de rançon et de spyware, en chiffrant les fichiers, volant des données sensibles et harcelant les victimes.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Anubis has just published a new victim : Gellibrand Support Services](https://www.ransomware.live/id/R2VsbGlicmFuZCBTdXBwb3J0IFNlcnZpY2VzQGFudWJpcw==)
-**Source :** Ransomware.live News  **Publié :** 09/09/2026 04:54 UTC  **Score :** 20
+### 1. [Multiple crypto companies warn customers of phishing emails after alleged provider breach](https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders)
+**Source :** The Record  **Publié :** 10/09/2026 04:00 UTC  **Score :** 45
+`breach` `phishing`
+Des sociétés de cryptomonnaie, dont Trezor, CoinTracking et BitBox, ont averti leurs abonnés suite à une fuite d’informations chez leur fournisseur d’e-mails, entraînant la réception de messages corrompus.
+
+### 2. [IDScan confirms breach after hackers offer 153 million driver’s license scans for sale](https://therecord.media/idscan-data-breach-notice-drivers-licenses)
+**Source :** The Record  **Publié :** 10/09/2026 18:55 UTC  **Score :** 35
 `breach`
-Anubis a dévoilé une nouvelle victime : Gellibrand Support Services, dans un incident de fuite de données impliquant des patients riant.
+IDScan a confirmé un breach après que des hackers ont proposé 153 millions de scans de permis de conduire pour vente, sans préciser la taille exacte de l’incident.
 
-### 2. [US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy](https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime)
-**Source :** The Record  **Publié :** 09/09/2026 19:54 UTC  **Score :** 15
-Le gouvernement américain a mis en place une opération pour interrompre la plateforme Xinbi Guarantee, liée à des escroqueries numériques, et saisi 52,8 millions de dollars.
-
-### 3. [Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million](https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million)
-**Source :** The Record  **Publié :** 09/09/2026 18:11 UTC  **Score :** 15
-Grindr a versé 35 millions de dollars pour clore une action en justice engagée par des utilisateurs britanniques concernant la divulgation de leurs statuses d'HIV.
+### 3. [PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances](https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html)
+**Source :** The Hacker News  **Publié :** 10/09/2026 17:11 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Un acteur cybersuspect russe utilise des agents d’intelligence artificielle pour exploiter une vulnérabilité récemment divulguée dans PaperCut NG/MF, compromise 440+ instances.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-10.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-11.md`*
