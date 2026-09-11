@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T02:01:19.105141+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "02330f30c3a38865",
+        "title": "AVEVA Pipeline Integrity Monitor",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-81824",
+          "CVE-2026-81822",
+          "CVE-2026-81823",
+          "CVE-2026-81821"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans AVEVA Pipeline Integrity Monitor pourraient permettre à un attaquante de divulguer des informations, d'effectuer une force brute sur des hachages ou exécuter du code arbitraire dans une session navigateur.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "472bb0ab3be3da30",
+        "title": "NextGen Healthcare Mirth Connect",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-82583",
+          "CVE-2026-82578",
+          "CVE-2026-78224"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités chez NextGen Healthcare Mirth Connect pourraient permettre à un attaquante de voler des données ou provoquer une condition d'arrêt du service.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "5baa963e743e0e17",
+        "title": "Orthanc DICOM Server",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-87020"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité chez Orthanc DICOM Server pourrait permettre à un attaquante authentifiée de créer une erreur de segmentation en exploitant des images PNG ou JPEG, entraînant l'arrêt du processus Orthanc.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "133a538492a2bb5b",
+        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20079"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté trois vulnérabilités aux Flaws KEV, impactant Cisco, Citrix et Fortinet, avec une date limite de mise à jour du 12 septembre 2026.",
+        "published_at": "2026-09-10T16:06:46",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b54c9681a982c309",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : i2k2 Networks",
+        "url": "https://www.ransomware.live/id/aTJrMiBOZXR3b3Jrc0BWZXh5IFJhbnNvbXdhcmU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Vexy ransomware a enlevé i2k2 Networks, un fournisseur indien de solutions IT, parmi ses victimes.",
+        "published_at": "2026-09-10T21:27:11",
+        "score": 0
+      },
+      {
+        "guid": "59aa2d90a44912bc",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : alphaomega-eng.com",
+        "url": "https://www.ransomware.live/id/YWxwaGFvbWVnYS1lbmcuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a enlevé alphaomega-eng.com, une entreprise d'ingénierie israélienne fondée en 1993, parmi ses victimes.",
+        "published_at": "2026-09-10T19:00:19",
+        "score": 0
+      },
+      {
+        "guid": "3c458838c1103272",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : General Santos Doctors Hospital",
+        "url": "https://www.ransomware.live/id/R2VuZXJhbCBTYW50b3MgRG9jdG9ycyBIb3NwaXRhbEByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a enlevé l'hôpital General Santos Doctors Hospital, qui contient de nombreuses données sensibles sur patients et professionnels, parmi ses victimes.",
+        "published_at": "2026-09-10T18:30:09",
+        "score": 12
+      },
+      {
+        "guid": "7b3a807137b91824",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Professional Retail Services",
+        "url": "https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIFJldGFpbCBTZXJ2aWNlc0ByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a enlevé Professional Retail Services, une entreprise retail israélienne, parmi ses victimes.",
+        "published_at": "2026-09-10T18:29:19",
+        "score": 12
+      },
+      {
+        "guid": "1813e83642004702",
+        "title": "We've got one word for it, and it's usually the wrong one",
+        "url": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve"
+        ],
+        "summary": "Cette semaine dans le Threat Source, Joe explique pourquoi l'utilisation du terme \"burnout\" pour décrire les problèmes de la cybersecurity peut être insuffisante.",
+        "published_at": "2026-09-10T18:00:15",
+        "score": 15
+      },
+      {
+        "guid": "2c2e69ace49e6421",
+        "title": "New Android malware encrypts files, steals data, and harasses victims",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Une nouvelle malveillance Android nommée Mantax Otax combine des capacités de rançon et de spyware, en chiffrant les fichiers, volant des données sensibles et harcelant les victimes.",
+        "published_at": "2026-09-10T17:40:43",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "2aaabeee7bfda2ee",
+        "title": "Multiple crypto companies warn customers of phishing emails after alleged provider breach",
+        "url": "https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Des sociétés de cryptomonnaie, dont Trezor, CoinTracking et BitBox, ont averti leurs abonnés suite à une fuite d’informations chez leur fournisseur d’e-mails, entraînant la réception de messages corrompus.",
+        "published_at": "2026-09-10T04:00:00",
+        "score": 45,
+        "rank": 1
+      },
+      {
+        "guid": "866de325bc833a81",
+        "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+        "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "IDScan a confirmé un breach après que des hackers ont proposé 153 millions de scans de permis de conduire pour vente, sans préciser la taille exacte de l’incident.",
+        "published_at": "2026-09-10T18:55:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "c53c06ec2ae9eafb",
+        "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+        "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un acteur cybersuspect russe utilise des agents d’intelligence artificielle pour exploiter une vulnérabilité récemment divulguée dans PaperCut NG/MF, compromise 440+ instances.",
+        "published_at": "2026-09-10T17:11:53",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 61,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 9,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
