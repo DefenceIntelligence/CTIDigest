@@ -1,15 +1,73 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-10",
-  "generated_at": "2026-09-10T02:01:23.590782+00:00",
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T02:01:19.105141+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "4f27cf7aa5d9df93",
-        "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-        "source": "Bleeping Computer",
+        "guid": "02330f30c3a38865",
+        "title": "AVEVA Pipeline Integrity Monitor",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-81824",
+          "CVE-2026-81822",
+          "CVE-2026-81823",
+          "CVE-2026-81821"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans AVEVA Pipeline Integrity Monitor pourraient permettre à un attaquante de divulguer des informations, d'effectuer une force brute sur des hachages ou exécuter du code arbitraire dans une session navigateur.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "472bb0ab3be3da30",
+        "title": "NextGen Healthcare Mirth Connect",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-82583",
+          "CVE-2026-82578",
+          "CVE-2026-78224"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités chez NextGen Healthcare Mirth Connect pourraient permettre à un attaquante de voler des données ou provoquer une condition d'arrêt du service.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "5baa963e743e0e17",
+        "title": "Orthanc DICOM Server",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-87020"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité chez Orthanc DICOM Server pourrait permettre à un attaquante authentifiée de créer une erreur de segmentation en exploitant des images PNG ou JPEG, entraînant l'arrêt du processus Orthanc.",
+        "published_at": "2026-09-10T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "133a538492a2bb5b",
+        "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+        "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [
           "CVE-2026-20079"
@@ -18,237 +76,160 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Cisco a confirmé que la vulnérabilité d'authentification par passation maximale CVE-2026-20079 dans son logiciel Secure Firewall Management Center est activement exploitée.",
-        "published_at": "2026-09-09T17:40:44",
+        "summary": "Le CISA a ajouté trois vulnérabilités aux Flaws KEV, impactant Cisco, Citrix et Fortinet, avec une date limite de mise à jour du 12 septembre 2026.",
+        "published_at": "2026-09-10T16:06:46",
         "score": 20
-      },
-      {
-        "guid": "7857c78d73dd1326",
-        "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-        "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-87491"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Google a lancé des mises à jour pour corriger une vulnérabilité médium-sev CVE-2026-87491 (CVSS: N/A) dans V8, le moteur JavaScript de Chrome.",
-        "published_at": "2026-09-09T14:41:03",
-        "score": 20
-      },
-      {
-        "guid": "3955ad2589568a0a",
-        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-        "url": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-69414"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Un chercheur a partagé un PoC pour une nouvelle vulnérabilité zéro-jour dans Microsoft Defender, codée sous le nom ShieldCrash.",
-        "published_at": "2026-09-09T12:17:27",
-        "score": 20
-      },
-      {
-        "guid": "0b35347f0ed64d10",
-        "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-        "url": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-44756"
-        ],
-        "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "SAP a publié des mises à jour de sécurité pour corriger une vulnérabilité maximale CVE-2026-44756 (CVSS: 10.0) dans SAP Extended Passport.",
-        "published_at": "2026-09-09T11:55:45",
-        "score": 20
-      },
-      {
-        "guid": "31c5285fb09c3634",
-        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-        "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-86218"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Un maximum-sev CVE-2026-86218 (CVSS: 10.0) affectant N-able N-central a été ajouté au catalogue des vulnérabilités exploitées.",
-        "published_at": "2026-09-09T09:57:51",
-        "score": 20
-      },
-      {
-        "guid": "1fe48df04f5c585a",
-        "title": "Scans for Proxmox Servers, (Wed, Sep 9th)",
-        "url": "https://isc.sans.edu/diary/rss/33324",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [],
-        "tags": [
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Proxmox a publié un avis sur une vulnérabilité dans Proxmox VE 7, version non plus supportée depuis longtemps.",
-        "published_at": "2026-09-09T17:46:24",
-        "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "c4e090057e4f728f",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : PharmaEssentia Corporation",
-        "url": "https://www.ransomware.live/id/UGhhcm1hRXNzZW50aWEgQ29ycG9yYXRpb25AdGhlZ2VudGxlbWVu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "pharmaessentia.com zoominfo.com/c/pharmaessentia-corp/145441146 PharmaEssentia Taiwanese global biopharma founded in 2003, known for besremi® (ropeginterferon alfa-2b) — the first drug developed in Taiwan ever approved by the FDA (2021) and the only polycythemia vera (PV) therapy approved in both the US and EU. Its innovation: a mono-pegylated long-acting interferon dosed every 2 weeks at home, with disease-modifying potential (reducing JAK2V617F mutant allele frequency) — a premium rare-disease",
-        "published_at": "2026-09-09T22:09:03",
-        "score": 12
-      },
-      {
-        "guid": "961a409504bdae25",
-        "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-        "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft Windows and Google Chrome.\n\nThe first in-the-wild use of BlueMoon has been attributed to the China-aligned state-sponsored group tracked as APT31 (aka Bronze Vinewood, Judgement Panda, JungleBamboo,",
-        "published_at": "2026-09-09T22:04:05",
-        "score": 5
-      },
-      {
-        "guid": "774e26abdf8b2cc2",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : amorsaude.com.br",
-        "url": "https://www.ransomware.live/id/YW1vcnNhdWRlLmNvbS5ickBsb2NrYml0NQ==",
+        "guid": "b54c9681a982c309",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : i2k2 Networks",
+        "url": "https://www.ransomware.live/id/aTJrMiBOZXR3b3Jrc0BWZXh5IFJhbnNvbXdhcmU=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "ransomware"
         ],
-        "summary": "AmorSaúde is a rapidly growing network of popular clinics in Brazil that offers medical, dental, and...",
-        "published_at": "2026-09-09T21:29:45",
+        "summary": "Vexy ransomware a enlevé i2k2 Networks, un fournisseur indien de solutions IT, parmi ses victimes.",
+        "published_at": "2026-09-10T21:27:11",
         "score": 0
       },
       {
-        "guid": "6b003f91f1b376fb",
-        "title": "CISA head says agency must change quickly to prevent the 'worst that could happen'",
-        "url": "https://therecord.media/cisa-hiring-nick-andersen-warning",
-        "source": "The Record",
+        "guid": "59aa2d90a44912bc",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : alphaomega-eng.com",
+        "url": "https://www.ransomware.live/id/YWxwaGFvbWVnYS1lbmcuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a enlevé alphaomega-eng.com, une entreprise d'ingénierie israélienne fondée en 1993, parmi ses victimes.",
+        "published_at": "2026-09-10T19:00:19",
+        "score": 0
+      },
+      {
+        "guid": "3c458838c1103272",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : General Santos Doctors Hospital",
+        "url": "https://www.ransomware.live/id/R2VuZXJhbCBTYW50b3MgRG9jdG9ycyBIb3NwaXRhbEByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a enlevé l'hôpital General Santos Doctors Hospital, qui contient de nombreuses données sensibles sur patients et professionnels, parmi ses victimes.",
+        "published_at": "2026-09-10T18:30:09",
+        "score": 12
+      },
+      {
+        "guid": "7b3a807137b91824",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Professional Retail Services",
+        "url": "https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIFJldGFpbCBTZXJ2aWNlc0ByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a enlevé Professional Retail Services, une entreprise retail israélienne, parmi ses victimes.",
+        "published_at": "2026-09-10T18:29:19",
+        "score": 12
+      },
+      {
+        "guid": "1813e83642004702",
+        "title": "We've got one word for it, and it's usually the wrong one",
+        "url": "https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/",
+        "source": "Cisco Talos",
         "category": "Éditorial",
         "cve": [],
         "tags": [
-          "malware"
+          "apt",
+          "cve"
         ],
-        "summary": "CISA a exprimé l'importance de se préparer aux pires scénarios potentiels.",
-        "published_at": "2026-09-09T21:25:00",
-        "score": 27
+        "summary": "Cette semaine dans le Threat Source, Joe explique pourquoi l'utilisation du terme \"burnout\" pour décrire les problèmes de la cybersecurity peut être insuffisante.",
+        "published_at": "2026-09-10T18:00:15",
+        "score": 15
       },
       {
-        "guid": "994afcccd2448a70",
-        "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-        "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Des cybercriminels volent des comptes d'IA via les logs de vol d'informations pour créer des « clés volées » qui permettent un accès illégitime aux outils fournis par Google et autres.",
-        "published_at": "2026-09-09T19:53:55",
-        "score": 37
-      },
-      {
-        "guid": "43b803e6528e3a70",
-        "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-        "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+        "guid": "2c2e69ace49e6421",
+        "title": "New Android malware encrypts files, steals data, and harasses victims",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
-          "malware"
+          "malware",
+          "ransomware"
         ],
-        "summary": "La société AdaptHealth a confirmé l'exposition des données de 4,1 millions de personnes dans un incident de July causé par le groupe ShinyHunters.",
-        "published_at": "2026-09-09T17:30:36",
+        "summary": "Une nouvelle malveillance Android nommée Mantax Otax combine des capacités de rançon et de spyware, en chiffrant les fichiers, volant des données sensibles et harcelant les victimes.",
+        "published_at": "2026-09-10T17:40:43",
         "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "f56ed89036827205",
-        "title": "🏴‍☠️ Anubis has just published a new victim : Gellibrand Support Services",
-        "url": "https://www.ransomware.live/id/R2VsbGlicmFuZCBTdXBwb3J0IFNlcnZpY2VzQGFudWJpcw==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "2aaabeee7bfda2ee",
+        "title": "Multiple crypto companies warn customers of phishing emails after alleged provider breach",
+        "url": "https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Des sociétés de cryptomonnaie, dont Trezor, CoinTracking et BitBox, ont averti leurs abonnés suite à une fuite d’informations chez leur fournisseur d’e-mails, entraînant la réception de messages corrompus.",
+        "published_at": "2026-09-10T04:00:00",
+        "score": 45,
+        "rank": 1
+      },
+      {
+        "guid": "866de325bc833a81",
+        "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+        "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Anubis a dévoilé une nouvelle victime : Gellibrand Support Services, dans un incident de fuite de données impliquant des patients riant.",
-        "published_at": "2026-09-09T04:54:18",
-        "score": 20,
-        "rank": 1
-      },
-      {
-        "guid": "226bb37d7e1eb9d6",
-        "title": "US disrupts Xinbi Guarantee marketplace fueling the cyber scam economy",
-        "url": "https://therecord.media/us-disrupts-xinbi-guarantee-marketplace-cybercrime",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [],
-        "summary": "Le gouvernement américain a mis en place une opération pour interrompre la plateforme Xinbi Guarantee, liée à des escroqueries numériques, et saisi 52,8 millions de dollars.",
-        "published_at": "2026-09-09T19:54:00",
-        "score": 15,
+        "summary": "IDScan a confirmé un breach après que des hackers ont proposé 153 millions de scans de permis de conduire pour vente, sans préciser la taille exacte de l’incident.",
+        "published_at": "2026-09-10T18:55:00",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "da43f3e9d1ecea9a",
-        "title": "Grindr settles privacy lawsuit tied to disclosure of users’ HIV statuses for $35 million",
-        "url": "https://therecord.media/grindr-settles-privacy-lawsuit-hiv-status-35-million",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "c53c06ec2ae9eafb",
+        "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+        "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Grindr a versé 35 millions de dollars pour clore une action en justice engagée par des utilisateurs britanniques concernant la divulgation de leurs statuses d'HIV.",
-        "published_at": "2026-09-09T18:11:00",
-        "score": 15,
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un acteur cybersuspect russe utilise des agents d’intelligence artificielle pour exploiter une vulnérabilité récemment divulguée dans PaperCut NG/MF, compromise 440+ instances.",
+        "published_at": "2026-09-10T17:11:53",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 63,
-    "items_selected": 15,
+    "items_analyzed": 61,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 5,
+    "cves_total": 9,
     "llm_provider": "ollama",
-    "llm_rejected": 3,
+    "llm_rejected": 0,
     "argos_version": "2.0.0"
   }
 }
