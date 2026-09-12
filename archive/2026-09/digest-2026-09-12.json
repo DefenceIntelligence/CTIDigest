@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T02:01:07.286522+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "3fd51c6c89929227",
+        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+        "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85706"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "GitLab a publié des correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706) qui permettait l'accès illégal aux fichiers sur le serveur.",
+        "published_at": "2026-09-11T22:00:18",
+        "score": 20
+      },
+      {
+        "guid": "8ea859bc902129e1",
+        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+        "url": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20079"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Cisco a révélé des vulnérabilités dans FMC exploitées par des menaces ransomware et étatiques, avec un CVSS de 10.0.",
+        "published_at": "2026-09-11T11:49:59",
+        "score": 20
+      },
+      {
+        "guid": "ccd6207dbce86aa8",
+        "title": "GitLab urges users to patch max severity path traversal flaw",
+        "url": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85706"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "GitLab recommande aux utilisateurs d'appliquer immédiatement les correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706).",
+        "published_at": "2026-09-11T07:15:22",
+        "score": 20
+      },
+      {
+        "guid": "3f74640126b5a48a",
+        "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
+        "url": "https://isc.sans.edu/diary/rss/33332",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un agent semi-autonome a été utilisé pour exploiter des points faibles dans des APIs d'apprentissage automatique.",
+        "published_at": "2026-09-11T14:40:32",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "16c1ea44ac9b386b",
+        "title": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
+        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des squids pourrissent sur une embarcation en Californie, créant un défi pour les équipes de sauvetage.",
+        "published_at": "2026-09-11T21:03:27",
+        "score": 17
+      },
+      {
+        "guid": "1025a9f515e2fc11",
+        "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+        "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware"
+        ],
+        "summary": "Les GTGs ont utilisé Claude pour développer des workflows AI pour éviter la détection par les antivirus.",
+        "published_at": "2026-09-11T19:59:47",
+        "score": 17
+      },
+      {
+        "guid": "4e316560cc12913e",
+        "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+        "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Anthropic a signalé une campagne de hackers russes utilisant Claude pour rétablir du malware après sa détection.",
+        "published_at": "2026-09-11T19:40:20",
+        "score": 17
+      },
+      {
+        "guid": "11d9aeee149d9c34",
+        "title": "Microsoft sees some new wrinkles in invoice-scam emails",
+        "url": "https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Microsoft observe de nouvelles subtilités dans les emails trompeurs d'invoqueuses.",
+        "published_at": "2026-09-11T18:40:00",
+        "score": 15
+      },
+      {
+        "guid": "965ebb26ede516ca",
+        "title": "🏴‍☠️ Nightspire has just published a new victim : DiamondLease",
+        "url": "https://www.ransomware.live/id/RGlhbW9uZExlYXNlQG5pZ2h0c3BpcmU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-09-11T17:00:08",
+        "score": 12
+      },
+      {
+        "guid": "dd3eadc6aa770ccf",
+        "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Plusieurs groupes de cybercriminels ont essayé d'abuser de Claude pour voler des informations sur 1,8 million d'applications Android.",
+        "published_at": "2026-09-11T16:19:09",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "768fa1964b3efabe",
+        "title": "Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device",
+        "url": "https://therecord.media/florida-shiny-hunters-motor-vehicle",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le Florida Department of Motor Vehicles a confirmé que la fuite de données est liée au vol des informations d'identification d'un agent de police personnel.",
+        "published_at": "2026-09-11T20:00:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d8d13a780342dfbb",
+        "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
+        "url": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Trezor a signalé des attaques de phishing visant 347 000 utilisateurs, affectant 2 500 qui ont cliqué sur un lien malveillant.",
+        "published_at": "2026-09-11T03:55:15",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "85a95853afcfa77c",
+        "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+        "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Les équipes de sécurité doivent prioritiser l'identification des vulnérabilités qui créent réellement un risque de compromission plutôt que simplement les détecter.",
+        "published_at": "2026-09-11T17:00:00",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 38,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
