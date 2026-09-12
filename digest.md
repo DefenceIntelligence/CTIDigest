@@ -1,101 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 11 septembre 2026
+# 🛡️ ARGOS CTI Digest — 12 septembre 2026
 
-> Généré le 11/09/2026 à 02:01 UTC  ·  61 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 12/09/2026 à 02:01 UTC  ·  38 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [AVEVA Pipeline Integrity Monitor](https://www.cisa.gov/news-events/ics-advisories/icsa-26-253-01)
-**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-81824`, `CVE-2026-81822`, `CVE-2026-81823`, `CVE-2026-81821`
-`cve` `malware` `vulnerability`
-Des vulnérabilités dans AVEVA Pipeline Integrity Monitor pourraient permettre à un attaquante de divulguer des informations, d'effectuer une force brute sur des hachages ou exécuter du code arbitraire dans une session navigateur.
-
----
-
-### [NextGen Healthcare Mirth Connect](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-01)
-**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-82583`, `CVE-2026-82578`, `CVE-2026-78224`
-`cve` `malware` `vulnerability`
-Des vulnérabilités chez NextGen Healthcare Mirth Connect pourraient permettre à un attaquante de voler des données ou provoquer une condition d'arrêt du service.
-
----
-
-### [Orthanc DICOM Server](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-253-02)
-**Source :** CISA Advisories  **Publié :** 10/09/2026 12:00 UTC  **CVE :** `CVE-2026-87020`
+### [GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure](https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html)
+**Source :** The Hacker News  **Publié :** 11/09/2026 22:00 UTC  **CVE :** `CVE-2026-85706`
 `cve` `vulnerability`
-Une vulnérabilité chez Orthanc DICOM Server pourrait permettre à un attaquante authentifiée de créer une erreur de segmentation en exploitant des images PNG ou JPEG, entraînant l'arrêt du processus Orthanc.
+GitLab a publié des correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706) qui permettait l'accès illégal aux fichiers sur le serveur.
 
 ---
 
-### [CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline](https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html)
-**Source :** The Hacker News  **Publié :** 10/09/2026 16:06 UTC  **CVE :** `CVE-2026-20079`
+### [Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware](https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html)
+**Source :** The Hacker News  **Publié :** 11/09/2026 11:49 UTC  **CVE :** `CVE-2026-20079`
+`cve` `ransomware` `vulnerability`
+Cisco a révélé des vulnérabilités dans FMC exploitées par des menaces ransomware et étatiques, avec un CVSS de 10.0.
+
+---
+
+### [GitLab urges users to patch max severity path traversal flaw](https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/)
+**Source :** Bleeping Computer  **Publié :** 11/09/2026 07:15 UTC  **CVE :** `CVE-2026-85706`
 `cve` `vulnerability`
-Le CISA a ajouté trois vulnérabilités aux Flaws KEV, impactant Cisco, Citrix et Fortinet, avec une date limite de mise à jour du 12 septembre 2026.
+GitLab recommande aux utilisateurs d'appliquer immédiatement les correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706).
+
+---
+
+### [The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)](https://isc.sans.edu/diary/rss/33332)
+**Source :** SANS ISC  **Publié :** 11/09/2026 14:40 UTC
+`breach` `malware` `vulnerability`
+Un agent semi-autonome a été utilisé pour exploiter des points faibles dans des APIs d'apprentissage automatique.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : i2k2 Networks](https://www.ransomware.live/id/aTJrMiBOZXR3b3Jrc0BWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 10/09/2026 21:27 UTC
-`ransomware`
-Vexy ransomware a enlevé i2k2 Networks, un fournisseur indien de solutions IT, parmi ses victimes.
+### [Friday Squid Blogging: Rotting Squid on a Beached California Boat](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html)
+**Source :** Schneier on Security  **Publié :** 11/09/2026 21:03 UTC
+`malware`
+Des squids pourrissent sur une embarcation en Californie, créant un défi pour les équipes de sauvetage.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : alphaomega-eng.com](https://www.ransomware.live/id/YWxwaGFvbWVnYS1lbmcuY29tQGxvY2tiaXQ1)
-**Source :** Ransomware.live News  **Publié :** 10/09/2026 19:00 UTC
-`ransomware`
-Lockbit5 a enlevé alphaomega-eng.com, une entreprise d'ingénierie israélienne fondée en 1993, parmi ses victimes.
+### [Claude Used to Automate Exploitation and Data Theft Across Multiple Victims](https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html)
+**Source :** The Hacker News  **Publié :** 11/09/2026 19:59 UTC
+`apt` `cve` `malware`
+Les GTGs ont utilisé Claude pour développer des workflows AI pour éviter la détection par les antivirus.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : General Santos Doctors Hospital](https://www.ransomware.live/id/R2VuZXJhbCBTYW50b3MgRG9jdG9ycyBIb3NwaXRhbEByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 10/09/2026 18:30 UTC
-`malware` `ransomware`
-Rhysida a enlevé l'hôpital General Santos Doctors Hospital, qui contient de nombreuses données sensibles sur patients et professionnels, parmi ses victimes.
+### [Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection](https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html)
+**Source :** The Hacker News  **Publié :** 11/09/2026 19:40 UTC
+`apt` `malware`
+Anthropic a signalé une campagne de hackers russes utilisant Claude pour rétablir du malware après sa détection.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Professional Retail Services](https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIFJldGFpbCBTZXJ2aWNlc0ByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 10/09/2026 18:29 UTC
-`malware` `ransomware`
-Rhysida a enlevé Professional Retail Services, une entreprise retail israélienne, parmi ses victimes.
+### [Microsoft sees some new wrinkles in invoice-scam emails](https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers)
+**Source :** The Record  **Publié :** 11/09/2026 18:40 UTC
+`apt`
+Microsoft observe de nouvelles subtilités dans les emails trompeurs d'invoqueuses.
 
 ---
 
-### [We've got one word for it, and it's usually the wrong one](https://blog.talosintelligence.com/weve-got-one-word-for-it-and-its-usually-the-wrong-one/)
-**Source :** Cisco Talos  **Publié :** 10/09/2026 18:00 UTC
-`apt` `cve`
-Cette semaine dans le Threat Source, Joe explique pourquoi l'utilisation du terme "burnout" pour décrire les problèmes de la cybersecurity peut être insuffisante.
+### [🏴‍☠️ Nightspire has just published a new victim : DiamondLease](https://www.ransomware.live/id/RGlhbW9uZExlYXNlQG5pZ2h0c3BpcmU=)
+**Source :** Ransomware.live News  **Publié :** 11/09/2026 17:00 UTC
+`malware`
+N/A
 
 ---
 
-### [New Android malware encrypts files, steals data, and harasses victims](https://www.bleepingcomputer.com/news/security/new-android-malware-encrypts-files-steals-data-and-harasses-victims/)
-**Source :** Bleeping Computer  **Publié :** 10/09/2026 17:40 UTC
-`malware` `ransomware`
-Une nouvelle malveillance Android nommée Mantax Otax combine des capacités de rançon et de spyware, en chiffrant les fichiers, volant des données sensibles et harcelant les victimes.
+### [Hackers abused Claude to extract secrets from 1.8M Android apps](https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/)
+**Source :** Bleeping Computer  **Publié :** 11/09/2026 16:19 UTC
+`apt`
+Plusieurs groupes de cybercriminels ont essayé d'abuser de Claude pour voler des informations sur 1,8 million d'applications Android.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Multiple crypto companies warn customers of phishing emails after alleged provider breach](https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders)
-**Source :** The Record  **Publié :** 10/09/2026 04:00 UTC  **Score :** 45
-`breach` `phishing`
-Des sociétés de cryptomonnaie, dont Trezor, CoinTracking et BitBox, ont averti leurs abonnés suite à une fuite d’informations chez leur fournisseur d’e-mails, entraînant la réception de messages corrompus.
-
-### 2. [IDScan confirms breach after hackers offer 153 million driver’s license scans for sale](https://therecord.media/idscan-data-breach-notice-drivers-licenses)
-**Source :** The Record  **Publié :** 10/09/2026 18:55 UTC  **Score :** 35
+### 1. [Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device](https://therecord.media/florida-shiny-hunters-motor-vehicle)
+**Source :** The Record  **Publié :** 11/09/2026 20:00 UTC  **Score :** 35
 `breach`
-IDScan a confirmé un breach après que des hackers ont proposé 153 millions de scans de permis de conduire pour vente, sans préciser la taille exacte de l’incident.
+Le Florida Department of Motor Vehicles a confirmé que la fuite de données est liée au vol des informations d'identification d'un agent de police personnel.
 
-### 3. [PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances](https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html)
-**Source :** The Hacker News  **Publié :** 10/09/2026 17:11 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Un acteur cybersuspect russe utilise des agents d’intelligence artificielle pour exploiter une vulnérabilité récemment divulguée dans PaperCut NG/MF, compromise 440+ instances.
+### 2. [Trezor: 347,000 users targeted in phishing attacks after Brevo breach](https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/)
+**Source :** Bleeping Computer  **Publié :** 11/09/2026 03:55 UTC  **Score :** 35
+`breach` `phishing`
+Trezor a signalé des attaques de phishing visant 347 000 utilisateurs, affectant 2 500 qui ont cliqué sur un lien malveillant.
+
+### 3. [Your Critical Vulnerabilities Might Not Be Your Biggest Risk](https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html)
+**Source :** The Hacker News  **Publié :** 11/09/2026 17:00 UTC  **Score :** 25
+`breach` `vulnerability`
+Les équipes de sécurité doivent prioritiser l'identification des vulnérabilités qui créent réellement un risque de compromission plutôt que simplement les détecter.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-11.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-12.md`*
