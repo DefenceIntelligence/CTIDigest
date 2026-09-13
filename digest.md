@@ -1,101 +1,84 @@
-# 🛡️ ARGOS CTI Digest — 12 septembre 2026
+# 🛡️ ARGOS CTI Digest — 13 septembre 2026
 
-> Généré le 12/09/2026 à 02:01 UTC  ·  38 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 13/09/2026 à 02:00 UTC  ·  26 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure](https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html)
-**Source :** The Hacker News  **Publié :** 11/09/2026 22:00 UTC  **CVE :** `CVE-2026-85706`
+### [Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent](https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/)
+**Source :** Bleeping Computer  **Publié :** 12/09/2026 10:14 UTC  **CVE :** `CVE-2026-85103`, `CVE-2026-85102`
 `cve` `vulnerability`
-GitLab a publié des correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706) qui permettait l'accès illégal aux fichiers sur le serveur.
+Le NCSC des Pays-Bas avertit sur la prochaine exploitation de deux failles critiques dans le logiciel Check Point VPN.
 
 ---
 
-### [Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware](https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html)
-**Source :** The Hacker News  **Publié :** 11/09/2026 11:49 UTC  **CVE :** `CVE-2026-20079`
-`cve` `ransomware` `vulnerability`
-Cisco a révélé des vulnérabilités dans FMC exploitées par des menaces ransomware et étatiques, avec un CVSS de 10.0.
-
----
-
-### [GitLab urges users to patch max severity path traversal flaw](https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/)
-**Source :** Bleeping Computer  **Publié :** 11/09/2026 07:15 UTC  **CVE :** `CVE-2026-85706`
+### [CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
+**Source :** The Hacker News  **Publié :** 12/09/2026 21:24 UTC  **CVE :** `CVE-2026-42016`
 `cve` `vulnerability`
-GitLab recommande aux utilisateurs d'appliquer immédiatement les correctifs pour une vulnérabilité de gravité maximale (CVE-2026-85706).
-
----
-
-### [The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)](https://isc.sans.edu/diary/rss/33332)
-**Source :** SANS ISC  **Publié :** 11/09/2026 14:40 UTC
-`breach` `malware` `vulnerability`
-Un agent semi-autonome a été utilisé pour exploiter des points faibles dans des APIs d'apprentissage automatique.
+Le CISA a ajouté cinq vulnérabilités exploitées activement à sa liste de CVE, concernant JFrog Artifactory, ConnectWise ScreenConnect et MikroTik RouterOS.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Friday Squid Blogging: Rotting Squid on a Beached California Boat](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html)
-**Source :** Schneier on Security  **Publié :** 11/09/2026 21:03 UTC
+### [When the Whole Company Adopts AI: What It Does to Your SOC](https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html)
+**Source :** The Hacker News  **Publié :** 12/09/2026 15:54 UTC
 `malware`
-Des squids pourrissent sur une embarcation en Californie, créant un défi pour les équipes de sauvetage.
+Les systèmes de sécurité opérationnels des entreprises voient s'augmenter les alertes générées par l'IA, plutôt que celles liées aux attaques directes contre elle.
 
 ---
 
-### [Claude Used to Automate Exploitation and Data Theft Across Multiple Victims](https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html)
-**Source :** The Hacker News  **Publié :** 11/09/2026 19:59 UTC
-`apt` `cve` `malware`
-Les GTGs ont utilisé Claude pour développer des workflows AI pour éviter la détection par les antivirus.
+### [🏴‍☠️ Emperador has just published a new victim : Nexbex Solutions Private Limited](https://www.ransomware.live/id/TmV4YmV4IFNvbHV0aW9ucyBQcml2YXRlIExpbWl0ZWRAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 13:51 UTC
+`cve` `malware`
+Emperador a ciblé la société Nexbex Solutions Private Limited en Inde, une entreprise de consultation en technologies et d'ingénierie logicielle.
 
 ---
 
-### [Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection](https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html)
-**Source :** The Hacker News  **Publié :** 11/09/2026 19:40 UTC
-`apt` `malware`
-Anthropic a signalé une campagne de hackers russes utilisant Claude pour rétablir du malware après sa détection.
+### [🏴‍☠️ Rhysida has just published a new victim : Axdia International](https://www.ransomware.live/id/QXhkaWEgSW50ZXJuYXRpb25hbEByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 13:10 UTC
+`ransomware`
+Rhysida a ciblé la société Axdia International, un fabricant allemand d'électronique moderne et de mobilité électrique.
 
 ---
 
-### [Microsoft sees some new wrinkles in invoice-scam emails](https://therecord.media/invoice-scam-emails-new-features-microsoft-researchers)
-**Source :** The Record  **Publié :** 11/09/2026 18:40 UTC
-`apt`
-Microsoft observe de nouvelles subtilités dans les emails trompeurs d'invoqueuses.
-
----
-
-### [🏴‍☠️ Nightspire has just published a new victim : DiamondLease](https://www.ransomware.live/id/RGlhbW9uZExlYXNlQG5pZ2h0c3BpcmU=)
-**Source :** Ransomware.live News  **Publié :** 11/09/2026 17:00 UTC
+### [🏴‍☠️ Krybit has just published a new victim : www.metalware.ca](https://www.ransomware.live/id/d3d3Lm1ldGFsd2FyZS5jYUBrcnliaXQ=)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:28 UTC
 `malware`
-N/A
+Krybit a attaqué Metalware Corporation Inc., une entreprise canadienne de fabrication de meubles industriels.
 
 ---
 
-### [Hackers abused Claude to extract secrets from 1.8M Android apps](https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/)
-**Source :** Bleeping Computer  **Publié :** 11/09/2026 16:19 UTC
-`apt`
-Plusieurs groupes de cybercriminels ont essayé d'abuser de Claude pour voler des informations sur 1,8 million d'applications Android.
+### [🏴‍☠️ Krybit has just published a new victim : meridian16.hr](https://www.ransomware.live/id/bWVyaWRpYW4xNi5ockBrcnliaXQ=)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:27 UTC
+`malware`
+Krybit a visé Meridian 16 Business Park d.o.o., un développeur et opérateur croate de zones industrielles écologiques.
+
+---
+
+### [🏴‍☠️ Krybit has just published a new victim : www.eac-airports.com](https://www.ransomware.live/id/d3d3LmVhYy1haXJwb3J0cy5jb21Aa3J5Yml0)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:26 UTC
+`malware`
+Krybit a attaqué la compagnie égyptienne Egyptian Airports Company, une société d'État opérant dans l'aéroport.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Florida says motor vehicle data breach tied to credentials stolen from officer’s personal device](https://therecord.media/florida-shiny-hunters-motor-vehicle)
-**Source :** The Record  **Publié :** 11/09/2026 20:00 UTC  **Score :** 35
-`breach`
-Le Florida Department of Motor Vehicles a confirmé que la fuite de données est liée au vol des informations d'identification d'un agent de police personnel.
+### 1. [OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers](https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html)
+**Source :** The Hacker News  **Publié :** 12/09/2026 14:37 UTC  **Score :** 5
+`cve`
+Une campagne malveillante de RubyGems a été attribuée à des agents OpenAI, mettant en lumière une attaque sur le serveur RubyDoc.
 
-### 2. [Trezor: 347,000 users targeted in phishing attacks after Brevo breach](https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/)
-**Source :** Bleeping Computer  **Publié :** 11/09/2026 03:55 UTC  **Score :** 35
-`breach` `phishing`
-Trezor a signalé des attaques de phishing visant 347 000 utilisateurs, affectant 2 500 qui ont cliqué sur un lien malveillant.
+### 2. [🏴‍☠️ Unsafe has just published a new victim : watchops.com](https://www.ransomware.live/id/d2F0Y2hvcHMuY29tQHVuc2FmZQ==)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 12:44 UTC  **Score :** 0
+Unsafe a ciblé watchops.com, une entreprise américaine de services de surveillance et d'opérations en temps réel.
 
-### 3. [Your Critical Vulnerabilities Might Not Be Your Biggest Risk](https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html)
-**Source :** The Hacker News  **Publié :** 11/09/2026 17:00 UTC  **Score :** 25
-`breach` `vulnerability`
-Les équipes de sécurité doivent prioritiser l'identification des vulnérabilités qui créent réellement un risque de compromission plutôt que simplement les détecter.
+### 3. [🏴‍☠️ Auditteam has just published a new victim : TE***PB](https://www.ransomware.live/id/VEUqKipQQkBBdWRpdFRlYW0=)
+**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:50 UTC  **Score :** 0
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-12.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-13.md`*
