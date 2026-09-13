@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T02:00:59.462891+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "dabfdac42dd00da2",
+        "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
+        "url": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85103",
+          "CVE-2026-85102"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le NCSC des Pays-Bas avertit sur la prochaine exploitation de deux failles critiques dans le logiciel Check Point VPN.",
+        "published_at": "2026-09-12T10:14:32",
+        "score": 20
+      },
+      {
+        "guid": "092ff169bef0a160",
+        "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-42016"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté cinq vulnérabilités exploitées activement à sa liste de CVE, concernant JFrog Artifactory, ConnectWise ScreenConnect et MikroTik RouterOS.",
+        "published_at": "2026-09-12T21:24:45",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "fdb94f1a54337a9d",
+        "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les systèmes de sécurité opérationnels des entreprises voient s'augmenter les alertes générées par l'IA, plutôt que celles liées aux attaques directes contre elle.",
+        "published_at": "2026-09-12T15:54:44",
+        "score": 17
+      },
+      {
+        "guid": "9c48e7c8f07cc335",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Nexbex Solutions Private Limited",
+        "url": "https://www.ransomware.live/id/TmV4YmV4IFNvbHV0aW9ucyBQcml2YXRlIExpbWl0ZWRAZW1wZXJhZG9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Emperador a ciblé la société Nexbex Solutions Private Limited en Inde, une entreprise de consultation en technologies et d'ingénierie logicielle.",
+        "published_at": "2026-09-12T13:51:54",
+        "score": 12
+      },
+      {
+        "guid": "183076ea43a00dd6",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Axdia International",
+        "url": "https://www.ransomware.live/id/QXhkaWEgSW50ZXJuYXRpb25hbEByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Rhysida a ciblé la société Axdia International, un fabricant allemand d'électronique moderne et de mobilité électrique.",
+        "published_at": "2026-09-12T13:10:06",
+        "score": 0
+      },
+      {
+        "guid": "9a88aed78bc6cec3",
+        "title": "🏴‍☠️ Krybit has just published a new victim : www.metalware.ca",
+        "url": "https://www.ransomware.live/id/d3d3Lm1ldGFsd2FyZS5jYUBrcnliaXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit a attaqué Metalware Corporation Inc., une entreprise canadienne de fabrication de meubles industriels.",
+        "published_at": "2026-09-12T10:28:44",
+        "score": 12
+      },
+      {
+        "guid": "e606e308c3a6dcbb",
+        "title": "🏴‍☠️ Krybit has just published a new victim : meridian16.hr",
+        "url": "https://www.ransomware.live/id/bWVyaWRpYW4xNi5ockBrcnliaXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit a visé Meridian 16 Business Park d.o.o., un développeur et opérateur croate de zones industrielles écologiques.",
+        "published_at": "2026-09-12T10:27:32",
+        "score": 12
+      },
+      {
+        "guid": "690d31cc95fc135b",
+        "title": "🏴‍☠️ Krybit has just published a new victim : www.eac-airports.com",
+        "url": "https://www.ransomware.live/id/d3d3LmVhYy1haXJwb3J0cy5jb21Aa3J5Yml0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit a attaqué la compagnie égyptienne Egyptian Airports Company, une société d'État opérant dans l'aéroport.",
+        "published_at": "2026-09-12T10:26:55",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "895b155a38c0d69e",
+        "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Une campagne malveillante de RubyGems a été attribuée à des agents OpenAI, mettant en lumière une attaque sur le serveur RubyDoc.",
+        "published_at": "2026-09-12T14:37:56",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "b5d1d6d2ffc7c3e5",
+        "title": "🏴‍☠️ Unsafe has just published a new victim : watchops.com",
+        "url": "https://www.ransomware.live/id/d2F0Y2hvcHMuY29tQHVuc2FmZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Unsafe a ciblé watchops.com, une entreprise américaine de services de surveillance et d'opérations en temps réel.",
+        "published_at": "2026-09-12T12:44:48",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "5cedc09ca92275f9",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : TE***PB",
+        "url": "https://www.ransomware.live/id/VEUqKipQQkBBdWRpdFRlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "",
+        "published_at": "2026-09-12T10:50:20",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 26,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 1,
+    "argos_version": "2.0.0"
+  }
+}
