@@ -1,84 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 13 septembre 2026
+# 🛡️ ARGOS CTI Digest — 14 septembre 2026
 
-> Généré le 13/09/2026 à 02:00 UTC  ·  26 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 14/09/2026 à 02:00 UTC  ·  14 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent](https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/)
-**Source :** Bleeping Computer  **Publié :** 12/09/2026 10:14 UTC  **CVE :** `CVE-2026-85103`, `CVE-2026-85102`
-`cve` `vulnerability`
-Le NCSC des Pays-Bas avertit sur la prochaine exploitation de deux failles critiques dans le logiciel Check Point VPN.
-
----
-
-### [CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV](https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html)
-**Source :** The Hacker News  **Publié :** 12/09/2026 21:24 UTC  **CVE :** `CVE-2026-42016`
-`cve` `vulnerability`
-Le CISA a ajouté cinq vulnérabilités exploitées activement à sa liste de CVE, concernant JFrog Artifactory, ConnectWise ScreenConnect et MikroTik RouterOS.
+### [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/)
+**Source :** Bleeping Computer  **Publié :** 13/09/2026 10:26 UTC  **CVE :** `CVE-2026-51990`
+`apt` `cve` `malware` `vulnerability`
+Des acteurs liés à un groupe espionnage chinois exploitent une vulnérabilité critique dans l'application Sogou Input Method pour Windows de Tencent pour déployer GrayRabbit.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [When the Whole Company Adopts AI: What It Does to Your SOC](https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html)
-**Source :** The Hacker News  **Publié :** 12/09/2026 15:54 UTC
-`malware`
-Les systèmes de sécurité opérationnels des entreprises voient s'augmenter les alertes générées par l'IA, plutôt que celles liées aux attaques directes contre elle.
-
----
-
-### [🏴‍☠️ Emperador has just published a new victim : Nexbex Solutions Private Limited](https://www.ransomware.live/id/TmV4YmV4IFNvbHV0aW9ucyBQcml2YXRlIExpbWl0ZWRAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 13:51 UTC
+### [🏴‍☠️ Panzer has just published a new victim : Cerámicas Kantu](https://www.ransomware.live/id/Q2Vyw6FtaWNhcyBLYW50dUBQYW56ZXI=)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 23:23 UTC
 `cve` `malware`
-Emperador a ciblé la société Nexbex Solutions Private Limited en Inde, une entreprise de consultation en technologies et d'ingénierie logicielle.
+Cerámicas Kantu S.A.C. is a Peruvian company specializing in the manufacturing of decorative tiles and accessories made from ceramic, porcelain, and glass. With over 40 years of experience in the ceramic industry and more than 15 years in producing construction finishes, they offer high-quality prod
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Axdia International](https://www.ransomware.live/id/QXhkaWEgSW50ZXJuYXRpb25hbEByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 13:10 UTC
-`ransomware`
-Rhysida a ciblé la société Axdia International, un fabricant allemand d'électronique moderne et de mobilité électrique.
+### [Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data](https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html)
+**Source :** The Hacker News  **Publié :** 13/09/2026 15:41 UTC
+`apt` `breach` `malware` `phishing`
+Des attaquants utilisent un phishing avec des passkeys pour pirater des comptes Microsoft et voler des données cloud.
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : www.metalware.ca](https://www.ransomware.live/id/d3d3Lm1ldGFsd2FyZS5jYUBrcnliaXQ=)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:28 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Navitrans](https://www.ransomware.live/id/TmF2aXRyYW5zQGVtcGVyYWRvcg==)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 13:51 UTC
 `malware`
-Krybit a attaqué Metalware Corporation Inc., une entreprise canadienne de fabrication de meubles industriels.
+Navitrans is a leading Colombian distributor and service provider specializing in commercial trucks and heavy machinery, offering a comprehensive range of products and services including vehicle sales, spare parts distribution, and maintenance and repair services through a nationwide network of work
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : meridian16.hr](https://www.ransomware.live/id/bWVyaWRpYW4xNi5ockBrcnliaXQ=)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:27 UTC
+### [🏴‍☠️ Auditteam has just published a new victim : Paid Victim F9CF4B639CAC1B18](https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRjlDRjRCNjM5Q0FDMUIxOEBBdWRpdFRlYW0=)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:51 UTC
 `malware`
-Krybit a visé Meridian 16 Business Park d.o.o., un développeur et opérateur croate de zones industrielles écologiques.
+[AI generated] N/A
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : www.eac-airports.com](https://www.ransomware.live/id/d3d3LmVhYy1haXJwb3J0cy5jb21Aa3J5Yml0)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:26 UTC
+### [🏴‍☠️ Auditteam has just published a new victim : Paid Victim FDC699DE3A112669](https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRkRDNjk5REUzQTExMjY2OUBBdWRpdFRlYW0=)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:51 UTC
 `malware`
-Krybit a attaqué la compagnie égyptienne Egyptian Airports Company, une société d'État opérant dans l'aéroport.
+[AI generated] N/A
+
+---
+
+### [🏴‍☠️ Barracuda has just published a new victim : i2i-systems](https://www.ransomware.live/id/aTJpLXN5c3RlbXNAQmFycmFjdWRh)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:20 UTC
+`breach` `cve` `malware`
+L'entreprise i2i-systems a été victime d'une attaque due à une mauvaise configuration de sécurité, avec l'exfiltration de 693 Go de données.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers](https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html)
-**Source :** The Hacker News  **Publié :** 12/09/2026 14:37 UTC  **Score :** 5
-`cve`
-Une campagne malveillante de RubyGems a été attribuée à des agents OpenAI, mettant en lumière une attaque sur le serveur RubyDoc.
+### 1. [Chess.com (2026) - 4,653,212 breached accounts](https://haveibeenpwned.com/Breach/Chess2026)
+**Source :** Have I Been Pwned  **Publié :** 13/09/2026 13:09 UTC  **Score :** 25
+`breach` `cve`
+Plus de 4 millions de comptes Chess.com ont été volés, comprenant des informations d'identification et de contact des utilisateurs.
 
-### 2. [🏴‍☠️ Unsafe has just published a new victim : watchops.com](https://www.ransomware.live/id/d2F0Y2hvcHMuY29tQHVuc2FmZQ==)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 12:44 UTC  **Score :** 0
-Unsafe a ciblé watchops.com, une entreprise américaine de services de surveillance et d'opérations en temps réel.
+### 2. [Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI](https://therecord.media/nsa-reorganization-five-mission-centers)
+**Source :** The Record  **Publié :** 13/09/2026 21:36 UTC  **Score :** 15
+The largest electronic spy agency in the world is reorganizing. And fast.
 
-### 3. [🏴‍☠️ Auditteam has just published a new victim : TE***PB](https://www.ransomware.live/id/VEUqKipQQkBBdWRpdFRlYW0=)
-**Source :** Ransomware.live News  **Publié :** 12/09/2026 10:50 UTC  **Score :** 0
+### 3. [🏴‍☠️ Qilin has just published a new victim : Gilco Scaffolding](https://www.ransomware.live/id/R2lsY28gU2NhZmZvbGRpbmdAcWlsaW4=)
+**Source :** Ransomware.live News  **Publié :** 13/09/2026 16:59 UTC  **Score :** 0
+N/A
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-13.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-14.md`*
