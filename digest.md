@@ -1,78 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 14 septembre 2026
+# 🛡️ ARGOS CTI Digest — 15 septembre 2026
 
-> Généré le 14/09/2026 à 02:00 UTC  ·  14 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 15/09/2026 à 02:00 UTC  ·  52 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hackers exploit Tencent app flaw to deploy GrayRabbit malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/)
-**Source :** Bleeping Computer  **Publié :** 13/09/2026 10:26 UTC  **CVE :** `CVE-2026-51990`
-`apt` `cve` `malware` `vulnerability`
-Des acteurs liés à un groupe espionnage chinois exploitent une vulnérabilité critique dans l'application Sogou Input Method pour Windows de Tencent pour déployer GrayRabbit.
+### [Apple Updates Everything, (Mon, Sep 14th)](https://isc.sans.edu/diary/rss/33336)
+**Source :** SANS ISC  **Publié :** 14/09/2026 18:33 UTC
+`malware` `vulnerability`
+Apple a réparé 261 vulnérabilités dans ses systèmes d'exploitation, un record pour la compagnie.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Panzer has just published a new victim : Cerámicas Kantu](https://www.ransomware.live/id/Q2Vyw6FtaWNhcyBLYW50dUBQYW56ZXI=)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 23:23 UTC
-`cve` `malware`
-Cerámicas Kantu S.A.C. is a Peruvian company specializing in the manufacturing of decorative tiles and accessories made from ceramic, porcelain, and glass. With over 40 years of experience in the ceramic industry and more than 15 years in producing construction finishes, they offer high-quality prod
-
----
-
-### [Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data](https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html)
-**Source :** The Hacker News  **Publié :** 13/09/2026 15:41 UTC
-`apt` `breach` `malware` `phishing`
-Des attaquants utilisent un phishing avec des passkeys pour pirater des comptes Microsoft et voler des données cloud.
-
----
-
-### [🏴‍☠️ Emperador has just published a new victim : Navitrans](https://www.ransomware.live/id/TmF2aXRyYW5zQGVtcGVyYWRvcg==)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 13:51 UTC
+### [3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials](https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html)
+**Source :** The Hacker News  **Publié :** 14/09/2026 23:31 UTC
 `malware`
-Navitrans is a leading Colombian distributor and service provider specializing in commercial trucks and heavy machinery, offering a comprehensive range of products and services including vehicle sales, spare parts distribution, and maintenance and repair services through a nationwide network of work
+Un attaquant s'est infiltré dans le réseau de 3BB en utilisant MeshCentral pour obtenir un accès à distance et voler des informations des abonnés.
 
 ---
 
-### [🏴‍☠️ Auditteam has just published a new victim : Paid Victim F9CF4B639CAC1B18](https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRjlDRjRCNjM5Q0FDMUIxOEBBdWRpdFRlYW0=)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:51 UTC
+### [Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports](https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html)
+**Source :** The Hacker News  **Publié :** 14/09/2026 23:28 UTC
+`malware` `vulnerability`
+Une faille dans Telegram Desktop permettait l'exfiltration de messages via du JavaScript caché dans des fichiers HTML exportés.
+
+---
+
+### [Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries](https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html)
+**Source :** The Hacker News  **Publié :** 14/09/2026 22:26 UTC
+`apt` `breach` `cve` `malware` `vulnerability`
+Red Heron a exploité une vulnérabilité RCE dans Gitea pour compromettre 13 organisations à travers six pays.
+
+---
+
+### [WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution](https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html)
+**Source :** The Hacker News  **Publié :** 14/09/2026 21:30 UTC
+`ransomware`
+WordPress met en place des revues automatiques de plugins avant leur distribution pour détecter les menaces sécuritaires.
+
+---
+
+### [⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits](https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html)
+**Source :** The Hacker News  **Publié :** 14/09/2026 20:10 UTC
+`apt` `cve`
+Des attaquants utilisent l'IA pour accélérer les exploits et automatiser leurs activités malveillantes, alors que d'autres incidents classiques continuent de se produire.
+
+---
+
+### [Members of ‘Black Axe’ cybercriminal group extradited from South Africa](https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa)
+**Source :** The Record  **Publié :** 14/09/2026 19:40 UTC
 `malware`
-[AI generated] N/A
-
----
-
-### [🏴‍☠️ Auditteam has just published a new victim : Paid Victim FDC699DE3A112669](https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRkRDNjk5REUzQTExMjY2OUBBdWRpdFRlYW0=)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:51 UTC
-`malware`
-[AI generated] N/A
-
----
-
-### [🏴‍☠️ Barracuda has just published a new victim : i2i-systems](https://www.ransomware.live/id/aTJpLXN5c3RlbXNAQmFycmFjdWRh)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 09:20 UTC
-`breach` `cve` `malware`
-L'entreprise i2i-systems a été victime d'une attaque due à une mauvaise configuration de sécurité, avec l'exfiltration de 693 Go de données.
+Des membres du groupe cyber criminel Black Axe ont été extradés depuis la South Africa pour des escroqueries romantiques.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Chess.com (2026) - 4,653,212 breached accounts](https://haveibeenpwned.com/Breach/Chess2026)
-**Source :** Have I Been Pwned  **Publié :** 13/09/2026 13:09 UTC  **Score :** 25
-`breach` `cve`
-Plus de 4 millions de comptes Chess.com ont été volés, comprenant des informations d'identification et de contact des utilisateurs.
+### 1. [Webinar: How malicious OAuth apps can lead to Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/)
+**Source :** Bleeping Computer  **Publié :** 14/09/2026 08:15 UTC  **Score :** 35
+`breach` `phishing`
+Les attaquants peuvent combiner l'ingénierie sociale et les applications OAuth malveillantes pour accéder à Google Workspace sans utiliser de mots de passe volés.
 
-### 2. [Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI](https://therecord.media/nsa-reorganization-five-mission-centers)
-**Source :** The Record  **Publié :** 13/09/2026 21:36 UTC  **Score :** 15
-The largest electronic spy agency in the world is reorganizing. And fast.
+### 2. [Japan's Digital Agency says VPN flaw exposed 246,000 personnel records](https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/)
+**Source :** Bleeping Computer  **Publié :** 14/09/2026 16:36 UTC  **Score :** 25
+`breach` `vulnerability`
+Un défaut dans un VPN a exposé 246,000 dossiers personnels des employés du gouvernement japonais.
 
-### 3. [🏴‍☠️ Qilin has just published a new victim : Gilco Scaffolding](https://www.ransomware.live/id/R2lsY28gU2NhZmZvbGRpbmdAcWlsaW4=)
-**Source :** Ransomware.live News  **Publié :** 13/09/2026 16:59 UTC  **Score :** 0
-N/A
+### 3. [🏴‍☠️ Anubis has just published a new victim : Better Accounting Solutions](https://www.ransomware.live/id/QmV0dGVyIEFjY291bnRpbmcgU29sdXRpb25zQGFudWJpcw==)
+**Source :** Ransomware.live News  **Publié :** 14/09/2026 23:24 UTC  **Score :** 20
+`breach`
+Anubis a récemment ciblé Better Accounting Solutions pour une fuite de données chez des comptables de la rue Wall.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-14.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-15.md`*
