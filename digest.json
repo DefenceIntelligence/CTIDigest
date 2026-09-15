@@ -1,173 +1,174 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-14",
-  "generated_at": "2026-09-14T02:00:35.235534+00:00",
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T02:00:57.056675+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "d0f2c3e34fad0b99",
-        "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-51990"
-        ],
+        "guid": "7c13b36b8e8da072",
+        "title": "Apple Updates Everything, (Mon, Sep 14th)",
+        "url": "https://isc.sans.edu/diary/rss/33336",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
         "tags": [
-          "apt",
-          "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Des acteurs liés à un groupe espionnage chinois exploitent une vulnérabilité critique dans l'application Sogou Input Method pour Windows de Tencent pour déployer GrayRabbit.",
-        "published_at": "2026-09-13T10:26:32",
-        "score": 32
+        "summary": "Apple a réparé 261 vulnérabilités dans ses systèmes d'exploitation, un record pour la compagnie.",
+        "published_at": "2026-09-14T18:33:44",
+        "score": 12
       }
     ],
     "campaigns": [
       {
-        "guid": "46e1dbbbad8e652a",
-        "title": "🏴‍☠️ Panzer has just published a new victim : Cerámicas Kantu",
-        "url": "https://www.ransomware.live/id/Q2Vyw6FtaWNhcyBLYW50dUBQYW56ZXI=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "dbaf87e20c4890e8",
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
           "malware"
         ],
-        "summary": "Cerámicas Kantu S.A.C. is a Peruvian company specializing in the manufacturing of decorative tiles and accessories made from ceramic, porcelain, and glass. With over 40 years of experience in the ceramic industry and more than 15 years in producing construction finishes, they offer high-quality products with innovative designs. Their intended clients include distributors and individuals looking to enhance their spaces with unique decorative elements. The company emphasizes customer service and p",
-        "published_at": "2026-09-13T23:23:34",
-        "score": 12
+        "summary": "Un attaquant s'est infiltré dans le réseau de 3BB en utilisant MeshCentral pour obtenir un accès à distance et voler des informations des abonnés.",
+        "published_at": "2026-09-14T23:31:49",
+        "score": 17
       },
       {
-        "guid": "24177de2a0ea8ad6",
-        "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-        "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+        "guid": "016298a035cb017f",
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans Telegram Desktop permettait l'exfiltration de messages via du JavaScript caché dans des fichiers HTML exportés.",
+        "published_at": "2026-09-14T23:28:16",
+        "score": 17
+      },
+      {
+        "guid": "e4aff8b8efc8a4d5",
+        "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+        "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
           "breach",
-          "malware",
-          "phishing"
-        ],
-        "summary": "Des attaquants utilisent un phishing avec des passkeys pour pirater des comptes Microsoft et voler des données cloud.",
-        "published_at": "2026-09-13T15:41:48",
-        "score": 47
-      },
-      {
-        "guid": "a7bec2a42a5fbb15",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Navitrans",
-        "url": "https://www.ransomware.live/id/TmF2aXRyYW5zQGVtcGVyYWRvcg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Navitrans is a leading Colombian distributor and service provider specializing in commercial trucks and heavy machinery, offering a comprehensive range of products and services including vehicle sales, spare parts distribution, and maintenance and repair services through a nationwide network of workshops. This post includes sensitive data about prices, financing, and other operational information. [Size: 223.2 MB | Sector: Manufacturing, Transportation]",
-        "published_at": "2026-09-13T13:51:22",
-        "score": 12
-      },
-      {
-        "guid": "c29a84544c577678",
-        "title": "🏴‍☠️ Auditteam has just published a new victim : Paid Victim F9CF4B639CAC1B18",
-        "url": "https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRjlDRjRCNjM5Q0FDMUIxOEBBdWRpdFRlYW0=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "[AI generated] N/A",
-        "published_at": "2026-09-13T09:51:41",
-        "score": 12
-      },
-      {
-        "guid": "50a2044ce916d948",
-        "title": "🏴‍☠️ Auditteam has just published a new victim : Paid Victim FDC699DE3A112669",
-        "url": "https://www.ransomware.live/id/UGFpZCBWaWN0aW0gRkRDNjk5REUzQTExMjY2OUBBdWRpdFRlYW0=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "[AI generated] N/A",
-        "published_at": "2026-09-13T09:51:07",
-        "score": 12
-      },
-      {
-        "guid": "6706e90309d71f2d",
-        "title": "🏴‍☠️ Barracuda has just published a new victim : i2i-systems",
-        "url": "https://www.ransomware.live/id/aTJpLXN5c3RlbXNAQmFycmFjdWRh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
           "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Red Heron a exploité une vulnérabilité RCE dans Gitea pour compromettre 13 organisations à travers six pays.",
+        "published_at": "2026-09-14T22:26:30",
+        "score": 37
+      },
+      {
+        "guid": "66a05e14d9b25035",
+        "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+        "url": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "WordPress met en place des revues automatiques de plugins avant leur distribution pour détecter les menaces sécuritaires.",
+        "published_at": "2026-09-14T21:30:04",
+        "score": 5
+      },
+      {
+        "guid": "8cec1494fdc03d5c",
+        "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+        "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve"
+        ],
+        "summary": "Des attaquants utilisent l'IA pour accélérer les exploits et automatiser leurs activités malveillantes, alors que d'autres incidents classiques continuent de se produire.",
+        "published_at": "2026-09-14T20:10:34",
+        "score": 5
+      },
+      {
+        "guid": "b9af0a1fe8d40cc1",
+        "title": "Members of ‘Black Axe’ cybercriminal group extradited from South Africa",
+        "url": "https://therecord.media/members-of-black-axe-cybercrime-group-extradited-south-africa",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "L'entreprise i2i-systems a été victime d'une attaque due à une mauvaise configuration de sécurité, avec l'exfiltration de 693 Go de données.",
-        "published_at": "2026-09-13T09:20:21",
-        "score": 32
+        "summary": "Des membres du groupe cyber criminel Black Axe ont été extradés depuis la South Africa pour des escroqueries romantiques.",
+        "published_at": "2026-09-14T19:40:00",
+        "score": 27
       }
     ],
     "top_reads": [
       {
-        "guid": "8133a76bc885525c",
-        "title": "Chess.com (2026) - 4,653,212 breached accounts",
-        "url": "https://haveibeenpwned.com/Breach/Chess2026",
-        "source": "Have I Been Pwned",
+        "guid": "95399f5389807560",
+        "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve"
+          "phishing"
         ],
-        "summary": "Plus de 4 millions de comptes Chess.com ont été volés, comprenant des informations d'identification et de contact des utilisateurs.",
-        "published_at": "2026-09-13T13:09:11",
-        "score": 25,
+        "summary": "Les attaquants peuvent combiner l'ingénierie sociale et les applications OAuth malveillantes pour accéder à Google Workspace sans utiliser de mots de passe volés.",
+        "published_at": "2026-09-14T08:15:23",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "319b15af1a479347",
-        "title": "Thorough reorganization at NSA will create five 'mission centers,' including cyber and AI",
-        "url": "https://therecord.media/nsa-reorganization-five-mission-centers",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "143e62829e1684b6",
+        "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+        "url": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "The largest electronic spy agency in the world is reorganizing. And fast.",
-        "published_at": "2026-09-13T21:36:00",
-        "score": 15,
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Un défaut dans un VPN a exposé 246,000 dossiers personnels des employés du gouvernement japonais.",
+        "published_at": "2026-09-14T16:36:02",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "78d3b7563f9a44b3",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Gilco Scaffolding",
-        "url": "https://www.ransomware.live/id/R2lsY28gU2NhZmZvbGRpbmdAcWlsaW4=",
+        "guid": "8f2d6216339f9284",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Better Accounting Solutions",
+        "url": "https://www.ransomware.live/id/QmV0dGVyIEFjY291bnRpbmcgU29sdXRpb25zQGFudWJpcw==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
-        "tags": [],
-        "summary": "N/A",
-        "published_at": "2026-09-13T16:59:37",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Anubis a récemment ciblé Better Accounting Solutions pour une fuite de données chez des comptables de la rue Wall.",
+        "published_at": "2026-09-14T23:24:09",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 14,
+    "items_analyzed": 52,
     "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
