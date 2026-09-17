@@ -1,128 +1,110 @@
-# 🛡️ ARGOS CTI Digest — 16 septembre 2026
+# 🛡️ ARGOS CTI Digest — 17 septembre 2026
 
-> Généré le 16/09/2026 à 02:01 UTC  ·  97 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 17/09/2026 à 02:01 UTC  ·  61 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Siemens Reyrolle 7SR5](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-05)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-62649`, `CVE-2026-62650`, `CVE-2024-42386`, `CVE-2026-62647`, `CVE-2024-42385`
-`cve` `vulnerability`
-Siemens Reyrolle 7SR5 version inférieure à 2.70 est affectée par plusieurs vulnérabilités. Mises à jour recommandées.
-
----
-
-### [CareCam CM2507](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-08)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-85497`, `CVE-2026-81321`, `CVE-2026-88259`, `CVE-2026-85478`, `CVE-2026-84400`
+### [Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
+**Source :** The Hacker News  **Publié :** 16/09/2026 21:20 UTC  **CVE :** `CVE-2026-89026`
 `cve` `malware` `vulnerability`
-CareCam CM2507 présente des vulnérabilités potentiellement dangereuses pour la sécurité du dispositif.
+Une vulnérabilité critique dans le framework Issabel Framework a été exploitée, permettant l'exécution d'ordres de système d'exploitation non authentifiés.
 
 ---
 
-### [Digital Watchdog VMAX DVR and NVR Product Lineups](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-66890`, `CVE-2026-68950`, `CVE-2026-68953`, `CVE-2026-66887`, `CVE-2026-66372`
-`cve` `malware` `vulnerability`
-Vulnérabilités dans les produits Digital Watchdog VMAX DVR et NVR permettent un accès total au dispositif.
-
----
-
-### [Wärtsilä FOS-Onboard](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-02)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-81855`, `CVE-2026-78225`
+### [Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation](https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html)
+**Source :** The Hacker News  **Publié :** 16/09/2026 16:45 UTC  **CVE :** `CVE-2026-58704`
 `cve` `vulnerability`
-Vulnérabilités dans Wärtsilä FOS-Onboard permettent l'exécution de code non autorisé ou la extraction des informations d'identification.
+Google a corrigé une vulnérabilité de montée en privilèges dans le modem Pixel Cellular, exploité en milieu naturel.
 
 ---
 
-### [mySCADA myPRO Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-82567`, `CVE-2026-73807`
+### [Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks](https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html)
+**Source :** The Hacker News  **Publié :** 16/09/2026 16:38 UTC  **CVE :** `CVE-2026-87886`
 `cve` `vulnerability`
-Vulnérabilités dans mySCADA myPRO Manager permettent un accès aux fonctions de gestion privilégiées ou l'envoi de messages SMS non autorisés.
+Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.
+
+The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file perm
 
 ---
 
-### [Siemens Mendix SAML](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-06)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-80465`
-`cve` `malware` `vulnerability`
-Vulnérabilité dans le module SAML Siemens Mendix peut permettre la hijacking d'un compte non authentifié. Mises à jour recommandées.
-
----
-
-### [Schneider Electric SCADAPack x70 Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04)
-**Source :** CISA Advisories  **Publié :** 15/09/2026 12:00 UTC  **CVE :** `CVE-2026-81861`
-`cve` `malware` `vulnerability`
-Schneider Electric SCADAPack x70 produits contiennent des vulnérabilités potentiellement dangereuses.
-
----
-
-### [Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution](https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html)
-**Source :** The Hacker News  **Publié :** 15/09/2026 11:41 UTC  **CVE :** `CVE-2026-76461`
+### [Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens](https://thehackernews.com/2026/09/active-exploitation-attempts-target.html)
+**Source :** The Hacker News  **Publié :** 16/09/2026 10:48 UTC  **CVE :** `CVE-2026-5430`
 `cve` `vulnerability`
-Une nouvelle vulnérabilité critique dans le Cisco Secure Email Gateway est exploité activement. CVSS 9.8.
+Une vulnérabilité critique dans WSO2 API Manager a été activement exploitée par des attaquants.
+
+---
+
+### [Using Cyber Decoys to Strengthen Detection and Response](https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response)
+**Source :** CISA Advisories  **Publié :** 16/09/2026 12:00 UTC
+`apt` `breach` `cve` `malware` `ransomware`
+CISA propose une guidance pour utiliser des décoy cyber pour renforcer la détection et la réponse aux menaces.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens](https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 00:24 UTC
-`apt` `malware`
-KREMLIN, un malware bancaire brésilien, utilise des extensions de navigateur pour voler des informations d'identification et des jetons de session.
+### [🏴‍☠️ Shadowbyt3$ has just published a new victim : HandyTrac Greystar AZ WARNING](https://www.ransomware.live/id/SGFuZHlUcmFjIEdyZXlzdGFyIEFaIFdBUk5JTkdAU2hhZG93Qnl0MyQ=)
+**Source :** Ransomware.live News  **Publié :** 16/09/2026 21:53 UTC
+`malware` `vulnerability`
+Shadowbyt3$ a publié un nouveau ciblé : HandyTrac Greystar, verrouillant les gestionnaires et le personnel pour des négociations.
 
 ---
 
-### [Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists](https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html)
-**Source :** The Hacker News  **Publié :** 15/09/2026 21:59 UTC
+### [Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers](https://thehackernews.com/2026/09/three-threat-groups-target-russian.html)
+**Source :** The Hacker News  **Publié :** 16/09/2026 20:57 UTC
+`apt` `malware` `ransomware`
+Trois groupes de menaces ciblent des entreprises russes avec des backdoors, rançonwares et effaceurs de données.
+
+---
+
+### [🏴‍☠️ Blacknevas has just published a new victim : Optimum First Mortgage (Pear's acting group's promotional blog)](https://www.ransomware.live/id/T3B0aW11bSBGaXJzdCBNb3J0Z2FnZSAoUGVhcidzIGFjdGluZyBncm91cCdzIHByb21vdGlvbmFsIGJsb2cpQGJsYWNrbmV2YXM=)
+**Source :** Ransomware.live News  **Publié :** 16/09/2026 19:54 UTC
 `malware`
-Hackers iraniens utilisent du malware contrôlé par Telegram pour espionner des dissidents et des journalistes mondialement.
+Blacknevas a publié un nouveau ciblé : Optimum First Mortgage, volant 9.3 TB de données financières et personnelles.
 
 ---
 
-### [BambooToken Malware Uses MQTT to Control Windows and Linux Systems](https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html)
-**Source :** The Hacker News  **Publié :** 15/09/2026 20:53 UTC
+### [🏴‍☠️ Emperador has just published a new victim : SEVENOAKS s.r.o.](https://www.ransomware.live/id/U0VWRU5PQUtTIHMuci5vLkBlbXBlcmFkb3I=)
+**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:54 UTC
 `malware`
-Le malware BambooToken utilise le protocole MQTT pour contrôler des systèmes Windows et Linux depuis février 2023, ciblant des organisations en Asie et en Amérique du Sud.
+Emperador a publié un nouveau ciblé : SEVENOAKS s.r.o., une entreprise tchèque dans l'industrie des services de conception informatique.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Hashimoto Jimuki](https://www.ransomware.live/id/SGFzaGltb3RvIEppbXVraUBWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 15/09/2026 19:58 UTC
-`ransomware`
-Le ransomware Vexy a ciblé l'entreprise japonaise Hashimoto Jimuki, fournissant équipements de bureau et services informatiques.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : neumerkel-gmbh.de](https://www.ransomware.live/id/bmV1bWVya2VsLWdtYmguZGVAc2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 15/09/2026 19:33 UTC
+### [Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’](https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi)
+**Source :** The Record  **Publié :** 16/09/2026 18:46 UTC
 `malware`
-L'entreprise neumerkel-gmbh.de a été victime d'une rançonnière, spécialisée en équipements de bureau et services informatiques depuis 1994.
+Les forces de l'autorité américaines ont inspecté un navire pétrolier après une attaque cyberspace supposée par des acteurs étrangers.
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : ryomo.co.jp](https://www.ransomware.live/id/cnlvbW8uY28uanBAc2FmZXBheQ==)
-**Source :** Ransomware.live News  **Publié :** 15/09/2026 19:30 UTC
+### [🏴‍☠️ Auditteam has just published a new victim : Wise IT](https://www.ransomware.live/id/V2lzZSBJVEBBdWRpdFRlYW0=)
+**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:22 UTC
 `malware`
-L'entreprise ryomo.co.jp a été victime d'une rançonnière, ayant commencé en tant que centre de services informatiques régional en 1970.
+Wise IT, intégrateur systèmes ukrainien basé à Kyiv, offre des services de data center et cybersécurité en partenariat avec Google, Microsoft et VMware.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Electric and gas utility CenterPoint Energy warns of data breach after dark web post](https://therecord.media/centerpoint-energy-data-breach)
-**Source :** The Record  **Publié :** 15/09/2026 14:22 UTC  **Score :** 35
+### 1. [Spain's data agency gets first report of AI-powered data breach](https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/)
+**Source :** Bleeping Computer  **Publié :** 16/09/2026 13:26 UTC  **Score :** 25
 `breach`
-CenterPoint Energy a informé les régulateurs fédéraux d'une fuite de données sur le dark web après une publication illégale.
+L'AEPD a été informée d'une supposée attaque réalisée par un agent AI basé sur un modèle de grande taille (LLM).
 
-### 2. [🏴‍☠️ Interlock has just published a new victim : Springfield Public Schools](https://www.ransomware.live/id/U3ByaW5nZmllbGQgUHVibGljIFNjaG9vbHNAaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 15/09/2026 18:58 UTC  **Score :** 20
+### 2. [Webinar: What happens in the first hours of a Google Workspace breach](https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/)
+**Source :** Bleeping Computer  **Publié :** 16/09/2026 08:11 UTC  **Score :** 25
 `breach`
-Springfield Public Schools, la troisième plus grande district scolaire du Massachusetts, a été victime d'une violente attaque de rançonnière.
+Cette webinaire examine les premières heures après une attaque sur Google Workspace pour montrer comment répondre rapidement peut limiter l'impact.
 
-### 3. [Norway announces investigations into telecom Telenor’s work with Myanmar junta](https://therecord.media/norway-investigations-telenor-telecom-myanmar-regime)
-**Source :** The Record  **Publié :** 15/09/2026 20:01 UTC  **Score :** 15
-Les autorités norvégiennes enquêtent sur les liens potentiels entre Telenor et le junta birman, soupçonnés d'avoir violé des sanctions et commis crimes contre l'humanité.
+### 3. [🏴‍☠️ Auditteam has just published a new victim : dg.ac.kr](https://www.ransomware.live/id/ZGcuYWMua3JAQXVkaXRUZWFt)
+**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:21 UTC  **Score :** 20
+`breach`
+Aucune vulnérabilité ni attaque signalée concernant le site dg.ac.kr.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-16.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-17.md`*
