@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T02:01:12.426962+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "b62d8a6c7dd53cfa",
+        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-89026"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans le framework Issabel Framework a été exploitée, permettant l'exécution d'ordres de système d'exploitation non authentifiés.",
+        "published_at": "2026-09-16T21:20:59",
+        "score": 32
+      },
+      {
+        "guid": "647fc4b770cf4779",
+        "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+        "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-58704"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Google a corrigé une vulnérabilité de montée en privilèges dans le modem Pixel Cellular, exploité en milieu naturel.",
+        "published_at": "2026-09-16T16:45:58",
+        "score": 20
+      },
+      {
+        "guid": "efe91327b0d41c6e",
+        "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+        "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-87886"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions -\n\n\n  Acronis Backup plugin for cPanel &amp; WHM (Linux",
+        "published_at": "2026-09-16T16:38:54",
+        "score": 20
+      },
+      {
+        "guid": "da5b4c4ceed0986f",
+        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+        "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-5430"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans WSO2 API Manager a été activement exploitée par des attaquants.",
+        "published_at": "2026-09-16T10:48:06",
+        "score": 20
+      },
+      {
+        "guid": "a1e17861cf21034f",
+        "title": "Using Cyber Decoys to Strengthen Detection and Response",
+        "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "CISA propose une guidance pour utiliser des décoy cyber pour renforcer la détection et la réponse aux menaces.",
+        "published_at": "2026-09-16T12:00:00",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "41e34e29bea41a8d",
+        "title": "🏴‍☠️ Shadowbyt3$ has just published a new victim : HandyTrac Greystar AZ WARNING",
+        "url": "https://www.ransomware.live/id/SGFuZHlUcmFjIEdyZXlzdGFyIEFaIFdBUk5JTkdAU2hhZG93Qnl0MyQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Shadowbyt3$ a publié un nouveau ciblé : HandyTrac Greystar, verrouillant les gestionnaires et le personnel pour des négociations.",
+        "published_at": "2026-09-16T21:53:11",
+        "score": 12
+      },
+      {
+        "guid": "9b2232b1d185bb77",
+        "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+        "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Trois groupes de menaces ciblent des entreprises russes avec des backdoors, rançonwares et effaceurs de données.",
+        "published_at": "2026-09-16T20:57:49",
+        "score": 17
+      },
+      {
+        "guid": "f483f4b29a290885",
+        "title": "🏴‍☠️ Blacknevas has just published a new victim : Optimum First Mortgage (Pear's acting group's promotional blog)",
+        "url": "https://www.ransomware.live/id/T3B0aW11bSBGaXJzdCBNb3J0Z2FnZSAoUGVhcidzIGFjdGluZyBncm91cCdzIHByb21vdGlvbmFsIGJsb2cpQGJsYWNrbmV2YXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Blacknevas a publié un nouveau ciblé : Optimum First Mortgage, volant 9.3 TB de données financières et personnelles.",
+        "published_at": "2026-09-16T19:54:07",
+        "score": 12
+      },
+      {
+        "guid": "4ef7c4ef838f0915",
+        "title": "🏴‍☠️ Emperador has just published a new victim : SEVENOAKS s.r.o.",
+        "url": "https://www.ransomware.live/id/U0VWRU5PQUtTIHMuci5vLkBlbXBlcmFkb3I=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Emperador a publié un nouveau ciblé : SEVENOAKS s.r.o., une entreprise tchèque dans l'industrie des services de conception informatique.",
+        "published_at": "2026-09-16T18:54:25",
+        "score": 12
+      },
+      {
+        "guid": "b1efd5cd6d2ba8b2",
+        "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+        "url": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les forces de l'autorité américaines ont inspecté un navire pétrolier après une attaque cyberspace supposée par des acteurs étrangers.",
+        "published_at": "2026-09-16T18:46:00",
+        "score": 27
+      },
+      {
+        "guid": "378c4f24d0980885",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : Wise IT",
+        "url": "https://www.ransomware.live/id/V2lzZSBJVEBBdWRpdFRlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Wise IT, intégrateur systèmes ukrainien basé à Kyiv, offre des services de data center et cybersécurité en partenariat avec Google, Microsoft et VMware.",
+        "published_at": "2026-09-16T18:22:34",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "205a5ecfbd3fc178",
+        "title": "Spain's data agency gets first report of AI-powered data breach",
+        "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'AEPD a été informée d'une supposée attaque réalisée par un agent AI basé sur un modèle de grande taille (LLM).",
+        "published_at": "2026-09-16T13:26:41",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "69b5ea7dffaf39ee",
+        "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Cette webinaire examine les premières heures après une attaque sur Google Workspace pour montrer comment répondre rapidement peut limiter l'impact.",
+        "published_at": "2026-09-16T08:11:19",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "43cc4f59059d9018",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : dg.ac.kr",
+        "url": "https://www.ransomware.live/id/ZGcuYWMua3JAQXVkaXRUZWFt",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Aucune vulnérabilité ni attaque signalée concernant le site dg.ac.kr.",
+        "published_at": "2026-09-16T18:21:45",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 61,
+    "items_selected": 14,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "llm_rejected": 1,
+    "argos_version": "2.0.0"
+  }
+}
