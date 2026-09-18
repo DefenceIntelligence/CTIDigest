@@ -1,110 +1,122 @@
-# 🛡️ ARGOS CTI Digest — 17 septembre 2026
+# 🛡️ ARGOS CTI Digest — 18 septembre 2026
 
-> Généré le 17/09/2026 à 02:01 UTC  ·  61 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 18/09/2026 à 02:01 UTC  ·  62 items analysés  ·  16 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution](https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 21:20 UTC  **CVE :** `CVE-2026-89026`
+### [Hitachi Energy FACTS Control Platform (FCP)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03)
+**Source :** CISA Advisories  **Publié :** 17/09/2026 12:00 UTC  **CVE :** `CVE-2024-7941`, `CVE-2024-3980`, `CVE-2024-7940`, `CVE-2024-4872`, `CVE-2024-3982`
+`apt` `cve` `vulnerability`
+Hitachi Energy aidentifie des vulnérabilités affectant ses systèmes FACTS Control avec composant GWS, posant des risques pour la confidentialité, l'intégrité et l'accessibilité du produit.
+
+---
+
+### [Bransys ELD](https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01)
+**Source :** CISA Advisories  **Publié :** 17/09/2026 12:00 UTC  **CVE :** `CVE-2026-86520`, `CVE-2026-86689`, `CVE-2026-77960`
+`cve` `vulnerability`
+Vulnérabilités affectant différentes versions de Bransys ELD pouvant permettre un accès non autorisé aux données et au firmware.
+
+---
+
+### [Schneider Electric NetBotz 5 750/755](https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05)
+**Source :** CISA Advisories  **Publié :** 17/09/2026 12:00 UTC  **CVE :** `CVE-2026-13336`, `CVE-2026-13337`
 `cve` `malware` `vulnerability`
-Une vulnérabilité critique dans le framework Issabel Framework a été exploitée, permettant l'exécution d'ordres de système d'exploitation non authentifiés.
+Schneider Electric informe de vulnérabilités dans ses produits NetBotz 5 – 750/755, menaçant la sécurité et l'environnement des systèmes.
 
 ---
 
-### [Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation](https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 16:45 UTC  **CVE :** `CVE-2026-58704`
+### [Mitsubishi Electric GX Works3 and Motion Control Settings](https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02)
+**Source :** CISA Advisories  **Publié :** 17/09/2026 12:00 UTC  **CVE :** `CVE-2026-15688`
 `cve` `vulnerability`
-Google a corrigé une vulnérabilité de montée en privilèges dans le modem Pixel Cellular, exploité en milieu naturel.
+Vulnérabilité critique dans GX Works3 et paramètres de contrôle de mouvement de Mitsubishi Electric, permettant une authentification abusive localement.
 
 ---
 
-### [Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks](https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 16:38 UTC  **CVE :** `CVE-2026-87886`
+### [Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone](https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html)
+**Source :** The Hacker News  **Publié :** 17/09/2026 18:00 UTC  **CVE :** `CVE-2026-81642`
+`cve` `patch` `vulnerability`
+Vulnérabilité critique dans l'validateur DNSSEC d'Unbound, permettant une exécution de code à distance par un attaquant contrôlant un zone malveillante.
+
+---
+
+### [Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks](https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html)
+**Source :** The Hacker News  **Publié :** 17/09/2026 12:09 UTC  **CVE :** `CVE-2026-76460`
 `cve` `vulnerability`
-Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild.
-
-The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file perm
+Cisco alerte sur une vulnérabilité Zéro-Jour dans ISE Auth, exploitée activement par des attaquants non authentifiés.
 
 ---
 
-### [Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens](https://thehackernews.com/2026/09/active-exploitation-attempts-target.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 10:48 UTC  **CVE :** `CVE-2026-5430`
+### [Schneider Electric Modicon M340 Controller and Communication Modules](https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04)
+**Source :** CISA Advisories  **Publié :** 17/09/2026 12:00 UTC
 `cve` `vulnerability`
-Une vulnérabilité critique dans WSO2 API Manager a été activement exploitée par des attaquants.
-
----
-
-### [Using Cyber Decoys to Strengthen Detection and Response](https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response)
-**Source :** CISA Advisories  **Publié :** 16/09/2026 12:00 UTC
-`apt` `breach` `cve` `malware` `ransomware`
-CISA propose une guidance pour utiliser des décoy cyber pour renforcer la détection et la réponse aux menaces.
+Vulnérabilité identifiée chez Schneider Electric concernant le contrôleur Modicon M340 et les modules de communication.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Shadowbyt3$ has just published a new victim : HandyTrac Greystar AZ WARNING](https://www.ransomware.live/id/SGFuZHlUcmFjIEdyZXlzdGFyIEFaIFdBUk5JTkdAU2hhZG93Qnl0MyQ=)
-**Source :** Ransomware.live News  **Publié :** 16/09/2026 21:53 UTC
-`malware` `vulnerability`
-Shadowbyt3$ a publié un nouveau ciblé : HandyTrac Greystar, verrouillant les gestionnaires et le personnel pour des négociations.
-
----
-
-### [Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers](https://thehackernews.com/2026/09/three-threat-groups-target-russian.html)
-**Source :** The Hacker News  **Publié :** 16/09/2026 20:57 UTC
-`apt` `malware` `ransomware`
-Trois groupes de menaces ciblent des entreprises russes avec des backdoors, rançonwares et effaceurs de données.
-
----
-
-### [🏴‍☠️ Blacknevas has just published a new victim : Optimum First Mortgage (Pear's acting group's promotional blog)](https://www.ransomware.live/id/T3B0aW11bSBGaXJzdCBNb3J0Z2FnZSAoUGVhcidzIGFjdGluZyBncm91cCdzIHByb21vdGlvbmFsIGJsb2cpQGJsYWNrbmV2YXM=)
-**Source :** Ransomware.live News  **Publié :** 16/09/2026 19:54 UTC
+### [🏴‍☠️ Krybit has just published a new victim : www.harputyapi.com](https://www.ransomware.live/id/d3d3LmhhcnB1dHlhcGkuY29tQGtyeWJpdA==)
+**Source :** Ransomware.live News  **Publié :** 17/09/2026 22:31 UTC
 `malware`
-Blacknevas a publié un nouveau ciblé : Optimum First Mortgage, volant 9.3 TB de données financières et personnelles.
+Krybit cible www.harputyapi.com, un développeur immobilier turc opérant à Istanbul.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : SEVENOAKS s.r.o.](https://www.ransomware.live/id/U0VWRU5PQUtTIHMuci5vLkBlbXBlcmFkb3I=)
-**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:54 UTC
-`malware`
-Emperador a publié un nouveau ciblé : SEVENOAKS s.r.o., une entreprise tchèque dans l'industrie des services de conception informatique.
+### [New RatHat Android malware uses AI to automate device control](https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/)
+**Source :** Bleeping Computer  **Publié :** 17/09/2026 17:50 UTC
+`breach` `malware`
+Malware Android appelé RatHat utilise l'intelligence artificielle pour automatiser le contrôle des appareils compromis.
 
 ---
 
-### [Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’](https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi)
-**Source :** The Record  **Publié :** 16/09/2026 18:46 UTC
+### [China’s FamousSparrow hackers target Latin America with new backdoor](https://therecord.media/china-hackers-latin-america-espionage)
+**Source :** The Record  **Publié :** 17/09/2026 16:30 UTC
 `malware`
-Les forces de l'autorité américaines ont inspecté un navire pétrolier après une attaque cyberspace supposée par des acteurs étrangers.
+Hackers chinois ciblent les agences gouvernementales en Amérique du Sud avec un nouveau backdoor appelé SparroWocky.
 
 ---
 
-### [🏴‍☠️ Auditteam has just published a new victim : Wise IT](https://www.ransomware.live/id/V2lzZSBJVEBBdWRpdFRlYW0=)
-**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:22 UTC
+### [🏴‍☠️ Chaos has just published a new victim : expresspros.com](https://www.ransomware.live/id/ZXhwcmVzc3Byb3MuY29tQGNoYW9z)
+**Source :** Ransomware.live News  **Publié :** 17/09/2026 16:25 UTC
+`breach` `malware`
+Une vulnérabilité est révélée chez Express Employment Professionals, mais la direction de l'entreprise ne communique pas.
+
+---
+
+### [🏴‍☠️ Braincipher has just published a new victim : hoyletanner.com](https://www.ransomware.live/id/aG95bGV0YW5uZXIuY29tQEJyYWluQ2lwaGVy)
+**Source :** Ransomware.live News  **Publié :** 17/09/2026 16:21 UTC
 `malware`
-Wise IT, intégrateur systèmes ukrainien basé à Kyiv, offre des services de data center et cybersécurité en partenariat avec Google, Microsoft et VMware.
+N/A
+
+---
+
+### [🏴‍☠️ Braincipher has just published a new victim : aecom.com](https://www.ransomware.live/id/YWVjb20uY29tQEJyYWluQ2lwaGVy)
+**Source :** Ransomware.live News  **Publié :** 17/09/2026 16:20 UTC
+`malware`
+AECOM a été victime d'une fuite de données. L'entreprise fournit des détails sur ses activités et sa présence mondiale.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Spain's data agency gets first report of AI-powered data breach](https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/)
-**Source :** Bleeping Computer  **Publié :** 16/09/2026 13:26 UTC  **Score :** 25
+### 1. [Hackers claim breach of Russian election systems days before parliamentary vote](https://therecord.media/russia-election-hackers-breach)
+**Source :** The Record  **Publié :** 17/09/2026 13:45 UTC  **Score :** 35
 `breach`
-L'AEPD a été informée d'une supposée attaque réalisée par un agent AI basé sur un modèle de grande taille (LLM).
+Un groupe hacker prétend avoir accédé à des systèmes électoraux russes avant un scrutin parlementaire.
 
-### 2. [Webinar: What happens in the first hours of a Google Workspace breach](https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/)
-**Source :** Bleeping Computer  **Publié :** 16/09/2026 08:11 UTC  **Score :** 25
-`breach`
-Cette webinaire examine les premières heures après une attaque sur Google Workspace pour montrer comment répondre rapidement peut limiter l'impact.
+### 2. [CISO's Expert Guide to Agentic Pentesting for Websites](https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html)
+**Source :** The Hacker News  **Publié :** 17/09/2026 16:20 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Les attaquants exploitent rapidement de nouvelles vulnérabilités tandis que les entreprises mettent longtemps à les patcher. Un guide explique l'utilisation d'IA autonome pour des tests de sécurité.
 
-### 3. [🏴‍☠️ Auditteam has just published a new victim : dg.ac.kr](https://www.ransomware.live/id/ZGcuYWMua3JAQXVkaXRUZWFt)
-**Source :** Ransomware.live News  **Publié :** 16/09/2026 18:21 UTC  **Score :** 20
+### 3. [OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads](https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html)
+**Source :** The Hacker News  **Publié :** 17/09/2026 15:23 UTC  **Score :** 25
 `breach`
-Aucune vulnérabilité ni attaque signalée concernant le site dg.ac.kr.
+OpenAI a identifié six incidents impliquant des comportements inattendus ou inquiétants dans ses modèles au cours des six derniers mois. Une nouvelle méthode de reporting est proposée pour améliorer la transparence.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-17.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-18.md`*
