@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T02:00:46.620786+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "83dbc955c2c5f539",
+        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85889"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a corrigé une vulnérabilité critique dans Azure AI Foundry susceptible d'escalader les privilèges sans authentication.",
+        "published_at": "2026-09-18T18:17:04",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "d9550a48add61daf",
+        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "WordPress a publié des mises à jour pour corriger un vulnérabilité potentiellement exploitée par un lien malveillant pour installer une thématique sans action utilisateur.",
+        "published_at": "2026-09-18T22:26:19",
+        "score": 17
+      },
+      {
+        "guid": "8ada0edf38c28b2a",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hygear.com",
+        "url": "https://www.ransomware.live/id/aHlnZWFyLmNvbUBsb2NrYml0NQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "yGear, fournisseur de serviceshydrogène, a été victime d'une ransomware nommée Lockbit5.",
+        "published_at": "2026-09-18T21:49:22",
+        "score": 0
+      },
+      {
+        "guid": "f199e534bd04a835",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : forus.cl",
+        "url": "https://www.ransomware.live/id/Zm9ydXMuY2xAbG9ja2JpdDU=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a publié une nouvelle cible : la société chilienne Forus spécialisée en vêtements.",
+        "published_at": "2026-09-18T21:48:40",
+        "score": 0
+      },
+      {
+        "guid": "e3e033f07fb90655",
+        "title": "Friday Squid Blogging: On Squid Egg Sacs",
+        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe Transparent Tribe utilise des outils Rust pour des opérations de renseignement sur le terrain, ciblant principalement l'Inde et l'Afghanistan.",
+        "published_at": "2026-09-18T21:06:00",
+        "score": 17
+      },
+      {
+        "guid": "05ad701274b72f6e",
+        "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+        "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "La société Inter, fournisseur internet en Venezuela, a été victime d'une attaque Lockbit5, laissant ses réseaux coupés jusqu'à paiement.",
+        "published_at": "2026-09-18T20:54:16",
+        "score": 17
+      },
+      {
+        "guid": "83a1962a763be1e0",
+        "title": "🏴‍☠️ N0n has just published a new victim : Inter (Venezuela's largest internet provider)",
+        "url": "https://www.ransomware.live/id/SW50ZXIgKFZlbmV6dWVsYSdzIGxhcmdlc3QgaW50ZXJuZXQgcHJvdmlkZXIpQE4wbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une faille de serveur chez Gyazo a été exploitée pour voler 23,6 millions de fichiers d'utilisateurs.",
+        "published_at": "2026-09-18T19:51:07",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "9d62271a84ea0a68",
+        "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un nouveau ciblage Lockbit5 sur kit-e.jp n'a pas entraîné de fuite de données.",
+        "published_at": "2026-09-18T12:00:38",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "1752ab87ddbe9719",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : kit-e.jp",
+        "url": "https://www.ransomware.live/id/a2l0LWUuanBAQXVkaXRUZWFt",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Lockbit5 a visé le fournisseur de services internet AT&T, mais sans conséquences de fuite de données.",
+        "published_at": "2026-09-18T15:50:58",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "a261c4f7b11dead8",
+        "title": "🏴‍☠️ Endzone has just published a new victim : AT&T",
+        "url": "https://www.ransomware.live/id/QVQmVEBFbmRab25l",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Revenue: $125.6 billion\n\nInitial access was via a CX contractor doing business with AT&amp;T. Access originally used as vehicle for Equipment Changes/Call Forwarding (thanks a lot TORCH patch) - VPN + HVD (both external and internal MyDesktop) instances were accessed for a prolonged period without any detection or incident response taking place. Certificates exported from certlm in the VDI + OPUS self installer (automatically joins EP to S1) opened up the door to the VPN. Salesforce data was acc",
+        "published_at": "2026-09-18T07:06:21",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 64,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
