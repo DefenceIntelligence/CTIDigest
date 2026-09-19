@@ -1,247 +1,123 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-18",
-  "generated_at": "2026-09-18T02:01:20.130455+00:00",
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T02:00:46.620786+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "10c57f82eeb8b09a",
-        "title": "Hitachi Energy FACTS Control Platform (FCP)",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "83dbc955c2c5f539",
+        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2024-7941",
-          "CVE-2024-3980",
-          "CVE-2024-7940",
-          "CVE-2024-4872",
-          "CVE-2024-3982"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Hitachi Energy aidentifie des vulnérabilités affectant ses systèmes FACTS Control avec composant GWS, posant des risques pour la confidentialité, l'intégrité et l'accessibilité du produit.",
-        "published_at": "2026-09-17T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "08ca055a48915231",
-        "title": "Bransys ELD",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-86520",
-          "CVE-2026-86689",
-          "CVE-2026-77960"
+          "CVE-2026-85889"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Vulnérabilités affectant différentes versions de Bransys ELD pouvant permettre un accès non autorisé aux données et au firmware.",
-        "published_at": "2026-09-17T12:00:00",
-        "score": 15
-      },
+        "summary": "Microsoft a corrigé une vulnérabilité critique dans Azure AI Foundry susceptible d'escalader les privilèges sans authentication.",
+        "published_at": "2026-09-18T18:17:04",
+        "score": 20
+      }
+    ],
+    "campaigns": [
       {
-        "guid": "a4da44d79d893f06",
-        "title": "Schneider Electric NetBotz 5 750/755",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-05",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-13336",
-          "CVE-2026-13337"
-        ],
+        "guid": "d9550a48add61daf",
+        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Schneider Electric informe de vulnérabilités dans ses produits NetBotz 5 – 750/755, menaçant la sécurité et l'environnement des systèmes.",
-        "published_at": "2026-09-17T12:00:00",
-        "score": 27
+        "summary": "WordPress a publié des mises à jour pour corriger un vulnérabilité potentiellement exploitée par un lien malveillant pour installer une thématique sans action utilisateur.",
+        "published_at": "2026-09-18T22:26:19",
+        "score": 17
       },
       {
-        "guid": "7880dde55161e998",
-        "title": "Mitsubishi Electric GX Works3 and Motion Control Settings",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-15688"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Vulnérabilité critique dans GX Works3 et paramètres de contrôle de mouvement de Mitsubishi Electric, permettant une authentification abusive localement.",
-        "published_at": "2026-09-17T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "d95b1c2b79723f9b",
-        "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
-        "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-81642"
-        ],
-        "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Vulnérabilité critique dans l'validateur DNSSEC d'Unbound, permettant une exécution de code à distance par un attaquant contrôlant un zone malveillante.",
-        "published_at": "2026-09-17T18:00:00",
-        "score": 20
-      },
-      {
-        "guid": "195472bdbb40637e",
-        "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-        "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-76460"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Cisco alerte sur une vulnérabilité Zéro-Jour dans ISE Auth, exploitée activement par des attaquants non authentifiés.",
-        "published_at": "2026-09-17T12:09:40",
-        "score": 20
-      },
-      {
-        "guid": "fe3f9dbcbda5a432",
-        "title": "Schneider Electric Modicon M340 Controller and Communication Modules",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-260-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "8ada0edf38c28b2a",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hygear.com",
+        "url": "https://www.ransomware.live/id/aHlnZWFyLmNvbUBsb2NrYml0NQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
-          "vulnerability"
+          "ransomware"
         ],
-        "summary": "Vulnérabilité identifiée chez Schneider Electric concernant le contrôleur Modicon M340 et les modules de communication.",
-        "published_at": "2026-09-17T12:00:00",
+        "summary": "yGear, fournisseur de serviceshydrogène, a été victime d'une ransomware nommée Lockbit5.",
+        "published_at": "2026-09-18T21:49:22",
         "score": 0
-      }
-    ],
-    "campaigns": [
+      },
       {
-        "guid": "9def28c7936fbde1",
-        "title": "🏴‍☠️ Krybit has just published a new victim : www.harputyapi.com",
-        "url": "https://www.ransomware.live/id/d3d3LmhhcnB1dHlhcGkuY29tQGtyeWJpdA==",
+        "guid": "f199e534bd04a835",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : forus.cl",
+        "url": "https://www.ransomware.live/id/Zm9ydXMuY2xAbG9ja2JpdDU=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "Krybit cible www.harputyapi.com, un développeur immobilier turc opérant à Istanbul.",
-        "published_at": "2026-09-17T22:31:56",
-        "score": 12
+        "summary": "Lockbit5 a publié une nouvelle cible : la société chilienne Forus spécialisée en vêtements.",
+        "published_at": "2026-09-18T21:48:40",
+        "score": 0
       },
       {
-        "guid": "8136a320e05a0f37",
-        "title": "New RatHat Android malware uses AI to automate device control",
-        "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-        "source": "Bleeping Computer",
+        "guid": "e3e033f07fb90655",
+        "title": "Friday Squid Blogging: On Squid Egg Sacs",
+        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
+        "source": "Schneier on Security",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
           "malware"
         ],
-        "summary": "Malware Android appelé RatHat utilise l'intelligence artificielle pour automatiser le contrôle des appareils compromis.",
-        "published_at": "2026-09-17T17:50:26",
-        "score": 37
+        "summary": "Le groupe Transparent Tribe utilise des outils Rust pour des opérations de renseignement sur le terrain, ciblant principalement l'Inde et l'Afghanistan.",
+        "published_at": "2026-09-18T21:06:00",
+        "score": 17
       },
       {
-        "guid": "2cd2515dae759873",
-        "title": "China’s FamousSparrow hackers target Latin America with new backdoor",
-        "url": "https://therecord.media/china-hackers-latin-america-espionage",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "05ad701274b72f6e",
+        "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+        "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
+          "apt",
           "malware"
         ],
-        "summary": "Hackers chinois ciblent les agences gouvernementales en Amérique du Sud avec un nouveau backdoor appelé SparroWocky.",
-        "published_at": "2026-09-17T16:30:00",
-        "score": 27
+        "summary": "La société Inter, fournisseur internet en Venezuela, a été victime d'une attaque Lockbit5, laissant ses réseaux coupés jusqu'à paiement.",
+        "published_at": "2026-09-18T20:54:16",
+        "score": 17
       },
       {
-        "guid": "012e7e6478266b5b",
-        "title": "🏴‍☠️ Chaos has just published a new victim : expresspros.com",
-        "url": "https://www.ransomware.live/id/ZXhwcmVzc3Byb3MuY29tQGNoYW9z",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Une vulnérabilité est révélée chez Express Employment Professionals, mais la direction de l'entreprise ne communique pas.",
-        "published_at": "2026-09-17T16:25:49",
-        "score": 32
-      },
-      {
-        "guid": "26758ad9b98e6aed",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : hoyletanner.com",
-        "url": "https://www.ransomware.live/id/aG95bGV0YW5uZXIuY29tQEJyYWluQ2lwaGVy",
+        "guid": "83a1962a763be1e0",
+        "title": "🏴‍☠️ N0n has just published a new victim : Inter (Venezuela's largest internet provider)",
+        "url": "https://www.ransomware.live/id/SW50ZXIgKFZlbmV6dWVsYSdzIGxhcmdlc3QgaW50ZXJuZXQgcHJvdmlkZXIpQE4wbg==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "N/A",
-        "published_at": "2026-09-17T16:21:16",
-        "score": 12
-      },
-      {
-        "guid": "0aa85d6783fabd5f",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : aecom.com",
-        "url": "https://www.ransomware.live/id/YWVjb20uY29tQEJyYWluQ2lwaGVy",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "AECOM a été victime d'une fuite de données. L'entreprise fournit des détails sur ses activités et sa présence mondiale.",
-        "published_at": "2026-09-17T16:20:40",
+        "summary": "Une faille de serveur chez Gyazo a été exploitée pour voler 23,6 millions de fichiers d'utilisateurs.",
+        "published_at": "2026-09-18T19:51:07",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "e4fb7147ea013ca3",
-        "title": "Hackers claim breach of Russian election systems days before parliamentary vote",
-        "url": "https://therecord.media/russia-election-hackers-breach",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Un groupe hacker prétend avoir accédé à des systèmes électoraux russes avant un scrutin parlementaire.",
-        "published_at": "2026-09-17T13:45:00",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "3019dd5e06d8696f",
-        "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-        "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-        "source": "The Hacker News",
+        "guid": "9d62271a84ea0a68",
+        "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
@@ -249,34 +125,50 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Les attaquants exploitent rapidement de nouvelles vulnérabilités tandis que les entreprises mettent longtemps à les patcher. Un guide explique l'utilisation d'IA autonome pour des tests de sécurité.",
-        "published_at": "2026-09-17T16:20:53",
+        "summary": "Un nouveau ciblage Lockbit5 sur kit-e.jp n'a pas entraîné de fuite de données.",
+        "published_at": "2026-09-18T12:00:38",
         "score": 25,
-        "rank": 2
+        "rank": 1
       },
       {
-        "guid": "2032ce096cf272be",
-        "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-        "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "1752ab87ddbe9719",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : kit-e.jp",
+        "url": "https://www.ransomware.live/id/a2l0LWUuanBAQXVkaXRUZWFt",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "OpenAI a identifié six incidents impliquant des comportements inattendus ou inquiétants dans ses modèles au cours des six derniers mois. Une nouvelle méthode de reporting est proposée pour améliorer la transparence.",
-        "published_at": "2026-09-17T15:23:38",
-        "score": 25,
+        "summary": "Lockbit5 a visé le fournisseur de services internet AT&T, mais sans conséquences de fuite de données.",
+        "published_at": "2026-09-18T15:50:58",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "a261c4f7b11dead8",
+        "title": "🏴‍☠️ Endzone has just published a new victim : AT&T",
+        "url": "https://www.ransomware.live/id/QVQmVEBFbmRab25l",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Revenue: $125.6 billion\n\nInitial access was via a CX contractor doing business with AT&amp;T. Access originally used as vehicle for Equipment Changes/Call Forwarding (thanks a lot TORCH patch) - VPN + HVD (both external and internal MyDesktop) instances were accessed for a prolonged period without any detection or incident response taking place. Certificates exported from certlm in the VDI + OPUS self installer (automatically joins EP to S1) opened up the door to the VPN. Salesforce data was acc",
+        "published_at": "2026-09-18T07:06:21",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 62,
-    "items_selected": 16,
+    "items_analyzed": 64,
+    "items_selected": 10,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 13,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
