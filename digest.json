@@ -1,174 +1,195 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-19",
-  "generated_at": "2026-09-19T02:00:46.620786+00:00",
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T02:00:39.038122+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "83dbc955c2c5f539",
-        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-        "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "guid": "2562f5e6c0aa63de",
+        "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-85889"
+          "CVE-2026-28326"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "SolarWinds a publié des mises à jour de sécurité pour corriger une faille critique dans Access Rights Manager (ARM) qui permettrait une exécution de code distant non authentifié.",
+        "published_at": "2026-09-19T15:01:17",
+        "score": 32
+      },
+      {
+        "guid": "96bf0ec16e443282",
+        "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+        "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-58138"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Microsoft a corrigé une vulnérabilité critique dans Azure AI Foundry susceptible d'escalader les privilèges sans authentication.",
-        "published_at": "2026-09-18T18:17:04",
+        "summary": "Une vulnérabilité grave d'exécution de code distant non authentifié, CVE-2026-58138, affecte Orkes Conductor 3.21.21 avant la version 3.30.2 et est exploité actuellement.",
+        "published_at": "2026-09-19T13:48:54",
+        "score": 20
+      },
+      {
+        "guid": "bfe92a165b8cbf34",
+        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2025-39682"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Trois vulnérabilités critiques du noyau Linux, incluant CVE-2025-39682 avec un CVSS de 9.8, ont été ajoutées par CISA à sa liste des vulnérabilités connues et exploitées.",
+        "published_at": "2026-09-19T11:54:10",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "d9550a48add61daf",
-        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "WordPress a publié des mises à jour pour corriger un vulnérabilité potentiellement exploitée par un lien malveillant pour installer une thématique sans action utilisateur.",
-        "published_at": "2026-09-18T22:26:19",
-        "score": 17
-      },
-      {
-        "guid": "8ada0edf38c28b2a",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : hygear.com",
-        "url": "https://www.ransomware.live/id/aHlnZWFyLmNvbUBsb2NrYml0NQ==",
+        "guid": "e58b881ba800b62e",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Electrolux",
+        "url": "https://www.ransomware.live/id/RWxlY3Ryb2x1eEBlbXBlcmFkb3I=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "yGear, fournisseur de serviceshydrogène, a été victime d'une ransomware nommée Lockbit5.",
-        "published_at": "2026-09-18T21:49:22",
-        "score": 0
-      },
-      {
-        "guid": "f199e534bd04a835",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : forus.cl",
-        "url": "https://www.ransomware.live/id/Zm9ydXMuY2xAbG9ja2JpdDU=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Lockbit5 a publié une nouvelle cible : la société chilienne Forus spécialisée en vêtements.",
-        "published_at": "2026-09-18T21:48:40",
-        "score": 0
-      },
-      {
-        "guid": "e3e033f07fb90655",
-        "title": "Friday Squid Blogging: On Squid Egg Sacs",
-        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html",
-        "source": "Schneier on Security",
-        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Le groupe Transparent Tribe utilise des outils Rust pour des opérations de renseignement sur le terrain, ciblant principalement l'Inde et l'Afghanistan.",
-        "published_at": "2026-09-18T21:06:00",
-        "score": 17
+        "summary": "Electrolux a subi une attaque ransomware ; ses données Azure ont été volées et une rançon a été exigée.",
+        "published_at": "2026-09-19T15:50:53",
+        "score": 12
       },
       {
-        "guid": "05ad701274b72f6e",
-        "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-        "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "guid": "2e302f4698968c97",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Kreishandwerkerschaft Borken",
+        "url": "https://www.ransomware.live/id/S3JlaXNoYW5kd2Vya2Vyc2NoYWZ0IEJvcmtlbkByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Kreishandwerkerschaft Borken",
+        "published_at": "2026-09-19T15:07:38",
+        "score": 0
+      },
+      {
+        "guid": "59b2e45cf4d07bc7",
+        "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+        "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "malware"
+          "breach"
         ],
-        "summary": "La société Inter, fournisseur internet en Venezuela, a été victime d'une attaque Lockbit5, laissant ses réseaux coupés jusqu'à paiement.",
-        "published_at": "2026-09-18T20:54:16",
-        "score": 17
+        "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain attack on TanStack, in which malicious versions of TanStack's npm packages stole credentials from",
+        "published_at": "2026-09-19T12:44:54",
+        "score": 25
       },
       {
-        "guid": "83a1962a763be1e0",
-        "title": "🏴‍☠️ N0n has just published a new victim : Inter (Venezuela's largest internet provider)",
-        "url": "https://www.ransomware.live/id/SW50ZXIgKFZlbmV6dWVsYSdzIGxhcmdlc3QgaW50ZXJuZXQgcHJvdmlkZXIpQE4wbg==",
+        "guid": "e5bd7d38ea1d94b7",
+        "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
+        "published_at": "2026-09-19T09:48:32",
+        "score": 37
+      },
+      {
+        "guid": "4d91f438157313f6",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Quy Nhon University",
+        "url": "https://www.ransomware.live/id/UXV5IE5ob24gVW5pdmVyc2l0eUBWZXh5IFJhbnNvbXdhcmU=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware"
+          "ransomware"
         ],
-        "summary": "Une faille de serveur chez Gyazo a été exploitée pour voler 23,6 millions de fichiers d'utilisateurs.",
-        "published_at": "2026-09-18T19:51:07",
-        "score": 12
+        "summary": "Quy Nhon University (QNU) is a public, multidisciplinary university located in Quy Nhon City, Binh Dinh Province, Vietnam. Established in 1977, the university has a long-standing tradition in teacher education and has developed into a comprehensive institution offering a wide range of academic programs.",
+        "published_at": "2026-09-19T07:54:22",
+        "score": 0
       }
     ],
     "top_reads": [
       {
-        "guid": "9d62271a84ea0a68",
-        "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-        "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+        "guid": "d33fb4e8d2990686",
+        "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+        "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
+        "published_at": "2026-09-19T18:58:41",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "d0adfcf97b1fdeb7",
+        "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+        "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed",
+        "published_at": "2026-09-19T13:21:34",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "bd7e6698cd57dade",
+        "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "cve",
-          "vulnerability"
+          "patch"
         ],
-        "summary": "Un nouveau ciblage Lockbit5 sur kit-e.jp n'a pas entraîné de fuite de données.",
-        "published_at": "2026-09-18T12:00:38",
+        "summary": "Un avis conjoint de la police judiciaire alerte sur les activités des hackers nord-coréens WaterPlum, qui ont compromis au moins 30 000 dispositifs dans le monde entre décembre 2025 et juillet 2026.",
+        "published_at": "2026-09-19T10:05:15",
         "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "1752ab87ddbe9719",
-        "title": "🏴‍☠️ Auditteam has just published a new victim : kit-e.jp",
-        "url": "https://www.ransomware.live/id/a2l0LWUuanBAQXVkaXRUZWFt",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Lockbit5 a visé le fournisseur de services internet AT&T, mais sans conséquences de fuite de données.",
-        "published_at": "2026-09-18T15:50:58",
-        "score": 20,
-        "rank": 2
-      },
-      {
-        "guid": "a261c4f7b11dead8",
-        "title": "🏴‍☠️ Endzone has just published a new victim : AT&T",
-        "url": "https://www.ransomware.live/id/QVQmVEBFbmRab25l",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "cve"
-        ],
-        "summary": "Revenue: $125.6 billion\n\nInitial access was via a CX contractor doing business with AT&amp;T. Access originally used as vehicle for Equipment Changes/Call Forwarding (thanks a lot TORCH patch) - VPN + HVD (both external and internal MyDesktop) instances were accessed for a prolonged period without any detection or incident response taking place. Certificates exported from certlm in the VDI + OPUS self installer (automatically joins EP to S1) opened up the door to the VPN. Salesforce data was acc",
-        "published_at": "2026-09-18T07:06:21",
-        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 64,
-    "items_selected": 10,
+    "items_analyzed": 24,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 1,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
