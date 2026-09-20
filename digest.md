@@ -1,82 +1,91 @@
-# 🛡️ ARGOS CTI Digest — 19 septembre 2026
+# 🛡️ ARGOS CTI Digest — 20 septembre 2026
 
-> Généré le 19/09/2026 à 02:00 UTC  ·  64 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 20/09/2026 à 02:00 UTC  ·  24 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation](https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html)
-**Source :** The Hacker News  **Publié :** 18/09/2026 18:17 UTC  **CVE :** `CVE-2026-85889`
+### [SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE](https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 15:01 UTC  **CVE :** `CVE-2026-28326`
+`cve` `malware` `patch` `vulnerability`
+SolarWinds a publié des mises à jour de sécurité pour corriger une faille critique dans Access Rights Manager (ARM) qui permettrait une exécution de code distant non authentifié.
+
+---
+
+### [Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 13:48 UTC  **CVE :** `CVE-2026-58138`
 `cve` `vulnerability`
-Microsoft a corrigé une vulnérabilité critique dans Azure AI Foundry susceptible d'escalader les privilèges sans authentication.
+Une vulnérabilité grave d'exécution de code distant non authentifié, CVE-2026-58138, affecte Orkes Conductor 3.21.21 avant la version 3.30.2 et est exploité actuellement.
+
+---
+
+### [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 11:54 UTC  **CVE :** `CVE-2025-39682`
+`cve` `vulnerability`
+Trois vulnérabilités critiques du noyau Linux, incluant CVE-2025-39682 avec un CVSS de 9.8, ont été ajoutées par CISA à sa liste des vulnérabilités connues et exploitées.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution](https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html)
-**Source :** The Hacker News  **Publié :** 18/09/2026 22:26 UTC
-`cve` `malware` `vulnerability`
-WordPress a publié des mises à jour pour corriger un vulnérabilité potentiellement exploitée par un lien malveillant pour installer une thématique sans action utilisateur.
-
----
-
-### [🏴‍☠️ Lockbit5 has just published a new victim : hygear.com](https://www.ransomware.live/id/aHlnZWFyLmNvbUBsb2NrYml0NQ==)
-**Source :** Ransomware.live News  **Publié :** 18/09/2026 21:49 UTC
-`ransomware`
-yGear, fournisseur de serviceshydrogène, a été victime d'une ransomware nommée Lockbit5.
-
----
-
-### [🏴‍☠️ Lockbit5 has just published a new victim : forus.cl](https://www.ransomware.live/id/Zm9ydXMuY2xAbG9ja2JpdDU=)
-**Source :** Ransomware.live News  **Publié :** 18/09/2026 21:48 UTC
-`ransomware`
-Lockbit5 a publié une nouvelle cible : la société chilienne Forus spécialisée en vêtements.
-
----
-
-### [Friday Squid Blogging: On Squid Egg Sacs](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html)
-**Source :** Schneier on Security  **Publié :** 18/09/2026 21:06 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Electrolux](https://www.ransomware.live/id/RWxlY3Ryb2x1eEBlbXBlcmFkb3I=)
+**Source :** Ransomware.live News  **Publié :** 19/09/2026 15:50 UTC
 `malware`
-Le groupe Transparent Tribe utilise des outils Rust pour des opérations de renseignement sur le terrain, ciblant principalement l'Inde et l'Afghanistan.
+Electrolux a subi une attaque ransomware ; ses données Azure ont été volées et une rançon a été exigée.
 
 ---
 
-### [Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2](https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html)
-**Source :** The Hacker News  **Publié :** 18/09/2026 20:54 UTC
-`apt` `malware`
-La société Inter, fournisseur internet en Venezuela, a été victime d'une attaque Lockbit5, laissant ses réseaux coupés jusqu'à paiement.
+### [🏴‍☠️ Rhysida has just published a new victim : Kreishandwerkerschaft Borken](https://www.ransomware.live/id/S3JlaXNoYW5kd2Vya2Vyc2NoYWZ0IEJvcmtlbkByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 19/09/2026 15:07 UTC
+`ransomware`
+Kreishandwerkerschaft Borken
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Inter (Venezuela's largest internet provider)](https://www.ransomware.live/id/SW50ZXIgKFZlbmV6dWVsYSdzIGxhcmdlc3QgaW50ZXJuZXQgcHJvdmlkZXIpQE4wbg==)
-**Source :** Ransomware.live News  **Publié :** 18/09/2026 19:51 UTC
-`malware`
-Une faille de serveur chez Gyazo a été exploitée pour voler 23,6 millions de fichiers d'utilisateurs.
+### [CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories](https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 12:44 UTC
+`apt` `breach`
+An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.
+
+The French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain a
+
+---
+
+### [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
+**Source :** Bleeping Computer  **Publié :** 19/09/2026 09:48 UTC
+`breach` `malware` `ransomware`
+The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Quy Nhon University](https://www.ransomware.live/id/UXV5IE5ob24gVW5pdmVyc2l0eUBWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 19/09/2026 07:54 UTC
+`ransomware`
+Quy Nhon University (QNU) is a public, multidisciplinary university located in Quy Nhon City, Binh Dinh Province, Vietnam. Established in 1977, the university has a long-standing tradition in teacher education and has developed into a comprehensive institution offering a wide range of academic progr
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Gyazo server flaw exploited to steal 23.6 million user records](https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/)
-**Source :** Bleeping Computer  **Publié :** 18/09/2026 12:00 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Un nouveau ciblage Lockbit5 sur kit-e.jp n'a pas entraîné de fuite de données.
-
-### 2. [🏴‍☠️ Auditteam has just published a new victim : kit-e.jp](https://www.ransomware.live/id/a2l0LWUuanBAQXVkaXRUZWFt)
-**Source :** Ransomware.live News  **Publié :** 18/09/2026 15:50 UTC  **Score :** 20
+### 1. [Identity Visibility in 2026: The Foundation of Identity Security](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 18:58 UTC  **Score :** 25
 `breach`
-Lockbit5 a visé le fournisseur de services internet AT&T, mais sans conséquences de fuite de données.
+Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility
 
-### 3. [🏴‍☠️ Endzone has just published a new victim : AT&T](https://www.ransomware.live/id/QVQmVEBFbmRab25l)
-**Source :** Ransomware.live News  **Publié :** 18/09/2026 07:06 UTC  **Score :** 20
-`breach` `cve`
-Revenue: $125.6 billion
+### 2. [Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up](https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html)
+**Source :** The Hacker News  **Publié :** 19/09/2026 13:21 UTC  **Score :** 25
+`breach`
+Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.
 
-Initial access was via a CX contractor doing business with AT&amp;T. Access originally used as vehicle for Equipment Changes/Call Forwarding (thanks a lot TORCH patch) - VPN + HVD (both external and internal MyDesktop) instances were accessed for a prolonged period without a
+The incidents occurred in May 2026 as part of a test run conducted
+
+### 3. [North Korean WaterPlum hackers infected 30,000 devices worldwide](https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/)
+**Source :** Bleeping Computer  **Publié :** 19/09/2026 10:05 UTC  **Score :** 25
+`breach` `cve` `patch`
+Un avis conjoint de la police judiciaire alerte sur les activités des hackers nord-coréens WaterPlum, qui ont compromis au moins 30 000 dispositifs dans le monde entre décembre 2025 et juillet 2026.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-19.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-20.md`*
