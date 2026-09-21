@@ -1,197 +1,121 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-20",
-  "generated_at": "2026-09-20T02:00:39.038122+00:00",
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T02:00:59.325220+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
+    "vulnerabilities": [],
+    "campaigns": [
       {
-        "guid": "2562f5e6c0aa63de",
-        "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-        "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-28326"
-        ],
+        "guid": "9453d821386e161d",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : arsrenacer.com",
+        "url": "https://www.ransomware.live/id/YXJzcmVuYWNlci5jb21AZHJhZ29uZm9yY2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
         "tags": [
+          "breach",
           "cve",
-          "malware",
-          "patch",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "SolarWinds a publié des mises à jour de sécurité pour corriger une faille critique dans Access Rights Manager (ARM) qui permettrait une exécution de code distant non authentifié.",
-        "published_at": "2026-09-19T15:01:17",
+        "summary": "ARS RENACER, S.A. DUMP: ANALYSIS OF A HEALTH INSURANCE COMPANY LEAK\n\n═══════════════════════════════════════════════════\nARS Renacer, S.A. (Dominican Republic) is a private Health Risk Administrator (ARS), licensed by SISALRIL (Law 87-01). Member of ADIMARS. It serves hundreds of thousands of affiliates through 24 regional offices.\n\n**DUMP VOLUME:** 274,404 files / 158,693 critical and high-risk files\n▸ 50,894 files in the &quot;Usuarios&quot; (Users) folder — user accounts for all systems\n▸ .ss",
+        "published_at": "2026-09-20T20:58:23",
         "score": 32
       },
       {
-        "guid": "96bf0ec16e443282",
-        "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-        "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-58138"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité grave d'exécution de code distant non authentifié, CVE-2026-58138, affecte Orkes Conductor 3.21.21 avant la version 3.30.2 et est exploité actuellement.",
-        "published_at": "2026-09-19T13:48:54",
-        "score": 20
-      },
-      {
-        "guid": "bfe92a165b8cbf34",
-        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-        "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2025-39682"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Trois vulnérabilités critiques du noyau Linux, incluant CVE-2025-39682 avec un CVSS de 9.8, ont été ajoutées par CISA à sa liste des vulnérabilités connues et exploitées.",
-        "published_at": "2026-09-19T11:54:10",
-        "score": 20
-      }
-    ],
-    "campaigns": [
-      {
-        "guid": "e58b881ba800b62e",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Electrolux",
-        "url": "https://www.ransomware.live/id/RWxlY3Ryb2x1eEBlbXBlcmFkb3I=",
+        "guid": "4dad8d6828e5653f",
+        "title": "🏴‍☠️ Orova has just published a new victim : Euramex Management Group",
+        "url": "https://www.ransomware.live/id/RXVyYW1leCBNYW5hZ2VtZW50IEdyb3VwQE9yb3Zh",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Electrolux a subi une attaque ransomware ; ses données Azure ont été volées et une rançon a été exigée.",
-        "published_at": "2026-09-19T15:50:53",
+        "summary": "Avila Real Estate, LLC is a vertically-integrated multifamily company, adding value through acquisition, development of land, construction and operating residential assets.  Headquartered in Atlanta, Georgia, Avila has developed over $800 million in 25 multifamily transactions since 1986 for its own account and on behalf of global and institutional investors.",
+        "published_at": "2026-09-20T13:51:47",
         "score": 12
       },
       {
-        "guid": "2e302f4698968c97",
-        "title": "🏴‍☠️ Rhysida has just published a new victim : Kreishandwerkerschaft Borken",
-        "url": "https://www.ransomware.live/id/S3JlaXNoYW5kd2Vya2Vyc2NoYWZ0IEJvcmtlbkByaHlzaWRh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Kreishandwerkerschaft Borken",
-        "published_at": "2026-09-19T15:07:38",
-        "score": 0
-      },
-      {
-        "guid": "59b2e45cf4d07bc7",
-        "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-        "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-        "source": "The Hacker News",
+        "guid": "a80be216d67852ee",
+        "title": "Malicious npm packages evade install-script defenses at runtime",
+        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "breach"
+          "malware"
         ],
-        "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.\n\nThe French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain attack on TanStack, in which malicious versions of TanStack's npm packages stole credentials from",
-        "published_at": "2026-09-19T12:44:54",
-        "score": 25
+        "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
+        "published_at": "2026-09-20T10:11:21",
+        "score": 17
       },
       {
-        "guid": "e5bd7d38ea1d94b7",
-        "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware",
-          "ransomware"
-        ],
-        "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]",
-        "published_at": "2026-09-19T09:48:32",
-        "score": 37
-      },
-      {
-        "guid": "4d91f438157313f6",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Quy Nhon University",
-        "url": "https://www.ransomware.live/id/UXV5IE5ob24gVW5pdmVyc2l0eUBWZXh5IFJhbnNvbXdhcmU=",
+        "guid": "3fc4ac1d5e425d2c",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Studio Notarile Associato Salvatore Costantino E Anna Favarato",
+        "url": "https://www.ransomware.live/id/U3R1ZGlvIE5vdGFyaWxlIEFzc29jaWF0byBTYWx2YXRvcmUgQ29zdGFudGlubyBFIEFubmEgRmF2YXJhdG9AZW1wZXJhZG9y",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "ransomware"
+          "malware"
         ],
-        "summary": "Quy Nhon University (QNU) is a public, multidisciplinary university located in Quy Nhon City, Binh Dinh Province, Vietnam. Established in 1977, the university has a long-standing tradition in teacher education and has developed into a comprehensive institution offering a wide range of academic programs.",
-        "published_at": "2026-09-19T07:54:22",
-        "score": 0
+        "summary": "Studio Notarile Associato Salvatore Costantino E Anna Favarato, Follina \n+39 0438 971778\nPiazza Iv Novembre, 20, 31051, Follina , Italia\nNotary&#x27;s office\nseveral thousand documents\nThere are many customer documents and employee data. [Sector: Finance, Other]",
+        "published_at": "2026-09-20T09:35:30",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "d33fb4e8d2990686",
-        "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-        "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in",
-        "published_at": "2026-09-19T18:58:41",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "d0adfcf97b1fdeb7",
-        "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-        "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.\n\nThe incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed",
-        "published_at": "2026-09-19T13:21:34",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "bd7e6698cd57dade",
-        "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-        "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+        "guid": "13b8d7898cbfb3ae",
+        "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
-        "tags": [
-          "breach",
-          "cve",
-          "patch"
-        ],
-        "summary": "Un avis conjoint de la police judiciaire alerte sur les activités des hackers nord-coréens WaterPlum, qui ont compromis au moins 30 000 dispositifs dans le monde entre décembre 2025 et juillet 2026.",
-        "published_at": "2026-09-19T10:05:15",
-        "score": 25,
+        "tags": [],
+        "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+        "published_at": "2026-09-20T08:00:00",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "b892c694a67afb2a",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Alabama Woman's Health Care",
+        "url": "https://www.ransomware.live/id/QWxhYmFtYSBXb21hbidzIEhlYWx0aCBDYXJlQGVtcGVyYWRvcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Alabama Woman&#x27;s Health Care\nComprehensive Consultative Medicine, Wellbeing and Aesthetic Care Organization\nSeveral thousand documents of employees and clients and an archive of photos\n420 Lowell Dr\nSuite 400\nHuntsville, AL 35801 [Sector: Medical, Other]",
+        "published_at": "2026-09-20T15:51:17",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "7467637458a7b687",
+        "title": "🏴‍☠️ Auditteam has just published a new victim : TEK SPB",
+        "url": "https://www.ransomware.live/id/VEVLIFNQQkBBdWRpdFRlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "TeploEnergoKomplex (TEK SPB, tek-spb.ru) — a St. Petersburg heat-engineering company specializing in design, ZEVS-brand equipment manufacturing, installation, commissioning, and maintenance of individual/central heat points (ITP/CTP) and heat-energy metering units (UUTE)",
+        "published_at": "2026-09-20T14:50:56",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 24,
-    "items_selected": 11,
+    "items_analyzed": 17,
+    "items_selected": 7,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 0,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 7,
     "argos_version": "2.0.0"
   }
 }
