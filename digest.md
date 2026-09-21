@@ -1,91 +1,71 @@
-# 🛡️ ARGOS CTI Digest — 20 septembre 2026
+# 🛡️ ARGOS CTI Digest — 21 septembre 2026
 
-> Généré le 20/09/2026 à 02:00 UTC  ·  24 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 21/09/2026 à 02:00 UTC  ·  17 items analysés  ·  7 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE](https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 15:01 UTC  **CVE :** `CVE-2026-28326`
-`cve` `malware` `patch` `vulnerability`
-SolarWinds a publié des mises à jour de sécurité pour corriger une faille critique dans Access Rights Manager (ARM) qui permettrait une exécution de code distant non authentifié.
-
----
-
-### [Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 13:48 UTC  **CVE :** `CVE-2026-58138`
-`cve` `vulnerability`
-Une vulnérabilité grave d'exécution de code distant non authentifié, CVE-2026-58138, affecte Orkes Conductor 3.21.21 avant la version 3.30.2 et est exploité actuellement.
-
----
-
-### [CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild](https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 11:54 UTC  **CVE :** `CVE-2025-39682`
-`cve` `vulnerability`
-Trois vulnérabilités critiques du noyau Linux, incluant CVE-2025-39682 avec un CVSS de 9.8, ont été ajoutées par CISA à sa liste des vulnérabilités connues et exploitées.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Emperador has just published a new victim : Electrolux](https://www.ransomware.live/id/RWxlY3Ryb2x1eEBlbXBlcmFkb3I=)
-**Source :** Ransomware.live News  **Publié :** 19/09/2026 15:50 UTC
+### [🏴‍☠️ Dragonforce has just published a new victim : arsrenacer.com](https://www.ransomware.live/id/YXJzcmVuYWNlci5jb21AZHJhZ29uZm9yY2U=)
+**Source :** Ransomware.live News  **Publié :** 20/09/2026 20:58 UTC
+`breach` `cve` `malware`
+ARS RENACER, S.A. DUMP: ANALYSIS OF A HEALTH INSURANCE COMPANY LEAK
+
+═══════════════════════════════════════════════════
+ARS Renacer, S.A. (Dominican Republic) is a private Health Risk Administrator (ARS), licensed by SISALRIL (Law 87-01). Member of ADIMARS. It serves hundreds of thousands of affili
+
+---
+
+### [🏴‍☠️ Orova has just published a new victim : Euramex Management Group](https://www.ransomware.live/id/RXVyYW1leCBNYW5hZ2VtZW50IEdyb3VwQE9yb3Zh)
+**Source :** Ransomware.live News  **Publié :** 20/09/2026 13:51 UTC
 `malware`
-Electrolux a subi une attaque ransomware ; ses données Azure ont été volées et une rançon a été exigée.
+Avila Real Estate, LLC is a vertically-integrated multifamily company, adding value through acquisition, development of land, construction and operating residential assets.  Headquartered in Atlanta, Georgia, Avila has developed over $800 million in 25 multifamily transactions since 1986 for its own
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Kreishandwerkerschaft Borken](https://www.ransomware.live/id/S3JlaXNoYW5kd2Vya2Vyc2NoYWZ0IEJvcmtlbkByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 19/09/2026 15:07 UTC
-`ransomware`
-Kreishandwerkerschaft Borken
+### [Malicious npm packages evade install-script defenses at runtime](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/)
+**Source :** Bleeping Computer  **Publié :** 20/09/2026 10:11 UTC
+`apt` `malware`
+An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]
 
 ---
 
-### [CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories](https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 12:44 UTC
-`apt` `breach`
-An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18.
-
-The French security company had kept his GitHub access open. CrowdSec says his laptop was compromised in May's&nbsp;supply chain a
-
----
-
-### [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/)
-**Source :** Bleeping Computer  **Publié :** 19/09/2026 09:48 UTC
-`breach` `malware` `ransomware`
-The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service. [...]
-
----
-
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Quy Nhon University](https://www.ransomware.live/id/UXV5IE5ob24gVW5pdmVyc2l0eUBWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 19/09/2026 07:54 UTC
-`ransomware`
-Quy Nhon University (QNU) is a public, multidisciplinary university located in Quy Nhon City, Binh Dinh Province, Vietnam. Established in 1977, the university has a long-standing tradition in teacher education and has developed into a comprehensive institution offering a wide range of academic progr
+### [🏴‍☠️ Emperador has just published a new victim : Studio Notarile Associato Salvatore Costantino E Anna Favarato](https://www.ransomware.live/id/U3R1ZGlvIE5vdGFyaWxlIEFzc29jaWF0byBTYWx2YXRvcmUgQ29zdGFudGlubyBFIEFubmEgRmF2YXJhdG9AZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 20/09/2026 09:35 UTC
+`malware`
+Studio Notarile Associato Salvatore Costantino E Anna Favarato, Follina 
++39 0438 971778
+Piazza Iv Novembre, 20, 31051, Follina , Italia
+Notary&#x27;s office
+several thousand documents
+There are many customer documents and employee data. [Sector: Finance, Other]
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Identity Visibility in 2026: The Foundation of Identity Security](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 18:58 UTC  **Score :** 25
-`breach`
-Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility
+### 1. [Researchers escape OpenAI Codex sandbox to run commands on host](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/)
+**Source :** Bleeping Computer  **Publié :** 20/09/2026 08:00 UTC  **Score :** 5
+Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]
 
-### 2. [Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up](https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html)
-**Source :** The Hacker News  **Publié :** 19/09/2026 13:21 UTC  **Score :** 25
-`breach`
-Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.
+### 2. [🏴‍☠️ Emperador has just published a new victim : Alabama Woman's Health Care](https://www.ransomware.live/id/QWxhYmFtYSBXb21hbidzIEhlYWx0aCBDYXJlQGVtcGVyYWRvcg==)
+**Source :** Ransomware.live News  **Publié :** 20/09/2026 15:51 UTC  **Score :** 0
+Alabama Woman&#x27;s Health Care
+Comprehensive Consultative Medicine, Wellbeing and Aesthetic Care Organization
+Several thousand documents of employees and clients and an archive of photos
+420 Lowell Dr
+Suite 400
+Huntsville, AL 35801 [Sector: Medical, Other]
 
-The incidents occurred in May 2026 as part of a test run conducted
-
-### 3. [North Korean WaterPlum hackers infected 30,000 devices worldwide](https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/)
-**Source :** Bleeping Computer  **Publié :** 19/09/2026 10:05 UTC  **Score :** 25
-`breach` `cve` `patch`
-Un avis conjoint de la police judiciaire alerte sur les activités des hackers nord-coréens WaterPlum, qui ont compromis au moins 30 000 dispositifs dans le monde entre décembre 2025 et juillet 2026.
+### 3. [🏴‍☠️ Auditteam has just published a new victim : TEK SPB](https://www.ransomware.live/id/VEVLIFNQQkBBdWRpdFRlYW0=)
+**Source :** Ransomware.live News  **Publié :** 20/09/2026 14:50 UTC  **Score :** 0
+TeploEnergoKomplex (TEK SPB, tek-spb.ru) — a St. Petersburg heat-engineering company specializing in design, ZEVS-brand equipment manufacturing, installation, commissioning, and maintenance of individual/central heat points (ITP/CTP) and heat-energy metering units (UUTE)
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-20.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-21.md`*
