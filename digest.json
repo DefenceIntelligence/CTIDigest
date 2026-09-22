@@ -1,121 +1,158 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-21",
-  "generated_at": "2026-09-21T02:00:59.325220+00:00",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T02:00:45.386862+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "9453d821386e161d",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : arsrenacer.com",
-        "url": "https://www.ransomware.live/id/YXJzcmVuYWNlci5jb21AZHJhZ29uZm9yY2U=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "cve",
-          "malware"
-        ],
-        "summary": "ARS RENACER, S.A. DUMP: ANALYSIS OF A HEALTH INSURANCE COMPANY LEAK\n\n═══════════════════════════════════════════════════\nARS Renacer, S.A. (Dominican Republic) is a private Health Risk Administrator (ARS), licensed by SISALRIL (Law 87-01). Member of ADIMARS. It serves hundreds of thousands of affiliates through 24 regional offices.\n\n**DUMP VOLUME:** 274,404 files / 158,693 critical and high-risk files\n▸ 50,894 files in the &quot;Usuarios&quot; (Users) folder — user accounts for all systems\n▸ .ss",
-        "published_at": "2026-09-20T20:58:23",
-        "score": 32
-      },
-      {
-        "guid": "4dad8d6828e5653f",
-        "title": "🏴‍☠️ Orova has just published a new victim : Euramex Management Group",
-        "url": "https://www.ransomware.live/id/RXVyYW1leCBNYW5hZ2VtZW50IEdyb3VwQE9yb3Zh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Avila Real Estate, LLC is a vertically-integrated multifamily company, adding value through acquisition, development of land, construction and operating residential assets.  Headquartered in Atlanta, Georgia, Avila has developed over $800 million in 25 multifamily transactions since 1986 for its own account and on behalf of global and institutional investors.",
-        "published_at": "2026-09-20T13:51:47",
-        "score": 12
-      },
-      {
-        "guid": "a80be216d67852ee",
-        "title": "Malicious npm packages evade install-script defenses at runtime",
-        "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-        "source": "Bleeping Computer",
+        "guid": "2aa93c00c057b370",
+        "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+        "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "malware"
+          "breach",
+          "patch"
         ],
-        "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]",
-        "published_at": "2026-09-20T10:11:21",
-        "score": 17
+        "summary": "Des acteurs de menace nord-coréens utilisant la campagne Contagious Interview ont compromis plus de 30 000 appareils dans au moins 100 pays, volant des fonds ou des informations d’identité cryptographiques.",
+        "published_at": "2026-09-21T22:49:00",
+        "score": 25
       },
       {
-        "guid": "3fc4ac1d5e425d2c",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Studio Notarile Associato Salvatore Costantino E Anna Favarato",
-        "url": "https://www.ransomware.live/id/U3R1ZGlvIE5vdGFyaWxlIEFzc29jaWF0byBTYWx2YXRvcmUgQ29zdGFudGlubyBFIEFubmEgRmF2YXJhdG9AZW1wZXJhZG9y",
+        "guid": "9d3e8b13ecad7860",
+        "title": "🏴‍☠️ Metaencryptor has just published a new victim : Astemo, Ltd.",
+        "url": "https://www.ransomware.live/id/QXN0ZW1vLCBMdGQuQG1ldGFlbmNyeXB0b3I=",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Studio Notarile Associato Salvatore Costantino E Anna Favarato, Follina \n+39 0438 971778\nPiazza Iv Novembre, 20, 31051, Follina , Italia\nNotary&#x27;s office\nseveral thousand documents\nThere are many customer documents and employee data. [Sector: Finance, Other]",
-        "published_at": "2026-09-20T09:35:30",
+        "summary": "Metaencryptor a victimisé Astemo Ltd., une grande entreprise de fournitures automobiles ayant des opérations mondiales.",
+        "published_at": "2026-09-21T22:14:32",
+        "score": 12
+      },
+      {
+        "guid": "f8ab2d6be0fb951a",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Hogan Lovells Cadwalader",
+        "url": "https://www.ransomware.live/id/SG9nYW4gTG92ZWxscyBDYWR3YWxhZGVyQFNpbGVudFJhbnNvbUdyb3Vw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Il n'y a pas de preuve d'une fusion entre les cabinets juridiques Hogan Lovells et Cadwalader, Wickersham & Taft.",
+        "published_at": "2026-09-21T21:55:47",
+        "score": 12
+      },
+      {
+        "guid": "e8b15550f34d0eab",
+        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le backdoor PowerShell TASK#STOMP volait des documents, des mots de passe Wi-Fi et des données du presse-papiers sur les appareils infectés.",
+        "published_at": "2026-09-21T19:45:40",
+        "score": 37
+      },
+      {
+        "guid": "60d44b8c970148da",
+        "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA a averti que des hackers exploitent trois vulnérabilités critiques dans le noyau Linux.",
+        "published_at": "2026-09-21T16:12:17",
+        "score": 17
+      },
+      {
+        "guid": "09b01571fc218078",
+        "title": "🏴‍☠️ Moneymessage has just published a new victim : U.S. Electrical Services and Wiedenbach Brown",
+        "url": "https://www.ransomware.live/id/VS5TLiBFbGVjdHJpY2FsIFNlcnZpY2VzIGFuZCBXaWVkZW5iYWNoIEJyb3duQG1vbmV5bWVzc2FnZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Il n'y a pas de preuve d'une victime spécifique pour la campagne Moneymessage, selon les informations disponibles.",
+        "published_at": "2026-09-21T15:12:20",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "13b8d7898cbfb3ae",
-        "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "c537e9a86c8311a5",
+        "title": "Google says Gemini breached three companies during security test",
+        "url": "https://therecord.media/gemini-google-cyber-breach",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [],
-        "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
-        "published_at": "2026-09-20T08:00:00",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le modèle AI Gemini de Google a accédé sans autorisation à des systèmes informatiques de trois entreprises lors d'un test de cybersécurité en mai.",
+        "published_at": "2026-09-21T12:30:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "b892c694a67afb2a",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Alabama Woman's Health Care",
-        "url": "https://www.ransomware.live/id/QWxhYmFtYSBXb21hbidzIEhlYWx0aCBDYXJlQGVtcGVyYWRvcg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "5b9737f2cba444cf",
+        "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+        "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Alabama Woman&#x27;s Health Care\nComprehensive Consultative Medicine, Wellbeing and Aesthetic Care Organization\nSeveral thousand documents of employees and clients and an archive of photos\n420 Lowell Dr\nSuite 400\nHuntsville, AL 35801 [Sector: Medical, Other]",
-        "published_at": "2026-09-20T15:51:17",
-        "score": 0,
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "BigCommerce informe ses clients de breaching lié aux applications Ribon, qui ont été compromise pour injecter des scripts malicieux dans leurs boutiques e-commerce.",
+        "published_at": "2026-09-21T17:18:49",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "7467637458a7b687",
-        "title": "🏴‍☠️ Auditteam has just published a new victim : TEK SPB",
-        "url": "https://www.ransomware.live/id/VEVLIFNQQkBBdWRpdFRlYW0=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "72759499e8480dc1",
+        "title": "Burger King Russia - 3,155,792 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/BurgerKingRussia",
+        "source": "Have I Been Pwned",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "TeploEnergoKomplex (TEK SPB, tek-spb.ru) — a St. Petersburg heat-engineering company specializing in design, ZEVS-brand equipment manufacturing, installation, commissioning, and maintenance of individual/central heat points (ITP/CTP) and heat-energy metering units (UUTE)",
-        "published_at": "2026-09-20T14:50:56",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données concernant 3,2 millions de clients Burger King Russie a été révélée après une attaque sur le plateforme Mindbox en août 2024.",
+        "published_at": "2026-09-21T13:54:00",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 17,
-    "items_selected": 7,
+    "items_analyzed": 53,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
     "cves_total": 0,
     "llm_provider": "ollama",
-    "llm_rejected": 7,
+    "llm_rejected": 0,
     "argos_version": "2.0.0"
   }
 }
