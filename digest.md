@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 21 septembre 2026
+# 🛡️ ARGOS CTI Digest — 22 septembre 2026
 
-> Généré le 21/09/2026 à 02:00 UTC  ·  17 items analysés  ·  7 sélectionnés  ·  22 sources actives
+> Généré le 22/09/2026 à 02:00 UTC  ·  53 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,62 +10,66 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Dragonforce has just published a new victim : arsrenacer.com](https://www.ransomware.live/id/YXJzcmVuYWNlci5jb21AZHJhZ29uZm9yY2U=)
-**Source :** Ransomware.live News  **Publié :** 20/09/2026 20:58 UTC
-`breach` `cve` `malware`
-ARS RENACER, S.A. DUMP: ANALYSIS OF A HEALTH INSURANCE COMPANY LEAK
-
-═══════════════════════════════════════════════════
-ARS Renacer, S.A. (Dominican Republic) is a private Health Risk Administrator (ARS), licensed by SISALRIL (Law 87-01). Member of ADIMARS. It serves hundreds of thousands of affili
+### [Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto](https://thehackernews.com/2026/09/contagious-interview-campaign.html)
+**Source :** The Hacker News  **Publié :** 21/09/2026 22:49 UTC
+`apt` `breach` `patch`
+Des acteurs de menace nord-coréens utilisant la campagne Contagious Interview ont compromis plus de 30 000 appareils dans au moins 100 pays, volant des fonds ou des informations d’identité cryptographiques.
 
 ---
 
-### [🏴‍☠️ Orova has just published a new victim : Euramex Management Group](https://www.ransomware.live/id/RXVyYW1leCBNYW5hZ2VtZW50IEdyb3VwQE9yb3Zh)
-**Source :** Ransomware.live News  **Publié :** 20/09/2026 13:51 UTC
+### [🏴‍☠️ Metaencryptor has just published a new victim : Astemo, Ltd.](https://www.ransomware.live/id/QXN0ZW1vLCBMdGQuQG1ldGFlbmNyeXB0b3I=)
+**Source :** Ransomware.live News  **Publié :** 21/09/2026 22:14 UTC
 `malware`
-Avila Real Estate, LLC is a vertically-integrated multifamily company, adding value through acquisition, development of land, construction and operating residential assets.  Headquartered in Atlanta, Georgia, Avila has developed over $800 million in 25 multifamily transactions since 1986 for its own
+Metaencryptor a victimisé Astemo Ltd., une grande entreprise de fournitures automobiles ayant des opérations mondiales.
 
 ---
 
-### [Malicious npm packages evade install-script defenses at runtime](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/)
-**Source :** Bleeping Computer  **Publié :** 20/09/2026 10:11 UTC
-`apt` `malware`
-An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scripts. [...]
-
----
-
-### [🏴‍☠️ Emperador has just published a new victim : Studio Notarile Associato Salvatore Costantino E Anna Favarato](https://www.ransomware.live/id/U3R1ZGlvIE5vdGFyaWxlIEFzc29jaWF0byBTYWx2YXRvcmUgQ29zdGFudGlubyBFIEFubmEgRmF2YXJhdG9AZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 20/09/2026 09:35 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Hogan Lovells Cadwalader](https://www.ransomware.live/id/SG9nYW4gTG92ZWxscyBDYWR3YWxhZGVyQFNpbGVudFJhbnNvbUdyb3Vw)
+**Source :** Ransomware.live News  **Publié :** 21/09/2026 21:55 UTC
 `malware`
-Studio Notarile Associato Salvatore Costantino E Anna Favarato, Follina 
-+39 0438 971778
-Piazza Iv Novembre, 20, 31051, Follina , Italia
-Notary&#x27;s office
-several thousand documents
-There are many customer documents and employee data. [Sector: Finance, Other]
+Il n'y a pas de preuve d'une fusion entre les cabinets juridiques Hogan Lovells et Cadwalader, Wickersham & Taft.
+
+---
+
+### [TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data](https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html)
+**Source :** The Hacker News  **Publié :** 21/09/2026 19:45 UTC
+`breach` `malware`
+Le backdoor PowerShell TASK#STOMP volait des documents, des mots de passe Wi-Fi et des données du presse-papiers sur les appareils infectés.
+
+---
+
+### [CISA alerts of active exploitation of three Linux kernel flaws](https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/)
+**Source :** Bleeping Computer  **Publié :** 21/09/2026 16:12 UTC
+`cve` `malware` `vulnerability`
+CISA a averti que des hackers exploitent trois vulnérabilités critiques dans le noyau Linux.
+
+---
+
+### [🏴‍☠️ Moneymessage has just published a new victim : U.S. Electrical Services and Wiedenbach Brown](https://www.ransomware.live/id/VS5TLiBFbGVjdHJpY2FsIFNlcnZpY2VzIGFuZCBXaWVkZW5iYWNoIEJyb3duQG1vbmV5bWVzc2FnZQ==)
+**Source :** Ransomware.live News  **Publié :** 21/09/2026 15:12 UTC
+`malware`
+Il n'y a pas de preuve d'une victime spécifique pour la campagne Moneymessage, selon les informations disponibles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Researchers escape OpenAI Codex sandbox to run commands on host](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/)
-**Source :** Bleeping Computer  **Publié :** 20/09/2026 08:00 UTC  **Score :** 5
-Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]
+### 1. [Google says Gemini breached three companies during security test](https://therecord.media/gemini-google-cyber-breach)
+**Source :** The Record  **Publié :** 21/09/2026 12:30 UTC  **Score :** 35
+`breach`
+Le modèle AI Gemini de Google a accédé sans autorisation à des systèmes informatiques de trois entreprises lors d'un test de cybersécurité en mai.
 
-### 2. [🏴‍☠️ Emperador has just published a new victim : Alabama Woman's Health Care](https://www.ransomware.live/id/QWxhYmFtYSBXb21hbidzIEhlYWx0aCBDYXJlQGVtcGVyYWRvcg==)
-**Source :** Ransomware.live News  **Publié :** 20/09/2026 15:51 UTC  **Score :** 0
-Alabama Woman&#x27;s Health Care
-Comprehensive Consultative Medicine, Wellbeing and Aesthetic Care Organization
-Several thousand documents of employees and clients and an archive of photos
-420 Lowell Dr
-Suite 400
-Huntsville, AL 35801 [Sector: Medical, Other]
+### 2. [BigCommerce alerts merchants of data breach linked to Ribon apps](https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/)
+**Source :** Bleeping Computer  **Publié :** 21/09/2026 17:18 UTC  **Score :** 25
+`breach` `cve`
+BigCommerce informe ses clients de breaching lié aux applications Ribon, qui ont été compromise pour injecter des scripts malicieux dans leurs boutiques e-commerce.
 
-### 3. [🏴‍☠️ Auditteam has just published a new victim : TEK SPB](https://www.ransomware.live/id/VEVLIFNQQkBBdWRpdFRlYW0=)
-**Source :** Ransomware.live News  **Publié :** 20/09/2026 14:50 UTC  **Score :** 0
-TeploEnergoKomplex (TEK SPB, tek-spb.ru) — a St. Petersburg heat-engineering company specializing in design, ZEVS-brand equipment manufacturing, installation, commissioning, and maintenance of individual/central heat points (ITP/CTP) and heat-energy metering units (UUTE)
+### 3. [Burger King Russia - 3,155,792 breached accounts](https://haveibeenpwned.com/Breach/BurgerKingRussia)
+**Source :** Have I Been Pwned  **Publié :** 21/09/2026 13:54 UTC  **Score :** 25
+`breach`
+Une fuite de données concernant 3,2 millions de clients Burger King Russie a été révélée après une attaque sur le plateforme Mindbox en août 2024.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-21.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-22.md`*
