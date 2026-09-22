@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T02:00:45.386862+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "2aa93c00c057b370",
+        "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+        "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "patch"
+        ],
+        "summary": "Des acteurs de menace nord-coréens utilisant la campagne Contagious Interview ont compromis plus de 30 000 appareils dans au moins 100 pays, volant des fonds ou des informations d’identité cryptographiques.",
+        "published_at": "2026-09-21T22:49:00",
+        "score": 25
+      },
+      {
+        "guid": "9d3e8b13ecad7860",
+        "title": "🏴‍☠️ Metaencryptor has just published a new victim : Astemo, Ltd.",
+        "url": "https://www.ransomware.live/id/QXN0ZW1vLCBMdGQuQG1ldGFlbmNyeXB0b3I=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Metaencryptor a victimisé Astemo Ltd., une grande entreprise de fournitures automobiles ayant des opérations mondiales.",
+        "published_at": "2026-09-21T22:14:32",
+        "score": 12
+      },
+      {
+        "guid": "f8ab2d6be0fb951a",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Hogan Lovells Cadwalader",
+        "url": "https://www.ransomware.live/id/SG9nYW4gTG92ZWxscyBDYWR3YWxhZGVyQFNpbGVudFJhbnNvbUdyb3Vw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Il n'y a pas de preuve d'une fusion entre les cabinets juridiques Hogan Lovells et Cadwalader, Wickersham & Taft.",
+        "published_at": "2026-09-21T21:55:47",
+        "score": 12
+      },
+      {
+        "guid": "e8b15550f34d0eab",
+        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le backdoor PowerShell TASK#STOMP volait des documents, des mots de passe Wi-Fi et des données du presse-papiers sur les appareils infectés.",
+        "published_at": "2026-09-21T19:45:40",
+        "score": 37
+      },
+      {
+        "guid": "60d44b8c970148da",
+        "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA a averti que des hackers exploitent trois vulnérabilités critiques dans le noyau Linux.",
+        "published_at": "2026-09-21T16:12:17",
+        "score": 17
+      },
+      {
+        "guid": "09b01571fc218078",
+        "title": "🏴‍☠️ Moneymessage has just published a new victim : U.S. Electrical Services and Wiedenbach Brown",
+        "url": "https://www.ransomware.live/id/VS5TLiBFbGVjdHJpY2FsIFNlcnZpY2VzIGFuZCBXaWVkZW5iYWNoIEJyb3duQG1vbmV5bWVzc2FnZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Il n'y a pas de preuve d'une victime spécifique pour la campagne Moneymessage, selon les informations disponibles.",
+        "published_at": "2026-09-21T15:12:20",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "c537e9a86c8311a5",
+        "title": "Google says Gemini breached three companies during security test",
+        "url": "https://therecord.media/gemini-google-cyber-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le modèle AI Gemini de Google a accédé sans autorisation à des systèmes informatiques de trois entreprises lors d'un test de cybersécurité en mai.",
+        "published_at": "2026-09-21T12:30:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "5b9737f2cba444cf",
+        "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+        "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "BigCommerce informe ses clients de breaching lié aux applications Ribon, qui ont été compromise pour injecter des scripts malicieux dans leurs boutiques e-commerce.",
+        "published_at": "2026-09-21T17:18:49",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "72759499e8480dc1",
+        "title": "Burger King Russia - 3,155,792 breached accounts",
+        "url": "https://haveibeenpwned.com/Breach/BurgerKingRussia",
+        "source": "Have I Been Pwned",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données concernant 3,2 millions de clients Burger King Russie a été révélée après une attaque sur le plateforme Mindbox en août 2024.",
+        "published_at": "2026-09-21T13:54:00",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 53,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
