@@ -1,75 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 22 septembre 2026
+# 🛡️ ARGOS CTI Digest — 23 septembre 2026
 
-> Généré le 22/09/2026 à 02:00 UTC  ·  53 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 23/09/2026 à 02:01 UTC  ·  78 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [lwIP TCP/IP Stack MQTT Client Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-87121`
+`cve` `vulnerability`
+Une vulnérabilité dans lwIP TCP/IP Stack MQTT Client Application permettrait à un attaquant d'obtenir une exécution de code complète sur le appareil.
+
+---
+
+### [Siemens Siveillance Control](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-50093`
+`cve` `malware` `vulnerability`
+Une vulnérabilité dans Siveillance Control permettrait à un attaquant d'uploader des fichiers arbitraires, conduisant potentiellement à un accès non autorisé en root sur le serveur OIS.
+
+---
+
+### [Siemens SIMOVE Fleetmanager and SIPLANT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-67367`
+`cve` `vulnerability`
+SIMOVE Fleetmanager et SIPLANT contiennent une vulnérabilité de parcours du chemin, permettant à un attaquant d'accéder à des fichiers hors de l'ensemble prévu.
+
+---
+
+### [Siemens Desigo CC family](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-34223`
+`breach` `cve` `malware` `vulnerability`
+Desigo CC family est vulnérable à une exécution de code client (CCE), permettant aux acteurs malveillants d'exécuter des documents graphiques spécialement conçus sur les applications clientes.
+
+---
+
+### [Siemens SIPLUS and SIMATIC Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-31431`
+`cve` `vulnerability`
+Plusieurs produits Siemens sont vulnérables au "Copy Fail", recommandant la mise à jour vers les versions les plus récentes.
+
+---
+
+### [Siemens WTV676 and WTV776](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-89207`
+`cve` `vulnerability`
+Une vulnérabilité de déni de service dans lwIP permettrait à un attaquant d'empêcher la connectivité du réseau chez les appareils sous certaines conditions.
+
+---
+
+### [lwIP (Lightweight IP)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-91018`
+`cve` `vulnerability`
+Une vulnérabilité dans lwIP pourrait entraîner une panne du système, un déni de service ou une corruption de la mémoire, menaçant l'exécution du code sur le système victime.
+
+---
+
+### [OpenPLC Runtime v3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09)
+**Source :** CISA Advisories  **Publié :** 22/09/2026 12:00 UTC  **CVE :** `CVE-2026-88020`
+`cve` `malware` `vulnerability`
+Une vulnérabilité dans OpenPLC Runtime v3 permettrait à un attaquant de pirater la session et de contrôler le contrôle logiciel programmable ainsi que les processus physiques qu'il gère.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto](https://thehackernews.com/2026/09/contagious-interview-campaign.html)
-**Source :** The Hacker News  **Publié :** 21/09/2026 22:49 UTC
-`apt` `breach` `patch`
-Des acteurs de menace nord-coréens utilisant la campagne Contagious Interview ont compromis plus de 30 000 appareils dans au moins 100 pays, volant des fonds ou des informations d’identité cryptographiques.
-
----
-
-### [🏴‍☠️ Metaencryptor has just published a new victim : Astemo, Ltd.](https://www.ransomware.live/id/QXN0ZW1vLCBMdGQuQG1ldGFlbmNyeXB0b3I=)
-**Source :** Ransomware.live News  **Publié :** 21/09/2026 22:14 UTC
+### [Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials](https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html)
+**Source :** The Hacker News  **Publié :** 22/09/2026 23:28 UTC
 `malware`
-Metaencryptor a victimisé Astemo Ltd., une grande entreprise de fournitures automobiles ayant des opérations mondiales.
+Un package npm malveillant nommé "tw-pkgprobe-7731" se fait passer pour un outil de bug-bounty visant les développeurs intégrant Twilio dans leurs applications, mais tente en réalité d'exfiltrer des données sensibles.
 
 ---
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Hogan Lovells Cadwalader](https://www.ransomware.live/id/SG9nYW4gTG92ZWxscyBDYWR3YWxhZGVyQFNpbGVudFJhbnNvbUdyb3Vw)
-**Source :** Ransomware.live News  **Publié :** 21/09/2026 21:55 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Clark Hill](https://www.ransomware.live/id/Q2xhcmsgSGlsbEBTaWxlbnRSYW5zb21Hcm91cA==)
+**Source :** Ransomware.live News  **Publié :** 22/09/2026 22:52 UTC
 `malware`
-Il n'y a pas de preuve d'une fusion entre les cabinets juridiques Hogan Lovells et Cadwalader, Wickersham & Taft.
+Le groupe Silentransomgroup a victimaïsé Clark Hill, un cabinet d'avocats multi-sites aux États-Unis, dans une rançonpiège.
 
 ---
 
-### [TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data](https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html)
-**Source :** The Hacker News  **Publié :** 21/09/2026 19:45 UTC
+### [🏴‍☠️ Anubis has just published a new victim : Gaedke & Partner Steuerberatung](https://www.ransomware.live/id/R2FlZGtlICYgUGFydG5lciBTdGV1ZXJiZXJhdHVuZ0BhbnViaXM=)
+**Source :** Ransomware.live News  **Publié :** 22/09/2026 22:24 UTC
 `breach` `malware`
-Le backdoor PowerShell TASK#STOMP volait des documents, des mots de passe Wi-Fi et des données du presse-papiers sur les appareils infectés.
+Une fuite de données a affecté l'entreprise d'accountants Gaedke & Partner Steuerberatung.
 
 ---
 
-### [CISA alerts of active exploitation of three Linux kernel flaws](https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/)
-**Source :** Bleeping Computer  **Publié :** 21/09/2026 16:12 UTC
-`cve` `malware` `vulnerability`
-CISA a averti que des hackers exploitent trois vulnérabilités critiques dans le noyau Linux.
-
----
-
-### [🏴‍☠️ Moneymessage has just published a new victim : U.S. Electrical Services and Wiedenbach Brown](https://www.ransomware.live/id/VS5TLiBFbGVjdHJpY2FsIFNlcnZpY2VzIGFuZCBXaWVkZW5iYWNoIEJyb3duQG1vbmV5bWVzc2FnZQ==)
-**Source :** Ransomware.live News  **Publié :** 21/09/2026 15:12 UTC
+### [🏴‍☠️ Titan has just published a new victim : Grupo Hospifar S.R.L.](https://www.ransomware.live/id/R3J1cG8gSG9zcGlmYXIgUy5SLkwuQHRpdGFu)
+**Source :** Ransomware.live News  **Publié :** 22/09/2026 19:55 UTC
 `malware`
-Il n'y a pas de preuve d'une victime spécifique pour la campagne Moneymessage, selon les informations disponibles.
+[AI généré] N/A
+
+---
+
+### [🏴‍☠️ Titan has just published a new victim : Sherman Chan, DDS, Inc.](https://www.ransomware.live/id/U2hlcm1hbiBDaGFuLCBERFMsIEluYy5AdGl0YW4=)
+**Source :** Ransomware.live News  **Publié :** 22/09/2026 19:54 UTC
+`malware`
+[AI généré] N/A
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Cozen O'Connor](https://www.ransomware.live/id/Q296ZW4gTydDb25ub3JAU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 22/09/2026 19:29 UTC
+`malware`
+La société de droit américaine Cozen O'Connor est la dernière victime du groupe de rançonnière Silentransomgroup.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Google says Gemini breached three companies during security test](https://therecord.media/gemini-google-cyber-breach)
-**Source :** The Record  **Publié :** 21/09/2026 12:30 UTC  **Score :** 35
-`breach`
-Le modèle AI Gemini de Google a accédé sans autorisation à des systèmes informatiques de trois entreprises lors d'un test de cybersécurité en mai.
+### 1. [Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises](https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html)
+**Source :** The Hacker News  **Publié :** 22/09/2026 22:33 UTC  **Score :** 35
+`breach` `phishing`
+Microsoft a neutralisé le service de phishing EvilTokens, soupçonné d'avoir compromis 12 000 boîtes aux lettres avec l'aide d'OpenAI et d'autres partenaires.
 
-### 2. [BigCommerce alerts merchants of data breach linked to Ribon apps](https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/)
-**Source :** Bleeping Computer  **Publié :** 21/09/2026 17:18 UTC  **Score :** 25
-`breach` `cve`
-BigCommerce informe ses clients de breaching lié aux applications Ribon, qui ont été compromise pour injecter des scripts malicieux dans leurs boutiques e-commerce.
-
-### 3. [Burger King Russia - 3,155,792 breached accounts](https://haveibeenpwned.com/Breach/BurgerKingRussia)
-**Source :** Have I Been Pwned  **Publié :** 21/09/2026 13:54 UTC  **Score :** 25
+### 2. [Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals](https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens)
+**Source :** The Record  **Publié :** 22/09/2026 15:51 UTC  **Score :** 35
 `breach`
-Une fuite de données concernant 3,2 millions de clients Burger King Russie a été révélée après une attaque sur le plateforme Mindbox en août 2024.
+Deux personnes ont été arrêtées au Royaume-Uni après la fermeture de la plateforme EvilTokens par Microsoft.
+
+### 3. [Webinar tomorrow: Inside real-world Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/)
+**Source :** Bleeping Computer  **Publié :** 22/09/2026 08:57 UTC  **Score :** 35
+`breach` `phishing`
+Un webinaire examine des breachers réels sur Google Workspace, couvrant le social engineering et les applications malveillantes OAuth.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-22.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-23.md`*
