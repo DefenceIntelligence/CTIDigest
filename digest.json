@@ -1,156 +1,294 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22T02:00:45.386862+00:00",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T02:01:25.018693+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
-    "campaigns": [
+    "vulnerabilities": [
       {
-        "guid": "2aa93c00c057b370",
-        "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-        "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach",
-          "patch"
+        "guid": "78499e8fa5cc73e7",
+        "title": "lwIP TCP/IP Stack MQTT Client Application",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-87121"
         ],
-        "summary": "Des acteurs de menace nord-coréens utilisant la campagne Contagious Interview ont compromis plus de 30 000 appareils dans au moins 100 pays, volant des fonds ou des informations d’identité cryptographiques.",
-        "published_at": "2026-09-21T22:49:00",
-        "score": 25
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans lwIP TCP/IP Stack MQTT Client Application permettrait à un attaquant d'obtenir une exécution de code complète sur le appareil.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 15
       },
       {
-        "guid": "9d3e8b13ecad7860",
-        "title": "🏴‍☠️ Metaencryptor has just published a new victim : Astemo, Ltd.",
-        "url": "https://www.ransomware.live/id/QXN0ZW1vLCBMdGQuQG1ldGFlbmNyeXB0b3I=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
+        "guid": "3b732b13c0a5437d",
+        "title": "Siemens Siveillance Control",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-50093"
         ],
-        "summary": "Metaencryptor a victimisé Astemo Ltd., une grande entreprise de fournitures automobiles ayant des opérations mondiales.",
-        "published_at": "2026-09-21T22:14:32",
-        "score": 12
-      },
-      {
-        "guid": "f8ab2d6be0fb951a",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Hogan Lovells Cadwalader",
-        "url": "https://www.ransomware.live/id/SG9nYW4gTG92ZWxscyBDYWR3YWxhZGVyQFNpbGVudFJhbnNvbUdyb3Vw",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Il n'y a pas de preuve d'une fusion entre les cabinets juridiques Hogan Lovells et Cadwalader, Wickersham & Taft.",
-        "published_at": "2026-09-21T21:55:47",
-        "score": 12
-      },
-      {
-        "guid": "e8b15550f34d0eab",
-        "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Le backdoor PowerShell TASK#STOMP volait des documents, des mots de passe Wi-Fi et des données du presse-papiers sur les appareils infectés.",
-        "published_at": "2026-09-21T19:45:40",
-        "score": 37
-      },
-      {
-        "guid": "60d44b8c970148da",
-        "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "CISA a averti que des hackers exploitent trois vulnérabilités critiques dans le noyau Linux.",
-        "published_at": "2026-09-21T16:12:17",
+        "summary": "Une vulnérabilité dans Siveillance Control permettrait à un attaquant d'uploader des fichiers arbitraires, conduisant potentiellement à un accès non autorisé en root sur le serveur OIS.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "232954a9da55fc32",
+        "title": "Siemens SIMOVE Fleetmanager and SIPLANT",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-67367"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "SIMOVE Fleetmanager et SIPLANT contiennent une vulnérabilité de parcours du chemin, permettant à un attaquant d'accéder à des fichiers hors de l'ensemble prévu.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "8cc9e4f57f617e19",
+        "title": "Siemens Desigo CC family",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-34223"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Desigo CC family est vulnérable à une exécution de code client (CCE), permettant aux acteurs malveillants d'exécuter des documents graphiques spécialement conçus sur les applications clientes.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 47
+      },
+      {
+        "guid": "cffce343a93241ac",
+        "title": "Siemens SIPLUS and SIMATIC Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-31431"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Plusieurs produits Siemens sont vulnérables au \"Copy Fail\", recommandant la mise à jour vers les versions les plus récentes.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "3f58f9ebf1e5fd3a",
+        "title": "Siemens WTV676 and WTV776",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-89207"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité de déni de service dans lwIP permettrait à un attaquant d'empêcher la connectivité du réseau chez les appareils sous certaines conditions.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "615ce241b398c00d",
+        "title": "lwIP (Lightweight IP)",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-91018"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans lwIP pourrait entraîner une panne du système, un déni de service ou une corruption de la mémoire, menaçant l'exécution du code sur le système victime.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "1099b7ad754b9e88",
+        "title": "OpenPLC Runtime v3",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-88020"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans OpenPLC Runtime v3 permettrait à un attaquant de pirater la session et de contrôler le contrôle logiciel programmable ainsi que les processus physiques qu'il gère.",
+        "published_at": "2026-09-22T12:00:00",
+        "score": 27
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b7454bdff3ace597",
+        "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+        "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un package npm malveillant nommé \"tw-pkgprobe-7731\" se fait passer pour un outil de bug-bounty visant les développeurs intégrant Twilio dans leurs applications, mais tente en réalité d'exfiltrer des données sensibles.",
+        "published_at": "2026-09-22T23:28:15",
         "score": 17
       },
       {
-        "guid": "09b01571fc218078",
-        "title": "🏴‍☠️ Moneymessage has just published a new victim : U.S. Electrical Services and Wiedenbach Brown",
-        "url": "https://www.ransomware.live/id/VS5TLiBFbGVjdHJpY2FsIFNlcnZpY2VzIGFuZCBXaWVkZW5iYWNoIEJyb3duQG1vbmV5bWVzc2FnZQ==",
+        "guid": "25dad01f608f0ad7",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Clark Hill",
+        "url": "https://www.ransomware.live/id/Q2xhcmsgSGlsbEBTaWxlbnRSYW5zb21Hcm91cA==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Il n'y a pas de preuve d'une victime spécifique pour la campagne Moneymessage, selon les informations disponibles.",
-        "published_at": "2026-09-21T15:12:20",
+        "summary": "Le groupe Silentransomgroup a victimaïsé Clark Hill, un cabinet d'avocats multi-sites aux États-Unis, dans une rançonpiège.",
+        "published_at": "2026-09-22T22:52:34",
+        "score": 12
+      },
+      {
+        "guid": "bf7d8a8ce0dc5368",
+        "title": "🏴‍☠️ Anubis has just published a new victim : Gaedke & Partner Steuerberatung",
+        "url": "https://www.ransomware.live/id/R2FlZGtlICYgUGFydG5lciBTdGV1ZXJiZXJhdHVuZ0BhbnViaXM=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une fuite de données a affecté l'entreprise d'accountants Gaedke & Partner Steuerberatung.",
+        "published_at": "2026-09-22T22:24:10",
+        "score": 32
+      },
+      {
+        "guid": "cf5c3aebb50fc618",
+        "title": "🏴‍☠️ Titan has just published a new victim : Grupo Hospifar S.R.L.",
+        "url": "https://www.ransomware.live/id/R3J1cG8gSG9zcGlmYXIgUy5SLkwuQHRpdGFu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI généré] N/A",
+        "published_at": "2026-09-22T19:55:20",
+        "score": 12
+      },
+      {
+        "guid": "b806515805d7ac3c",
+        "title": "🏴‍☠️ Titan has just published a new victim : Sherman Chan, DDS, Inc.",
+        "url": "https://www.ransomware.live/id/U2hlcm1hbiBDaGFuLCBERFMsIEluYy5AdGl0YW4=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI généré] N/A",
+        "published_at": "2026-09-22T19:54:43",
+        "score": 12
+      },
+      {
+        "guid": "1a9cc3a00b8ff476",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Cozen O'Connor",
+        "url": "https://www.ransomware.live/id/Q296ZW4gTydDb25ub3JAU2lsZW50UmFuc29tR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La société de droit américaine Cozen O'Connor est la dernière victime du groupe de rançonnière Silentransomgroup.",
+        "published_at": "2026-09-22T19:29:26",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "c537e9a86c8311a5",
-        "title": "Google says Gemini breached three companies during security test",
-        "url": "https://therecord.media/gemini-google-cyber-breach",
+        "guid": "12446468ed94b647",
+        "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+        "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "phishing"
+        ],
+        "summary": "Microsoft a neutralisé le service de phishing EvilTokens, soupçonné d'avoir compromis 12 000 boîtes aux lettres avec l'aide d'OpenAI et d'autres partenaires.",
+        "published_at": "2026-09-22T22:33:31",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "91b3cb3c9f0266a6",
+        "title": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
+        "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Le modèle AI Gemini de Google a accédé sans autorisation à des systèmes informatiques de trois entreprises lors d'un test de cybersécurité en mai.",
-        "published_at": "2026-09-21T12:30:00",
+        "summary": "Deux personnes ont été arrêtées au Royaume-Uni après la fermeture de la plateforme EvilTokens par Microsoft.",
+        "published_at": "2026-09-22T15:51:00",
         "score": 35,
-        "rank": 1
+        "rank": 2
       },
       {
-        "guid": "5b9737f2cba444cf",
-        "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-        "url": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+        "guid": "35c2437bcdcd9d35",
+        "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+        "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve"
+          "phishing"
         ],
-        "summary": "BigCommerce informe ses clients de breaching lié aux applications Ribon, qui ont été compromise pour injecter des scripts malicieux dans leurs boutiques e-commerce.",
-        "published_at": "2026-09-21T17:18:49",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "72759499e8480dc1",
-        "title": "Burger King Russia - 3,155,792 breached accounts",
-        "url": "https://haveibeenpwned.com/Breach/BurgerKingRussia",
-        "source": "Have I Been Pwned",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Une fuite de données concernant 3,2 millions de clients Burger King Russie a été révélée après une attaque sur le plateforme Mindbox en août 2024.",
-        "published_at": "2026-09-21T13:54:00",
-        "score": 25,
+        "summary": "Un webinaire examine des breachers réels sur Google Workspace, couvrant le social engineering et les applications malveillantes OAuth.",
+        "published_at": "2026-09-22T08:57:07",
+        "score": 35,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 53,
-    "items_selected": 9,
+    "items_analyzed": 78,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 0,
+    "cves_total": 8,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
