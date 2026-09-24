@@ -1,184 +1,202 @@
 {
   "schema_version": "1.0",
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T02:01:25.018693+00:00",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T02:01:26.598120+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "78499e8fa5cc73e7",
-        "title": "lwIP TCP/IP Stack MQTT Client Application",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "4d606a6bea169716",
+        "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+        "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-87121"
+          "CVE-2026-85046",
+          "CVE-2026-87491",
+          "CVE-2026-85880"
         ],
         "tags": [
+          "apt",
           "cve",
+          "malware",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité dans lwIP TCP/IP Stack MQTT Client Application permettrait à un attaquant d'obtenir une exécution de code complète sur le appareil.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 15
+        "summary": "Un threat actor chinois a exploité une chaîne de vulnérabilités récentes dans Chrome et Windows pour déployer le malware CLEANGULP via des sites web falsifiés.",
+        "published_at": "2026-09-23T13:59:24",
+        "score": 32
       },
       {
-        "guid": "3b732b13c0a5437d",
-        "title": "Siemens Siveillance Control",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "efd456bf75ceefaf",
+        "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+        "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-50093"
+          "CVE-2026-67279",
+          "CVE-2026-86060"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité dans Siveillance Control permettrait à un attaquant d'uploader des fichiers arbitraires, conduisant potentiellement à un accès non autorisé en root sur le serveur OIS.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 27
+        "summary": "Le chainage d'une vulnérabilité SSH (CVE-2026-67279) et de l'injection d'argument (CVE-2026-86060) permet aux attaquants de prendre le contrôle administratif total des routeurs MikroTik sans authentification.",
+        "published_at": "2026-09-23T21:36:41",
+        "score": 32
       },
       {
-        "guid": "232954a9da55fc32",
-        "title": "Siemens SIMOVE Fleetmanager and SIPLANT",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-07",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "3a4a1b5b7196bf11",
+        "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+        "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-67367"
+          "CVE-2026-80521"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "SIMOVE Fleetmanager et SIPLANT contiennent une vulnérabilité de parcours du chemin, permettant à un attaquant d'accéder à des fichiers hors de l'ensemble prévu.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 15
+        "summary": "Une vulnérabilité use-after-free dans le noyau Linux permet d'échapper à un conteneur et de gagner des privilèges root sur l'hôte, selon DepthFirst.",
+        "published_at": "2026-09-23T16:42:18",
+        "score": 20
       },
       {
-        "guid": "8cc9e4f57f617e19",
-        "title": "Siemens Desigo CC family",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+        "guid": "00341e3878b7c05c",
+        "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+        "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-85102"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Check Point a confirmé l'exploitation active d'une vulnérabilité RCE pré-autorisée (CVE-2026-85102) dans la fonctionnalité de certificats du pare-feu Security Gateway.",
+        "published_at": "2026-09-23T15:53:54",
+        "score": 20
+      },
+      {
+        "guid": "93a8794cc2a9e06e",
+        "title": "Hackers start exploiting critical WordPress flaw for code execution",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-87902"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les attaquants exploitent une vulnérabilité critique de code exécution via le registre WordPress (CVE-2026-87902) pour écrire des fichiers exécutables.",
+        "published_at": "2026-09-23T14:31:22",
+        "score": 20
+      },
+      {
+        "guid": "b243cc65ddcf5d75",
+        "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+        "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-94127"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploitent une vulnérabilité RCE non authentifiée (CVE-2026-94127) dans F5 BIG-IP APM, affectant uniquement les systèmes utilisant APM comme serveur OAuth.",
+        "published_at": "2026-09-23T13:59:48",
+        "score": 20
+      },
+      {
+        "guid": "b32f9e7d43de6506",
+        "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+        "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
         "source": "CISA Advisories",
         "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-34223"
-        ],
+        "cve": [],
         "tags": [
           "breach",
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Desigo CC family est vulnérable à une exécution de code client (CCE), permettant aux acteurs malveillants d'exécuter des documents graphiques spécialement conçus sur les applications clientes.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 47
-      },
-      {
-        "guid": "cffce343a93241ac",
-        "title": "Siemens SIPLUS and SIMATIC Products",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-31431"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Plusieurs produits Siemens sont vulnérables au \"Copy Fail\", recommandant la mise à jour vers les versions les plus récentes.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "3f58f9ebf1e5fd3a",
-        "title": "Siemens WTV676 and WTV776",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-89207"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité de déni de service dans lwIP permettrait à un attaquant d'empêcher la connectivité du réseau chez les appareils sous certaines conditions.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "615ce241b398c00d",
-        "title": "lwIP (Lightweight IP)",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-91018"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité dans lwIP pourrait entraîner une panne du système, un déni de service ou une corruption de la mémoire, menaçant l'exécution du code sur le système victime.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "1099b7ad754b9e88",
-        "title": "OpenPLC Runtime v3",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-88020"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité dans OpenPLC Runtime v3 permettrait à un attaquant de pirater la session et de contrôler le contrôle logiciel programmable ainsi que les processus physiques qu'il gère.",
-        "published_at": "2026-09-22T12:00:00",
-        "score": 27
+        "summary": "L'agence FBI et CISA ont publié des considérations pour la sécurité de critical infrastructure travaillant avec des intégrateurs ICS tiers, visant à réduire les risques et minimiser les vulnérabilités.",
+        "published_at": "2026-09-23T12:00:00",
+        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "b7454bdff3ace597",
-        "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-        "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+        "guid": "cb98628bcd5a0bcf",
+        "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+        "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des malwares Go ont été distribués via des fournisseurs Terraform et des modules Go Module, utilisant le registre centralisé de HashiCorp comme vecteur de diffusion.",
+        "published_at": "2026-09-23T23:36:30",
+        "score": 17
+      },
+      {
+        "guid": "6a5f09114f1a6c3b",
+        "title": "🏴‍☠️ Emperador has just published a new victim : OnTrac",
+        "url": "https://www.ransomware.live/id/T25UcmFjQGVtcGVyYWRvcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Emperador a ciblé OnTrac, une entreprise majeure d'expédition en dernier kilomètre, avec 197k enregistrements de données personnelles des employés.",
+        "published_at": "2026-09-23T20:51:04",
+        "score": 12
+      },
+      {
+        "guid": "44d7547f745701cc",
+        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+        "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Un package npm malveillant nommé \"tw-pkgprobe-7731\" se fait passer pour un outil de bug-bounty visant les développeurs intégrant Twilio dans leurs applications, mais tente en réalité d'exfiltrer des données sensibles.",
-        "published_at": "2026-09-22T23:28:15",
+        "summary": "CLOSEDQUORUM, un malware Windows, peut suivre les directives d'IA plutôt que d'un serveur attaquant, permettant la volée de données de compte Windows, mots de passe et portefeuilles cryptographiques.",
+        "published_at": "2026-09-23T19:47:58",
         "score": 17
       },
       {
-        "guid": "25dad01f608f0ad7",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Clark Hill",
-        "url": "https://www.ransomware.live/id/Q2xhcmsgSGlsbEBTaWxlbnRSYW5zb21Hcm91cA==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "c3ee31cb9902e1c4",
+        "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+        "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "malware"
+          "apt",
+          "breach"
         ],
-        "summary": "Le groupe Silentransomgroup a victimaïsé Clark Hill, un cabinet d'avocats multi-sites aux États-Unis, dans une rançonpiège.",
-        "published_at": "2026-09-22T22:52:34",
-        "score": 12
+        "summary": "Des menaces inconnues ont compromis deux paquets MemTensor sur npm et PyPI pour délivrer sckit, un implant Go multiplateforme.",
+        "published_at": "2026-09-23T19:22:46",
+        "score": 25
       },
       {
-        "guid": "bf7d8a8ce0dc5368",
-        "title": "🏴‍☠️ Anubis has just published a new victim : Gaedke & Partner Steuerberatung",
-        "url": "https://www.ransomware.live/id/R2FlZGtlICYgUGFydG5lciBTdGV1ZXJiZXJhdHVuZ0BhbnViaXM=",
+        "guid": "a10ac0dbd5602b93",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : Abtach Ltd.",
+        "url": "https://www.ransomware.live/id/QWJ0YWNoIEx0ZC5AQmFycmFjdWRh",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -186,109 +204,79 @@
           "breach",
           "malware"
         ],
-        "summary": "Une fuite de données a affecté l'entreprise d'accountants Gaedke & Partner Steuerberatung.",
-        "published_at": "2026-09-22T22:24:10",
+        "summary": "Abtach Ltd. a été victime d'une ransomware. Toutes les machines et fichiers ont été chiffrés, 1.5 TB de données ont été exfiltrées.",
+        "published_at": "2026-09-23T19:20:51",
         "score": 32
       },
       {
-        "guid": "cf5c3aebb50fc618",
-        "title": "🏴‍☠️ Titan has just published a new victim : Grupo Hospifar S.R.L.",
-        "url": "https://www.ransomware.live/id/R3J1cG8gSG9zcGlmYXIgUy5SLkwuQHRpdGFu",
+        "guid": "389e5cf9fe2f2271",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : goldstarfinancial.com",
+        "url": "https://www.ransomware.live/id/Z29sZHN0YXJmaW5hbmNpYWwuY29tQEJyYWluQ2lwaGVy",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "[AI généré] N/A",
-        "published_at": "2026-09-22T19:55:20",
-        "score": 12
-      },
-      {
-        "guid": "b806515805d7ac3c",
-        "title": "🏴‍☠️ Titan has just published a new victim : Sherman Chan, DDS, Inc.",
-        "url": "https://www.ransomware.live/id/U2hlcm1hbiBDaGFuLCBERFMsIEluYy5AdGl0YW4=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "[AI généré] N/A",
-        "published_at": "2026-09-22T19:54:43",
-        "score": 12
-      },
-      {
-        "guid": "1a9cc3a00b8ff476",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Cozen O'Connor",
-        "url": "https://www.ransomware.live/id/Q296ZW4gTydDb25ub3JAU2lsZW50UmFuc29tR3JvdXA=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La société de droit américaine Cozen O'Connor est la dernière victime du groupe de rançonnière Silentransomgroup.",
-        "published_at": "2026-09-22T19:29:26",
+        "summary": "Aucune information fiable n'est disponible concernant le potentiel vol de données sur goldstarfinancial.com.",
+        "published_at": "2026-09-23T18:20:39",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "12446468ed94b647",
-        "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-        "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "phishing"
-        ],
-        "summary": "Microsoft a neutralisé le service de phishing EvilTokens, soupçonné d'avoir compromis 12 000 boîtes aux lettres avec l'aide d'OpenAI et d'autres partenaires.",
-        "published_at": "2026-09-22T22:33:31",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "91b3cb3c9f0266a6",
-        "title": "Two arrested in UK after Microsoft takedown of ‘Eviltokens’ AI-chatbot for cybercriminals",
-        "url": "https://therecord.media/two-arrested-in-uk-after-microsoft-takedown-eviltokens",
+        "guid": "23273fc602b2aa0b",
+        "title": "FBI investigating alleged ShinyHunters breach of its jobs site",
+        "url": "https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Deux personnes ont été arrêtées au Royaume-Uni après la fermeture de la plateforme EvilTokens par Microsoft.",
-        "published_at": "2026-09-22T15:51:00",
+        "summary": "Le FBI enquête sur un supposé hack par ShinyHunters du site web des emplois fédéraux, remplaçant des images avec des Pokémon.",
+        "published_at": "2026-09-23T14:22:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "5651a865315e6170",
+        "title": "Latvia arrests suspected hacker for electronics repair company breach",
+        "url": "https://therecord.media/latvia-hacker-arrest-cyberattack",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un homme de 23 ans a été arrêté pour avoir supposé hacké deux entreprises en Latvie, volant des informations personnelles et tentant d'extorquer de l'argent.",
+        "published_at": "2026-09-23T12:45:00",
         "score": 35,
         "rank": 2
       },
       {
-        "guid": "35c2437bcdcd9d35",
-        "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-        "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-        "source": "Bleeping Computer",
+        "guid": "c1759df45002f2e6",
+        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+        "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
-          "phishing"
+          "breach"
         ],
-        "summary": "Un webinaire examine des breachers réels sur Google Workspace, couvrant le social engineering et les applications malveillantes OAuth.",
-        "published_at": "2026-09-22T08:57:07",
-        "score": 35,
+        "summary": "ShinyHunters prétend avoir hacké le FBI et volé des données sensibles sur les agents actuels et anciens ainsi que les candidats.",
+        "published_at": "2026-09-23T11:00:09",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 78,
-    "items_selected": 17,
+    "items_analyzed": 81,
+    "items_selected": 16,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 8,
+    "cves_total": 9,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
