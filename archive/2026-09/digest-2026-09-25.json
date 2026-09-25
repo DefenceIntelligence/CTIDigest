@@ -1,0 +1,222 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-25",
+  "generated_at": "2026-09-25T02:01:03.749557+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "a7e7367194e35c85",
+        "title": "Botslab G980H Dashcams",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-84403",
+          "CVE-2026-84399",
+          "CVE-2026-88761",
+          "CVE-2026-87118",
+          "CVE-2026-81630",
+          "CVE-2026-82566",
+          "CVE-2026-82708",
+          "CVE-2026-82585",
+          "CVE-2026-85496",
+          "CVE-2026-88956"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions de la caméra de bord Botslab G980H sont vulnérables à des attaques permettant l'accès non autorisé et le contrôle du dispositif.",
+        "published_at": "2026-09-24T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "c443bc6a72535b79",
+        "title": "Eufy Omni C20, Omni X10 Pro",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-93289",
+          "CVE-2026-93291",
+          "CVE-2026-93290"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les modèles Eufy Omni C20 et Omni X10 Pro sont affectés par des vulnérabilités permettant l'exécution de commandes système ou le code arbitraire.",
+        "published_at": "2026-09-24T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "c906727476e2bba9",
+        "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-87902"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille critique dans WordPress (CVE-2026-87902) a été exploité par des acteurs malveillants dès sa divulgation, permettant l'exécution de code distant non authentifié.",
+        "published_at": "2026-09-24T11:06:18",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "2a4117c7d06c0659",
+        "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+        "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans OnePlus permet à des applications malveillantes d'obtenir le root sans autorisation spéciale.",
+        "published_at": "2026-09-24T23:40:18",
+        "score": 17
+      },
+      {
+        "guid": "c6f37be999676235",
+        "title": "Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation",
+        "url": "https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Ardit Kutleshi a reconnu sa responsabilité dans l'exploitation du marché cybercriminel Rydox après la déportation de ses frères.",
+        "published_at": "2026-09-24T18:57:00",
+        "score": 47
+      },
+      {
+        "guid": "972a148dbc066570",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : NEAD Pro",
+        "url": "https://www.ransomware.live/id/TkVBRCBQcm9Acmh5c2lkYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "NEAD Pro, une firme italienne, a été victime d'une violation d'informations, entraînant l'exposition de 575 000 fichiers.",
+        "published_at": "2026-09-24T18:01:29",
+        "score": 12
+      },
+      {
+        "guid": "61fff3df0f0043e4",
+        "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+        "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le malware MacSync utilise des événements de calendrier iCloud publics pour distribuer de nouveaux payloads natives sur les systèmes macOS.",
+        "published_at": "2026-09-24T16:53:35",
+        "score": 17
+      },
+      {
+        "guid": "da5724769272fadb",
+        "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+        "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les secrets en nuage sont plus fréquemment divulgués avec l'aide d'IA, augmentant la vulnérabilité des applications.",
+        "published_at": "2026-09-24T16:30:00",
+        "score": 17
+      },
+      {
+        "guid": "b7986666167419c1",
+        "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+        "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le nouveau malware Carbonato utilise des agents IA pour prendre le contrôle de serveurs Docker exposés.",
+        "published_at": "2026-09-24T16:10:48",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "f7772dda56c70ae7",
+        "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+        "url": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Les sénateurs Warner et Cruz ont proposé une loi sur la cybersécurité télécom après les attaques Salt Typhoon.",
+        "published_at": "2026-09-24T20:15:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "405ec0b2d2b14a0f",
+        "title": "Astrana latest healthcare tech firm to report data breach to SEC",
+        "url": "https://therecord.media/astrana-cyberattack-sec-ransomware",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Astrana a prévenu les régulateurs qu'un hackeur avait accédé à des informations confidentielles en se faisant passer pour un employé de l'entreprise.",
+        "published_at": "2026-09-24T13:15:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "94f337e98392a805",
+        "title": "OpenAI agent breached Australian government health website, Albanese says",
+        "url": "https://therecord.media/openai-australia-health-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le Premier ministre Anthony Albanese a déclaré que, en juin, un agent d'OpenAI avait obtenu un accès non autorisé à des fichiers non publics sur le site Web gouvernemental australien de santé.",
+        "published_at": "2026-09-24T12:30:00",
+        "score": 35,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 65,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 14,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
