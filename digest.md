@@ -1,122 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 24 septembre 2026
+# 🛡️ ARGOS CTI Digest — 25 septembre 2026
 
-> Généré le 24/09/2026 à 02:01 UTC  ·  81 items analysés  ·  16 sélectionnés  ·  22 sources actives
+> Généré le 25/09/2026 à 02:01 UTC  ·  65 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware](https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 13:59 UTC  **CVE :** `CVE-2026-85046`, `CVE-2026-87491`, `CVE-2026-85880`
+### [Botslab G980H Dashcams](https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01)
+**Source :** CISA Advisories  **Publié :** 24/09/2026 12:00 UTC  **CVE :** `CVE-2026-84403`, `CVE-2026-84399`, `CVE-2026-88761`, `CVE-2026-87118`, `CVE-2026-81630`
 `apt` `cve` `malware` `vulnerability`
-Un threat actor chinois a exploité une chaîne de vulnérabilités récentes dans Chrome et Windows pour déployer le malware CLEANGULP via des sites web falsifiés.
+Les versions de la caméra de bord Botslab G980H sont vulnérables à des attaques permettant l'accès non autorisé et le contrôle du dispositif.
 
 ---
 
-### [MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key](https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 21:36 UTC  **CVE :** `CVE-2026-67279`, `CVE-2026-86060`
-`cve` `malware` `vulnerability`
-Le chainage d'une vulnérabilité SSH (CVE-2026-67279) et de l'injection d'argument (CVE-2026-86060) permet aux attaquants de prendre le contrôle administratif total des routeurs MikroTik sans authentification.
-
----
-
-### [Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape](https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 16:42 UTC  **CVE :** `CVE-2026-80521`
+### [Eufy Omni C20, Omni X10 Pro](https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02)
+**Source :** CISA Advisories  **Publié :** 24/09/2026 12:00 UTC  **CVE :** `CVE-2026-93289`, `CVE-2026-93291`, `CVE-2026-93290`
 `cve` `vulnerability`
-Une vulnérabilité use-after-free dans le noyau Linux permet d'échapper à un conteneur et de gagner des privilèges root sur l'hôte, selon DepthFirst.
+Les modèles Eufy Omni C20 et Omni X10 Pro sont affectés par des vulnérabilités permettant l'exécution de commandes système ou le code arbitraire.
 
 ---
 
-### [Check Point warns of hackers exploiting Security Gateway VPN RCE flaw](https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/)
-**Source :** Bleeping Computer  **Publié :** 23/09/2026 15:53 UTC  **CVE :** `CVE-2026-85102`
-`cve` `vulnerability`
-Check Point a confirmé l'exploitation active d'une vulnérabilité RCE pré-autorisée (CVE-2026-85102) dans la fonctionnalité de certificats du pare-feu Security Gateway.
-
----
-
-### [Hackers start exploiting critical WordPress flaw for code execution](https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/)
-**Source :** Bleeping Computer  **Publié :** 23/09/2026 14:31 UTC  **CVE :** `CVE-2026-87902`
+### [Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure](https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html)
+**Source :** The Hacker News  **Publié :** 24/09/2026 11:06 UTC  **CVE :** `CVE-2026-87902`
 `apt` `cve` `vulnerability`
-Les attaquants exploitent une vulnérabilité critique de code exécution via le registre WordPress (CVE-2026-87902) pour écrire des fichiers exécutables.
-
----
-
-### [F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers](https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 13:59 UTC  **CVE :** `CVE-2026-94127`
-`cve` `patch` `vulnerability`
-Des attaquants exploitent une vulnérabilité RCE non authentifiée (CVE-2026-94127) dans F5 BIG-IP APM, affectant uniquement les systèmes utilisant APM comme serveur OAuth.
-
----
-
-### [Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators](https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators)
-**Source :** CISA Advisories  **Publié :** 23/09/2026 12:00 UTC
-`breach` `cve` `malware` `vulnerability`
-L'agence FBI et CISA ont publié des considérations pour la sécurité de critical infrastructure travaillant avec des intégrateurs ICS tiers, visant à réduire les risques et minimiser les vulnérabilités.
+Une faille critique dans WordPress (CVE-2026-87902) a été exploité par des acteurs malveillants dès sa divulgation, permettant l'exécution de code distant non authentifié.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry](https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 23:36 UTC
-`apt` `malware`
-Des malwares Go ont été distribués via des fournisseurs Terraform et des modules Go Module, utilisant le registre centralisé de HashiCorp comme vecteur de diffusion.
+### [Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
+**Source :** The Hacker News  **Publié :** 24/09/2026 23:40 UTC
+`malware` `vulnerability`
+Une faille dans OnePlus permet à des applications malveillantes d'obtenir le root sans autorisation spéciale.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : OnTrac](https://www.ransomware.live/id/T25UcmFjQGVtcGVyYWRvcg==)
-**Source :** Ransomware.live News  **Publié :** 23/09/2026 20:51 UTC
-`cve` `malware`
-Emperador a ciblé OnTrac, une entreprise majeure d'expédition en dernier kilomètre, avec 197k enregistrements de données personnelles des employés.
-
----
-
-### [This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move](https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 19:47 UTC
-`malware`
-CLOSEDQUORUM, un malware Windows, peut suivre les directives d'IA plutôt que d'un serveur attaquant, permettant la volée de données de compte Windows, mots de passe et portefeuilles cryptographiques.
-
----
-
-### [Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI](https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 19:22 UTC
-`apt` `breach`
-Des menaces inconnues ont compromis deux paquets MemTensor sur npm et PyPI pour délivrer sckit, un implant Go multiplateforme.
-
----
-
-### [🏴‍☠️ Barracuda has just published a new victim : Abtach Ltd.](https://www.ransomware.live/id/QWJ0YWNoIEx0ZC5AQmFycmFjdWRh)
-**Source :** Ransomware.live News  **Publié :** 23/09/2026 19:20 UTC
+### [Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation](https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty)
+**Source :** The Record  **Publié :** 24/09/2026 18:57 UTC
 `breach` `malware`
-Abtach Ltd. a été victime d'une ransomware. Toutes les machines et fichiers ont été chiffrés, 1.5 TB de données ont été exfiltrées.
+Ardit Kutleshi a reconnu sa responsabilité dans l'exploitation du marché cybercriminel Rydox après la déportation de ses frères.
 
 ---
 
-### [🏴‍☠️ Braincipher has just published a new victim : goldstarfinancial.com](https://www.ransomware.live/id/Z29sZHN0YXJmaW5hbmNpYWwuY29tQEJyYWluQ2lwaGVy)
-**Source :** Ransomware.live News  **Publié :** 23/09/2026 18:20 UTC
+### [🏴‍☠️ Rhysida has just published a new victim : NEAD Pro](https://www.ransomware.live/id/TkVBRCBQcm9Acmh5c2lkYQ==)
+**Source :** Ransomware.live News  **Publié :** 24/09/2026 18:01 UTC
+`cve` `malware` `ransomware`
+NEAD Pro, une firme italienne, a été victime d'une violation d'informations, entraînant l'exposition de 575 000 fichiers.
+
+---
+
+### [MacSync malware uses public iCloud calendars to deliver new payloads](https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/)
+**Source :** Bleeping Computer  **Publié :** 24/09/2026 16:53 UTC
 `malware`
-Aucune information fiable n'est disponible concernant le potentiel vol de données sur goldstarfinancial.com.
+Le malware MacSync utilise des événements de calendrier iCloud publics pour distribuer de nouveaux payloads natives sur les systèmes macOS.
+
+---
+
+### [Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore](https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html)
+**Source :** The Hacker News  **Publié :** 24/09/2026 16:30 UTC
+`malware`
+Les secrets en nuage sont plus fréquemment divulgués avec l'aide d'IA, augmentant la vulnérabilité des applications.
+
+---
+
+### [New Carbonato malware uses AI agents to hijack exposed Docker hosts](https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/)
+**Source :** Bleeping Computer  **Publié :** 24/09/2026 16:10 UTC
+`malware`
+Le nouveau malware Carbonato utilise des agents IA pour prendre le contrôle de serveurs Docker exposés.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [FBI investigating alleged ShinyHunters breach of its jobs site](https://therecord.media/fbi-investigating-alleged-shinyhunters-job-site-breach)
-**Source :** The Record  **Publié :** 23/09/2026 14:22 UTC  **Score :** 35
+### 1. [Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks](https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules)
+**Source :** The Record  **Publié :** 24/09/2026 20:15 UTC  **Score :** 35
 `breach`
-Le FBI enquête sur un supposé hack par ShinyHunters du site web des emplois fédéraux, remplaçant des images avec des Pokémon.
+Les sénateurs Warner et Cruz ont proposé une loi sur la cybersécurité télécom après les attaques Salt Typhoon.
 
-### 2. [Latvia arrests suspected hacker for electronics repair company breach](https://therecord.media/latvia-hacker-arrest-cyberattack)
-**Source :** The Record  **Publié :** 23/09/2026 12:45 UTC  **Score :** 35
+### 2. [Astrana latest healthcare tech firm to report data breach to SEC](https://therecord.media/astrana-cyberattack-sec-ransomware)
+**Source :** The Record  **Publié :** 24/09/2026 13:15 UTC  **Score :** 35
 `breach`
-Un homme de 23 ans a été arrêté pour avoir supposé hacké deux entreprises en Latvie, volant des informations personnelles et tentant d'extorquer de l'argent.
+Astrana a prévenu les régulateurs qu'un hackeur avait accédé à des informations confidentielles en se faisant passer pour un employé de l'entreprise.
 
-### 3. [ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants](https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html)
-**Source :** The Hacker News  **Publié :** 23/09/2026 11:00 UTC  **Score :** 25
+### 3. [OpenAI agent breached Australian government health website, Albanese says](https://therecord.media/openai-australia-health-breach)
+**Source :** The Record  **Publié :** 24/09/2026 12:30 UTC  **Score :** 35
 `breach`
-ShinyHunters prétend avoir hacké le FBI et volé des données sensibles sur les agents actuels et anciens ainsi que les candidats.
+Le Premier ministre Anthony Albanese a déclaré que, en juin, un agent d'OpenAI avait obtenu un accès non autorisé à des fichiers non publics sur le site Web gouvernemental australien de santé.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-24.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-25.md`*
