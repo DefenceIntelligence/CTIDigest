@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T02:00:59.768160+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e8bc82b3cbfab244",
+        "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+        "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-48842"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le Centre canadien de sécurité du cyberespace avertit que la vulnérabilité de injection SQL pré-autorisée CVE-2026-48842 dans Roundcube Webmail est activement exploitée.",
+        "published_at": "2026-09-25T15:44:02",
+        "score": 20
+      },
+      {
+        "guid": "1570e2eba692f62a",
+        "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-5430"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA alerte sur l’exploitation d’une vulnérabilité de contournement d’authentification (CVE-2026-5430) affectant plusieurs produits WSO2.",
+        "published_at": "2026-09-25T13:24:20",
+        "score": 20
+      },
+      {
+        "guid": "291c433074785c98",
+        "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+        "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-5430"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté deux vulnérabilités critiques impactant WSO2 et Adobe Commerce à son catalogue KEV en raison de preuves d’exploitation active.",
+        "published_at": "2026-09-25T10:16:34",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "8ec90ccab339402d",
+        "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+        "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Le CISO de Kiteworks avertit ses clients de cesser l’utilisation du service après avoir reçu des informations de renseignement fédérales.",
+        "published_at": "2026-09-25T21:08:14",
+        "score": 5
+      },
+      {
+        "guid": "7413f6da32b07f2d",
+        "title": "Kiteworks urges customers to stop using platform after warning from federal intelligence agencies",
+        "url": "https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”",
+        "published_at": "2026-09-25T20:19:00",
+        "score": 15
+      },
+      {
+        "guid": "2af807901ead5a42",
+        "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+        "url": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.\n\nThe affected GitHub Actions are listed below -\n\n\n  actions-cool/issues-helper\n  actions-cool/maintain-one-comment\n\nVisiting either of the repositories now shows the message: \"Access to this",
+        "published_at": "2026-09-25T20:14:41",
+        "score": 37
+      },
+      {
+        "guid": "e9c42ffa84f8e637",
+        "title": "🏴‍☠️ Metaencryptor has just published a new victim : GE Vernova Inc.",
+        "url": "https://www.ransomware.live/id/R0UgVmVybm92YSBJbmMuQG1ldGFlbmNyeXB0b3I=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Metaencryptor a publié une nouvelle victime : GE Vernova Inc., une entreprise de équipement énergétique mondiale basée à Cambridge, Massachusetts.",
+        "published_at": "2026-09-25T19:01:27",
+        "score": 12
+      },
+      {
+        "guid": "db3d35278fe46594",
+        "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+        "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Un nouveau variant de PamStealer permet la déchiffrement du payload sur le serveur et ajoute une persistance multi-couche.",
+        "published_at": "2026-09-25T18:48:06",
+        "score": 17
+      },
+      {
+        "guid": "bcdeabc12a350396",
+        "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Kiteworks recommande à ses clients d’arrêter temporairement leurs serveurs pendant six heures en raison de menaces potentielles de zéro-jour.",
+        "published_at": "2026-09-25T17:41:07",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "b11f53b06c7be75c",
+        "title": "Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings",
+        "url": "https://therecord.media/labcorp-to-overhaul-security-practices-settlement",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Labcorp va réviser ses pratiques de sécurité des données et versera 2,3 millions de dollars d’amende pour des failles de cybersécurité.",
+        "published_at": "2026-09-25T19:35:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "313650dd2645973b",
+        "title": "On Anthropic’s AI Misuse Report",
+        "url": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "phishing",
+          "vulnerability"
+        ],
+        "summary": "Anthropic a publié un rapport détaillant les misuse détectés par Claude, avec une synthèse de Daniel Meissler mentionnant 117 findings.",
+        "published_at": "2026-09-25T11:07:22",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "c578d269ed281ecf",
+        "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Bitget a divulgué que des hackers suspects liés au Nord-Korea ont volé 351,6 millions de dollars de sa plateforme de change crypto.",
+        "published_at": "2026-09-25T04:33:44",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 52,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 1,
+    "argos_version": "2.0.0"
+  }
+}
