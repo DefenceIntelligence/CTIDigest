@@ -1,94 +1,100 @@
-# 🛡️ ARGOS CTI Digest — 25 septembre 2026
+# 🛡️ ARGOS CTI Digest — 26 septembre 2026
 
-> Généré le 25/09/2026 à 02:01 UTC  ·  65 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 26/09/2026 à 02:00 UTC  ·  52 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Botslab G980H Dashcams](https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-01)
-**Source :** CISA Advisories  **Publié :** 24/09/2026 12:00 UTC  **CVE :** `CVE-2026-84403`, `CVE-2026-84399`, `CVE-2026-88761`, `CVE-2026-87118`, `CVE-2026-81630`
-`apt` `cve` `malware` `vulnerability`
-Les versions de la caméra de bord Botslab G980H sont vulnérables à des attaques permettant l'accès non autorisé et le contrôle du dispositif.
-
----
-
-### [Eufy Omni C20, Omni X10 Pro](https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02)
-**Source :** CISA Advisories  **Publié :** 24/09/2026 12:00 UTC  **CVE :** `CVE-2026-93289`, `CVE-2026-93291`, `CVE-2026-93290`
+### [Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild](https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html)
+**Source :** The Hacker News  **Publié :** 25/09/2026 15:44 UTC  **CVE :** `CVE-2026-48842`
 `cve` `vulnerability`
-Les modèles Eufy Omni C20 et Omni X10 Pro sont affectés par des vulnérabilités permettant l'exécution de commandes système ou le code arbitraire.
+Le Centre canadien de sécurité du cyberespace avertit que la vulnérabilité de injection SQL pré-autorisée CVE-2026-48842 dans Roundcube Webmail est activement exploitée.
 
 ---
 
-### [Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure](https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html)
-**Source :** The Hacker News  **Publié :** 24/09/2026 11:06 UTC  **CVE :** `CVE-2026-87902`
-`apt` `cve` `vulnerability`
-Une faille critique dans WordPress (CVE-2026-87902) a été exploité par des acteurs malveillants dès sa divulgation, permettant l'exécution de code distant non authentifié.
+### [CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 25/09/2026 13:24 UTC  **CVE :** `CVE-2026-5430`
+`cve` `vulnerability`
+Le CISA alerte sur l’exploitation d’une vulnérabilité de contournement d’authentification (CVE-2026-5430) affectant plusieurs produits WSO2.
+
+---
+
+### [WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
+**Source :** The Hacker News  **Publié :** 25/09/2026 10:16 UTC  **CVE :** `CVE-2026-5430`
+`cve` `vulnerability`
+Le CISA a ajouté deux vulnérabilités critiques impactant WSO2 et Adobe Commerce à son catalogue KEV en raison de preuves d’exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions](https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html)
-**Source :** The Hacker News  **Publié :** 24/09/2026 23:40 UTC
-`malware` `vulnerability`
-Une faille dans OnePlus permet à des applications malveillantes d'obtenir le root sans autorisation spéciale.
+### [Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html)
+**Source :** Schneier on Security  **Publié :** 25/09/2026 21:08 UTC
+`apt`
+Le CISO de Kiteworks avertit ses clients de cesser l’utilisation du service après avoir reçu des informations de renseignement fédérales.
 
 ---
 
-### [Rydox cybercriminal marketplace operator pleads guilty following co-conspirator brothers’s deportation](https://therecord.media/rydox-criminal-marketplace-operator-pleads-guilty)
-**Source :** The Record  **Publié :** 24/09/2026 18:57 UTC
+### [Kiteworks urges customers to stop using platform after warning from federal intelligence agencies](https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident)
+**Source :** The Record  **Publié :** 25/09/2026 20:19 UTC
+`apt`
+Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”
+
+---
+
+### [Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware](https://thehackernews.com/2026/09/compromised-github-actions-came-back.html)
+**Source :** The Hacker News  **Publié :** 25/09/2026 20:14 UTC
 `breach` `malware`
-Ardit Kutleshi a reconnu sa responsabilité dans l'exploitation du marché cybercriminel Rydox après la déportation de ses frères.
+Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.
+
+The affected GitHub Actions are listed below -
+
+
+  actions-cool/issues-helper
+  actions-cool/main
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : NEAD Pro](https://www.ransomware.live/id/TkVBRCBQcm9Acmh5c2lkYQ==)
-**Source :** Ransomware.live News  **Publié :** 24/09/2026 18:01 UTC
-`cve` `malware` `ransomware`
-NEAD Pro, une firme italienne, a été victime d'une violation d'informations, entraînant l'exposition de 575 000 fichiers.
-
----
-
-### [MacSync malware uses public iCloud calendars to deliver new payloads](https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/)
-**Source :** Bleeping Computer  **Publié :** 24/09/2026 16:53 UTC
+### [🏴‍☠️ Metaencryptor has just published a new victim : GE Vernova Inc.](https://www.ransomware.live/id/R0UgVmVybm92YSBJbmMuQG1ldGFlbmNyeXB0b3I=)
+**Source :** Ransomware.live News  **Publié :** 25/09/2026 19:01 UTC
 `malware`
-Le malware MacSync utilise des événements de calendrier iCloud publics pour distribuer de nouveaux payloads natives sur les systèmes macOS.
+Metaencryptor a publié une nouvelle victime : GE Vernova Inc., une entreprise de équipement énergétique mondiale basée à Cambridge, Massachusetts.
 
 ---
 
-### [Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore](https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html)
-**Source :** The Hacker News  **Publié :** 24/09/2026 16:30 UTC
-`malware`
-Les secrets en nuage sont plus fréquemment divulgués avec l'aide d'IA, augmentant la vulnérabilité des applications.
+### [PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence](https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html)
+**Source :** The Hacker News  **Publié :** 25/09/2026 18:48 UTC
+`malware` `ransomware`
+Un nouveau variant de PamStealer permet la déchiffrement du payload sur le serveur et ajoute une persistance multi-couche.
 
 ---
 
-### [New Carbonato malware uses AI agents to hijack exposed Docker hosts](https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/)
-**Source :** Bleeping Computer  **Publié :** 24/09/2026 16:10 UTC
-`malware`
-Le nouveau malware Carbonato utilise des agents IA pour prendre le contrôle de serveurs Docker exposés.
+### [Kiteworks urges 6-hour server shutdown over potential zero-day attacks](https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/)
+**Source :** Bleeping Computer  **Publié :** 25/09/2026 17:41 UTC
+`cve` `malware`
+Kiteworks recommande à ses clients d’arrêter temporairement leurs serveurs pendant six heures en raison de menaces potentielles de zéro-jour.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks](https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules)
-**Source :** The Record  **Publié :** 24/09/2026 20:15 UTC  **Score :** 35
+### 1. [Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings](https://therecord.media/labcorp-to-overhaul-security-practices-settlement)
+**Source :** The Record  **Publié :** 25/09/2026 19:35 UTC  **Score :** 35
 `breach`
-Les sénateurs Warner et Cruz ont proposé une loi sur la cybersécurité télécom après les attaques Salt Typhoon.
+Labcorp va réviser ses pratiques de sécurité des données et versera 2,3 millions de dollars d’amende pour des failles de cybersécurité.
 
-### 2. [Astrana latest healthcare tech firm to report data breach to SEC](https://therecord.media/astrana-cyberattack-sec-ransomware)
-**Source :** The Record  **Publié :** 24/09/2026 13:15 UTC  **Score :** 35
-`breach`
-Astrana a prévenu les régulateurs qu'un hackeur avait accédé à des informations confidentielles en se faisant passer pour un employé de l'entreprise.
+### 2. [On Anthropic’s AI Misuse Report](https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html)
+**Source :** Schneier on Security  **Publié :** 25/09/2026 11:07 UTC  **Score :** 35
+`breach` `cve` `phishing` `vulnerability`
+Anthropic a publié un rapport détaillant les misuse détectés par Claude, avec une synthèse de Daniel Meissler mentionnant 117 findings.
 
-### 3. [OpenAI agent breached Australian government health website, Albanese says](https://therecord.media/openai-australia-health-breach)
-**Source :** The Record  **Publié :** 24/09/2026 12:30 UTC  **Score :** 35
+### 3. [Hackers steal $351.6 million in Bitget crypto exchange hack](https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/)
+**Source :** Bleeping Computer  **Publié :** 25/09/2026 04:33 UTC  **Score :** 25
 `breach`
-Le Premier ministre Anthony Albanese a déclaré que, en juin, un agent d'OpenAI avait obtenu un accès non autorisé à des fichiers non publics sur le site Web gouvernemental australien de santé.
+Bitget a divulgué que des hackers suspects liés au Nord-Korea ont volé 351,6 millions de dollars de sa plateforme de change crypto.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-25.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-26.md`*
