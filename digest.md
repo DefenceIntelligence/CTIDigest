@@ -1,100 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 26 septembre 2026
+# 🛡️ ARGOS CTI Digest — 27 septembre 2026
 
-> Généré le 26/09/2026 à 02:00 UTC  ·  52 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 27/09/2026 à 02:00 UTC  ·  38 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild](https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html)
-**Source :** The Hacker News  **Publié :** 25/09/2026 15:44 UTC  **CVE :** `CVE-2026-48842`
+### [Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 17:16 UTC  **CVE :** `CVE-2026-35273`
 `cve` `vulnerability`
-Le Centre canadien de sécurité du cyberespace avertit que la vulnérabilité de injection SQL pré-autorisée CVE-2026-48842 dans Roundcube Webmail est activement exploitée.
+Google alerte sur une nouvelle campagne exploitant un vulnérabilité Oracle PeopleSoft, utilisée par les ShinyHunters.
 
 ---
 
-### [CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 25/09/2026 13:24 UTC  **CVE :** `CVE-2026-5430`
-`cve` `vulnerability`
-Le CISA alerte sur l’exploitation d’une vulnérabilité de contournement d’authentification (CVE-2026-5430) affectant plusieurs produits WSO2.
+### [ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks](https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/)
+**Source :** Bleeping Computer  **Publié :** 26/09/2026 15:03 UTC  **CVE :** `CVE-2026-35273`
+`apt` `cve` `vulnerability`
+Les ShinyHunters continuent d'exploiter une faille Oracle PeopleSoft via un tour de passe-passe WAF.
 
 ---
 
-### [WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV](https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html)
-**Source :** The Hacker News  **Publié :** 25/09/2026 10:16 UTC  **CVE :** `CVE-2026-5430`
+### [SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild](https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 14:19 UTC  **CVE :** `CVE-2026-65660`
 `cve` `vulnerability`
-Le CISA a ajouté deux vulnérabilités critiques impactant WSO2 et Adobe Commerce à son catalogue KEV en raison de preuves d’exploitation active.
+CISA ajoute des vulnérabilités Microsoft SharePoint et MikroTik RouterOS à sa liste de vulnérabilités exploitées, signalant leur activité.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee](https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html)
-**Source :** Schneier on Security  **Publié :** 25/09/2026 21:08 UTC
+### [Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 23:52 UTC
+`apt` `breach` `malware`
+Psychedelic Stealer utilise l'AMD Driver pour désactiver la surveillance et voler les informations d'identification du navigateur.
+
+---
+
+### [Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link](https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 15:25 UTC
+`cve` `malware` `vulnerability`
+Kiteworks conseille aux clients de mettre leurs systèmes hors ligne pendant 9 heures en raison d'une menace potentielle.
+
+---
+
+### [Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack](https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 13:18 UTC
 `apt`
-Le CISO de Kiteworks avertit ses clients de cesser l’utilisation du service après avoir reçu des informations de renseignement fédérales.
+Applied Composites est la nouvelle victime du groupe Storm, un ransomware ciblant l'industrie aérospatiale.
 
 ---
 
-### [Kiteworks urges customers to stop using platform after warning from federal intelligence agencies](https://therecord.media/kiteworks-urges-customers-to-stop-using-systems-incident)
-**Source :** The Record  **Publié :** 25/09/2026 20:19 UTC
-`apt`
-Frank Balonis, CISO at Kiteworks, told Recorded Future News that the company “received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems for customers.”
-
----
-
-### [Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware](https://thehackernews.com/2026/09/compromised-github-actions-came-back.html)
-**Source :** The Hacker News  **Publié :** 25/09/2026 20:14 UTC
-`breach` `malware`
-Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.
-
-The affected GitHub Actions are listed below -
-
-
-  actions-cool/issues-helper
-  actions-cool/main
-
----
-
-### [🏴‍☠️ Metaencryptor has just published a new victim : GE Vernova Inc.](https://www.ransomware.live/id/R0UgVmVybm92YSBJbmMuQG1ldGFlbmNyeXB0b3I=)
-**Source :** Ransomware.live News  **Publié :** 25/09/2026 19:01 UTC
-`malware`
-Metaencryptor a publié une nouvelle victime : GE Vernova Inc., une entreprise de équipement énergétique mondiale basée à Cambridge, Massachusetts.
-
----
-
-### [PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence](https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html)
-**Source :** The Hacker News  **Publié :** 25/09/2026 18:48 UTC
-`malware` `ransomware`
-Un nouveau variant de PamStealer permet la déchiffrement du payload sur le serveur et ajoute une persistance multi-couche.
-
----
-
-### [Kiteworks urges 6-hour server shutdown over potential zero-day attacks](https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/)
-**Source :** Bleeping Computer  **Publié :** 25/09/2026 17:41 UTC
+### [🏴‍☠️ Storm has just published a new victim : Applied Composites](https://www.ransomware.live/id/QXBwbGllZCBDb21wb3NpdGVzQFN0b3Jt)
+**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
 `cve` `malware`
-Kiteworks recommande à ses clients d’arrêter temporairement leurs serveurs pendant six heures en raison de menaces potentielles de zéro-jour.
+Guardrisk, une société d'assurance sud-africaine, est la nouvelle victime du groupe Thegentlemen.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Guardrisk](https://www.ransomware.live/id/R3VhcmRyaXNrQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
+`apt` `malware`
+guardrisk.co.za  rocketreach.co/guardrisk-insurance-company-ltd-profile_b5a52494f9c62c8e Guardrisk is a South African specialist insurance group, founded in 1993 and widely recognized as the pioneer and market leader of cell captive insurance in Africa — a model that allows companies to run their ow
+
+---
+
+### [🏴‍☠️ Storm has just published a new victim : Magna Legal Services](https://www.ransomware.live/id/TWFnbmEgTGVnYWwgU2VydmljZXNAU3Rvcm0=)
+**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
+`malware`
+Magna Legal Services, un fournisseur de services juridiques aux États-Unis, est une nouvelle cible pour Storm.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Labcorp to overhaul data security practices, pay $2.3 million fine for cybersecurity failings](https://therecord.media/labcorp-to-overhaul-security-practices-settlement)
-**Source :** The Record  **Publié :** 25/09/2026 19:35 UTC  **Score :** 35
+### 1. [Zero Trust for AI Agents Starts With Fixing Zero Visibility](https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html)
+**Source :** The Hacker News  **Publié :** 26/09/2026 16:00 UTC  **Score :** 25
 `breach`
-Labcorp va réviser ses pratiques de sécurité des données et versera 2,3 millions de dollars d’amende pour des failles de cybersécurité.
+L'approche Zero Trust appliquée à l'IA nécessite de résoudre la problématique de la visibilité.
 
-### 2. [On Anthropic’s AI Misuse Report](https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html)
-**Source :** Schneier on Security  **Publié :** 25/09/2026 11:07 UTC  **Score :** 35
-`breach` `cve` `phishing` `vulnerability`
-Anthropic a publié un rapport détaillant les misuse détectés par Claude, avec une synthèse de Daniel Meissler mentionnant 117 findings.
-
-### 3. [Hackers steal $351.6 million in Bitget crypto exchange hack](https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/)
-**Source :** Bleeping Computer  **Publié :** 25/09/2026 04:33 UTC  **Score :** 25
+### 2. [GitHub Actions re-enabled with Mini Shai-Hulud payload still active](https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/)
+**Source :** Bleeping Computer  **Publié :** 26/09/2026 10:19 UTC  **Score :** 25
 `breach`
-Bitget a divulgué que des hackers suspects liés au Nord-Korea ont volé 351,6 millions de dollars de sa plateforme de change crypto.
+Deux Actions GitHub tiers compromisees dans une campagne Mini Shai-Hulud ont été réactivées et restaient accessibles malgré la présence d’un code malveillant.
+
+### 3. [🏴‍☠️ M3rx has just published a new victim : cipher.systems](https://www.ransomware.live/id/Y2lwaGVyLnN5c3RlbXNAbTNyeA==)
+**Source :** Ransomware.live News  **Publié :** 26/09/2026 17:02 UTC  **Score :** 20
+`breach`
+M3rx a récemment compromis Cipher.systems, une entreprise spécialisée dans les solutions IT pour les entreprises.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-26.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-27.md`*
