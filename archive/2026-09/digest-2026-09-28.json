@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T02:00:49.537760+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "5feabd86c88448f2",
+        "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-88772",
+          "CVE-2026-88778",
+          "CVE-2026-88776",
+          "CVE-2026-88771",
+          "CVE-2026-88777",
+          "CVE-2026-88774",
+          "CVE-2026-88775",
+          "CVE-2026-88773"
+        ],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA avertit des vulnérabilités zero-day critiques dans Citrix NetScaler ADC et Gateway, avec CVE-2026-88771 à CVE-2026-88774 exploitées.",
+        "published_at": "2026-09-27T12:00:00",
+        "score": 47
+      },
+      {
+        "guid": "8de868279513d889",
+        "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-88772",
+          "CVE-2026-88771"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Wireshark 4.6.9 corrigé 19 vulnérabilités et 16 bogues est sorti.",
+        "published_at": "2026-09-27T12:02:37",
+        "score": 20
+      },
+      {
+        "guid": "64a4702abf426ef9",
+        "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+        "url": "https://isc.sans.edu/diary/rss/33372",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Ressources Si, une entreprise de salles de cinéma, emploie 10-19 personnes avec des revenus de 1 à 5 millions d'euros.",
+        "published_at": "2026-09-27T15:04:49",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "5cfa0caf1c59ef9a",
+        "title": "🏴‍☠️ Panzer has just published a new victim : Ressources Si",
+        "url": "https://www.ransomware.live/id/UmVzc291cmNlcyBTaUBQYW56ZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "First Secure Bank Group, un établissement bancaire américain, est une nouvelle victime de l'acteur Storm.",
+        "published_at": "2026-09-27T22:24:33",
+        "score": 12
+      },
+      {
+        "guid": "24521352c51d6294",
+        "title": "🏴‍☠️ Storm has just published a new victim : First Secure Bank Group",
+        "url": "https://www.ransomware.live/id/Rmlyc3QgU2VjdXJlIEJhbmsgR3JvdXBAU3Rvcm0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Storm a publié une nouvelle victime : First Secure Bank Group, un établissement bancaire américain.",
+        "published_at": "2026-09-27T17:53:23",
+        "score": 12
+      },
+      {
+        "guid": "5cd81b34521395c8",
+        "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+        "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Deux vulnérabilités zero-day dans Citrix NetScaler ne sont pas patchées et exploitées activement, selon watchTowr.",
+        "published_at": "2026-09-27T13:17:57",
+        "score": 17
+      },
+      {
+        "guid": "fcb7390d55bff252",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Car Service Abschlepp",
+        "url": "https://www.ransomware.live/id/Q2FyIFNlcnZpY2UgQWJzY2hsZXBwQGVtcGVyYWRvcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Emperador a publié une nouvelle victime : Car Service Abschlepp, une entreprise de Berlin avec des données personnelles et professionnelles archivées.",
+        "published_at": "2026-09-27T09:51:32",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "308b670f611b87d1",
+        "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "OpenAI teste \"o\", un assistant toujours en ligne qui pourrait gérer l'email.",
+        "published_at": "2026-09-27T19:40:39",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "acc80c9102f02dc4",
+        "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Cloudflare a corrigé une vulnérabilité exposant les données des clients à d'autres comptes via Containers et Sandboxes.",
+        "published_at": "2026-09-27T10:13:31",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "d12e677732b225a7",
+        "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Anthropic lance le Claude Marketplace, un marché d'outils pour l'IA avec 2 000+ plugins et connecteurs.",
+        "published_at": "2026-09-27T09:38:40",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 16,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 10,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
