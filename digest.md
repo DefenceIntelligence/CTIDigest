@@ -1,94 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 27 septembre 2026
+# 🛡️ ARGOS CTI Digest — 28 septembre 2026
 
-> Généré le 27/09/2026 à 02:00 UTC  ·  38 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 28/09/2026 à 02:00 UTC  ·  16 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 17:16 UTC  **CVE :** `CVE-2026-35273`
-`cve` `vulnerability`
-Google alerte sur une nouvelle campagne exploitant un vulnérabilité Oracle PeopleSoft, utilisée par les ShinyHunters.
+### [Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway](https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway)
+**Source :** CISA Advisories  **Publié :** 27/09/2026 12:00 UTC  **CVE :** `CVE-2026-88772`, `CVE-2026-88778`, `CVE-2026-88776`, `CVE-2026-88771`, `CVE-2026-88777`
+`apt` `breach` `cve` `malware` `vulnerability`
+CISA avertit des vulnérabilités zero-day critiques dans Citrix NetScaler ADC et Gateway, avec CVE-2026-88771 à CVE-2026-88774 exploitées.
 
 ---
 
-### [ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks](https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/)
-**Source :** Bleeping Computer  **Publié :** 26/09/2026 15:03 UTC  **CVE :** `CVE-2026-35273`
-`apt` `cve` `vulnerability`
-Les ShinyHunters continuent d'exploiter une faille Oracle PeopleSoft via un tour de passe-passe WAF.
+### [Citrix confirms two NetScaler RCE zero-days exploited in attacks](https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/)
+**Source :** Bleeping Computer  **Publié :** 27/09/2026 12:02 UTC  **CVE :** `CVE-2026-88772`, `CVE-2026-88771`
+`cve` `patch` `vulnerability`
+Wireshark 4.6.9 corrigé 19 vulnérabilités et 16 bogues est sorti.
 
 ---
 
-### [SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild](https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 14:19 UTC  **CVE :** `CVE-2026-65660`
-`cve` `vulnerability`
-CISA ajoute des vulnérabilités Microsoft SharePoint et MikroTik RouterOS à sa liste de vulnérabilités exploitées, signalant leur activité.
+### [Wireshark 4.6.9 Released, (Sun, Sep 27th)](https://isc.sans.edu/diary/rss/33372)
+**Source :** SANS ISC  **Publié :** 27/09/2026 15:04 UTC
+`vulnerability`
+Ressources Si, une entreprise de salles de cinéma, emploie 10-19 personnes avec des revenus de 1 à 5 millions d'euros.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials](https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 23:52 UTC
-`apt` `breach` `malware`
-Psychedelic Stealer utilise l'AMD Driver pour désactiver la surveillance et voler les informations d'identification du navigateur.
-
----
-
-### [Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link](https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 15:25 UTC
-`cve` `malware` `vulnerability`
-Kiteworks conseille aux clients de mettre leurs systèmes hors ligne pendant 9 heures en raison d'une menace potentielle.
-
----
-
-### [Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack](https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 13:18 UTC
-`apt`
-Applied Composites est la nouvelle victime du groupe Storm, un ransomware ciblant l'industrie aérospatiale.
-
----
-
-### [🏴‍☠️ Storm has just published a new victim : Applied Composites](https://www.ransomware.live/id/QXBwbGllZCBDb21wb3NpdGVzQFN0b3Jt)
-**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
+### [🏴‍☠️ Panzer has just published a new victim : Ressources Si](https://www.ransomware.live/id/UmVzc291cmNlcyBTaUBQYW56ZXI=)
+**Source :** Ransomware.live News  **Publié :** 27/09/2026 22:24 UTC
 `cve` `malware`
-Guardrisk, une société d'assurance sud-africaine, est la nouvelle victime du groupe Thegentlemen.
+First Secure Bank Group, un établissement bancaire américain, est une nouvelle victime de l'acteur Storm.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Guardrisk](https://www.ransomware.live/id/R3VhcmRyaXNrQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
-`apt` `malware`
-guardrisk.co.za  rocketreach.co/guardrisk-insurance-company-ltd-profile_b5a52494f9c62c8e Guardrisk is a South African specialist insurance group, founded in 1993 and widely recognized as the pioneer and market leader of cell captive insurance in Africa — a model that allows companies to run their ow
-
----
-
-### [🏴‍☠️ Storm has just published a new victim : Magna Legal Services](https://www.ransomware.live/id/TWFnbmEgTGVnYWwgU2VydmljZXNAU3Rvcm0=)
-**Source :** Ransomware.live News  **Publié :** 26/09/2026 08:48 UTC
+### [🏴‍☠️ Storm has just published a new victim : First Secure Bank Group](https://www.ransomware.live/id/Rmlyc3QgU2VjdXJlIEJhbmsgR3JvdXBAU3Rvcm0=)
+**Source :** Ransomware.live News  **Publié :** 27/09/2026 17:53 UTC
 `malware`
-Magna Legal Services, un fournisseur de services juridiques aux États-Unis, est une nouvelle cible pour Storm.
+Storm a publié une nouvelle victime : First Secure Bank Group, un établissement bancaire américain.
+
+---
+
+### [Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation](https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html)
+**Source :** The Hacker News  **Publié :** 27/09/2026 13:17 UTC
+`cve` `malware` `vulnerability`
+Deux vulnérabilités zero-day dans Citrix NetScaler ne sont pas patchées et exploitées activement, selon watchTowr.
+
+---
+
+### [🏴‍☠️ Emperador has just published a new victim : Car Service Abschlepp](https://www.ransomware.live/id/Q2FyIFNlcnZpY2UgQWJzY2hsZXBwQGVtcGVyYWRvcg==)
+**Source :** Ransomware.live News  **Publié :** 27/09/2026 09:51 UTC
+`malware`
+Emperador a publié une nouvelle victime : Car Service Abschlepp, une entreprise de Berlin avec des données personnelles et professionnelles archivées.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Zero Trust for AI Agents Starts With Fixing Zero Visibility](https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html)
-**Source :** The Hacker News  **Publié :** 26/09/2026 16:00 UTC  **Score :** 25
-`breach`
-L'approche Zero Trust appliquée à l'IA nécessite de résoudre la problématique de la visibilité.
+### 1. [OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/)
+**Source :** Bleeping Computer  **Publié :** 27/09/2026 19:40 UTC  **Score :** 5
+OpenAI teste "o", un assistant toujours en ligne qui pourrait gérer l'email.
 
-### 2. [GitHub Actions re-enabled with Mini Shai-Hulud payload still active](https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/)
-**Source :** Bleeping Computer  **Publié :** 26/09/2026 10:19 UTC  **Score :** 25
-`breach`
-Deux Actions GitHub tiers compromisees dans une campagne Mini Shai-Hulud ont été réactivées et restaient accessibles malgré la présence d’un code malveillant.
+### 2. [Cloudflare fixes Containers cross-tenant flaw exposing customer data](https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/)
+**Source :** Bleeping Computer  **Publié :** 27/09/2026 10:13 UTC  **Score :** 5
+`vulnerability`
+Cloudflare a corrigé une vulnérabilité exposant les données des clients à d'autres comptes via Containers et Sandboxes.
 
-### 3. [🏴‍☠️ M3rx has just published a new victim : cipher.systems](https://www.ransomware.live/id/Y2lwaGVyLnN5c3RlbXNAbTNyeA==)
-**Source :** Ransomware.live News  **Publié :** 26/09/2026 17:02 UTC  **Score :** 20
-`breach`
-M3rx a récemment compromis Cipher.systems, une entreprise spécialisée dans les solutions IT pour les entreprises.
+### 3. [Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/)
+**Source :** Bleeping Computer  **Publié :** 27/09/2026 09:38 UTC  **Score :** 5
+Anthropic lance le Claude Marketplace, un marché d'outils pour l'IA avec 2 000+ plugins et connecteurs.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-27.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-28.md`*
