@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T02:01:02.369434+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "c02244d87176129e",
+        "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+        "url": "https://isc.sans.edu/diary/rss/33376",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-86950"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Apple a publié des mises à jour de sécurité pour ses systèmes d'exploitation plus anciens, car une vulnérabilité exploitée existe déjà. Les versions courantes ne comprennent pas de correctifs de sécurité.",
+        "published_at": "2026-09-28T22:35:35",
+        "score": 27
+      },
+      {
+        "guid": "5f1b44c47876748c",
+        "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+        "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-86950"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Apple a corrigé un problème dans CoreGraphics, potentiellement exploité dans des attaques ciblées, affectant iOS, iPadOS et macOS plus anciens.",
+        "published_at": "2026-09-29T00:48:01",
+        "score": 20
+      },
+      {
+        "guid": "2590e24653c990a9",
+        "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+        "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-88771"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté deux vulnérabilités critiques de Citrix NetScaler à sa liste des vulnérabilités exploitées, signalant une exploitation active.",
+        "published_at": "2026-09-28T12:51:49",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "0c6e6503cc0a9d2c",
+        "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+        "url": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.\n\nThe malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonprofits, intergovernmental organizations, and government contractors. Its use goes back to at least",
+        "published_at": "2026-09-29T00:05:42",
+        "score": 37
+      },
+      {
+        "guid": "0f0f494d9c5d2001",
+        "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+        "url": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each customer runs a separate copy.\n\nThe console stores what the malware collects from each phone,",
+        "published_at": "2026-09-28T23:08:33",
+        "score": 17
+      },
+      {
+        "guid": "1490e0cc6ffc89ec",
+        "title": "🏴‍☠️ Threeam has just published a new victim : safescaffolding.net",
+        "url": "https://www.ransomware.live/id/c2FmZXNjYWZmb2xkaW5nLm5ldEB0aHJlZWFt",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safe Scaffolding is a privately held contractor operating primarily in the commercial and residential construction industry. The company provides physical scaffolding infrastructure, materials, and equipment setup to support building and renovatio",
+        "published_at": "2026-09-28T18:53:08",
+        "score": 12
+      },
+      {
+        "guid": "b2c73230670aef46",
+        "title": "🏴‍☠️ Threeam has just published a new victim : coosalud.com",
+        "url": "https://www.ransomware.live/id/Y29vc2FsdWQuY29tQHRocmVlYW0=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Coosalud EPS (Coosalud Entidad Promotora de Salud S.A.) is one of the major health promotion entities (EPS) in Colombia, primarily managing subsidized and contributory healthcare regimes with multi-million-peso operating volumes. Alongside its sub",
+        "published_at": "2026-09-28T18:52:35",
+        "score": 12
+      },
+      {
+        "guid": "319d02694a633c99",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Amazon Informatica",
+        "url": "https://www.ransomware.live/id/QW1hem9uIEluZm9ybWF0aWNhQGVtcGVyYWRvcg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Amazon Informática LTDA is a prominent Information Technology (IT) solutions integrator and managed services provider founded in Brazil in 1995.\n\nAmazon Informática&#x27;s primary market focus is the public sector and government agencies, serving various state and federal entities in Brazil.To support these operations, they maintain strategic corporate offices in Brasília/DF (to service the federal government cluster) and Belém/PA. Furthermore, the company has expanded its footprint internationa",
+        "published_at": "2026-09-28T17:51:32",
+        "score": 32
+      },
+      {
+        "guid": "b88c15583426b295",
+        "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+        "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.\n\n\"The implant installs the framework unchanged, then overwrites its SOUL.md persona file,\" ThreatDown said. \"The 39-line prompt directs it to execute tasks received through",
+        "published_at": "2026-09-28T17:16:00",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "1792fb417ba5cbf7",
+        "title": "US, UK warn of exploited Citrix NetScaler zero-day bugs",
+        "url": "https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Incident responders began warning of potential vulnerabilities in NetScaler Gateway products on Saturday before cybersecurity agencies in the Netherlands, U.S. and U.K. released advisories on Sunday confirming vulnerabilities. Citrix itself confirmed eight new vulnerabilities.",
+        "published_at": "2026-09-28T16:19:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "a1082f862c9c3ea9",
+        "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+        "url": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Bitget a rétabli les retraits de Bitcoin après avoir été victime d'un vol estimé à plus de 350 millions de dollars par des hackers prétendument nord-coréens.",
+        "published_at": "2026-09-28T05:25:29",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "a4966275dc3ac187",
+        "title": "🏴‍☠️ Interlock has just published a new victim : The Center for Kidney Care",
+        "url": "https://www.ransomware.live/id/VGhlIENlbnRlciBmb3IgS2lkbmV5IENhcmVAaW50ZXJsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le Center for Kidney Care a subi une violation de la sécurité qui a exposé des informations médicales confidentielles de patients, en violation des régulations HIPAA.",
+        "published_at": "2026-09-28T15:58:06",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 74,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 7,
+    "argos_version": "2.0.0"
+  }
+}
