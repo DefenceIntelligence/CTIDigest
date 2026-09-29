@@ -1,78 +1,100 @@
-# 🛡️ ARGOS CTI Digest — 28 septembre 2026
+# 🛡️ ARGOS CTI Digest — 29 septembre 2026
 
-> Généré le 28/09/2026 à 02:00 UTC  ·  16 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 29/09/2026 à 02:01 UTC  ·  74 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway](https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway)
-**Source :** CISA Advisories  **Publié :** 27/09/2026 12:00 UTC  **CVE :** `CVE-2026-88772`, `CVE-2026-88778`, `CVE-2026-88776`, `CVE-2026-88771`, `CVE-2026-88777`
-`apt` `breach` `cve` `malware` `vulnerability`
-CISA avertit des vulnérabilités zero-day critiques dans Citrix NetScaler ADC et Gateway, avec CVE-2026-88771 à CVE-2026-88774 exploitées.
+### [Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)](https://isc.sans.edu/diary/rss/33376)
+**Source :** SANS ISC  **Publié :** 28/09/2026 22:35 UTC  **CVE :** `CVE-2026-86950`
+`cve` `malware` `vulnerability`
+Apple a publié des mises à jour de sécurité pour ses systèmes d'exploitation plus anciens, car une vulnérabilité exploitée existe déjà. Les versions courantes ne comprennent pas de correctifs de sécurité.
 
 ---
 
-### [Citrix confirms two NetScaler RCE zero-days exploited in attacks](https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/)
-**Source :** Bleeping Computer  **Publié :** 27/09/2026 12:02 UTC  **CVE :** `CVE-2026-88772`, `CVE-2026-88771`
+### [Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks](https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html)
+**Source :** The Hacker News  **Publié :** 29/09/2026 00:48 UTC  **CVE :** `CVE-2026-86950`
 `cve` `patch` `vulnerability`
-Wireshark 4.6.9 corrigé 19 vulnérabilités et 16 bogues est sorti.
+Apple a corrigé un problème dans CoreGraphics, potentiellement exploité dans des attaques ciblées, affectant iOS, iPadOS et macOS plus anciens.
 
 ---
 
-### [Wireshark 4.6.9 Released, (Sun, Sep 27th)](https://isc.sans.edu/diary/rss/33372)
-**Source :** SANS ISC  **Publié :** 27/09/2026 15:04 UTC
-`vulnerability`
-Ressources Si, une entreprise de salles de cinéma, emploie 10-19 personnes avec des revenus de 1 à 5 millions d'euros.
+### [CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally](https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html)
+**Source :** The Hacker News  **Publié :** 28/09/2026 12:51 UTC  **CVE :** `CVE-2026-88771`
+`cve` `vulnerability`
+CISA a ajouté deux vulnérabilités critiques de Citrix NetScaler à sa liste des vulnérabilités exploitées, signalant une exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Panzer has just published a new victim : Ressources Si](https://www.ransomware.live/id/UmVzc291cmNlcyBTaUBQYW56ZXI=)
-**Source :** Ransomware.live News  **Publié :** 27/09/2026 22:24 UTC
-`cve` `malware`
-First Secure Bank Group, un établissement bancaire américain, est une nouvelle victime de l'acteur Storm.
+### [Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks](https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html)
+**Source :** The Hacker News  **Publié :** 29/09/2026 00:05 UTC
+`breach` `malware`
+Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.
+
+The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonpro
 
 ---
 
-### [🏴‍☠️ Storm has just published a new victim : First Secure Bank Group](https://www.ransomware.live/id/Rmlyc3QgU2VjdXJlIEJhbmsgR3JvdXBAU3Rvcm0=)
-**Source :** Ransomware.live News  **Publié :** 27/09/2026 17:53 UTC
+### [RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims](https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html)
+**Source :** The Hacker News  **Publié :** 28/09/2026 23:08 UTC
 `malware`
-Storm a publié une nouvelle victime : First Secure Bank Group, un établissement bancaire américain.
+RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each cus
 
 ---
 
-### [Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation](https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html)
-**Source :** The Hacker News  **Publié :** 27/09/2026 13:17 UTC
-`cve` `malware` `vulnerability`
-Deux vulnérabilités zero-day dans Citrix NetScaler ne sont pas patchées et exploitées activement, selon watchTowr.
-
----
-
-### [🏴‍☠️ Emperador has just published a new victim : Car Service Abschlepp](https://www.ransomware.live/id/Q2FyIFNlcnZpY2UgQWJzY2hsZXBwQGVtcGVyYWRvcg==)
-**Source :** Ransomware.live News  **Publié :** 27/09/2026 09:51 UTC
+### [🏴‍☠️ Threeam has just published a new victim : safescaffolding.net](https://www.ransomware.live/id/c2FmZXNjYWZmb2xkaW5nLm5ldEB0aHJlZWFt)
+**Source :** Ransomware.live News  **Publié :** 28/09/2026 18:53 UTC
 `malware`
-Emperador a publié une nouvelle victime : Car Service Abschlepp, une entreprise de Berlin avec des données personnelles et professionnelles archivées.
+Safe Scaffolding is a privately held contractor operating primarily in the commercial and residential construction industry. The company provides physical scaffolding infrastructure, materials, and equipment setup to support building and renovatio
+
+---
+
+### [🏴‍☠️ Threeam has just published a new victim : coosalud.com](https://www.ransomware.live/id/Y29vc2FsdWQuY29tQHRocmVlYW0=)
+**Source :** Ransomware.live News  **Publié :** 28/09/2026 18:52 UTC
+`malware`
+Coosalud EPS (Coosalud Entidad Promotora de Salud S.A.) is one of the major health promotion entities (EPS) in Colombia, primarily managing subsidized and contributory healthcare regimes with multi-million-peso operating volumes. Alongside its sub
+
+---
+
+### [🏴‍☠️ Emperador has just published a new victim : Amazon Informatica](https://www.ransomware.live/id/QW1hem9uIEluZm9ybWF0aWNhQGVtcGVyYWRvcg==)
+**Source :** Ransomware.live News  **Publié :** 28/09/2026 17:51 UTC
+`breach` `malware`
+Amazon Informática LTDA is a prominent Information Technology (IT) solutions integrator and managed services provider founded in Brazil in 1995.
+
+Amazon Informática&#x27;s primary market focus is the public sector and government agencies, serving various state and federal entities in Brazil.To suppo
+
+---
+
+### [Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent](https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html)
+**Source :** The Hacker News  **Publié :** 28/09/2026 17:16 UTC
+`breach` `cve` `malware`
+Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.
+
+"The implant installs the framework unchanged, then overwrites its SOUL.md per
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/)
-**Source :** Bleeping Computer  **Publié :** 27/09/2026 19:40 UTC  **Score :** 5
-OpenAI teste "o", un assistant toujours en ligne qui pourrait gérer l'email.
+### 1. [US, UK warn of exploited Citrix NetScaler zero-day bugs](https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug)
+**Source :** The Record  **Publié :** 28/09/2026 16:19 UTC  **Score :** 35
+`breach` `cve` `vulnerability`
+Incident responders began warning of potential vulnerabilities in NetScaler Gateway products on Saturday before cybersecurity agencies in the Netherlands, U.S. and U.K. released advisories on Sunday confirming vulnerabilities. Citrix itself confirmed eight new vulnerabilities.
 
-### 2. [Cloudflare fixes Containers cross-tenant flaw exposing customer data](https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/)
-**Source :** Bleeping Computer  **Publié :** 27/09/2026 10:13 UTC  **Score :** 5
-`vulnerability`
-Cloudflare a corrigé une vulnérabilité exposant les données des clients à d'autres comptes via Containers et Sandboxes.
+### 2. [Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist](https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/)
+**Source :** Bleeping Computer  **Publié :** 28/09/2026 05:25 UTC  **Score :** 25
+`breach`
+Bitget a rétabli les retraits de Bitcoin après avoir été victime d'un vol estimé à plus de 350 millions de dollars par des hackers prétendument nord-coréens.
 
-### 3. [Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/)
-**Source :** Bleeping Computer  **Publié :** 27/09/2026 09:38 UTC  **Score :** 5
-Anthropic lance le Claude Marketplace, un marché d'outils pour l'IA avec 2 000+ plugins et connecteurs.
+### 3. [🏴‍☠️ Interlock has just published a new victim : The Center for Kidney Care](https://www.ransomware.live/id/VGhlIENlbnRlciBmb3IgS2lkbmV5IENhcmVAaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 28/09/2026 15:58 UTC  **Score :** 20
+`breach`
+Le Center for Kidney Care a subi une violation de la sécurité qui a exposé des informations médicales confidentielles de patients, en violation des régulations HIPAA.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-28.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-29.md`*
