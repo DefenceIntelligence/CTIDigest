@@ -1,100 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 29 septembre 2026
+# 🛡️ ARGOS CTI Digest — 30 septembre 2026
 
-> Généré le 29/09/2026 à 02:01 UTC  ·  74 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 30/09/2026 à 02:01 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)](https://isc.sans.edu/diary/rss/33376)
-**Source :** SANS ISC  **Publié :** 28/09/2026 22:35 UTC  **CVE :** `CVE-2026-86950`
+### [Toptech TMS7 and TopHAT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-72510`, `CVE-2026-71379`, `CVE-2026-68068`, `CVE-2026-72507`, `CVE-2026-71302`
 `cve` `malware` `vulnerability`
-Apple a publié des mises à jour de sécurité pour ses systèmes d'exploitation plus anciens, car une vulnérabilité exploitée existe déjà. Les versions courantes ne comprennent pas de correctifs de sécurité.
+Les versions TMS7 7.6.3 et TopHAT sont vulnérables à des failles qui pourraient permettre l'accès au code exécutable arbitraire.
 
 ---
 
-### [Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks](https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html)
-**Source :** The Hacker News  **Publié :** 29/09/2026 00:48 UTC  **CVE :** `CVE-2026-86950`
-`cve` `patch` `vulnerability`
-Apple a corrigé un problème dans CoreGraphics, potentiellement exploité dans des attaques ciblées, affectant iOS, iPadOS et macOS plus anciens.
-
----
-
-### [CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally](https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html)
-**Source :** The Hacker News  **Publié :** 28/09/2026 12:51 UTC  **CVE :** `CVE-2026-88771`
+### [Anjvision YSSD-RTMP-H5](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-100291`, `CVE-2026-100292`, `CVE-2026-100296`, `CVE-2026-100298`, `CVE-2026-100293`
 `cve` `vulnerability`
-CISA a ajouté deux vulnérabilités critiques de Citrix NetScaler à sa liste des vulnérabilités exploitées, signalant une exploitation active.
+Les versions YSSD-RTMP-H5 3.3.2.4 sont vulnérables à des failles qui pourraient permettre l'exécution de commandes OS ou le contrôle total du appareil.
+
+---
+
+### [Lantronix G520 Series Cellular Gateway](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-84409`, `CVE-2026-91191`
+`cve` `malware` `vulnerability`
+Les versions G520 Series 2.6.0.4R6 sont vulnérables à des failles qui pourraient permettre l'exécution de code arbitraire avec des privilèges root.
+
+---
+
+### [Viidure Dashcam Android Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-94204`, `CVE-2026-96587`
+`cve` `malware` `vulnerability`
+Les versions Viidure Dashcam Android sont vulnérables à des failles qui pourraient permettre l'accès, la modification ou la suppression de données sensibles.
+
+---
+
+### [VIVOTEK Camera Firmware](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-22755`
+`breach` `cve` `vulnerability`
+Les versions V Series FD9187 sont vulnérables à une faille qui pourrait permettre l'exécution de commandes sur le réseau avec des privilèges root.
+
+---
+
+### [Baicells Nova 430H](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04)
+**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-96274`
+`cve` `vulnerability`
+Les versions Baicells Nova 430H sont vulnérables à une faille qui pourrait causer un refus de service par messages malformés.
+
+---
+
+### [Hackers exploit Citrix NetScaler zero-day to deploy web shells](https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/)
+**Source :** Bleeping Computer  **Publié :** 29/09/2026 14:37 UTC  **CVE :** `CVE-2026-88772`
+`cve` `malware`
+Des hackers ont exploité une faille Citrix NetScaler pour déployer des web shells et gagner l'accès root, voler des identifiants et pénétrer les réseaux internes.
+
+---
+
+### [Acer System Monitor: from standard user to SYSTEM with CVE-2026-50610](https://www.intrinsec.com/cve-2026-50610-elevation-privileges-acer-nitrosense/)
+**Source :** INTRINSEC  **Publié :** 29/09/2026 13:37 UTC  **CVE :** `CVE-2026-50610`
+`apt` `cve`
+Une vulnérabilité CVE-2026-50610 permet une évasion de privilèges sur le logiciel Acer System Monitor, passant d'un utilisateur standard au système.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks](https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html)
-**Source :** The Hacker News  **Publié :** 29/09/2026 00:05 UTC
+### [French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks](https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html)
+**Source :** The Hacker News  **Publié :** 29/09/2026 23:17 UTC
 `breach` `malware`
-Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in&nbsp;a technical analysis.
-
-The malware has been seen in a small number of targeted intrusions at telecommunications organizations, universities, medical nonpro
+Un attaquant a utilisé des mots de passe volés pour accéder à des données fiscales de centaines de milliers de contribuables et d'entreprises en France, pendant sept semaines sans détecter.
 
 ---
 
-### [RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims](https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html)
-**Source :** The Hacker News  **Publié :** 28/09/2026 23:08 UTC
-`malware`
-RatHat's operators build and publish the Android banking trojan and control infected phones from a web console, according to security company Cleafy. Cleafy has&nbsp;traced nearly 100 deployments&nbsp;of that console since April 2026. It said this fits a malware-as-a-service model, in which each cus
-
----
-
-### [🏴‍☠️ Threeam has just published a new victim : safescaffolding.net](https://www.ransomware.live/id/c2FmZXNjYWZmb2xkaW5nLm5ldEB0aHJlZWFt)
-**Source :** Ransomware.live News  **Publié :** 28/09/2026 18:53 UTC
-`malware`
-Safe Scaffolding is a privately held contractor operating primarily in the commercial and residential construction industry. The company provides physical scaffolding infrastructure, materials, and equipment setup to support building and renovatio
-
----
-
-### [🏴‍☠️ Threeam has just published a new victim : coosalud.com](https://www.ransomware.live/id/Y29vc2FsdWQuY29tQHRocmVlYW0=)
-**Source :** Ransomware.live News  **Publié :** 28/09/2026 18:52 UTC
-`malware`
-Coosalud EPS (Coosalud Entidad Promotora de Salud S.A.) is one of the major health promotion entities (EPS) in Colombia, primarily managing subsidized and contributory healthcare regimes with multi-million-peso operating volumes. Alongside its sub
-
----
-
-### [🏴‍☠️ Emperador has just published a new victim : Amazon Informatica](https://www.ransomware.live/id/QW1hem9uIEluZm9ybWF0aWNhQGVtcGVyYWRvcg==)
-**Source :** Ransomware.live News  **Publié :** 28/09/2026 17:51 UTC
+### [Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor](https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html)
+**Source :** The Hacker News  **Publié :** 29/09/2026 22:50 UTC
 `breach` `malware`
-Amazon Informática LTDA is a prominent Information Technology (IT) solutions integrator and managed services provider founded in Brazil in 1995.
-
-Amazon Informática&#x27;s primary market focus is the public sector and government agencies, serving various state and federal entities in Brazil.To suppo
+Les hackers russes Star Blizzard utilisent des invités d'événement falsifiés pour délivrer un cheval de Troie sur les ordinateurs Windows, visant principalement l'Ukraine et les organisations alliées.
 
 ---
 
-### [Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent](https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html)
-**Source :** The Hacker News  **Publié :** 28/09/2026 17:16 UTC
-`breach` `cve` `malware`
-Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework called Hermes Agent.
+### [New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses](https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html)
+**Source :** The Hacker News  **Publié :** 29/09/2026 22:30 UTC
+`malware` `vulnerability`
+Des chercheurs ont découvert une nouvelle variante de la faille Spectre qui affecte les moteurs JIT sur différents systèmes d'exploitation et processeurs.
 
-"The implant installs the framework unchanged, then overwrites its SOUL.md per
+---
+
+### [🏴‍☠️ M3rx has just published a new victim : intense.pl](https://www.ransomware.live/id/aW50ZW5zZS5wbEBtM3J4)
+**Source :** Ransomware.live News  **Publié :** 29/09/2026 20:30 UTC
+`breach` `malware`
+M3rx a ciblé une nouvelle victime, l’entreprise polonaise NTENSE Group, spécialisée dans le développement de logiciels et la consultance IT.
+
+---
+
+### [🏴‍☠️ Kairos has just published a new victim : Unique Repair Services](https://www.ransomware.live/id/VW5pcXVlIFJlcGFpciBTZXJ2aWNlc0BrYWlyb3M=)
+**Source :** Ransomware.live News  **Publié :** 29/09/2026 18:57 UTC
+`cve` `malware`
+Kairos a divulgué qu'Unique Repair Services, une entreprise d'entretien d'appareils électroménagers aux États-Unis, est devenue leur dernière victime.
+
+---
+
+### [Signal adds encypted local backup support to iOS, desktop apps](https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/)
+**Source :** Bleeping Computer  **Publié :** 29/09/2026 17:30 UTC
+`malware`
+Signal a ajouté le support de sauvegardes cryptées sur tous ses systèmes d'exploitation.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [US, UK warn of exploited Citrix NetScaler zero-day bugs](https://therecord.media/us-uk-warn-of-citrix-netscaler-zero-day-bug)
-**Source :** The Record  **Publié :** 28/09/2026 16:19 UTC  **Score :** 35
-`breach` `cve` `vulnerability`
-Incident responders began warning of potential vulnerabilities in NetScaler Gateway products on Saturday before cybersecurity agencies in the Netherlands, U.S. and U.K. released advisories on Sunday confirming vulnerabilities. Citrix itself confirmed eight new vulnerabilities.
-
-### 2. [Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist](https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/)
-**Source :** Bleeping Computer  **Publié :** 28/09/2026 05:25 UTC  **Score :** 25
+### 1. [OpenAI apologizes for agents breaching Australian government websites without authorization](https://therecord.media/openai-apologizes-australia-medicare-breach)
+**Source :** The Record  **Publié :** 29/09/2026 19:48 UTC  **Score :** 35
 `breach`
-Bitget a rétabli les retraits de Bitcoin après avoir été victime d'un vol estimé à plus de 350 millions de dollars par des hackers prétendument nord-coréens.
+OpenAI s'est excusé pour l'intrusion non autorisée de ses agents dans des sites gouvernementaux australiens.
 
-### 3. [🏴‍☠️ Interlock has just published a new victim : The Center for Kidney Care](https://www.ransomware.live/id/VGhlIENlbnRlciBmb3IgS2lkbmV5IENhcmVAaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 28/09/2026 15:58 UTC  **Score :** 20
+### 2. [Former US Air Force members sent to prison over BEC attacks](https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/)
+**Source :** Bleeping Computer  **Publié :** 29/09/2026 14:09 UTC  **Score :** 35
+`breach` `cve` `phishing`
+Deux anciens membres de l'US Air Force ont été condamnés à 189 mois de prison pour des escroqueries par email et des campagnes de phishing.
+
+### 3. [🏴‍☠️ M3rx has just published a new victim : cpacb.com](https://www.ransomware.live/id/Y3BhY2IuY29tQG0zcng=)
+**Source :** Ransomware.live News  **Publié :** 29/09/2026 09:42 UTC  **Score :** 20
 `breach`
-Le Center for Kidney Care a subi une violation de la sécurité qui a exposé des informations médicales confidentielles de patients, en violation des régulations HIPAA.
+M3rx a ciblé une nouvelle victime, l’entreprise cpacb.com, fournissant des solutions en comptabilité et conseils aux entreprises.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-29.md`*
+*Archivé dans `/archive/2026-09/digest-2026-09-30.md`*
