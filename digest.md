@@ -1,129 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 30 septembre 2026
+# 🛡️ ARGOS CTI Digest — 1 octobre 2026
 
-> Généré le 30/09/2026 à 02:01 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 01/10/2026 à 02:01 UTC  ·  99 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Toptech TMS7 and TopHAT](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-72510`, `CVE-2026-71379`, `CVE-2026-68068`, `CVE-2026-72507`, `CVE-2026-71302`
-`cve` `malware` `vulnerability`
-Les versions TMS7 7.6.3 et TopHAT sont vulnérables à des failles qui pourraient permettre l'accès au code exécutable arbitraire.
+### [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
+**Source :** The Hacker News  **Publié :** 30/09/2026 22:16 UTC  **CVE :** `CVE-2026-73570`
+`apt` `cve` `malware` `vulnerability`
+Des acteurs malveillants ont exploité une faille dans Zimbra Collaboration Suite pour déployer des web shells et accéder aux données de messagerie. La vulnérabilité CVE-2026-73570 est maintenant corrigée.
 
 ---
 
-### [Anjvision YSSD-RTMP-H5](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-100291`, `CVE-2026-100292`, `CVE-2026-100296`, `CVE-2026-100298`, `CVE-2026-100293`
+### [Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager](https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html)
+**Source :** The Hacker News  **Publié :** 30/09/2026 20:54 UTC  **CVE :** `CVE-2026-76504`
+`cve` `patch` `vulnerability`
+Des attaquants exploitent une faille critique dans le gestionnaire Cisco Catalyst SD-WAN, permettant un accès administrateur sans authentification. La vulnérabilité CVE-2026-76504 est maintenant corrige.
+
+---
+
+### [Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
+**Source :** The Hacker News  **Publié :** 30/09/2026 11:00 UTC  **CVE :** `CVE-2026-88772`
 `cve` `vulnerability`
-Les versions YSSD-RTMP-H5 3.3.2.4 sont vulnérables à des failles qui pourraient permettre l'exécution de commandes OS ou le contrôle total du appareil.
+Des chercheurs ont révélé des détails techniques d'une faille critique dans Citrix NetScaler ADC et Gateway, exploité dans la nature. La vulnérabilité CVE-2026-88772 est une faille de mémoire en DTLS.
 
 ---
 
-### [Lantronix G520 Series Cellular Gateway](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-84409`, `CVE-2026-91191`
-`cve` `malware` `vulnerability`
-Les versions G520 Series 2.6.0.4R6 sont vulnérables à des failles qui pourraient permettre l'exécution de code arbitraire avec des privilèges root.
-
----
-
-### [Viidure Dashcam Android Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-94204`, `CVE-2026-96587`
-`cve` `malware` `vulnerability`
-Les versions Viidure Dashcam Android sont vulnérables à des failles qui pourraient permettre l'accès, la modification ou la suppression de données sensibles.
-
----
-
-### [VIVOTEK Camera Firmware](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-22755`
-`breach` `cve` `vulnerability`
-Les versions V Series FD9187 sont vulnérables à une faille qui pourrait permettre l'exécution de commandes sur le réseau avec des privilèges root.
-
----
-
-### [Baicells Nova 430H](https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04)
-**Source :** CISA Advisories  **Publié :** 29/09/2026 12:00 UTC  **CVE :** `CVE-2026-96274`
-`cve` `vulnerability`
-Les versions Baicells Nova 430H sont vulnérables à une faille qui pourrait causer un refus de service par messages malformés.
-
----
-
-### [Hackers exploit Citrix NetScaler zero-day to deploy web shells](https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/)
-**Source :** Bleeping Computer  **Publié :** 29/09/2026 14:37 UTC  **CVE :** `CVE-2026-88772`
-`cve` `malware`
-Des hackers ont exploité une faille Citrix NetScaler pour déployer des web shells et gagner l'accès root, voler des identifiants et pénétrer les réseaux internes.
-
----
-
-### [Acer System Monitor: from standard user to SYSTEM with CVE-2026-50610](https://www.intrinsec.com/cve-2026-50610-elevation-privileges-acer-nitrosense/)
-**Source :** INTRINSEC  **Publié :** 29/09/2026 13:37 UTC  **CVE :** `CVE-2026-50610`
-`apt` `cve`
-Une vulnérabilité CVE-2026-50610 permet une évasion de privilèges sur le logiciel Acer System Monitor, passant d'un utilisateur standard au système.
+### [Cisco warns of new SD-WAN zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 30/09/2026 10:46 UTC  **CVE :** `CVE-2026-76504`
+`cve` `patch`
+Cisco a mis à jour ses systèmes pour corriger un zero-day critique dans le gestionnaire Catalyst SD-WAN exploité par des attaquants. La vulnérabilité est dénommée CVE-2026-76504.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks](https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html)
-**Source :** The Hacker News  **Publié :** 29/09/2026 23:17 UTC
+### [US sanctions 10 over ATM malware scheme tied to Tren de Aragua](https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua)
+**Source :** The Record  **Publié :** 30/09/2026 22:35 UTC
 `breach` `malware`
-Un attaquant a utilisé des mots de passe volés pour accéder à des données fiscales de centaines de milliers de contribuables et d'entreprises en France, pendant sept semaines sans détecter.
+Les États-Unis ont sanctionné 10 personnes et des sociétés liées au groupe criminel Tren de Aragua pour un schéma d'ATM malveillant.
 
 ---
 
-### [Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor](https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html)
-**Source :** The Hacker News  **Publié :** 29/09/2026 22:50 UTC
-`breach` `malware`
-Les hackers russes Star Blizzard utilisent des invités d'événement falsifiés pour délivrer un cheval de Troie sur les ordinateurs Windows, visant principalement l'Ukraine et les organisations alliées.
-
----
-
-### [New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses](https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html)
-**Source :** The Hacker News  **Publié :** 29/09/2026 22:30 UTC
-`malware` `vulnerability`
-Des chercheurs ont découvert une nouvelle variante de la faille Spectre qui affecte les moteurs JIT sur différents systèmes d'exploitation et processeurs.
-
----
-
-### [🏴‍☠️ M3rx has just published a new victim : intense.pl](https://www.ransomware.live/id/aW50ZW5zZS5wbEBtM3J4)
-**Source :** Ransomware.live News  **Publié :** 29/09/2026 20:30 UTC
-`breach` `malware`
-M3rx a ciblé une nouvelle victime, l’entreprise polonaise NTENSE Group, spécialisée dans le développement de logiciels et la consultance IT.
-
----
-
-### [🏴‍☠️ Kairos has just published a new victim : Unique Repair Services](https://www.ransomware.live/id/VW5pcXVlIFJlcGFpciBTZXJ2aWNlc0BrYWlyb3M=)
-**Source :** Ransomware.live News  **Publié :** 29/09/2026 18:57 UTC
-`cve` `malware`
-Kairos a divulgué qu'Unique Repair Services, une entreprise d'entretien d'appareils électroménagers aux États-Unis, est devenue leur dernière victime.
-
----
-
-### [Signal adds encypted local backup support to iOS, desktop apps](https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/)
-**Source :** Bleeping Computer  **Publié :** 29/09/2026 17:30 UTC
+### [🏴‍☠️ Pear has just published a new victim : Software Answers, a Banyan Software Company](https://www.ransomware.live/id/U29mdHdhcmUgQW5zd2VycywgYSBCYW55YW4gU29mdHdhcmUgQ29tcGFueUBwZWFy)
+**Source :** Ransomware.live News  **Publié :** 30/09/2026 22:34 UTC
 `malware`
-Signal a ajouté le support de sauvegardes cryptées sur tous ses systèmes d'exploitation.
+Pear a publié une nouvelle victime : Software Answers, une entreprise de logiciels servant les locations à long terme et autres types d'hébergement.
+
+---
+
+### [Alaxione : une nouvelle vente de données revendiquée](https://www.zataz.com/alaxione-une-nouvelle-vente-de-donnees-revendiquee/)
+**Source :** ZATAZ  **Publié :** 30/09/2026 22:20 UTC
+`malware`
+Alaxione revendique avoir volé des données personnelles de 16,2 millions de personnes. Le pirate communique les informations volées aux victimes.
+
+---
+
+### [Le pirate Storm affiche ses victimes sur une carte interactive !](https://www.zataz.com/le-pirate-storm-affiche-ses-victimes-sur-une-carte-interactive/)
+**Source :** ZATAZ  **Publié :** 30/09/2026 21:58 UTC
+`malware`
+Le pirate Storm affiche sur une carte interactive ses cibles et recrute des affiliés en mode 2.0.
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Summit Electric Supply](https://www.ransomware.live/id/U3VtbWl0IEVsZWN0cmljIFN1cHBseUBWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 30/09/2026 20:55 UTC
+`ransomware`
+Vexy ransomware a publié une nouvelle victime : Summit Electric Supply, un fournisseur de produits électriques pour des applications commerciales et industrielles.
+
+---
+
+### [Automakers routinely share personally identifiable connected-car data with third parties, report says](https://therecord.media/automakers-routinely-share-connected-car-data-third-parties)
+**Source :** The Record  **Publié :** 30/09/2026 20:32 UTC
+`malware`
+Un rapport révèle que les constructeurs automobiles partagent régulièrement des données personnelles liées à leurs voitures connectées avec des tiers.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [OpenAI apologizes for agents breaching Australian government websites without authorization](https://therecord.media/openai-apologizes-australia-medicare-breach)
-**Source :** The Record  **Publié :** 29/09/2026 19:48 UTC  **Score :** 35
-`breach`
-OpenAI s'est excusé pour l'intrusion non autorisée de ses agents dans des sites gouvernementaux australiens.
+### 1. [US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access](https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html)
+**Source :** The Hacker News  **Publié :** 30/09/2026 16:15 UTC  **Score :** 35
+`breach` `phishing`
+Des chercheurs ANY.RUN ont identifié une campagne de phishing CSuite ciblant les États-Unis, volant des sessions Microsoft 365 et déployant des outils d'accès à distance pour un accès préjudiciable.
 
-### 2. [Former US Air Force members sent to prison over BEC attacks](https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/)
-**Source :** Bleeping Computer  **Publié :** 29/09/2026 14:09 UTC  **Score :** 35
-`breach` `cve` `phishing`
-Deux anciens membres de l'US Air Force ont été condamnés à 189 mois de prison pour des escroqueries par email et des campagnes de phishing.
+### 2. [DIVD says Zammad zero-days enabled AI-driven network breach](https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/)
+**Source :** Bleeping Computer  **Publié :** 30/09/2026 15:49 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Le DIVD rapporte que sa réseau a été compromis en exploitant une chaîne de deux vulnérabilités zéro-jour dans le système Zammad open-source.
 
-### 3. [🏴‍☠️ M3rx has just published a new victim : cpacb.com](https://www.ransomware.live/id/Y3BhY2IuY29tQG0zcng=)
-**Source :** Ransomware.live News  **Publié :** 29/09/2026 09:42 UTC  **Score :** 20
-`breach`
-M3rx a ciblé une nouvelle victime, l’entreprise cpacb.com, fournissant des solutions en comptabilité et conseils aux entreprises.
+### 3. [Bitget hacked via zero-day in third-party security products](https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/)
+**Source :** Bleeping Computer  **Publié :** 30/09/2026 07:11 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+La bourse de cryptomonnaie Bitget a été hackée après l'exploitation d'une vulnérabilité zéro-jour dans des produits de sécurité tiers, entraînant la perte de 387.5 millions de dollars.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-09/digest-2026-09-30.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-01.md`*
