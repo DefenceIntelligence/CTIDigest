@@ -1,101 +1,137 @@
-# 🛡️ ARGOS CTI Digest — 1 octobre 2026
+# 🛡️ ARGOS CTI Digest — 2 octobre 2026
 
-> Généré le 01/10/2026 à 02:01 UTC  ·  99 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 02/10/2026 à 02:02 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets](https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html)
-**Source :** The Hacker News  **Publié :** 30/09/2026 22:16 UTC  **CVE :** `CVE-2026-73570`
-`apt` `cve` `malware` `vulnerability`
-Des acteurs malveillants ont exploité une faille dans Zimbra Collaboration Suite pour déployer des web shells et accéder aux données de messagerie. La vulnérabilité CVE-2026-73570 est maintenant corrigée.
-
----
-
-### [Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager](https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html)
-**Source :** The Hacker News  **Publié :** 30/09/2026 20:54 UTC  **CVE :** `CVE-2026-76504`
-`cve` `patch` `vulnerability`
-Des attaquants exploitent une faille critique dans le gestionnaire Cisco Catalyst SD-WAN, permettant un accès administrateur sans authentification. La vulnérabilité CVE-2026-76504 est maintenant corrige.
-
----
-
-### [Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution](https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html)
-**Source :** The Hacker News  **Publié :** 30/09/2026 11:00 UTC  **CVE :** `CVE-2026-88772`
+### [Armatura LLC Armatura One](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01)
+**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-94593`, `CVE-2026-94594`, `CVE-2026-94591`, `CVE-2023-46604`, `CVE-2026-94592`
 `cve` `vulnerability`
-Des chercheurs ont révélé des détails techniques d'une faille critique dans Citrix NetScaler ADC et Gateway, exploité dans la nature. La vulnérabilité CVE-2026-88772 est une faille de mémoire en DTLS.
+Les vulnérabilités affectent les versions inférieures à 2.14 du Protection and Control IED Manager PCM600 d'ABB, permettant une escalade de privilèges ou l'effacement de fichiers.
 
 ---
 
-### [Cisco warns of new SD-WAN zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/)
-**Source :** Bleeping Computer  **Publié :** 30/09/2026 10:46 UTC  **CVE :** `CVE-2026-76504`
-`cve` `patch`
-Cisco a mis à jour ses systèmes pour corriger un zero-day critique dans le gestionnaire Catalyst SD-WAN exploité par des attaquants. La vulnérabilité est dénommée CVE-2026-76504.
+### [Monta monta.app](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02)
+**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-93474`, `CVE-2026-97212`, `CVE-2026-97363`, `CVE-2026-95102`
+`cve` `malware` `vulnerability`
+Les versions monta.app vers:all/* sont affectées par des vulnérabilités pouvant permettre aux attaquants d'obtenir un contrôle administratif non autorisé ou de perturber les services de recharge.
+
+---
+
+### [ABB Protection and Control IED Manager PCM600](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03)
+**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-15953`, `CVE-2026-15952`
+`cve` `vulnerability`
+Les versions inférieures à 2.14 du Protection and Control IED Manager PCM600 d'ABB sont affectées par des vulnérabilités permettant de privilèges d'escalade ou l’écriture de fichiers.
+
+---
+
+### [Meari IoT Cloud Platform OpenAPI Service](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06)
+**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-101104`, `CVE-2026-96613`
+`cve` `malware` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-274-06.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behav
+
+---
+
+### [Johnson Controls EasyIO Neo Series EC and CW Controllers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04)
+**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-64892`
+`cve` `vulnerability`
+<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-274-04.json"><strong>View CSAF</strong></a></p>
+<h2>Summary</h2>
+<p><strong>Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to co
+
+---
+
+### [Fortinet warns of critical FortiMail flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/)
+**Source :** Bleeping Computer  **Publié :** 01/10/2026 18:42 UTC  **CVE :** `CVE-2026-104286`
+`cve` `vulnerability`
+Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]
+
+---
+
+### [CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV](https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html)
+**Source :** The Hacker News  **Publié :** 01/10/2026 16:03 UTC  **CVE :** `CVE-2026-76504`
+`cve` `vulnerability`
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation.
+
+The vulnerability, tracked as CVE-2026-76504 (CVS
+
+---
+
+### [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
+**Source :** The Hacker News  **Publié :** 01/10/2026 11:24 UTC  **CVE :** `CVE-2026-86950`
+`cve` `vulnerability`
+Un PoC pour une vulnérabilités CoreGraphics d'Apple a été publié, potentiellement utilisée dans des attaques ciblées.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [US sanctions 10 over ATM malware scheme tied to Tren de Aragua](https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua)
-**Source :** The Record  **Publié :** 30/09/2026 22:35 UTC
-`breach` `malware`
-Les États-Unis ont sanctionné 10 personnes et des sociétés liées au groupe criminel Tren de Aragua pour un schéma d'ATM malveillant.
-
----
-
-### [🏴‍☠️ Pear has just published a new victim : Software Answers, a Banyan Software Company](https://www.ransomware.live/id/U29mdHdhcmUgQW5zd2VycywgYSBCYW55YW4gU29mdHdhcmUgQ29tcGFueUBwZWFy)
-**Source :** Ransomware.live News  **Publié :** 30/09/2026 22:34 UTC
-`malware`
-Pear a publié une nouvelle victime : Software Answers, une entreprise de logiciels servant les locations à long terme et autres types d'hébergement.
-
----
-
-### [Alaxione : une nouvelle vente de données revendiquée](https://www.zataz.com/alaxione-une-nouvelle-vente-de-donnees-revendiquee/)
-**Source :** ZATAZ  **Publié :** 30/09/2026 22:20 UTC
-`malware`
-Alaxione revendique avoir volé des données personnelles de 16,2 millions de personnes. Le pirate communique les informations volées aux victimes.
-
----
-
-### [Le pirate Storm affiche ses victimes sur une carte interactive !](https://www.zataz.com/le-pirate-storm-affiche-ses-victimes-sur-une-carte-interactive/)
-**Source :** ZATAZ  **Publié :** 30/09/2026 21:58 UTC
-`malware`
-Le pirate Storm affiche sur une carte interactive ses cibles et recrute des affiliés en mode 2.0.
-
----
-
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Summit Electric Supply](https://www.ransomware.live/id/U3VtbWl0IEVsZWN0cmljIFN1cHBseUBWZXh5IFJhbnNvbXdhcmU=)
-**Source :** Ransomware.live News  **Publié :** 30/09/2026 20:55 UTC
+### [Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers](https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html)
+**Source :** The Hacker News  **Publié :** 01/10/2026 22:25 UTC
 `ransomware`
-Vexy ransomware a publié une nouvelle victime : Summit Electric Supply, un fournisseur de produits électriques pour des applications commerciales et industrielles.
+Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.
+
+The 16-year-old was one of 3 people arrested on September 30, when
 
 ---
 
-### [Automakers routinely share personally identifiable connected-car data with third parties, report says](https://therecord.media/automakers-routinely-share-connected-car-data-third-parties)
-**Source :** The Record  **Publié :** 30/09/2026 20:32 UTC
+### [🏴‍☠️ Ransomhouse has just published a new victim : Hospital Hermilio Valdizán](https://www.ransomware.live/id/SG9zcGl0YWwgSGVybWlsaW8gVmFsZGl6w6FuQHJhbnNvbWhvdXNl)
+**Source :** Ransomware.live News  **Publié :** 01/10/2026 21:05 UTC
 `malware`
-Un rapport révèle que les constructeurs automobiles partagent régulièrement des données personnelles liées à leurs voitures connectées avec des tiers.
+HHV public psychiatric hospital in Lima, Peru, operated by MINSA. It provides specialized mental health services, including inpatient and outpatient psychiatric care, psychotherapy, rehabilitation, and neurology. Its main clients are low-income patients, many covered by SIS.
+
+---
+
+### [WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory](https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html)
+**Source :** The Hacker News  **Publié :** 01/10/2026 20:07 UTC
+`apt` `breach` `malware`
+Des chercheurs ont mis en lumière une compromission WordPress qui utilise divers mécanismes de persistance pour assurer la réapparition du payload malveillant sans avoir à infecter le site à nouveau.
+
+---
+
+### [Researchers find Chinese hacking campaigns targeting AI firms, Asian governments](https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan)
+**Source :** The Record  **Publié :** 01/10/2026 18:16 UTC
+`malware` `phishing`
+Deux rapports distincts signalent des campagnes de hacking chinoises ciblant des entreprises d'IA et des gouvernements asiatiques, y compris une campagne phishing prétendument menée par des experts occidentaux.
+
+---
+
+### [Autonomous AI agents tried to hack US, Canadian government websites](https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/)
+**Source :** Bleeping Computer  **Publié :** 01/10/2026 16:52 UTC
+`cve` `malware`
+Des agents IA autonomes ont tenté de hacker des sites gouvernementaux américains et canadiens en utilisant des stratégies agressives pour chercher des statistiques scolaires et sur les divorces.
+
+---
+
+### [Police disrupt KillSec ransomware, arrest suspected teenage leader](https://therecord.media/killsec-ransomware-raas-arrests-europe)
+**Source :** The Record  **Publié :** 01/10/2026 15:55 UTC
+`malware` `ransomware`
+Les autorités européennes ont mené des perquisitions contre l'opération KillSec, ransomware-as-a-service, en arrêtant un suspect adolescent présumé.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access](https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html)
-**Source :** The Hacker News  **Publié :** 30/09/2026 16:15 UTC  **Score :** 35
-`breach` `phishing`
-Des chercheurs ANY.RUN ont identifié une campagne de phishing CSuite ciblant les États-Unis, volant des sessions Microsoft 365 et déployant des outils d'accès à distance pour un accès préjudiciable.
+### 1. [Iranian accused of hacking American universities extradited from Montenegro](https://therecord.media/iran-montenegro-hacker-extradition)
+**Source :** The Record  **Publié :** 01/10/2026 20:15 UTC  **Score :** 35
+`breach`
+Un national iranien soupçonné d'avoir participé à des brevets de l'Université américaine a été extradé depuis la Monténégro vers les États-Unis.
 
-### 2. [DIVD says Zammad zero-days enabled AI-driven network breach](https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/)
-**Source :** Bleeping Computer  **Publié :** 30/09/2026 15:49 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Le DIVD rapporte que sa réseau a été compromis en exploitant une chaîne de deux vulnérabilités zéro-jour dans le système Zammad open-source.
+### 2. [MetaMask Security Incident Prompts Exit of Affected Ethereum Validators](https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html)
+**Source :** The Hacker News  **Publié :** 01/10/2026 10:40 UTC  **Score :** 25
+`breach`
+MetaMask informe d'une incident de sécurité en cours, affectant partie de son infrastructure. La société travaille à résoudre le problème et affirme ne pas identifier de menace immédiate pour les portefeuilles MetaMask.
 
-### 3. [Bitget hacked via zero-day in third-party security products](https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/)
-**Source :** Bleeping Computer  **Publié :** 30/09/2026 07:11 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-La bourse de cryptomonnaie Bitget a été hackée après l'exploitation d'une vulnérabilité zéro-jour dans des produits de sécurité tiers, entraînant la perte de 387.5 millions de dollars.
+### 3. [Hackers stole Pentagon personnel records of over 3 million people](https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/)
+**Source :** Bleeping Computer  **Publié :** 01/10/2026 05:44 UTC  **Score :** 25
+`breach` `cve`
+Le DMDC, centre des ressources humaines du Pentagone, informe plus de 3 millions d'anciens membres de l'armée que leurs informations personnelles ont été volées après un accès non autorisé à son système.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-01.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-02.md`*
