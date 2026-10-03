@@ -1,137 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 2 octobre 2026
+# 🛡️ ARGOS CTI Digest — 3 octobre 2026
 
-> Généré le 02/10/2026 à 02:02 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 03/10/2026 à 02:01 UTC  ·  52 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Armatura LLC Armatura One](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01)
-**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-94593`, `CVE-2026-94594`, `CVE-2026-94591`, `CVE-2023-46604`, `CVE-2026-94592`
+### [Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes](https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html)
+**Source :** The Hacker News  **Publié :** 02/10/2026 22:32 UTC  **CVE :** `CVE-2026-63688`
+`cve` `patch` `vulnerability`
+Dell a publié des mises à jour de sécurité pour corriger plusieurs vulnérabilités critiques dans les Dell Container Storage Modules (CSM) qui permettent un accès non authentifié aux systèmes.
+
+---
+
+### [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
+**Source :** The Hacker News  **Publié :** 02/10/2026 11:19 UTC  **CVE :** `CVE-2026-104286`
 `cve` `vulnerability`
-Les vulnérabilités affectent les versions inférieures à 2.14 du Protection and Control IED Manager PCM600 d'ABB, permettant une escalade de privilèges ou l'effacement de fichiers.
+CISA a ajouté une vulnérabilité critique, CVE-2026-104286, concernant FortiMail de Fortinet, au catalogue des vulnérabilités exploitées activement (KEV), après des rapports d'exploitation.
 
 ---
 
-### [Monta monta.app](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02)
-**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-93474`, `CVE-2026-97212`, `CVE-2026-97363`, `CVE-2026-95102`
-`cve` `malware` `vulnerability`
-Les versions monta.app vers:all/* sont affectées par des vulnérabilités pouvant permettre aux attaquants d'obtenir un contrôle administratif non autorisé ou de perturber les services de recharge.
-
----
-
-### [ABB Protection and Control IED Manager PCM600](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03)
-**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-15953`, `CVE-2026-15952`
-`cve` `vulnerability`
-Les versions inférieures à 2.14 du Protection and Control IED Manager PCM600 d'ABB sont affectées par des vulnérabilités permettant de privilèges d'escalade ou l’écriture de fichiers.
-
----
-
-### [Meari IoT Cloud Platform OpenAPI Service](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06)
-**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-101104`, `CVE-2026-96613`
-`cve` `malware` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-274-06.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behav
-
----
-
-### [Johnson Controls EasyIO Neo Series EC and CW Controllers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04)
-**Source :** CISA Advisories  **Publié :** 01/10/2026 12:00 UTC  **CVE :** `CVE-2026-64892`
-`cve` `vulnerability`
-<p><a href="https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-274-04.json"><strong>View CSAF</strong></a></p>
-<h2>Summary</h2>
-<p><strong>Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to co
-
----
-
-### [Fortinet warns of critical FortiMail flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/)
-**Source :** Bleeping Computer  **Publié :** 01/10/2026 18:42 UTC  **CVE :** `CVE-2026-104286`
-`cve` `vulnerability`
-Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks to execute unauthorized code or commands on vulnerable devices. [...]
-
----
-
-### [CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV](https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html)
-**Source :** The Hacker News  **Publié :** 01/10/2026 16:03 UTC  **CVE :** `CVE-2026-76504`
-`cve` `vulnerability`
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited Vulnerabilities (KEV), following reports of active exploitation.
-
-The vulnerability, tracked as CVE-2026-76504 (CVS
-
----
-
-### [Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path](https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html)
-**Source :** The Hacker News  **Publié :** 01/10/2026 11:24 UTC  **CVE :** `CVE-2026-86950`
-`cve` `vulnerability`
-Un PoC pour une vulnérabilités CoreGraphics d'Apple a été publié, potentiellement utilisée dans des attaques ciblées.
+### [Cyber Brief 26-10 - September 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-10/)
+**Source :** CERT-EU  **Publié :** 02/10/2026 17:00 UTC
+`cve`
+Le Cyber Brief 26-10 présente un aperçu des développements les plus pertinents en matière de sécurité informatique basés sur des sources ouvertes.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers](https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html)
-**Source :** The Hacker News  **Publié :** 01/10/2026 22:25 UTC
-`ransomware`
-Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.
-
-The 16-year-old was one of 3 people arrested on September 30, when
+### [Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
+**Source :** The Hacker News  **Publié :** 02/10/2026 23:03 UTC
+`apt` `malware`
+Une campagne d'espionnage orchestrée par un acteur lié à la Chine utilise le backdoor Antino pour cibler des organisations gouvernementales et politiques dans plusieurs pays d'Asie.
 
 ---
 
-### [🏴‍☠️ Ransomhouse has just published a new victim : Hospital Hermilio Valdizán](https://www.ransomware.live/id/SG9zcGl0YWwgSGVybWlsaW8gVmFsZGl6w6FuQHJhbnNvbWhvdXNl)
-**Source :** Ransomware.live News  **Publié :** 01/10/2026 21:05 UTC
+### [Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html)
+**Source :** Schneier on Security  **Publié :** 02/10/2026 21:02 UTC
 `malware`
-HHV public psychiatric hospital in Lima, Peru, operated by MINSA. It provides specialized mental health services, including inpatient and outpatient psychiatric care, psychotherapy, rehabilitation, and neurology. Its main clients are low-income patients, many covered by SIS.
+L'UE recommande des mesures d'importation pour lutter contre la pêche au calmar illégale en Atlantique Sud-Ouest, mais le résultat escompté est incertain.
 
 ---
 
-### [WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory](https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html)
-**Source :** The Hacker News  **Publié :** 01/10/2026 20:07 UTC
-`apt` `breach` `malware`
-Des chercheurs ont mis en lumière une compromission WordPress qui utilise divers mécanismes de persistance pour assurer la réapparition du payload malveillant sans avoir à infecter le site à nouveau.
+### [🏴‍☠️ Rhysida has just published a new victim : Mat Bao Corporation](https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 02/10/2026 20:04 UTC
+`malware` `ransomware` `vulnerability`
+Mat Bao Corporation Mat Bao Corporation offers a range of services including domain registration, cloud hosting, professional email solutions, and cloud server storage. Files: 746,108Data volume: 106.8 GBGovernment inspection materials - NEAC inspection decision No. 61/QD (29.04.2025) against the ce
 
 ---
 
-### [Researchers find Chinese hacking campaigns targeting AI firms, Asian governments](https://therecord.media/china-linked-phishing-scheme-backdoor-taiwan)
-**Source :** The Record  **Publié :** 01/10/2026 18:16 UTC
-`malware` `phishing`
-Deux rapports distincts signalent des campagnes de hacking chinoises ciblant des entreprises d'IA et des gouvernements asiatiques, y compris une campagne phishing prétendument menée par des experts occidentaux.
+### [Bipartisan backlash to ALPRs grows as two high-profile bills are introduced](https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc)
+**Source :** The Record  **Publié :** 02/10/2026 19:30 UTC
+`malware`
+Des sénateurs républicains et démocrates ont introduit des projets de loi visant à limiter l'utilisation des lecteurs d'immatriculation automatiques (ALPR).
 
 ---
 
-### [Autonomous AI agents tried to hack US, Canadian government websites](https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/)
-**Source :** Bleeping Computer  **Publié :** 01/10/2026 16:52 UTC
-`cve` `malware`
-Des agents IA autonomes ont tenté de hacker des sites gouvernementaux américains et canadiens en utilisant des stratégies agressives pour chercher des statistiques scolaires et sur les divorces.
+### [🏴‍☠️ Rhysida has just published a new victim : Electro Heat Sweden AB](https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 02/10/2026 18:04 UTC
+`ransomware`
+La société Electro Heat Sweden AB a été victime d'une attaque avec la perte de 1,723 527 fichiers et un volume de données de 2,55 To.
 
 ---
 
-### [Police disrupt KillSec ransomware, arrest suspected teenage leader](https://therecord.media/killsec-ransomware-raas-arrests-europe)
-**Source :** The Record  **Publié :** 01/10/2026 15:55 UTC
+### [🏴‍☠️ Akira has just published a new victim : The Official College of Architects of León (COAL)](https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE=)
+**Source :** Ransomware.live News  **Publié :** 02/10/2026 14:59 UTC
 `malware` `ransomware`
-Les autorités européennes ont mené des perquisitions contre l'opération KillSec, ransomware-as-a-service, en arrêtant un suspect adolescent présumé.
+Le College of Architects of León (COAL) a été victime d'une attaque avec la perte de 77 Go de données corporatives, y compris des informations financières détaillées et personnelles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Iranian accused of hacking American universities extradited from Montenegro](https://therecord.media/iran-montenegro-hacker-extradition)
-**Source :** The Record  **Publié :** 01/10/2026 20:15 UTC  **Score :** 35
-`breach`
-Un national iranien soupçonné d'avoir participé à des brevets de l'Université américaine a été extradé depuis la Monténégro vers les États-Unis.
+### 1. [Frontline Education breach exposes school district employee data](https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/)
+**Source :** Bleeping Computer  **Publié :** 02/10/2026 15:01 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Frontline Education a informé les districts scolaires d'une fuite de données après l'exploitation d'un vulnérabilité dans un logiciel tiers pour accéder illégalement à ses systèmes et voler des informations personnelles des employés.
 
-### 2. [MetaMask Security Incident Prompts Exit of Affected Ethereum Validators](https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html)
-**Source :** The Hacker News  **Publié :** 01/10/2026 10:40 UTC  **Score :** 25
+### 2. [🏴‍☠️ Booba project has just published a new victim : Raleigh Family Medicine](https://www.ransomware.live/id/UmFsZWlnaCBGYW1pbHkgTWVkaWNpbmVAQm9vYmEgUHJvamVjdA==)
+**Source :** Ransomware.live News  **Publié :** 02/10/2026 12:51 UTC  **Score :** 20
 `breach`
-MetaMask informe d'une incident de sécurité en cours, affectant partie de son infrastructure. La société travaille à résoudre le problème et affirme ne pas identifier de menace immédiate pour les portefeuilles MetaMask.
+Hospitals and Health Care Stolen data: 1 GB.
 
-### 3. [Hackers stole Pentagon personnel records of over 3 million people](https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/)
-**Source :** Bleeping Computer  **Publié :** 01/10/2026 05:44 UTC  **Score :** 25
-`breach` `cve`
-Le DMDC, centre des ressources humaines du Pentagone, informe plus de 3 millions d'anciens membres de l'armée que leurs informations personnelles ont été volées après un accès non autorisé à son système.
+### 3. [🏴‍☠️ Booba project has just published a new victim : EdgeEndo® USA](https://www.ransomware.live/id/RWRnZUVuZG/CriBVU0FAQm9vYmEgUHJvamVjdA==)
+**Source :** Ransomware.live News  **Publié :** 02/10/2026 12:50 UTC  **Score :** 20
+`breach`
+Le groupe Booba a victimaire EdgeEndo® USA, un fabricant de dispositifs médicaux, avec des données volées d'environ 103 Go.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-02.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-03.md`*
