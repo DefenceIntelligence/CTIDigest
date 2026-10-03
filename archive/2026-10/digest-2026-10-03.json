@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T02:01:36.670020+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "c8048d13eac49633",
+        "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+        "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-63688"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Dell a publié des mises à jour de sécurité pour corriger plusieurs vulnérabilités critiques dans les Dell Container Storage Modules (CSM) qui permettent un accès non authentifié aux systèmes.",
+        "published_at": "2026-10-02T22:32:12",
+        "score": 20
+      },
+      {
+        "guid": "3c54c036fa4b596e",
+        "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+        "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-104286"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté une vulnérabilité critique, CVE-2026-104286, concernant FortiMail de Fortinet, au catalogue des vulnérabilités exploitées activement (KEV), après des rapports d'exploitation.",
+        "published_at": "2026-10-02T11:19:50",
+        "score": 20
+      },
+      {
+        "guid": "ff6b8663b361277d",
+        "title": "Cyber Brief 26-10 - September 2026",
+        "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-10/",
+        "source": "CERT-EU",
+        "category": "Officiel",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Le Cyber Brief 26-10 présente un aperçu des développements les plus pertinents en matière de sécurité informatique basés sur des sources ouvertes.",
+        "published_at": "2026-10-02T17:00:00",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "20096e9503e9ee6e",
+        "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+        "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Une campagne d'espionnage orchestrée par un acteur lié à la Chine utilise le backdoor Antino pour cibler des organisations gouvernementales et politiques dans plusieurs pays d'Asie.",
+        "published_at": "2026-10-02T23:03:16",
+        "score": 17
+      },
+      {
+        "guid": "ca6aeba4439e1f3b",
+        "title": "Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing",
+        "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "L'UE recommande des mesures d'importation pour lutter contre la pêche au calmar illégale en Atlantique Sud-Ouest, mais le résultat escompté est incertain.",
+        "published_at": "2026-10-02T21:02:18",
+        "score": 17
+      },
+      {
+        "guid": "1cc1c736b7ef03e0",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Mat Bao Corporation",
+        "url": "https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Mat Bao Corporation Mat Bao Corporation offers a range of services including domain registration, cloud hosting, professional email solutions, and cloud server storage. Files: 746,108Data volume: 106.8 GBGovernment inspection materials - NEAC inspection decision No. 61/QD (29.04.2025) against the certification authority, working minutes naming state inspectors and company staff (through December 2025).Corporate core - GPKD business-registration documents bearing the owner&#x27;s signature, share",
+        "published_at": "2026-10-02T20:04:32",
+        "score": 12
+      },
+      {
+        "guid": "2597d4dbc33b2d54",
+        "title": "Bipartisan backlash to ALPRs grows as two high-profile bills are introduced",
+        "url": "https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des sénateurs républicains et démocrates ont introduit des projets de loi visant à limiter l'utilisation des lecteurs d'immatriculation automatiques (ALPR).",
+        "published_at": "2026-10-02T19:30:00",
+        "score": 27
+      },
+      {
+        "guid": "106ff8fddea6d9b5",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Electro Heat Sweden AB",
+        "url": "https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "La société Electro Heat Sweden AB a été victime d'une attaque avec la perte de 1,723 527 fichiers et un volume de données de 2,55 To.",
+        "published_at": "2026-10-02T18:04:03",
+        "score": 0
+      },
+      {
+        "guid": "2483bf156de95424",
+        "title": "🏴‍☠️ Akira has just published a new victim : The Official College of Architects of León (COAL)",
+        "url": "https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le College of Architects of León (COAL) a été victime d'une attaque avec la perte de 77 Go de données corporatives, y compris des informations financières détaillées et personnelles.",
+        "published_at": "2026-10-02T14:59:23",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "bac9d0230b33c60b",
+        "title": "Frontline Education breach exposes school district employee data",
+        "url": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Frontline Education a informé les districts scolaires d'une fuite de données après l'exploitation d'un vulnérabilité dans un logiciel tiers pour accéder illégalement à ses systèmes et voler des informations personnelles des employés.",
+        "published_at": "2026-10-02T15:01:40",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "fa0ed61c4af679e0",
+        "title": "🏴‍☠️ Booba project has just published a new victim : Raleigh Family Medicine",
+        "url": "https://www.ransomware.live/id/UmFsZWlnaCBGYW1pbHkgTWVkaWNpbmVAQm9vYmEgUHJvamVjdA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Hospitals and Health Care Stolen data: 1 GB.",
+        "published_at": "2026-10-02T12:51:06",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "b023b62f57b1b36c",
+        "title": "🏴‍☠️ Booba project has just published a new victim : EdgeEndo® USA",
+        "url": "https://www.ransomware.live/id/RWRnZUVuZG/CriBVU0FAQm9vYmEgUHJvamVjdA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le groupe Booba a victimaire EdgeEndo® USA, un fabricant de dispositifs médicaux, avec des données volées d'environ 103 Go.",
+        "published_at": "2026-10-02T12:50:51",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 52,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
