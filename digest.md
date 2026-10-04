@@ -1,94 +1,73 @@
-# 🛡️ ARGOS CTI Digest — 3 octobre 2026
+# 🛡️ ARGOS CTI Digest — 4 octobre 2026
 
-> Généré le 03/10/2026 à 02:01 UTC  ·  52 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 04/10/2026 à 02:01 UTC  ·  23 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes](https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html)
-**Source :** The Hacker News  **Publié :** 02/10/2026 22:32 UTC  **CVE :** `CVE-2026-63688`
-`cve` `patch` `vulnerability`
-Dell a publié des mises à jour de sécurité pour corriger plusieurs vulnérabilités critiques dans les Dell Container Storage Modules (CSM) qui permettent un accès non authentifié aux systèmes.
-
----
-
-### [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html)
-**Source :** The Hacker News  **Publié :** 02/10/2026 11:19 UTC  **CVE :** `CVE-2026-104286`
-`cve` `vulnerability`
-CISA a ajouté une vulnérabilité critique, CVE-2026-104286, concernant FortiMail de Fortinet, au catalogue des vulnérabilités exploitées activement (KEV), après des rapports d'exploitation.
-
----
-
-### [Cyber Brief 26-10 - September 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-10/)
-**Source :** CERT-EU  **Publié :** 02/10/2026 17:00 UTC
-`cve`
-Le Cyber Brief 26-10 présente un aperçu des développements les plus pertinents en matière de sécurité informatique basés sur des sources ouvertes.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html)
-**Source :** The Hacker News  **Publié :** 02/10/2026 23:03 UTC
-`apt` `malware`
-Une campagne d'espionnage orchestrée par un acteur lié à la Chine utilise le backdoor Antino pour cibler des organisations gouvernementales et politiques dans plusieurs pays d'Asie.
+### [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
+**Source :** The Hacker News  **Publié :** 03/10/2026 20:08 UTC
+`apt`
+L'Agence du renseignement britannique avertit que plus de 100 académiques ont aidé la Chine à augmenter ses capacités de renseignement en leur fournissant des financements.
 
 ---
 
-### [Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html)
-**Source :** Schneier on Security  **Publié :** 02/10/2026 21:02 UTC
-`malware`
-L'UE recommande des mesures d'importation pour lutter contre la pêche au calmar illégale en Atlantique Sud-Ouest, mais le résultat escompté est incertain.
+### [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
+**Source :** The Hacker News  **Publié :** 03/10/2026 20:06 UTC
+`apt` `cve` `ransomware` `vulnerability`
+Le groupe suspect Warlock utilise des vulnérabilités dans Microsoft SharePoint pour désactiver les outils de sécurité et déployer du rançongiciel, principalement en Amérique latine.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Mat Bao Corporation](https://www.ransomware.live/id/TWF0IEJhbyBDb3Jwb3JhdGlvbkByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 02/10/2026 20:04 UTC
-`malware` `ransomware` `vulnerability`
-Mat Bao Corporation Mat Bao Corporation offers a range of services including domain registration, cloud hosting, professional email solutions, and cloud server storage. Files: 746,108Data volume: 106.8 GBGovernment inspection materials - NEAC inspection decision No. 61/QD (29.04.2025) against the ce
-
----
-
-### [Bipartisan backlash to ALPRs grows as two high-profile bills are introduced](https://therecord.media/alpr-legislation-hawley-sanders-merkley-aoc)
-**Source :** The Record  **Publié :** 02/10/2026 19:30 UTC
-`malware`
-Des sénateurs républicains et démocrates ont introduit des projets de loi visant à limiter l'utilisation des lecteurs d'immatriculation automatiques (ALPR).
-
----
-
-### [🏴‍☠️ Rhysida has just published a new victim : Electro Heat Sweden AB](https://www.ransomware.live/id/RWxlY3RybyBIZWF0IFN3ZWRlbiBBQkByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 02/10/2026 18:04 UTC
+### [The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations](https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html)
+**Source :** The Hacker News  **Publié :** 03/10/2026 16:30 UTC
 `ransomware`
-La société Electro Heat Sweden AB a été victime d'une attaque avec la perte de 1,723 527 fichiers et un volume de données de 2,55 To.
+La cybersécurité en 2026 se réforme avec l'expansion de la cloud computing, de l'intelligence artificielle et des systèmes distribués.
 
 ---
 
-### [🏴‍☠️ Akira has just published a new victim : The Official College of Architects of León (COAL)](https://www.ransomware.live/id/VGhlIE9mZmljaWFsIENvbGxlZ2Ugb2YgQXJjaGl0ZWN0cyBvZiBMZcOzbiAoQ09BTClAYWtpcmE=)
-**Source :** Ransomware.live News  **Publié :** 02/10/2026 14:59 UTC
-`malware` `ransomware`
-Le College of Architects of León (COAL) a été victime d'une attaque avec la perte de 77 Go de données corporatives, y compris des informations financières détaillées et personnelles.
+### [ShinyHunters hacker reportedly detained in Jordan, aiding FBI](https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/)
+**Source :** Bleeping Computer  **Publié :** 03/10/2026 15:09 UTC
+`malware`
+Un membre du groupe ShinyHunters est arrêté en Jordanie pour coopérer avec l'FBI dans la localisation de autres membres du groupe d'extorsion.
+
+---
+
+### [🏴‍☠️ Rhysida has just published a new victim : Skaff Group](https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ==)
+**Source :** Ransomware.live News  **Publié :** 03/10/2026 13:02 UTC
+`cve` `malware` `ransomware`
+Le groupe Skaff Group, leader libanais des tissus décoratifs, a été victime d'une attaque informatique qui a exposé de vastes informations personnelles.
+
+---
+
+### [🏴‍☠️ Wallstreet has just published a new victim : World Cup 2034](https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA==)
+**Source :** Ransomware.live News  **Publié :** 03/10/2026 11:54 UTC
+`breach` `malware`
+Le groupe Wallstreet a piraté le réseau du consortium Saudi Construction pour le Mondial 2034, exfiltrant des données sensibles sur les employés et les documents contractuels.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Frontline Education breach exposes school district employee data](https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/)
-**Source :** Bleeping Computer  **Publié :** 02/10/2026 15:01 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Frontline Education a informé les districts scolaires d'une fuite de données après l'exploitation d'un vulnérabilité dans un logiciel tiers pour accéder illégalement à ses systèmes et voler des informations personnelles des employés.
-
-### 2. [🏴‍☠️ Booba project has just published a new victim : Raleigh Family Medicine](https://www.ransomware.live/id/UmFsZWlnaCBGYW1pbHkgTWVkaWNpbmVAQm9vYmEgUHJvamVjdA==)
-**Source :** Ransomware.live News  **Publié :** 02/10/2026 12:51 UTC  **Score :** 20
+### 1. [Danish university DTU breach exposes data of up to 200,000 people](https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/)
+**Source :** Bleeping Computer  **Publié :** 03/10/2026 10:35 UTC  **Score :** 25
 `breach`
-Hospitals and Health Care Stolen data: 1 GB.
+Une fuite de l'université technique de Danemark a exposé potentiellement des informations personnelles de 200 000 utilisateurs.
 
-### 3. [🏴‍☠️ Booba project has just published a new victim : EdgeEndo® USA](https://www.ransomware.live/id/RWRnZUVuZG/CriBVU0FAQm9vYmEgUHJvamVjdA==)
-**Source :** Ransomware.live News  **Publié :** 02/10/2026 12:50 UTC  **Score :** 20
-`breach`
-Le groupe Booba a victimaire EdgeEndo® USA, un fabricant de dispositifs médicaux, avec des données volées d'environ 103 Go.
+### 2. [Google Gemini could soon get full access to your Mac’s files, apps and the web](https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/)
+**Source :** Bleeping Computer  **Publié :** 03/10/2026 19:12 UTC  **Score :** 5
+Google Gemini pourrait bientôt accéder librement aux fichiers, applications et web sur les appareils macOS sans autorisation continue.
+
+### 3. [YARA-X 1.21.0 Release, (Sat, Oct 3rd)](https://isc.sans.edu/diary/rss/33392)
+**Source :** SANS ISC  **Publié :** 03/10/2026 14:40 UTC  **Score :** 0
+La version 1.21.0 de YARA-X apporte cinq améliorations et quatre correctifs.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-03.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-04.md`*
