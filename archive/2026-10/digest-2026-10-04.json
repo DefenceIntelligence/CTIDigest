@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T02:01:07.612698+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "d94a92f6ca191c60",
+        "title": "MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+        "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "L'Agence du renseignement britannique avertit que plus de 100 académiques ont aidé la Chine à augmenter ses capacités de renseignement en leur fournissant des financements.",
+        "published_at": "2026-10-03T20:08:46",
+        "score": 5
+      },
+      {
+        "guid": "376eacda54fdbdc4",
+        "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+        "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Le groupe suspect Warlock utilise des vulnérabilités dans Microsoft SharePoint pour désactiver les outils de sécurité et déployer du rançongiciel, principalement en Amérique latine.",
+        "published_at": "2026-10-03T20:06:33",
+        "score": 5
+      },
+      {
+        "guid": "3f266b3c142e6553",
+        "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+        "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "La cybersécurité en 2026 se réforme avec l'expansion de la cloud computing, de l'intelligence artificielle et des systèmes distribués.",
+        "published_at": "2026-10-03T16:30:00",
+        "score": 5
+      },
+      {
+        "guid": "53abe4cd7d9a7b5a",
+        "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+        "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un membre du groupe ShinyHunters est arrêté en Jordanie pour coopérer avec l'FBI dans la localisation de autres membres du groupe d'extorsion.",
+        "published_at": "2026-10-03T15:09:38",
+        "score": 17
+      },
+      {
+        "guid": "fcc93f6f1fc353ab",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Skaff Group",
+        "url": "https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le groupe Skaff Group, leader libanais des tissus décoratifs, a été victime d'une attaque informatique qui a exposé de vastes informations personnelles.",
+        "published_at": "2026-10-03T13:02:56",
+        "score": 12
+      },
+      {
+        "guid": "ba412a0d99eeedfe",
+        "title": "🏴‍☠️ Wallstreet has just published a new victim : World Cup 2034",
+        "url": "https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le groupe Wallstreet a piraté le réseau du consortium Saudi Construction pour le Mondial 2034, exfiltrant des données sensibles sur les employés et les documents contractuels.",
+        "published_at": "2026-10-03T11:54:05",
+        "score": 32
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "11fb7fcc18321d1f",
+        "title": "Danish university DTU breach exposes data of up to 200,000 people",
+        "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de l'université technique de Danemark a exposé potentiellement des informations personnelles de 200 000 utilisateurs.",
+        "published_at": "2026-10-03T10:35:20",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "0f6d3feb1042c9a2",
+        "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+        "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Google Gemini pourrait bientôt accéder librement aux fichiers, applications et web sur les appareils macOS sans autorisation continue.",
+        "published_at": "2026-10-03T19:12:34",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "85b4e6795225ebcd",
+        "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
+        "url": "https://isc.sans.edu/diary/rss/33392",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [],
+        "summary": "La version 1.21.0 de YARA-X apporte cinq améliorations et quatre correctifs.",
+        "published_at": "2026-10-03T14:40:21",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 23,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
