@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T02:00:56.035986+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "32d8dca7c58e91e6",
+        "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-88779"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Citrix a publié des mises à jour d’urgence pour une vulnérabilité de refus de service dans NetScaler, CVE-2026-88779, exploitée dans des attaques zero-day. La recherche examine si elle peut également permettre l'exécution de code distant.",
+        "published_at": "2026-10-04T17:58:01",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "9eba13252cb8fa8f",
+        "title": "🏴‍☠️ Storm has just published a new victim : Nipigon District Memorial Hospital",
+        "url": "https://www.ransomware.live/id/TmlwaWdvbiBEaXN0cmljdCBNZW1vcmlhbCBIb3NwaXRhbEBTdG9ybQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "L'hôpital Nipigon District Memorial, situé au Canada, offre divers services de santé et est impliqué dans des initiatives locales comme CARE 2030 pour la planification stratégique future.",
+        "published_at": "2026-10-04T15:06:06",
+        "score": 12
+      },
+      {
+        "guid": "25652038035d2206",
+        "title": "🏴‍☠️ Krybit has just published a new victim : euroditel.com",
+        "url": "https://www.ransomware.live/id/ZXVyb2RpdGVsLmNvbUBrcnliaXQ=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Groupe Euroditel, un intégrateur de systèmes télécoms et IT français, est une nouvelle victime d'une campagne cybernétique.",
+        "published_at": "2026-10-04T13:02:10",
+        "score": 12
+      },
+      {
+        "guid": "b6c68d8cc462205d",
+        "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+        "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un membre supposé du groupe ShinyHunters, Rey, a été arrêté en Jordanie et coopère avec le FBI pour identifier d'autres membres de l'organisation.",
+        "published_at": "2026-10-04T12:52:05",
+        "score": 17
+      },
+      {
+        "guid": "8346c40461fcbdcf",
+        "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+        "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "phishing"
+        ],
+        "summary": "TA419, un groupe espionnage cyberspace lié à la Chine, mène des campagnes de phishing ciblant des experts en IA aux États-Unis.",
+        "published_at": "2026-10-04T12:50:32",
+        "score": 15
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "635f21cd50e53923",
+        "title": "🏴‍☠️ Booba project has just published a new victim : MorseLife Health System, Inc.",
+        "url": "https://www.ransomware.live/id/TW9yc2VMaWZlIEhlYWx0aCBTeXN0ZW0sIEluYy5AQm9vYmEgUHJvamVjdA==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'hôpital MorseLife Health System a été victime d'une cyberattaque volant 344 GB de données.",
+        "published_at": "2026-10-04T15:20:31",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "7fca6548f01be637",
+        "title": "Anthropic asks Claude users to share voice data for AI model training",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Anthropic sollicite la participation des utilisateurs de Claude pour partager leurs conversations vocales afin d'améliorer son modèle AI.",
+        "published_at": "2026-10-04T06:53:21",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "bfd1ba437e3296df",
+        "title": "🏴‍☠️ Play has just published a new victim : Bold Spring Nursery",
+        "url": "https://www.ransomware.live/id/Qm9sZCBTcHJpbmcgTnVyc2VyeUBwbGF5",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "L'entreprise agricole Bold Spring Nursery est une nouvelle victime dans un affichage publicitaire.",
+        "published_at": "2026-10-04T19:37:06",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 21,
+    "items_selected": 8,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
