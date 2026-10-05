@@ -1,73 +1,64 @@
-# 🛡️ ARGOS CTI Digest — 4 octobre 2026
+# 🛡️ ARGOS CTI Digest — 5 octobre 2026
 
-> Généré le 04/10/2026 à 02:01 UTC  ·  23 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 05/10/2026 à 02:00 UTC  ·  21 items analysés  ·  8 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Citrix patches NetScaler SAML zero-day exploited in attacks](https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 04/10/2026 17:58 UTC  **CVE :** `CVE-2026-88779`
+`cve` `vulnerability`
+Citrix a publié des mises à jour d’urgence pour une vulnérabilité de refus de service dans NetScaler, CVE-2026-88779, exploitée dans des attaques zero-day. La recherche examine si elle peut également permettre l'exécution de code distant.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html)
-**Source :** The Hacker News  **Publié :** 03/10/2026 20:08 UTC
-`apt`
-L'Agence du renseignement britannique avertit que plus de 100 académiques ont aidé la Chine à augmenter ses capacités de renseignement en leur fournissant des financements.
-
----
-
-### [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html)
-**Source :** The Hacker News  **Publié :** 03/10/2026 20:06 UTC
-`apt` `cve` `ransomware` `vulnerability`
-Le groupe suspect Warlock utilise des vulnérabilités dans Microsoft SharePoint pour désactiver les outils de sécurité et déployer du rançongiciel, principalement en Amérique latine.
-
----
-
-### [The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations](https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html)
-**Source :** The Hacker News  **Publié :** 03/10/2026 16:30 UTC
-`ransomware`
-La cybersécurité en 2026 se réforme avec l'expansion de la cloud computing, de l'intelligence artificielle et des systèmes distribués.
-
----
-
-### [ShinyHunters hacker reportedly detained in Jordan, aiding FBI](https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/)
-**Source :** Bleeping Computer  **Publié :** 03/10/2026 15:09 UTC
+### [🏴‍☠️ Storm has just published a new victim : Nipigon District Memorial Hospital](https://www.ransomware.live/id/TmlwaWdvbiBEaXN0cmljdCBNZW1vcmlhbCBIb3NwaXRhbEBTdG9ybQ==)
+**Source :** Ransomware.live News  **Publié :** 04/10/2026 15:06 UTC
 `malware`
-Un membre du groupe ShinyHunters est arrêté en Jordanie pour coopérer avec l'FBI dans la localisation de autres membres du groupe d'extorsion.
+L'hôpital Nipigon District Memorial, situé au Canada, offre divers services de santé et est impliqué dans des initiatives locales comme CARE 2030 pour la planification stratégique future.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Skaff Group](https://www.ransomware.live/id/U2thZmYgR3JvdXBAcmh5c2lkYQ==)
-**Source :** Ransomware.live News  **Publié :** 03/10/2026 13:02 UTC
-`cve` `malware` `ransomware`
-Le groupe Skaff Group, leader libanais des tissus décoratifs, a été victime d'une attaque informatique qui a exposé de vastes informations personnelles.
+### [🏴‍☠️ Krybit has just published a new victim : euroditel.com](https://www.ransomware.live/id/ZXVyb2RpdGVsLmNvbUBrcnliaXQ=)
+**Source :** Ransomware.live News  **Publié :** 04/10/2026 13:02 UTC
+`malware`
+Groupe Euroditel, un intégrateur de systèmes télécoms et IT français, est une nouvelle victime d'une campagne cybernétique.
 
 ---
 
-### [🏴‍☠️ Wallstreet has just published a new victim : World Cup 2034](https://www.ransomware.live/id/V29ybGQgQ3VwIDIwMzRAV2FsbHN0cmVldA==)
-**Source :** Ransomware.live News  **Publié :** 03/10/2026 11:54 UTC
-`breach` `malware`
-Le groupe Wallstreet a piraté le réseau du consortium Saudi Construction pour le Mondial 2034, exfiltrant des données sensibles sur les employés et les documents contractuels.
+### [ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
+**Source :** The Hacker News  **Publié :** 04/10/2026 12:52 UTC
+`malware`
+Un membre supposé du groupe ShinyHunters, Rey, a été arrêté en Jordanie et coopère avec le FBI pour identifier d'autres membres de l'organisation.
+
+---
+
+### [China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing](https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html)
+**Source :** The Hacker News  **Publié :** 04/10/2026 12:50 UTC
+`apt` `phishing`
+TA419, un groupe espionnage cyberspace lié à la Chine, mène des campagnes de phishing ciblant des experts en IA aux États-Unis.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Danish university DTU breach exposes data of up to 200,000 people](https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/)
-**Source :** Bleeping Computer  **Publié :** 03/10/2026 10:35 UTC  **Score :** 25
+### 1. [🏴‍☠️ Booba project has just published a new victim : MorseLife Health System, Inc.](https://www.ransomware.live/id/TW9yc2VMaWZlIEhlYWx0aCBTeXN0ZW0sIEluYy5AQm9vYmEgUHJvamVjdA==)
+**Source :** Ransomware.live News  **Publié :** 04/10/2026 15:20 UTC  **Score :** 20
 `breach`
-Une fuite de l'université technique de Danemark a exposé potentiellement des informations personnelles de 200 000 utilisateurs.
+L'hôpital MorseLife Health System a été victime d'une cyberattaque volant 344 GB de données.
 
-### 2. [Google Gemini could soon get full access to your Mac’s files, apps and the web](https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/)
-**Source :** Bleeping Computer  **Publié :** 03/10/2026 19:12 UTC  **Score :** 5
-Google Gemini pourrait bientôt accéder librement aux fichiers, applications et web sur les appareils macOS sans autorisation continue.
+### 2. [Anthropic asks Claude users to share voice data for AI model training](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/)
+**Source :** Bleeping Computer  **Publié :** 04/10/2026 06:53 UTC  **Score :** 5
+Anthropic sollicite la participation des utilisateurs de Claude pour partager leurs conversations vocales afin d'améliorer son modèle AI.
 
-### 3. [YARA-X 1.21.0 Release, (Sat, Oct 3rd)](https://isc.sans.edu/diary/rss/33392)
-**Source :** SANS ISC  **Publié :** 03/10/2026 14:40 UTC  **Score :** 0
-La version 1.21.0 de YARA-X apporte cinq améliorations et quatre correctifs.
+### 3. [🏴‍☠️ Play has just published a new victim : Bold Spring Nursery](https://www.ransomware.live/id/Qm9sZCBTcHJpbmcgTnVyc2VyeUBwbGF5)
+**Source :** Ransomware.live News  **Publié :** 04/10/2026 19:37 UTC  **Score :** 0
+L'entreprise agricole Bold Spring Nursery est une nouvelle victime dans un affichage publicitaire.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-04.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-05.md`*
