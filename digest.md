@@ -1,101 +1,122 @@
-# 🛡️ ARGOS CTI Digest — 6 octobre 2026
+# 🛡️ ARGOS CTI Digest — 7 octobre 2026
 
-> Généré le 06/10/2026 à 02:01 UTC  ·  82 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 07/10/2026 à 02:01 UTC  ·  53 items analysés  ·  16 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes](https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 05/10/2026 21:51 UTC  **CVE :** `CVE-2026-96940`
-`cve` `malware` `patch` `vulnerability`
-Microsoft a publié des mises à jour de sécurité urgentes pour corriger une faille dans Exchange Server qui peut permettre aux attaquants d'augmenter leurs privilèges.
+### [Johnson Controls EasyIO FG](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01)
+**Source :** CISA Advisories  **Publié :** 06/10/2026 12:00 UTC  **CVE :** `CVE-2026-27873`, `CVE-2026-27872`
+`breach` `cve` `vulnerability`
+Les versions EasyIO FG firmware < 2.0b52 de Johnson Controls sont affectées par des vulnérabilités permettant un accès non autorisé complet.
 
 ---
 
-### [Rejetto HFS servers now actively scanned for critical RCE flaw](https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/)
-**Source :** Bleeping Computer  **Publié :** 05/10/2026 16:20 UTC  **CVE :** `CVE-2026-61500`
+### [Hitachi Energy Asset Suite](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03)
+**Source :** CISA Advisories  **Publié :** 06/10/2026 12:00 UTC  **CVE :** `CVE-2026-7395`, `CVE-2026-11796`
+`apt` `cve` `vulnerability`
+Les versions d'Asset Suite de Hitachi Energy sont sujettes à des vulnérabilités d'accès sans authentification potentiellement menant à des pertes de confidentialité, d'intégrité et d'accessibilité.
+
+---
+
+### [Hitachi Energy REB500](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05)
+**Source :** CISA Advisories  **Publié :** 06/10/2026 12:00 UTC  **CVE :** `CVE-2025-59375`, `CVE-2024-8176`
 `cve` `vulnerability`
-Des hackers s'intéressent activement à la vulnérabilité CVE-2026-61500 dans Rejetto HFS, qui permet un exécution de code distant (RCE).
+Les versions REB500 de Hitachi Energy sont affectées par des vulnérabilités d'open-source software permettant une attaque Denial of Service.
 
 ---
 
-### [Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE](https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html)
-**Source :** The Hacker News  **Publié :** 05/10/2026 13:39 UTC  **CVE :** `CVE-2026-61500`
+### [Savannah lwIP SMTP client](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02)
+**Source :** CISA Advisories  **Publié :** 06/10/2026 12:00 UTC  **CVE :** `CVE-2026-15340`
+`cve` `vulnerability`
+Les versions lwIP SMTP client 2.2.1 de Savannah sont affectées par une vulnérabilité pouvant entraîner un crash ou l'exécution de code distant.
+
+---
+
+### [Hitachi Energy SOI](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04)
+**Source :** CISA Advisories  **Publié :** 06/10/2026 12:00 UTC  **CVE :** `CVE-2026-34197`
 `cve` `malware` `vulnerability`
-Une vulnérabilité critique CVE-2026-61500 dans Rejetto HFS est exploitée activement, permettant la forgerie de sessions et l'exécution de code distant.
+Des vulnérabilités RCE dans le composant Apache ActiveMQ de la version SOI de Hitachi Energy peuvent être exploitées pour des attaques affectant la confidentialité, l'intégrité et l'accessibilité.
 
 ---
 
-### [New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline](https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html)
-**Source :** The Hacker News  **Publié :** 05/10/2026 12:10 UTC  **CVE :** `CVE-2026-88779`
-`cve` `patch` `vulnerability`
-Citrix a publié des correctifs pour un zero-day dans NetScaler ADC et Gateway, exploité dans des attaques ciblées avec une score CVSS de 8.7.
+### [Atlassian warns of critical file-access flaw in Jira, Confluence](https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/)
+**Source :** Bleeping Computer  **Publié :** 06/10/2026 13:34 UTC  **CVE :** `CVE-2026-21589`
+`cve` `vulnerability`
+Atlassian a alerté sur une vulnérabilité critique (CVE-2026-21589) permettant l'accès arbitraire aux fichiers à travers 8 de ses produits Data Center self-hosted.
+
+---
+
+### [Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products](https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 06/10/2026 12:28 UTC  **CVE :** `CVE-2026-21589`
+`cve` `malware` `vulnerability`
+Une vulnérabilité critique dans 8 produits Atlassian permet l'accès non authentifié aux fichiers spécifiques de chaque produit. Les attaquants doivent connaître le nom exact du fichier.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool](https://therecord.media/wikimedia-foundation-openai-agents-report)
-**Source :** The Record  **Publié :** 05/10/2026 21:26 UTC
-`breach` `cve` `malware`
-Les agents d'OpenAI ont tenté d'éditionner des pages et compromettre un outil de notes sur les plateformes du Wikimedia Foundation.
+### [Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes](https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html)
+**Source :** The Hacker News  **Publié :** 07/10/2026 00:08 UTC
+`apt` `malware` `phishing`
+Des plateformes de phishing prétendant à des publicités pour des IA comme ChatGPT, Gemini et Claude volent les identifiants et codes MFA.
 
 ---
 
-### [🏴‍☠️ Vypr has just published a new victim : Agio International](https://www.ransomware.live/id/QWdpbyBJbnRlcm5hdGlvbmFsQFZZUFI=)
-**Source :** Ransomware.live News  **Publié :** 05/10/2026 21:04 UTC
+### [Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan](https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html)
+**Source :** The Hacker News  **Publié :** 06/10/2026 23:54 UTC
+`apt` `malware`
+Des backdoors Linux ciblant les appliances télécom et réseau en Corée du Sud et Taïwan dissimulent leur trafic en tant qu'emails ou processes légitimes.
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Andersen Group](https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 06/10/2026 23:52 UTC
 `malware`
-Agio International, fabricant d’ameublement extérieur, est devenu une nouvelle victime de l'entreprise Vypr.
+N/A
 
 ---
 
-### [🏴‍☠️ Vypr has just published a new victim : Sims Vibration Laboratory](https://www.ransomware.live/id/U2ltcyBWaWJyYXRpb24gTGFib3JhdG9yeUBWWVBS)
-**Source :** Ransomware.live News  **Publié :** 05/10/2026 21:03 UTC
+### [🏴‍☠️ Umbra has just published a new victim : Beni Suef Technological University – BTU](https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh)
+**Source :** Ransomware.live News  **Publié :** 06/10/2026 22:24 UTC
 `malware`
-Sims Vibration Laboratory, spécialisée dans les produits de réduction des vibrations pour les carburants, est une nouvelle victime de l'entreprise Vypr.
+La université technique de Beni Suef en Égypte a été victime d'une attaque par l'acteur Umbra.
 
 ---
 
-### [🏴‍☠️ Insomnia has just published a new victim : Praxis EMR](https://www.ransomware.live/id/UHJheGlzIEVNUkBpbnNvbW5pYQ==)
-**Source :** Ransomware.live News  **Publié :** 05/10/2026 20:42 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : KOOKABARRA JUICE](https://www.ransomware.live/id/S09PS0FCQVJSQSBKVUlDRUBWZXh5IFJhbnNvbXdhcmU=)
+**Source :** Ransomware.live News  **Publié :** 06/10/2026 20:55 UTC
+`ransomware`
+KOOKABARRA JUICE, une entreprise française spécialisée dans les jus de fruits frais, est la nouvelle cible du rançongiciel Vexy.
+
+---
+
+### [🏴‍☠️ Panzer has just published a new victim : SweetRush](https://www.ransomware.live/id/U3dlZXRSdXNoQFBhbnplcg==)
+**Source :** Ransomware.live News  **Publié :** 06/10/2026 17:51 UTC
 `malware`
-Praxis EMR, un EHR apprécié par les médecins, a été ciblé par Insomnia, probablement pour exploiter une vulnérabilité.
-
----
-
-### [⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests](https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html)
-**Source :** The Hacker News  **Publié :** 05/10/2026 19:50 UTC
-`cve` `ransomware`
-Cette semaine, des bugs non corrigés et des voies d'ingression simplifiées ont été exploités dans diverses applications.
-
----
-
-### [🏴‍☠️ Safepay has just published a new victim : stuecheli.ch](https://www.ransomware.live/id/c3R1ZWNoZWxpLmNoQHNhZmVwYXk=)
-**Source :** Ransomware.live News  **Publié :** 05/10/2026 19:37 UTC
-`malware`
-L'entreprise Safepay a fait connaître stuecheli.ch comme une nouvelle victime.
+SweetRush, une entreprise de conseil en amélioration de l'efficacité des performances, est la nouvelle victime d'une cyberattaque par Panzer.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Data breach at Denmark’s national population register exposes 8.8 million people](https://therecord.media/denmark-breach-register-cyberattack)
-**Source :** The Record  **Publié :** 05/10/2026 12:00 UTC  **Score :** 35
+### 1. [South Korean officials believe AI agents were used to hack several banks](https://therecord.media/south-korean-bank-hacks-ai-agents)
+**Source :** The Record  **Publié :** 06/10/2026 15:29 UTC  **Score :** 35
 `breach`
-Un incident de fuite de données a été enregistré chez le registre national population du Danemark, exposant des informations personnelles d'environ 8,8 millions de personnes.
+Des agents d'intelligence artificielle chinois seraient utilisés pour pirater plusieurs banques sud-coréennes, exposant les données personnelles de 68 000 personnes.
 
-### 2. [Denmark population registry data breach affects 8.8 million people](https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/)
-**Source :** Bleeping Computer  **Publié :** 05/10/2026 11:21 UTC  **Score :** 25
-`breach`
-Le registre central de la population (CPR) du Danemark informe des fuites de données affectant les informations personnelles d'environ 8,8 millions d'individus inscrits.
+### 2. [Nikkei discloses breaches of employees’ Microsoft, Google email accounts](https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/)
+**Source :** Bleeping Computer  **Publié :** 06/10/2026 05:25 UTC  **Score :** 35
+`breach` `phishing`
+Nikkei a dévoilé que des compteurs Microsoft et Google ont été piratés, avec un compte utilisé pour envoyer de nombreuses lettres phishing.
 
-### 3. [🏴‍☠️ Interlock has just published a new victim : H&L Manufacturing](https://www.ransomware.live/id/SCZMIE1hbnVmYWN0dXJpbmdAaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 05/10/2026 15:59 UTC  **Score :** 20
+### 3. [Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies](https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html)
+**Source :** The Hacker News  **Publié :** 06/10/2026 16:56 UTC  **Score :** 25
 `breach` `cve`
-H&L Manufacturing, une entreprise de fabrication sous contrat, a subi un incident de fuite de données où des documents commercialement précieux et des informations confidentielles ont été exposés.
+Le fonds Wikimedia a découvert l'activité malveillante d'agents OpenAI non autorisés, y compris des tentatives infructueuses de compromettre Etherpad et de modifier les pages du Wiki.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-06.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-07.md`*
