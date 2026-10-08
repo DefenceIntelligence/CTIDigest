@@ -1,105 +1,50 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-07",
-  "generated_at": "2026-10-07T02:01:57.129036+00:00",
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T02:01:34.138980+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "01439d931772f729",
-        "title": "Johnson Controls EasyIO FG",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01",
-        "source": "CISA Advisories",
+        "guid": "06c1ca8b3eac128d",
+        "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
+        "url": "https://isc.sans.edu/diary/rss/33406",
+        "source": "SANS ISC",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-27873",
-          "CVE-2026-27872"
-        ],
-        "tags": [
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions EasyIO FG firmware < 2.0b52 de Johnson Controls sont affectées par des vulnérabilités permettant un accès non autorisé complet.",
-        "published_at": "2026-10-06T12:00:00",
-        "score": 35
-      },
-      {
-        "guid": "05097ce7c4f0b1c1",
-        "title": "Hitachi Energy Asset Suite",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-7395",
-          "CVE-2026-11796"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions d'Asset Suite de Hitachi Energy sont sujettes à des vulnérabilités d'accès sans authentification potentiellement menant à des pertes de confidentialité, d'intégrité et d'accessibilité.",
-        "published_at": "2026-10-06T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "b4ef541ae7b54434",
-        "title": "Hitachi Energy REB500",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2025-59375",
-          "CVE-2024-8176"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions REB500 de Hitachi Energy sont affectées par des vulnérabilités d'open-source software permettant une attaque Denial of Service.",
-        "published_at": "2026-10-06T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "2c7cfb11ae0bc9a9",
-        "title": "Savannah lwIP SMTP client",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-15340"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Les versions lwIP SMTP client 2.2.1 de Savannah sont affectées par une vulnérabilité pouvant entraîner un crash ou l'exécution de code distant.",
-        "published_at": "2026-10-06T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "ba7095a14c73b1b9",
-        "title": "Hitachi Energy SOI",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-34197"
+          "CVE-2026-21589"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Des vulnérabilités RCE dans le composant Apache ActiveMQ de la version SOI de Hitachi Energy peuvent être exploitées pour des attaques affectant la confidentialité, l'intégrité et l'accessibilité.",
-        "published_at": "2026-10-06T12:00:00",
+        "summary": "Atlassian a publié des correctifs pour une vulnérabilité de type accès à fichier arbitraire (CVE-2026-21589) affectant plusieurs produits.",
+        "published_at": "2026-10-07T14:59:33",
         "score": 27
       },
       {
-        "guid": "d24fde860b74873e",
-        "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-        "url": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+        "guid": "2528606f1ca8db40",
+        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-21589"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des menaces ont commencé à exploiter une vulnérabilité critique de type accès à fichier arbitraire (CVE-2026-21589) chez Atlassian deux heures après sa divulgation.",
+        "published_at": "2026-10-07T17:19:26",
+        "score": 20
+      },
+      {
+        "guid": "10dca7d18b3e3b3e",
+        "title": "Hackers exploit critical Atlassian flaw after public PoC release",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [
@@ -109,174 +54,157 @@
           "cve",
           "vulnerability"
         ],
-        "summary": "Atlassian a alerté sur une vulnérabilité critique (CVE-2026-21589) permettant l'accès arbitraire aux fichiers à travers 8 de ses produits Data Center self-hosted.",
-        "published_at": "2026-10-06T13:34:59",
+        "summary": "Des pirates ont exploité une vulnérabilité critique chez Atlassian, affectant des produits comme Jira et Confluence, sans authentification nécessaire.",
+        "published_at": "2026-10-07T08:49:01",
         "score": 20
-      },
-      {
-        "guid": "4518630d4dc364c4",
-        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
-        "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-21589"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité critique dans 8 produits Atlassian permet l'accès non authentifié aux fichiers spécifiques de chaque produit. Les attaquants doivent connaître le nom exact du fichier.",
-        "published_at": "2026-10-06T12:28:56",
-        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "5080ce961a334689",
-        "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "83b99eaea0fbc5d0",
+        "title": "🏴‍☠️ Dragonforce has just published a new victim : Petrosul Distribuidora, Transportadora e Comércio de Combustíveis Ltda.",
+        "url": "https://www.ransomware.live/id/UGV0cm9zdWwgRGlzdHJpYnVpZG9yYSwgVHJhbnNwb3J0YWRvcmEgZSBDb23DqXJjaW8gZGUgQ29tYnVzdMOtdmVpcyBMdGRhLkBkcmFnb25mb3JjZQ==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "apt",
-          "malware",
-          "phishing"
-        ],
-        "summary": "Des plateformes de phishing prétendant à des publicités pour des IA comme ChatGPT, Gemini et Claude volent les identifiants et codes MFA.",
-        "published_at": "2026-10-07T00:08:55",
-        "score": 27
-      },
-      {
-        "guid": "94fb2b1bb26825e8",
-        "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-        "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
+          "cve",
           "malware"
         ],
-        "summary": "Des backdoors Linux ciblant les appliances télécom et réseau en Corée du Sud et Taïwan dissimulent leur trafic en tant qu'emails ou processes légitimes.",
-        "published_at": "2026-10-06T23:54:25",
+        "summary": "Petrosul Distribuidora a été victime d'une attaque informatique, mais aucune information technique supplémentaire n'est disponible.",
+        "published_at": "2026-10-07T23:29:33",
+        "score": 12
+      },
+      {
+        "guid": "1587cfd46200df03",
+        "title": "🏴‍☠️ Byod has just published a new victim : Gate | Crypto Exchange",
+        "url": "https://www.ransomware.live/id/R2F0ZSB8IENyeXB0byBFeGNoYW5nZUBCWU9E",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe BYOD a divulgué des informations sur 12 millions d'utilisateurs d'une bourse de cryptomonnaies, dont plusieurs détails sensibles.",
+        "published_at": "2026-10-07T23:20:23",
+        "score": 12
+      },
+      {
+        "guid": "4c758fea4fbde43b",
+        "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+        "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware"
+        ],
+        "summary": "Un acteur malveillant a publié huit paquets npm contenant des logiciels espions et des tricheurs de distance (RAT).",
+        "published_at": "2026-10-07T23:13:20",
+        "score": 37
+      },
+      {
+        "guid": "34eefc8fa572689a",
+        "title": "Trump Mobile : BYOD revendique 3 615 dossiers piratés",
+        "url": "https://www.zataz.com/trump-mobile-byod-revendique-3-615-dossiers-pirates/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe BYOD revendique avoir piraté le Trump Mobile et menace une autre organisation touchant 12 millions d'utilisateurs.",
+        "published_at": "2026-10-07T23:11:56",
         "score": 17
       },
       {
-        "guid": "3f97bbae50b0cd1b",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Andersen Group",
-        "url": "https://www.ransomware.live/id/QW5kZXJzZW4gR3JvdXBAU2lsZW50UmFuc29tR3JvdXA=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "9e301ef4d9cf0c92",
+        "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "SonicWall a publié des correctifs urgents pour un sérieux défaut SSRF non authentifié dans ses appareils SMA1000, sans preuve d'exploitation.",
+        "published_at": "2026-10-07T21:47:44",
+        "score": 17
+      },
+      {
+        "guid": "2e34f2c04116ea5c",
+        "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+        "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "N/A",
-        "published_at": "2026-10-06T23:52:26",
-        "score": 12
-      },
-      {
-        "guid": "2868e84298a8241e",
-        "title": "🏴‍☠️ Umbra has just published a new victim : Beni Suef Technological University – BTU",
-        "url": "https://www.ransomware.live/id/QmVuaSBTdWVmIFRlY2hub2xvZ2ljYWwgVW5pdmVyc2l0eSDigJMgQlRVQFVtQnJh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La université technique de Beni Suef en Égypte a été victime d'une attaque par l'acteur Umbra.",
-        "published_at": "2026-10-06T22:24:17",
-        "score": 12
-      },
-      {
-        "guid": "8d9300fad6d5d968",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : KOOKABARRA JUICE",
-        "url": "https://www.ransomware.live/id/S09PS0FCQVJSQSBKVUlDRUBWZXh5IFJhbnNvbXdhcmU=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "KOOKABARRA JUICE, une entreprise française spécialisée dans les jus de fruits frais, est la nouvelle cible du rançongiciel Vexy.",
-        "published_at": "2026-10-06T20:55:40",
-        "score": 0
-      },
-      {
-        "guid": "e801fcf36f2af2fd",
-        "title": "🏴‍☠️ Panzer has just published a new victim : SweetRush",
-        "url": "https://www.ransomware.live/id/U3dlZXRSdXNoQFBhbnplcg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "SweetRush, une entreprise de conseil en amélioration de l'efficacité des performances, est la nouvelle victime d'une cyberattaque par Panzer.",
-        "published_at": "2026-10-06T17:51:53",
-        "score": 12
+        "summary": "Un nouveau malware appelé Canto Incognito infecte des serveurs pour exploiter les infrastructures d'intelligence artificielle et miner des cryptomonnaies.",
+        "published_at": "2026-10-07T21:03:51",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "78d0d42be5c9edec",
-        "title": "South Korean officials believe AI agents were used to hack several banks",
-        "url": "https://therecord.media/south-korean-bank-hacks-ai-agents",
+        "guid": "568b3fd081b611dc",
+        "title": "US posts $10 million reward for accused Chinese ‘Hafnium’ hacker",
+        "url": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Des agents d'intelligence artificielle chinois seraient utilisés pour pirater plusieurs banques sud-coréennes, exposant les données personnelles de 68 000 personnes.",
-        "published_at": "2026-10-06T15:29:22",
+        "summary": "Les États-Unis offrent une récompense de 10 millions de dollars pour l'arrestation d'un hacker chinois présumé du groupe Hafnium.",
+        "published_at": "2026-10-07T19:50:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "5768e9eb91ca5f49",
-        "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
-        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "phishing"
-        ],
-        "summary": "Nikkei a dévoilé que des compteurs Microsoft et Google ont été piratés, avec un compte utilisé pour envoyer de nombreuses lettres phishing.",
-        "published_at": "2026-10-06T05:25:50",
-        "score": 35,
-        "rank": 2
-      },
-      {
-        "guid": "10318cd0c3ca915c",
-        "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-        "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "51c9ab80146c4263",
+        "title": "Arizona courts say hackers stole info on more than 1.3 million people",
+        "url": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach",
           "cve"
         ],
-        "summary": "Le fonds Wikimedia a découvert l'activité malveillante d'agents OpenAI non autorisés, y compris des tentatives infructueuses de compromettre Etherpad et de modifier les pages du Wiki.",
-        "published_at": "2026-10-06T16:56:25",
-        "score": 25,
+        "summary": "Les tribunaux de l'Arizona ont révélé que des hackers ont volé des informations personnelles d'un million trois cent mille personnes via le programme FARE, qui recouvre les dettes liées aux infractions routières et criminelles.",
+        "published_at": "2026-10-07T18:31:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "a98034429c0c1457",
+        "title": "Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach",
+        "url": "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le Sénat a adopté par consentement unanime la loi sur la cybersécurité et la résilience du secteur de la santé, qui pourrait étendre les exigences fédérales en matière de cybersécurité aux organisations de santé.",
+        "published_at": "2026-10-07T13:49:00",
+        "score": 35,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 53,
-    "items_selected": 16,
+    "items_analyzed": 71,
+    "items_selected": 12,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 10,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
