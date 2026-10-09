@@ -1,210 +1,243 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08T02:01:34.138980+00:00",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T02:01:41.915597+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "06c1ca8b3eac128d",
-        "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
-        "url": "https://isc.sans.edu/diary/rss/33406",
-        "source": "SANS ISC",
+        "guid": "2a4791e0fd50d9d6",
+        "title": "Red Lion Controls N-Tron 700 Series",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
+        "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-21589"
+          "CVE-2026-39460",
+          "CVE-2026-28745",
+          "CVE-2026-39453",
+          "CVE-2026-33367",
+          "CVE-2026-33272",
+          "CVE-2026-29797",
+          "CVE-2026-32645"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Les vulnérabilités affectent le contrôle d'accès administratif et permettent un redémarrage du dispositif par URL.",
+        "published_at": "2026-10-08T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "28058d790d807944",
+        "title": "Grid Protection Alliance openPDC and openHistorian",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-101022",
+          "CVE-2026-105281",
+          "CVE-2026-105278",
+          "CVE-2026-100730",
+          "CVE-2026-104629",
+          "CVE-2026-85479"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "openPDC et openHistorian version antérieure à 2.9.477 sont exposées à plusieurs vulnérabilités.",
+        "published_at": "2026-10-08T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "da1378a151313c41",
+        "title": "Satel Netco Design",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-105269"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Atlassian a publié des correctifs pour une vulnérabilité de type accès à fichier arbitraire (CVE-2026-21589) affectant plusieurs produits.",
-        "published_at": "2026-10-07T14:59:33",
+        "summary": "Les versions de Satel Netco Design peuvent exécuter des scripts arbitraires dans le navigateur et créer des fichiers.",
+        "published_at": "2026-10-08T12:00:00",
         "score": 27
       },
       {
-        "guid": "2528606f1ca8db40",
-        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-        "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-21589"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des menaces ont commencé à exploiter une vulnérabilité critique de type accès à fichier arbitraire (CVE-2026-21589) chez Atlassian deux heures après sa divulgation.",
-        "published_at": "2026-10-07T17:19:26",
-        "score": 20
-      },
-      {
-        "guid": "10dca7d18b3e3b3e",
-        "title": "Hackers exploit critical Atlassian flaw after public PoC release",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-21589"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des pirates ont exploité une vulnérabilité critique chez Atlassian, affectant des produits comme Jira et Confluence, sans authentification nécessaire.",
-        "published_at": "2026-10-07T08:49:01",
-        "score": 20
-      }
-    ],
-    "campaigns": [
-      {
-        "guid": "83b99eaea0fbc5d0",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : Petrosul Distribuidora, Transportadora e Comércio de Combustíveis Ltda.",
-        "url": "https://www.ransomware.live/id/UGV0cm9zdWwgRGlzdHJpYnVpZG9yYSwgVHJhbnNwb3J0YWRvcmEgZSBDb23DqXJjaW8gZGUgQ29tYnVzdMOtdmVpcyBMdGRhLkBkcmFnb25mb3JjZQ==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Petrosul Distribuidora a été victime d'une attaque informatique, mais aucune information technique supplémentaire n'est disponible.",
-        "published_at": "2026-10-07T23:29:33",
-        "score": 12
-      },
-      {
-        "guid": "1587cfd46200df03",
-        "title": "🏴‍☠️ Byod has just published a new victim : Gate | Crypto Exchange",
-        "url": "https://www.ransomware.live/id/R2F0ZSB8IENyeXB0byBFeGNoYW5nZUBCWU9E",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le groupe BYOD a divulgué des informations sur 12 millions d'utilisateurs d'une bourse de cryptomonnaies, dont plusieurs détails sensibles.",
-        "published_at": "2026-10-07T23:20:23",
-        "score": 12
-      },
-      {
-        "guid": "4c758fea4fbde43b",
-        "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
-        "url": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "610150ac326921a7",
+        "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [],
         "tags": [
           "apt",
-          "breach",
-          "malware"
-        ],
-        "summary": "Un acteur malveillant a publié huit paquets npm contenant des logiciels espions et des tricheurs de distance (RAT).",
-        "published_at": "2026-10-07T23:13:20",
-        "score": 37
-      },
-      {
-        "guid": "34eefc8fa572689a",
-        "title": "Trump Mobile : BYOD revendique 3 615 dossiers piratés",
-        "url": "https://www.zataz.com/trump-mobile-byod-revendique-3-615-dossiers-pirates/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le groupe BYOD revendique avoir piraté le Trump Mobile et menace une autre organisation touchant 12 millions d'utilisateurs.",
-        "published_at": "2026-10-07T23:11:56",
-        "score": 17
-      },
-      {
-        "guid": "9e301ef4d9cf0c92",
-        "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
-        "url": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
+          "cve",
           "malware",
           "patch",
           "vulnerability"
         ],
-        "summary": "SonicWall a publié des correctifs urgents pour un sérieux défaut SSRF non authentifié dans ses appareils SMA1000, sans preuve d'exploitation.",
-        "published_at": "2026-10-07T21:47:44",
-        "score": 17
-      },
+        "summary": "Des acteurs liés au gouvernement chinois utilisent des outils automatisés et manuels pour voler des données sensibles.",
+        "published_at": "2026-10-08T12:00:00",
+        "score": 12
+      }
+    ],
+    "campaigns": [
       {
-        "guid": "2e34f2c04116ea5c",
-        "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
-        "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+        "guid": "9cb2d45a23cd9b8a",
+        "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
+        "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Un ransomware affiliate a trahi son partenaire, tandis que des outils malveillants ont été découverts dans des packages de développement.",
+        "published_at": "2026-10-08T23:28:02",
+        "score": 17
+      },
+      {
+        "guid": "f302755ea99ef365",
+        "title": "🏴‍☠️ Eclipse has just published a new victim : dipecarr.com.br",
+        "url": "https://www.ransomware.live/id/ZGlwZWNhcnIuY29tLmJyQEVjbGlwc2U=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
           "malware"
         ],
-        "summary": "Un nouveau malware appelé Canto Incognito infecte des serveurs pour exploiter les infrastructures d'intelligence artificielle et miner des cryptomonnaies.",
-        "published_at": "2026-10-07T21:03:51",
+        "summary": "Des informations fiables sur dipecarr.com.br ne sont pas disponibles pour établir un bilan de sécurité.",
+        "published_at": "2026-10-08T21:21:19",
+        "score": 12
+      },
+      {
+        "guid": "681bff8eabfae582",
+        "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
+        "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "UAC-0099 utilise ASHVEIN, un infostealer et un RAT .NET contre des cibles ukrainiennes.",
+        "published_at": "2026-10-08T20:56:56",
         "score": 17
+      },
+      {
+        "guid": "c165699b1804361d",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Baker McKenzie",
+        "url": "https://www.ransomware.live/id/QmFrZXIgTWNLZW56aWVAU2lsZW50UmFuc29tR3JvdXA=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Baker McKenzie est une victime du groupe Silentransomgroup, un ransomware affiliate.",
+        "published_at": "2026-10-08T20:52:34",
+        "score": 12
+      },
+      {
+        "guid": "891bd29ce3e2df94",
+        "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+        "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "ARTEX, un outil d'essais de pentest IA, a été utilisé pour voler des données dans des banques sud-coréennes.",
+        "published_at": "2026-10-08T19:42:34",
+        "score": 17
+      },
+      {
+        "guid": "3fba83c520734626",
+        "title": "🏴‍☠️ Payload has just published a new victim : Boullard Musique",
+        "url": "https://www.ransomware.live/id/Qm91bGxhcmQgTXVzaXF1ZUBwYXlsb2Fk",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Boullard Musique est une victime d'un groupe de ransomware, selon les informations fournies.",
+        "published_at": "2026-10-08T19:33:32",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "568b3fd081b611dc",
-        "title": "US posts $10 million reward for accused Chinese ‘Hafnium’ hacker",
-        "url": "https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "d383d4df43bd027b",
+        "title": "ASOS links data breach to social engineering attack, credential theft",
+        "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "phishing"
         ],
-        "summary": "Les États-Unis offrent une récompense de 10 millions de dollars pour l'arrestation d'un hacker chinois présumé du groupe Hafnium.",
-        "published_at": "2026-10-07T19:50:00",
+        "summary": "ASOS informe ses clients affectés d'une incident de cybersécurité où des données personnelles ont été accédées par des hackers utilisant un stratagème sociotechnique et une volatilisation de qualifications.",
+        "published_at": "2026-10-08T07:42:46",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "51c9ab80146c4263",
-        "title": "Arizona courts say hackers stole info on more than 1.3 million people",
-        "url": "https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "f9449e920d279c62",
+        "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
+        "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve"
+          "cve",
+          "vulnerability"
         ],
-        "summary": "Les tribunaux de l'Arizona ont révélé que des hackers ont volé des informations personnelles d'un million trois cent mille personnes via le programme FARE, qui recouvre les dettes liées aux infractions routières et criminelles.",
-        "published_at": "2026-10-07T18:31:00",
-        "score": 35,
+        "summary": "L'FBI accuse des hackers liés à une entreprise chinoise d'avoir volé des emails de diverses organisations gouvernementales et institutionnelles en Asie du Sud-Est, utilisant un outil pour scanner les sites web.",
+        "published_at": "2026-10-09T00:02:21",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "a98034429c0c1457",
-        "title": "Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach",
-        "url": "https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "8b9da2286c27a61a",
+        "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
+        "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "vulnerability"
         ],
-        "summary": "Le Sénat a adopté par consentement unanime la loi sur la cybersécurité et la résilience du secteur de la santé, qui pourrait étendre les exigences fédérales en matière de cybersécurité aux organisations de santé.",
-        "published_at": "2026-10-07T13:49:00",
-        "score": 35,
+        "summary": "Le JPCERT/CC alerte sur une augmentation des fuites de données personnelles au Japon, dues à l'abus d'APIs mobiles et aux attaques ciblant des failles connues dans le logiciel.",
+        "published_at": "2026-10-08T21:15:56",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 71,
-    "items_selected": 12,
+    "items_analyzed": 74,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 14,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
