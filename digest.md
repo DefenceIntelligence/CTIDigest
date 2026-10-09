@@ -1,94 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 8 octobre 2026
+# 🛡️ ARGOS CTI Digest — 9 octobre 2026
 
-> Généré le 08/10/2026 à 02:01 UTC  ·  71 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 09/10/2026 à 02:01 UTC  ·  74 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)](https://isc.sans.edu/diary/rss/33406)
-**Source :** SANS ISC  **Publié :** 07/10/2026 14:59 UTC  **CVE :** `CVE-2026-21589`
-`cve` `malware` `vulnerability`
-Atlassian a publié des correctifs pour une vulnérabilité de type accès à fichier arbitraire (CVE-2026-21589) affectant plusieurs produits.
+### [Red Lion Controls N-Tron 700 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01)
+**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-39460`, `CVE-2026-28745`, `CVE-2026-39453`, `CVE-2026-33367`, `CVE-2026-33272`
+`cve` `malware` `ransomware` `vulnerability`
+Les vulnérabilités affectent le contrôle d'accès administratif et permettent un redémarrage du dispositif par URL.
 
 ---
 
-### [Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details](https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html)
-**Source :** The Hacker News  **Publié :** 07/10/2026 17:19 UTC  **CVE :** `CVE-2026-21589`
-`apt` `cve` `vulnerability`
-Des menaces ont commencé à exploiter une vulnérabilité critique de type accès à fichier arbitraire (CVE-2026-21589) chez Atlassian deux heures après sa divulgation.
-
----
-
-### [Hackers exploit critical Atlassian flaw after public PoC release](https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/)
-**Source :** Bleeping Computer  **Publié :** 07/10/2026 08:49 UTC  **CVE :** `CVE-2026-21589`
+### [Grid Protection Alliance openPDC and openHistorian](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02)
+**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-101022`, `CVE-2026-105281`, `CVE-2026-105278`, `CVE-2026-100730`, `CVE-2026-104629`
 `cve` `vulnerability`
-Des pirates ont exploité une vulnérabilité critique chez Atlassian, affectant des produits comme Jira et Confluence, sans authentification nécessaire.
+openPDC et openHistorian version antérieure à 2.9.477 sont exposées à plusieurs vulnérabilités.
+
+---
+
+### [Satel Netco Design](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03)
+**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-105269`
+`cve` `malware` `vulnerability`
+Les versions de Satel Netco Design peuvent exécuter des scripts arbitraires dans le navigateur et créer des fichiers.
+
+---
+
+### [Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a)
+**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC
+`apt` `cve` `malware` `patch` `vulnerability`
+Des acteurs liés au gouvernement chinois utilisent des outils automatisés et manuels pour voler des données sensibles.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Dragonforce has just published a new victim : Petrosul Distribuidora, Transportadora e Comércio de Combustíveis Ltda.](https://www.ransomware.live/id/UGV0cm9zdWwgRGlzdHJpYnVpZG9yYSwgVHJhbnNwb3J0YWRvcmEgZSBDb23DqXJjaW8gZGUgQ29tYnVzdMOtdmVpcyBMdGRhLkBkcmFnb25mb3JjZQ==)
-**Source :** Ransomware.live News  **Publié :** 07/10/2026 23:29 UTC
+### [ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories](https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html)
+**Source :** The Hacker News  **Publié :** 08/10/2026 23:28 UTC
+`malware` `ransomware`
+Un ransomware affiliate a trahi son partenaire, tandis que des outils malveillants ont été découverts dans des packages de développement.
+
+---
+
+### [🏴‍☠️ Eclipse has just published a new victim : dipecarr.com.br](https://www.ransomware.live/id/ZGlwZWNhcnIuY29tLmJyQEVjbGlwc2U=)
+**Source :** Ransomware.live News  **Publié :** 08/10/2026 21:21 UTC
 `cve` `malware`
-Petrosul Distribuidora a été victime d'une attaque informatique, mais aucune information technique supplémentaire n'est disponible.
+Des informations fiables sur dipecarr.com.br ne sont pas disponibles pour établir un bilan de sécurité.
 
 ---
 
-### [🏴‍☠️ Byod has just published a new victim : Gate | Crypto Exchange](https://www.ransomware.live/id/R2F0ZSB8IENyeXB0byBFeGNoYW5nZUBCWU9E)
-**Source :** Ransomware.live News  **Publié :** 07/10/2026 23:20 UTC
+### [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html)
+**Source :** The Hacker News  **Publié :** 08/10/2026 20:56 UTC
+`apt` `malware`
+UAC-0099 utilise ASHVEIN, un infostealer et un RAT .NET contre des cibles ukrainiennes.
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Baker McKenzie](https://www.ransomware.live/id/QmFrZXIgTWNLZW56aWVAU2lsZW50UmFuc29tR3JvdXA=)
+**Source :** Ransomware.live News  **Publié :** 08/10/2026 20:52 UTC
 `malware`
-Le groupe BYOD a divulgué des informations sur 12 millions d'utilisateurs d'une bourse de cryptomonnaies, dont plusieurs détails sensibles.
+Baker McKenzie est une victime du groupe Silentransomgroup, un ransomware affiliate.
 
 ---
 
-### [Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer](https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html)
-**Source :** The Hacker News  **Publié :** 07/10/2026 23:13 UTC
-`apt` `breach` `malware`
-Un acteur malveillant a publié huit paquets npm contenant des logiciels espions et des tricheurs de distance (RAT).
+### [ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms](https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html)
+**Source :** The Hacker News  **Publié :** 08/10/2026 19:42 UTC
+`apt` `malware`
+ARTEX, un outil d'essais de pentest IA, a été utilisé pour voler des données dans des banques sud-coréennes.
 
 ---
 
-### [Trump Mobile : BYOD revendique 3 615 dossiers piratés](https://www.zataz.com/trump-mobile-byod-revendique-3-615-dossiers-pirates/)
-**Source :** ZATAZ  **Publié :** 07/10/2026 23:11 UTC
-`malware`
-Le groupe BYOD revendique avoir piraté le Trump Mobile et menace une autre organisation touchant 12 millions d'utilisateurs.
-
----
-
-### [SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances](https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html)
-**Source :** The Hacker News  **Publié :** 07/10/2026 21:47 UTC
-`malware` `patch` `vulnerability`
-SonicWall a publié des correctifs urgents pour un sérieux défaut SSRF non authentifié dans ses appareils SMA1000, sans preuve d'exploitation.
-
----
-
-### [PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet](https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html)
-**Source :** The Hacker News  **Publié :** 07/10/2026 21:03 UTC
-`malware`
-Un nouveau malware appelé Canto Incognito infecte des serveurs pour exploiter les infrastructures d'intelligence artificielle et miner des cryptomonnaies.
+### [🏴‍☠️ Payload has just published a new victim : Boullard Musique](https://www.ransomware.live/id/Qm91bGxhcmQgTXVzaXF1ZUBwYXlsb2Fk)
+**Source :** Ransomware.live News  **Publié :** 08/10/2026 19:33 UTC
+`cve` `malware`
+Boullard Musique est une victime d'un groupe de ransomware, selon les informations fournies.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [US posts $10 million reward for accused Chinese ‘Hafnium’ hacker](https://therecord.media/accused-hafnium-hacker-zhang-yu-10million-reward)
-**Source :** The Record  **Publié :** 07/10/2026 19:50 UTC  **Score :** 35
-`breach`
-Les États-Unis offrent une récompense de 10 millions de dollars pour l'arrestation d'un hacker chinois présumé du groupe Hafnium.
+### 1. [ASOS links data breach to social engineering attack, credential theft](https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/)
+**Source :** Bleeping Computer  **Publié :** 08/10/2026 07:42 UTC  **Score :** 35
+`breach` `phishing`
+ASOS informe ses clients affectés d'une incident de cybersécurité où des données personnelles ont été accédées par des hackers utilisant un stratagème sociotechnique et une volatilisation de qualifications.
 
-### 2. [Arizona courts say hackers stole info on more than 1.3 million people](https://therecord.media/arizona-courts-say-hackers-stole-info-on-over-1-million)
-**Source :** The Record  **Publié :** 07/10/2026 18:31 UTC  **Score :** 35
-`breach` `cve`
-Les tribunaux de l'Arizona ont révélé que des hackers ont volé des informations personnelles d'un million trois cent mille personnes via le programme FARE, qui recouvre les dettes liées aux infractions routières et criminelles.
+### 2. [FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails](https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html)
+**Source :** The Hacker News  **Publié :** 09/10/2026 00:02 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+L'FBI accuse des hackers liés à une entreprise chinoise d'avoir volé des emails de diverses organisations gouvernementales et institutionnelles en Asie du Sud-Est, utilisant un outil pour scanner les sites web.
 
-### 3. [Senate passes healthcare cybersecurity bill after 190 million impacted by Change Healthcare breach](https://therecord.media/senate-passes-healthcare-cyber-bill-after-change-breach)
-**Source :** The Record  **Publié :** 07/10/2026 13:49 UTC  **Score :** 35
-`breach`
-Le Sénat a adopté par consentement unanime la loi sur la cybersécurité et la résilience du secteur de la santé, qui pourrait étendre les exigences fédérales en matière de cybersécurité aux organisations de santé.
+### 3. [Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks](https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html)
+**Source :** The Hacker News  **Publié :** 08/10/2026 21:15 UTC  **Score :** 25
+`breach` `vulnerability`
+Le JPCERT/CC alerte sur une augmentation des fuites de données personnelles au Japon, dues à l'abus d'APIs mobiles et aux attaques ciblant des failles connues dans le logiciel.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-08.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-09.md`*
