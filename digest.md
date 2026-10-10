@@ -1,101 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 9 octobre 2026
+# 🛡️ ARGOS CTI Digest — 10 octobre 2026
 
-> Généré le 09/10/2026 à 02:01 UTC  ·  74 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 10/10/2026 à 02:01 UTC  ·  90 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Red Lion Controls N-Tron 700 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01)
-**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-39460`, `CVE-2026-28745`, `CVE-2026-39453`, `CVE-2026-33367`, `CVE-2026-33272`
-`cve` `malware` `ransomware` `vulnerability`
-Les vulnérabilités affectent le contrôle d'accès administratif et permettent un redémarrage du dispositif par URL.
+### [Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge](https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html)
+**Source :** The Hacker News  **Publié :** 09/10/2026 18:17 UTC  **CVE :** `CVE-2026-105133`
+`apt` `cve` `vulnerability`
+Des attaquants exploitent deux vulnérabilités récentes dans AhsayCBS pour déployer des mineurs de cryptomonnaie XMRig sous la forme de Microsoft Edge.
 
 ---
 
-### [Grid Protection Alliance openPDC and openHistorian](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02)
-**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-101022`, `CVE-2026-105281`, `CVE-2026-105278`, `CVE-2026-100730`, `CVE-2026-104629`
-`cve` `vulnerability`
-openPDC et openHistorian version antérieure à 2.9.477 sont exposées à plusieurs vulnérabilités.
+### [Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies](https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html)
+**Source :** The Hacker News  **Publié :** 09/10/2026 17:51 UTC  **CVE :** `CVE-2015-3306`
+`apt` `cve` `vulnerability`
+Le CISA a ajouté cinq vulnérabilités aux KEV suite à leur exploitation par le groupe Flax Typhoon, un acteur chinois.
 
 ---
 
-### [Satel Netco Design](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03)
-**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC  **CVE :** `CVE-2026-105269`
+### [Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments](https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html)
+**Source :** The Hacker News  **Publié :** 09/10/2026 13:41 UTC  **CVE :** `CVE-2026-107406`
 `cve` `malware` `vulnerability`
-Les versions de Satel Netco Design peuvent exécuter des scripts arbitraires dans le navigateur et créer des fichiers.
+Citrix a corrigé une vulnérabilité critique dans NetScaler qui permettrait l'exécution de code distant ou des services refusés.
 
 ---
 
-### [Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a)
-**Source :** CISA Advisories  **Publié :** 08/10/2026 12:00 UTC
-`apt` `cve` `malware` `patch` `vulnerability`
-Des acteurs liés au gouvernement chinois utilisent des outils automatisés et manuels pour voler des données sensibles.
+### [Max severity SonicWall SMA1000 flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 09/10/2026 08:32 UTC  **CVE :** `CVE-2026-102255`
+`cve` `vulnerability`
+Les attaquants exploitent une faille grave récemment corrigée chez SonicWall SMA1000.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories](https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html)
-**Source :** The Hacker News  **Publié :** 08/10/2026 23:28 UTC
-`malware` `ransomware`
-Un ransomware affiliate a trahi son partenaire, tandis que des outils malveillants ont été découverts dans des packages de développement.
+### [FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack](https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html)
+**Source :** The Hacker News  **Publié :** 09/10/2026 23:15 UTC
+`breach` `malware`
+L'FBI a arrêté un suspect de ShinyHunters en relation avec le piratage du portail d’emploi FBI, mais aucun nom ou charge n'a été révélé.
 
 ---
 
-### [🏴‍☠️ Eclipse has just published a new victim : dipecarr.com.br](https://www.ransomware.live/id/ZGlwZWNhcnIuY29tLmJyQEVjbGlwc2U=)
-**Source :** Ransomware.live News  **Publié :** 08/10/2026 21:21 UTC
-`cve` `malware`
-Des informations fiables sur dipecarr.com.br ne sont pas disponibles pour établir un bilan de sécurité.
-
----
-
-### [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html)
-**Source :** The Hacker News  **Publié :** 08/10/2026 20:56 UTC
-`apt` `malware`
-UAC-0099 utilise ASHVEIN, un infostealer et un RAT .NET contre des cibles ukrainiennes.
-
----
-
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Baker McKenzie](https://www.ransomware.live/id/QmFrZXIgTWNLZW56aWVAU2lsZW50UmFuc29tR3JvdXA=)
-**Source :** Ransomware.live News  **Publié :** 08/10/2026 20:52 UTC
+### [🏴‍☠️ Safepay has just published a new victim : hoteldelfinolugano.ch](https://www.ransomware.live/id/aG90ZWxkZWxmaW5vbHVnYW5vLmNoQHNhZmVwYXk=)
+**Source :** Ransomware.live News  **Publié :** 09/10/2026 22:10 UTC
 `malware`
-Baker McKenzie est une victime du groupe Silentransomgroup, un ransomware affiliate.
+The hotel was founded in 1972 and has been managed directly by the Haas family for four generations. Since 2001, …
 
 ---
 
-### [ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms](https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html)
-**Source :** The Hacker News  **Publié :** 08/10/2026 19:42 UTC
-`apt` `malware`
-ARTEX, un outil d'essais de pentest IA, a été utilisé pour voler des données dans des banques sud-coréennes.
+### [🏴‍☠️ Panzer has just published a new victim : Supreme Energy](https://www.ransomware.live/id/U3VwcmVtZSBFbmVyZ3lAUGFuemVy)
+**Source :** Ransomware.live News  **Publié :** 09/10/2026 21:25 UTC
+`malware`
+Supreme Energy is an Indonesian renewable-energy company that develops geothermal power projects to generate clean electricity.
 
 ---
 
-### [🏴‍☠️ Payload has just published a new victim : Boullard Musique](https://www.ransomware.live/id/Qm91bGxhcmQgTXVzaXF1ZUBwYXlsb2Fk)
-**Source :** Ransomware.live News  **Publié :** 08/10/2026 19:33 UTC
+### [🏴‍☠️ Rhysida has just published a new victim : Anne Arundel County](https://www.ransomware.live/id/QW5uZSBBcnVuZGVsIENvdW50eUByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 09/10/2026 19:38 UTC
+`ransomware`
+Anne Arundel County Established in 1964, Anne Arundel County is a governmental body, consisting of numerous departments, services and sections all working together to serve the residents. This company is headquartered in Anne Arundel County, Maryland.814,500 files, 2.6 TB721 background-check dossier
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : DW McMillan Memorial Hospital](https://www.ransomware.live/id/RFcgTWNNaWxsYW4gTWVtb3JpYWwgSG9zcGl0YWxAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 09/10/2026 19:27 UTC
+`malware`
+dwmmh.org zoominfo.com/c/dw-mcmillan-memorial-hospital/77170917 D.W. McMillan Memorial Hospital is a small rural hospital in Brewton, Alabama, operating since 1954. It provides a 24/7 emergency room, ICU, surgery, obstetrics, outpatient chemotherapy, lab, imaging, and rehabilitation — serving as the
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Saskatoon Tribal Council](https://www.ransomware.live/id/U2Fza2F0b29uIFRyaWJhbCBDb3VuY2lsQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 09/10/2026 19:27 UTC
 `cve` `malware`
-Boullard Musique est une victime d'un groupe de ransomware, selon les informations fournies.
+sktc.sk.ca zoominfo.com/c/saskatoon-tribal-council-inc/215335121 Saskatoon Tribal Council (STC) is a non-profit tribal council founded in 1982 in Saskatoon, Saskatchewan (Treaty 6), uniting 7 First Nations with 14,000+ members. Led by Tribal Chief Mark Arcand (since 2017), STC employs 500–600+ peopl
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [ASOS links data breach to social engineering attack, credential theft](https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/)
-**Source :** Bleeping Computer  **Publié :** 08/10/2026 07:42 UTC  **Score :** 35
-`breach` `phishing`
-ASOS informe ses clients affectés d'une incident de cybersécurité où des données personnelles ont été accédées par des hackers utilisant un stratagème sociotechnique et une volatilisation de qualifications.
+### 1. [Hundreds of thousands impacted by data breach at biosensor firm iRhythm](https://therecord.media/irhythm-data-breach-reports)
+**Source :** The Record  **Publié :** 09/10/2026 16:06 UTC  **Score :** 35
+`breach`
+iRhythm, fabricant de capteurs cardiaques wearable, informe plusieurs États sur l'impact d'une faille de sécurité d'été.
 
-### 2. [FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails](https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html)
-**Source :** The Hacker News  **Publié :** 09/10/2026 00:02 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-L'FBI accuse des hackers liés à une entreprise chinoise d'avoir volé des emails de diverses organisations gouvernementales et institutionnelles en Asie du Sud-Est, utilisant un outil pour scanner les sites web.
+### 2. [Belarusian hacktivists admit to 2023 breach of Russian state healthcare network](https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack)
+**Source :** The Record  **Publié :** 09/10/2026 14:40 UTC  **Score :** 35
+`breach`
+Les Cyber Partisans biélorusses reconnaissent avoir compromis le réseau de santé russe pour le département de Moscow en 2023.
 
-### 3. [Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks](https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html)
-**Source :** The Hacker News  **Publié :** 08/10/2026 21:15 UTC  **Score :** 25
-`breach` `vulnerability`
-Le JPCERT/CC alerte sur une augmentation des fuites de données personnelles au Japon, dues à l'abus d'APIs mobiles et aux attaques ciblant des failles connues dans le logiciel.
+### 3. [Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories](https://thehackernews.com/2026/10/credential-stealing-github-actions.html)
+**Source :** The Hacker News  **Publié :** 10/10/2026 00:44 UTC  **Score :** 25
+`breach` `cve`
+Des workflows malveillants volant des identifiants ont été plantés dans plus de 340 dépôts GitHub via le compte d'un mainteneur open-source.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-09.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-10.md`*
