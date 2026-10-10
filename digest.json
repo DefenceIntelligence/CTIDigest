@@ -1,114 +1,158 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-09",
-  "generated_at": "2026-10-09T02:01:41.915597+00:00",
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T02:01:33.465361+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "2a4791e0fd50d9d6",
-        "title": "Red Lion Controls N-Tron 700 Series",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "f81e86daedcc865d",
+        "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+        "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-39460",
-          "CVE-2026-28745",
-          "CVE-2026-39453",
-          "CVE-2026-33367",
-          "CVE-2026-33272",
-          "CVE-2026-29797",
-          "CVE-2026-32645"
+          "CVE-2026-105133"
         ],
-        "tags": [
-          "cve",
-          "malware",
-          "ransomware",
-          "vulnerability"
-        ],
-        "summary": "Les vulnérabilités affectent le contrôle d'accès administratif et permettent un redémarrage du dispositif par URL.",
-        "published_at": "2026-10-08T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "28058d790d807944",
-        "title": "Grid Protection Alliance openPDC and openHistorian",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-101022",
-          "CVE-2026-105281",
-          "CVE-2026-105278",
-          "CVE-2026-100730",
-          "CVE-2026-104629",
-          "CVE-2026-85479"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "openPDC et openHistorian version antérieure à 2.9.477 sont exposées à plusieurs vulnérabilités.",
-        "published_at": "2026-10-08T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "da1378a151313c41",
-        "title": "Satel Netco Design",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-105269"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Les versions de Satel Netco Design peuvent exécuter des scripts arbitraires dans le navigateur et créer des fichiers.",
-        "published_at": "2026-10-08T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "610150ac326921a7",
-        "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
-        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [],
         "tags": [
           "apt",
           "cve",
-          "malware",
-          "patch",
           "vulnerability"
         ],
-        "summary": "Des acteurs liés au gouvernement chinois utilisent des outils automatisés et manuels pour voler des données sensibles.",
-        "published_at": "2026-10-08T12:00:00",
-        "score": 12
+        "summary": "Des attaquants exploitent deux vulnérabilités récentes dans AhsayCBS pour déployer des mineurs de cryptomonnaie XMRig sous la forme de Microsoft Edge.",
+        "published_at": "2026-10-09T18:17:26",
+        "score": 20
+      },
+      {
+        "guid": "722f78d1349f3587",
+        "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+        "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2015-3306"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le CISA a ajouté cinq vulnérabilités aux KEV suite à leur exploitation par le groupe Flax Typhoon, un acteur chinois.",
+        "published_at": "2026-10-09T17:51:51",
+        "score": 20
+      },
+      {
+        "guid": "95c1115d3fa9a2cb",
+        "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+        "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-107406"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Citrix a corrigé une vulnérabilité critique dans NetScaler qui permettrait l'exécution de code distant ou des services refusés.",
+        "published_at": "2026-10-09T13:41:33",
+        "score": 32
+      },
+      {
+        "guid": "3222378bc2123bb6",
+        "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-102255"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les attaquants exploitent une faille grave récemment corrigée chez SonicWall SMA1000.",
+        "published_at": "2026-10-09T08:32:16",
+        "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "9cb2d45a23cd9b8a",
-        "title": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-        "url": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+        "guid": "17914d608e659531",
+        "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+        "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware",
+          "breach",
+          "malware"
+        ],
+        "summary": "L'FBI a arrêté un suspect de ShinyHunters en relation avec le piratage du portail d’emploi FBI, mais aucun nom ou charge n'a été révélé.",
+        "published_at": "2026-10-09T23:15:26",
+        "score": 37
+      },
+      {
+        "guid": "efbc4226d4b2f99b",
+        "title": "🏴‍☠️ Safepay has just published a new victim : hoteldelfinolugano.ch",
+        "url": "https://www.ransomware.live/id/aG90ZWxkZWxmaW5vbHVnYW5vLmNoQHNhZmVwYXk=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "The hotel was founded in 1972 and has been managed directly by the Haas family for four generations. Since 2001, …",
+        "published_at": "2026-10-09T22:10:29",
+        "score": 12
+      },
+      {
+        "guid": "16212a0084045273",
+        "title": "🏴‍☠️ Panzer has just published a new victim : Supreme Energy",
+        "url": "https://www.ransomware.live/id/U3VwcmVtZSBFbmVyZ3lAUGFuemVy",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Supreme Energy is an Indonesian renewable-energy company that develops geothermal power projects to generate clean electricity.",
+        "published_at": "2026-10-09T21:25:22",
+        "score": 12
+      },
+      {
+        "guid": "d7759d059a6eef21",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Anne Arundel County",
+        "url": "https://www.ransomware.live/id/QW5uZSBBcnVuZGVsIENvdW50eUByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
           "ransomware"
         ],
-        "summary": "Un ransomware affiliate a trahi son partenaire, tandis que des outils malveillants ont été découverts dans des packages de développement.",
-        "published_at": "2026-10-08T23:28:02",
-        "score": 17
+        "summary": "Anne Arundel County Established in 1964, Anne Arundel County is a governmental body, consisting of numerous departments, services and sections all working together to serve the residents. This company is headquartered in Anne Arundel County, Maryland.814,500 files, 2.6 TB721 background-check dossiers with full SSNs in filenames, including 2026 records.Tens of thousands of medical faxes, 2022 to 2026, with patient names and diagnoses.Methadone clinic records under 42 CFR Part 2, the strictest US ",
+        "published_at": "2026-10-09T19:38:34",
+        "score": 0
       },
       {
-        "guid": "f302755ea99ef365",
-        "title": "🏴‍☠️ Eclipse has just published a new victim : dipecarr.com.br",
-        "url": "https://www.ransomware.live/id/ZGlwZWNhcnIuY29tLmJyQEVjbGlwc2U=",
+        "guid": "aa94983ac6727d68",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : DW McMillan Memorial Hospital",
+        "url": "https://www.ransomware.live/id/RFcgTWNNaWxsYW4gTWVtb3JpYWwgSG9zcGl0YWxAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "dwmmh.org zoominfo.com/c/dw-mcmillan-memorial-hospital/77170917 D.W. McMillan Memorial Hospital is a small rural hospital in Brewton, Alabama, operating since 1954. It provides a 24/7 emergency room, ICU, surgery, obstetrics, outpatient chemotherapy, lab, imaging, and rehabilitation — serving as the main acute-care provider for the county. It has about 39–49 beds and employs roughly 85 staff, generating approximately $15 million in annual revenue. The hospital is part of a small county healthcar",
+        "published_at": "2026-10-09T19:27:57",
+        "score": 12
+      },
+      {
+        "guid": "fe1649fe9a2e6924",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Saskatoon Tribal Council",
+        "url": "https://www.ransomware.live/id/U2Fza2F0b29uIFRyaWJhbCBDb3VuY2lsQHRoZWdlbnRsZW1lbg==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -116,130 +160,68 @@
           "cve",
           "malware"
         ],
-        "summary": "Des informations fiables sur dipecarr.com.br ne sont pas disponibles pour établir un bilan de sécurité.",
-        "published_at": "2026-10-08T21:21:19",
-        "score": 12
-      },
-      {
-        "guid": "681bff8eabfae582",
-        "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML",
-        "url": "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "malware"
-        ],
-        "summary": "UAC-0099 utilise ASHVEIN, un infostealer et un RAT .NET contre des cibles ukrainiennes.",
-        "published_at": "2026-10-08T20:56:56",
-        "score": 17
-      },
-      {
-        "guid": "c165699b1804361d",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Baker McKenzie",
-        "url": "https://www.ransomware.live/id/QmFrZXIgTWNLZW56aWVAU2lsZW50UmFuc29tR3JvdXA=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Baker McKenzie est une victime du groupe Silentransomgroup, un ransomware affiliate.",
-        "published_at": "2026-10-08T20:52:34",
-        "score": 12
-      },
-      {
-        "guid": "891bd29ce3e2df94",
-        "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
-        "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "malware"
-        ],
-        "summary": "ARTEX, un outil d'essais de pentest IA, a été utilisé pour voler des données dans des banques sud-coréennes.",
-        "published_at": "2026-10-08T19:42:34",
-        "score": 17
-      },
-      {
-        "guid": "3fba83c520734626",
-        "title": "🏴‍☠️ Payload has just published a new victim : Boullard Musique",
-        "url": "https://www.ransomware.live/id/Qm91bGxhcmQgTXVzaXF1ZUBwYXlsb2Fk",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Boullard Musique est une victime d'un groupe de ransomware, selon les informations fournies.",
-        "published_at": "2026-10-08T19:33:32",
+        "summary": "sktc.sk.ca zoominfo.com/c/saskatoon-tribal-council-inc/215335121 Saskatoon Tribal Council (STC) is a non-profit tribal council founded in 1982 in Saskatoon, Saskatchewan (Treaty 6), uniting 7 First Nations with 14,000+ members. Led by Tribal Chief Mark Arcand (since 2017), STC employs 500–600+ people across 5 corporations (health, housing, urban services, investments, community development). Head-body revenue is $14–17M/year (federal ISC funding being the largest source), while the whole group i",
+        "published_at": "2026-10-09T19:27:50",
         "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "d383d4df43bd027b",
-        "title": "ASOS links data breach to social engineering attack, credential theft",
-        "url": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "70fdfef97ae1433b",
+        "title": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm",
+        "url": "https://therecord.media/irhythm-data-breach-reports",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
-          "breach",
-          "phishing"
+          "breach"
         ],
-        "summary": "ASOS informe ses clients affectés d'une incident de cybersécurité où des données personnelles ont été accédées par des hackers utilisant un stratagème sociotechnique et une volatilisation de qualifications.",
-        "published_at": "2026-10-08T07:42:46",
+        "summary": "iRhythm, fabricant de capteurs cardiaques wearable, informe plusieurs États sur l'impact d'une faille de sécurité d'été.",
+        "published_at": "2026-10-09T16:06:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "f9449e920d279c62",
-        "title": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-        "url": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "c56065eaa44717d5",
+        "title": "Belarusian hacktivists admit to 2023 breach of Russian state healthcare network",
+        "url": "https://therecord.media/belarusian-cyber-partisans-claim-2023-russia-healthcare-hack",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
-          "breach",
-          "cve",
-          "vulnerability"
+          "breach"
         ],
-        "summary": "L'FBI accuse des hackers liés à une entreprise chinoise d'avoir volé des emails de diverses organisations gouvernementales et institutionnelles en Asie du Sud-Est, utilisant un outil pour scanner les sites web.",
-        "published_at": "2026-10-09T00:02:21",
-        "score": 25,
+        "summary": "Les Cyber Partisans biélorusses reconnaissent avoir compromis le réseau de santé russe pour le département de Moscow en 2023.",
+        "published_at": "2026-10-09T14:40:00",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "8b9da2286c27a61a",
-        "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks",
-        "url": "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html",
+        "guid": "ea6942eb63c607d4",
+        "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+        "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "vulnerability"
+          "cve"
         ],
-        "summary": "Le JPCERT/CC alerte sur une augmentation des fuites de données personnelles au Japon, dues à l'abus d'APIs mobiles et aux attaques ciblant des failles connues dans le logiciel.",
-        "published_at": "2026-10-08T21:15:56",
+        "summary": "Des workflows malveillants volant des identifiants ont été plantés dans plus de 340 dépôts GitHub via le compte d'un mainteneur open-source.",
+        "published_at": "2026-10-10T00:44:28",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 74,
+    "items_analyzed": 90,
     "items_selected": 13,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 14,
+    "cves_total": 4,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 5,
     "argos_version": "2.0.0"
   }
 }
