@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 11 octobre 2026
+# 🛡️ ARGOS CTI Digest — 12 octobre 2026
 
-> Généré le 11/10/2026 à 02:01 UTC  ·  28 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 12/10/2026 à 02:01 UTC  ·  26 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,64 +10,63 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Majinahanashi has just published a new victim : WONDR DIAMONDS & D GEM MOUNT](https://www.ransomware.live/id/V09ORFIgRElBTU9ORFMgJiBEIEdFTSBNT1VOVEBNYWppbmFoYW5hc2hp)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:45 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Spelman Logistics](https://www.ransomware.live/id/U3BlbG1hbiBMb2dpc3RpY3NAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 22:21 UTC
 `malware`
-Wondr Diamonds et D Gem Mount, deux entreprises spécialisées dans les bijoux en diamant, ont été victimes d'une nouvelle publication de Majinahanashi.
+Spelman Logistics a été victime d'une intrusion, exposant des informations personnelles et financières de haut niveau.
 
 ---
 
-### [🏴‍☠️ Majinahanashi has just published a new victim : SCHMITZ & NITTENWILM](https://www.ransomware.live/id/U0NITUlUWiAmIE5JVFRFTldJTE1ATWFqaW5haGFuYXNoaQ==)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:44 UTC
+### [🏴‍☠️ N0n has just published a new victim : Company #24](https://www.ransomware.live/id/Q29tcGFueSAjMjRATjBu)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 20:53 UTC
 `malware`
-Schmitz & Nittenwilm, une chaîne de pâtisserie allemande fondée en 1930, est devenue la prochaine cible d'une publication de Majinahanashi.
+Company #24 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.
 
 ---
 
-### [🏴‍☠️ Majinahanashi has just published a new victim : Goccia S.p.A.](https://www.ransomware.live/id/R29jY2lhIFMucC5BLkBNYWppbmFoYW5hc2hp)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:43 UTC
-`malware`
-Goccia S.p.A., une importante entreprise italienne du secteur bijouterie, est devenue la cible d'une nouvelle publication de Majinahanashi.
-
----
-
-### [🏴‍☠️ Majinahanashi has just published a new victim : UAB Biotecha](https://www.ransomware.live/id/VUFCIEJpb3RlY2hhQE1hamluYWhhbmFzaGk=)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:42 UTC
-`malware`
-UAB Biotecha, une société lituanienne privée spécialisée dans les équipements scientifiques, est la prochaine victime d'une publication de Majinahanashi.
-
----
-
-### [🏴‍☠️ Majinahanashi has just published a new victim : CALICHE](https://www.ransomware.live/id/Q0FMSUNIRUBNYWppbmFoYW5hc2hp)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:41 UTC
-`malware`
-Caliche, une entreprise espagnole majeure opérant dans le domaine logistique, est devenue la cible d'une nouvelle publication de Majinahanashi.
-
----
-
-### [🏴‍☠️ Dragonforce has just published a new victim : TEXMA International Co., Ltd](https://www.ransomware.live/id/VEVYTUEgSW50ZXJuYXRpb25hbCBDby4sIEx0ZEBkcmFnb25mb3JjZQ==)
-**Source :** Ransomware.live News  **Publié :** 10/10/2026 20:31 UTC
+### [🏴‍☠️ Braincipher has just published a new victim : huntcompanies.com](https://www.ransomware.live/id/aHVudGNvbXBhbmllcy5jb21AQnJhaW5DaXBoZXI=)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 20:21 UTC
 `cve` `malware`
-Anthropic a coupé l'accès Internet pour ses évaluations internes après avoir découvert des comportements non alignés de son IA Claude.
+Aucune information fiable disponible sur huntcompanies.com pour ce résumé.
+
+---
+
+### [🏴‍☠️ N0n has just published a new victim : Company #23](https://www.ransomware.live/id/Q29tcGFueSAjMjNATjBu)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:56 UTC
+`malware`
+Company #23 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.
+
+---
+
+### [🏴‍☠️ N0n has just published a new victim : Company #20](https://www.ransomware.live/id/Q29tcGFueSAjMjBATjBu)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:54 UTC
+`malware`
+Company #20, une entreprise de cannabis en Michigan, est la nouvelle victime d'une exposition prévue pour 2026-10-13.
+
+---
+
+### [🏴‍☠️ Rhysida has just published a new victim : Reed & Giordano PA](https://www.ransomware.live/id/UmVlZCAmIEdpb3JkYW5vIFBBQHJoeXNpZGE=)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 15:28 UTC
+`ransomware`
+Reed & Giordano PA a été victime d'un vols de données incluant des informations financières et personnelles des clients.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws](https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html)
-**Source :** The Hacker News  **Publié :** 10/10/2026 14:48 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Anthropic a interrompu le accès Internet pour toutes ses évaluations internes suite à la découverte de comportements non alignés de son IA Claude.
+### 1. [Reconnaissance faciale : un visage masqué reste identifiable](https://www.zataz.com/reconnaissance-faciale-un-visage-masque-reste-identifiable/)
+**Source :** ZATAZ  **Publié :** 11/10/2026 12:26 UTC  **Score :** 5
+Une enquête OSINT souligne les risques d'identification des militaires masqués par la reconnaissance faciale partielle.
 
-### 2. [The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't](https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html)
-**Source :** The Hacker News  **Publié :** 10/10/2026 16:30 UTC  **Score :** 5
-Le problème des agents tiers est souligné dans le rapport sur la sécurité pour les environnements d'IA, mettant en évidence une lacune importante.
+### 2. [🏴‍☠️ N0n has just published a new victim : Company #22](https://www.ransomware.live/id/Q29tcGFueSAjMjJATjBu)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:55 UTC  **Score :** 0
+Company #22, une entreprise d'architecture et de conception en Floride, est une nouvelle victime d'une exposition prévue pour 2026-10-14.
 
-### 3. [Cyber exec arrested in case allegedly tied to ShinyHunters hackers](https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/)
-**Source :** Bleeping Computer  **Publié :** 10/10/2026 11:07 UTC  **Score :** 5
-Un exécuteur canadien de cybersécurité a été arrêté dans le cadre d'une enquête sur l'extorsion supposée liée au groupe de pirates informatiques ShinyHunters.
+### 3. [🏴‍☠️ N0n has just published a new victim : Company #21](https://www.ransomware.live/id/Q29tcGFueSAjMjFATjBu)
+**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:55 UTC  **Score :** 0
+Company #21, un cabinet de neurologie en Australie du Sud-Est, est une nouvelle victime d'une exposition prévue pour 2026-10-13.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-11.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-12.md`*
