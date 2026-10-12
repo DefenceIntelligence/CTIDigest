@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T02:01:02.033595+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "b8502419a77b53da",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Spelman Logistics",
+        "url": "https://www.ransomware.live/id/U3BlbG1hbiBMb2dpc3RpY3NAZW1wZXJhZG9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Spelman Logistics a été victime d'une intrusion, exposant des informations personnelles et financières de haut niveau.",
+        "published_at": "2026-10-11T22:21:27",
+        "score": 12
+      },
+      {
+        "guid": "49e8d196aaaef68b",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #24",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjRATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Company #24 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.",
+        "published_at": "2026-10-11T20:53:02",
+        "score": 12
+      },
+      {
+        "guid": "922230f3c0a80423",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : huntcompanies.com",
+        "url": "https://www.ransomware.live/id/aHVudGNvbXBhbmllcy5jb21AQnJhaW5DaXBoZXI=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Aucune information fiable disponible sur huntcompanies.com pour ce résumé.",
+        "published_at": "2026-10-11T20:21:17",
+        "score": 12
+      },
+      {
+        "guid": "6e474571b198cbc2",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #23",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjNATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Company #23 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.",
+        "published_at": "2026-10-11T18:56:11",
+        "score": 12
+      },
+      {
+        "guid": "31a8a3ad9ba7015c",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #20",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjBATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Company #20, une entreprise de cannabis en Michigan, est la nouvelle victime d'une exposition prévue pour 2026-10-13.",
+        "published_at": "2026-10-11T18:54:28",
+        "score": 12
+      },
+      {
+        "guid": "0dfaad7452bf77c4",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Reed & Giordano PA",
+        "url": "https://www.ransomware.live/id/UmVlZCAmIEdpb3JkYW5vIFBBQHJoeXNpZGE=",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Reed & Giordano PA a été victime d'un vols de données incluant des informations financières et personnelles des clients.",
+        "published_at": "2026-10-11T15:28:31",
+        "score": 0
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "a95ffc107c544a05",
+        "title": "Reconnaissance faciale : un visage masqué reste identifiable",
+        "url": "https://www.zataz.com/reconnaissance-faciale-un-visage-masque-reste-identifiable/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Une enquête OSINT souligne les risques d'identification des militaires masqués par la reconnaissance faciale partielle.",
+        "published_at": "2026-10-11T12:26:54",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "984ef63cddeb238c",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #22",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjJATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Company #22, une entreprise d'architecture et de conception en Floride, est une nouvelle victime d'une exposition prévue pour 2026-10-14.",
+        "published_at": "2026-10-11T18:55:38",
+        "score": 0,
+        "rank": 2
+      },
+      {
+        "guid": "87022bd1e6b48ded",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #21",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMjFATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Company #21, un cabinet de neurologie en Australie du Sud-Est, est une nouvelle victime d'une exposition prévue pour 2026-10-13.",
+        "published_at": "2026-10-11T18:55:04",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 26,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
