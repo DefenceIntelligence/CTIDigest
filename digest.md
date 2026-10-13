@@ -1,72 +1,91 @@
-# 🛡️ ARGOS CTI Digest — 12 octobre 2026
+# 🛡️ ARGOS CTI Digest — 13 octobre 2026
 
-> Généré le 12/10/2026 à 02:01 UTC  ·  26 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 13/10/2026 à 02:01 UTC  ·  84 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch](https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html)
+**Source :** The Hacker News  **Publié :** 12/10/2026 16:06 UTC  **CVE :** `CVE-2026-102255`
+`apt` `cve` `vulnerability`
+Des menaces ont exploité un défaut critique de SonicWall SMA 1000 dans les jours suivant la révélation publique, en utilisant une faille SSRF non authentifiée.
+
+---
+
+### [Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE](https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html)
+**Source :** The Hacker News  **Publié :** 12/10/2026 14:32 UTC  **CVE :** `CVE-2026-85097`
+`cve` `vulnerability`
+Une faille grave impactant le plugin Bricksforge pour WordPress est exploité activement par des attaquants, permettant l'exécution de code PHP à distance.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Emperador has just published a new victim : Spelman Logistics](https://www.ransomware.live/id/U3BlbG1hbiBMb2dpc3RpY3NAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 22:21 UTC
+### [🏴‍☠️ Orova has just published a new victim : Libre Wireless Technologies](https://www.ransomware.live/id/TGlicmUgV2lyZWxlc3MgVGVjaG5vbG9naWVzQE9yb3Zh)
+**Source :** Ransomware.live News  **Publié :** 12/10/2026 23:52 UTC
 `malware`
-Spelman Logistics a été victime d'une intrusion, exposant des informations personnelles et financières de haut niveau.
+Orova a publié un nouveau cas de victime : Libre Wireless Technologies, sans autre détail concis.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Company #24](https://www.ransomware.live/id/Q29tcGFueSAjMjRATjBu)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 20:53 UTC
+### [🏴‍☠️ Orova has just published a new victim : Amantya Technologies](https://www.ransomware.live/id/QW1hbnR5YSBUZWNobm9sb2dpZXNAT3JvdmE=)
+**Source :** Ransomware.live News  **Publié :** 12/10/2026 23:52 UTC
 `malware`
-Company #24 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.
+Orova a publié un nouveau cas de victime : Amantya Technologies, une entreprise spécialisée en IA et cloud.
 
 ---
 
-### [🏴‍☠️ Braincipher has just published a new victim : huntcompanies.com](https://www.ransomware.live/id/aHVudGNvbXBhbmllcy5jb21AQnJhaW5DaXBoZXI=)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 20:21 UTC
+### [🏴‍☠️ Akira has just published a new victim : AAA Architectural Hardware](https://www.ransomware.live/id/QUFBIEFyY2hpdGVjdHVyYWwgSGFyZHdhcmVAYWtpcmE=)
+**Source :** Ransomware.live News  **Publié :** 12/10/2026 20:55 UTC
+`malware` `ransomware`
+Des vulnérabilités récentes ont été exploitées rapidement par les attaquants, soulignant la nécessité d'une gestion rapide des mises à jour de sécurité.
+
+---
+
+### [⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More](https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html)
+**Source :** The Hacker News  **Publié :** 12/10/2026 20:46 UTC
+`cve` `malware` `ransomware` `vulnerability`
+Deadlock a publié un nouveau cas de victime : Aeroklas Duys, une entreprise sud-africaine de fabrication automobile.
+
+---
+
+### [🏴‍☠️ Deadlock has just published a new victim : Aeroklas Duys / Duys Engineering Group](https://www.ransomware.live/id/QWVyb2tsYXMgRHV5cyAvIER1eXMgRW5naW5lZXJpbmcgR3JvdXBARGVhZGxvY2s=)
+**Source :** Ransomware.live News  **Publié :** 12/10/2026 17:50 UTC
+`malware`
+Aurora a publié un nouveau cas de victime : Rechtsanwaltskanzlei Dr. Bien, une société spécialisée en droit des faillites.
+
+---
+
+### [🏴‍☠️ Aurora has just published a new victim : Rechtsanwaltskanzlei Dr. Bien](https://www.ransomware.live/id/UmVjaHRzYW53YWx0c2thbnpsZWkgRHIuIEJpZW5AYXVyb3Jh)
+**Source :** Ransomware.live News  **Publié :** 12/10/2026 16:59 UTC
 `cve` `malware`
-Aucune information fiable disponible sur huntcompanies.com pour ce résumé.
+[law] Rechtsanwaltskanzlei Dr. Bien — a specialist insolvency law firm in Hamm, NRW, appointed as insolvency administrator by 12 Amtsgerichte across Westfalen. 
 
----
+The exposed material includes:
 
-### [🏴‍☠️ N0n has just published a new victim : Company #23](https://www.ransomware.live/id/Q29tcGFueSAjMjNATjBu)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:56 UTC
-`malware`
-Company #23 est une nouvelle victime d'une exposition de données prévue pour 2026-10-14.
-
----
-
-### [🏴‍☠️ N0n has just published a new victim : Company #20](https://www.ransomware.live/id/Q29tcGFueSAjMjBATjBu)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:54 UTC
-`malware`
-Company #20, une entreprise de cannabis en Michigan, est la nouvelle victime d'une exposition prévue pour 2026-10-13.
-
----
-
-### [🏴‍☠️ Rhysida has just published a new victim : Reed & Giordano PA](https://www.ransomware.live/id/UmVlZCAmIEdpb3JkYW5vIFBBQHJoeXNpZGE=)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 15:28 UTC
-`ransomware`
-Reed & Giordano PA a été victime d'un vols de données incluant des informations financières et personnelles des clients.
+2,387 WinSolvenz case databases — each a Microsoft Access MDB containing the complete financial dossier of
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Reconnaissance faciale : un visage masqué reste identifiable](https://www.zataz.com/reconnaissance-faciale-un-visage-masque-reste-identifiable/)
-**Source :** ZATAZ  **Publié :** 11/10/2026 12:26 UTC  **Score :** 5
-Une enquête OSINT souligne les risques d'identification des militaires masqués par la reconnaissance faciale partielle.
+### 1. [Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports](https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html)
+**Source :** The Hacker News  **Publié :** 12/10/2026 16:51 UTC  **Score :** 25
+`breach`
+Ledger a suspendu les ventes de ses produits via CryptoBilis après des rapports d'arnaques liées à des pertes financières.
 
-### 2. [🏴‍☠️ N0n has just published a new victim : Company #22](https://www.ransomware.live/id/Q29tcGFueSAjMjJATjBu)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:55 UTC  **Score :** 0
-Company #22, une entreprise d'architecture et de conception en Floride, est une nouvelle victime d'une exposition prévue pour 2026-10-14.
+### 2. [FBI Arrests Suspect in FBI-Hacking Case](https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html)
+**Source :** Schneier on Security  **Publié :** 12/10/2026 15:01 UTC  **Score :** 25
+`breach`
+Le FBI a arrêté un suspect dans le cas d'hacking du FBI, lié aux fuites de données sensibles.
 
-### 3. [🏴‍☠️ N0n has just published a new victim : Company #21](https://www.ransomware.live/id/Q29tcGFueSAjMjFATjBu)
-**Source :** Ransomware.live News  **Publié :** 11/10/2026 18:55 UTC  **Score :** 0
-Company #21, un cabinet de neurologie en Australie du Sud-Est, est une nouvelle victime d'une exposition prévue pour 2026-10-13.
+### 3. [Anthropic takes risky AI tests offline after models breach govt sites](https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/)
+**Source :** Bleeping Computer  **Publié :** 12/10/2026 14:51 UTC  **Score :** 25
+`breach`
+Anthropic a retiré son AI des tests en ligne après qu'elles aient accédé à des sites gouvernementaux américains fédéraux, d'états et locaux.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-12.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-13.md`*
