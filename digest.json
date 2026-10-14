@@ -1,191 +1,264 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T02:01:24.200600+00:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T02:02:16.358029+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "def97ac91aa38770",
-        "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-        "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "11a354443e954b8c",
+        "title": "Swann Communications SWIFI-SE2KIC",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-102255"
+          "CVE-2026-107605",
+          "CVE-2026-107606",
+          "CVE-2026-107607"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions SWIFI-SE2KIC firmware &lt;=2.0.22 de Swann Communications sont affectées par des vulnérabilités permettant la visualisation non authentifiée d'informations vidéo.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "7de8c549015c5abd",
+        "title": "Inductive Automation Ignition Software",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-92817"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions Ignition &gt;=8.1.0|&lt;=8.1.54 et &gt;=8.3.0|&lt;=8.3.8 d'Inductive Automation Ignition Software sont affectées par une vulnérabilité permettant la montée de privilèges.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "e9c0c4283af9bc59",
+        "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-104935"
         ],
         "tags": [
           "apt",
+          "breach",
           "cve",
+          "malware",
+          "patch",
           "vulnerability"
         ],
-        "summary": "Des menaces ont exploité un défaut critique de SonicWall SMA 1000 dans les jours suivant la révélation publique, en utilisant une faille SSRF non authentifiée.",
-        "published_at": "2026-10-12T16:06:56",
-        "score": 20
+        "summary": "CISA conseille le patchage des versions 25.1.1.1, 25.1.2.2 et 22.8R2.4 de Ivanti Connect Secure affectées par une vulnérabilité de bogue d'authentification remontée.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 47
       },
       {
-        "guid": "bcf0e41047ffca2f",
-        "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-        "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-        "source": "The Hacker News",
+        "guid": "021dabfff0a537bb",
+        "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+        "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [
-          "CVE-2026-85097"
+          "CVE-2026-39919"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Une faille grave impactant le plugin Bricksforge pour WordPress est exploité activement par des attaquants, permettant l'exécution de code PHP à distance.",
-        "published_at": "2026-10-12T14:32:14",
+        "summary": "Une vulnérabilité critique dans Ghostscript permet l'exécution de code distant via des fichiers PDF malformés (CVE-2026-39919).",
+        "published_at": "2026-10-13T17:33:26",
         "score": 20
+      },
+      {
+        "guid": "9df23c7689890cb2",
+        "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+        "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-105445"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Docker a divulgué une vulnérabilité critique dans Docker Hub permettant l'impersonation de utilisateurs et la modification d'images via un token d'accès personnel (CVE-2026-105445).",
+        "published_at": "2026-10-13T11:20:20",
+        "score": 20
+      },
+      {
+        "guid": "2009cc8939e65052",
+        "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+        "url": "https://isc.sans.edu/diary/rss/33422",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a réparé 1,417 vulnérabilités, dont 76 critiques nécessitant des actions des clients.",
+        "published_at": "2026-10-13T19:25:52",
+        "score": 12
       }
     ],
     "campaigns": [
       {
-        "guid": "e3c1dc064edf7ba8",
-        "title": "🏴‍☠️ Orova has just published a new victim : Libre Wireless Technologies",
-        "url": "https://www.ransomware.live/id/TGlicmUgV2lyZWxlc3MgVGVjaG5vbG9naWVzQE9yb3Zh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Orova a publié un nouveau cas de victime : Libre Wireless Technologies, sans autre détail concis.",
-        "published_at": "2026-10-12T23:52:42",
-        "score": 12
-      },
-      {
-        "guid": "2c2e3e660b62055c",
-        "title": "🏴‍☠️ Orova has just published a new victim : Amantya Technologies",
-        "url": "https://www.ransomware.live/id/QW1hbnR5YSBUZWNobm9sb2dpZXNAT3JvdmE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Orova a publié un nouveau cas de victime : Amantya Technologies, une entreprise spécialisée en IA et cloud.",
-        "published_at": "2026-10-12T23:52:10",
-        "score": 12
-      },
-      {
-        "guid": "83e81dbd8757830a",
-        "title": "🏴‍☠️ Akira has just published a new victim : AAA Architectural Hardware",
-        "url": "https://www.ransomware.live/id/QUFBIEFyY2hpdGVjdHVyYWwgSGFyZHdhcmVAYWtpcmE=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Des vulnérabilités récentes ont été exploitées rapidement par les attaquants, soulignant la nécessité d'une gestion rapide des mises à jour de sécurité.",
-        "published_at": "2026-10-12T20:55:17",
-        "score": 12
-      },
-      {
-        "guid": "a991684789309aa0",
-        "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-        "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+        "guid": "18d9e31ad2141323",
+        "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "ransomware",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Deadlock a publié un nouveau cas de victime : Aeroklas Duys, une entreprise sud-africaine de fabrication automobile.",
-        "published_at": "2026-10-12T20:46:26",
+        "summary": "Anthropic alerte sur la possibilité future de formation d'IoT botnets par des modèles d'IA de petite taille.",
+        "published_at": "2026-10-13T23:50:57",
         "score": 17
       },
       {
-        "guid": "34a51a6ad4a80ee1",
-        "title": "🏴‍☠️ Deadlock has just published a new victim : Aeroklas Duys / Duys Engineering Group",
-        "url": "https://www.ransomware.live/id/QWVyb2tsYXMgRHV5cyAvIER1eXMgRW5naW5lZXJpbmcgR3JvdXBARGVhZGxvY2s=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "9f8f3b3c1c9e1e4a",
+        "title": "Microsoft Patches More Than 1,400 Security Flaws",
+        "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+        "source": "Krebs on Security",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "malware"
+          "malware",
+          "vulnerability"
         ],
-        "summary": "Aurora a publié un nouveau cas de victime : Rechtsanwaltskanzlei Dr. Bien, une société spécialisée en droit des faillites.",
-        "published_at": "2026-10-12T17:50:45",
-        "score": 12
+        "summary": "Microsoft a corrigé plus de 1,400 vulnérabilités dans ses systèmes Windows et autres logiciels.",
+        "published_at": "2026-10-13T23:24:53",
+        "score": 17
       },
       {
-        "guid": "364a04c9a548b2f2",
-        "title": "🏴‍☠️ Aurora has just published a new victim : Rechtsanwaltskanzlei Dr. Bien",
-        "url": "https://www.ransomware.live/id/UmVjaHRzYW53YWx0c2thbnpsZWkgRHIuIEJpZW5AYXVyb3Jh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "162e188b17914ddc",
+        "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+        "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "GitHub a expiré les configurations npm non validées après 48 heures pour prévenir la prise de contrôle de paquets par des attaquants.",
+        "published_at": "2026-10-13T21:48:18",
+        "score": 17
+      },
+      {
+        "guid": "f2f99336778b26f4",
+        "title": "Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue",
+        "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt",
           "malware"
         ],
-        "summary": "[law] Rechtsanwaltskanzlei Dr. Bien — a specialist insolvency law firm in Hamm, NRW, appointed as insolvency administrator by 12 Amtsgerichte across Westfalen. \n\nThe exposed material includes:\n\n2,387 WinSolvenz case databases — each a Microsoft Access MDB containing the complete financial dossier of an insolvency debtor: creditor lists, claim amounts, distribution plans, asset inventories, court appointments, and bank account details.\n492+ forced administration (Zwangsverwaltung) case files — pr",
-        "published_at": "2026-10-12T16:59:10",
-        "score": 12
+        "summary": "Quatre-vingt-quatorze résidences en Texas ont été ciblées dans une opération fédérale contre des escroqueries à distance alimentant le revenu nord-coréen.",
+        "published_at": "2026-10-13T20:55:00",
+        "score": 27
+      },
+      {
+        "guid": "55c248e71998ecd2",
+        "title": "FTC: Company netted at least $60 million charging sextortion victims for help it didn’t provide",
+        "url": "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une entreprise en Ohio a frauduleusement profité de victimes de sextorsion en les facturant des sommes importantes pour un service non fourni, selon une plainte du FTC.",
+        "published_at": "2026-10-13T20:12:00",
+        "score": 27
+      },
+      {
+        "guid": "b213d881fc54c32c",
+        "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+        "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'agence norvégienne de protection des données a infligé à Xandr, filiale d'Microsoft, une amende record de 8,6 millions d'euros pour la divulgation illégale de données sensibles liées à l'orientation sexuelle de Grindr.",
+        "published_at": "2026-10-13T18:42:32",
+        "score": 37
       }
     ],
     "top_reads": [
       {
-        "guid": "0448074e0b7f78e8",
-        "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-        "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "926c766efafea370",
+        "title": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
+        "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Ledger a suspendu les ventes de ses produits via CryptoBilis après des rapports d'arnaques liées à des pertes financières.",
-        "published_at": "2026-10-12T16:51:48",
-        "score": 25,
+        "summary": "Un incident de cybersécurité affecte des magasins d'Ahold Delhaize aux États-Unis, aux Pays-Bas et en Belgique.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "215043839478793a",
-        "title": "FBI Arrests Suspect in FBI-Hacking Case",
-        "url": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html",
-        "source": "Schneier on Security",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Le FBI a arrêté un suspect dans le cas d'hacking du FBI, lié aux fuites de données sensibles.",
-        "published_at": "2026-10-12T15:01:26",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "0104abb385bcb127",
-        "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-        "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+        "guid": "071ebd794e01260e",
+        "title": "UK Housing Ombudsman Service investigates 'security incident'",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Anthropic a retiré son AI des tests en ligne après qu'elles aient accédé à des sites gouvernementaux américains fédéraux, d'états et locaux.",
-        "published_at": "2026-10-12T14:51:59",
+        "summary": "L'Office de la médiation du logement du Royaume-Uni enquête sur un incident de sécurité informatique tiers qui a impacté son système de gestion des dossiers.",
+        "published_at": "2026-10-13T14:19:44",
         "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "bc09fc7f659e1982",
+        "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+        "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Article abordant les vulnérabilités révélées lors du Patch Tuesday Microsoft pour octobre 2026, incluant des règles Snort.",
+        "published_at": "2026-10-13T20:37:58",
+        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 84,
-    "items_selected": 11,
+    "items_analyzed": 92,
+    "items_selected": 15,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 2,
+    "cves_total": 7,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
