@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T02:02:16.358029+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "11a354443e954b8c",
+        "title": "Swann Communications SWIFI-SE2KIC",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-107605",
+          "CVE-2026-107606",
+          "CVE-2026-107607"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions SWIFI-SE2KIC firmware &lt;=2.0.22 de Swann Communications sont affectées par des vulnérabilités permettant la visualisation non authentifiée d'informations vidéo.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "7de8c549015c5abd",
+        "title": "Inductive Automation Ignition Software",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-92817"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions Ignition &gt;=8.1.0|&lt;=8.1.54 et &gt;=8.3.0|&lt;=8.3.8 d'Inductive Automation Ignition Software sont affectées par une vulnérabilité permettant la montée de privilèges.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "e9c0c4283af9bc59",
+        "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-104935"
+        ],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "CISA conseille le patchage des versions 25.1.1.1, 25.1.2.2 et 22.8R2.4 de Ivanti Connect Secure affectées par une vulnérabilité de bogue d'authentification remontée.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 47
+      },
+      {
+        "guid": "021dabfff0a537bb",
+        "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+        "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-39919"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans Ghostscript permet l'exécution de code distant via des fichiers PDF malformés (CVE-2026-39919).",
+        "published_at": "2026-10-13T17:33:26",
+        "score": 20
+      },
+      {
+        "guid": "9df23c7689890cb2",
+        "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+        "url": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-105445"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Docker a divulgué une vulnérabilité critique dans Docker Hub permettant l'impersonation de utilisateurs et la modification d'images via un token d'accès personnel (CVE-2026-105445).",
+        "published_at": "2026-10-13T11:20:20",
+        "score": 20
+      },
+      {
+        "guid": "2009cc8939e65052",
+        "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+        "url": "https://isc.sans.edu/diary/rss/33422",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a réparé 1,417 vulnérabilités, dont 76 critiques nécessitant des actions des clients.",
+        "published_at": "2026-10-13T19:25:52",
+        "score": 12
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "18d9e31ad2141323",
+        "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+        "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Anthropic alerte sur la possibilité future de formation d'IoT botnets par des modèles d'IA de petite taille.",
+        "published_at": "2026-10-13T23:50:57",
+        "score": 17
+      },
+      {
+        "guid": "9f8f3b3c1c9e1e4a",
+        "title": "Microsoft Patches More Than 1,400 Security Flaws",
+        "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a corrigé plus de 1,400 vulnérabilités dans ses systèmes Windows et autres logiciels.",
+        "published_at": "2026-10-13T23:24:53",
+        "score": 17
+      },
+      {
+        "guid": "162e188b17914ddc",
+        "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+        "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "GitHub a expiré les configurations npm non validées après 48 heures pour prévenir la prise de contrôle de paquets par des attaquants.",
+        "published_at": "2026-10-13T21:48:18",
+        "score": 17
+      },
+      {
+        "guid": "f2f99336778b26f4",
+        "title": "Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue",
+        "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Quatre-vingt-quatorze résidences en Texas ont été ciblées dans une opération fédérale contre des escroqueries à distance alimentant le revenu nord-coréen.",
+        "published_at": "2026-10-13T20:55:00",
+        "score": 27
+      },
+      {
+        "guid": "55c248e71998ecd2",
+        "title": "FTC: Company netted at least $60 million charging sextortion victims for help it didn’t provide",
+        "url": "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une entreprise en Ohio a frauduleusement profité de victimes de sextorsion en les facturant des sommes importantes pour un service non fourni, selon une plainte du FTC.",
+        "published_at": "2026-10-13T20:12:00",
+        "score": 27
+      },
+      {
+        "guid": "b213d881fc54c32c",
+        "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+        "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'agence norvégienne de protection des données a infligé à Xandr, filiale d'Microsoft, une amende record de 8,6 millions d'euros pour la divulgation illégale de données sensibles liées à l'orientation sexuelle de Grindr.",
+        "published_at": "2026-10-13T18:42:32",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "926c766efafea370",
+        "title": "Cyber incident hits grocery stores in US, Netherlands and Belgium",
+        "url": "https://therecord.media/cyberattack-groceru-ahold-delhaize",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un incident de cybersécurité affecte des magasins d'Ahold Delhaize aux États-Unis, aux Pays-Bas et en Belgique.",
+        "published_at": "2026-10-13T12:00:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "071ebd794e01260e",
+        "title": "UK Housing Ombudsman Service investigates 'security incident'",
+        "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'Office de la médiation du logement du Royaume-Uni enquête sur un incident de sécurité informatique tiers qui a impacté son système de gestion des dossiers.",
+        "published_at": "2026-10-13T14:19:44",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "bc09fc7f659e1982",
+        "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+        "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Article abordant les vulnérabilités révélées lors du Patch Tuesday Microsoft pour octobre 2026, incluant des règles Snort.",
+        "published_at": "2026-10-13T20:37:58",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 92,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 7,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
