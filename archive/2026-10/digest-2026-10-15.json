@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T02:01:48.316142+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "98e59c492e236a7e",
+        "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-0322"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Palo Alto Networks a mis à jour sa PAN-OS pour corriger une vulnérabilité RCE hautement critique, exploitée dans des attaques sur des pare-feu.",
+        "published_at": "2026-10-14T18:56:47",
+        "score": 20
+      },
+      {
+        "guid": "cd40231a3287f3ae",
+        "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+        "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-104935"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La CISA a conseillé d'actualiser l'appliance Ivanti Connect Secure suite à la disclosure d'une vulnérabilité de type passe-droit exploitée 105 fois.",
+        "published_at": "2026-10-14T18:00:42",
+        "score": 20
+      },
+      {
+        "guid": "592e64d53828bd9d",
+        "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+        "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-74580"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans le vhost du noyau Linux permet aux utilisateurs locaux d'obtenir des privilèges root et de compromettre les machines virtuelles.",
+        "published_at": "2026-10-14T13:16:57",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "eadeb5fab9fd133d",
+        "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+        "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Cisco a averti de l'exploitation d'une vulnérabilité critique dans son Gateway Secure Email, permettant à un expéditeur non authentifié d'écrire des fichiers sur le système d'exploitation.",
+        "published_at": "2026-10-15T00:08:56",
+        "score": 17
+      },
+      {
+        "guid": "2b265af2bd37efda",
+        "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+        "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants ont exploité une faille dans l'application CODE intégrée à Nextcloud pour insinuer des backdoors sur les serveurs Nextcloud.",
+        "published_at": "2026-10-14T23:08:31",
+        "score": 17
+      },
+      {
+        "guid": "e230b6081a1e6391",
+        "title": "🏴‍☠️ N0n has just published a new victim : Interior Technologies",
+        "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg==",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N0n a exposé la configuration complète d'un système de bâtiments intelligents et de surveillance, comprenant des informations clients et administrateur.",
+        "published_at": "2026-10-14T22:59:09",
+        "score": 12
+      },
+      {
+        "guid": "264873e5e58484c2",
+        "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+        "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "phishing"
+        ],
+        "summary": "Microsoft a intercepté trois kits de phishing utilisés par des cybercriminels chinois pour envoyer plus d'un milliard de messages frauduleux.",
+        "published_at": "2026-10-14T22:39:15",
+        "score": 15
+      },
+      {
+        "guid": "45e6c867466348f8",
+        "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+        "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Le DoJ a saisifié 187 ordinateurs et poursuit 14 personnes pour leur rôle dans un schéma de travailleurs IT frauduleux liés à la Corée du Nord.",
+        "published_at": "2026-10-14T22:04:31",
+        "score": 5
+      },
+      {
+        "guid": "57a208da5e0f5aa3",
+        "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
+        "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La police nord-macédonienne a arrêté le suspect administrateur du marché cybercriminel OLVX lors d'une perquisition dans un village.",
+        "published_at": "2026-10-14T21:10:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "aee70eaa0e338d42",
+        "title": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
+        "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Microsoft a fermé trois plateformes de phishing utilisées par des cybercriminels chinois, avec la collaboration du FBI et d'autres entreprises.",
+        "published_at": "2026-10-14T13:18:00",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "5edef15326629e2b",
+        "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
+        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Talos et Recorded Future ont découvert l'activité de UAT-6275 ciblant des organisations gouvernementales dans le Commonwealth des États Indépendants, avec un intérêt particulier pour les ressources en eau et l'énergie.",
+        "published_at": "2026-10-14T14:00:00",
+        "score": 15,
+        "rank": 2
+      },
+      {
+        "guid": "59aa9d2aa5e0fe80",
+        "title": "CISA warns of new Ivanti bug being exploited as latest Patch Tuesday breaks records",
+        "url": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "La Federal Bureau of Investigation (FBI) a alerté sur une nouvelle vulnérabilité exploitée chez Ivanti, alors que plus de 1 400 correctifs ont été proposés lors du dernier Patch Tuesday, incluant un risque critique Microsoft.",
+        "published_at": "2026-10-14T12:35:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 59,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
