@@ -1,115 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 14 octobre 2026
+# 🛡️ ARGOS CTI Digest — 15 octobre 2026
 
-> Généré le 14/10/2026 à 02:02 UTC  ·  92 items analysés  ·  15 sélectionnés  ·  22 sources actives
+> Généré le 15/10/2026 à 02:01 UTC  ·  59 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Swann Communications SWIFI-SE2KIC](https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02)
-**Source :** CISA Advisories  **Publié :** 13/10/2026 12:00 UTC  **CVE :** `CVE-2026-107605`, `CVE-2026-107606`, `CVE-2026-107607`
+### [Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 14/10/2026 18:56 UTC  **CVE :** `CVE-2026-0322`
+`cve` `patch` `vulnerability`
+Palo Alto Networks a mis à jour sa PAN-OS pour corriger une vulnérabilité RCE hautement critique, exploitée dans des attaques sur des pare-feu.
+
+---
+
+### [CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts](https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html)
+**Source :** The Hacker News  **Publié :** 14/10/2026 18:00 UTC  **CVE :** `CVE-2026-104935`
 `cve` `vulnerability`
-Les versions SWIFI-SE2KIC firmware &lt;=2.0.22 de Swann Communications sont affectées par des vulnérabilités permettant la visualisation non authentifiée d'informations vidéo.
+La CISA a conseillé d'actualiser l'appliance Ivanti Connect Secure suite à la disclosure d'une vulnérabilité de type passe-droit exploitée 105 fois.
 
 ---
 
-### [Inductive Automation Ignition Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01)
-**Source :** CISA Advisories  **Publié :** 13/10/2026 12:00 UTC  **CVE :** `CVE-2026-92817`
+### [AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host](https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html)
+**Source :** The Hacker News  **Publié :** 14/10/2026 13:16 UTC  **CVE :** `CVE-2026-74580`
 `cve` `vulnerability`
-Les versions Ignition &gt;=8.1.0|&lt;=8.1.54 et &gt;=8.3.0|&lt;=8.3.8 d'Inductive Automation Ignition Software sont affectées par une vulnérabilité permettant la montée de privilèges.
-
----
-
-### [CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure](https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure)
-**Source :** CISA Advisories  **Publié :** 13/10/2026 12:00 UTC  **CVE :** `CVE-2026-104935`
-`apt` `breach` `cve` `malware` `patch`
-CISA conseille le patchage des versions 25.1.1.1, 25.1.2.2 et 22.8R2.4 de Ivanti Connect Secure affectées par une vulnérabilité de bogue d'authentification remontée.
-
----
-
-### [Ghostscript flaw lets hackers hijack servers via PDF uploads](https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/)
-**Source :** Bleeping Computer  **Publié :** 13/10/2026 17:33 UTC  **CVE :** `CVE-2026-39919`
-`cve` `vulnerability`
-Une vulnérabilité critique dans Ghostscript permet l'exécution de code distant via des fichiers PDF malformés (CVE-2026-39919).
-
----
-
-### [Docker Hub flaw let attackers impersonate users, tamper with images](https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/)
-**Source :** Bleeping Computer  **Publié :** 13/10/2026 11:20 UTC  **CVE :** `CVE-2026-105445`
-`cve` `vulnerability`
-Docker a divulgué une vulnérabilité critique dans Docker Hub permettant l'impersonation de utilisateurs et la modification d'images via un token d'accès personnel (CVE-2026-105445).
-
----
-
-### [October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)](https://isc.sans.edu/diary/rss/33422)
-**Source :** SANS ISC  **Publié :** 13/10/2026 19:25 UTC
-`cve` `malware` `patch` `vulnerability`
-Microsoft a réparé 1,417 vulnérabilités, dont 76 critiques nécessitant des actions des clients.
+Une faille dans le vhost du noyau Linux permet aux utilisateurs locaux d'obtenir des privilèges root et de compromettre les machines virtuelles.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets](https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html)
-**Source :** The Hacker News  **Publié :** 13/10/2026 23:50 UTC
+### [Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability](https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html)
+**Source :** The Hacker News  **Publié :** 15/10/2026 00:08 UTC
+`cve` `malware` `patch` `vulnerability`
+Cisco a averti de l'exploitation d'une vulnérabilité critique dans son Gateway Secure Email, permettant à un expéditeur non authentifié d'écrire des fichiers sur le système d'exploitation.
+
+---
+
+### [Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App](https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html)
+**Source :** The Hacker News  **Publié :** 14/10/2026 23:08 UTC
+`cve` `malware` `vulnerability`
+Des attaquants ont exploité une faille dans l'application CODE intégrée à Nextcloud pour insinuer des backdoors sur les serveurs Nextcloud.
+
+---
+
+### [🏴‍☠️ N0n has just published a new victim : Interior Technologies](https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg==)
+**Source :** Ransomware.live News  **Publié :** 14/10/2026 22:59 UTC
 `malware`
-Anthropic alerte sur la possibilité future de formation d'IoT botnets par des modèles d'IA de petite taille.
+N0n a exposé la configuration complète d'un système de bâtiments intelligents et de surveillance, comprenant des informations clients et administrateur.
 
 ---
 
-### [Microsoft Patches More Than 1,400 Security Flaws](https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/)
-**Source :** Krebs on Security  **Publié :** 13/10/2026 23:24 UTC
-`malware` `vulnerability`
-Microsoft a corrigé plus de 1,400 vulnérabilités dans ses systèmes Windows et autres logiciels.
+### [Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages](https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html)
+**Source :** The Hacker News  **Publié :** 14/10/2026 22:39 UTC
+`apt` `phishing`
+Microsoft a intercepté trois kits de phishing utilisés par des cybercriminels chinois pour envoyer plus d'un milliard de messages frauduleux.
 
 ---
 
-### [GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking](https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html)
-**Source :** The Hacker News  **Publié :** 13/10/2026 21:48 UTC
-`malware` `vulnerability`
-GitHub a expiré les configurations npm non validées après 48 heures pour prévenir la prise de contrôle de paquets par des attaquants.
+### [U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud](https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html)
+**Source :** The Hacker News  **Publié :** 14/10/2026 22:04 UTC
+`apt`
+Le DoJ a saisifié 187 ordinateurs et poursuit 14 personnes pour leur rôle dans un schéma de travailleurs IT frauduleux liés à la Corée du Nord.
 
 ---
 
-### [Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue](https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas)
-**Source :** The Record  **Publié :** 13/10/2026 20:55 UTC
-`apt` `malware`
-Quatre-vingt-quatorze résidences en Texas ont été ciblées dans une opération fédérale contre des escroqueries à distance alimentant le revenu nord-coréen.
-
----
-
-### [FTC: Company netted at least $60 million charging sextortion victims for help it didn’t provide](https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint)
-**Source :** The Record  **Publié :** 13/10/2026 20:12 UTC
+### [North Macedonian police arrest alleged administrator behind OLVX cybercrime market](https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia)
+**Source :** The Record  **Publié :** 14/10/2026 21:10 UTC
 `malware`
-Une entreprise en Ohio a frauduleusement profité de victimes de sextorsion en les facturant des sommes importantes pour un service non fourni, selon une plainte du FTC.
-
----
-
-### [Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation](https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html)
-**Source :** The Hacker News  **Publié :** 13/10/2026 18:42 UTC
-`breach` `malware`
-L'agence norvégienne de protection des données a infligé à Xandr, filiale d'Microsoft, une amende record de 8,6 millions d'euros pour la divulgation illégale de données sensibles liées à l'orientation sexuelle de Grindr.
+La police nord-macédonienne a arrêté le suspect administrateur du marché cybercriminel OLVX lors d'une perquisition dans un village.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Cyber incident hits grocery stores in US, Netherlands and Belgium](https://therecord.media/cyberattack-groceru-ahold-delhaize)
-**Source :** The Record  **Publié :** 13/10/2026 12:00 UTC  **Score :** 35
-`breach`
-Un incident de cybersécurité affecte des magasins d'Ahold Delhaize aux États-Unis, aux Pays-Bas et en Belgique.
+### 1. [Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals](https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms)
+**Source :** The Record  **Publié :** 14/10/2026 13:18 UTC  **Score :** 25
+`phishing`
+Microsoft a fermé trois plateformes de phishing utilisées par des cybercriminels chinois, avec la collaboration du FBI et d'autres entreprises.
 
-### 2. [UK Housing Ombudsman Service investigates 'security incident'](https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/)
-**Source :** Bleeping Computer  **Publié :** 13/10/2026 14:19 UTC  **Score :** 25
-`breach`
-L'Office de la médiation du logement du Royaume-Uni enquête sur un incident de sécurité informatique tiers qui a impacté son système de gestion des dossiers.
+### 2. [Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations](https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/)
+**Source :** Cisco Talos  **Publié :** 14/10/2026 14:00 UTC  **Score :** 15
+`cve`
+Talos et Recorded Future ont découvert l'activité de UAT-6275 ciblant des organisations gouvernementales dans le Commonwealth des États Indépendants, avec un intérêt particulier pour les ressources en eau et l'énergie.
 
-### 3. [Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities](https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/)
-**Source :** Cisco Talos  **Publié :** 13/10/2026 20:37 UTC  **Score :** 15
-`patch` `vulnerability`
-Article abordant les vulnérabilités révélées lors du Patch Tuesday Microsoft pour octobre 2026, incluant des règles Snort.
+### 3. [CISA warns of new Ivanti bug being exploited as latest Patch Tuesday breaks records](https://therecord.media/new-ivanti-microsoft-bugs-exploitation)
+**Source :** The Record  **Publié :** 14/10/2026 12:35 UTC  **Score :** 15
+`cve` `patch` `vulnerability`
+La Federal Bureau of Investigation (FBI) a alerté sur une nouvelle vulnérabilité exploitée chez Ivanti, alors que plus de 1 400 correctifs ont été proposés lors du dernier Patch Tuesday, incluant un risque critique Microsoft.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-14.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-15.md`*
