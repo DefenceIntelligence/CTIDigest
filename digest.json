@@ -1,213 +1,314 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T02:01:48.316142+00:00",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T02:02:07.044384+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "98e59c492e236a7e",
-        "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
-        "source": "Bleeping Computer",
+        "guid": "137de303e5c589a1",
+        "title": "Eclipse Foundation Eclipse Milo",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-60007",
+          "CVE-2026-58080",
+          "CVE-2026-61387",
+          "CVE-2026-62927",
+          "CVE-2026-63248",
+          "CVE-2026-63252"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions Eclipse Foundation Eclipse Milo >= 0 sont affectées par des vulnérabilités potentiellement critiques.",
+        "published_at": "2026-10-15T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "69d17bcc78f4c7c8",
+        "title": "J4Care dcm4che",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-105273",
+          "CVE-2026-105279",
+          "CVE-2026-97851",
+          "CVE-2026-101021",
+          "CVE-2026-105667",
+          "CVE-2026-107621"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions J4Care dcm4che sont affectées par des vulnérabilités pouvant permettre l'accès non autorisé aux images médicales et à l'information patient.",
+        "published_at": "2026-10-15T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "8046220efbe5c626",
+        "title": "Guangzhou Juan IoT Technology EseeCloud",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-97858",
+          "CVE-2026-105664",
+          "CVE-2026-107617"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions EseeCloud App < 4.9.6 et Firmware < 4 sont affectées par des vulnérabilités permettant un contrôle total sur les caméras IP.",
+        "published_at": "2026-10-15T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "edf00b8c0c1abb81",
+        "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+        "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-0322"
+          "CVE-2026-105134",
+          "CVE-2026-105133"
         ],
         "tags": [
           "cve",
           "patch",
           "vulnerability"
         ],
-        "summary": "Palo Alto Networks a mis à jour sa PAN-OS pour corriger une vulnérabilité RCE hautement critique, exploitée dans des attaques sur des pare-feu.",
-        "published_at": "2026-10-14T18:56:47",
+        "summary": "Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.\n\nThe vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep authentication and execute arbitrary commands on affected systems.\n\nIn a report published earlier",
+        "published_at": "2026-10-15T12:13:08",
         "score": 20
       },
       {
-        "guid": "cd40231a3287f3ae",
-        "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-        "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "d11afaf00e228267",
+        "title": "Thermo Fisher Torrent Suite Software",
+        "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-104935"
+          "CVE-2026-107777"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "La CISA a conseillé d'actualiser l'appliance Ivanti Connect Secure suite à la disclosure d'une vulnérabilité de type passe-droit exploitée 105 fois.",
-        "published_at": "2026-10-14T18:00:42",
-        "score": 20
+        "summary": "Les versions Torrent Suite Software < 5.18 de Thermo Fisher sont affectées par une vulnérabilité permettant l'accès aux fichiers du serveur.",
+        "published_at": "2026-10-15T12:00:00",
+        "score": 15
       },
       {
-        "guid": "592e64d53828bd9d",
-        "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
-        "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+        "guid": "4c13e658bf14caf2",
+        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+        "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-74580"
+          "CVE-2026-99999"
         ],
         "tags": [
           "cve",
+          "malware",
           "vulnerability"
         ],
-        "summary": "Une faille dans le vhost du noyau Linux permet aux utilisateurs locaux d'obtenir des privilèges root et de compromettre les machines virtuelles.",
-        "published_at": "2026-10-14T13:16:57",
+        "summary": "Le Linux kernel contient une vulnérabilité critique (CVE-2026-99999) permettant la lecture de la mémoire hôte par des machines virtuelles.",
+        "published_at": "2026-10-16T01:54:36",
+        "score": 32
+      },
+      {
+        "guid": "a4c368f97451387d",
+        "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-110447"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des attaquants exploite une vulnérabilité RCE grave dans Collabora Online pour backdoor les serveurs Nextcloud.",
+        "published_at": "2026-10-15T16:25:04",
+        "score": 32
+      },
+      {
+        "guid": "0f5cea5a8fc05c65",
+        "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+        "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-105740"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors exploitent une vulnérabilité RCE critique CVE-2026-105740 dans Langflow, visée par 1,423 attaques sur des honeypots.",
+        "published_at": "2026-10-15T12:37:05",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "eadeb5fab9fd133d",
-        "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
-        "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+        "guid": "425fd57238dc31ef",
+        "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+        "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "cve",
-          "malware",
-          "patch",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Cisco a averti de l'exploitation d'une vulnérabilité critique dans son Gateway Secure Email, permettant à un expéditeur non authentifié d'écrire des fichiers sur le système d'exploitation.",
-        "published_at": "2026-10-15T00:08:56",
+        "summary": "Ce week-end de menaces inclut plusieurs vulnérabilités critiques et techniques inattendues.",
+        "published_at": "2026-10-16T00:19:33",
         "score": 17
       },
       {
-        "guid": "2b265af2bd37efda",
-        "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
-        "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+        "guid": "6ab77ec9ae36e709",
+        "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+        "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
+          "apt",
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Des attaquants ont exploité une faille dans l'application CODE intégrée à Nextcloud pour insinuer des backdoors sur les serveurs Nextcloud.",
-        "published_at": "2026-10-14T23:08:31",
-        "score": 17
+        "summary": "Silent Lynx a utilisé des archivos WinRAR malveillants pour déployer des reverse shells dans des attaques gouvernementales de la CIS.",
+        "published_at": "2026-10-15T21:30:26",
+        "score": 5
       },
       {
-        "guid": "e230b6081a1e6391",
-        "title": "🏴‍☠️ N0n has just published a new victim : Interior Technologies",
-        "url": "https://www.ransomware.live/id/SW50ZXJpb3IgVGVjaG5vbG9naWVzQE4wbg==",
+        "guid": "91a8812f0e80daca",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Keio Corporation",
+        "url": "https://www.ransomware.live/id/S2VpbyBDb3Jwb3JhdGlvbkBxaWxpbg==",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "N0n a exposé la configuration complète d'un système de bâtiments intelligents et de surveillance, comprenant des informations clients et administrateur.",
-        "published_at": "2026-10-14T22:59:09",
+        "summary": "Qilin a révélé qu'Keio Corporation est une nouvelle victime de l'attaque.",
+        "published_at": "2026-10-15T21:04:57",
         "score": 12
       },
       {
-        "guid": "264873e5e58484c2",
-        "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
-        "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "phishing"
-        ],
-        "summary": "Microsoft a intercepté trois kits de phishing utilisés par des cybercriminels chinois pour envoyer plus d'un milliard de messages frauduleux.",
-        "published_at": "2026-10-14T22:39:15",
-        "score": 15
-      },
-      {
-        "guid": "45e6c867466348f8",
-        "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
-        "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt"
-        ],
-        "summary": "Le DoJ a saisifié 187 ordinateurs et poursuit 14 personnes pour leur rôle dans un schéma de travailleurs IT frauduleux liés à la Corée du Nord.",
-        "published_at": "2026-10-14T22:04:31",
-        "score": 5
-      },
-      {
-        "guid": "57a208da5e0f5aa3",
-        "title": "North Macedonian police arrest alleged administrator behind OLVX cybercrime market",
-        "url": "https://therecord.media/olvx-cybercrime-marketplace-arrest-north-macedonia",
+        "guid": "996f3056fae09c63",
+        "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+        "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
+          "breach",
           "malware"
         ],
-        "summary": "La police nord-macédonienne a arrêté le suspect administrateur du marché cybercriminel OLVX lors d'une perquisition dans un village.",
-        "published_at": "2026-10-14T21:10:00",
-        "score": 27
+        "summary": "Un cyberattaque par un contractant a provoqué des arrêts dans les tribunaux fédéraux en charge des liquidations judiciaires.",
+        "published_at": "2026-10-15T20:46:00",
+        "score": 47
+      },
+      {
+        "guid": "b6ff7159267b94a2",
+        "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+        "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Help TDS, connu sous le nom d'Hotejka, est lié à des escroqueries de support technique utilisant Cloudflare Pages.",
+        "published_at": "2026-10-15T19:41:36",
+        "score": 37
+      },
+      {
+        "guid": "13c2843c0fdcd2cb",
+        "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+        "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "NGINX a publié des versions correctives pour cinq vulnérabilités potentiellement graves, y compris une RCE et un bug TLS.",
+        "published_at": "2026-10-15T18:28:05",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "aee70eaa0e338d42",
-        "title": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
-        "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "ca54dc7b473afb2f",
+        "title": "Why AI Confidence Is Not Validation",
+        "url": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "phishing"
+          "breach"
         ],
-        "summary": "Microsoft a fermé trois plateformes de phishing utilisées par des cybercriminels chinois, avec la collaboration du FBI et d'autres entreprises.",
-        "published_at": "2026-10-14T13:18:00",
+        "summary": "Les outils d'IA dans la forensic numérique augmentent leur confiance sans qu'il n'y ait de modèles de gouvernance pour les valider.",
+        "published_at": "2026-10-15T16:34:35",
         "score": 25,
         "rank": 1
       },
       {
-        "guid": "5edef15326629e2b",
-        "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
-        "url": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
-        "source": "Cisco Talos",
-        "category": "Éditorial",
+        "guid": "b5ae1aea6a19ce4c",
+        "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "cve"
+          "breach"
         ],
-        "summary": "Talos et Recorded Future ont découvert l'activité de UAT-6275 ciblant des organisations gouvernementales dans le Commonwealth des États Indépendants, avec un intérêt particulier pour les ressources en eau et l'énergie.",
-        "published_at": "2026-10-14T14:00:00",
-        "score": 15,
+        "summary": "Des pirates hijack des appareils D-Link et Ubiquiti pour vendre votre bande passante volée sur un réseau proxy résidentiel.",
+        "published_at": "2026-10-15T14:20:59",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "59aa9d2aa5e0fe80",
-        "title": "CISA warns of new Ivanti bug being exploited as latest Patch Tuesday breaks records",
-        "url": "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "829596dd813a6272",
+        "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+        "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
+          "breach"
         ],
-        "summary": "La Federal Bureau of Investigation (FBI) a alerté sur une nouvelle vulnérabilité exploitée chez Ivanti, alors que plus de 1 400 correctifs ont été proposés lors du dernier Patch Tuesday, incluant un risque critique Microsoft.",
-        "published_at": "2026-10-14T12:35:00",
-        "score": 15,
+        "summary": "Le campagne GhostAction a compromis 1,900 comptes GitHub et ciblé plus de 30,000 dépôts sur la plateforme.",
+        "published_at": "2026-10-15T14:15:10",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 59,
-    "items_selected": 12,
+    "items_analyzed": 78,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 21,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 1,
     "argos_version": "2.0.0"
   }
 }
