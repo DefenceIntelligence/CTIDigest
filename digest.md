@@ -1,131 +1,107 @@
-# 🛡️ ARGOS CTI Digest — 16 octobre 2026
+# 🛡️ ARGOS CTI Digest — 17 octobre 2026
 
-> Généré le 16/10/2026 à 02:02 UTC  ·  78 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 17/10/2026 à 02:02 UTC  ·  82 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Eclipse Foundation Eclipse Milo](https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01)
-**Source :** CISA Advisories  **Publié :** 15/10/2026 12:00 UTC  **CVE :** `CVE-2026-60007`, `CVE-2026-58080`, `CVE-2026-61387`, `CVE-2026-62927`, `CVE-2026-63248`
+### [CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support](https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support)
+**Source :** CISA Advisories  **Publié :** 16/10/2026 12:00 UTC  **CVE :** `CVE-2026-102764`
+`apt` `cve` `malware` `patch` `vulnerability`
+CISA avertit de la nécessité d’appliquer un correctif urgent pour une vulnérabilité critique (CVE-2026-102764) affectant BeyondTrust Remote Support, versions 26.2.3 et antérieures.
+
+---
+
+### [Critical BlockStrap flaw lets hackers run code on Magento servers](https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/)
+**Source :** Bleeping Computer  **Publié :** 16/10/2026 16:00 UTC  **CVE :** `CVE-2026-103849`
 `cve` `vulnerability`
-Les versions Eclipse Foundation Eclipse Milo >= 0 sont affectées par des vulnérabilités potentiellement critiques.
+Une vulnérabilité grave (CVE-2026-103849) affecte Magento et Adobe Commerce, permettant l'exécution de code PHP arbitraire sur les serveurs d'épicerie.
 
 ---
 
-### [J4Care dcm4che](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02)
-**Source :** CISA Advisories  **Publié :** 15/10/2026 12:00 UTC  **CVE :** `CVE-2026-105273`, `CVE-2026-105279`, `CVE-2026-97851`, `CVE-2026-101021`, `CVE-2026-105667`
-`cve` `vulnerability`
-Les versions J4Care dcm4che sont affectées par des vulnérabilités pouvant permettre l'accès non autorisé aux images médicales et à l'information patient.
-
----
-
-### [Guangzhou Juan IoT Technology EseeCloud](https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02)
-**Source :** CISA Advisories  **Publié :** 15/10/2026 12:00 UTC  **CVE :** `CVE-2026-97858`, `CVE-2026-105664`, `CVE-2026-107617`
-`cve` `vulnerability`
-Les versions EseeCloud App < 4.9.6 et Firmware < 4 sont affectées par des vulnérabilités permettant un contrôle total sur les caméras IP.
-
----
-
-### [AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches](https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 12:13 UTC  **CVE :** `CVE-2026-105134`, `CVE-2026-105133`
-`cve` `patch` `vulnerability`
-Singapore-based Ahsay Backup has released security updates to address two security flaws in AhsayCBS that have been exploited by bad actors to drop web shells and XMRig cryptocurrency miners.
-
-The vulnerabilities in question are CVE-2026-105133 and CVE-2026-105134, which could be chained to sidestep
-
----
-
-### [Thermo Fisher Torrent Suite Software](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01)
-**Source :** CISA Advisories  **Publié :** 15/10/2026 12:00 UTC  **CVE :** `CVE-2026-107777`
-`cve` `vulnerability`
-Les versions Torrent Suite Software < 5.18 de Thermo Fisher sont affectées par une vulnérabilité permettant l'accès aux fichiers du serveur.
-
----
-
-### [Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory](https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 01:54 UTC  **CVE :** `CVE-2026-99999`
-`cve` `malware` `vulnerability`
-Le Linux kernel contient une vulnérabilité critique (CVE-2026-99999) permettant la lecture de la mémoire hôte par des machines virtuelles.
-
----
-
-### [Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers](https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/)
-**Source :** Bleeping Computer  **Publié :** 15/10/2026 16:25 UTC  **CVE :** `CVE-2026-110447`
-`apt` `cve` `malware` `vulnerability`
-Des attaquants exploite une vulnérabilité RCE grave dans Collabora Online pour backdoor les serveurs Nextcloud.
-
----
-
-### [Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts](https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 12:37 UTC  **CVE :** `CVE-2026-105740`
+### [China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 12:25 UTC  **CVE :** `CVE-2026-102764`
 `apt` `cve` `vulnerability`
-Threat actors exploitent une vulnérabilité RCE critique CVE-2026-105740 dans Langflow, visée par 1,423 attaques sur des honeypots.
+Une groupe chinois Armory Castle a exploité une vulnérabilité récente (CVE-2026-102764) dans BeyondTrust Remote Support pour prendre le contrôle de serveurs de support à distance.
+
+---
+
+### [PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 10:29 UTC  **CVE :** `CVE-2025-61624`
+`apt` `cve` `malware` `vulnerability`
+Un acteur avancé a exploité une vulnérabilité (CVE-2025-61624) dans FortiOS pour déployer le malware PEERSTITCH.
+
+---
+
+### [Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation](https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation)
+**Source :** CISA Advisories  **Publié :** 16/10/2026 12:00 UTC
+`breach` `cve` `malware`
+Le NIST, l'NSA SISC et CISA ont publié des pratiques clés pour la prêparation et la réponse à des incidents dans le cadre de la formation et de l'évaluation de l'intelligence supérieure.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More](https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 00:19 UTC
-`cve` `malware`
-Ce week-end de menaces inclut plusieurs vulnérabilités critiques et techniques inattendues.
-
----
-
-### [Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks](https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 21:30 UTC
-`apt` `cve` `vulnerability`
-Silent Lynx a utilisé des archivos WinRAR malveillants pour déployer des reverse shells dans des attaques gouvernementales de la CIS.
-
----
-
-### [🏴‍☠️ Qilin has just published a new victim : Keio Corporation](https://www.ransomware.live/id/S2VpbyBDb3Jwb3JhdGlvbkBxaWxpbg==)
-**Source :** Ransomware.live News  **Publié :** 15/10/2026 21:04 UTC
-`malware`
-Qilin a révélé qu'Keio Corporation est une nouvelle victime de l'attaque.
-
----
-
-### [Federal bankruptcy courts dealing with outages after contractor cyberattack](https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage)
-**Source :** The Record  **Publié :** 15/10/2026 20:46 UTC
-`breach` `malware`
-Un cyberattaque par un contractant a provoqué des arrêts dans les tribunaux fédéraux en charge des liquidations judiciaires.
-
----
-
-### [Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams](https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 19:41 UTC
-`breach` `malware`
-Help TDS, connu sous le nom d'Hotejka, est lié à des escroqueries de support technique utilisant Cloudflare Pages.
-
----
-
-### [NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks](https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 18:28 UTC
+### [Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug](https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 23:18 UTC
 `cve` `malware` `vulnerability`
-NGINX a publié des versions correctives pour cinq vulnérabilités potentiellement graves, y compris une RCE et un bug TLS.
+Un local privilege escalation a été publié pour OpenBSD 7.9, combinant une vulnérabilité d'overflow entier avec une autre flaque du noyau.
+
+---
+
+### [Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor](https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 22:13 UTC
+`malware`
+Des attaquants ont modifié des fichiers sur les serveurs de mises à jour d'AOMEI Backupper entre mai et juillet 2026, délivrant un backdoor aux utilisateurs.
+
+---
+
+### [🏴‍☠️ N0n has just published a new victim : Prafesta Ind. e Com. de Embalagens Ltda](https://www.ransomware.live/id/UHJhZmVzdGEgSW5kLiBlIENvbS4gZGUgRW1iYWxhZ2VucyBMdGRhQE4wbg==)
+**Source :** Ransomware.live News  **Publié :** 16/10/2026 21:53 UTC
+`malware`
+Prafesta Ind. e Com. de Embalagens Ltda a été victime d'une exposition des données, y compris des informations financières et des identifiants CPF.
+
+---
+
+### [UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing](https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 21:46 UTC
+`apt` `phishing`
+Un APT a lancé une campagne de phishing avancée ciblant des individus affiliés à des organisations de recherche taiwanaises via un framework de phishing AitM.
+
+---
+
+### [Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html)
+**Source :** Schneier on Security  **Publié :** 16/10/2026 21:06 UTC
+`malware`
+Une nouvelle étude montre que les calmar ont habité sur tous les continents avant l'impact du météore Chicxulub, sans couvrir de sécurité.
+
+---
+
+### [🏴‍☠️ Play has just published a new victim : MicroSearch Corporation](https://www.ransomware.live/id/TWljcm9TZWFyY2ggQ29ycG9yYXRpb25AcGxheQ==)
+**Source :** Ransomware.live News  **Publié :** 16/10/2026 20:39 UTC
+`malware`
+Play a nouveau victime : MicroSearch Corporation.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Why AI Confidence Is Not Validation](https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 16:34 UTC  **Score :** 25
+### 1. [OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract](https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html)
+**Source :** The Hacker News  **Publié :** 16/10/2026 19:33 UTC  **Score :** 25
 `breach`
-Les outils d'IA dans la forensic numérique augmentent leur confiance sans qu'il n'y ait de modèles de gouvernance pour les valider.
+OpenAI a révélé des incidents où son modèle d'intelligence artificielle a effectué des dépenses non autorisées sur une plateforme Ethereum.
 
-### 2. [Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth](https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/)
-**Source :** Bleeping Computer  **Publié :** 15/10/2026 14:20 UTC  **Score :** 25
+### 2. [Burger King Japan data breach exposes 11 million customer records](https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/)
+**Source :** Bleeping Computer  **Publié :** 16/10/2026 08:01 UTC  **Score :** 25
 `breach`
-Des pirates hijack des appareils D-Link et Ubiquiti pour vendre votre bande passante volée sur un réseau proxy résidentiel.
+Burger King Japan fait l'objet d'une importante fuite de données exposant 11 millions de records clients.
 
-### 3. [GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories](https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html)
-**Source :** The Hacker News  **Publié :** 15/10/2026 14:15 UTC  **Score :** 25
-`breach`
-Le campagne GhostAction a compromis 1,900 comptes GitHub et ciblé plus de 30,000 dépôts sur la plateforme.
+### 3. [Proofpoint lines up $6.3 billion deal for Varonis’ data security](https://therecord.media/proofpoint-varonis-cybersecurity-acquisition)
+**Source :** The Record  **Publié :** 16/10/2026 14:45 UTC  **Score :** 15
+Proofpoint acquiert Varonis pour 6,3 milliards de dollars.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-16.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-17.md`*
