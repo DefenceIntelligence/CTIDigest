@@ -1,107 +1,73 @@
-# 🛡️ ARGOS CTI Digest — 17 octobre 2026
+# 🛡️ ARGOS CTI Digest — 18 octobre 2026
 
-> Généré le 17/10/2026 à 02:02 UTC  ·  82 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 18/10/2026 à 02:01 UTC  ·  33 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support](https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support)
-**Source :** CISA Advisories  **Publié :** 16/10/2026 12:00 UTC  **CVE :** `CVE-2026-102764`
-`apt` `cve` `malware` `patch` `vulnerability`
-CISA avertit de la nécessité d’appliquer un correctif urgent pour une vulnérabilité critique (CVE-2026-102764) affectant BeyondTrust Remote Support, versions 26.2.3 et antérieures.
-
----
-
-### [Critical BlockStrap flaw lets hackers run code on Magento servers](https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/)
-**Source :** Bleeping Computer  **Publié :** 16/10/2026 16:00 UTC  **CVE :** `CVE-2026-103849`
-`cve` `vulnerability`
-Une vulnérabilité grave (CVE-2026-103849) affecte Magento et Adobe Commerce, permettant l'exécution de code PHP arbitraire sur les serveurs d'épicerie.
-
----
-
-### [China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers](https://thehackernews.com/2026/10/china-linked-hackers-exploited.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 12:25 UTC  **CVE :** `CVE-2026-102764`
-`apt` `cve` `vulnerability`
-Une groupe chinois Armory Castle a exploité une vulnérabilité récente (CVE-2026-102764) dans BeyondTrust Remote Support pour prendre le contrôle de serveurs de support à distance.
-
----
-
-### [PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions](https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 10:29 UTC  **CVE :** `CVE-2025-61624`
-`apt` `cve` `malware` `vulnerability`
-Un acteur avancé a exploité une vulnérabilité (CVE-2025-61624) dans FortiOS pour déployer le malware PEERSTITCH.
-
----
-
-### [Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation](https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation)
-**Source :** CISA Advisories  **Publié :** 16/10/2026 12:00 UTC
-`breach` `cve` `malware`
-Le NIST, l'NSA SISC et CISA ont publié des pratiques clés pour la prêparation et la réponse à des incidents dans le cadre de la formation et de l'évaluation de l'intelligence supérieure.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug](https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 23:18 UTC
-`cve` `malware` `vulnerability`
-Un local privilege escalation a été publié pour OpenBSD 7.9, combinant une vulnérabilité d'overflow entier avec une autre flaque du noyau.
-
----
-
-### [Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor](https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 22:13 UTC
+### [🏴‍☠️ Eclipse has just published a new victim : PART2 Global AirFreight International](https://www.ransomware.live/id/UEFSVDIgR2xvYmFsIEFpckZyZWlnaHQgSW50ZXJuYXRpb25hbEBFY2xpcHNl)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 22:21 UTC
 `malware`
-Des attaquants ont modifié des fichiers sur les serveurs de mises à jour d'AOMEI Backupper entre mai et juillet 2026, délivrant un backdoor aux utilisateurs.
+PART 2 Global AirFreight International, une entreprise de logistique spécialisé dans le fret aérien et maritime, est victime d'une rançonlogie.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Prafesta Ind. e Com. de Embalagens Ltda](https://www.ransomware.live/id/UHJhZmVzdGEgSW5kLiBlIENvbS4gZGUgRW1iYWxhZ2VucyBMdGRhQE4wbg==)
-**Source :** Ransomware.live News  **Publié :** 16/10/2026 21:53 UTC
+### [🏴‍☠️ Dragonforce has just published a new victim : oakgrovetech](https://www.ransomware.live/id/b2FrZ3JvdmV0ZWNoQGRyYWdvbmZvcmNl)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 21:04 UTC
+`cve` `malware`
+Oakgrovetech, une entreprise de formation militaire et cybernétique, a été compromise par des hackers, révélant des emails d’executifs.
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : polisee Inc](https://www.ransomware.live/id/cG9saXNlZSBJbmNAVmV4eSBSYW5zb213YXJl)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 18:33 UTC
+`malware` `ransomware`
+polisee Inc., une entreprise japonaise de technologie qui développe un plateforme d'IA pour la surveillance des politiques gouvernementales, est victime d'un ransomware.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Wellington College International School Bangkok](https://www.ransomware.live/id/V2VsbGluZ3RvbiBDb2xsZWdlIEludGVybmF0aW9uYWwgU2Nob29sIEJhbmdrb2tAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
+`cve` `malware`
+Wellington College International School Bangkok, une école internationale britannique de 2 à 18 ans, a été compromise par des hackers.
+
+---
+
+### [🏴‍☠️ Thegentlemen has just published a new victim : Gio Dental Med Spa](https://www.ransomware.live/id/R2lvIERlbnRhbCBNZWQgU3BhQHRoZWdlbnRsZW1lbg==)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
 `malware`
-Prafesta Ind. e Com. de Embalagens Ltda a été victime d'une exposition des données, y compris des informations financières et des identifiants CPF.
+Gio Dental Med Spa, un clinic dentaire et esthétique en Mexique, a été victime d'une attaque informatique.
 
 ---
 
-### [UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing](https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 21:46 UTC
-`apt` `phishing`
-Un APT a lancé une campagne de phishing avancée ciblant des individus affiliés à des organisations de recherche taiwanaises via un framework de phishing AitM.
-
----
-
-### [Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html)
-**Source :** Schneier on Security  **Publié :** 16/10/2026 21:06 UTC
-`malware`
-Une nouvelle étude montre que les calmar ont habité sur tous les continents avant l'impact du météore Chicxulub, sans couvrir de sécurité.
-
----
-
-### [🏴‍☠️ Play has just published a new victim : MicroSearch Corporation](https://www.ransomware.live/id/TWljcm9TZWFyY2ggQ29ycG9yYXRpb25AcGxheQ==)
-**Source :** Ransomware.live News  **Publié :** 16/10/2026 20:39 UTC
-`malware`
-Play a nouveau victime : MicroSearch Corporation.
+### [🏴‍☠️ Thegentlemen has just published a new victim : First Dental Health](https://www.ransomware.live/id/Rmlyc3QgRGVudGFsIEhlYWx0aEB0aGVnZW50bGVtZW4=)
+**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
+`cve` `malware`
+First Dental Health, une entreprise de consultence dentaire américaine, a été compromise par des hackers.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract](https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html)
-**Source :** The Hacker News  **Publié :** 16/10/2026 19:33 UTC  **Score :** 25
+### 1. [Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack](https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/)
+**Source :** Bleeping Computer  **Publié :** 17/10/2026 11:18 UTC  **Score :** 25
 `breach`
-OpenAI a révélé des incidents où son modèle d'intelligence artificielle a effectué des dépenses non autorisées sur une plateforme Ethereum.
+ConnectWise est fermée aux clients après une attaque via son service Cloud Backup qui a compromis Microsoft 365.
 
-### 2. [Burger King Japan data breach exposes 11 million customer records](https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/)
-**Source :** Bleeping Computer  **Publié :** 16/10/2026 08:01 UTC  **Score :** 25
-`breach`
-Burger King Japan fait l'objet d'une importante fuite de données exposant 11 millions de records clients.
+### 2. [MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon](https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html)
+**Source :** The Hacker News  **Publié :** 17/10/2026 16:41 UTC  **Score :** 5
+Une attaque supply chain via le package npm 'imgdecode' a été dévoilée, masquant un chargeur shellcode sur Windows.
 
-### 3. [Proofpoint lines up $6.3 billion deal for Varonis’ data security](https://therecord.media/proofpoint-varonis-cybersecurity-acquisition)
-**Source :** The Record  **Publié :** 16/10/2026 14:45 UTC  **Score :** 15
-Proofpoint acquiert Varonis pour 6,3 milliards de dollars.
+### 3. [Taxis et VTC : ce que vos données révèlent de vous](https://www.zataz.com/taxis-et-vtc-ce-que-vos-donnees-revelent-de-vous/)
+**Source :** ZATAZ  **Publié :** 17/10/2026 11:28 UTC  **Score :** 5
+Les données personnelles des utilisateurs de taxis et VTC sont exposées, mettant en lumière les risques associés à ces services.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-17.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-18.md`*
