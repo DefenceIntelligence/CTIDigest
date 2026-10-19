@@ -1,152 +1,151 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T02:01:09.063246+00:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T02:00:50.659404+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "638c464e3afc82a1",
-        "title": "🏴‍☠️ Eclipse has just published a new victim : PART2 Global AirFreight International",
-        "url": "https://www.ransomware.live/id/UEFSVDIgR2xvYmFsIEFpckZyZWlnaHQgSW50ZXJuYXRpb25hbEBFY2xpcHNl",
+        "guid": "9451f6bc73c33083",
+        "title": "🏴‍☠️ N0n has just published a new victim : Amagi Media Labs",
+        "url": "https://www.ransomware.live/id/QW1hZ2kgTWVkaWEgTGFic0BOMG4",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "PART 2 Global AirFreight International, une entreprise de logistique spécialisé dans le fret aérien et maritime, est victime d'une rançonlogie.",
-        "published_at": "2026-10-17T22:21:40",
+        "summary": "Amagi Media Labs a été victime d'une publication comprenant des fichiers de configuration réseau et des cartes du site d'un site de diffusion audiovisuelle aux États-Unis.",
+        "published_at": "2026-10-18T22:24:38",
         "score": 12
       },
       {
-        "guid": "ffd305492183c17a",
-        "title": "🏴‍☠️ Dragonforce has just published a new victim : oakgrovetech",
-        "url": "https://www.ransomware.live/id/b2FrZ3JvdmV0ZWNoQGRyYWdvbmZvcmNl",
+        "guid": "1ac5b72187451c26",
+        "title": "🏴‍☠️ N0n has just published a new victim : Telecom Egypt",
+        "url": "https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
           "malware"
         ],
-        "summary": "Oakgrovetech, une entreprise de formation militaire et cybernétique, a été compromise par des hackers, révélant des emails d’executifs.",
-        "published_at": "2026-10-17T21:04:36",
+        "summary": "Telecom Egypt a été la cible d'une publication comprenant des documents de formation et des projets informatiques, ainsi que des dossiers étudiants égyptiens.",
+        "published_at": "2026-10-18T17:29:31",
         "score": 12
       },
       {
-        "guid": "5735fa9b997855fe",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : polisee Inc",
-        "url": "https://www.ransomware.live/id/cG9saXNlZSBJbmNAVmV4eSBSYW5zb213YXJl",
+        "guid": "e0c03910348f0ac4",
+        "title": "🏴‍☠️ N0n has just published a new victim : All Business Technologies (Fox Hill bookkeeping and tax practice)",
+        "url": "https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware",
+          "malware"
+        ],
+        "summary": "All Business Technologies a été victime d'une publication comprenant les livres comptables et les documents fiscaux de plus de 60 entreprises clientes aux États-Unis.",
+        "published_at": "2026-10-18T17:28:49",
+        "score": 12
+      },
+      {
+        "guid": "5958b78ddc4d684f",
+        "title": "🏴‍☠️ N0n has just published a new victim : SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
+        "url": "https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Semiconductor manufacturing · California, USA | Corporate business records and working files from the company&#x27;s file servers; Employee and payroll related records; Financial and accounting documents | [NOT PAID — EXPOSED]",
+        "published_at": "2026-10-18T16:27:05",
+        "score": 12
+      },
+      {
+        "guid": "70eaccfa1f2efbc8",
+        "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
           "ransomware"
         ],
-        "summary": "polisee Inc., une entreprise japonaise de technologie qui développe un plateforme d'IA pour la surveillance des politiques gouvernementales, est victime d'un ransomware.",
-        "published_at": "2026-10-17T18:33:23",
-        "score": 12
+        "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\n\nThe disabled identities are listed below -\n\n\n  ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae\n  ConnectWise",
+        "published_at": "2026-10-18T13:53:02",
+        "score": 25
       },
       {
-        "guid": "77ed0290fd1dbabd",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Wellington College International School Bangkok",
-        "url": "https://www.ransomware.live/id/V2VsbGluZ3RvbiBDb2xsZWdlIEludGVybmF0aW9uYWwgU2Nob29sIEJhbmdrb2tAdGhlZ2VudGxlbWVu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Wellington College International School Bangkok, une école internationale britannique de 2 à 18 ans, a été compromise par des hackers.",
-        "published_at": "2026-10-17T16:52:59",
-        "score": 12
-      },
-      {
-        "guid": "11482752d0a120fa",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Gio Dental Med Spa",
-        "url": "https://www.ransomware.live/id/R2lvIERlbnRhbCBNZWQgU3BhQHRoZWdlbnRsZW1lbg==",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "072abb772ec3aec4",
+        "title": "La Chine veut contrôler ses exportations d’IA",
+        "url": "https://www.zataz.com/la-chine-veut-controler-ses-exportations-dia/",
+        "source": "ZATAZ",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Gio Dental Med Spa, un clinic dentaire et esthétique en Mexique, a été victime d'une attaque informatique.",
-        "published_at": "2026-10-17T16:52:38",
-        "score": 12
-      },
-      {
-        "guid": "ac9ad10d327d3d36",
-        "title": "🏴‍☠️ Thegentlemen has just published a new victim : First Dental Health",
-        "url": "https://www.ransomware.live/id/Rmlyc3QgRGVudGFsIEhlYWx0aEB0aGVnZW50bGVtZW4=",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "First Dental Health, une entreprise de consultence dentaire américaine, a été compromise par des hackers.",
-        "published_at": "2026-10-17T16:52:17",
-        "score": 12
+        "summary": "La Chine souhaite encadrer les exportations de 23 technologies d'intelligence artificielle face à la concurrence stratégique avec les États-Unis.",
+        "published_at": "2026-10-18T10:29:36",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "9755f5358d6a6078",
-        "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+        "guid": "bf3a6b3251e80fa7",
+        "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "cve",
+          "vulnerability"
         ],
-        "summary": "ConnectWise est fermée aux clients après une attaque via son service Cloud Backup qui a compromis Microsoft 365.",
-        "published_at": "2026-10-17T11:18:51",
-        "score": 25,
+        "summary": "Des hackers exploitent une vulnérabilité d'injection de commande dans SiteGuard Server Edition pour exécuter des commandes administratives sur les serveurs affectés.",
+        "published_at": "2026-10-18T10:23:16",
+        "score": 5,
         "rank": 1
       },
       {
-        "guid": "ff6dcca71997fc54",
-        "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-        "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "cc1c2fa50652b72d",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Belcorp",
+        "url": "https://www.ransomware.live/id/QmVsY29ycEBxaWxpbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Une attaque supply chain via le package npm 'imgdecode' a été dévoilée, masquant un chargeur shellcode sur Windows.",
-        "published_at": "2026-10-17T16:41:56",
-        "score": 5,
+        "summary": "N/A",
+        "published_at": "2026-10-18T21:05:22",
+        "score": 0,
         "rank": 2
       },
       {
-        "guid": "d014f8b6abbe0bb5",
-        "title": "Taxis et VTC : ce que vos données révèlent de vous",
-        "url": "https://www.zataz.com/taxis-et-vtc-ce-que-vos-donnees-revelent-de-vous/",
-        "source": "ZATAZ",
-        "category": "Général",
+        "guid": "d367546c4e830e87",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #92",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [],
-        "summary": "Les données personnelles des utilisateurs de taxis et VTC sont exposées, mettant en lumière les risques associés à ces services.",
-        "published_at": "2026-10-17T11:28:33",
-        "score": 5,
+        "summary": "IT services · South Korea | [PENDING EXPOSURE]",
+        "published_at": "2026-10-18T20:25:29",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 33,
+    "items_analyzed": 35,
     "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
     "cves_total": 0,
     "llm_provider": "ollama",
-    "llm_rejected": 0,
+    "llm_rejected": 1,
     "argos_version": "2.0.0"
   }
 }
