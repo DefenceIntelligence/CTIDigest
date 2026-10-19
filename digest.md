@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 18 octobre 2026
+# 🛡️ ARGOS CTI Digest — 19 octobre 2026
 
-> Généré le 18/10/2026 à 02:01 UTC  ·  33 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 19/10/2026 à 02:00 UTC  ·  35 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,64 +10,66 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Eclipse has just published a new victim : PART2 Global AirFreight International](https://www.ransomware.live/id/UEFSVDIgR2xvYmFsIEFpckZyZWlnaHQgSW50ZXJuYXRpb25hbEBFY2xpcHNl)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 22:21 UTC
+### [🏴‍☠️ N0n has just published a new victim : Amagi Media Labs](https://www.ransomware.live/id/QW1hZ2kgTWVkaWEgTGFic0BOMG4)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 22:24 UTC
 `malware`
-PART 2 Global AirFreight International, une entreprise de logistique spécialisé dans le fret aérien et maritime, est victime d'une rançonlogie.
+Amagi Media Labs a été victime d'une publication comprenant des fichiers de configuration réseau et des cartes du site d'un site de diffusion audiovisuelle aux États-Unis.
 
 ---
 
-### [🏴‍☠️ Dragonforce has just published a new victim : oakgrovetech](https://www.ransomware.live/id/b2FrZ3JvdmV0ZWNoQGRyYWdvbmZvcmNl)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 21:04 UTC
-`cve` `malware`
-Oakgrovetech, une entreprise de formation militaire et cybernétique, a été compromise par des hackers, révélant des emails d’executifs.
-
----
-
-### [🏴‍☠️ Vexy ransomware has just published a new victim : polisee Inc](https://www.ransomware.live/id/cG9saXNlZSBJbmNAVmV4eSBSYW5zb213YXJl)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 18:33 UTC
-`malware` `ransomware`
-polisee Inc., une entreprise japonaise de technologie qui développe un plateforme d'IA pour la surveillance des politiques gouvernementales, est victime d'un ransomware.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Wellington College International School Bangkok](https://www.ransomware.live/id/V2VsbGluZ3RvbiBDb2xsZWdlIEludGVybmF0aW9uYWwgU2Nob29sIEJhbmdrb2tAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
-`cve` `malware`
-Wellington College International School Bangkok, une école internationale britannique de 2 à 18 ans, a été compromise par des hackers.
-
----
-
-### [🏴‍☠️ Thegentlemen has just published a new victim : Gio Dental Med Spa](https://www.ransomware.live/id/R2lvIERlbnRhbCBNZWQgU3BhQHRoZWdlbnRsZW1lbg==)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
+### [🏴‍☠️ N0n has just published a new victim : Telecom Egypt](https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 17:29 UTC
 `malware`
-Gio Dental Med Spa, un clinic dentaire et esthétique en Mexique, a été victime d'une attaque informatique.
+Telecom Egypt a été la cible d'une publication comprenant des documents de formation et des projets informatiques, ainsi que des dossiers étudiants égyptiens.
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : First Dental Health](https://www.ransomware.live/id/Rmlyc3QgRGVudGFsIEhlYWx0aEB0aGVnZW50bGVtZW4=)
-**Source :** Ransomware.live News  **Publié :** 17/10/2026 16:52 UTC
-`cve` `malware`
-First Dental Health, une entreprise de consultence dentaire américaine, a été compromise par des hackers.
+### [🏴‍☠️ N0n has just published a new victim : All Business Technologies (Fox Hill bookkeeping and tax practice)](https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 17:28 UTC
+`malware`
+All Business Technologies a été victime d'une publication comprenant les livres comptables et les documents fiscaux de plus de 60 entreprises clientes aux États-Unis.
+
+---
+
+### [🏴‍☠️ N0n has just published a new victim : SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...](https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 16:27 UTC
+`malware`
+Semiconductor manufacturing · California, USA | Corporate business records and working files from the company&#x27;s file servers; Employee and payroll related records; Financial and accounting documents | [NOT PAID — EXPOSED]
+
+---
+
+### [ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants](https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html)
+**Source :** The Hacker News  **Publié :** 18/10/2026 13:53 UTC
+`apt` `breach` `ransomware`
+ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.
+
+The disabled identities are liste
+
+---
+
+### [La Chine veut contrôler ses exportations d’IA](https://www.zataz.com/la-chine-veut-controler-ses-exportations-dia/)
+**Source :** ZATAZ  **Publié :** 18/10/2026 10:29 UTC
+`malware`
+La Chine souhaite encadrer les exportations de 23 technologies d'intelligence artificielle face à la concurrence stratégique avec les États-Unis.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack](https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/)
-**Source :** Bleeping Computer  **Publié :** 17/10/2026 11:18 UTC  **Score :** 25
-`breach`
-ConnectWise est fermée aux clients après une attaque via son service Cloud Backup qui a compromis Microsoft 365.
+### 1. [Hackers exploit SiteGuard WAF flaw to run commands as admins](https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/)
+**Source :** Bleeping Computer  **Publié :** 18/10/2026 10:23 UTC  **Score :** 5
+`cve` `vulnerability`
+Des hackers exploitent une vulnérabilité d'injection de commande dans SiteGuard Server Edition pour exécuter des commandes administratives sur les serveurs affectés.
 
-### 2. [MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon](https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html)
-**Source :** The Hacker News  **Publié :** 17/10/2026 16:41 UTC  **Score :** 5
-Une attaque supply chain via le package npm 'imgdecode' a été dévoilée, masquant un chargeur shellcode sur Windows.
+### 2. [🏴‍☠️ Qilin has just published a new victim : Belcorp](https://www.ransomware.live/id/QmVsY29ycEBxaWxpbg)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 21:05 UTC  **Score :** 0
+N/A
 
-### 3. [Taxis et VTC : ce que vos données révèlent de vous](https://www.zataz.com/taxis-et-vtc-ce-que-vos-donnees-revelent-de-vous/)
-**Source :** ZATAZ  **Publié :** 17/10/2026 11:28 UTC  **Score :** 5
-Les données personnelles des utilisateurs de taxis et VTC sont exposées, mettant en lumière les risques associés à ces services.
+### 3. [🏴‍☠️ N0n has just published a new victim : Company #92](https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu)
+**Source :** Ransomware.live News  **Publié :** 18/10/2026 20:25 UTC  **Score :** 0
+IT services · South Korea | [PENDING EXPOSURE]
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-18.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-19.md`*
