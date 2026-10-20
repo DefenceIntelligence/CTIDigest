@@ -1,6 +1,6 @@
-# 🛡️ ARGOS CTI Digest — 19 octobre 2026
+# 🛡️ ARGOS CTI Digest — 20 octobre 2026
 
-> Généré le 19/10/2026 à 02:00 UTC  ·  35 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 20/10/2026 à 02:01 UTC  ·  55 items analysés  ·  9 sélectionnés  ·  22 sources actives
 
 ---
 
@@ -10,66 +10,66 @@
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ N0n has just published a new victim : Amagi Media Labs](https://www.ransomware.live/id/QW1hZ2kgTWVkaWEgTGFic0BOMG4)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 22:24 UTC
-`malware`
-Amagi Media Labs a été victime d'une publication comprenant des fichiers de configuration réseau et des cartes du site d'un site de diffusion audiovisuelle aux États-Unis.
+### [Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor](https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html)
+**Source :** The Hacker News  **Publié :** 19/10/2026 23:02 UTC
+`apt` `cve` `malware` `vulnerability`
+Des cybercriminels exploitent des vulnérabilités dans le serveur de médias Plex pour installer des minage de cryptomonnaies et un proxy inversé.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Telecom Egypt](https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 17:29 UTC
-`malware`
-Telecom Egypt a été la cible d'une publication comprenant des documents de formation et des projets informatiques, ainsi que des dossiers étudiants égyptiens.
+### [Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
+**Source :** The Hacker News  **Publié :** 19/10/2026 21:58 UTC
+`breach` `malware`
+Une version malveillante du plugin Rank Math PRO pour WordPress a été distribuée, permettant l'installation d'un backdoor auto-restaurant.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : All Business Technologies (Fox Hill bookkeeping and tax practice)](https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 17:28 UTC
-`malware`
-All Business Technologies a été victime d'une publication comprenant les livres comptables et les documents fiscaux de plus de 60 entreprises clientes aux États-Unis.
+### [🏴‍☠️ Lockbit5 has just published a new victim : chooseultimate.com](https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 19/10/2026 21:31 UTC
+`ransomware`
+Le groupe de ransomware Lockbit5 a ciblé Ultimate Health Plans, un fournisseur local de plans Medicare Advantage aux États-Unis.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...](https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 16:27 UTC
+### [🏴‍☠️ N0n has just published a new victim : Vormittag Associates Inc](https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg)
+**Source :** Ransomware.live News  **Publié :** 19/10/2026 20:53 UTC
 `malware`
-Semiconductor manufacturing · California, USA | Corporate business records and working files from the company&#x27;s file servers; Employee and payroll related records; Financial and accounting documents | [NOT PAID — EXPOSED]
+Le groupe N0n a compromis Vormittag Associates Inc, une entreprise américaine de logiciels d'ERP et de hébergement.
 
 ---
 
-### [ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants](https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html)
-**Source :** The Hacker News  **Publié :** 18/10/2026 13:53 UTC
-`apt` `breach` `ransomware`
-ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.
-
-The disabled identities are liste
+### [🏴‍☠️ N0n has just published a new victim : Froggys Fog](https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu)
+**Source :** Ransomware.live News  **Publié :** 19/10/2026 19:22 UTC
+`malware`
+Le groupe N0n a ciblé Froggys Fog, une manufacture de fluides spéciaux aux États-Unis, en volant des informations sur les commandes et expéditions.
 
 ---
 
-### [La Chine veut contrôler ses exportations d’IA](https://www.zataz.com/la-chine-veut-controler-ses-exportations-dia/)
-**Source :** ZATAZ  **Publié :** 18/10/2026 10:29 UTC
-`malware`
-La Chine souhaite encadrer les exportations de 23 technologies d'intelligence artificielle face à la concurrence stratégique avec les États-Unis.
+### [GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories](https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html)
+**Source :** The Hacker News  **Publié :** 19/10/2026 18:35 UTC
+`apt` `breach` `cve` `malware`
+L'attaque GhostAction a étendu ses techniques pour introduire un voleur de mots de passe dissimulé dans des fichiers font sur GitHub.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers exploit SiteGuard WAF flaw to run commands as admins](https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/)
-**Source :** Bleeping Computer  **Publié :** 18/10/2026 10:23 UTC  **Score :** 5
-`cve` `vulnerability`
-Des hackers exploitent une vulnérabilité d'injection de commande dans SiteGuard Server Edition pour exécuter des commandes administratives sur les serveurs affectés.
+### 1. [Hackers steal customer data from major Russian hosting provider FirstVDS](https://therecord.media/russia-cyberattack-firstvds-cloud)
+**Source :** The Record  **Publié :** 19/10/2026 11:45 UTC  **Score :** 35
+`breach` `cve` `vulnerability`
+Des hackers ont volé des données sensibles de clients d'un fournisseur russe de services d'hébergement, FirstVDS.
 
-### 2. [🏴‍☠️ Qilin has just published a new victim : Belcorp](https://www.ransomware.live/id/QmVsY29ycEBxaWxpbg)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 21:05 UTC  **Score :** 0
-N/A
+### 2. [Nikkei discloses third data breach in a month, 1.8M records exposed](https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/)
+**Source :** Bleeping Computer  **Publié :** 19/10/2026 17:49 UTC  **Score :** 25
+`breach`
+Nikkei Inc. a divulgué un nouveau leak exposant 1,83 million de dossiers personnels, le troisième en l'espace d'un mois.
 
-### 3. [🏴‍☠️ N0n has just published a new victim : Company #92](https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu)
-**Source :** Ransomware.live News  **Publié :** 18/10/2026 20:25 UTC  **Score :** 0
-IT services · South Korea | [PENDING EXPOSURE]
+### 3. [OpenCode hack exposes API keys amid AI distillation attacks](https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/)
+**Source :** Bleeping Computer  **Publié :** 19/10/2026 13:27 UTC  **Score :** 25
+`breach` `cve`
+Une brèche de sécurité sur OpenCode a révélé des API clés utilisées par les développeurs ouverts.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-19.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-20.md`*
