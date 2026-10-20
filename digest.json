@@ -1,151 +1,162 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T02:00:50.659404+00:00",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T02:01:04.846571+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "9451f6bc73c33083",
-        "title": "🏴‍☠️ N0n has just published a new victim : Amagi Media Labs",
-        "url": "https://www.ransomware.live/id/QW1hZ2kgTWVkaWEgTGFic0BOMG4",
+        "guid": "03e8fcc521701a03",
+        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+        "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des cybercriminels exploitent des vulnérabilités dans le serveur de médias Plex pour installer des minage de cryptomonnaies et un proxy inversé.",
+        "published_at": "2026-10-19T23:02:13",
+        "score": 17
+      },
+      {
+        "guid": "038eea72d535f561",
+        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+        "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une version malveillante du plugin Rank Math PRO pour WordPress a été distribuée, permettant l'installation d'un backdoor auto-restaurant.",
+        "published_at": "2026-10-19T21:58:47",
+        "score": 37
+      },
+      {
+        "guid": "9e32b2fcf89cb9b5",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : chooseultimate.com",
+        "url": "https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Le groupe de ransomware Lockbit5 a ciblé Ultimate Health Plans, un fournisseur local de plans Medicare Advantage aux États-Unis.",
+        "published_at": "2026-10-19T21:31:17",
+        "score": 0
+      },
+      {
+        "guid": "236bb5e763c6aaae",
+        "title": "🏴‍☠️ N0n has just published a new victim : Vormittag Associates Inc",
+        "url": "https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Amagi Media Labs a été victime d'une publication comprenant des fichiers de configuration réseau et des cartes du site d'un site de diffusion audiovisuelle aux États-Unis.",
-        "published_at": "2026-10-18T22:24:38",
+        "summary": "Le groupe N0n a compromis Vormittag Associates Inc, une entreprise américaine de logiciels d'ERP et de hébergement.",
+        "published_at": "2026-10-19T20:53:43",
         "score": 12
       },
       {
-        "guid": "1ac5b72187451c26",
-        "title": "🏴‍☠️ N0n has just published a new victim : Telecom Egypt",
-        "url": "https://www.ransomware.live/id/VGVsZWNvbSBFZ3lwdEBOMG4",
+        "guid": "03e246ab80d87704",
+        "title": "🏴‍☠️ N0n has just published a new victim : Froggys Fog",
+        "url": "https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Telecom Egypt a été la cible d'une publication comprenant des documents de formation et des projets informatiques, ainsi que des dossiers étudiants égyptiens.",
-        "published_at": "2026-10-18T17:29:31",
+        "summary": "Le groupe N0n a ciblé Froggys Fog, une manufacture de fluides spéciaux aux États-Unis, en volant des informations sur les commandes et expéditions.",
+        "published_at": "2026-10-19T19:22:56",
         "score": 12
       },
       {
-        "guid": "e0c03910348f0ac4",
-        "title": "🏴‍☠️ N0n has just published a new victim : All Business Technologies (Fox Hill bookkeeping and tax practice)",
-        "url": "https://www.ransomware.live/id/QWxsIEJ1c2luZXNzIFRlY2hub2xvZ2llcyAoRm94IEhpbGwgYm9va2tlZXBpbmcgYW5kIHRheCBwcmFjdGljZSlATjBu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "All Business Technologies a été victime d'une publication comprenant les livres comptables et les documents fiscaux de plus de 60 entreprises clientes aux États-Unis.",
-        "published_at": "2026-10-18T17:28:49",
-        "score": 12
-      },
-      {
-        "guid": "5958b78ddc4d684f",
-        "title": "🏴‍☠️ N0n has just published a new victim : SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
-        "url": "https://www.ransomware.live/id/U01JQyBVUyBDb21wYW55IChTdW5ueXZhbGUsIENBIOKAlCBVUyBhcm0gb2YgU2VtaWNvbmR1Y3RvciBNYW51ZmFjdHVyaW5nIEludGVybmF0aW9uYWwgQ29ycG8uLi5ATjBu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Semiconductor manufacturing · California, USA | Corporate business records and working files from the company&#x27;s file servers; Employee and payroll related records; Financial and accounting documents | [NOT PAID — EXPOSED]",
-        "published_at": "2026-10-18T16:27:05",
-        "score": 12
-      },
-      {
-        "guid": "70eaccfa1f2efbc8",
-        "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+        "guid": "0014885b220eb436",
+        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+        "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
           "breach",
-          "ransomware"
-        ],
-        "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\n\nThe disabled identities are listed below -\n\n\n  ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae\n  ConnectWise",
-        "published_at": "2026-10-18T13:53:02",
-        "score": 25
-      },
-      {
-        "guid": "072abb772ec3aec4",
-        "title": "La Chine veut contrôler ses exportations d’IA",
-        "url": "https://www.zataz.com/la-chine-veut-controler-ses-exportations-dia/",
-        "source": "ZATAZ",
-        "category": "Général",
-        "cve": [],
-        "tags": [
+          "cve",
           "malware"
         ],
-        "summary": "La Chine souhaite encadrer les exportations de 23 technologies d'intelligence artificielle face à la concurrence stratégique avec les États-Unis.",
-        "published_at": "2026-10-18T10:29:36",
-        "score": 17
+        "summary": "L'attaque GhostAction a étendu ses techniques pour introduire un voleur de mots de passe dissimulé dans des fichiers font sur GitHub.",
+        "published_at": "2026-10-19T18:35:45",
+        "score": 37
       }
     ],
     "top_reads": [
       {
-        "guid": "bf3a6b3251e80fa7",
-        "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+        "guid": "2fc9937dcb0d2fe8",
+        "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+        "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des hackers ont volé des données sensibles de clients d'un fournisseur russe de services d'hébergement, FirstVDS.",
+        "published_at": "2026-10-19T11:45:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "1e644fb28044b809",
+        "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "vulnerability"
+          "breach"
         ],
-        "summary": "Des hackers exploitent une vulnérabilité d'injection de commande dans SiteGuard Server Edition pour exécuter des commandes administratives sur les serveurs affectés.",
-        "published_at": "2026-10-18T10:23:16",
-        "score": 5,
-        "rank": 1
-      },
-      {
-        "guid": "cc1c2fa50652b72d",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Belcorp",
-        "url": "https://www.ransomware.live/id/QmVsY29ycEBxaWxpbg",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [],
-        "summary": "N/A",
-        "published_at": "2026-10-18T21:05:22",
-        "score": 0,
+        "summary": "Nikkei Inc. a divulgué un nouveau leak exposant 1,83 million de dossiers personnels, le troisième en l'espace d'un mois.",
+        "published_at": "2026-10-19T17:49:48",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "d367546c4e830e87",
-        "title": "🏴‍☠️ N0n has just published a new victim : Company #92",
-        "url": "https://www.ransomware.live/id/Q29tcGFueSAjOTJATjBu",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "38b5e8df34b4f246",
+        "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "IT services · South Korea | [PENDING EXPOSURE]",
-        "published_at": "2026-10-18T20:25:29",
-        "score": 0,
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Une brèche de sécurité sur OpenCode a révélé des API clés utilisées par les développeurs ouverts.",
+        "published_at": "2026-10-19T13:27:15",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 35,
+    "items_analyzed": 55,
     "items_selected": 9,
     "window_hours": 24,
     "sources_active": 22,
     "cves_total": 0,
     "llm_provider": "ollama",
-    "llm_rejected": 1,
+    "llm_rejected": 0,
     "argos_version": "2.0.0"
   }
 }
