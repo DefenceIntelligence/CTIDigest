@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T02:01:04.846571+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "03e8fcc521701a03",
+        "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+        "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des cybercriminels exploitent des vulnérabilités dans le serveur de médias Plex pour installer des minage de cryptomonnaies et un proxy inversé.",
+        "published_at": "2026-10-19T23:02:13",
+        "score": 17
+      },
+      {
+        "guid": "038eea72d535f561",
+        "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+        "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une version malveillante du plugin Rank Math PRO pour WordPress a été distribuée, permettant l'installation d'un backdoor auto-restaurant.",
+        "published_at": "2026-10-19T21:58:47",
+        "score": 37
+      },
+      {
+        "guid": "9e32b2fcf89cb9b5",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : chooseultimate.com",
+        "url": "https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Le groupe de ransomware Lockbit5 a ciblé Ultimate Health Plans, un fournisseur local de plans Medicare Advantage aux États-Unis.",
+        "published_at": "2026-10-19T21:31:17",
+        "score": 0
+      },
+      {
+        "guid": "236bb5e763c6aaae",
+        "title": "🏴‍☠️ N0n has just published a new victim : Vormittag Associates Inc",
+        "url": "https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe N0n a compromis Vormittag Associates Inc, une entreprise américaine de logiciels d'ERP et de hébergement.",
+        "published_at": "2026-10-19T20:53:43",
+        "score": 12
+      },
+      {
+        "guid": "03e246ab80d87704",
+        "title": "🏴‍☠️ N0n has just published a new victim : Froggys Fog",
+        "url": "https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe N0n a ciblé Froggys Fog, une manufacture de fluides spéciaux aux États-Unis, en volant des informations sur les commandes et expéditions.",
+        "published_at": "2026-10-19T19:22:56",
+        "score": 12
+      },
+      {
+        "guid": "0014885b220eb436",
+        "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+        "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "L'attaque GhostAction a étendu ses techniques pour introduire un voleur de mots de passe dissimulé dans des fichiers font sur GitHub.",
+        "published_at": "2026-10-19T18:35:45",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "2fc9937dcb0d2fe8",
+        "title": "Hackers steal customer data from major Russian hosting provider FirstVDS",
+        "url": "https://therecord.media/russia-cyberattack-firstvds-cloud",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des hackers ont volé des données sensibles de clients d'un fournisseur russe de services d'hébergement, FirstVDS.",
+        "published_at": "2026-10-19T11:45:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "1e644fb28044b809",
+        "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Nikkei Inc. a divulgué un nouveau leak exposant 1,83 million de dossiers personnels, le troisième en l'espace d'un mois.",
+        "published_at": "2026-10-19T17:49:48",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "38b5e8df34b4f246",
+        "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Une brèche de sécurité sur OpenCode a révélé des API clés utilisées par les développeurs ouverts.",
+        "published_at": "2026-10-19T13:27:15",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 55,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
