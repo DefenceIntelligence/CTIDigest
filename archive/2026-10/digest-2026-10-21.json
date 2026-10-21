@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T02:02:14.395923+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "6e64bb9840766525",
+        "title": "Hitachi Energy RTU500 Product",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-6276",
+          "CVE-2026-11856",
+          "CVE-2026-8932",
+          "CVE-2026-9079",
+          "CVE-2026-8927",
+          "CVE-2026-28388",
+          "CVE-2026-6653",
+          "CVE-2026-17539",
+          "CVE-2026-6732"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Hitachi Energy a identifié des vulnérabilités dans ses produits RTU500 qui peuvent compromettre la confidentialité, l'intégrité et la disponibilité du produit.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "89a5edfa1bedd1ef",
+        "title": "HMS Networks PEAK-System PCAN Windows drivers",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109576",
+          "CVE-2026-101103",
+          "CVE-2026-94188",
+          "CVE-2026-103672",
+          "CVE-2026-105960",
+          "CVE-2026-110322"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les pilotes HMS Networks PEAK-System PCAN Windows sont affectés par des vulnérabilités potentiellement critiques, pouvant faire planter le noyau Windows.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "7f291cc1f1742475",
+        "title": "#StopRansomware: SafePay Ransomware",
+        "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2020-3259",
+          "CVE-2023-20269",
+          "CVE-2023-27532"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "phishing",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "#StopRansomware a publié un avis sur l'activité récente du groupe SafePay, actif depuis août 2024 et ciblant des entreprises et des infrastructures critiques.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 37
+      },
+      {
+        "guid": "b3f1956f09f0e0bc",
+        "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-9853",
+          "CVE-2026-9854",
+          "CVE-2026-9852"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Hitachi Energy a signalé plusieurs vulnérabilités affectant les produits MicroSCADA X SYS600, permettant divers types d'attaques.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "24b026e161e2fd0e",
+        "title": "Moxa AIG-302 ThingsPro Edge",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109813",
+          "CVE-2026-109812"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des versions anciennes de la firme Moxa AIG-302 ThingsPro Edge sont vulnérables à des attaques permettant l'exposition d'informations sensibles.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "23be56a22c6dd3b7",
+        "title": "WAGO OS Linux",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-80466",
+          "CVE-2026-88850"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les interfaces WBM de certains appareils WAGO sont vulnérables, permettant à un utilisateur authentifié mais privilégié faible d'échapper aux restrictions de sécurité.",
+        "published_at": "2026-10-20T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "e3e6be724b750f32",
+        "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+        "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-106173"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un poème d'exploitation a été publié pour une vulnérabilité critique dans FortiSIEM, permettant l'exécution arbitraire de code sans authentication.",
+        "published_at": "2026-10-20T21:08:52",
+        "score": 20
+      },
+      {
+        "guid": "9b82509671ffa1d9",
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-0257"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+        "published_at": "2026-10-20T21:02:27",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "c4f9347ed1bf61a8",
+        "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+        "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "phishing",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Selon l'FBI, le groupe SafePay est l'un des plus actifs en ransomware avec plus de 600 victimes depuis 2024.",
+        "published_at": "2026-10-20T20:27:00",
+        "score": 25
+      },
+      {
+        "guid": "c3f771a2f07e1616",
+        "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+        "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des agents autonomes d'IA ont été utilisés pour breacher des sites web, ciblant plus de 1200 entreprises dont Deere et certaines sociétés d'appareils.",
+        "published_at": "2026-10-20T19:37:17",
+        "score": 37
+      },
+      {
+        "guid": "1793c159cb57de07",
+        "title": "🏴‍☠️ Dark project has just published a new victim : Asensus Surgical",
+        "url": "https://www.ransomware.live/id/QXNlbnN1cyBTdXJnaWNhbEBEYXJrIFByb2plY3Q",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Asensus Surgical, une entreprise de chirurgie robotique, est victime d'une publication par Dark project.",
+        "published_at": "2026-10-20T17:53:03",
+        "score": 12
+      },
+      {
+        "guid": "47c703051c6afcb4",
+        "title": "🏴‍☠️ Dark project has just published a new victim : The Excalibur Group",
+        "url": "https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBEYXJrIFByb2plY3Q",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "ransomware"
+        ],
+        "summary": "The Excalibur Group, une entreprise américaine spécialisée dans la formation et la gestion de programmes, fait l'objet d'une publication par Dark project.",
+        "published_at": "2026-10-20T17:52:21",
+        "score": 0
+      },
+      {
+        "guid": "44fd20f0e65bda30",
+        "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+        "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Le PHP security team alerte sur deux vulnérabilités critiques nécessitant des mises à jour d’urgence.",
+        "published_at": "2026-10-20T16:56:43",
+        "score": 17
+      },
+      {
+        "guid": "d410988a478f4dfd",
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware"
+        ],
+        "summary": "APT28, un groupe de l'Armée russe, a breaching une entreprise naval construite pour le NATO dans un pays membre.",
+        "published_at": "2026-10-20T16:36:25",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "e3e62176fa88e312",
+        "title": "California warns all public school students of data stolen in contractor breach",
+        "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "La Californie avertit ses élèves publics suite à une fuite de données d'un contracteur d'évaluation.",
+        "published_at": "2026-10-20T19:20:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "8b8f146d61c6a4c0",
+        "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+        "url": "https://therecord.media/23andme-california-data-breach-settlement",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "23andMe, successeur d'une entreprise de génétique, s'entend pour $6 millions après une faille en cybersécurité.",
+        "published_at": "2026-10-20T18:32:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "cda7004a43e3eb15",
+        "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+        "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Huit clés CA intermédiaires eMudhra compromises, nécessitant des mises à jour d’urgence sur différents navigateurs et logiciels.",
+        "published_at": "2026-10-20T22:39:53",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 67,
+    "items_selected": 17,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 27,
+    "llm_provider": "ollama",
+    "llm_rejected": 1,
+    "argos_version": "2.0.0"
+  }
+}
