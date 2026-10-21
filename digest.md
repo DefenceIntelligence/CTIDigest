@@ -1,75 +1,131 @@
-# 🛡️ ARGOS CTI Digest — 20 octobre 2026
+# 🛡️ ARGOS CTI Digest — 21 octobre 2026
 
-> Généré le 20/10/2026 à 02:01 UTC  ·  55 items analysés  ·  9 sélectionnés  ·  22 sources actives
+> Généré le 21/10/2026 à 02:02 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Hitachi Energy RTU500 Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-6276`, `CVE-2026-11856`, `CVE-2026-8932`, `CVE-2026-9079`, `CVE-2026-8927`
+`cve` `vulnerability`
+Hitachi Energy a identifié des vulnérabilités dans ses produits RTU500 qui peuvent compromettre la confidentialité, l'intégrité et la disponibilité du produit.
+
+---
+
+### [HMS Networks PEAK-System PCAN Windows drivers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-109576`, `CVE-2026-101103`, `CVE-2026-94188`, `CVE-2026-103672`, `CVE-2026-105960`
+`cve` `vulnerability`
+Les pilotes HMS Networks PEAK-System PCAN Windows sont affectés par des vulnérabilités potentiellement critiques, pouvant faire planter le noyau Windows.
+
+---
+
+### [#StopRansomware: SafePay Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2020-3259`, `CVE-2023-20269`, `CVE-2023-27532`
+`cve` `malware` `patch` `phishing` `ransomware`
+#StopRansomware a publié un avis sur l'activité récente du groupe SafePay, actif depuis août 2024 et ciblant des entreprises et des infrastructures critiques.
+
+---
+
+### [Hitachi Energy MicroSCADA X SYS600 Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-9853`, `CVE-2026-9854`, `CVE-2026-9852`
+`cve` `vulnerability`
+Hitachi Energy a signalé plusieurs vulnérabilités affectant les produits MicroSCADA X SYS600, permettant divers types d'attaques.
+
+---
+
+### [Moxa AIG-302 ThingsPro Edge](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-109813`, `CVE-2026-109812`
+`cve` `vulnerability`
+Des versions anciennes de la firme Moxa AIG-302 ThingsPro Edge sont vulnérables à des attaques permettant l'exposition d'informations sensibles.
+
+---
+
+### [WAGO OS Linux](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02)
+**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-80466`, `CVE-2026-88850`
+`cve` `malware` `vulnerability`
+Les interfaces WBM de certains appareils WAGO sont vulnérables, permettant à un utilisateur authentifié mais privilégié faible d'échapper aux restrictions de sécurité.
+
+---
+
+### [Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution](https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html)
+**Source :** The Hacker News  **Publié :** 20/10/2026 21:08 UTC  **CVE :** `CVE-2026-106173`
+`cve` `vulnerability`
+Un poème d'exploitation a été publié pour une vulnérabilité critique dans FortiSIEM, permettant l'exécution arbitraire de code sans authentication.
+
+---
+
+### [Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA](https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html)
+**Source :** The Hacker News  **Publié :** 20/10/2026 21:02 UTC  **CVE :** `CVE-2026-0257`
+`cve` `ransomware` `vulnerability`
+Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.
+
+The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor](https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html)
-**Source :** The Hacker News  **Publié :** 19/10/2026 23:02 UTC
-`apt` `cve` `malware` `vulnerability`
-Des cybercriminels exploitent des vulnérabilités dans le serveur de médias Plex pour installer des minage de cryptomonnaies et un proxy inversé.
+### [FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024](https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims)
+**Source :** The Record  **Publié :** 20/10/2026 20:27 UTC
+`cve` `phishing` `ransomware` `vulnerability`
+Selon l'FBI, le groupe SafePay est l'un des plus actifs en ransomware avec plus de 600 victimes depuis 2024.
 
 ---
 
-### [Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor](https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html)
-**Source :** The Hacker News  **Publié :** 19/10/2026 21:58 UTC
+### [Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites](https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html)
+**Source :** The Hacker News  **Publié :** 20/10/2026 19:37 UTC
 `breach` `malware`
-Une version malveillante du plugin Rank Math PRO pour WordPress a été distribuée, permettant l'installation d'un backdoor auto-restaurant.
+Des agents autonomes d'IA ont été utilisés pour breacher des sites web, ciblant plus de 1200 entreprises dont Deere et certaines sociétés d'appareils.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : chooseultimate.com](https://www.ransomware.live/id/Y2hvb3NldWx0aW1hdGUuY29tQGxvY2tiaXQ1)
-**Source :** Ransomware.live News  **Publié :** 19/10/2026 21:31 UTC
-`ransomware`
-Le groupe de ransomware Lockbit5 a ciblé Ultimate Health Plans, un fournisseur local de plans Medicare Advantage aux États-Unis.
+### [🏴‍☠️ Dark project has just published a new victim : Asensus Surgical](https://www.ransomware.live/id/QXNlbnN1cyBTdXJnaWNhbEBEYXJrIFByb2plY3Q)
+**Source :** Ransomware.live News  **Publié :** 20/10/2026 17:53 UTC
+`apt` `malware`
+Asensus Surgical, une entreprise de chirurgie robotique, est victime d'une publication par Dark project.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Vormittag Associates Inc](https://www.ransomware.live/id/Vm9ybWl0dGFnIEFzc29jaWF0ZXMgSW5jQE4wbg)
-**Source :** Ransomware.live News  **Publié :** 19/10/2026 20:53 UTC
-`malware`
-Le groupe N0n a compromis Vormittag Associates Inc, une entreprise américaine de logiciels d'ERP et de hébergement.
+### [🏴‍☠️ Dark project has just published a new victim : The Excalibur Group](https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBEYXJrIFByb2plY3Q)
+**Source :** Ransomware.live News  **Publié :** 20/10/2026 17:52 UTC
+`cve` `ransomware`
+The Excalibur Group, une entreprise américaine spécialisée dans la formation et la gestion de programmes, fait l'objet d'une publication par Dark project.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Froggys Fog](https://www.ransomware.live/id/RnJvZ2d5cyBGb2dATjBu)
-**Source :** Ransomware.live News  **Publié :** 19/10/2026 19:22 UTC
-`malware`
-Le groupe N0n a ciblé Froggys Fog, une manufacture de fluides spéciaux aux États-Unis, en volant des informations sur les commandes et expéditions.
+### [PHP warns admins of two critical flaws, emergency patches coming tomorrow](https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/)
+**Source :** Bleeping Computer  **Publié :** 20/10/2026 16:56 UTC
+`malware` `patch` `vulnerability`
+Le PHP security team alerte sur deux vulnérabilités critiques nécessitant des mises à jour d’urgence.
 
 ---
 
-### [GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories](https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html)
-**Source :** The Hacker News  **Publié :** 19/10/2026 18:35 UTC
-`apt` `breach` `cve` `malware`
-L'attaque GhostAction a étendu ses techniques pour introduire un voleur de mots de passe dissimulé dans des fichiers font sur GitHub.
+### [Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader](https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html)
+**Source :** The Hacker News  **Publié :** 20/10/2026 16:36 UTC
+`apt` `breach` `malware`
+APT28, un groupe de l'Armée russe, a breaching une entreprise naval construite pour le NATO dans un pays membre.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers steal customer data from major Russian hosting provider FirstVDS](https://therecord.media/russia-cyberattack-firstvds-cloud)
-**Source :** The Record  **Publié :** 19/10/2026 11:45 UTC  **Score :** 35
-`breach` `cve` `vulnerability`
-Des hackers ont volé des données sensibles de clients d'un fournisseur russe de services d'hébergement, FirstVDS.
-
-### 2. [Nikkei discloses third data breach in a month, 1.8M records exposed](https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/)
-**Source :** Bleeping Computer  **Publié :** 19/10/2026 17:49 UTC  **Score :** 25
+### 1. [California warns all public school students of data stolen in contractor breach](https://therecord.media/california-warns-all-public-school-students-of-data-breach)
+**Source :** The Record  **Publié :** 20/10/2026 19:20 UTC  **Score :** 35
 `breach`
-Nikkei Inc. a divulgué un nouveau leak exposant 1,83 million de dossiers personnels, le troisième en l'espace d'un mois.
+La Californie avertit ses élèves publics suite à une fuite de données d'un contracteur d'évaluation.
 
-### 3. [OpenCode hack exposes API keys amid AI distillation attacks](https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/)
-**Source :** Bleeping Computer  **Publié :** 19/10/2026 13:27 UTC  **Score :** 25
-`breach` `cve`
-Une brèche de sécurité sur OpenCode a révélé des API clés utilisées par les développeurs ouverts.
+### 2. [23andMe successor settles with California for $6 million over cybersecurity failings](https://therecord.media/23andme-california-data-breach-settlement)
+**Source :** The Record  **Publié :** 20/10/2026 18:32 UTC  **Score :** 35
+`breach`
+23andMe, successeur d'une entreprise de génétique, s'entend pour $6 millions après une faille en cybersécurité.
+
+### 3. [Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html)
+**Source :** The Hacker News  **Publié :** 20/10/2026 22:39 UTC  **Score :** 25
+`breach`
+Huit clés CA intermédiaires eMudhra compromises, nécessitant des mises à jour d’urgence sur différents navigateurs et logiciels.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-20.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-21.md`*
