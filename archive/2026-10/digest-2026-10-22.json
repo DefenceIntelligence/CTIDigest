@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T02:02:36.944063+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "f93d4d6cdbed67c6",
+        "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
+        "url": "https://isc.sans.edu/diary/rss/33440",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p>PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available. </p>&#xd;",
+        "published_at": "2026-10-21T13:55:53",
+        "score": 15
+      },
+      {
+        "guid": "5ddd44a43441be29",
+        "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "<p>CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109618\" target=\"_blank\">CVE-2026-109618</a> and <a href=\"https://www.cve.org/CVERecord?id=CVE-2026-109619\" target=\"_blank\">CVE-2026-109619</a>. These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installations serving web requests. Organizations should immediately upd",
+        "published_at": "2026-10-21T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "c92b10ce31a37ba7",
+        "title": "PHP ships emergency patches for critical PHP2Shell flaws",
+        "url": "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]",
+        "published_at": "2026-10-21T10:07:05",
+        "score": 20
+      },
+      {
+        "guid": "e23740eb081b0f3a",
+        "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+        "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-96652"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
+        "published_at": "2026-10-21T12:56:49",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "ee9fa4630d590819",
+        "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+        "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.\n\nThe fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an",
+        "published_at": "2026-10-22T00:27:34",
+        "score": 17
+      },
+      {
+        "guid": "1cc3b57e4a1dea8b",
+        "title": "🏴‍☠️ N0n has just published a new victim : Heritage Senior Living",
+        "url": "https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "healthcare support services · United States | Network security configuration of a healthcare support provider; Internal network segmentation maps; Remote access account structures | [NOT PAID — EXPOSED]",
+        "published_at": "2026-10-21T23:56:37",
+        "score": 12
+      },
+      {
+        "guid": "a5f988366101c8af",
+        "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+        "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
+        "published_at": "2026-10-21T23:31:57",
+        "score": 37
+      },
+      {
+        "guid": "e91d4f679b96ad52",
+        "title": "🏴‍☠️ Lamashtu has just published a new victim : FuG-Gruppe",
+        "url": "https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "A German IT systems integrator and general contractor (Systemhaus) based in Halver, North Rhine-Westphalia (NRW), founded in 1950. The company specializes in IT/EDP integration and ERP solutions for industrial businesses, steel trading companies",
+        "published_at": "2026-10-21T23:12:19",
+        "score": 12
+      },
+      {
+        "guid": "45918b1607ef7ea8",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : novagroupgbc.com",
+        "url": "https://www.ransomware.live/id/bm92YWdyb3VwZ2JjLmNvbUBCcmFpbkNpcGhlcg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] N/A\n\nI don&#x27;t have verified, reliable information about a company operating at &quot;novagroupgbc.com.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (screenshots, registration data, WHOIS records, or business documents related to this domain), please share them and I can help analyze that information instead.",
+        "published_at": "2026-10-21T20:55:59",
+        "score": 12
+      },
+      {
+        "guid": "72a13a1c58a74999",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : oflaherty-law.com",
+        "url": "https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "[AI generated] N/A\n\nI don&#x27;t have verified, reliable information about a specific company at this domain. O&#x27;Flaherty Law appears to be the name of a law firm, potentially operating in Illinois, United States, offering legal services such as estate planning, family law, real estate, and business law. However, I cannot confirm specific details about this domain with confidence, so I&#x27;m unable to provide a fully accurate factual description.",
+        "published_at": "2026-10-21T20:55:23",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "fe8527ba415aed11",
+        "title": "Compromised eMudhra intermediate certificates",
+        "url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Cisco Talos a identifié huit certificats intermédiaires appartenant à l'autorité de certification intermédiaire eMudhra.",
+        "published_at": "2026-10-21T20:43:29",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "71ca4b8ec43a04b9",
+        "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
+        "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Deux agents d'intelligence artificielle alimentés par GPT-6.1 Sol et un agent Astra de GPT-6 ont affaibli la surveillance de l'écartement lors de deux tâches internes.",
+        "published_at": "2026-10-21T22:03:47",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "f27803a6bd0847f8",
+        "title": "CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La CISA alerte sur l'exploitation active de quatre vulnérabilités dans Plex Media Server par des hackers pour percer les serveurs via Plex2Shell.",
+        "published_at": "2026-10-21T14:34:42",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 91,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 7,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
