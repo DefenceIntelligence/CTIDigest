@@ -1,131 +1,114 @@
-# 🛡️ ARGOS CTI Digest — 21 octobre 2026
+# 🛡️ ARGOS CTI Digest — 22 octobre 2026
 
-> Généré le 21/10/2026 à 02:02 UTC  ·  67 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 22/10/2026 à 02:02 UTC  ·  91 items analysés  ·  13 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hitachi Energy RTU500 Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-6276`, `CVE-2026-11856`, `CVE-2026-8932`, `CVE-2026-9079`, `CVE-2026-8927`
+### [Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)](https://isc.sans.edu/diary/rss/33440)
+**Source :** SANS ISC  **Publié :** 21/10/2026 13:55 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
 `cve` `vulnerability`
-Hitachi Energy a identifié des vulnérabilités dans ses produits RTU500 qui peuvent compromettre la confidentialité, l'intégrité et la disponibilité du produit.
+<p>PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available. </p>&#xd;
 
 ---
 
-### [HMS Networks PEAK-System PCAN Windows drivers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-109576`, `CVE-2026-101103`, `CVE-2026-94188`, `CVE-2026-103672`, `CVE-2026-105960`
+### [Critical Vulnerabilities in PHP Require Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching)
+**Source :** CISA Advisories  **Publié :** 21/10/2026 12:00 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+`cve` `patch` `ransomware` `vulnerability`
+<p>CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, <a href="https://www.cve.org/CVERecord?id=CVE-2026-109618" target="_blank">CVE-2026-109618</a> and <a href="https://www.cve.org/CVERecord?id=CVE-2026-109619" target="_blank">CVE-2026-109
+
+---
+
+### [PHP ships emergency patches for critical PHP2Shell flaws](https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/)
+**Source :** Bleeping Computer  **Publié :** 21/10/2026 10:07 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
 `cve` `vulnerability`
-Les pilotes HMS Networks PEAK-System PCAN Windows sont affectés par des vulnérabilités potentiellement critiques, pouvant faire planter le noyau Windows.
+The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]
 
 ---
 
-### [#StopRansomware: SafePay Ransomware](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-293a)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2020-3259`, `CVE-2023-20269`, `CVE-2023-27532`
-`cve` `malware` `patch` `phishing` `ransomware`
-#StopRansomware a publié un avis sur l'activité récente du groupe SafePay, actif depuis août 2024 et ciblant des entreprises et des infrastructures critiques.
-
----
-
-### [Hitachi Energy MicroSCADA X SYS600 Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-9853`, `CVE-2026-9854`, `CVE-2026-9852`
+### [CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html)
+**Source :** The Hacker News  **Publié :** 21/10/2026 12:56 UTC  **CVE :** `CVE-2026-96652`
 `cve` `vulnerability`
-Hitachi Energy a signalé plusieurs vulnérabilités affectant les produits MicroSCADA X SYS600, permettant divers types d'attaques.
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.
 
----
+The vulnerabilities are listed below -
 
-### [Moxa AIG-302 ThingsPro Edge](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-109813`, `CVE-2026-109812`
-`cve` `vulnerability`
-Des versions anciennes de la firme Moxa AIG-302 ThingsPro Edge sont vulnérables à des attaques permettant l'exposition d'informations sensibles.
 
----
-
-### [WAGO OS Linux](https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02)
-**Source :** CISA Advisories  **Publié :** 20/10/2026 12:00 UTC  **CVE :** `CVE-2026-80466`, `CVE-2026-88850`
-`cve` `malware` `vulnerability`
-Les interfaces WBM de certains appareils WAGO sont vulnérables, permettant à un utilisateur authentifié mais privilégié faible d'échapper aux restrictions de sécurité.
-
----
-
-### [Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution](https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html)
-**Source :** The Hacker News  **Publié :** 20/10/2026 21:08 UTC  **CVE :** `CVE-2026-106173`
-`cve` `vulnerability`
-Un poème d'exploitation a été publié pour une vulnérabilité critique dans FortiSIEM, permettant l'exécution arbitraire de code sans authentication.
-
----
-
-### [Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA](https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html)
-**Source :** The Hacker News  **Publié :** 20/10/2026 21:02 UTC  **CVE :** `CVE-2026-0257`
-`cve` `ransomware` `vulnerability`
-Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.
-
-The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to
+  C
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024](https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims)
-**Source :** The Record  **Publié :** 20/10/2026 20:27 UTC
-`cve` `phishing` `ransomware` `vulnerability`
-Selon l'FBI, le groupe SafePay est l'un des plus actifs en ransomware avec plus de 600 victimes depuis 2024.
+### [Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases](https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html)
+**Source :** The Hacker News  **Publié :** 22/10/2026 00:27 UTC
+`cve` `malware` `vulnerability`
+GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.
+
+The fix matters even for administrators who patched nine days earlier: the October 12 update c
 
 ---
 
-### [Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites](https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html)
-**Source :** The Hacker News  **Publié :** 20/10/2026 19:37 UTC
+### [🏴‍☠️ N0n has just published a new victim : Heritage Senior Living](https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4)
+**Source :** Ransomware.live News  **Publié :** 21/10/2026 23:56 UTC
+`malware`
+healthcare support services · United States | Network security configuration of a healthcare support provider; Internal network segmentation maps; Remote access account structures | [NOT PAID — EXPOSED]
+
+---
+
+### [LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor](https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html)
+**Source :** The Hacker News  **Publié :** 21/10/2026 23:31 UTC
 `breach` `malware`
-Des agents autonomes d'IA ont été utilisés pour breacher des sites web, ciblant plus de 1200 entreprises dont Deere et certaines sociétés d'appareils.
+The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.
+
+The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Dock
 
 ---
 
-### [🏴‍☠️ Dark project has just published a new victim : Asensus Surgical](https://www.ransomware.live/id/QXNlbnN1cyBTdXJnaWNhbEBEYXJrIFByb2plY3Q)
-**Source :** Ransomware.live News  **Publié :** 20/10/2026 17:53 UTC
-`apt` `malware`
-Asensus Surgical, une entreprise de chirurgie robotique, est victime d'une publication par Dark project.
+### [🏴‍☠️ Lamashtu has just published a new victim : FuG-Gruppe](https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ)
+**Source :** Ransomware.live News  **Publié :** 21/10/2026 23:12 UTC
+`malware`
+A German IT systems integrator and general contractor (Systemhaus) based in Halver, North Rhine-Westphalia (NRW), founded in 1950. The company specializes in IT/EDP integration and ERP solutions for industrial businesses, steel trading companies
 
 ---
 
-### [🏴‍☠️ Dark project has just published a new victim : The Excalibur Group](https://www.ransomware.live/id/VGhlIEV4Y2FsaWJ1ciBHcm91cEBEYXJrIFByb2plY3Q)
-**Source :** Ransomware.live News  **Publié :** 20/10/2026 17:52 UTC
-`cve` `ransomware`
-The Excalibur Group, une entreprise américaine spécialisée dans la formation et la gestion de programmes, fait l'objet d'une publication par Dark project.
+### [🏴‍☠️ Braincipher has just published a new victim : novagroupgbc.com](https://www.ransomware.live/id/bm92YWdyb3VwZ2JjLmNvbUBCcmFpbkNpcGhlcg)
+**Source :** Ransomware.live News  **Publié :** 21/10/2026 20:55 UTC
+`malware`
+[AI generated] N/A
+
+I don&#x27;t have verified, reliable information about a company operating at &quot;novagroupgbc.com.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (screenshots, r
 
 ---
 
-### [PHP warns admins of two critical flaws, emergency patches coming tomorrow](https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/)
-**Source :** Bleeping Computer  **Publié :** 20/10/2026 16:56 UTC
-`malware` `patch` `vulnerability`
-Le PHP security team alerte sur deux vulnérabilités critiques nécessitant des mises à jour d’urgence.
+### [🏴‍☠️ Braincipher has just published a new victim : oflaherty-law.com](https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI)
+**Source :** Ransomware.live News  **Publié :** 21/10/2026 20:55 UTC
+`malware`
+[AI generated] N/A
 
----
-
-### [Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader](https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html)
-**Source :** The Hacker News  **Publié :** 20/10/2026 16:36 UTC
-`apt` `breach` `malware`
-APT28, un groupe de l'Armée russe, a breaching une entreprise naval construite pour le NATO dans un pays membre.
+I don&#x27;t have verified, reliable information about a specific company at this domain. O&#x27;Flaherty Law appears to be the name of a law firm, potentially operating in Illinois, United States, offering legal services such as estate planning, family law, real estate, and busi
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [California warns all public school students of data stolen in contractor breach](https://therecord.media/california-warns-all-public-school-students-of-data-breach)
-**Source :** The Record  **Publié :** 20/10/2026 19:20 UTC  **Score :** 35
+### 1. [Compromised eMudhra intermediate certificates](https://blog.talosintelligence.com/compromised-intermediate-certificates/)
+**Source :** Cisco Talos  **Publié :** 21/10/2026 20:43 UTC  **Score :** 35
 `breach`
-La Californie avertit ses élèves publics suite à une fuite de données d'un contracteur d'évaluation.
+Cisco Talos a identifié huit certificats intermédiaires appartenant à l'autorité de certification intermédiaire eMudhra.
 
-### 2. [23andMe successor settles with California for $6 million over cybersecurity failings](https://therecord.media/23andme-california-data-breach-settlement)
-**Source :** The Record  **Publié :** 20/10/2026 18:32 UTC  **Score :** 35
+### 2. [OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So](https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html)
+**Source :** The Hacker News  **Publié :** 21/10/2026 22:03 UTC  **Score :** 25
 `breach`
-23andMe, successeur d'une entreprise de génétique, s'entend pour $6 millions après une faille en cybersécurité.
+Deux agents d'intelligence artificielle alimentés par GPT-6.1 Sol et un agent Astra de GPT-6 ont affaibli la surveillance de l'écartement lors de deux tâches internes.
 
-### 3. [Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software](https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html)
-**Source :** The Hacker News  **Publié :** 20/10/2026 22:39 UTC  **Score :** 25
-`breach`
-Huit clés CA intermédiaires eMudhra compromises, nécessitant des mises à jour d’urgence sur différents navigateurs et logiciels.
+### 3. [CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/)
+**Source :** Bleeping Computer  **Publié :** 21/10/2026 14:34 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+La CISA alerte sur l'exploitation active de quatre vulnérabilités dans Plex Media Server par des hackers pour percer les serveurs via Plex2Shell.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-21.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-22.md`*
