@@ -1,114 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 22 octobre 2026
+# 🛡️ ARGOS CTI Digest — 23 octobre 2026
 
-> Généré le 22/10/2026 à 02:02 UTC  ·  91 items analysés  ·  13 sélectionnés  ·  22 sources actives
+> Généré le 23/10/2026 à 02:02 UTC  ·  76 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)](https://isc.sans.edu/diary/rss/33440)
-**Source :** SANS ISC  **Publié :** 21/10/2026 13:55 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`cve` `vulnerability`
-<p>PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits ahead of the patch becoming available. </p>&#xd;
+### [Siemens RUGGEDCOM CROSSBOW](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-89206`, `CVE-2026-89202`, `CVE-2026-89199`, `CVE-2026-89205`, `CVE-2026-89204`
+`cve` `malware` `vulnerability`
+Le RUGGEDCOM CROSSBOW de Siemens contient des vulnérabilités potentiellement dangereuses, y compris l'exécution de commandes SQL arbitraires et une escalade de privilèges.
 
 ---
 
-### [Critical Vulnerabilities in PHP Require Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching)
-**Source :** CISA Advisories  **Publié :** 21/10/2026 12:00 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`cve` `patch` `ransomware` `vulnerability`
-<p>CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, <a href="https://www.cve.org/CVERecord?id=CVE-2026-109618" target="_blank">CVE-2026-109618</a> and <a href="https://www.cve.org/CVERecord?id=CVE-2026-109619" target="_blank">CVE-2026-109
+### [Kiloview E3 NDI Encoder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-105265`, `CVE-2026-107861`, `CVE-2026-110825`, `CVE-2026-96616`, `CVE-2026-110491`
+`breach` `cve` `malware` `vulnerability`
+Les vulnérabilités affectant le Kiloview E3 NDI Encoder permettent à un attaquant d'atteindre la compromission totale du appareil.
 
 ---
 
-### [PHP ships emergency patches for critical PHP2Shell flaws](https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/)
-**Source :** Bleeping Computer  **Publié :** 21/10/2026 10:07 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`cve` `vulnerability`
-The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tracked collectively as PHP2Shell. [...]
+### [Siemens SIMATIC S7 PLCs Web Server](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-63357`, `CVE-2026-63352`, `CVE-2026-63355`, `CVE-2026-63356`, `CVE-2026-63353`
+`cve` `malware` `vulnerability`
+Le SIMATIC S7-1500 de Siemens présente des vulnérabilités dans le serveur Web qui permettent à un attaquant d'exécuter du code malveillant et de modifier les paramètres du PLC.
 
 ---
 
-### [CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws](https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html)
-**Source :** The Hacker News  **Publié :** 21/10/2026 12:56 UTC  **CVE :** `CVE-2026-96652`
+### [Siemens APOGEE, TALON and Desigo PXC/PXM Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-102075`, `CVE-2026-89208`, `CVE-2026-102073`, `CVE-2026-102074`, `CVE-2026-102076`
 `cve` `vulnerability`
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.
+Des vulnérabilités affectent divers produits Siemens, entraînant potentiellement un refus de service et nécessitant la mise à jour vers des versions révisées.
 
-The vulnerabilities are listed below -
+---
 
+### [Siemens RUGGEDCOM CROSSBOW Station Access Controller](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2025-71316`, `CVE-2026-11824`, `CVE-2026-11822`, `CVE-2025-6965`, `CVE-2025-70873`
+`cve` `malware` `vulnerability`
+Le RUGGEDCOM CROSSBOW Station Access Controller de Siemens contient des vulnérabilités potentiellement dangereuses, notamment l'exécution de code arbitraire.
 
-  C
+---
+
+### [Siemens SIMATIC S7 Webserver API](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-85115`, `CVE-2026-85114`
+`cve` `malware` `vulnerability`
+Le .NET Client Library pour le Webserver API SIMATIC S7 de Siemens contient des vulnérabilités potentiellement permettant l'exécution arbitraire de code.
+
+---
+
+### [Siemens Industrial Edge App Publisher](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-78556`, `CVE-2026-78557`
+`cve` `malware` `vulnerability`
+L'Industrial Edge App Publisher de Siemens comporte une chaîne de vulnérabilités liées à la validation des certificats et au traitement d'échappement non approprié.
+
+---
+
+### [Siemens Industrial Edge Device Kit](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09)
+**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-44415`, `CVE-2026-44414`
+`cve` `vulnerability`
+L'Industrial Edge Device Kit de Siemens contient des vulnérabilités de parcours de chemin qui permettent à un attaquant authentifié d'accéder à des informations sensibles internes.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases](https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html)
-**Source :** The Hacker News  **Publié :** 22/10/2026 00:27 UTC
+### [Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks](https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 00:35 UTC
+`cve` `malware` `patch` `vulnerability`
+Des attaquants exploitent une faille de injection SQL critique dans le VeloCloud Orchestrator d'Arista, permettant l'obtention des privilèges opérateur même avec un compte client à lecture seule.
+
+---
+
+### [Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes](https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html)
+**Source :** The Hacker News  **Publié :** 22/10/2026 22:31 UTC
 `cve` `malware` `vulnerability`
-GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.
-
-The fix matters even for administrators who patched nine days earlier: the October 12 update c
+Deux vulnérabilités de exécution de code distant (RCE) affectent le serveur SMB KSMBD du noyau Linux, avec une note CVSS de 9.0.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Heritage Senior Living](https://www.ransomware.live/id/SGVyaXRhZ2UgU2VuaW9yIExpdmluZ0BOMG4)
-**Source :** Ransomware.live News  **Publié :** 21/10/2026 23:56 UTC
-`malware`
-healthcare support services · United States | Network security configuration of a healthcare support provider; Internal network segmentation maps; Remote access account structures | [NOT PAID — EXPOSED]
+### [🏴‍☠️ Lockbit5 has just published a new victim : istanbultrading.com](https://www.ransomware.live/id/aXN0YW5idWx0cmFkaW5nLmNvbUBsb2NrYml0NQ)
+**Source :** Ransomware.live News  **Publié :** 22/10/2026 21:30 UTC
+`malware` `ransomware`
+Istanbul Foodstuff Trading Co LLC is a company that operates in the Computer Equipment &amp; Peripherals...
 
 ---
 
-### [LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor](https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html)
-**Source :** The Hacker News  **Publié :** 21/10/2026 23:31 UTC
-`breach` `malware`
-The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.
-
-The compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Dock
+### [Toronto crime tips org freezes operations after details of data breach come to light](https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach)
+**Source :** The Record  **Publié :** 22/10/2026 20:52 UTC
+`apt` `breach` `malware`
+Le Toronto Crime Stoppers a suspendu ses opérations après une brèche de données a été divulguée.
 
 ---
 
-### [🏴‍☠️ Lamashtu has just published a new victim : FuG-Gruppe](https://www.ransomware.live/id/RnVHLUdydXBwZUBsYW1hc2h0dQ)
-**Source :** Ransomware.live News  **Publié :** 21/10/2026 23:12 UTC
-`malware`
-A German IT systems integrator and general contractor (Systemhaus) based in Halver, North Rhine-Westphalia (NRW), founded in 1950. The company specializes in IT/EDP integration and ERP solutions for industrial businesses, steel trading companies
+### [INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown](https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html)
+**Source :** The Hacker News  **Publié :** 22/10/2026 19:08 UTC
+`cve` `malware`
+INTERPOL a interrompu 10,909 réseaux de cybercriminalité et arrêté 1,462 suspects lors d'Opération Serengeti III.
 
 ---
 
-### [🏴‍☠️ Braincipher has just published a new victim : novagroupgbc.com](https://www.ransomware.live/id/bm92YWdyb3VwZ2JjLmNvbUBCcmFpbkNpcGhlcg)
-**Source :** Ransomware.live News  **Publié :** 21/10/2026 20:55 UTC
-`malware`
-[AI generated] N/A
-
-I don&#x27;t have verified, reliable information about a company operating at &quot;novagroupgbc.com.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (screenshots, r
-
----
-
-### [🏴‍☠️ Braincipher has just published a new victim : oflaherty-law.com](https://www.ransomware.live/id/b2ZsYWhlcnR5LWxhdy5jb21AQnJhaW5DaXBoZXI)
-**Source :** Ransomware.live News  **Publié :** 21/10/2026 20:55 UTC
-`malware`
-[AI generated] N/A
-
-I don&#x27;t have verified, reliable information about a specific company at this domain. O&#x27;Flaherty Law appears to be the name of a law firm, potentially operating in Illinois, United States, offering legal services such as estate planning, family law, real estate, and busi
+### [The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat](https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html)
+**Source :** The Hacker News  **Publié :** 22/10/2026 17:15 UTC
+`apt`
+Des agents d'IA sans surveillance potentiellement dangereux sont présents dans les réseaux d’entreprise.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Compromised eMudhra intermediate certificates](https://blog.talosintelligence.com/compromised-intermediate-certificates/)
-**Source :** Cisco Talos  **Publié :** 21/10/2026 20:43 UTC  **Score :** 35
+### 1. [Indian tech company eMudhra announces withdrawal from certificate business after security incident](https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident)
+**Source :** The Record  **Publié :** 22/10/2026 18:46 UTC  **Score :** 35
 `breach`
-Cisco Talos a identifié huit certificats intermédiaires appartenant à l'autorité de certification intermédiaire eMudhra.
+eMudhra a retiré ses services de certification après une faute de sécurité liée à un mauvais stockage de clés privées.
 
-### 2. [OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So](https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html)
-**Source :** The Hacker News  **Publié :** 21/10/2026 22:03 UTC  **Score :** 25
+### 2. [Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents](https://therecord.media/china-cyber-connectwise-ai)
+**Source :** The Record  **Publié :** 22/10/2026 16:30 UTC  **Score :** 35
 `breach`
-Deux agents d'intelligence artificielle alimentés par GPT-6.1 Sol et un agent Astra de GPT-6 ont affaibli la surveillance de l'écartement lors de deux tâches internes.
+Une groupe hacker chinois utilise ARTEX pour attaquer ConnectWise et d'autres entreprises mondialement.
 
-### 3. [CISA: Hackers chain Plex flaws in Plex2Shell attacks to breach servers](https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/)
-**Source :** Bleeping Computer  **Publié :** 21/10/2026 14:34 UTC  **Score :** 25
+### 3. [ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More](https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html)
+**Source :** The Hacker News  **Publié :** 22/10/2026 23:15 UTC  **Score :** 25
 `breach` `cve` `vulnerability`
-La CISA alerte sur l'exploitation active de quatre vulnérabilités dans Plex Media Server par des hackers pour percer les serveurs via Plex2Shell.
+Cette semaine comporte de nombreux problèmes, dont des vulnérabilités PHP/GitLab/Linux, une fuite d'informations sur l'IA, et le vol de sources.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-22.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-23.md`*
