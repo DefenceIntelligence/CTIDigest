@@ -1,129 +1,127 @@
-# 🛡️ ARGOS CTI Digest — 23 octobre 2026
+# 🛡️ ARGOS CTI Digest — 24 octobre 2026
 
-> Généré le 23/10/2026 à 02:02 UTC  ·  76 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 24/10/2026 à 02:03 UTC  ·  72 items analysés  ·  15 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Siemens RUGGEDCOM CROSSBOW](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-89206`, `CVE-2026-89202`, `CVE-2026-89199`, `CVE-2026-89205`, `CVE-2026-89204`
-`cve` `malware` `vulnerability`
-Le RUGGEDCOM CROSSBOW de Siemens contient des vulnérabilités potentiellement dangereuses, y compris l'exécution de commandes SQL arbitraires et une escalade de privilèges.
+### [PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware](https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 13:10 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+`apt` `cve` `malware` `vulnerability`
+Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.
+
+The attacks aim to exploit CVE-2
 
 ---
 
-### [Kiloview E3 NDI Encoder](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-105265`, `CVE-2026-107861`, `CVE-2026-110825`, `CVE-2026-96616`, `CVE-2026-110491`
-`breach` `cve` `malware` `vulnerability`
-Les vulnérabilités affectant le Kiloview E3 NDI Encoder permettent à un attaquant d'atteindre la compromission totale du appareil.
-
----
-
-### [Siemens SIMATIC S7 PLCs Web Server](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-63357`, `CVE-2026-63352`, `CVE-2026-63355`, `CVE-2026-63356`, `CVE-2026-63353`
-`cve` `malware` `vulnerability`
-Le SIMATIC S7-1500 de Siemens présente des vulnérabilités dans le serveur Web qui permettent à un attaquant d'exécuter du code malveillant et de modifier les paramètres du PLC.
-
----
-
-### [Siemens APOGEE, TALON and Desigo PXC/PXM Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-102075`, `CVE-2026-89208`, `CVE-2026-102073`, `CVE-2026-102074`, `CVE-2026-102076`
+### [URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches](https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 16:55 UTC  **CVE :** `CVE-2026-115560`
 `cve` `vulnerability`
-Des vulnérabilités affectent divers produits Siemens, entraînant potentiellement un refus de service et nécessitant la mise à jour vers des versions révisées.
+PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.
+
+The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The proje
 
 ---
 
-### [Siemens RUGGEDCOM CROSSBOW Station Access Controller](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2025-71316`, `CVE-2026-11824`, `CVE-2026-11822`, `CVE-2025-6965`, `CVE-2025-70873`
+### [Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image](https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 15:06 UTC  **CVE :** `CVE-2026-112900`
 `cve` `malware` `vulnerability`
-Le RUGGEDCOM CROSSBOW Station Access Controller de Siemens contient des vulnérabilités potentiellement dangereuses, notamment l'exécution de code arbitraire.
+Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.
+
+The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a s
 
 ---
 
-### [Siemens SIMATIC S7 Webserver API](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-85115`, `CVE-2026-85114`
+### [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 13:20 UTC  **CVE :** `CVE-2026-111497`
 `cve` `malware` `vulnerability`
-Le .NET Client Library pour le Webserver API SIMATIC S7 de Siemens contient des vulnérabilités potentiellement permettant l'exécution arbitraire de code.
+Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.
+
+Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by
 
 ---
 
-### [Siemens Industrial Edge App Publisher](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-78556`, `CVE-2026-78557`
-`cve` `malware` `vulnerability`
-L'Industrial Edge App Publisher de Siemens comporte une chaîne de vulnérabilités liées à la validation des certificats et au traitement d'échappement non approprié.
-
----
-
-### [Siemens Industrial Edge Device Kit](https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09)
-**Source :** CISA Advisories  **Publié :** 22/10/2026 12:00 UTC  **CVE :** `CVE-2026-44415`, `CVE-2026-44414`
+### [(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)](https://isc.sans.edu/diary/rss/33452)
+**Source :** SANS ISC  **Publié :** 23/10/2026 20:04 UTC
 `cve` `vulnerability`
-L'Industrial Edge Device Kit de Siemens contient des vulnérabilités de parcours de chemin qui permettent à un attaquant authentifié d'accéder à des informations sensibles internes.
+<p>Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.</p>&#xd;
+
+---
+
+### [PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)](https://isc.sans.edu/diary/rss/33450)
+**Source :** SANS ISC  **Publié :** 23/10/2026 13:43 UTC
+`vulnerability`
+<p>This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".</p>&#xd;
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks](https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 00:35 UTC
-`cve` `malware` `patch` `vulnerability`
-Des attaquants exploitent une faille de injection SQL critique dans le VeloCloud Orchestrator d'Arista, permettant l'obtention des privilèges opérateur même avec un compte client à lecture seule.
+### [BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations](https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 00:20 UTC
+`apt` `malware`
+Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.
+
+The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a
 
 ---
 
-### [Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes](https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html)
-**Source :** The Hacker News  **Publié :** 22/10/2026 22:31 UTC
-`cve` `malware` `vulnerability`
-Deux vulnérabilités de exécution de code distant (RCE) affectent le serveur SMB KSMBD du noyau Linux, avec une note CVSS de 9.0.
+### [Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions](https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 23:20 UTC
+`apt` `malware` `ransomware`
+Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.
+
+Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : istanbultrading.com](https://www.ransomware.live/id/aXN0YW5idWx0cmFkaW5nLmNvbUBsb2NrYml0NQ)
-**Source :** Ransomware.live News  **Publié :** 22/10/2026 21:30 UTC
-`malware` `ransomware`
-Istanbul Foodstuff Trading Co LLC is a company that operates in the Computer Equipment &amp; Peripherals...
+### [Friday Squid Blogging: Increasing Squid Populations](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html)
+**Source :** Schneier on Security  **Publié :** 23/10/2026 21:00 UTC
+`malware`
+<p>This <a href="https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>
+<p>As usual, you can also use this squid post to talk about t
 
 ---
 
-### [Toronto crime tips org freezes operations after details of data breach come to light](https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach)
-**Source :** The Record  **Publié :** 22/10/2026 20:52 UTC
-`apt` `breach` `malware`
-Le Toronto Crime Stoppers a suspendu ses opérations après une brèche de données a été divulguée.
+### [🏴‍☠️ Rhysida has just published a new victim : Sanders Law Group](https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ)
+**Source :** Ransomware.live News  **Publié :** 23/10/2026 20:18 UTC
+`cve` `malware` `ransomware`
+Sanders Law Group DATA SALE LISTING - Sanders Law Group / Sanders Law Firm, PLLC (Uniondale, NY)Target: Sanders Law Firm, PLLC (d/b/a Sanders Law Group; former brands - Barshay Sanders PLLC, Baker Sanders) Addresses: 333 Earle Ovington Blvd, Suite 402, Uniondale, NY 11553 � 100 Garden City Plaza, Ga
 
 ---
 
-### [INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown](https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html)
-**Source :** The Hacker News  **Publié :** 22/10/2026 19:08 UTC
-`cve` `malware`
-INTERPOL a interrompu 10,909 réseaux de cybercriminalité et arrêté 1,462 suspects lors d'Opération Serengeti III.
+### [Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html)
+**Source :** The Hacker News  **Publié :** 23/10/2026 19:20 UTC
+`breach` `malware`
+Des chercheurs en sécurité ont révélé des détails d'une campagne de cyberattaques visant des pare-feu et des accès virtuels privés exposés, affectant plus de 70 000 identifiants.
 
 ---
 
-### [The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat](https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html)
-**Source :** The Hacker News  **Publié :** 22/10/2026 17:15 UTC
-`apt`
-Des agents d'IA sans surveillance potentiellement dangereux sont présents dans les réseaux d’entreprise.
+### [🏴‍☠️ Chaos has just published a new victim : mickeybody.com](https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M)
+**Source :** Ransomware.live News  **Publié :** 23/10/2026 18:00 UTC
+`malware`
+Mickey Truck Bodies a été victime d'une cyberattaque potentiellement liée à l'acteur Chaos, une entité de cybersécurité.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Indian tech company eMudhra announces withdrawal from certificate business after security incident](https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident)
-**Source :** The Record  **Publié :** 22/10/2026 18:46 UTC  **Score :** 35
+### 1. [Quest Diagnostics warns of potential data theft after attack on lab service system](https://therecord.media/quest-diagnostics-network-intrusion)
+**Source :** The Record  **Publié :** 23/10/2026 12:52 UTC  **Score :** 35
 `breach`
-eMudhra a retiré ses services de certification après une faute de sécurité liée à un mauvais stockage de clés privées.
+Quest Diagnostics alerte sur un éventuel vol de données après une attaque sur son système de laboratoire.
 
-### 2. [Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents](https://therecord.media/china-cyber-connectwise-ai)
-**Source :** The Record  **Publié :** 22/10/2026 16:30 UTC  **Score :** 35
+### 2. [Compromised TLS Certificates](https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html)
+**Source :** Schneier on Security  **Publié :** 23/10/2026 11:04 UTC  **Score :** 25
 `breach`
-Une groupe hacker chinois utilise ARTEX pour attaquer ConnectWise et d'autres entreprises mondialement.
+Le prestataire indien eMudhra a eu huit certificats TLS compromis avec des clés privées extrêmement faibles.
 
-### 3. [ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More](https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html)
-**Source :** The Hacker News  **Publié :** 22/10/2026 23:15 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Cette semaine comporte de nombreux problèmes, dont des vulnérabilités PHP/GitLab/Linux, une fuite d'informations sur l'IA, et le vol de sources.
+### 3. [FCC bans two devices with surveillance chips linked to Huawei](https://therecord.media/fcc-bans-devices-huawei-surveillance-chips)
+**Source :** The Record  **Publié :** 23/10/2026 17:28 UTC  **Score :** 15
+La FCC interdit deux appareils contenant des puces de surveillance liées à Huawei, notamment un transmetteur vidéo sans fil et une caméra dashboard.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-23.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-24.md`*
