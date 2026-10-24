@@ -1,342 +1,259 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T02:02:32.656969+00:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T02:03:24.206088+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "add746aca373f3b5",
-        "title": "Siemens RUGGEDCOM CROSSBOW",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "87799deffc1e7d01",
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-89206",
-          "CVE-2026-89202",
-          "CVE-2026-89199",
-          "CVE-2026-89205",
-          "CVE-2026-89204",
-          "CVE-2026-89198",
-          "CVE-2026-89200",
-          "CVE-2026-89197",
-          "CVE-2026-89201",
-          "CVE-2026-89196"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+        "published_at": "2026-10-23T13:10:45",
+        "score": 32
+      },
+      {
+        "guid": "2cb5fe332ab7e7b5",
+        "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+        "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-115560"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+        "published_at": "2026-10-23T16:55:43",
+        "score": 20
+      },
+      {
+        "guid": "7910409328e0086f",
+        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-112900"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Le RUGGEDCOM CROSSBOW de Siemens contient des vulnérabilités potentiellement dangereuses, y compris l'exécution de commandes SQL arbitraires et une escalade de privilèges.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 27
+        "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+        "published_at": "2026-10-23T15:06:00",
+        "score": 32
       },
       {
-        "guid": "f638be1951b781aa",
-        "title": "Kiloview E3 NDI Encoder",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "1dbc3cf71e7a4b18",
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-105265",
-          "CVE-2026-107861",
-          "CVE-2026-110825",
-          "CVE-2026-96616",
-          "CVE-2026-110491",
-          "CVE-2026-109122",
-          "CVE-2026-92450",
-          "CVE-2026-110243",
-          "CVE-2026-111100"
-        ],
-        "tags": [
-          "breach",
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Les vulnérabilités affectant le Kiloview E3 NDI Encoder permettent à un attaquant d'atteindre la compromission totale du appareil.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 47
-      },
-      {
-        "guid": "ed8ce5ba2088e2e6",
-        "title": "Siemens SIMATIC S7 PLCs Web Server",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-14",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-63357",
-          "CVE-2026-63352",
-          "CVE-2026-63355",
-          "CVE-2026-63356",
-          "CVE-2026-63353",
-          "CVE-2026-63350",
-          "CVE-2026-63354",
-          "CVE-2026-63351"
+          "CVE-2026-111497"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Le SIMATIC S7-1500 de Siemens présente des vulnérabilités dans le serveur Web qui permettent à un attaquant d'exécuter du code malveillant et de modifier les paramètres du PLC.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 27
+        "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+        "published_at": "2026-10-23T13:20:01",
+        "score": 32
       },
       {
-        "guid": "ad6c6fe10d220852",
-        "title": "Siemens APOGEE, TALON and Desigo PXC/PXM Products",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-08",
-        "source": "CISA Advisories",
+        "guid": "d73a94ceb13a0837",
+        "title": "(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)",
+        "url": "https://isc.sans.edu/diary/rss/33452",
+        "source": "SANS ISC",
         "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-102075",
-          "CVE-2026-89208",
-          "CVE-2026-102073",
-          "CVE-2026-102074",
-          "CVE-2026-102076"
-        ],
+        "cve": [],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des vulnérabilités affectent divers produits Siemens, entraînant potentiellement un refus de service et nécessitant la mise à jour vers des versions révisées.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 15
+        "summary": "<p>Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.</p>&#xd;",
+        "published_at": "2026-10-23T20:04:47",
+        "score": 0
       },
       {
-        "guid": "4a28c13369938fe4",
-        "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
-        "source": "CISA Advisories",
+        "guid": "736c90f93fdd70c0",
+        "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+        "url": "https://isc.sans.edu/diary/rss/33450",
+        "source": "SANS ISC",
         "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2025-71316",
-          "CVE-2026-11824",
-          "CVE-2026-11822",
-          "CVE-2025-6965",
-          "CVE-2025-70873"
-        ],
+        "cve": [],
         "tags": [
-          "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Le RUGGEDCOM CROSSBOW Station Access Controller de Siemens contient des vulnérabilités potentiellement dangereuses, notamment l'exécution de code arbitraire.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "b48b8780d4f2870d",
-        "title": "Siemens SIMATIC S7 Webserver API",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-10",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-85115",
-          "CVE-2026-85114"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Le .NET Client Library pour le Webserver API SIMATIC S7 de Siemens contient des vulnérabilités potentiellement permettant l'exécution arbitraire de code.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "ed03c63d337e1cbb",
-        "title": "Siemens Industrial Edge App Publisher",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-78556",
-          "CVE-2026-78557"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "L'Industrial Edge App Publisher de Siemens comporte une chaîne de vulnérabilités liées à la validation des certificats et au traitement d'échappement non approprié.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "36c210e061854ff2",
-        "title": "Siemens Industrial Edge Device Kit",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-09",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-44415",
-          "CVE-2026-44414"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "L'Industrial Edge Device Kit de Siemens contient des vulnérabilités de parcours de chemin qui permettent à un attaquant authentifié d'accéder à des informations sensibles internes.",
-        "published_at": "2026-10-22T12:00:00",
-        "score": 15
+        "summary": "<p>This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to \"business as usual\".</p>&#xd;",
+        "published_at": "2026-10-23T13:43:20",
+        "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "75e401a9a770693c",
-        "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-        "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+        "guid": "6c991d6ac6d9a7ec",
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "patch",
-          "vulnerability"
+          "apt",
+          "malware"
         ],
-        "summary": "Des attaquants exploitent une faille de injection SQL critique dans le VeloCloud Orchestrator d'Arista, permettant l'obtention des privilèges opérateur même avec un compte client à lecture seule.",
-        "published_at": "2026-10-23T00:35:17",
+        "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+        "published_at": "2026-10-24T00:20:13",
         "score": 17
       },
       {
-        "guid": "d0ecb2dc8d04a8f2",
-        "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-        "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+        "guid": "6d87adf719f8d41f",
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
+          "apt",
           "malware",
-          "vulnerability"
+          "ransomware"
         ],
-        "summary": "Deux vulnérabilités de exécution de code distant (RCE) affectent le serveur SMB KSMBD du noyau Linux, avec une note CVSS de 9.0.",
-        "published_at": "2026-10-22T22:31:53",
+        "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
+        "published_at": "2026-10-23T23:20:47",
         "score": 17
       },
       {
-        "guid": "c8483f4800c193e3",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : istanbultrading.com",
-        "url": "https://www.ransomware.live/id/aXN0YW5idWx0cmFkaW5nLmNvbUBsb2NrYml0NQ",
+        "guid": "aa40d457329a30fe",
+        "title": "Friday Squid Blogging: Increasing Squid Populations",
+        "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "<p>This <a href=\"https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think\">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>\n<p><a href=\"https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html\">Blog moderation policy.</a></p>",
+        "published_at": "2026-10-23T21:00:09",
+        "score": 17
+      },
+      {
+        "guid": "1b0cde8963dcb79e",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Sanders Law Group",
+        "url": "https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
+          "cve",
           "malware",
           "ransomware"
         ],
-        "summary": "Istanbul Foodstuff Trading Co LLC is a company that operates in the Computer Equipment &amp; Peripherals...",
-        "published_at": "2026-10-22T21:30:20",
+        "summary": "Sanders Law Group DATA SALE LISTING - Sanders Law Group / Sanders Law Firm, PLLC (Uniondale, NY)Target: Sanders Law Firm, PLLC (d/b/a Sanders Law Group; former brands - Barshay Sanders PLLC, Baker Sanders) Addresses: 333 Earle Ovington Blvd, Suite 402, Uniondale, NY 11553 � 100 Garden City Plaza, Garden City, NY 11530 Phone: (516) 203-7600 � Owner: Craig B. Sanders, Esq. (founding partner) Size: ~8 TB � 4.5 million files � 2005�2026, history through most recent Format: full file-server clones + ",
+        "published_at": "2026-10-23T20:18:08",
         "score": 12
       },
       {
-        "guid": "3e9bb95d1571a9ec",
-        "title": "Toronto crime tips org freezes operations after details of data breach come to light",
-        "url": "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "f3f1c9ef866769d5",
+        "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
           "breach",
           "malware"
         ],
-        "summary": "Le Toronto Crime Stoppers a suspendu ses opérations après une brèche de données a été divulguée. ",
-        "published_at": "2026-10-22T20:52:00",
-        "score": 47
+        "summary": "Des chercheurs en sécurité ont révélé des détails d'une campagne de cyberattaques visant des pare-feu et des accès virtuels privés exposés, affectant plus de 70 000 identifiants.",
+        "published_at": "2026-10-23T19:20:56",
+        "score": 37
       },
       {
-        "guid": "c3175bbb4c5fffa3",
-        "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-        "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "e2c94c0e6c9fedd9",
+        "title": "🏴‍☠️ Chaos has just published a new victim : mickeybody.com",
+        "url": "https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
           "malware"
         ],
-        "summary": "INTERPOL a interrompu 10,909 réseaux de cybercriminalité et arrêté 1,462 suspects lors d'Opération Serengeti III. ",
-        "published_at": "2026-10-22T19:08:22",
-        "score": 17
-      },
-      {
-        "guid": "a1c4382e9e1f4285",
-        "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-        "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt"
-        ],
-        "summary": "Des agents d'IA sans surveillance potentiellement dangereux sont présents dans les réseaux d’entreprise. ",
-        "published_at": "2026-10-22T17:15:00",
-        "score": 5
+        "summary": "Mickey Truck Bodies a été victime d'une cyberattaque potentiellement liée à l'acteur Chaos, une entité de cybersécurité.",
+        "published_at": "2026-10-23T18:00:12",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "fae2118c43892cd0",
-        "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
-        "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+        "guid": "30b83b148bbb0b95",
+        "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+        "url": "https://therecord.media/quest-diagnostics-network-intrusion",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "eMudhra a retiré ses services de certification après une faute de sécurité liée à un mauvais stockage de clés privées. ",
-        "published_at": "2026-10-22T18:46:00",
+        "summary": "Quest Diagnostics alerte sur un éventuel vol de données après une attaque sur son système de laboratoire.",
+        "published_at": "2026-10-23T12:52:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "6a19313bfbdea374",
-        "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
-        "url": "https://therecord.media/china-cyber-connectwise-ai",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "cff3b56799db1bd1",
+        "title": "Compromised TLS Certificates",
+        "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+        "source": "Schneier on Security",
+        "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Une groupe hacker chinois utilise ARTEX pour attaquer ConnectWise et d'autres entreprises mondialement. ",
-        "published_at": "2026-10-22T16:30:00",
-        "score": 35,
+        "summary": "Le prestataire indien eMudhra a eu huit certificats TLS compromis avec des clés privées extrêmement faibles.",
+        "published_at": "2026-10-23T11:04:22",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "d7b806cb398227f9",
-        "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-        "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "760df3beda80a272",
+        "title": "FCC bans two devices with surveillance chips linked to Huawei",
+        "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Cette semaine comporte de nombreux problèmes, dont des vulnérabilités PHP/GitLab/Linux, une fuite d'informations sur l'IA, et le vol de sources. ",
-        "published_at": "2026-10-22T23:15:44",
-        "score": 25,
+        "tags": [],
+        "summary": "La FCC interdit deux appareils contenant des puces de surveillance liées à Huawei, notamment un transmetteur vidéo sans fil et une caméra dashboard.",
+        "published_at": "2026-10-23T17:28:00",
+        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 76,
-    "items_selected": 17,
+    "items_analyzed": 72,
+    "items_selected": 15,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 43,
+    "cves_total": 5,
     "llm_provider": "ollama",
-    "llm_rejected": 1,
+    "llm_rejected": 0,
     "argos_version": "2.0.0"
   }
 }
