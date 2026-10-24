@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T02:03:24.206088+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "87799deffc1e7d01",
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
+        "published_at": "2026-10-23T13:10:45",
+        "score": 32
+      },
+      {
+        "guid": "2cb5fe332ab7e7b5",
+        "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+        "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-115560"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+        "published_at": "2026-10-23T16:55:43",
+        "score": 20
+      },
+      {
+        "guid": "7910409328e0086f",
+        "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+        "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-112900"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+        "published_at": "2026-10-23T15:06:00",
+        "score": 32
+      },
+      {
+        "guid": "1dbc3cf71e7a4b18",
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+        "published_at": "2026-10-23T13:20:01",
+        "score": 32
+      },
+      {
+        "guid": "d73a94ceb13a0837",
+        "title": "(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)",
+        "url": "https://isc.sans.edu/diary/rss/33452",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "<p>Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.</p>&#xd;",
+        "published_at": "2026-10-23T20:04:47",
+        "score": 0
+      },
+      {
+        "guid": "736c90f93fdd70c0",
+        "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+        "url": "https://isc.sans.edu/diary/rss/33450",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "<p>This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to \"business as usual\".</p>&#xd;",
+        "published_at": "2026-10-23T13:43:20",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "6c991d6ac6d9a7ec",
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+        "published_at": "2026-10-24T00:20:13",
+        "score": 17
+      },
+      {
+        "guid": "6d87adf719f8d41f",
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
+        "published_at": "2026-10-23T23:20:47",
+        "score": 17
+      },
+      {
+        "guid": "aa40d457329a30fe",
+        "title": "Friday Squid Blogging: Increasing Squid Populations",
+        "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "<p>This <a href=\"https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think\">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>\n<p><a href=\"https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html\">Blog moderation policy.</a></p>",
+        "published_at": "2026-10-23T21:00:09",
+        "score": 17
+      },
+      {
+        "guid": "1b0cde8963dcb79e",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Sanders Law Group",
+        "url": "https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Sanders Law Group DATA SALE LISTING - Sanders Law Group / Sanders Law Firm, PLLC (Uniondale, NY)Target: Sanders Law Firm, PLLC (d/b/a Sanders Law Group; former brands - Barshay Sanders PLLC, Baker Sanders) Addresses: 333 Earle Ovington Blvd, Suite 402, Uniondale, NY 11553 � 100 Garden City Plaza, Garden City, NY 11530 Phone: (516) 203-7600 � Owner: Craig B. Sanders, Esq. (founding partner) Size: ~8 TB � 4.5 million files � 2005�2026, history through most recent Format: full file-server clones + ",
+        "published_at": "2026-10-23T20:18:08",
+        "score": 12
+      },
+      {
+        "guid": "f3f1c9ef866769d5",
+        "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+        "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des chercheurs en sécurité ont révélé des détails d'une campagne de cyberattaques visant des pare-feu et des accès virtuels privés exposés, affectant plus de 70 000 identifiants.",
+        "published_at": "2026-10-23T19:20:56",
+        "score": 37
+      },
+      {
+        "guid": "e2c94c0e6c9fedd9",
+        "title": "🏴‍☠️ Chaos has just published a new victim : mickeybody.com",
+        "url": "https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Mickey Truck Bodies a été victime d'une cyberattaque potentiellement liée à l'acteur Chaos, une entité de cybersécurité.",
+        "published_at": "2026-10-23T18:00:12",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "30b83b148bbb0b95",
+        "title": "Quest Diagnostics warns of potential data theft after attack on lab service system",
+        "url": "https://therecord.media/quest-diagnostics-network-intrusion",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Quest Diagnostics alerte sur un éventuel vol de données après une attaque sur son système de laboratoire.",
+        "published_at": "2026-10-23T12:52:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "cff3b56799db1bd1",
+        "title": "Compromised TLS Certificates",
+        "url": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le prestataire indien eMudhra a eu huit certificats TLS compromis avec des clés privées extrêmement faibles.",
+        "published_at": "2026-10-23T11:04:22",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "760df3beda80a272",
+        "title": "FCC bans two devices with surveillance chips linked to Huawei",
+        "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "La FCC interdit deux appareils contenant des puces de surveillance liées à Huawei, notamment un transmetteur vidéo sans fil et une caméra dashboard.",
+        "published_at": "2026-10-23T17:28:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 72,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 5,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
