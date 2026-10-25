@@ -1,127 +1,84 @@
-# 🛡️ ARGOS CTI Digest — 24 octobre 2026
+# 🛡️ ARGOS CTI Digest — 25 octobre 2026
 
-> Généré le 24/10/2026 à 02:03 UTC  ·  72 items analysés  ·  15 sélectionnés  ·  22 sources actives
+> Généré le 25/10/2026 à 03:01 UTC  ·  41 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware](https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 13:10 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`apt` `cve` `malware` `vulnerability`
-Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.
-
-The attacks aim to exploit CVE-2
-
----
-
-### [URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches](https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 16:55 UTC  **CVE :** `CVE-2026-115560`
+### [Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 16:39 UTC  **CVE :** `CVE-2026-111497`
 `cve` `vulnerability`
-PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.
-
-The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The proje
+Un défaut de mémoire dans le décodeur Brotli de Google affecte plusieurs programmes, y compris Bun et certaines versions Python, permettant une exécution non autorisée.
 
 ---
 
-### [Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image](https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 15:06 UTC  **CVE :** `CVE-2026-112900`
+### [CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 11:55 UTC  **CVE :** `CVE-2026-110447`
 `cve` `malware` `vulnerability`
-Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.
-
-The flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a s
-
----
-
-### [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 13:20 UTC  **CVE :** `CVE-2026-111497`
-`cve` `malware` `vulnerability`
-Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.
-
-Their "Node2Shell" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by
-
----
-
-### [(Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)](https://isc.sans.edu/diary/rss/33452)
-**Source :** SANS ISC  **Publié :** 23/10/2026 20:04 UTC
-`cve` `vulnerability`
-<p>Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.</p>&#xd;
-
----
-
-### [PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)](https://isc.sans.edu/diary/rss/33450)
-**Source :** SANS ISC  **Publié :** 23/10/2026 13:43 UTC
-`vulnerability`
-<p>This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go back to "business as usual".</p>&#xd;
+CISA ajoute deux vulnérabilités critiques exploitées activement concernant Collabora Online et Arista VeloCloud à sa liste de vulnérabilités connues.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations](https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 00:20 UTC
+### [Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 16:33 UTC
 `apt` `malware`
-Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.
-
-The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a
+Une clé maîtresse accidentellement exposée par LiteLLM permet l'accès et la modification du dépôt GitHub de la société lite-harness.
 
 ---
 
-### [Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions](https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 23:20 UTC
-`apt` `malware` `ransomware`
-Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.
-
-Central to the operation is an "Autonomous Red Team Kill Chain Framework" referred to as Phantom. The threat actor is assessed to be
-
----
-
-### [Friday Squid Blogging: Increasing Squid Populations](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-increasing-squid-populations.html)
-**Source :** Schneier on Security  **Publié :** 23/10/2026 21:00 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Phoenix S&S GmbH](https://www.ransomware.live/id/UGhvZW5peCBTJlMgR21iSEBlbXBlcmFkb3I)
+**Source :** Ransomware.live News  **Publié :** 24/10/2026 14:53 UTC
 `malware`
-<p>This <a href="https://www.sciencealert.com/squid-are-taking-over-the-ocean-and-not-for-the-reason-you-might-think">article</a> in <i>Nature</i> argues that it&#8217;s due to an overfishing of predators and warming sea temperatures.</p>
-<p>As usual, you can also use this squid post to talk about t
+Emperador, une menace cible Phoenix S&S GmbH, une entreprise allemande du secteur des services et de la sécurité.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Sanders Law Group](https://www.ransomware.live/id/U2FuZGVycyBMYXcgR3JvdXBAcmh5c2lkYQ)
-**Source :** Ransomware.live News  **Publié :** 23/10/2026 20:18 UTC
-`cve` `malware` `ransomware`
-Sanders Law Group DATA SALE LISTING - Sanders Law Group / Sanders Law Firm, PLLC (Uniondale, NY)Target: Sanders Law Firm, PLLC (d/b/a Sanders Law Group; former brands - Barshay Sanders PLLC, Baker Sanders) Addresses: 333 Earle Ovington Blvd, Suite 402, Uniondale, NY 11553 � 100 Garden City Plaza, Ga
-
----
-
-### [Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html)
-**Source :** The Hacker News  **Publié :** 23/10/2026 19:20 UTC
-`breach` `malware`
-Des chercheurs en sécurité ont révélé des détails d'une campagne de cyberattaques visant des pare-feu et des accès virtuels privés exposés, affectant plus de 70 000 identifiants.
-
----
-
-### [🏴‍☠️ Chaos has just published a new victim : mickeybody.com](https://www.ransomware.live/id/bWlja2V5Ym9keS5jb21AY2hhb3M)
-**Source :** Ransomware.live News  **Publié :** 23/10/2026 18:00 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Frommann Energie GmbH](https://www.ransomware.live/id/RnJvbW1hbm4gRW5lcmdpZSBHbWJIQGVtcGVyYWRvcg)
+**Source :** Ransomware.live News  **Publié :** 24/10/2026 14:52 UTC
 `malware`
-Mickey Truck Bodies a été victime d'une cyberattaque potentiellement liée à l'acteur Chaos, une entité de cybersécurité.
+Eye Security a émis plus de deux millions d'updates pour désactiver un updater de Popcorn Time, potentiellement menaçant.
+
+---
+
+### [Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 14:34 UTC
+`malware`
+Krybit cible Main Place Mall en Malaisie, une entreprise de commerce et services liés au bâtiment.
+
+---
+
+### [🏴‍☠️ Krybit has just published a new victim : mainplace.com.my](https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ)
+**Source :** Ransomware.live News  **Publié :** 24/10/2026 11:21 UTC
+`malware`
+Krybit attaque Grupo Euro Corporativo, un groupe mexicain de business fondé en 1990.
+
+---
+
+### [🏴‍☠️ Krybit has just published a new victim : grupoeuro.com.mx](https://www.ransomware.live/id/Z3J1cG9ldXJvLmNvbS5teEBrcnliaXQ)
+**Source :** Ransomware.live News  **Publié :** 24/10/2026 11:19 UTC
+`malware`
+Grupo Euro Corporativo is a 100% Mexican business conglomerate (corporativo empresarial 100% potosino) founded in 1990, ...
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Quest Diagnostics warns of potential data theft after attack on lab service system](https://therecord.media/quest-diagnostics-network-intrusion)
-**Source :** The Record  **Publié :** 23/10/2026 12:52 UTC  **Score :** 35
-`breach`
-Quest Diagnostics alerte sur un éventuel vol de données après une attaque sur son système de laboratoire.
+### 1. [Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel](https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/)
+**Source :** ZATAZ  **Publié :** 24/10/2026 23:00 UTC  **Score :** 5
+Chimeraz revendique des fuites d'informations politiques visant plusieurs partis français, y compris le groupe présidentiel.
 
-### 2. [Compromised TLS Certificates](https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html)
-**Source :** Schneier on Security  **Publié :** 23/10/2026 11:04 UTC  **Score :** 25
-`breach`
-Le prestataire indien eMudhra a eu huit certificats TLS compromis avec des clés privées extrêmement faibles.
+### 2. [Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
+**Source :** The Hacker News  **Publié :** 24/10/2026 16:06 UTC  **Score :** 5
+Google explique que l'utilisation de ses services AI pourrait permettre des publicités ciblées sur la base du partage de données Gmail et Photos.
 
-### 3. [FCC bans two devices with surveillance chips linked to Huawei](https://therecord.media/fcc-bans-devices-huawei-surveillance-chips)
-**Source :** The Record  **Publié :** 23/10/2026 17:28 UTC  **Score :** 15
-La FCC interdit deux appareils contenant des puces de surveillance liées à Huawei, notamment un transmetteur vidéo sans fil et une caméra dashboard.
+### 3. [DeepSeek banni des agences fédérales US](https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/)
+**Source :** ZATAZ  **Publié :** 24/10/2026 10:46 UTC  **Score :** 5
+DeepSeek a été banni des agences fédérales civiles américaines, ce qui comporte des risques pour les données.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-24.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-25.md`*
