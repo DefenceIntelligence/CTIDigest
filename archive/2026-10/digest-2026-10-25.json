@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T03:01:37.617173+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "195ab34428b5e1b0",
+        "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+        "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un défaut de mémoire dans le décodeur Brotli de Google affecte plusieurs programmes, y compris Bun et certaines versions Python, permettant une exécution non autorisée.",
+        "published_at": "2026-10-24T16:39:29",
+        "score": 20
+      },
+      {
+        "guid": "14c4d0a6574e4733",
+        "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+        "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-110447"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA ajoute deux vulnérabilités critiques exploitées activement concernant Collabora Online et Arista VeloCloud à sa liste de vulnérabilités connues.",
+        "published_at": "2026-10-24T11:55:57",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "c8b359901c060fc4",
+        "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+        "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Une clé maîtresse accidentellement exposée par LiteLLM permet l'accès et la modification du dépôt GitHub de la société lite-harness.",
+        "published_at": "2026-10-24T16:33:33",
+        "score": 17
+      },
+      {
+        "guid": "aecd6ae1e640073a",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Phoenix S&S GmbH",
+        "url": "https://www.ransomware.live/id/UGhvZW5peCBTJlMgR21iSEBlbXBlcmFkb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Emperador, une menace cible Phoenix S&S GmbH, une entreprise allemande du secteur des services et de la sécurité.",
+        "published_at": "2026-10-24T14:53:32",
+        "score": 12
+      },
+      {
+        "guid": "5f685745cd93e1c1",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Frommann Energie GmbH",
+        "url": "https://www.ransomware.live/id/RnJvbW1hbm4gRW5lcmdpZSBHbWJIQGVtcGVyYWRvcg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Eye Security a émis plus de deux millions d'updates pour désactiver un updater de Popcorn Time, potentiellement menaçant.",
+        "published_at": "2026-10-24T14:52:41",
+        "score": 12
+      },
+      {
+        "guid": "d4f84e5acb83ec27",
+        "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+        "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit cible Main Place Mall en Malaisie, une entreprise de commerce et services liés au bâtiment.",
+        "published_at": "2026-10-24T14:34:24",
+        "score": 17
+      },
+      {
+        "guid": "4316dd14dd385959",
+        "title": "🏴‍☠️ Krybit has just published a new victim : mainplace.com.my",
+        "url": "https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Krybit attaque Grupo Euro Corporativo, un groupe mexicain de business fondé en 1990.",
+        "published_at": "2026-10-24T11:21:47",
+        "score": 12
+      },
+      {
+        "guid": "83fc72b767ee48ce",
+        "title": "🏴‍☠️ Krybit has just published a new victim : grupoeuro.com.mx",
+        "url": "https://www.ransomware.live/id/Z3J1cG9ldXJvLmNvbS5teEBrcnliaXQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Grupo Euro Corporativo is a 100% Mexican business conglomerate (corporativo empresarial 100% potosino) founded in 1990, ...",
+        "published_at": "2026-10-24T11:19:59",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "21ab12d591d27fae",
+        "title": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
+        "url": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Chimeraz revendique des fuites d'informations politiques visant plusieurs partis français, y compris le groupe présidentiel.",
+        "published_at": "2026-10-24T23:00:29",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "4ca7d29ff887f753",
+        "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+        "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Google explique que l'utilisation de ses services AI pourrait permettre des publicités ciblées sur la base du partage de données Gmail et Photos.",
+        "published_at": "2026-10-24T16:06:33",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "7371bec3493c3276",
+        "title": "DeepSeek banni des agences fédérales US",
+        "url": "https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "DeepSeek a été banni des agences fédérales civiles américaines, ce qui comporte des risques pour les données.",
+        "published_at": "2026-10-24T10:46:39",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 41,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
