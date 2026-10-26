@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T03:01:41.933854+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "d33ffd6e99f04e29",
+        "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des menaces ont utilisé des plateformes d'intelligence artificielle pour exploiter les vulnérabilités PHP2Shell, permettant l'accès aux hashes de mot de passe et à l'authentification multifactorielle dans une entité gouvernementale européenne.",
+        "published_at": "2026-10-25T22:49:46",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "88fd118810feeabd",
+        "title": "🏴‍☠️ Payload has just published a new victim : Glückauf-Vermessung GmbH",
+        "url": "https://www.ransomware.live/id/R2zDvGNrYXVmLVZlcm1lc3N1bmcgR21iSEBwYXlsb2Fk",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La société Glückauf-Vermessung GmbH, spécialisée en géodésie et cartographie pour l'industrie minière, a été victime d'une exfiltration de données comprenant des photos d'identité et des informations détaillées sur ses membres.",
+        "published_at": "2026-10-26T00:24:26",
+        "score": 12
+      },
+      {
+        "guid": "dd0dbd53058afd70",
+        "title": "🏴‍☠️ Payload has just published a new victim : Miletic GmbH",
+        "url": "https://www.ransomware.live/id/TWlsZXRpYyBHbWJIQHBheWxvYWQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le Partido Liberal brésilien, parti politique du président Jair Bolsonaro, a été victime d'une fuite de 79 000 profils membres avec des informations personnelles.",
+        "published_at": "2026-10-26T00:23:12",
+        "score": 12
+      },
+      {
+        "guid": "77c93f2b90406303",
+        "title": "🏴‍☠️ Whitearmor has just published a new victim : Partido Liberal",
+        "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Brazil&#x27;s Liberal Party (PL) is the political party of the Bolsonaro family. Although named &quot;Liberal,&quot; it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party&#x27;s presidential candidate, advocating reduced government intervention and tough security policies.\n\nWe hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartex",
+        "published_at": "2026-10-25T16:56:33",
+        "score": 12
+      },
+      {
+        "guid": "1b676750ac18fa5a",
+        "title": "🏴‍☠️ Falcon has just published a new victim : Weitz & Luxenberg",
+        "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La firme de litige Weitz & Luxenberg a été la cible d'un vols de données comprenant des accords de confidentialité et des informations financières internes.",
+        "published_at": "2026-10-25T15:52:01",
+        "score": 12
+      },
+      {
+        "guid": "c6025c4f65fb12db",
+        "title": "🏴‍☠️ Falcon has just published a new victim : Astrana Health",
+        "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Falcon a exfiltré 738 GB de documents d'Astrana Health, incluant des rapports réglementaires et des informations financières.",
+        "published_at": "2026-10-25T14:53:02",
+        "score": 12
+      },
+      {
+        "guid": "7791658203f3bde7",
+        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "OpenAI prépare à mener des tests avancés de modèles d'IA sans connexion Internet pour éviter les échappements de virtualisation et la communication entre sandbox.",
+        "published_at": "2026-10-25T12:24:29",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "218ce12abda63ab0",
+        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+        "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Une faille non corrigée dans Tailscale pourrait permettre à un appareil compromis d'atteindre le root sur d'autres serveurs via SSH.",
+        "published_at": "2026-10-25T23:14:09",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "9d4e175e92a0d077",
+        "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Un fichier AGENTS.md dans le dossier Téléchargements a permis à des agents de codage IA de s'exécuter avec un package npm malveillant.",
+        "published_at": "2026-10-25T11:49:38",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "3730340109189f1a",
+        "title": "🏴‍☠️ Payload has just published a new victim : Edelstahl-Mechanik GmbH",
+        "url": "https://www.ransomware.live/id/RWRlbHN0YWhsLU1lY2hhbmlrIEdtYkhAcGF5bG9hZA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Edelstahl-Mechanik GmbH, fabricant de métaux précieux basé en Allemagne, opère dans des secteurs tels que l'automobile et la construction.",
+        "published_at": "2026-10-26T00:21:58",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 28,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
