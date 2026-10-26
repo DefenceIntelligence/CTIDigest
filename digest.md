@@ -1,84 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 25 octobre 2026
+# 🛡️ ARGOS CTI Digest — 26 octobre 2026
 
-> Généré le 25/10/2026 à 03:01 UTC  ·  41 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 26/10/2026 à 03:01 UTC  ·  28 items analysés  ·  10 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 16:39 UTC  **CVE :** `CVE-2026-111497`
-`cve` `vulnerability`
-Un défaut de mémoire dans le décodeur Brotli de Google affecte plusieurs programmes, y compris Bun et certaines versions Python, permettant une exécution non autorisée.
-
----
-
-### [CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 11:55 UTC  **CVE :** `CVE-2026-110447`
-`cve` `malware` `vulnerability`
-CISA ajoute deux vulnérabilités critiques exploitées activement concernant Collabora Online et Arista VeloCloud à sa liste de vulnérabilités connues.
+### [PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
+**Source :** The Hacker News  **Publié :** 25/10/2026 22:49 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+`apt` `cve` `vulnerability`
+Des menaces ont utilisé des plateformes d'intelligence artificielle pour exploiter les vulnérabilités PHP2Shell, permettant l'accès aux hashes de mot de passe et à l'authentification multifactorielle dans une entité gouvernementale européenne.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 16:33 UTC
-`apt` `malware`
-Une clé maîtresse accidentellement exposée par LiteLLM permet l'accès et la modification du dépôt GitHub de la société lite-harness.
+### [🏴‍☠️ Payload has just published a new victim : Glückauf-Vermessung GmbH](https://www.ransomware.live/id/R2zDvGNrYXVmLVZlcm1lc3N1bmcgR21iSEBwYXlsb2Fk)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:24 UTC
+`malware`
+La société Glückauf-Vermessung GmbH, spécialisée en géodésie et cartographie pour l'industrie minière, a été victime d'une exfiltration de données comprenant des photos d'identité et des informations détaillées sur ses membres.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : Phoenix S&S GmbH](https://www.ransomware.live/id/UGhvZW5peCBTJlMgR21iSEBlbXBlcmFkb3I)
-**Source :** Ransomware.live News  **Publié :** 24/10/2026 14:53 UTC
+### [🏴‍☠️ Payload has just published a new victim : Miletic GmbH](https://www.ransomware.live/id/TWlsZXRpYyBHbWJIQHBheWxvYWQ)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:23 UTC
 `malware`
-Emperador, une menace cible Phoenix S&S GmbH, une entreprise allemande du secteur des services et de la sécurité.
+Le Partido Liberal brésilien, parti politique du président Jair Bolsonaro, a été victime d'une fuite de 79 000 profils membres avec des informations personnelles.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : Frommann Energie GmbH](https://www.ransomware.live/id/RnJvbW1hbm4gRW5lcmdpZSBHbWJIQGVtcGVyYWRvcg)
-**Source :** Ransomware.live News  **Publié :** 24/10/2026 14:52 UTC
+### [🏴‍☠️ Whitearmor has just published a new victim : Partido Liberal](https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I)
+**Source :** Ransomware.live News  **Publié :** 25/10/2026 16:56 UTC
 `malware`
-Eye Security a émis plus de deux millions d'updates pour désactiver un updater de Popcorn Time, potentiellement menaçant.
+Brazil&#x27;s Liberal Party (PL) is the political party of the Bolsonaro family. Although named &quot;Liberal,&quot; it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party&#x27;s presidential candi
 
 ---
 
-### [Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 14:34 UTC
+### [🏴‍☠️ Falcon has just published a new victim : Weitz & Luxenberg](https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u)
+**Source :** Ransomware.live News  **Publié :** 25/10/2026 15:52 UTC
 `malware`
-Krybit cible Main Place Mall en Malaisie, une entreprise de commerce et services liés au bâtiment.
+La firme de litige Weitz & Luxenberg a été la cible d'un vols de données comprenant des accords de confidentialité et des informations financières internes.
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : mainplace.com.my](https://www.ransomware.live/id/bWFpbnBsYWNlLmNvbS5teUBrcnliaXQ)
-**Source :** Ransomware.live News  **Publié :** 24/10/2026 11:21 UTC
+### [🏴‍☠️ Falcon has just published a new victim : Astrana Health](https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u)
+**Source :** Ransomware.live News  **Publié :** 25/10/2026 14:53 UTC
 `malware`
-Krybit attaque Grupo Euro Corporativo, un groupe mexicain de business fondé en 1990.
+Falcon a exfiltré 738 GB de documents d'Astrana Health, incluant des rapports réglementaires et des informations financières.
 
 ---
 
-### [🏴‍☠️ Krybit has just published a new victim : grupoeuro.com.mx](https://www.ransomware.live/id/Z3J1cG9ldXJvLmNvbS5teEBrcnliaXQ)
-**Source :** Ransomware.live News  **Publié :** 24/10/2026 11:19 UTC
-`malware`
-Grupo Euro Corporativo is a 100% Mexican business conglomerate (corporativo empresarial 100% potosino) founded in 1990, ...
+### [OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
+**Source :** The Hacker News  **Publié :** 25/10/2026 12:24 UTC
+`cve` `malware`
+OpenAI prépare à mener des tests avancés de modèles d'IA sans connexion Internet pour éviter les échappements de virtualisation et la communication entre sandbox.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel](https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/)
-**Source :** ZATAZ  **Publié :** 24/10/2026 23:00 UTC  **Score :** 5
-Chimeraz revendique des fuites d'informations politiques visant plusieurs partis français, y compris le groupe présidentiel.
+### 1. [Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
+**Source :** The Hacker News  **Publié :** 25/10/2026 23:14 UTC  **Score :** 5
+`vulnerability`
+Une faille non corrigée dans Tailscale pourrait permettre à un appareil compromis d'atteindre le root sur d'autres serveurs via SSH.
 
-### 2. [Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
-**Source :** The Hacker News  **Publié :** 24/10/2026 16:06 UTC  **Score :** 5
-Google explique que l'utilisation de ses services AI pourrait permettre des publicités ciblées sur la base du partage de données Gmail et Photos.
+### 2. [AI coding agents hijacked using AGENTS.md file in Downloads folder](https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/)
+**Source :** Bleeping Computer  **Publié :** 25/10/2026 11:49 UTC  **Score :** 5
+Un fichier AGENTS.md dans le dossier Téléchargements a permis à des agents de codage IA de s'exécuter avec un package npm malveillant.
 
-### 3. [DeepSeek banni des agences fédérales US](https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/)
-**Source :** ZATAZ  **Publié :** 24/10/2026 10:46 UTC  **Score :** 5
-DeepSeek a été banni des agences fédérales civiles américaines, ce qui comporte des risques pour les données.
+### 3. [🏴‍☠️ Payload has just published a new victim : Edelstahl-Mechanik GmbH](https://www.ransomware.live/id/RWRlbHN0YWhsLU1lY2hhbmlrIEdtYkhAcGF5bG9hZA)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:21 UTC  **Score :** 0
+Edelstahl-Mechanik GmbH, fabricant de métaux précieux basé en Allemagne, opère dans des secteurs tels que l'automobile et la construction.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-25.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-26.md`*
