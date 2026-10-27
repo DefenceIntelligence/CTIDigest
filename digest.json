@@ -1,167 +1,211 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T03:01:41.933854+00:00",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T03:02:08.818308+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "d33ffd6e99f04e29",
-        "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-        "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
-        "source": "The Hacker News",
+        "guid": "3d18c3c390e83d5f",
+        "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
+        "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [
           "CVE-2026-109618",
           "CVE-2026-109619"
         ],
         "tags": [
-          "apt",
           "cve",
           "vulnerability"
         ],
-        "summary": "Des menaces ont utilisé des plateformes d'intelligence artificielle pour exploiter les vulnérabilités PHP2Shell, permettant l'accès aux hashes de mot de passe et à l'authentification multifactorielle dans une entité gouvernementale européenne.",
-        "published_at": "2026-10-25T22:49:46",
+        "summary": "Deux vulnérabilités RCE critiques (CVE-2026-109618 et CVE-2026-109619) ont été exploitées dans la nature sous le nom de PHP2Shell.",
+        "published_at": "2026-10-26T05:19:57",
         "score": 20
+      },
+      {
+        "guid": "e285d0133959f16c",
+        "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+        "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "PHP a relâché des mises à jour Windows pour PHP 8.2 à 8.5 pour corriger CVE-2026-111497, une faille dans le bibliothèque de compression Brotli.",
+        "published_at": "2026-10-26T23:15:57",
+        "score": 20
+      },
+      {
+        "guid": "e4b8e65ac61dfb70",
+        "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+        "url": "https://isc.sans.edu/diary/rss/33458",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Apple a publié des mises à jour de sécurité pour 304 vulnérabilités en octobre 2026, un nombre similaire aux précédentes mises à jour.",
+        "published_at": "2026-10-26T23:34:37",
+        "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "88fd118810feeabd",
-        "title": "🏴‍☠️ Payload has just published a new victim : Glückauf-Vermessung GmbH",
-        "url": "https://www.ransomware.live/id/R2zDvGNrYXVmLVZlcm1lc3N1bmcgR21iSEBwYXlsb2Fk",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La société Glückauf-Vermessung GmbH, spécialisée en géodésie et cartographie pour l'industrie minière, a été victime d'une exfiltration de données comprenant des photos d'identité et des informations détaillées sur ses membres.",
-        "published_at": "2026-10-26T00:24:26",
-        "score": 12
-      },
-      {
-        "guid": "dd0dbd53058afd70",
-        "title": "🏴‍☠️ Payload has just published a new victim : Miletic GmbH",
-        "url": "https://www.ransomware.live/id/TWlsZXRpYyBHbWJIQHBheWxvYWQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le Partido Liberal brésilien, parti politique du président Jair Bolsonaro, a été victime d'une fuite de 79 000 profils membres avec des informations personnelles.",
-        "published_at": "2026-10-26T00:23:12",
-        "score": 12
-      },
-      {
-        "guid": "77c93f2b90406303",
-        "title": "🏴‍☠️ Whitearmor has just published a new victim : Partido Liberal",
-        "url": "https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Brazil&#x27;s Liberal Party (PL) is the political party of the Bolsonaro family. Although named &quot;Liberal,&quot; it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party&#x27;s presidential candidate, advocating reduced government intervention and tough security policies.\n\nWe hold the complete Partido Liberal (PL, Brazil) dump: 79K member records with CPF/voter ID/RG photos, 374 live cleartex",
-        "published_at": "2026-10-25T16:56:33",
-        "score": 12
-      },
-      {
-        "guid": "1b676750ac18fa5a",
-        "title": "🏴‍☠️ Falcon has just published a new victim : Weitz & Luxenberg",
-        "url": "https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La firme de litige Weitz & Luxenberg a été la cible d'un vols de données comprenant des accords de confidentialité et des informations financières internes.",
-        "published_at": "2026-10-25T15:52:01",
-        "score": 12
-      },
-      {
-        "guid": "c6025c4f65fb12db",
-        "title": "🏴‍☠️ Falcon has just published a new victim : Astrana Health",
-        "url": "https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Falcon a exfiltré 738 GB de documents d'Astrana Health, incluant des rapports réglementaires et des informations financières.",
-        "published_at": "2026-10-25T14:53:02",
-        "score": 12
-      },
-      {
-        "guid": "7791658203f3bde7",
-        "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-        "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+        "guid": "9ac579d6f748ea40",
+        "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+        "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
+          "apt",
+          "cve"
+        ],
+        "summary": "Un attaquant inconnu a infecté 953 magasins en ligne, principalement sur Magento, pour injecter du code malveillant.",
+        "published_at": "2026-10-26T23:42:22",
+        "score": 5
+      },
+      {
+        "guid": "1c05d92bdbbf8048",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Morrison Cohen",
+        "url": "https://www.ransomware.live/id/TW9ycmlzb24gQ29oZW5AU2lsZW50UmFuc29tR3JvdXA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "OpenAI prépare à mener des tests avancés de modèles d'IA sans connexion Internet pour éviter les échappements de virtualisation et la communication entre sandbox.",
-        "published_at": "2026-10-25T12:24:29",
-        "score": 17
+        "summary": "Silentransomgroup a ciblé Morrison Cohen LLP, une firme de droit américaine basée à New York.",
+        "published_at": "2026-10-26T23:07:56",
+        "score": 12
+      },
+      {
+        "guid": "57de08dd0d272dcf",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Afflelou",
+        "url": "https://www.ransomware.live/id/QWZmbGVsb3VAZW1wZXJhZG9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Emperador a été victime d'une rançonnière inconnue, affectant 1,500 magasins dans 20 pays en Europe.",
+        "published_at": "2026-10-26T21:52:29",
+        "score": 12
+      },
+      {
+        "guid": "3337ac66fa6f56bc",
+        "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+        "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware",
+          "phishing",
+          "ransomware"
+        ],
+        "summary": "Les cyberattaques utilisent Microsoft Teams pour déployer du malware et du rançonn logiciel, notamment des escroqueries IT.",
+        "published_at": "2026-10-26T21:22:40",
+        "score": 47
+      },
+      {
+        "guid": "e3dd8dc7f0eebcd9",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : MISC Group",
+        "url": "https://www.ransomware.live/id/TUlTQyBHcm91cEByaHlzaWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a ciblé MISC Group, une entreprise mondiale de solutions maritimes pour l'énergie.",
+        "published_at": "2026-10-26T20:27:18",
+        "score": 32
+      },
+      {
+        "guid": "12602faff8cda37e",
+        "title": "Serbian autocrat loses election following widespread reports of digital repression",
+        "url": "https://therecord.media/serbia-election-spyware-vucic",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Le leader serbe Aleksandar Vučić a reconnu sa défaite après des rapports sur une répression numérique généralisée.",
+        "published_at": "2026-10-26T17:30:00",
+        "score": 47
       }
     ],
     "top_reads": [
       {
-        "guid": "218ce12abda63ab0",
-        "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-        "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "c8808c36e666a1c4",
+        "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
+        "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
-          "vulnerability"
+          "breach",
+          "cve"
         ],
-        "summary": "Une faille non corrigée dans Tailscale pourrait permettre à un appareil compromis d'atteindre le root sur d'autres serveurs via SSH.",
-        "published_at": "2026-10-25T23:14:09",
-        "score": 5,
+        "summary": "CERT-UA alerte sur l'exploitation de caméras Dahua chinoises par des hackers, modifiant leurs paramètres et créant des comptes non autorisés.",
+        "published_at": "2026-10-26T14:21:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "9d4e175e92a0d077",
-        "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
-        "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+        "guid": "5c9b75934f9b292e",
+        "title": "University of Copenhagen data breach exposes data of 525,000 people",
+        "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Un fichier AGENTS.md dans le dossier Téléchargements a permis à des agents de codage IA de s'exécuter avec un package npm malveillant.",
-        "published_at": "2026-10-25T11:49:38",
-        "score": 5,
+        "tags": [
+          "breach"
+        ],
+        "summary": "L'Université de Copenhague a confirmé que des hackers ont accédé à un environnement de test contenant des données personnelles de 525 000 personnes.",
+        "published_at": "2026-10-26T18:20:36",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "3730340109189f1a",
-        "title": "🏴‍☠️ Payload has just published a new victim : Edelstahl-Mechanik GmbH",
-        "url": "https://www.ransomware.live/id/RWRlbHN0YWhsLU1lY2hhbmlrIEdtYkhAcGF5bG9hZA",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "589f98a05d644ee4",
+        "title": "DreamHost forces password resets in ongoing \"incident\"",
+        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Edelstahl-Mechanik GmbH, fabricant de métaux précieux basé en Allemagne, opère dans des secteurs tels que l'automobile et la construction.",
-        "published_at": "2026-10-26T00:21:58",
-        "score": 0,
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "DreamHost a obligé les utilisateurs à réinitialiser leurs mots de passe après une incident qui a perturbé la connexion vers l'interface Gestionnaire de fichiers.",
+        "published_at": "2026-10-26T15:26:20",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 28,
-    "items_selected": 10,
+    "items_analyzed": 93,
+    "items_selected": 12,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 2,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
