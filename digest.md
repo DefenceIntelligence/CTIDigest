@@ -1,78 +1,94 @@
-# 🛡️ ARGOS CTI Digest — 26 octobre 2026
+# 🛡️ ARGOS CTI Digest — 27 octobre 2026
 
-> Généré le 26/10/2026 à 03:01 UTC  ·  28 items analysés  ·  10 sélectionnés  ·  22 sources actives
+> Généré le 27/10/2026 à 03:02 UTC  ·  93 items analysés  ·  12 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking](https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html)
-**Source :** The Hacker News  **Publié :** 25/10/2026 22:49 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`apt` `cve` `vulnerability`
-Des menaces ont utilisé des plateformes d'intelligence artificielle pour exploiter les vulnérabilités PHP2Shell, permettant l'accès aux hashes de mot de passe et à l'authentification multifactorielle dans une entité gouvernementale européenne.
+### [PHP2Shell security flaws now sucessfully exploited in the wild](https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/)
+**Source :** Bleeping Computer  **Publié :** 26/10/2026 05:19 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+`cve` `vulnerability`
+Deux vulnérabilités RCE critiques (CVE-2026-109618 et CVE-2026-109619) ont été exploitées dans la nature sous le nom de PHP2Shell.
+
+---
+
+### [PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw](https://thehackernews.com/2026/10/php-issues-second-windows-security.html)
+**Source :** The Hacker News  **Publié :** 26/10/2026 23:15 UTC  **CVE :** `CVE-2026-111497`
+`cve` `patch` `vulnerability`
+PHP a relâché des mises à jour Windows pour PHP 8.2 à 8.5 pour corriger CVE-2026-111497, une faille dans le bibliothèque de compression Brotli.
+
+---
+
+### [Apple Patches for October 2026, (Mon, Oct 26th)](https://isc.sans.edu/diary/rss/33458)
+**Source :** SANS ISC  **Publié :** 26/10/2026 23:34 UTC
+`vulnerability`
+Apple a publié des mises à jour de sécurité pour 304 vulnérabilités en octobre 2026, un nombre similaire aux précédentes mises à jour.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Payload has just published a new victim : Glückauf-Vermessung GmbH](https://www.ransomware.live/id/R2zDvGNrYXVmLVZlcm1lc3N1bmcgR21iSEBwYXlsb2Fk)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:24 UTC
-`malware`
-La société Glückauf-Vermessung GmbH, spécialisée en géodésie et cartographie pour l'industrie minière, a été victime d'une exfiltration de données comprenant des photos d'identité et des informations détaillées sur ses membres.
+### [Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento](https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html)
+**Source :** The Hacker News  **Publié :** 26/10/2026 23:42 UTC
+`apt` `cve`
+Un attaquant inconnu a infecté 953 magasins en ligne, principalement sur Magento, pour injecter du code malveillant.
 
 ---
 
-### [🏴‍☠️ Payload has just published a new victim : Miletic GmbH](https://www.ransomware.live/id/TWlsZXRpYyBHbWJIQHBheWxvYWQ)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:23 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Morrison Cohen](https://www.ransomware.live/id/TW9ycmlzb24gQ29oZW5AU2lsZW50UmFuc29tR3JvdXA)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 23:07 UTC
 `malware`
-Le Partido Liberal brésilien, parti politique du président Jair Bolsonaro, a été victime d'une fuite de 79 000 profils membres avec des informations personnelles.
+Silentransomgroup a ciblé Morrison Cohen LLP, une firme de droit américaine basée à New York.
 
 ---
 
-### [🏴‍☠️ Whitearmor has just published a new victim : Partido Liberal](https://www.ransomware.live/id/UGFydGlkbyBMaWJlcmFsQFdoaXRlYXJtb3I)
-**Source :** Ransomware.live News  **Publié :** 25/10/2026 16:56 UTC
+### [🏴‍☠️ Emperador has just published a new victim : Afflelou](https://www.ransomware.live/id/QWZmbGVsb3VAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 21:52 UTC
 `malware`
-Brazil&#x27;s Liberal Party (PL) is the political party of the Bolsonaro family. Although named &quot;Liberal,&quot; it is currently characterized by conservatism and right-wing populism. Jair Bolsonaro joined the party in 2021, and his son Flávio Bolsonaro is now the party&#x27;s presidential candi
+Emperador a été victime d'une rançonnière inconnue, affectant 1,500 magasins dans 20 pays en Europe.
 
 ---
 
-### [🏴‍☠️ Falcon has just published a new victim : Weitz & Luxenberg](https://www.ransomware.live/id/V2VpdHogJiBMdXhlbmJlcmdARmFsY29u)
-**Source :** Ransomware.live News  **Publié :** 25/10/2026 15:52 UTC
-`malware`
-La firme de litige Weitz & Luxenberg a été la cible d'un vols de données comprenant des accords de confidentialité et des informations financières internes.
+### [Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware](https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html)
+**Source :** The Hacker News  **Publié :** 26/10/2026 21:22 UTC
+`apt` `breach` `malware` `phishing` `ransomware`
+Les cyberattaques utilisent Microsoft Teams pour déployer du malware et du rançonn logiciel, notamment des escroqueries IT.
 
 ---
 
-### [🏴‍☠️ Falcon has just published a new victim : Astrana Health](https://www.ransomware.live/id/QXN0cmFuYSBIZWFsdGhARmFsY29u)
-**Source :** Ransomware.live News  **Publié :** 25/10/2026 14:53 UTC
-`malware`
-Falcon a exfiltré 738 GB de documents d'Astrana Health, incluant des rapports réglementaires et des informations financières.
+### [🏴‍☠️ Rhysida has just published a new victim : MISC Group](https://www.ransomware.live/id/TUlTQyBHcm91cEByaHlzaWRh)
+**Source :** Ransomware.live News  **Publié :** 26/10/2026 20:27 UTC
+`breach` `malware` `ransomware`
+Rhysida a ciblé MISC Group, une entreprise mondiale de solutions maritimes pour l'énergie.
 
 ---
 
-### [OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication](https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html)
-**Source :** The Hacker News  **Publié :** 25/10/2026 12:24 UTC
-`cve` `malware`
-OpenAI prépare à mener des tests avancés de modèles d'IA sans connexion Internet pour éviter les échappements de virtualisation et la communication entre sandbox.
+### [Serbian autocrat loses election following widespread reports of digital repression](https://therecord.media/serbia-election-spyware-vucic)
+**Source :** The Record  **Publié :** 26/10/2026 17:30 UTC
+`breach` `malware`
+Le leader serbe Aleksandar Vučić a reconnu sa défaite après des rapports sur une répression numérique généralisée.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers](https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html)
-**Source :** The Hacker News  **Publié :** 25/10/2026 23:14 UTC  **Score :** 5
-`vulnerability`
-Une faille non corrigée dans Tailscale pourrait permettre à un appareil compromis d'atteindre le root sur d'autres serveurs via SSH.
+### 1. [Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras](https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked)
+**Source :** The Record  **Publié :** 26/10/2026 14:21 UTC  **Score :** 35
+`breach` `cve`
+CERT-UA alerte sur l'exploitation de caméras Dahua chinoises par des hackers, modifiant leurs paramètres et créant des comptes non autorisés.
 
-### 2. [AI coding agents hijacked using AGENTS.md file in Downloads folder](https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/)
-**Source :** Bleeping Computer  **Publié :** 25/10/2026 11:49 UTC  **Score :** 5
-Un fichier AGENTS.md dans le dossier Téléchargements a permis à des agents de codage IA de s'exécuter avec un package npm malveillant.
+### 2. [University of Copenhagen data breach exposes data of 525,000 people](https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/)
+**Source :** Bleeping Computer  **Publié :** 26/10/2026 18:20 UTC  **Score :** 25
+`breach`
+L'Université de Copenhague a confirmé que des hackers ont accédé à un environnement de test contenant des données personnelles de 525 000 personnes.
 
-### 3. [🏴‍☠️ Payload has just published a new victim : Edelstahl-Mechanik GmbH](https://www.ransomware.live/id/RWRlbHN0YWhsLU1lY2hhbmlrIEdtYkhAcGF5bG9hZA)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 00:21 UTC  **Score :** 0
-Edelstahl-Mechanik GmbH, fabricant de métaux précieux basé en Allemagne, opère dans des secteurs tels que l'automobile et la construction.
+### 3. [DreamHost forces password resets in ongoing "incident"](https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/)
+**Source :** Bleeping Computer  **Publié :** 26/10/2026 15:26 UTC  **Score :** 25
+`breach` `cve`
+DreamHost a obligé les utilisateurs à réinitialiser leurs mots de passe après une incident qui a perturbé la connexion vers l'interface Gestionnaire de fichiers.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-26.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-27.md`*
