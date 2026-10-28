@@ -1,191 +1,216 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T03:02:08.818308+00:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T03:01:29.417351+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "3d18c3c390e83d5f",
-        "title": "PHP2Shell security flaws now sucessfully exploited in the wild",
-        "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "fb625998cfad109d",
+        "title": "EPICS Base",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
+          "CVE-2026-114598",
+          "CVE-2026-114597",
+          "CVE-2026-114595",
+          "CVE-2026-114596"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Deux vulnérabilités RCE critiques (CVE-2026-109618 et CVE-2026-109619) ont été exploitées dans la nature sous le nom de PHP2Shell.",
-        "published_at": "2026-10-26T05:19:57",
-        "score": 20
+        "summary": "Les versions d'EPICS Base inférieures à la 7.0.10 sont affectées par des vulnérabilités pouvant permettre une exécution de code arbitraire.",
+        "published_at": "2026-10-27T12:00:00",
+        "score": 15
       },
       {
-        "guid": "e285d0133959f16c",
-        "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-        "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+        "guid": "1fa4c2d10a0a5d4e",
+        "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2023-4863",
+          "CVE-2026-16437",
+          "CVE-2026-16438",
+          "CVE-2026-16436"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les produits Mitsubishi Electric GENESIS et ICONICS Suite présentent des vulnérabilités permettant l'exécution de code arbitraire ou la contournement de l'authentification.",
+        "published_at": "2026-10-27T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "c7bf02ce319250ca",
+        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+        "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-111497"
+          "CVE-2026-86950"
         ],
         "tags": [
           "cve",
-          "patch",
           "vulnerability"
         ],
-        "summary": "PHP a relâché des mises à jour Windows pour PHP 8.2 à 8.5 pour corriger CVE-2026-111497, une faille dans le bibliothèque de compression Brotli.",
-        "published_at": "2026-10-26T23:15:57",
+        "summary": "Apple a rétroporté les mises à jour pour une faille grave dans CoreGraphics affectant des iPhones et iPads anciens.",
+        "published_at": "2026-10-27T19:29:09",
         "score": 20
       },
       {
-        "guid": "e4b8e65ac61dfb70",
-        "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-        "url": "https://isc.sans.edu/diary/rss/33458",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [],
+        "guid": "a9cb458f237ca49a",
+        "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+        "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-80097"
+        ],
         "tags": [
+          "cve",
           "vulnerability"
         ],
-        "summary": "Apple a publié des mises à jour de sécurité pour 304 vulnérabilités en octobre 2026, un nombre similaire aux précédentes mises à jour.",
-        "published_at": "2026-10-26T23:34:37",
-        "score": 0
+        "summary": "Une vulnérabilité dans l'application Microsoft Authenticator pour Android a été corrigée, empêchant les applications malveillantes sans permissions de voler des tokens de compte.",
+        "published_at": "2026-10-27T17:39:50",
+        "score": 20
+      },
+      {
+        "guid": "af2abe7cde212fbe",
+        "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109618"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté deux vulnérabilités PHP2Shell à sa liste KEV, permettant l'exécution de code distant non authentifié.",
+        "published_at": "2026-10-27T10:07:59",
+        "score": 32
       }
     ],
     "campaigns": [
       {
-        "guid": "9ac579d6f748ea40",
-        "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-        "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+        "guid": "b5e28ae0f45f9ea9",
+        "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+        "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
-          "cve"
-        ],
-        "summary": "Un attaquant inconnu a infecté 953 magasins en ligne, principalement sur Magento, pour injecter du code malveillant.",
-        "published_at": "2026-10-26T23:42:22",
-        "score": 5
-      },
-      {
-        "guid": "1c05d92bdbbf8048",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Morrison Cohen",
-        "url": "https://www.ransomware.live/id/TW9ycmlzb24gQ29oZW5AU2lsZW50UmFuc29tR3JvdXA",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
           "malware"
         ],
-        "summary": "Silentransomgroup a ciblé Morrison Cohen LLP, une firme de droit américaine basée à New York.",
-        "published_at": "2026-10-26T23:07:56",
-        "score": 12
+        "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+        "published_at": "2026-10-27T23:56:46",
+        "score": 17
       },
       {
-        "guid": "57de08dd0d272dcf",
-        "title": "🏴‍☠️ Emperador has just published a new victim : Afflelou",
-        "url": "https://www.ransomware.live/id/QWZmbGVsb3VAZW1wZXJhZG9y",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Emperador a été victime d'une rançonnière inconnue, affectant 1,500 magasins dans 20 pays en Europe.",
-        "published_at": "2026-10-26T21:52:29",
-        "score": 12
-      },
-      {
-        "guid": "3337ac66fa6f56bc",
-        "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-        "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "breach",
-          "malware",
-          "phishing",
-          "ransomware"
-        ],
-        "summary": "Les cyberattaques utilisent Microsoft Teams pour déployer du malware et du rançonn logiciel, notamment des escroqueries IT.",
-        "published_at": "2026-10-26T21:22:40",
-        "score": 47
-      },
-      {
-        "guid": "e3dd8dc7f0eebcd9",
-        "title": "🏴‍☠️ Rhysida has just published a new victim : MISC Group",
-        "url": "https://www.ransomware.live/id/TUlTQyBHcm91cEByaHlzaWRh",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Rhysida a ciblé MISC Group, une entreprise mondiale de solutions maritimes pour l'énergie.",
-        "published_at": "2026-10-26T20:27:18",
-        "score": 32
-      },
-      {
-        "guid": "12602faff8cda37e",
-        "title": "Serbian autocrat loses election following widespread reports of digital repression",
-        "url": "https://therecord.media/serbia-election-spyware-vucic",
+        "guid": "bdfbf6125f5ceab6",
+        "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+        "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
+        "published_at": "2026-10-27T20:40:00",
+        "score": 27
+      },
+      {
+        "guid": "a1ff02567181b9d5",
+        "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+        "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
           "breach",
+          "ransomware"
+        ],
+        "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+        "published_at": "2026-10-27T19:35:51",
+        "score": 25
+      },
+      {
+        "guid": "682034b9a4775fc0",
+        "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
+        "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "Le leader serbe Aleksandar Vučić a reconnu sa défaite après des rapports sur une répression numérique généralisée.",
-        "published_at": "2026-10-26T17:30:00",
-        "score": 47
+        "summary": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
+        "published_at": "2026-10-27T19:30:00",
+        "score": 27
+      },
+      {
+        "guid": "bb5e30520ee683a3",
+        "title": "🏴‍☠️ Byod has just published a new victim : UPDATE: UNM",
+        "url": "https://www.ransomware.live/id/VVBEQVRFOiBVTk1AQllPRA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "ransomware"
+        ],
+        "summary": "We are offering the decryption key for the remaining of locked devices for free (ONLY for the hospital sector) we did not know that it was running machines related to assisting patients in real-time, (we would keep it locked if it was appointments, patient information + research data only), we are still going to keep the data, but we will provide the decryption key for the hospital sector only. Feel free to contact us on Session. To any patient that was affected, please provide us proof, and we ",
+        "published_at": "2026-10-27T18:50:58",
+        "score": 20
+      },
+      {
+        "guid": "1060c59a570f3394",
+        "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+        "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "L'Université de New Mexico a signalé un incident informatique affectant les systèmes et perturbant le soin aux patients et l'activité académique.",
+        "published_at": "2026-10-27T18:07:34",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "c8808c36e666a1c4",
-        "title": "Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras",
-        "url": "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach",
-          "cve"
-        ],
-        "summary": "CERT-UA alerte sur l'exploitation de caméras Dahua chinoises par des hackers, modifiant leurs paramètres et créant des comptes non autorisés.",
-        "published_at": "2026-10-26T14:21:00",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "5c9b75934f9b292e",
-        "title": "University of Copenhagen data breach exposes data of 525,000 people",
-        "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-        "source": "Bleeping Computer",
+        "guid": "80dad0e5694396e5",
+        "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+        "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "L'Université de Copenhague a confirmé que des hackers ont accédé à un environnement de test contenant des données personnelles de 525 000 personnes.",
-        "published_at": "2026-10-26T18:20:36",
+        "summary": "Keystone a déclaré que des hackers ont accédé à sa clé de vérification des dispositifs d'hardware wallet, mettant en danger la sécurité des transactions cryptographiques.",
+        "published_at": "2026-10-27T17:16:00",
         "score": 25,
-        "rank": 2
+        "rank": 1
       },
       {
-        "guid": "589f98a05d644ee4",
-        "title": "DreamHost forces password resets in ongoing \"incident\"",
-        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+        "guid": "306ee697fcd0f5ab",
+        "title": "Hackers hijack Convertr analytics script to steal payment card data",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
@@ -193,19 +218,35 @@
           "breach",
           "cve"
         ],
-        "summary": "DreamHost a obligé les utilisateurs à réinitialiser leurs mots de passe après une incident qui a perturbé la connexion vers l'interface Gestionnaire de fichiers.",
-        "published_at": "2026-10-26T15:26:20",
+        "summary": "Des hackers ont compromis un script d'analytics partagé chez Convertr pour voler les données de carte de paiement des acheteurs au cours du processus de règlement.",
+        "published_at": "2026-10-27T16:57:25",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "312aca29591fc184",
+        "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "patch"
+        ],
+        "summary": "Microsoft a publié des mises à jour OOB pour désigner les certificats compromis de eMudhra non fiables, renforçant ainsi la sécurité des systèmes.",
+        "published_at": "2026-10-27T14:20:28",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 93,
-    "items_selected": 12,
+    "items_analyzed": 70,
+    "items_selected": 14,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 3,
+    "cves_total": 11,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
