@@ -1,94 +1,110 @@
-# 🛡️ ARGOS CTI Digest — 27 octobre 2026
+# 🛡️ ARGOS CTI Digest — 28 octobre 2026
 
-> Généré le 27/10/2026 à 03:02 UTC  ·  93 items analysés  ·  12 sélectionnés  ·  22 sources actives
+> Généré le 28/10/2026 à 03:01 UTC  ·  70 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [PHP2Shell security flaws now sucessfully exploited in the wild](https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/)
-**Source :** Bleeping Computer  **Publié :** 26/10/2026 05:19 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+### [EPICS Base](https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01)
+**Source :** CISA Advisories  **Publié :** 27/10/2026 12:00 UTC  **CVE :** `CVE-2026-114598`, `CVE-2026-114597`, `CVE-2026-114595`, `CVE-2026-114596`
 `cve` `vulnerability`
-Deux vulnérabilités RCE critiques (CVE-2026-109618 et CVE-2026-109619) ont été exploitées dans la nature sous le nom de PHP2Shell.
+Les versions d'EPICS Base inférieures à la 7.0.10 sont affectées par des vulnérabilités pouvant permettre une exécution de code arbitraire.
 
 ---
 
-### [PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw](https://thehackernews.com/2026/10/php-issues-second-windows-security.html)
-**Source :** The Hacker News  **Publié :** 26/10/2026 23:15 UTC  **CVE :** `CVE-2026-111497`
-`cve` `patch` `vulnerability`
-PHP a relâché des mises à jour Windows pour PHP 8.2 à 8.5 pour corriger CVE-2026-111497, une faille dans le bibliothèque de compression Brotli.
+### [Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz](https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02)
+**Source :** CISA Advisories  **Publié :** 27/10/2026 12:00 UTC  **CVE :** `CVE-2023-4863`, `CVE-2026-16437`, `CVE-2026-16438`, `CVE-2026-16436`
+`cve` `malware` `vulnerability`
+Les produits Mitsubishi Electric GENESIS et ICONICS Suite présentent des vulnérabilités permettant l'exécution de code arbitraire ou la contournement de l'authentification.
 
 ---
 
-### [Apple Patches for October 2026, (Mon, Oct 26th)](https://isc.sans.edu/diary/rss/33458)
-**Source :** SANS ISC  **Publié :** 26/10/2026 23:34 UTC
-`vulnerability`
-Apple a publié des mises à jour de sécurité pour 304 vulnérabilités en octobre 2026, un nombre similaire aux précédentes mises à jour.
+### [Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads](https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html)
+**Source :** The Hacker News  **Publié :** 27/10/2026 19:29 UTC  **CVE :** `CVE-2026-86950`
+`cve` `vulnerability`
+Apple a rétroporté les mises à jour pour une faille grave dans CoreGraphics affectant des iPhones et iPads anciens.
+
+---
+
+### [Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens](https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html)
+**Source :** The Hacker News  **Publié :** 27/10/2026 17:39 UTC  **CVE :** `CVE-2026-80097`
+`cve` `vulnerability`
+Une vulnérabilité dans l'application Microsoft Authenticator pour Android a été corrigée, empêchant les applications malveillantes sans permissions de voler des tokens de compte.
+
+---
+
+### [CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution](https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html)
+**Source :** The Hacker News  **Publié :** 27/10/2026 10:07 UTC  **CVE :** `CVE-2026-109618`
+`cve` `malware` `vulnerability`
+CISA a ajouté deux vulnérabilités PHP2Shell à sa liste KEV, permettant l'exécution de code distant non authentifié.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento](https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html)
-**Source :** The Hacker News  **Publié :** 26/10/2026 23:42 UTC
-`apt` `cve`
-Un attaquant inconnu a infecté 953 magasins en ligne, principalement sur Magento, pour injecter du code malveillant.
+### [CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets](https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html)
+**Source :** The Hacker News  **Publié :** 27/10/2026 23:56 UTC
+`apt` `malware`
+Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.
+
+TrendAI, which analyzed three exposed server environments used by threat actors
 
 ---
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Morrison Cohen](https://www.ransomware.live/id/TW9ycmlzb24gQ29oZW5AU2lsZW50UmFuc29tR3JvdXA)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 23:07 UTC
+### [Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea](https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison)
+**Source :** The Record  **Publié :** 27/10/2026 20:40 UTC
+`malware` `ransomware`
+Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.
+
+---
+
+### [Japan's GMO urges customers to shut down PCs amid ransomware threat](https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/)
+**Source :** Bleeping Computer  **Publié :** 27/10/2026 19:35 UTC
+`apt` `breach` `ransomware`
+The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]
+
+---
+
+### [US indicts Malaysian national after Madagascar scam operation uncovered](https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar)
+**Source :** The Record  **Publié :** 27/10/2026 19:30 UTC
 `malware`
-Silentransomgroup a ciblé Morrison Cohen LLP, une firme de droit américaine basée à New York.
+DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : Afflelou](https://www.ransomware.live/id/QWZmbGVsb3VAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 21:52 UTC
-`malware`
-Emperador a été victime d'une rançonnière inconnue, affectant 1,500 magasins dans 20 pays en Europe.
+### [🏴‍☠️ Byod has just published a new victim : UPDATE: UNM](https://www.ransomware.live/id/VVBEQVRFOiBVTk1AQllPRA)
+**Source :** Ransomware.live News  **Publié :** 27/10/2026 18:50 UTC
+`breach` `ransomware`
+We are offering the decryption key for the remaining of locked devices for free (ONLY for the hospital sector) we did not know that it was running machines related to assisting patients in real-time, (we would keep it locked if it was appointments, patient information + research data only), we are s
 
 ---
 
-### [Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware](https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html)
-**Source :** The Hacker News  **Publié :** 26/10/2026 21:22 UTC
-`apt` `breach` `malware` `phishing` `ransomware`
-Les cyberattaques utilisent Microsoft Teams pour déployer du malware et du rançonn logiciel, notamment des escroqueries IT.
-
----
-
-### [🏴‍☠️ Rhysida has just published a new victim : MISC Group](https://www.ransomware.live/id/TUlTQyBHcm91cEByaHlzaWRh)
-**Source :** Ransomware.live News  **Publié :** 26/10/2026 20:27 UTC
-`breach` `malware` `ransomware`
-Rhysida a ciblé MISC Group, une entreprise mondiale de solutions maritimes pour l'énergie.
-
----
-
-### [Serbian autocrat loses election following widespread reports of digital repression](https://therecord.media/serbia-election-spyware-vucic)
-**Source :** The Record  **Publié :** 26/10/2026 17:30 UTC
-`breach` `malware`
-Le leader serbe Aleksandar Vučić a reconnu sa défaite après des rapports sur une répression numérique généralisée.
+### [UNM Health ransomware attack disrupts patient care, surgeries](https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/)
+**Source :** Bleeping Computer  **Publié :** 27/10/2026 18:07 UTC
+`malware` `ransomware`
+L'Université de New Mexico a signalé un incident informatique affectant les systèmes et perturbant le soin aux patients et l'activité académique.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Ukraine warns hackers are exploiting Chinese-made Dahua surveillance cameras](https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked)
-**Source :** The Record  **Publié :** 26/10/2026 14:21 UTC  **Score :** 35
-`breach` `cve`
-CERT-UA alerte sur l'exploitation de caméras Dahua chinoises par des hackers, modifiant leurs paramètres et créant des comptes non autorisés.
-
-### 2. [University of Copenhagen data breach exposes data of 525,000 people](https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/)
-**Source :** Bleeping Computer  **Publié :** 26/10/2026 18:20 UTC  **Score :** 25
+### 1. [Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key](https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html)
+**Source :** The Hacker News  **Publié :** 27/10/2026 17:16 UTC  **Score :** 25
 `breach`
-L'Université de Copenhague a confirmé que des hackers ont accédé à un environnement de test contenant des données personnelles de 525 000 personnes.
+Keystone a déclaré que des hackers ont accédé à sa clé de vérification des dispositifs d'hardware wallet, mettant en danger la sécurité des transactions cryptographiques.
 
-### 3. [DreamHost forces password resets in ongoing "incident"](https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/)
-**Source :** Bleeping Computer  **Publié :** 26/10/2026 15:26 UTC  **Score :** 25
+### 2. [Hackers hijack Convertr analytics script to steal payment card data](https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/)
+**Source :** Bleeping Computer  **Publié :** 27/10/2026 16:57 UTC  **Score :** 25
 `breach` `cve`
-DreamHost a obligé les utilisateurs à réinitialiser leurs mots de passe après une incident qui a perturbé la connexion vers l'interface Gestionnaire de fichiers.
+Des hackers ont compromis un script d'analytics partagé chez Convertr pour voler les données de carte de paiement des acheteurs au cours du processus de règlement.
+
+### 3. [Microsoft releases Windows OOB updates to distrust eMudhra certificates](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/)
+**Source :** Bleeping Computer  **Publié :** 27/10/2026 14:20 UTC  **Score :** 25
+`breach` `patch`
+Microsoft a publié des mises à jour OOB pour désigner les certificats compromis de eMudhra non fiables, renforçant ainsi la sécurité des systèmes.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-27.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-28.md`*
