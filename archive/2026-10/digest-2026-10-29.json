@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T03:01:43.700481+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "889e7e56d2da0a53",
+        "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+        "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [
+          "CVE-2026-20127"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Talos a identifié UAT-11473, un APT sophistiqué, qui a exploité CVE-2026-20127 pour contourner l'authentification et accéder illégalement à des systèmes Cisco SD-WAN.",
+        "published_at": "2026-10-28T21:32:02",
+        "score": 30
+      },
+      {
+        "guid": "d80973b4bab01493",
+        "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+        "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-101767"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors cherchent à exploiter une vulnérabilité récemment corrigée dans Oracle E-Business Suite (CVE-2026-101767).",
+        "published_at": "2026-10-28T18:18:03",
+        "score": 20
+      },
+      {
+        "guid": "bb6d2e8e67735d45",
+        "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+        "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-104351"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Adobe a corrigé huit vulnérabilités critiques dans Campaign Classic, potentiellement permettant l'exécution de code arbitraire.",
+        "published_at": "2026-10-28T16:45:51",
+        "score": 20
+      },
+      {
+        "guid": "13b6aecd4d021251",
+        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+        "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-35273"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La vulnérabilité Oracle PeopleSoft exploitée par ShinyHunters est révélée comme composée de trois failles liées.",
+        "published_at": "2026-10-28T11:34:58",
+        "score": 20
+      },
+      {
+        "guid": "8a382a0aa177646f",
+        "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+        "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Adobe Commerce et Magento, ainsi que Google's Brotli decoder library, ont des vulnérabilités exploitées activement.",
+        "published_at": "2026-10-28T11:12:26",
+        "score": 40
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b544c7b5b9c9e874",
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Volt Typhoon a utilisé un réseau d'accès secret pour exploiter des zéros-jour et obtenir un accès stratégique.",
+        "published_at": "2026-10-28T23:38:33",
+        "score": 37
+      },
+      {
+        "guid": "42b787d0bfeb80ed",
+        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+        "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Google permet désormais l'installation à une pression de bouton d'applications Android issues de magasins tiers aux États-Unis.",
+        "published_at": "2026-10-28T22:38:09",
+        "score": 17
+      },
+      {
+        "guid": "440a3eda0aa31d85",
+        "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un acteur suspect a exploité PHP2Shell et un exploit de privilèges pour infiltrer 25 serveurs, y compris des réseaux gouvernementaux américains.",
+        "published_at": "2026-10-28T21:32:45",
+        "score": 37
+      },
+      {
+        "guid": "0c63dcdbc5fca6ea",
+        "title": "🏴‍☠️ Genesis has just published a new victim : A&B Lab",
+        "url": "https://www.ransomware.live/id/QSZCIExhYkBnZW5lc2lz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Genesis a ciblé une nouvelle victime : A&B Lab, fournisseur de services d'essais.",
+        "published_at": "2026-10-28T20:53:55",
+        "score": 12
+      },
+      {
+        "guid": "17dc84c00669692a",
+        "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+        "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Noyb poursuit Scale AI pour la surveillance intrusive des travailleurs indépendants.",
+        "published_at": "2026-10-28T18:02:00",
+        "score": 27
+      },
+      {
+        "guid": "f990bd997f868ec4",
+        "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+        "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un défaut critique de 16 ans dans EDK II, utilisé par la plupart des fabricants pour construire le firmware UEFI, permet à un attaquant d'exécuter du code avant l'installation du système d'exploitation lors du boot réseau.",
+        "published_at": "2026-10-28T17:20:00",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "66fd54af662bda77",
+        "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+        "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Japan Airlines a alerté sur une violation de données ayant compromis des numéros de passeport, de cartes de fidélité, des adresses électroniques et des numéros de téléphone pour environ 2 000 clients.",
+        "published_at": "2026-10-28T20:33:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d7645cd69928effa",
+        "title": "UK to look at making software companies liable for cyber breaches",
+        "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le budget britannique prévoit d'examiner la responsabilité des fabricants de logiciels en cas de violation de données, ce qui pourrait marquer un tournant pour le Royaume-Uni.",
+        "published_at": "2026-10-28T15:37:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "510703fd824eaf0d",
+        "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+        "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Sony Network Communications a confirmé une violation de données ayant compromis des informations personnelles de 2,5 millions de clients actuels et anciens.",
+        "published_at": "2026-10-28T12:45:47",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 57,
+    "items_selected": 14,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 5,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
