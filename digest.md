@@ -1,110 +1,108 @@
-# 🛡️ ARGOS CTI Digest — 28 octobre 2026
+# 🛡️ ARGOS CTI Digest — 29 octobre 2026
 
-> Généré le 28/10/2026 à 03:01 UTC  ·  70 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 29/10/2026 à 03:01 UTC  ·  57 items analysés  ·  14 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [EPICS Base](https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01)
-**Source :** CISA Advisories  **Publié :** 27/10/2026 12:00 UTC  **CVE :** `CVE-2026-114598`, `CVE-2026-114597`, `CVE-2026-114595`, `CVE-2026-114596`
+### [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](https://blog.talosintelligence.com/uat-11473-keydrift/)
+**Source :** Cisco Talos  **Publié :** 28/10/2026 21:32 UTC  **CVE :** `CVE-2026-20127`
+`apt` `cve` `vulnerability`
+Talos a identifié UAT-11473, un APT sophistiqué, qui a exploité CVE-2026-20127 pour contourner l'authentification et accéder illégalement à des systèmes Cisco SD-WAN.
+
+---
+
+### [Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch](https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 18:18 UTC  **CVE :** `CVE-2026-101767`
+`apt` `cve` `vulnerability`
+Threat actors cherchent à exploiter une vulnérabilité récemment corrigée dans Oracle E-Business Suite (CVE-2026-101767).
+
+---
+
+### [Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass](https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 16:45 UTC  **CVE :** `CVE-2026-104351`
 `cve` `vulnerability`
-Les versions d'EPICS Base inférieures à la 7.0.10 sont affectées par des vulnérabilités pouvant permettre une exécution de code arbitraire.
+Adobe a corrigé huit vulnérabilités critiques dans Campaign Classic, potentiellement permettant l'exécution de code arbitraire.
 
 ---
 
-### [Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz](https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02)
-**Source :** CISA Advisories  **Publié :** 27/10/2026 12:00 UTC  **CVE :** `CVE-2023-4863`, `CVE-2026-16437`, `CVE-2026-16438`, `CVE-2026-16436`
-`cve` `malware` `vulnerability`
-Les produits Mitsubishi Electric GENESIS et ICONICS Suite présentent des vulnérabilités permettant l'exécution de code arbitraire ou la contournement de l'authentification.
-
----
-
-### [Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads](https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html)
-**Source :** The Hacker News  **Publié :** 27/10/2026 19:29 UTC  **CVE :** `CVE-2026-86950`
+### [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 11:34 UTC  **CVE :** `CVE-2026-35273`
 `cve` `vulnerability`
-Apple a rétroporté les mises à jour pour une faille grave dans CoreGraphics affectant des iPhones et iPads anciens.
+La vulnérabilité Oracle PeopleSoft exploitée par ShinyHunters est révélée comme composée de trois failles liées.
 
 ---
 
-### [Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens](https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html)
-**Source :** The Hacker News  **Publié :** 27/10/2026 17:39 UTC  **CVE :** `CVE-2026-80097`
-`cve` `vulnerability`
-Une vulnérabilité dans l'application Microsoft Authenticator pour Android a été corrigée, empêchant les applications malveillantes sans permissions de voler des tokens de compte.
-
----
-
-### [CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution](https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html)
-**Source :** The Hacker News  **Publié :** 27/10/2026 10:07 UTC  **CVE :** `CVE-2026-109618`
-`cve` `malware` `vulnerability`
-CISA a ajouté deux vulnérabilités PHP2Shell à sa liste KEV, permettant l'exécution de code distant non authentifié.
+### [Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges](https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 11:12 UTC  **CVE :** `CVE-2026-111497`
+`breach` `cve` `vulnerability`
+Adobe Commerce et Magento, ainsi que Google's Brotli decoder library, ont des vulnérabilités exploitées activement.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets](https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html)
-**Source :** The Hacker News  **Publié :** 27/10/2026 23:56 UTC
-`apt` `malware`
-Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.
-
-TrendAI, which analyzed three exposed server environments used by threat actors
+### [Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns](https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 23:38 UTC
+`apt` `breach` `cve` `malware`
+Volt Typhoon a utilisé un réseau d'accès secret pour exploiter des zéros-jour et obtenir un accès stratégique.
 
 ---
 
-### [Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea](https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison)
-**Source :** The Record  **Publié :** 27/10/2026 20:40 UTC
-`malware` `ransomware`
-Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.
-
----
-
-### [Japan's GMO urges customers to shut down PCs amid ransomware threat](https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/)
-**Source :** Bleeping Computer  **Publié :** 27/10/2026 19:35 UTC
-`apt` `breach` `ransomware`
-The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]
-
----
-
-### [US indicts Malaysian national after Madagascar scam operation uncovered](https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar)
-**Source :** The Record  **Publié :** 27/10/2026 19:30 UTC
+### [Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.](https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 22:38 UTC
 `malware`
-DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.
+Google permet désormais l'installation à une pression de bouton d'applications Android issues de magasins tiers aux États-Unis.
 
 ---
 
-### [🏴‍☠️ Byod has just published a new victim : UPDATE: UNM](https://www.ransomware.live/id/VVBEQVRFOiBVTk1AQllPRA)
-**Source :** Ransomware.live News  **Publié :** 27/10/2026 18:50 UTC
-`breach` `ransomware`
-We are offering the decryption key for the remaining of locked devices for free (ONLY for the hospital sector) we did not know that it was running machines related to assisting patients in real-time, (we would keep it locked if it was appointments, patient information + research data only), we are s
+### [PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network](https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 21:32 UTC
+`apt` `breach` `cve` `malware` `vulnerability`
+Un acteur suspect a exploité PHP2Shell et un exploit de privilèges pour infiltrer 25 serveurs, y compris des réseaux gouvernementaux américains.
 
 ---
 
-### [UNM Health ransomware attack disrupts patient care, surgeries](https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/)
-**Source :** Bleeping Computer  **Publié :** 27/10/2026 18:07 UTC
-`malware` `ransomware`
-L'Université de New Mexico a signalé un incident informatique affectant les systèmes et perturbant le soin aux patients et l'activité académique.
+### [🏴‍☠️ Genesis has just published a new victim : A&B Lab](https://www.ransomware.live/id/QSZCIExhYkBnZW5lc2lz)
+**Source :** Ransomware.live News  **Publié :** 28/10/2026 20:53 UTC
+`malware`
+Genesis a ciblé une nouvelle victime : A&B Lab, fournisseur de services d'essais.
+
+---
+
+### [European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance](https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance)
+**Source :** The Record  **Publié :** 28/10/2026 18:02 UTC
+`malware`
+Noyb poursuit Scale AI pour la surveillance intrusive des travailleurs indépendants.
+
+---
+
+### [Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers](https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html)
+**Source :** The Hacker News  **Publié :** 28/10/2026 17:20 UTC
+`cve` `malware` `vulnerability`
+Un défaut critique de 16 ans dans EDK II, utilisé par la plupart des fabricants pour construire le firmware UEFI, permet à un attaquant d'exécuter du code avant l'installation du système d'exploitation lors du boot réseau.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key](https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html)
-**Source :** The Hacker News  **Publié :** 27/10/2026 17:16 UTC  **Score :** 25
+### 1. [Japan Airlines warns of data breach as country grapples with multiple cyber incidents](https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents)
+**Source :** The Record  **Publié :** 28/10/2026 20:33 UTC  **Score :** 35
 `breach`
-Keystone a déclaré que des hackers ont accédé à sa clé de vérification des dispositifs d'hardware wallet, mettant en danger la sécurité des transactions cryptographiques.
+Japan Airlines a alerté sur une violation de données ayant compromis des numéros de passeport, de cartes de fidélité, des adresses électroniques et des numéros de téléphone pour environ 2 000 clients.
 
-### 2. [Hackers hijack Convertr analytics script to steal payment card data](https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/)
-**Source :** Bleeping Computer  **Publié :** 27/10/2026 16:57 UTC  **Score :** 25
-`breach` `cve`
-Des hackers ont compromis un script d'analytics partagé chez Convertr pour voler les données de carte de paiement des acheteurs au cours du processus de règlement.
+### 2. [UK to look at making software companies liable for cyber breaches](https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches)
+**Source :** The Record  **Publié :** 28/10/2026 15:37 UTC  **Score :** 35
+`breach`
+Le budget britannique prévoit d'examiner la responsabilité des fabricants de logiciels en cas de violation de données, ce qui pourrait marquer un tournant pour le Royaume-Uni.
 
-### 3. [Microsoft releases Windows OOB updates to distrust eMudhra certificates](https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/)
-**Source :** Bleeping Computer  **Publié :** 27/10/2026 14:20 UTC  **Score :** 25
-`breach` `patch`
-Microsoft a publié des mises à jour OOB pour désigner les certificats compromis de eMudhra non fiables, renforçant ainsi la sécurité des systèmes.
+### 3. [Sony ISP subsidiary data breach exposes 2.5 million customer records](https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/)
+**Source :** Bleeping Computer  **Publié :** 28/10/2026 12:45 UTC  **Score :** 25
+`breach`
+Sony Network Communications a confirmé une violation de données ayant compromis des informations personnelles de 2,5 millions de clients actuels et anciens.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-28.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-29.md`*
