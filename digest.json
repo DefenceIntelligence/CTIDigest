@@ -1,252 +1,248 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T03:01:29.417351+00:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T03:01:43.700481+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "fb625998cfad109d",
-        "title": "EPICS Base",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
+        "guid": "889e7e56d2da0a53",
+        "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+        "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
         "cve": [
-          "CVE-2026-114598",
-          "CVE-2026-114597",
-          "CVE-2026-114595",
-          "CVE-2026-114596"
+          "CVE-2026-20127"
         ],
         "tags": [
+          "apt",
           "cve",
           "vulnerability"
         ],
-        "summary": "Les versions d'EPICS Base inférieures à la 7.0.10 sont affectées par des vulnérabilités pouvant permettre une exécution de code arbitraire.",
-        "published_at": "2026-10-27T12:00:00",
-        "score": 15
+        "summary": "Talos a identifié UAT-11473, un APT sophistiqué, qui a exploité CVE-2026-20127 pour contourner l'authentification et accéder illégalement à des systèmes Cisco SD-WAN.",
+        "published_at": "2026-10-28T21:32:02",
+        "score": 30
       },
       {
-        "guid": "1fa4c2d10a0a5d4e",
-        "title": "Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2023-4863",
-          "CVE-2026-16437",
-          "CVE-2026-16438",
-          "CVE-2026-16436"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Les produits Mitsubishi Electric GENESIS et ICONICS Suite présentent des vulnérabilités permettant l'exécution de code arbitraire ou la contournement de l'authentification.",
-        "published_at": "2026-10-27T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "c7bf02ce319250ca",
-        "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
-        "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+        "guid": "d80973b4bab01493",
+        "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+        "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-86950"
+          "CVE-2026-101767"
         ],
         "tags": [
+          "apt",
           "cve",
           "vulnerability"
         ],
-        "summary": "Apple a rétroporté les mises à jour pour une faille grave dans CoreGraphics affectant des iPhones et iPads anciens.",
-        "published_at": "2026-10-27T19:29:09",
+        "summary": "Threat actors cherchent à exploiter une vulnérabilité récemment corrigée dans Oracle E-Business Suite (CVE-2026-101767).",
+        "published_at": "2026-10-28T18:18:03",
         "score": 20
       },
       {
-        "guid": "a9cb458f237ca49a",
-        "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-        "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+        "guid": "bb6d2e8e67735d45",
+        "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+        "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-80097"
+          "CVE-2026-104351"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Une vulnérabilité dans l'application Microsoft Authenticator pour Android a été corrigée, empêchant les applications malveillantes sans permissions de voler des tokens de compte.",
-        "published_at": "2026-10-27T17:39:50",
+        "summary": "Adobe a corrigé huit vulnérabilités critiques dans Campaign Classic, potentiellement permettant l'exécution de code arbitraire.",
+        "published_at": "2026-10-28T16:45:51",
         "score": 20
       },
       {
-        "guid": "af2abe7cde212fbe",
-        "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-        "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+        "guid": "13b6aecd4d021251",
+        "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+        "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-109618"
+          "CVE-2026-35273"
         ],
         "tags": [
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "CISA a ajouté deux vulnérabilités PHP2Shell à sa liste KEV, permettant l'exécution de code distant non authentifié.",
-        "published_at": "2026-10-27T10:07:59",
-        "score": 32
+        "summary": "La vulnérabilité Oracle PeopleSoft exploitée par ShinyHunters est révélée comme composée de trois failles liées.",
+        "published_at": "2026-10-28T11:34:58",
+        "score": 20
+      },
+      {
+        "guid": "8a382a0aa177646f",
+        "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+        "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Adobe Commerce et Magento, ainsi que Google's Brotli decoder library, ont des vulnérabilités exploitées activement.",
+        "published_at": "2026-10-28T11:12:26",
+        "score": 40
       }
     ],
     "campaigns": [
       {
-        "guid": "b5e28ae0f45f9ea9",
-        "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-        "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+        "guid": "b544c7b5b9c9e874",
+        "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+        "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
+          "breach",
+          "cve",
           "malware"
         ],
-        "summary": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
-        "published_at": "2026-10-27T23:56:46",
+        "summary": "Volt Typhoon a utilisé un réseau d'accès secret pour exploiter des zéros-jour et obtenir un accès stratégique.",
+        "published_at": "2026-10-28T23:38:33",
+        "score": 37
+      },
+      {
+        "guid": "42b787d0bfeb80ed",
+        "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+        "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Google permet désormais l'installation à une pression de bouton d'applications Android issues de magasins tiers aux États-Unis.",
+        "published_at": "2026-10-28T22:38:09",
         "score": 17
       },
       {
-        "guid": "bdfbf6125f5ceab6",
-        "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
-        "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Ukrainian national Artem Stryzhak, 36, had pleaded guilty last year to charges related to participating in at least two well-known ransomware groups.",
-        "published_at": "2026-10-27T20:40:00",
-        "score": 27
-      },
-      {
-        "guid": "a1ff02567181b9d5",
-        "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-        "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-        "source": "Bleeping Computer",
+        "guid": "440a3eda0aa31d85",
+        "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "apt",
           "breach",
-          "ransomware"
+          "cve",
+          "malware",
+          "vulnerability"
         ],
-        "summary": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
-        "published_at": "2026-10-27T19:35:51",
-        "score": 25
+        "summary": "Un acteur suspect a exploité PHP2Shell et un exploit de privilèges pour infiltrer 25 serveurs, y compris des réseaux gouvernementaux américains.",
+        "published_at": "2026-10-28T21:32:45",
+        "score": 37
       },
       {
-        "guid": "682034b9a4775fc0",
-        "title": "US indicts Malaysian national after Madagascar scam operation uncovered",
-        "url": "https://therecord.media/malaysian-national-indicted-after-scam-centers-raid-madagascar",
+        "guid": "0c63dcdbc5fca6ea",
+        "title": "🏴‍☠️ Genesis has just published a new victim : A&B Lab",
+        "url": "https://www.ransomware.live/id/QSZCIExhYkBnZW5lc2lz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Genesis a ciblé une nouvelle victime : A&B Lab, fournisseur de services d'essais.",
+        "published_at": "2026-10-28T20:53:55",
+        "score": 12
+      },
+      {
+        "guid": "17dc84c00669692a",
+        "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+        "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "DOJ action against five foreign nationals — plus a sting in Madagascar — highlight the expanding global reach of the scam center industry.",
-        "published_at": "2026-10-27T19:30:00",
+        "summary": "Noyb poursuit Scale AI pour la surveillance intrusive des travailleurs indépendants.",
+        "published_at": "2026-10-28T18:02:00",
         "score": 27
       },
       {
-        "guid": "bb5e30520ee683a3",
-        "title": "🏴‍☠️ Byod has just published a new victim : UPDATE: UNM",
-        "url": "https://www.ransomware.live/id/VVBEQVRFOiBVTk1AQllPRA",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "ransomware"
-        ],
-        "summary": "We are offering the decryption key for the remaining of locked devices for free (ONLY for the hospital sector) we did not know that it was running machines related to assisting patients in real-time, (we would keep it locked if it was appointments, patient information + research data only), we are still going to keep the data, but we will provide the decryption key for the hospital sector only. Feel free to contact us on Session. To any patient that was affected, please provide us proof, and we ",
-        "published_at": "2026-10-27T18:50:58",
-        "score": 20
-      },
-      {
-        "guid": "1060c59a570f3394",
-        "title": "UNM Health ransomware attack disrupts patient care, surgeries",
-        "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
-        "source": "Bleeping Computer",
+        "guid": "f990bd997f868ec4",
+        "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+        "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
+          "cve",
           "malware",
-          "ransomware"
+          "vulnerability"
         ],
-        "summary": "L'Université de New Mexico a signalé un incident informatique affectant les systèmes et perturbant le soin aux patients et l'activité académique.",
-        "published_at": "2026-10-27T18:07:34",
+        "summary": "Un défaut critique de 16 ans dans EDK II, utilisé par la plupart des fabricants pour construire le firmware UEFI, permet à un attaquant d'exécuter du code avant l'installation du système d'exploitation lors du boot réseau.",
+        "published_at": "2026-10-28T17:20:00",
         "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "80dad0e5694396e5",
-        "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-        "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-        "source": "The Hacker News",
+        "guid": "66fd54af662bda77",
+        "title": "Japan Airlines warns of data breach as country grapples with multiple cyber incidents",
+        "url": "https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Japan Airlines a alerté sur une violation de données ayant compromis des numéros de passeport, de cartes de fidélité, des adresses électroniques et des numéros de téléphone pour environ 2 000 clients.",
+        "published_at": "2026-10-28T20:33:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "d7645cd69928effa",
+        "title": "UK to look at making software companies liable for cyber breaches",
+        "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le budget britannique prévoit d'examiner la responsabilité des fabricants de logiciels en cas de violation de données, ce qui pourrait marquer un tournant pour le Royaume-Uni.",
+        "published_at": "2026-10-28T15:37:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "510703fd824eaf0d",
+        "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+        "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Keystone a déclaré que des hackers ont accédé à sa clé de vérification des dispositifs d'hardware wallet, mettant en danger la sécurité des transactions cryptographiques.",
-        "published_at": "2026-10-27T17:16:00",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "306ee697fcd0f5ab",
-        "title": "Hackers hijack Convertr analytics script to steal payment card data",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "cve"
-        ],
-        "summary": "Des hackers ont compromis un script d'analytics partagé chez Convertr pour voler les données de carte de paiement des acheteurs au cours du processus de règlement.",
-        "published_at": "2026-10-27T16:57:25",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "312aca29591fc184",
-        "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "patch"
-        ],
-        "summary": "Microsoft a publié des mises à jour OOB pour désigner les certificats compromis de eMudhra non fiables, renforçant ainsi la sécurité des systèmes.",
-        "published_at": "2026-10-27T14:20:28",
+        "summary": "Sony Network Communications a confirmé une violation de données ayant compromis des informations personnelles de 2,5 millions de clients actuels et anciens.",
+        "published_at": "2026-10-28T12:45:47",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 70,
+    "items_analyzed": 57,
     "items_selected": 14,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 11,
+    "cves_total": 5,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
