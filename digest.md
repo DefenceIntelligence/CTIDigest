@@ -1,108 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 29 octobre 2026
+# 🛡️ ARGOS CTI Digest — 30 octobre 2026
 
-> Généré le 29/10/2026 à 03:01 UTC  ·  57 items analysés  ·  14 sélectionnés  ·  22 sources actives
+> Généré le 30/10/2026 à 03:02 UTC  ·  71 items analysés  ·  17 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](https://blog.talosintelligence.com/uat-11473-keydrift/)
-**Source :** Cisco Talos  **Publié :** 28/10/2026 21:32 UTC  **CVE :** `CVE-2026-20127`
-`apt` `cve` `vulnerability`
-Talos a identifié UAT-11473, un APT sophistiqué, qui a exploité CVE-2026-20127 pour contourner l'authentification et accéder illégalement à des systèmes Cisco SD-WAN.
-
----
-
-### [Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch](https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 18:18 UTC  **CVE :** `CVE-2026-101767`
-`apt` `cve` `vulnerability`
-Threat actors cherchent à exploiter une vulnérabilité récemment corrigée dans Oracle E-Business Suite (CVE-2026-101767).
-
----
-
-### [Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass](https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 16:45 UTC  **CVE :** `CVE-2026-104351`
+### [Hitachi Energy TRO600 series products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02)
+**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-10756`, `CVE-2026-106087`
 `cve` `vulnerability`
-Adobe a corrigé huit vulnérabilités critiques dans Campaign Classic, potentiellement permettant l'exécution de code arbitraire.
+Hitachi Energy est conscient des vulnérabilités affectant la série TRO600. Elles permettent une exécution de code distant et un accès aux informations sensibles.
 
 ---
 
-### [ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws](https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 11:34 UTC  **CVE :** `CVE-2026-35273`
+### [Hitachi Energy CoreTec Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03)
+**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-43284`, `CVE-2026-13162`
 `cve` `vulnerability`
-La vulnérabilité Oracle PeopleSoft exploitée par ShinyHunters est révélée comme composée de trois failles liées.
+Hitachi Energy a identifié des vulnérabilités OS command injection et Dirty Frag affectant son produit CoreTec. Une exploitation réussie pourrait compromettre la confidentialité, l'intégrité et la disponibilité du produit.
 
 ---
 
-### [Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges](https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 11:12 UTC  **CVE :** `CVE-2026-111497`
-`breach` `cve` `vulnerability`
-Adobe Commerce et Magento, ainsi que Google's Brotli decoder library, ont des vulnérabilités exploitées activement.
+### [Siemens Mendix SAML Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01)
+**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-89209`
+`apt` `cve` `vulnerability`
+La module SAML de Mendix d'Siemens contient une vulnérabilité permettant un accès non authentifié. Mettez à jour vers les versions les plus récentes.
+
+---
+
+### [Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions](https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 21:27 UTC  **CVE :** `CVE-2026-98432`
+`cve` `malware` `vulnerability`
+Une faille critique dans le code TCP du noyau Linux, affectant Ubuntu et d'autres distributions, permet une exécution de commandes en tant que root par un attaquant distant.
+
+---
+
+### [Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls](https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 16:14 UTC  **CVE :** `CVE-2026-76418`
+`apt` `cve` `malware` `vulnerability`
+Cisco a corrigé un vulnérabilité exploité dans la sauvagerie, affectant l'ASA et FTD. Une exploitation réussie pourrait perturber les pare-feu.
+
+---
+
+### [Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/)
+**Source :** Bleeping Computer  **Publié :** 29/10/2026 14:38 UTC  **CVE :** `CVE-2026-20127`
+`apt` `cve` `malware` `vulnerability`
+Une groupe APT a exploité une vulnérabilité d'authentification dans le contrôleur Catalyst SD-WAN de Cisco pour déployer malware KeyDrift.
+
+---
+
+### [Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open](https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 14:35 UTC  **CVE :** `CVE-2026-97229`
+`cve` `malware` `vulnerability`
+Un attaquant a tenté d'exploiter une vulnérabilité critique sur le serveur GitLab d'Alpine Linux, affectant Ruby. Aucune preuve que l'attaque a réussi.
+
+---
+
+### [China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 11:52 UTC  **CVE :** `CVE-2026-41709`
+`apt` `cve` `vulnerability`
+Des hackers chinois ont exploité une vulnérabilité zéro-jour de VMware ESX pour réduire la traçabilité des audits dans les attaques ciblant le secteur juridique américain.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns](https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 23:38 UTC
-`apt` `breach` `cve` `malware`
-Volt Typhoon a utilisé un réseau d'accès secret pour exploiter des zéros-jour et obtenir un accès stratégique.
-
----
-
-### [Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.](https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 22:38 UTC
-`malware`
-Google permet désormais l'installation à une pression de bouton d'applications Android issues de magasins tiers aux États-Unis.
-
----
-
-### [PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network](https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 21:32 UTC
-`apt` `breach` `cve` `malware` `vulnerability`
-Un acteur suspect a exploité PHP2Shell et un exploit de privilèges pour infiltrer 25 serveurs, y compris des réseaux gouvernementaux américains.
-
----
-
-### [🏴‍☠️ Genesis has just published a new victim : A&B Lab](https://www.ransomware.live/id/QSZCIExhYkBnZW5lc2lz)
-**Source :** Ransomware.live News  **Publié :** 28/10/2026 20:53 UTC
-`malware`
-Genesis a ciblé une nouvelle victime : A&B Lab, fournisseur de services d'essais.
-
----
-
-### [European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance](https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance)
-**Source :** The Record  **Publié :** 28/10/2026 18:02 UTC
-`malware`
-Noyb poursuit Scale AI pour la surveillance intrusive des travailleurs indépendants.
-
----
-
-### [Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers](https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html)
-**Source :** The Hacker News  **Publié :** 28/10/2026 17:20 UTC
+### [ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 00:41 UTC
 `cve` `malware` `vulnerability`
-Un défaut critique de 16 ans dans EDK II, utilisé par la plupart des fabricants pour construire le firmware UEFI, permet à un attaquant d'exécuter du code avant l'installation du système d'exploitation lors du boot réseau.
+Des vulnérabilités critiques de pare-feu, trojans bancaires loués, PDF armés et vol de jetons figurent parmi les histoires de cette semaine. Des tactiques sophistiquées côtoient des erreurs de confiance.
+
+---
+
+### [Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners](https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 20:50 UTC
+`apt` `malware`
+Threat actors délivrent des mineurs crypto sous le nom d'applications d'IA comme ChatGPT et Claude, dans une campagne appelée Yoba.
+
+---
+
+### [🏴‍☠️ Everstake has just published a new victim : corp-smart.com](https://www.ransomware.live/id/Y29ycC1zbWFydC5jb21AZXZlcnN0YWtl)
+**Source :** Ransomware.live News  **Publié :** 29/10/2026 20:23 UTC
+`malware`
+Everstake a victime une nouvelle entreprise nommée corp-smart.com.
+
+---
+
+### [Hugging Face malware campaign returns to hijack GPUs for crypto mining](https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/)
+**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:09 UTC
+`malware`
+Une campagne de crypto-minage abuse de modèles Hugging Face et utilise des backdoors. Un kit Solana falsifié sur GitHub sert à installer un NetSupport RAT.
+
+---
+
+### [The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers](https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html)
+**Source :** The Hacker News  **Publié :** 29/10/2026 17:03 UTC
+`malware`
+L'opérateur de menaces utilise AI pour redefinir les SOCs, automatisant l'analyse et la réponse aux alertes.
+
+---
+
+### [🏴‍☠️ Emperador has just published a new victim : LA PROFUMERIA SRL](https://www.ransomware.live/id/TEEgUFJPRlVNRVJJQSBTUkxAZW1wZXJhZG9y)
+**Source :** Ransomware.live News  **Publié :** 29/10/2026 16:53 UTC
+`malware`
+Une entreprise italienne du secteur de la parfumerie a été victime d'une publication d'informations personnelles et professionnelles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Japan Airlines warns of data breach as country grapples with multiple cyber incidents](https://therecord.media/japan-airlines-warns-of-breach-country-grapples-with-incidents)
-**Source :** The Record  **Publié :** 28/10/2026 20:33 UTC  **Score :** 35
-`breach`
-Japan Airlines a alerté sur une violation de données ayant compromis des numéros de passeport, de cartes de fidélité, des adresses électroniques et des numéros de téléphone pour environ 2 000 clients.
+### 1. [Limited reports of PHP bug exploitation emerge](https://therecord.media/php2shell-successful-exploitation-reports-emerge)
+**Source :** The Record  **Publié :** 29/10/2026 20:01 UTC  **Score :** 35
+`breach` `cve`
+Des exploitations potentielles de bugs PHP2Shell sont rapportées, ainsi qu'un campagne chinoise suspecte visant des serveurs gouvernementaux américains.
 
-### 2. [UK to look at making software companies liable for cyber breaches](https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches)
-**Source :** The Record  **Publié :** 28/10/2026 15:37 UTC  **Score :** 35
+### 2. [Binance probes potential $5.8 billion crypto-theft hack](https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/)
+**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:45 UTC  **Score :** 25
 `breach`
-Le budget britannique prévoit d'examiner la responsabilité des fabricants de logiciels en cas de violation de données, ce qui pourrait marquer un tournant pour le Royaume-Uni.
+Binance enquête sur un vol cryptomonnaie potentiel impliquant jusqu'à 5,8 milliards de dollars.
 
-### 3. [Sony ISP subsidiary data breach exposes 2.5 million customer records](https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/)
-**Source :** Bleeping Computer  **Publié :** 28/10/2026 12:45 UTC  **Score :** 25
+### 3. [Japan Airlines suffers third-party data breach exposing passenger info](https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/)
+**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:08 UTC  **Score :** 25
 `breach`
-Sony Network Communications a confirmé une violation de données ayant compromis des informations personnelles de 2,5 millions de clients actuels et anciens.
+Un fuite de données à Japan Airlines expose les informations de 92 000 passagers via le système Amadeus.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-29.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-30.md`*
