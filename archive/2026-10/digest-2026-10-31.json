@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T03:01:27.146454+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "7ad277e77273f955",
+        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-118539"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Drupal a mis en garde contre l'exploitation d'une vulnérabilité critique dans son composant Commerce Core.",
+        "published_at": "2026-10-30T13:15:30",
+        "score": 20
+      },
+      {
+        "guid": "2096ff842153c6d7",
+        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-97229"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La CISA a ajouté deux vulnérabilités exploitées activement par GitLab et Cisco aux Known Exploited Vulnerabilities (KEV).",
+        "published_at": "2026-10-30T12:57:05",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "9c93167e66b3fda1",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Studio Stelitano e Associati",
+        "url": "https://www.ransomware.live/id/U3R1ZGlvIFN0ZWxpdGFubyBlIEFzc29jaWF0aUBlbXBlcmFkb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le groupe Emperador a ciblé Studio Stelitano e Associati, une firme consultative italienne.",
+        "published_at": "2026-10-30T23:27:04",
+        "score": 12
+      },
+      {
+        "guid": "c892611f38f65f87",
+        "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+        "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Des hackers chinois utilisent ARTEX, un outil de test d'intrusion basé sur l'IA, pour cibler des organisations mondiales.",
+        "published_at": "2026-10-30T22:28:44",
+        "score": 17
+      },
+      {
+        "guid": "7d0fd4a2a492515c",
+        "title": "🏴‍☠️ Whitearmor has just published a new victim : KTU Shipyard",
+        "url": "https://www.ransomware.live/id/S1RVIFNoaXB5YXJkQFdoaXRlYXJtb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a infecté KTU Shipyard, une société de construction navale indonésienne.",
+        "published_at": "2026-10-30T21:38:47",
+        "score": 12
+      },
+      {
+        "guid": "45b1d647dd4b75e7",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Moritt Hock & Hamroff LLP",
+        "url": "https://www.ransomware.live/id/TW9yaXR0IEhvY2sgJiBIYW1yb2ZmIExMUEBTaWxlbnRSYW5zb21Hcm91cA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Moritt Hock & Hamroff LLP, un cabinet juridique américain, a été victime d'une ransomware.",
+        "published_at": "2026-10-30T21:37:51",
+        "score": 12
+      },
+      {
+        "guid": "6bcecf67047d5f0e",
+        "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+        "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un grand poisson-poisson (bigfin squid) a été repéré pour la première fois dans l'océan Pacifique nord-est.",
+        "published_at": "2026-10-30T21:04:36",
+        "score": 17
+      },
+      {
+        "guid": "a4649a0eab03f6bf",
+        "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+        "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors ont tenté d'exploiter une vulnérabilité de type RCE dans WordPress, provoquant près de 63 000 attaques.",
+        "published_at": "2026-10-30T19:38:14",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d85604b099e6e2e1",
+        "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+        "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un breach du site Florida Student Financial Aid a exposé les informations de 4,9 millions de personnes.",
+        "published_at": "2026-10-30T15:54:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "dd794045f469e389",
+        "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+        "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans TeamViewer permet aux machines contrôlées d'attaquer celles qui les contrôlent.",
+        "published_at": "2026-10-30T20:47:28",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "95d518a924a5b94d",
+        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Binance a signalé un incident de sécurité qui a affecté environ 6,3 milliards de dollars d'actifs. Près de 3 milliards de dollars sont gelés sur la chaîne.",
+        "published_at": "2026-10-30T09:44:59",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 71,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
