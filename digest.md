@@ -1,129 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 30 octobre 2026
+# 🛡️ ARGOS CTI Digest — 31 octobre 2026
 
-> Généré le 30/10/2026 à 03:02 UTC  ·  71 items analysés  ·  17 sélectionnés  ·  22 sources actives
+> Généré le 31/10/2026 à 03:01 UTC  ·  71 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hitachi Energy TRO600 series products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02)
-**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-10756`, `CVE-2026-106087`
-`cve` `vulnerability`
-Hitachi Energy est conscient des vulnérabilités affectant la série TRO600. Elles permettent une exécution de code distant et un accès aux informations sensibles.
-
----
-
-### [Hitachi Energy CoreTec Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03)
-**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-43284`, `CVE-2026-13162`
-`cve` `vulnerability`
-Hitachi Energy a identifié des vulnérabilités OS command injection et Dirty Frag affectant son produit CoreTec. Une exploitation réussie pourrait compromettre la confidentialité, l'intégrité et la disponibilité du produit.
-
----
-
-### [Siemens Mendix SAML Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01)
-**Source :** CISA Advisories  **Publié :** 29/10/2026 12:00 UTC  **CVE :** `CVE-2026-89209`
+### [Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw](https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 13:15 UTC  **CVE :** `CVE-2026-118539`
 `apt` `cve` `vulnerability`
-La module SAML de Mendix d'Siemens contient une vulnérabilité permettant un accès non authentifié. Mettez à jour vers les versions les plus récentes.
+Drupal a mis en garde contre l'exploitation d'une vulnérabilité critique dans son composant Commerce Core.
 
 ---
 
-### [Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions](https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 21:27 UTC  **CVE :** `CVE-2026-98432`
-`cve` `malware` `vulnerability`
-Une faille critique dans le code TCP du noyau Linux, affectant Ubuntu et d'autres distributions, permet une exécution de commandes en tant que root par un attaquant distant.
-
----
-
-### [Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls](https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 16:14 UTC  **CVE :** `CVE-2026-76418`
-`apt` `cve` `malware` `vulnerability`
-Cisco a corrigé un vulnérabilité exploité dans la sauvagerie, affectant l'ASA et FTD. Une exploitation réussie pourrait perturber les pare-feu.
-
----
-
-### [Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware](https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/)
-**Source :** Bleeping Computer  **Publié :** 29/10/2026 14:38 UTC  **CVE :** `CVE-2026-20127`
-`apt` `cve` `malware` `vulnerability`
-Une groupe APT a exploité une vulnérabilité d'authentification dans le contrôleur Catalyst SD-WAN de Cisco pour déployer malware KeyDrift.
-
----
-
-### [Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open](https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 14:35 UTC  **CVE :** `CVE-2026-97229`
-`cve` `malware` `vulnerability`
-Un attaquant a tenté d'exploiter une vulnérabilité critique sur le serveur GitLab d'Alpine Linux, affectant Ruby. Aucune preuve que l'attaque a réussi.
-
----
-
-### [China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility](https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 11:52 UTC  **CVE :** `CVE-2026-41709`
-`apt` `cve` `vulnerability`
-Des hackers chinois ont exploité une vulnérabilité zéro-jour de VMware ESX pour réduire la traçabilité des audits dans les attaques ciblant le secteur juridique américain.
+### [CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV](https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 12:57 UTC  **CVE :** `CVE-2026-97229`
+`cve` `vulnerability`
+La CISA a ajouté deux vulnérabilités exploitées activement par GitLab et Cisco aux Known Exploited Vulnerabilities (KEV).
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories](https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 00:41 UTC
-`cve` `malware` `vulnerability`
-Des vulnérabilités critiques de pare-feu, trojans bancaires loués, PDF armés et vol de jetons figurent parmi les histoires de cette semaine. Des tactiques sophistiquées côtoient des erreurs de confiance.
+### [🏴‍☠️ Emperador has just published a new victim : Studio Stelitano e Associati](https://www.ransomware.live/id/U3R1ZGlvIFN0ZWxpdGFubyBlIEFzc29jaWF0aUBlbXBlcmFkb3I)
+**Source :** Ransomware.live News  **Publié :** 30/10/2026 23:27 UTC
+`malware`
+Le groupe Emperador a ciblé Studio Stelitano e Associati, une firme consultative italienne.
 
 ---
 
-### [Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners](https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 20:50 UTC
+### [Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide](https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 22:28 UTC
 `apt` `malware`
-Threat actors délivrent des mineurs crypto sous le nom d'applications d'IA comme ChatGPT et Claude, dans une campagne appelée Yoba.
+Des hackers chinois utilisent ARTEX, un outil de test d'intrusion basé sur l'IA, pour cibler des organisations mondiales.
 
 ---
 
-### [🏴‍☠️ Everstake has just published a new victim : corp-smart.com](https://www.ransomware.live/id/Y29ycC1zbWFydC5jb21AZXZlcnN0YWtl)
-**Source :** Ransomware.live News  **Publié :** 29/10/2026 20:23 UTC
+### [🏴‍☠️ Whitearmor has just published a new victim : KTU Shipyard](https://www.ransomware.live/id/S1RVIFNoaXB5YXJkQFdoaXRlYXJtb3I)
+**Source :** Ransomware.live News  **Publié :** 30/10/2026 21:38 UTC
 `malware`
-Everstake a victime une nouvelle entreprise nommée corp-smart.com.
+Silentransomgroup a infecté KTU Shipyard, une société de construction navale indonésienne.
 
 ---
 
-### [Hugging Face malware campaign returns to hijack GPUs for crypto mining](https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/)
-**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:09 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Moritt Hock & Hamroff LLP](https://www.ransomware.live/id/TW9yaXR0IEhvY2sgJiBIYW1yb2ZmIExMUEBTaWxlbnRSYW5zb21Hcm91cA)
+**Source :** Ransomware.live News  **Publié :** 30/10/2026 21:37 UTC
 `malware`
-Une campagne de crypto-minage abuse de modèles Hugging Face et utilise des backdoors. Un kit Solana falsifié sur GitHub sert à installer un NetSupport RAT.
+Moritt Hock & Hamroff LLP, un cabinet juridique américain, a été victime d'une ransomware.
 
 ---
 
-### [The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers](https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html)
-**Source :** The Hacker News  **Publié :** 29/10/2026 17:03 UTC
+### [Friday Squid Blogging: Bigfin Squid Off California Coast](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html)
+**Source :** Schneier on Security  **Publié :** 30/10/2026 21:04 UTC
 `malware`
-L'opérateur de menaces utilise AI pour redefinir les SOCs, automatisant l'analyse et la réponse aux alertes.
+Un grand poisson-poisson (bigfin squid) a été repéré pour la première fois dans l'océan Pacifique nord-est.
 
 ---
 
-### [🏴‍☠️ Emperador has just published a new victim : LA PROFUMERIA SRL](https://www.ransomware.live/id/TEEgUFJPRlVNRVJJQSBTUkxAZW1wZXJhZG9y)
-**Source :** Ransomware.live News  **Publié :** 29/10/2026 16:53 UTC
-`malware`
-Une entreprise italienne du secteur de la parfumerie a été victime d'une publication d'informations personnelles et professionnelles.
+### [WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours](https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 19:38 UTC
+`apt` `cve` `vulnerability`
+Threat actors ont tenté d'exploiter une vulnérabilité de type RCE dans WordPress, provoquant près de 63 000 attaques.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Limited reports of PHP bug exploitation emerge](https://therecord.media/php2shell-successful-exploitation-reports-emerge)
-**Source :** The Record  **Publié :** 29/10/2026 20:01 UTC  **Score :** 35
-`breach` `cve`
-Des exploitations potentielles de bugs PHP2Shell sont rapportées, ainsi qu'un campagne chinoise suspecte visant des serveurs gouvernementaux américains.
-
-### 2. [Binance probes potential $5.8 billion crypto-theft hack](https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/)
-**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:45 UTC  **Score :** 25
+### 1. [Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach](https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach)
+**Source :** The Record  **Publié :** 30/10/2026 15:54 UTC  **Score :** 35
 `breach`
-Binance enquête sur un vol cryptomonnaie potentiel impliquant jusqu'à 5,8 milliards de dollars.
+Un breach du site Florida Student Financial Aid a exposé les informations de 4,9 millions de personnes.
 
-### 3. [Japan Airlines suffers third-party data breach exposing passenger info](https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/)
-**Source :** Bleeping Computer  **Publié :** 29/10/2026 18:08 UTC  **Score :** 25
+### 2. [TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them](https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 20:47 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Une vulnérabilité dans TeamViewer permet aux machines contrôlées d'attaquer celles qui les contrôlent.
+
+### 3. [Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen](https://thehackernews.com/2026/10/binance-suffers-security-breach.html)
+**Source :** The Hacker News  **Publié :** 30/10/2026 09:44 UTC  **Score :** 25
 `breach`
-Un fuite de données à Japan Airlines expose les informations de 92 000 passagers via le système Amadeus.
+Binance a signalé un incident de sécurité qui a affecté environ 6,3 milliards de dollars d'actifs. Près de 3 milliards de dollars sont gelés sur la chaîne.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-30.md`*
+*Archivé dans `/archive/2026-10/digest-2026-10-31.md`*
