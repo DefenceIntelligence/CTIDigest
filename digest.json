@@ -1,124 +1,32 @@
 {
   "schema_version": "1.0",
-  "date": "2026-10-30",
-  "generated_at": "2026-10-30T03:02:20.250539+00:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T03:01:27.146454+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "0a0eae7c5964b113",
-        "title": "Hitachi Energy TRO600 series products",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-10756",
-          "CVE-2026-106087"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Hitachi Energy est conscient des vulnérabilités affectant la série TRO600. Elles permettent une exécution de code distant et un accès aux informations sensibles.",
-        "published_at": "2026-10-29T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "c34fe583ad71b101",
-        "title": "Hitachi Energy CoreTec Product",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-43284",
-          "CVE-2026-13162"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Hitachi Energy a identifié des vulnérabilités OS command injection et Dirty Frag affectant son produit CoreTec. Une exploitation réussie pourrait compromettre la confidentialité, l'intégrité et la disponibilité du produit.",
-        "published_at": "2026-10-29T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "51f7ccfb6e1f8d12",
-        "title": "Siemens Mendix SAML Module",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-89209"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "La module SAML de Mendix d'Siemens contient une vulnérabilité permettant un accès non authentifié. Mettez à jour vers les versions les plus récentes.",
-        "published_at": "2026-10-29T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "46c3583a9ebffaa3",
-        "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-        "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+        "guid": "7ad277e77273f955",
+        "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+        "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-98432"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une faille critique dans le code TCP du noyau Linux, affectant Ubuntu et d'autres distributions, permet une exécution de commandes en tant que root par un attaquant distant.",
-        "published_at": "2026-10-29T21:27:05",
-        "score": 32
-      },
-      {
-        "guid": "1fdd22550f2397ff",
-        "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-        "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-76418"
+          "CVE-2026-118539"
         ],
         "tags": [
           "apt",
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Cisco a corrigé un vulnérabilité exploité dans la sauvagerie, affectant l'ASA et FTD. Une exploitation réussie pourrait perturber les pare-feu.",
-        "published_at": "2026-10-29T16:14:46",
-        "score": 32
+        "summary": "Drupal a mis en garde contre l'exploitation d'une vulnérabilité critique dans son composant Commerce Core.",
+        "published_at": "2026-10-30T13:15:30",
+        "score": 20
       },
       {
-        "guid": "897311d5a4d35b4c",
-        "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-20127"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une groupe APT a exploité une vulnérabilité d'authentification dans le contrôleur Catalyst SD-WAN de Cisco pour déployer malware KeyDrift.",
-        "published_at": "2026-10-29T14:38:26",
-        "score": 32
-      },
-      {
-        "guid": "58dbe2effe76e193",
-        "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-        "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+        "guid": "2096ff842153c6d7",
+        "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+        "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
@@ -126,53 +34,32 @@
         ],
         "tags": [
           "cve",
-          "malware",
           "vulnerability"
         ],
-        "summary": "Un attaquant a tenté d'exploiter une vulnérabilité critique sur le serveur GitLab d'Alpine Linux, affectant Ruby. Aucune preuve que l'attaque a réussi.",
-        "published_at": "2026-10-29T14:35:39",
-        "score": 32
-      },
-      {
-        "guid": "8542e515b918eea8",
-        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-        "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-41709"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des hackers chinois ont exploité une vulnérabilité zéro-jour de VMware ESX pour réduire la traçabilité des audits dans les attaques ciblant le secteur juridique américain.",
-        "published_at": "2026-10-29T11:52:33",
+        "summary": "La CISA a ajouté deux vulnérabilités exploitées activement par GitLab et Cisco aux Known Exploited Vulnerabilities (KEV).",
+        "published_at": "2026-10-30T12:57:05",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "9d65193f460595c6",
-        "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-        "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "9c93167e66b3fda1",
+        "title": "🏴‍☠️ Emperador has just published a new victim : Studio Stelitano e Associati",
+        "url": "https://www.ransomware.live/id/U3R1ZGlvIFN0ZWxpdGFubyBlIEFzc29jaWF0aUBlbXBlcmFkb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Des vulnérabilités critiques de pare-feu, trojans bancaires loués, PDF armés et vol de jetons figurent parmi les histoires de cette semaine. Des tactiques sophistiquées côtoient des erreurs de confiance.",
-        "published_at": "2026-10-30T00:41:58",
-        "score": 17
+        "summary": "Le groupe Emperador a ciblé Studio Stelitano e Associati, une firme consultative italienne.",
+        "published_at": "2026-10-30T23:27:04",
+        "score": 12
       },
       {
-        "guid": "e974516b85e936cc",
-        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-        "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+        "guid": "c892611f38f65f87",
+        "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+        "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -180,111 +67,114 @@
           "apt",
           "malware"
         ],
-        "summary": "Threat actors délivrent des mineurs crypto sous le nom d'applications d'IA comme ChatGPT et Claude, dans une campagne appelée Yoba.",
-        "published_at": "2026-10-29T20:50:29",
+        "summary": "Des hackers chinois utilisent ARTEX, un outil de test d'intrusion basé sur l'IA, pour cibler des organisations mondiales.",
+        "published_at": "2026-10-30T22:28:44",
         "score": 17
       },
       {
-        "guid": "b8628e47f76eb8ec",
-        "title": "🏴‍☠️ Everstake has just published a new victim : corp-smart.com",
-        "url": "https://www.ransomware.live/id/Y29ycC1zbWFydC5jb21AZXZlcnN0YWtl",
+        "guid": "7d0fd4a2a492515c",
+        "title": "🏴‍☠️ Whitearmor has just published a new victim : KTU Shipyard",
+        "url": "https://www.ransomware.live/id/S1RVIFNoaXB5YXJkQFdoaXRlYXJtb3I",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Everstake a victime une nouvelle entreprise nommée corp-smart.com.",
-        "published_at": "2026-10-29T20:23:13",
+        "summary": "Silentransomgroup a infecté KTU Shipyard, une société de construction navale indonésienne.",
+        "published_at": "2026-10-30T21:38:47",
         "score": 12
       },
       {
-        "guid": "ff8f9c277c92cb55",
-        "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
-        "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
-        "source": "Bleeping Computer",
+        "guid": "45b1d647dd4b75e7",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Moritt Hock & Hamroff LLP",
+        "url": "https://www.ransomware.live/id/TW9yaXR0IEhvY2sgJiBIYW1yb2ZmIExMUEBTaWxlbnRSYW5zb21Hcm91cA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Moritt Hock & Hamroff LLP, un cabinet juridique américain, a été victime d'une ransomware.",
+        "published_at": "2026-10-30T21:37:51",
+        "score": 12
+      },
+      {
+        "guid": "6bcecf67047d5f0e",
+        "title": "Friday Squid Blogging: Bigfin Squid Off California Coast",
+        "url": "https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html",
+        "source": "Schneier on Security",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Une campagne de crypto-minage abuse de modèles Hugging Face et utilise des backdoors. Un kit Solana falsifié sur GitHub sert à installer un NetSupport RAT.",
-        "published_at": "2026-10-29T18:09:24",
+        "summary": "Un grand poisson-poisson (bigfin squid) a été repéré pour la première fois dans l'océan Pacifique nord-est.",
+        "published_at": "2026-10-30T21:04:36",
         "score": 17
       },
       {
-        "guid": "12ffe8e0b54ca004",
-        "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-        "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+        "guid": "a4649a0eab03f6bf",
+        "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+        "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "malware"
+          "apt",
+          "cve",
+          "vulnerability"
         ],
-        "summary": "L'opérateur de menaces utilise AI pour redefinir les SOCs, automatisant l'analyse et la réponse aux alertes.",
-        "published_at": "2026-10-29T17:03:41",
-        "score": 17
-      },
-      {
-        "guid": "5846e79c5b211248",
-        "title": "🏴‍☠️ Emperador has just published a new victim : LA PROFUMERIA SRL",
-        "url": "https://www.ransomware.live/id/TEEgUFJPRlVNRVJJQSBTUkxAZW1wZXJhZG9y",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Une entreprise italienne du secteur de la parfumerie a été victime d'une publication d'informations personnelles et professionnelles.",
-        "published_at": "2026-10-29T16:53:34",
-        "score": 12
+        "summary": "Threat actors ont tenté d'exploiter une vulnérabilité de type RCE dans WordPress, provoquant près de 63 000 attaques.",
+        "published_at": "2026-10-30T19:38:14",
+        "score": 5
       }
     ],
     "top_reads": [
       {
-        "guid": "7661e05f89da75c8",
-        "title": "Limited reports of PHP bug exploitation emerge",
-        "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+        "guid": "d85604b099e6e2e1",
+        "title": "Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach",
+        "url": "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
-          "breach",
-          "cve"
+          "breach"
         ],
-        "summary": "Des exploitations potentielles de bugs PHP2Shell sont rapportées, ainsi qu'un campagne chinoise suspecte visant des serveurs gouvernementaux américains.",
-        "published_at": "2026-10-29T20:01:25",
+        "summary": "Un breach du site Florida Student Financial Aid a exposé les informations de 4,9 millions de personnes.",
+        "published_at": "2026-10-30T15:54:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "b5862a65c3317dbd",
-        "title": "Binance probes potential $5.8 billion crypto-theft hack",
-        "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
-        "source": "Bleeping Computer",
+        "guid": "dd794045f469e389",
+        "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+        "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "cve",
+          "vulnerability"
         ],
-        "summary": "Binance enquête sur un vol cryptomonnaie potentiel impliquant jusqu'à 5,8 milliards de dollars.",
-        "published_at": "2026-10-29T18:45:23",
+        "summary": "Une vulnérabilité dans TeamViewer permet aux machines contrôlées d'attaquer celles qui les contrôlent.",
+        "published_at": "2026-10-30T20:47:28",
         "score": 25,
         "rank": 2
       },
       {
-        "guid": "69f36de968abdf21",
-        "title": "Japan Airlines suffers third-party data breach exposing passenger info",
-        "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
-        "source": "Bleeping Computer",
+        "guid": "95d518a924a5b94d",
+        "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+        "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Un fuite de données à Japan Airlines expose les informations de 92 000 passagers via le système Amadeus.",
-        "published_at": "2026-10-29T18:08:04",
+        "summary": "Binance a signalé un incident de sécurité qui a affecté environ 6,3 milliards de dollars d'actifs. Près de 3 milliards de dollars sont gelés sur la chaîne.",
+        "published_at": "2026-10-30T09:44:59",
         "score": 25,
         "rank": 3
       }
@@ -292,10 +182,10 @@
   },
   "meta": {
     "items_analyzed": 71,
-    "items_selected": 17,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 22,
-    "cves_total": 10,
+    "cves_total": 2,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
