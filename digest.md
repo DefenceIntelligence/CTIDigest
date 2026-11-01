@@ -1,87 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 31 octobre 2026
+# 🛡️ ARGOS CTI Digest — 1 novembre 2026
 
-> Généré le 31/10/2026 à 03:01 UTC  ·  71 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 01/11/2026 à 03:01 UTC  ·  61 items analysés  ·  11 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw](https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 13:15 UTC  **CVE :** `CVE-2026-118539`
-`apt` `cve` `vulnerability`
-Drupal a mis en garde contre l'exploitation d'une vulnérabilité critique dans son composant Commerce Core.
+### [Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access](https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html)
+**Source :** The Hacker News  **Publié :** 31/10/2026 13:57 UTC  **CVE :** `CVE-2026-111357`
+`cve` `vulnerability`
+CISA a ajouté deux vulnérabilités d’Ivanti Connect Secure à son catalogue KEV, car elles sont activement exploitées.
 
 ---
 
-### [CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV](https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 12:57 UTC  **CVE :** `CVE-2026-97229`
+### [New Android SMS of Death exploit can remotely crash unpatched phones](https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/)
+**Source :** Bleeping Computer  **Publié :** 31/10/2026 11:35 UTC  **CVE :** `CVE-2026-58882`
 `cve` `vulnerability`
-La CISA a ajouté deux vulnérabilités exploitées activement par GitLab et Cisco aux Known Exploited Vulnerabilities (KEV).
+Un chercheur a publié un proof-of-concept pour l'exploit "SMS of Death", qui peut faire planter un téléphone Android.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Emperador has just published a new victim : Studio Stelitano e Associati](https://www.ransomware.live/id/U3R1ZGlvIFN0ZWxpdGFubyBlIEFzc29jaWF0aUBlbXBlcmFkb3I)
-**Source :** Ransomware.live News  **Publié :** 30/10/2026 23:27 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : System Soft](https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl)
+**Source :** Ransomware.live News  **Publié :** 31/10/2026 19:04 UTC
+`ransomware`
+Vexy ransomware a ciblé System Soft, une entreprise colombienne de services IT.
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : JHAMF Group](https://www.ransomware.live/id/SkhBTUYgR3JvdXBAVmV4eSBSYW5zb213YXJl)
+**Source :** Ransomware.live News  **Publié :** 31/10/2026 19:04 UTC
+`ransomware`
+JHAMF Group, une entreprise colombienne, est la nouvelle victime du ransomware Vexy.
+
+---
+
+### [🏴‍☠️ Payload has just published a new victim : Straze Garden Center](https://www.ransomware.live/id/U3RyYXplIEdhcmRlbiBDZW50ZXJAcGF5bG9hZA)
+**Source :** Ransomware.live News  **Publié :** 31/10/2026 14:31 UTC
 `malware`
-Le groupe Emperador a ciblé Studio Stelitano e Associati, une firme consultative italienne.
+Straze Garden Center, une entreprise de jardinerie en Allemagne, a été victime d’une rançon_logiciel.
 
 ---
 
-### [Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide](https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 22:28 UTC
-`apt` `malware`
-Des hackers chinois utilisent ARTEX, un outil de test d'intrusion basé sur l'IA, pour cibler des organisations mondiales.
+### [🏴‍☠️ Payload has just published a new victim : SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH)](https://www.ransomware.live/id/U0FMRUcgKFNhY2hzZW4tQW5oYWx0aXNjaGUgTGFuZGVzZW50d2lja2x1bmdzZ2VzZWxsc2NoYWZ0IG1iSClAcGF5bG9hZA)
+**Source :** Ransomware.live News  **Publié :** 31/10/2026 14:28 UTC
+`cve` `malware`
+SALEG, une entreprise de développement foncier en Allemagne, est la nouvelle cible d’un ransomware.
 
 ---
 
-### [🏴‍☠️ Whitearmor has just published a new victim : KTU Shipyard](https://www.ransomware.live/id/S1RVIFNoaXB5YXJkQFdoaXRlYXJtb3I)
-**Source :** Ransomware.live News  **Publié :** 30/10/2026 21:38 UTC
+### [🏴‍☠️ Rhysida has just published a new victim : Phoenix Charter Academy](https://www.ransomware.live/id/UGhvZW5peCBDaGFydGVyIEFjYWRlbXlAcmh5c2lkYQ)
+**Source :** Ransomware.live News  **Publié :** 31/10/2026 12:35 UTC
+`malware` `ransomware`
+Rhysida a attaqué Phoenix Charter Academy, une école publique américaine, exposant des données importantes.
+
+---
+
+### [Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/)
+**Source :** Cisco Talos  **Publié :** 31/10/2026 12:00 UTC
 `malware`
-Silentransomgroup a infecté KTU Shipyard, une société de construction navale indonésienne.
-
----
-
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Moritt Hock & Hamroff LLP](https://www.ransomware.live/id/TW9yaXR0IEhvY2sgJiBIYW1yb2ZmIExMUEBTaWxlbnRSYW5zb21Hcm91cA)
-**Source :** Ransomware.live News  **Publié :** 30/10/2026 21:37 UTC
-`malware`
-Moritt Hock & Hamroff LLP, un cabinet juridique américain, a été victime d'une ransomware.
-
----
-
-### [Friday Squid Blogging: Bigfin Squid Off California Coast](https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-bigfin-squid-off-california-coast.html)
-**Source :** Schneier on Security  **Publié :** 30/10/2026 21:04 UTC
-`malware`
-Un grand poisson-poisson (bigfin squid) a été repéré pour la première fois dans l'océan Pacifique nord-est.
-
----
-
-### [WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours](https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 19:38 UTC
-`apt` `cve` `vulnerability`
-Threat actors ont tenté d'exploiter une vulnérabilité de type RCE dans WordPress, provoquant près de 63 000 attaques.
+VOLTA infostealer utilise des modèles pour cibler et classer les victimes en fonction de leur valeur.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Florida warns that 4.9 million people had Social Security numbers leaked in financial aid site breach](https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach)
-**Source :** The Record  **Publié :** 30/10/2026 15:54 UTC  **Score :** 35
+### 1. [Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data](https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html)
+**Source :** The Hacker News  **Publié :** 31/10/2026 17:31 UTC  **Score :** 25
 `breach`
-Un breach du site Florida Student Financial Aid a exposé les informations de 4,9 millions de personnes.
+Chainalysis a détecté un accès non autorisé à ses outils internes, sans impact sur les données clients sensibles.
 
-### 2. [TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them](https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 20:47 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Une vulnérabilité dans TeamViewer permet aux machines contrôlées d'attaquer celles qui les contrôlent.
-
-### 3. [Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen](https://thehackernews.com/2026/10/binance-suffers-security-breach.html)
-**Source :** The Hacker News  **Publié :** 30/10/2026 09:44 UTC  **Score :** 25
+### 2. [Northflank security breach leads to abuse of customers' AI API keys](https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/)
+**Source :** Bleeping Computer  **Publié :** 31/10/2026 14:01 UTC  **Score :** 25
 `breach`
-Binance a signalé un incident de sécurité qui a affecté environ 6,3 milliards de dollars d'actifs. Près de 3 milliards de dollars sont gelés sur la chaîne.
+Northflank conseille aux clients de renouveler leurs API clés après un vol d’identités utilisées par des pirates.
+
+### 3. [Chainalysis discloses data breach from "offensive agentic techniques"](https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/)
+**Source :** Bleeping Computer  **Publié :** 31/10/2026 08:50 UTC  **Score :** 25
+`breach`
+Chainalysis a révélé une vulnérabilité après un accès non autorisé grâce à des techniques offensives, exposant des informations personnelles et professionnelles de clients.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-10/digest-2026-10-31.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-01.md`*
