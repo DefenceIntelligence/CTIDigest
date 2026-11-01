@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T03:01:17.919922+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "325ef1a0a8ff4007",
+        "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+        "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111357"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté deux vulnérabilités d’Ivanti Connect Secure à son catalogue KEV, car elles sont activement exploitées.",
+        "published_at": "2026-10-31T13:57:43",
+        "score": 20
+      },
+      {
+        "guid": "827668b63fcccd1d",
+        "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+        "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-58882"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un chercheur a publié un proof-of-concept pour l'exploit \"SMS of Death\", qui peut faire planter un téléphone Android.",
+        "published_at": "2026-10-31T11:35:11",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "9499e31b7e5448b5",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : System Soft",
+        "url": "https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Vexy ransomware a ciblé System Soft, une entreprise colombienne de services IT.",
+        "published_at": "2026-10-31T19:04:42",
+        "score": 0
+      },
+      {
+        "guid": "944c8bb640fbdc2c",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : JHAMF Group",
+        "url": "https://www.ransomware.live/id/SkhBTUYgR3JvdXBAVmV4eSBSYW5zb213YXJl",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "JHAMF Group, une entreprise colombienne, est la nouvelle victime du ransomware Vexy.",
+        "published_at": "2026-10-31T19:04:20",
+        "score": 0
+      },
+      {
+        "guid": "1d45be3b62d0184e",
+        "title": "🏴‍☠️ Payload has just published a new victim : Straze Garden Center",
+        "url": "https://www.ransomware.live/id/U3RyYXplIEdhcmRlbiBDZW50ZXJAcGF5bG9hZA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Straze Garden Center, une entreprise de jardinerie en Allemagne, a été victime d’une rançon_logiciel.",
+        "published_at": "2026-10-31T14:31:26",
+        "score": 12
+      },
+      {
+        "guid": "57f5b0f347a5d550",
+        "title": "🏴‍☠️ Payload has just published a new victim : SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH)",
+        "url": "https://www.ransomware.live/id/U0FMRUcgKFNhY2hzZW4tQW5oYWx0aXNjaGUgTGFuZGVzZW50d2lja2x1bmdzZ2VzZWxsc2NoYWZ0IG1iSClAcGF5bG9hZA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "SALEG, une entreprise de développement foncier en Allemagne, est la nouvelle cible d’un ransomware.",
+        "published_at": "2026-10-31T14:28:42",
+        "score": 12
+      },
+      {
+        "guid": "fd3dba2db886d164",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Phoenix Charter Academy",
+        "url": "https://www.ransomware.live/id/UGhvZW5peCBDaGFydGVyIEFjYWRlbXlAcmh5c2lkYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Rhysida a attaqué Phoenix Charter Academy, une école publique américaine, exposant des données importantes.",
+        "published_at": "2026-10-31T12:35:39",
+        "score": 12
+      },
+      {
+        "guid": "9ab6916f92768b13",
+        "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "VOLTA infostealer utilise des modèles pour cibler et classer les victimes en fonction de leur valeur.",
+        "published_at": "2026-10-31T12:00:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "20e7a21ee42f7cec",
+        "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+        "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Chainalysis a détecté un accès non autorisé à ses outils internes, sans impact sur les données clients sensibles.",
+        "published_at": "2026-10-31T17:31:56",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "c6aef7c9c5125cd5",
+        "title": "Northflank security breach leads to abuse of customers' AI API keys",
+        "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Northflank conseille aux clients de renouveler leurs API clés après un vol d’identités utilisées par des pirates.",
+        "published_at": "2026-10-31T14:01:12",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "161a1186ff3186c3",
+        "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Chainalysis a révélé une vulnérabilité après un accès non autorisé grâce à des techniques offensives, exposant des informations personnelles et professionnelles de clients.",
+        "published_at": "2026-10-31T08:50:09",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 61,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
