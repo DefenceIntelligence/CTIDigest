@@ -1,87 +1,60 @@
-# 🛡️ ARGOS CTI Digest — 1 novembre 2026
+# 🛡️ ARGOS CTI Digest — 2 novembre 2026
 
-> Généré le 01/11/2026 à 03:01 UTC  ·  61 items analysés  ·  11 sélectionnés  ·  22 sources actives
+> Généré le 02/11/2026 à 03:00 UTC  ·  22 items analysés  ·  7 sélectionnés  ·  22 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access](https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html)
-**Source :** The Hacker News  **Publié :** 31/10/2026 13:57 UTC  **CVE :** `CVE-2026-111357`
-`cve` `vulnerability`
-CISA a ajouté deux vulnérabilités d’Ivanti Connect Secure à son catalogue KEV, car elles sont activement exploitées.
-
----
-
-### [New Android SMS of Death exploit can remotely crash unpatched phones](https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/)
-**Source :** Bleeping Computer  **Publié :** 31/10/2026 11:35 UTC  **CVE :** `CVE-2026-58882`
-`cve` `vulnerability`
-Un chercheur a publié un proof-of-concept pour l'exploit "SMS of Death", qui peut faire planter un téléphone Android.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : System Soft](https://www.ransomware.live/id/U3lzdGVtIFNvZnRAVmV4eSBSYW5zb213YXJl)
-**Source :** Ransomware.live News  **Publié :** 31/10/2026 19:04 UTC
+### [🏴‍☠️ Lockbit5 has just published a new victim : synergy.co.id](https://www.ransomware.live/id/c3luZXJneS5jby5pZEBsb2NrYml0NQ)
+**Source :** Ransomware.live News  **Publié :** 01/11/2026 19:27 UTC
 `ransomware`
-Vexy ransomware a ciblé System Soft, une entreprise colombienne de services IT.
+PT Synergy Risk Management Consultants a été victime de l'acteur Lockbit5.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : JHAMF Group](https://www.ransomware.live/id/SkhBTUYgR3JvdXBAVmV4eSBSYW5zb213YXJl)
-**Source :** Ransomware.live News  **Publié :** 31/10/2026 19:04 UTC
-`ransomware`
-JHAMF Group, une entreprise colombienne, est la nouvelle victime du ransomware Vexy.
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : Straze Garden Center](https://www.ransomware.live/id/U3RyYXplIEdhcmRlbiBDZW50ZXJAcGF5bG9hZA)
-**Source :** Ransomware.live News  **Publié :** 31/10/2026 14:31 UTC
-`malware`
-Straze Garden Center, une entreprise de jardinerie en Allemagne, a été victime d’une rançon_logiciel.
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : SALEG (Sachsen-Anhaltische Landesentwicklungsgesellschaft mbH)](https://www.ransomware.live/id/U0FMRUcgKFNhY2hzZW4tQW5oYWx0aXNjaGUgTGFuZGVzZW50d2lja2x1bmdzZ2VzZWxsc2NoYWZ0IG1iSClAcGF5bG9hZA)
-**Source :** Ransomware.live News  **Publié :** 31/10/2026 14:28 UTC
+### [🏴‍☠️ Whitearmor has just published a new victim : AmplifAI (GoDaddy instance)](https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQFdoaXRlYXJtb3I)
+**Source :** Ransomware.live News  **Publié :** 01/11/2026 13:58 UTC
 `cve` `malware`
-SALEG, une entreprise de développement foncier en Allemagne, est la nouvelle cible d’un ransomware.
+L'acteur Whitearmor a publié une nouvelle victime : une instance de GoDaddy nommée AmplifAI, avec des informations d'authentification et un ensemble de données d'utilisateurs.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Phoenix Charter Academy](https://www.ransomware.live/id/UGhvZW5peCBDaGFydGVyIEFjYWRlbXlAcmh5c2lkYQ)
-**Source :** Ransomware.live News  **Publié :** 31/10/2026 12:35 UTC
-`malware` `ransomware`
-Rhysida a attaqué Phoenix Charter Academy, une école publique américaine, exposant des données importantes.
-
----
-
-### [Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer](https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/)
-**Source :** Cisco Talos  **Publié :** 31/10/2026 12:00 UTC
+### [🏴‍☠️ Hyflock has just published a new victim : hitech group](https://www.ransomware.live/id/aGl0ZWNoIGdyb3VwQEhZRkxPQ0s)
+**Source :** Ransomware.live News  **Publié :** 01/11/2026 12:51 UTC
 `malware`
-VOLTA infostealer utilise des modèles pour cibler et classer les victimes en fonction de leur valeur.
+Hyflock a dévoilé une nouvelle victime : l'entreprise Hitech Group, opérant principalement en Inde.
+
+---
+
+### [NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection](https://thehackernews.com/2026/11/netamloader-malware-targets-government.html)
+**Source :** The Hacker News  **Publié :** 01/11/2026 12:32 UTC
+`malware`
+NetamLoader, un malware visant des systèmes Windows 10 gouvernementaux en Asie via une injection .NET, a été découvert par Kaspersky.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data](https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html)
-**Source :** The Hacker News  **Publié :** 31/10/2026 17:31 UTC  **Score :** 25
-`breach`
-Chainalysis a détecté un accès non autorisé à ses outils internes, sans impact sur les données clients sensibles.
+### 1. [Alpine Linux rebuilds GitLab after attempted RCE attack](https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/)
+**Source :** Bleeping Computer  **Publié :** 01/11/2026 10:11 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Alpine Linux a réparé GitLab après un essai d'attaque de type RCE sur sa infrastructure de développement le 20-21 octobre.
 
-### 2. [Northflank security breach leads to abuse of customers' AI API keys](https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/)
-**Source :** Bleeping Computer  **Publié :** 31/10/2026 14:01 UTC  **Score :** 25
-`breach`
-Northflank conseille aux clients de renouveler leurs API clés après un vol d’identités utilisées par des pirates.
+### 2. [FBI links $6.3 billion Binance crypto heist to North Korean hackers](https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/)
+**Source :** Bleeping Computer  **Publié :** 01/11/2026 14:57 UTC  **Score :** 5
+L'FBI a attribué au groupe North Korean TraderTraitor l'enlèvement cryptomonnaie de Binance pour 6,3 milliards de dollars.
 
-### 3. [Chainalysis discloses data breach from "offensive agentic techniques"](https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/)
-**Source :** Bleeping Computer  **Publié :** 31/10/2026 08:50 UTC  **Score :** 25
-`breach`
-Chainalysis a révélé une vulnérabilité après un accès non autorisé grâce à des techniques offensives, exposant des informations personnelles et professionnelles de clients.
+### 3. [CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key](https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html)
+**Source :** The Hacker News  **Publié :** 01/11/2026 14:21 UTC  **Score :** 5
+`vulnerability`
+Une faille critique dans LXD et MicroCloud de Canonical permet à un attaquant d'imiter un client sans sa clé privée.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-01.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-02.md`*
