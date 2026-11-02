@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T03:00:57.005097+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "53e586caf1649fa5",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : synergy.co.id",
+        "url": "https://www.ransomware.live/id/c3luZXJneS5jby5pZEBsb2NrYml0NQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "PT Synergy Risk Management Consultants a été victime de l'acteur Lockbit5.",
+        "published_at": "2026-11-01T19:27:52",
+        "score": 0
+      },
+      {
+        "guid": "15d127320a95770c",
+        "title": "🏴‍☠️ Whitearmor has just published a new victim : AmplifAI (GoDaddy instance)",
+        "url": "https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQFdoaXRlYXJtb3I",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "L'acteur Whitearmor a publié une nouvelle victime : une instance de GoDaddy nommée AmplifAI, avec des informations d'authentification et un ensemble de données d'utilisateurs.",
+        "published_at": "2026-11-01T13:58:21",
+        "score": 12
+      },
+      {
+        "guid": "a04b730794c3c574",
+        "title": "🏴‍☠️ Hyflock has just published a new victim : hitech group",
+        "url": "https://www.ransomware.live/id/aGl0ZWNoIGdyb3VwQEhZRkxPQ0s",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Hyflock a dévoilé une nouvelle victime : l'entreprise Hitech Group, opérant principalement en Inde.",
+        "published_at": "2026-11-01T12:51:59",
+        "score": 12
+      },
+      {
+        "guid": "b080d96b318de0e1",
+        "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+        "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "NetamLoader, un malware visant des systèmes Windows 10 gouvernementaux en Asie via une injection .NET, a été découvert par Kaspersky.",
+        "published_at": "2026-11-01T12:32:58",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "ebf225fa51933001",
+        "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+        "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Alpine Linux a réparé GitLab après un essai d'attaque de type RCE sur sa infrastructure de développement le 20-21 octobre.",
+        "published_at": "2026-11-01T10:11:21",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "97171129c3ae64e9",
+        "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "L'FBI a attribué au groupe North Korean TraderTraitor l'enlèvement cryptomonnaie de Binance pour 6,3 milliards de dollars.",
+        "published_at": "2026-11-01T14:57:53",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "3b10c84124dc6c6a",
+        "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+        "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Une faille critique dans LXD et MicroCloud de Canonical permet à un attaquant d'imiter un client sans sa clé privée.",
+        "published_at": "2026-11-01T14:21:31",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 22,
+    "items_selected": 7,
+    "window_hours": 24,
+    "sources_active": 22,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
