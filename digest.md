@@ -1,60 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 2 novembre 2026
+# 🛡️ ARGOS CTI Digest — 3 novembre 2026
 
-> Généré le 02/11/2026 à 03:00 UTC  ·  22 items analysés  ·  7 sélectionnés  ·  22 sources actives
+> Généré le 03/11/2026 à 03:00 UTC  ·  58 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Mutipath TCP: Use and Detection, (Mon, Nov 2nd)](https://isc.sans.edu/diary/rss/33482)
+**Source :** SANS ISC  **Publié :** 02/11/2026 14:52 UTC  **CVE :** `CVE-2026-98432`
+`cve` `vulnerability`
+Une vulnérabilité dans la mise en œuvre Linux de l'option TCP multipath a été découverte, affectant une fonctionnalité introduite en 2020.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : synergy.co.id](https://www.ransomware.live/id/c3luZXJneS5jby5pZEBsb2NrYml0NQ)
-**Source :** Ransomware.live News  **Publié :** 01/11/2026 19:27 UTC
-`ransomware`
-PT Synergy Risk Management Consultants a été victime de l'acteur Lockbit5.
-
----
-
-### [🏴‍☠️ Whitearmor has just published a new victim : AmplifAI (GoDaddy instance)](https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQFdoaXRlYXJtb3I)
-**Source :** Ransomware.live News  **Publié :** 01/11/2026 13:58 UTC
+### [UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief](https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months)
+**Source :** The Record  **Publié :** 03/11/2026 00:01 UTC
 `cve` `malware`
-L'acteur Whitearmor a publié une nouvelle victime : une instance de GoDaddy nommée AmplifAI, avec des informations d'authentification et un ensemble de données d'utilisateurs.
+Le chef du NCSC prédit une augmentation inédite des attaques cybersécuritaires au cours de la prochaine période.
 
 ---
 
-### [🏴‍☠️ Hyflock has just published a new victim : hitech group](https://www.ransomware.live/id/aGl0ZWNoIGdyb3VwQEhZRkxPQ0s)
-**Source :** Ransomware.live News  **Publié :** 01/11/2026 12:51 UTC
+### [Association Francophone de Tennis de Table (AFTT)](https://frenchbreaches.com/alertes/association-francophone-de-tennis-de-table-aftt-mvzsrnxk35tj4f3wisj)
+**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:53 UTC
 `malware`
-Hyflock a dévoilé une nouvelle victime : l'entreprise Hitech Group, opérant principalement en Inde.
+L'AFTT, association de tennis de table en Belgique francophone, a fait l'objet d'une attaque réclamant une fuite de données concernant 11 700 licenciés.
 
 ---
 
-### [NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection](https://thehackernews.com/2026/11/netamloader-malware-targets-government.html)
-**Source :** The Hacker News  **Publié :** 01/11/2026 12:32 UTC
+### [Office de tourisme de Strasbourg](https://frenchbreaches.com/alertes/office-de-tourisme-de-strasbourg-mvzsg6gh30fm2efbxpn)
+**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:45 UTC
+`breach` `malware`
+L'office de tourisme de Strasbourg a été victime d'une cyberattaque, exposant des informations personnelles transmises par ses visiteurs.
+
+---
+
+### [Brico Dépôt](https://frenchbreaches.com/alertes/brico-d-p-t-mvzs03rq2q09ajnxcgj)
+**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:30 UTC
 `malware`
-NetamLoader, un malware visant des systèmes Windows 10 gouvernementaux en Asie via une injection .NET, a été découvert par Kaspersky.
+Des attaques variées ont été signalées cette semaine, allant de tricheries mineures à des actions potentiellement très dévastatrices.
+
+---
+
+### [⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More](https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html)
+**Source :** The Hacker News  **Publié :** 02/11/2026 22:27 UTC
+`breach` `malware` `phishing`
+Un incident de sécurité sur le plus grand échange crypto de Brésil a entraîné la fuite de plus de 46 millions de dollars.
+
+---
+
+### [Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform](https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist)
+**Source :** The Record  **Publié :** 02/11/2026 21:42 UTC
+`malware`
+Polymarket, un site de marché prédiction, promet de rembourser les victimes d'un incident et de compenser le temps de mise hors service.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Alpine Linux rebuilds GitLab after attempted RCE attack](https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/)
-**Source :** Bleeping Computer  **Publié :** 01/11/2026 10:11 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Alpine Linux a réparé GitLab après un essai d'attaque de type RCE sur sa infrastructure de développement le 20-21 octobre.
+### 1. [Polymarket pledges to give $3.9 million back to victims after site compromise](https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise)
+**Source :** The Record  **Publié :** 02/11/2026 17:05 UTC  **Score :** 35
+`breach`
+Des hackers russes ont hacké un système d'alerte aux alertes nucléaires ukrainien en riposte à une attaque précédente.
 
-### 2. [FBI links $6.3 billion Binance crypto heist to North Korean hackers](https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/)
-**Source :** Bleeping Computer  **Publié :** 01/11/2026 14:57 UTC  **Score :** 5
-L'FBI a attribué au groupe North Korean TraderTraitor l'enlèvement cryptomonnaie de Binance pour 6,3 milliards de dollars.
+### 2. [Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings](https://therecord.media/ukraine-hackers-russia-alert-system)
+**Source :** The Record  **Publié :** 02/11/2026 14:30 UTC  **Score :** 35
+`breach`
+Love and Vibes, un sex-shop français, a informé ses clients d'un accès non autorisé à son système de gestion des commandes révélant leurs achats.
 
-### 3. [CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key](https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html)
-**Source :** The Hacker News  **Publié :** 01/11/2026 14:21 UTC  **Score :** 5
-`vulnerability`
-Une faille critique dans LXD et MicroCloud de Canonical permet à un attaquant d'imiter un client sans sa clé privée.
+### 3. [Love and Vibes](https://frenchbreaches.com/alertes/love-and-vibes-mvzs5akgt0smudxehw7)
+**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:36 UTC  **Score :** 25
+`breach`
+Love and Vibes : le sex-shop victime d'une fuite de données révélant les achats de ses clients Le sex-shop en ligne français Love and Vibes informe ses clients d'un incident de sécurité ayant entraîné un accès non autorisé à son logiciel de gestion des commandes. Des informations…
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-02.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-03.md`*
