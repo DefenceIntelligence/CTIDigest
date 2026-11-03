@@ -1,123 +1,172 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02T03:00:57.005097+00:00",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T03:00:57.472568+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
+    "vulnerabilities": [
+      {
+        "guid": "e29b54e2b2f654cd",
+        "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+        "url": "https://isc.sans.edu/diary/rss/33482",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-98432"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans la mise en œuvre Linux de l'option TCP multipath a été découverte, affectant une fonctionnalité introduite en 2020.",
+        "published_at": "2026-11-02T14:52:05",
+        "score": 15
+      }
+    ],
     "campaigns": [
       {
-        "guid": "53e586caf1649fa5",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : synergy.co.id",
-        "url": "https://www.ransomware.live/id/c3luZXJneS5jby5pZEBsb2NrYml0NQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "PT Synergy Risk Management Consultants a été victime de l'acteur Lockbit5.",
-        "published_at": "2026-11-01T19:27:52",
-        "score": 0
-      },
-      {
-        "guid": "15d127320a95770c",
-        "title": "🏴‍☠️ Whitearmor has just published a new victim : AmplifAI (GoDaddy instance)",
-        "url": "https://www.ransomware.live/id/QW1wbGlmQUkgKEdvRGFkZHkgaW5zdGFuY2UpQFdoaXRlYXJtb3I",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "394843ea488ebb32",
+        "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+        "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "cve",
           "malware"
         ],
-        "summary": "L'acteur Whitearmor a publié une nouvelle victime : une instance de GoDaddy nommée AmplifAI, avec des informations d'authentification et un ensemble de données d'utilisateurs.",
-        "published_at": "2026-11-01T13:58:21",
-        "score": 12
+        "summary": "Le chef du NCSC prédit une augmentation inédite des attaques cybersécuritaires au cours de la prochaine période.",
+        "published_at": "2026-11-03T00:01:00",
+        "score": 27
       },
       {
-        "guid": "a04b730794c3c574",
-        "title": "🏴‍☠️ Hyflock has just published a new victim : hitech group",
-        "url": "https://www.ransomware.live/id/aGl0ZWNoIGdyb3VwQEhZRkxPQ0s",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Hyflock a dévoilé une nouvelle victime : l'entreprise Hitech Group, opérant principalement en Inde.",
-        "published_at": "2026-11-01T12:51:59",
-        "score": 12
-      },
-      {
-        "guid": "b080d96b318de0e1",
-        "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-        "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-        "source": "The Hacker News",
+        "guid": "4ab6be33aac71c89",
+        "title": "Association Francophone de Tennis de Table (AFTT)",
+        "url": "https://frenchbreaches.com/alertes/association-francophone-de-tennis-de-table-aftt-mvzsrnxk35tj4f3wisj",
+        "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "NetamLoader, un malware visant des systèmes Windows 10 gouvernementaux en Asie via une injection .NET, a été découvert par Kaspersky.",
-        "published_at": "2026-11-01T12:32:58",
+        "summary": "L'AFTT, association de tennis de table en Belgique francophone, a fait l'objet d'une attaque réclamant une fuite de données concernant 11 700 licenciés.",
+        "published_at": "2026-11-02T22:53:00",
         "score": 17
-      }
-    ],
-    "top_reads": [
+      },
       {
-        "guid": "ebf225fa51933001",
-        "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-        "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-        "source": "Bleeping Computer",
+        "guid": "70dfb5d0bde37a46",
+        "title": "Office de tourisme de Strasbourg",
+        "url": "https://frenchbreaches.com/alertes/office-de-tourisme-de-strasbourg-mvzsg6gh30fm2efbxpn",
+        "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve",
-          "vulnerability"
+          "malware"
         ],
-        "summary": "Alpine Linux a réparé GitLab après un essai d'attaque de type RCE sur sa infrastructure de développement le 20-21 octobre.",
-        "published_at": "2026-11-01T10:11:21",
-        "score": 25,
-        "rank": 1
+        "summary": "L'office de tourisme de Strasbourg a été victime d'une cyberattaque, exposant des informations personnelles transmises par ses visiteurs.",
+        "published_at": "2026-11-02T22:45:00",
+        "score": 37
       },
       {
-        "guid": "97171129c3ae64e9",
-        "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-        "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-        "source": "Bleeping Computer",
+        "guid": "07874614519695f1",
+        "title": "Brico Dépôt",
+        "url": "https://frenchbreaches.com/alertes/brico-d-p-t-mvzs03rq2q09ajnxcgj",
+        "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "L'FBI a attribué au groupe North Korean TraderTraitor l'enlèvement cryptomonnaie de Binance pour 6,3 milliards de dollars.",
-        "published_at": "2026-11-01T14:57:53",
-        "score": 5,
-        "rank": 2
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des attaques variées ont été signalées cette semaine, allant de tricheries mineures à des actions potentiellement très dévastatrices.",
+        "published_at": "2026-11-02T22:30:00",
+        "score": 17
       },
       {
-        "guid": "3b10c84124dc6c6a",
-        "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-        "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+        "guid": "57187d2cfc374f46",
+        "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+        "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "vulnerability"
+          "breach",
+          "malware",
+          "phishing"
         ],
-        "summary": "Une faille critique dans LXD et MicroCloud de Canonical permet à un attaquant d'imiter un client sans sa clé privée.",
-        "published_at": "2026-11-01T14:21:31",
-        "score": 5,
+        "summary": "Un incident de sécurité sur le plus grand échange crypto de Brésil a entraîné la fuite de plus de 46 millions de dollars.",
+        "published_at": "2026-11-02T22:27:56",
+        "score": 47
+      },
+      {
+        "guid": "2e91157a97f58341",
+        "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+        "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Polymarket, un site de marché prédiction, promet de rembourser les victimes d'un incident et de compenser le temps de mise hors service.",
+        "published_at": "2026-11-02T21:42:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "75a12f1e545ef681",
+        "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+        "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des hackers russes ont hacké un système d'alerte aux alertes nucléaires ukrainien en riposte à une attaque précédente.",
+        "published_at": "2026-11-02T17:05:20",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "1c845f8f08f89c44",
+        "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
+        "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Love and Vibes, un sex-shop français, a informé ses clients d'un accès non autorisé à son système de gestion des commandes révélant leurs achats.",
+        "published_at": "2026-11-02T14:30:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "1a6c616dc933a251",
+        "title": "Love and Vibes",
+        "url": "https://frenchbreaches.com/alertes/love-and-vibes-mvzs5akgt0smudxehw7",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Love and Vibes : le sex-shop victime d'une fuite de données révélant les achats de ses clients Le sex-shop en ligne français Love and Vibes informe ses clients d'un incident de sécurité ayant entraîné un accès non autorisé à son logiciel de gestion des commandes. Des informations…",
+        "published_at": "2026-11-02T22:36:00",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 22,
-    "items_selected": 7,
+    "items_analyzed": 58,
+    "items_selected": 10,
     "window_hours": 24,
-    "sources_active": 22,
-    "cves_total": 0,
+    "sources_active": 23,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
