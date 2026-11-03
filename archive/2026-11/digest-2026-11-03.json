@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T03:00:57.472568+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "e29b54e2b2f654cd",
+        "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+        "url": "https://isc.sans.edu/diary/rss/33482",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-98432"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans la mise en œuvre Linux de l'option TCP multipath a été découverte, affectant une fonctionnalité introduite en 2020.",
+        "published_at": "2026-11-02T14:52:05",
+        "score": 15
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "394843ea488ebb32",
+        "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+        "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Le chef du NCSC prédit une augmentation inédite des attaques cybersécuritaires au cours de la prochaine période.",
+        "published_at": "2026-11-03T00:01:00",
+        "score": 27
+      },
+      {
+        "guid": "4ab6be33aac71c89",
+        "title": "Association Francophone de Tennis de Table (AFTT)",
+        "url": "https://frenchbreaches.com/alertes/association-francophone-de-tennis-de-table-aftt-mvzsrnxk35tj4f3wisj",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "L'AFTT, association de tennis de table en Belgique francophone, a fait l'objet d'une attaque réclamant une fuite de données concernant 11 700 licenciés.",
+        "published_at": "2026-11-02T22:53:00",
+        "score": 17
+      },
+      {
+        "guid": "70dfb5d0bde37a46",
+        "title": "Office de tourisme de Strasbourg",
+        "url": "https://frenchbreaches.com/alertes/office-de-tourisme-de-strasbourg-mvzsg6gh30fm2efbxpn",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'office de tourisme de Strasbourg a été victime d'une cyberattaque, exposant des informations personnelles transmises par ses visiteurs.",
+        "published_at": "2026-11-02T22:45:00",
+        "score": 37
+      },
+      {
+        "guid": "07874614519695f1",
+        "title": "Brico Dépôt",
+        "url": "https://frenchbreaches.com/alertes/brico-d-p-t-mvzs03rq2q09ajnxcgj",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des attaques variées ont été signalées cette semaine, allant de tricheries mineures à des actions potentiellement très dévastatrices.",
+        "published_at": "2026-11-02T22:30:00",
+        "score": 17
+      },
+      {
+        "guid": "57187d2cfc374f46",
+        "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+        "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Un incident de sécurité sur le plus grand échange crypto de Brésil a entraîné la fuite de plus de 46 millions de dollars.",
+        "published_at": "2026-11-02T22:27:56",
+        "score": 47
+      },
+      {
+        "guid": "2e91157a97f58341",
+        "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+        "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Polymarket, un site de marché prédiction, promet de rembourser les victimes d'un incident et de compenser le temps de mise hors service.",
+        "published_at": "2026-11-02T21:42:00",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "75a12f1e545ef681",
+        "title": "Polymarket pledges to give $3.9 million back to victims after site compromise",
+        "url": "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des hackers russes ont hacké un système d'alerte aux alertes nucléaires ukrainien en riposte à une attaque précédente.",
+        "published_at": "2026-11-02T17:05:20",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "1c845f8f08f89c44",
+        "title": "Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings",
+        "url": "https://therecord.media/ukraine-hackers-russia-alert-system",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Love and Vibes, un sex-shop français, a informé ses clients d'un accès non autorisé à son système de gestion des commandes révélant leurs achats.",
+        "published_at": "2026-11-02T14:30:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "1a6c616dc933a251",
+        "title": "Love and Vibes",
+        "url": "https://frenchbreaches.com/alertes/love-and-vibes-mvzs5akgt0smudxehw7",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Love and Vibes : le sex-shop victime d'une fuite de données révélant les achats de ses clients Le sex-shop en ligne français Love and Vibes informe ses clients d'un incident de sécurité ayant entraîné un accès non autorisé à son logiciel de gestion des commandes. Des informations…",
+        "published_at": "2026-11-02T22:36:00",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 58,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
