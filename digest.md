@@ -1,80 +1,109 @@
-# 🛡️ ARGOS CTI Digest — 3 novembre 2026
+# 🛡️ ARGOS CTI Digest — 4 novembre 2026
 
-> Généré le 03/11/2026 à 03:00 UTC  ·  58 items analysés  ·  10 sélectionnés  ·  23 sources actives
+> Généré le 04/11/2026 à 03:01 UTC  ·  87 items analysés  ·  13 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Mutipath TCP: Use and Detection, (Mon, Nov 2nd)](https://isc.sans.edu/diary/rss/33482)
-**Source :** SANS ISC  **Publié :** 02/11/2026 14:52 UTC  **CVE :** `CVE-2026-98432`
+### [Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access](https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 21:29 UTC  **CVE :** `CVE-2026-116606`
 `cve` `vulnerability`
-Une vulnérabilité dans la mise en œuvre Linux de l'option TCP multipath a été découverte, affectant une fonctionnalité introduite en 2020.
+Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.
+
+The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command
+
+---
+
+### [Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing](https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 16:53 UTC  **CVE :** `CVE-2026-98432`
+`cve` `malware` `vulnerability`
+Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.
+
+Th
+
+---
+
+### [Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors](https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 11:04 UTC  **CVE :** `CVE-2026-58115`
+`cve` `malware` `vulnerability`
+A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.
+
+The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an
+
+---
+
+### [Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials](https://thehackernews.com/2026/11/attackers-target-unpatched.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 11:04 UTC  **CVE :** `CVE-2026-81648`
+`apt` `cve` `vulnerability`
+Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.
+
+The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the f
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief](https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months)
-**Source :** The Record  **Publié :** 03/11/2026 00:01 UTC
+### [Holcim](https://frenchbreaches.com/alertes/holcim-mw1djpwg5xb0yh3d8x)
+**Source :** FrenchBreaches  **Publié :** 04/11/2026 01:20 UTC
+`malware`
+Cyberattaque : Holcim, géant du ciment lié à Lafarge, victime d'un vol de données Le géant suisse des matériaux de construction Holcim, historiquement associé au groupe français Lafarge, a confirmé avoir été victime d'une cyberattaque. Selon les informations publiées le 3 novembr…
+
+---
+
+### [🏴‍☠️ Aoqin has just published a new victim : SILIKO d.o.o.](https://www.ransomware.live/id/U0lMSUtPIGQuby5vLkBBb3Fpbg)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:54 UTC
 `cve` `malware`
-Le chef du NCSC prédit une augmentation inédite des attaques cybersécuritaires au cours de la prochaine période.
+Siliko d.o.o. is a development supplier and manufacturer of technical products made of elastomers and thermoplastics with over 30 years of tradition. During this period, production program expanded substantially and nowadays includes activities which offer customers a comprehensive range of services
 
 ---
 
-### [Association Francophone de Tennis de Table (AFTT)](https://frenchbreaches.com/alertes/association-francophone-de-tennis-de-table-aftt-mvzsrnxk35tj4f3wisj)
-**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:53 UTC
+### [🏴‍☠️ Aoqin has just published a new victim : Petroshahd(Enap Sipetrol International - Egypt Branch)](https://www.ransomware.live/id/UGV0cm9zaGFoZChFbmFwIFNpcGV0cm9sIEludGVybmF0aW9uYWwgLSBFZ3lwdCBCcmFuY2gpQEFvcWlu)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:53 UTC
 `malware`
-L'AFTT, association de tennis de table en Belgique francophone, a fait l'objet d'une attaque réclamant une fuite de données concernant 11 700 licenciés.
+Established in 1950 and headquartered in Las Condes, Chile, ENAP is engaged in the exploration, production, and refining of hydrocarbons and their derivatives. ENAP performs logistical and site maintenance to operational sites. Status: Not paid. Data publication: 2026-11-11 11:00 UTC. Revenue: $504.
 
 ---
 
-### [Office de tourisme de Strasbourg](https://frenchbreaches.com/alertes/office-de-tourisme-de-strasbourg-mvzsg6gh30fm2efbxpn)
-**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:45 UTC
-`breach` `malware`
-L'office de tourisme de Strasbourg a été victime d'une cyberattaque, exposant des informations personnelles transmises par ses visiteurs.
-
----
-
-### [Brico Dépôt](https://frenchbreaches.com/alertes/brico-d-p-t-mvzs03rq2q09ajnxcgj)
-**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:30 UTC
+### [🏴‍☠️ Aoqin has just published a new victim : Nextron Technology](https://www.ransomware.live/id/TmV4dHJvbiBUZWNobm9sb2d5QEFvcWlu)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:53 UTC
 `malware`
-Des attaques variées ont été signalées cette semaine, allant de tricheries mineures à des actions potentiellement très dévastatrices.
+NX Electronics Limited, also known as Nextron, specializes in electronic parts, offering a wide range of products including CPUs, SSDs, graphics cards, DRAM, and motherboards. The company prides itself on providing high-quality products, prompt delivery, and reliable service to its clients. With yea
 
 ---
 
-### [⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More](https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html)
-**Source :** The Hacker News  **Publié :** 02/11/2026 22:27 UTC
-`breach` `malware` `phishing`
-Un incident de sécurité sur le plus grand échange crypto de Brésil a entraîné la fuite de plus de 46 millions de dollars.
-
----
-
-### [Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform](https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist)
-**Source :** The Record  **Publié :** 02/11/2026 21:42 UTC
+### [INRAE](https://frenchbreaches.com/alertes/inrae-mw1bopq3536zduavp2g)
+**Source :** FrenchBreaches  **Publié :** 04/11/2026 00:35 UTC
 `malware`
-Polymarket, un site de marché prédiction, promet de rembourser les victimes d'un incident et de compenser le temps de mise hors service.
+Cyberattaque : l'INRAE visé par un piratage, des données sensibles potentiellement volées L'Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), l'un des principaux organismes publics de recherche français, serait victime d'une importante…
+
+---
+
+### [Coolworld](https://frenchbreaches.com/alertes/coolworld-mw17qluzro5uv8dn4l)
+**Source :** FrenchBreaches  **Publié :** 03/11/2026 22:41 UTC
+`malware`
+Cyberattaque : des pirates ciblent les réserves de sang en France, jusqu'à 110 °C programmés Une cyberattaque particulièrement inquiétante a visé un prestataire de l'Établissement français du sang (EFS) dans la nuit du 1er au 2 novembre 2026. Selon les révélations du Canard encha…
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Polymarket pledges to give $3.9 million back to victims after site compromise](https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise)
-**Source :** The Record  **Publié :** 02/11/2026 17:05 UTC  **Score :** 35
-`breach`
-Des hackers russes ont hacké un système d'alerte aux alertes nucléaires ukrainien en riposte à une attaque précédente.
+### 1. [Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft](https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 22:25 UTC  **Score :** 35
+`breach` `phishing`
+Binance a révélé que le vol de 6,43 milliards de dollars s'est produit grâce à une campagne sophistiquée comprenant un envoi modifié de Homebrew et une escroquerie sociale sous couvert d'entretiens d'embauche.
 
-### 2. [Russian and Ukrainian hackers hijack emergency apps to spread fake nuclear attack warnings](https://therecord.media/ukraine-hackers-russia-alert-system)
-**Source :** The Record  **Publié :** 02/11/2026 14:30 UTC  **Score :** 35
+### 2. [Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes](https://thehackernews.com/2026/11/chainstack-reports-production-systems.html)
+**Source :** The Hacker News  **Publié :** 03/11/2026 23:46 UTC  **Score :** 25
 `breach`
-Love and Vibes, un sex-shop français, a informé ses clients d'un accès non autorisé à son système de gestion des commandes révélant leurs achats.
+Chainstack a fait savoir qu'une partie de son infrastructure a été compromise par une attaque utilisant l'intelligence artificielle, révélant des données clients et des hachages de mot de passe.
 
-### 3. [Love and Vibes](https://frenchbreaches.com/alertes/love-and-vibes-mvzs5akgt0smudxehw7)
-**Source :** FrenchBreaches  **Publié :** 02/11/2026 22:36 UTC  **Score :** 25
-`breach`
-Love and Vibes : le sex-shop victime d'une fuite de données révélant les achats de ses clients Le sex-shop en ligne français Love and Vibes informe ses clients d'un incident de sécurité ayant entraîné un accès non autorisé à son logiciel de gestion des commandes. Des informations…
+### 3. [Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility](https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea)
+**Source :** The Record  **Publié :** 03/11/2026 16:42 UTC  **Score :** 25
+`phishing`
+Le PDG de Binance a déclaré que la fraude de 6,3 milliards de dollars s'est étalée sur plusieurs mois et impliquait des entretiens d'embauche faux. Pyongyang nie toute responsabilité.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-03.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-04.md`*
