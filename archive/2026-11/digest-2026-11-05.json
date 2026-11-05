@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T03:01:04.753079+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "a786f7709ddc0df4",
+        "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+        "url": "https://isc.sans.edu/diary/rss/33488",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2000-0411"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans un script CGI permettait la fuite d’informations et l’exécution arbitraire de code, principalement abusée par les spammers.",
+        "published_at": "2026-11-04T13:24:13",
+        "score": 15
+      },
+      {
+        "guid": "7ab7a2d21a44edaa",
+        "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+        "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109593"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "SonicWall a alerté sur deux vulnérabilités non patchées dans son système Global Management System (GMS), incluant une faille de lecture de fichiers non authentifiée.",
+        "published_at": "2026-11-04T22:30:38",
+        "score": 20
+      },
+      {
+        "guid": "bb0f621636e9e333",
+        "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+        "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-58868"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Google a publié un correctif pour une vulnérabilité critique sur Android, permettant l’exécution de code à distance sans interaction utilisateur.",
+        "published_at": "2026-11-04T13:16:15",
+        "score": 20
+      },
+      {
+        "guid": "eb036f9fbfb299fa",
+        "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+        "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-119977"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté une vulnérabilité dans WordPress Core au catalogue KEV, due à un TOCTOU qui pourrait permettre l'exécution de code arbitraire.",
+        "published_at": "2026-11-04T11:13:11",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "03d73c2ec099f078",
+        "title": "Lazeo",
+        "url": "https://frenchbreaches.com/alertes/lazeo-mw2s9ujdk72wmeutg9n",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Lazeo a fait l'objet d'une fuite de données, avec 708 employés victimes d'un piratage informatique.",
+        "published_at": "2026-11-05T01:02:00",
+        "score": 17
+      },
+      {
+        "guid": "548c99ef925375cf",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : centratamagroup.com",
+        "url": "https://www.ransomware.live/id/Y2VudHJhdGFtYWdyb3VwLmNvbUBsb2NrYml0NQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "PT Centratama Telekomunikasi Indonesia, Tbk (CTI) is a leading telecommunications infrastructure pro...",
+        "published_at": "2026-11-04T23:14:32",
+        "score": 12
+      },
+      {
+        "guid": "6f8fd6dd230ed6dc",
+        "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+        "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité dans APT, le gestionnaire de paquets Debian et Ubuntu, permet à un attaquant d'échanger des paquets vérifiés pour ses propres paquets avec root privilèges.",
+        "published_at": "2026-11-04T22:30:46",
+        "score": 5
+      },
+      {
+        "guid": "be0e3a1e2dc6cfef",
+        "title": "🏴‍☠️ Medusalocker has just published a new victim : baeaqab",
+        "url": "https://www.ransomware.live/id/YmFlYXFhYkBtZWR1c2Fsb2NrZXI",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-11-04T22:22:08",
+        "score": 12
+      },
+      {
+        "guid": "acdd09b4a1928a33",
+        "title": "🏴‍☠️ Medusalocker has just published a new victim : BCH",
+        "url": "https://www.ransomware.live/id/QkNIQG1lZHVzYWxvY2tlcg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Operations of a residential care facility: daily operational reports (DOR) and daily service reports (DSR) for day and night shifts (2016-2026), incident and occurrence reports, staffing notes, and client-count records (up to 80 clients in house).",
+        "published_at": "2026-11-04T22:20:02",
+        "score": 32
+      },
+      {
+        "guid": "fe9541ea2b20bf96",
+        "title": "🏴‍☠️ Medusalocker has just published a new victim : Interativa Plasticos (Interplast)",
+        "url": "https://www.ransomware.live/id/SW50ZXJhdGl2YSBQbGFzdGljb3MgKEludGVycGxhc3QpQG1lZHVzYWxvY2tlcg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Interativa Plasticos (Interplast brand, interativaplasticos.com.br) is a Brazilian plastics processor (HDPE/PEAD and PP compounds): commercial proposals, price lists (incl. scrap trade), NFe XML/PDF invoices, production and laboratory report templates (laudos), pigment-change records, and export tax spreadsheets.",
+        "published_at": "2026-11-04T22:19:30",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "bfd258a65dafe83b",
+        "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+        "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plusieurs compagnies aériennes asiatiques ont signalé des fuites de données liées à une attaque sur le fournisseur espagnol Amadeus.",
+        "published_at": "2026-11-04T21:30:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "1aa5dbffbbf19101",
+        "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+        "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Crédit Mutuel Arkéa a confirmé un vole cyberspace, les hackers auraient volé environ 133 millions de dollars en utilisant une fourniture compromise.",
+        "published_at": "2026-11-04T18:58:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "b6cac21547f080dc",
+        "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+        "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "DreamHost alerte sur une fuite de données ayant exposé les identifiants FTP et les sessions webmail après un accès illégal durant deux mois.",
+        "published_at": "2026-11-04T14:05:19",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 97,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "llm_rejected": 3,
+    "argos_version": "2.0.0"
+  }
+}
