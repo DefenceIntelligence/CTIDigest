@@ -1,109 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 4 novembre 2026
+# 🛡️ ARGOS CTI Digest — 5 novembre 2026
 
-> Généré le 04/11/2026 à 03:01 UTC  ·  87 items analysés  ·  13 sélectionnés  ·  23 sources actives
+> Généré le 05/11/2026 à 03:01 UTC  ·  97 items analysés  ·  13 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access](https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 21:29 UTC  **CVE :** `CVE-2026-116606`
+### [The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)](https://isc.sans.edu/diary/rss/33488)
+**Source :** SANS ISC  **Publié :** 04/11/2026 13:24 UTC  **CVE :** `CVE-2000-0411`
 `cve` `vulnerability`
-Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.
-
-The vulnerabilities, a pre-authentication authorization bypass vulnerability and a command
+Une vulnérabilité dans un script CGI permettait la fuite d’informations et l’exécution arbitraire de code, principalement abusée par les spammers.
 
 ---
 
-### [Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing](https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 16:53 UTC  **CVE :** `CVE-2026-98432`
-`cve` `malware` `vulnerability`
-Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.
-
-Th
+### [SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records](https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html)
+**Source :** The Hacker News  **Publié :** 04/11/2026 22:30 UTC  **CVE :** `CVE-2026-109593`
+`cve` `vulnerability`
+SonicWall a alerté sur deux vulnérabilités non patchées dans son système Global Management System (GMS), incluant une faille de lecture de fichiers non authentifiée.
 
 ---
 
-### [Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors](https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 11:04 UTC  **CVE :** `CVE-2026-58115`
-`cve` `malware` `vulnerability`
-A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.
-
-The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an
+### [Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction](https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html)
+**Source :** The Hacker News  **Publié :** 04/11/2026 13:16 UTC  **CVE :** `CVE-2026-58868`
+`cve` `vulnerability`
+Google a publié un correctif pour une vulnérabilité critique sur Android, permettant l’exécution de code à distance sans interaction utilisateur.
 
 ---
 
-### [Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials](https://thehackernews.com/2026/11/attackers-target-unpatched.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 11:04 UTC  **CVE :** `CVE-2026-81648`
-`apt` `cve` `vulnerability`
-Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.
-
-The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the f
+### [CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades](https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html)
+**Source :** The Hacker News  **Publié :** 04/11/2026 11:13 UTC  **CVE :** `CVE-2026-119977`
+`cve` `vulnerability`
+CISA a ajouté une vulnérabilité dans WordPress Core au catalogue KEV, due à un TOCTOU qui pourrait permettre l'exécution de code arbitraire.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Holcim](https://frenchbreaches.com/alertes/holcim-mw1djpwg5xb0yh3d8x)
-**Source :** FrenchBreaches  **Publié :** 04/11/2026 01:20 UTC
+### [Lazeo](https://frenchbreaches.com/alertes/lazeo-mw2s9ujdk72wmeutg9n)
+**Source :** FrenchBreaches  **Publié :** 05/11/2026 01:02 UTC
 `malware`
-Cyberattaque : Holcim, géant du ciment lié à Lafarge, victime d'un vol de données Le géant suisse des matériaux de construction Holcim, historiquement associé au groupe français Lafarge, a confirmé avoir été victime d'une cyberattaque. Selon les informations publiées le 3 novembr…
+Lazeo a fait l'objet d'une fuite de données, avec 708 employés victimes d'un piratage informatique.
 
 ---
 
-### [🏴‍☠️ Aoqin has just published a new victim : SILIKO d.o.o.](https://www.ransomware.live/id/U0lMSUtPIGQuby5vLkBBb3Fpbg)
-**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:54 UTC
-`cve` `malware`
-Siliko d.o.o. is a development supplier and manufacturer of technical products made of elastomers and thermoplastics with over 30 years of tradition. During this period, production program expanded substantially and nowadays includes activities which offer customers a comprehensive range of services
+### [🏴‍☠️ Lockbit5 has just published a new victim : centratamagroup.com](https://www.ransomware.live/id/Y2VudHJhdGFtYWdyb3VwLmNvbUBsb2NrYml0NQ)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 23:14 UTC
+`malware` `ransomware`
+PT Centratama Telekomunikasi Indonesia, Tbk (CTI) is a leading telecommunications infrastructure pro...
 
 ---
 
-### [🏴‍☠️ Aoqin has just published a new victim : Petroshahd(Enap Sipetrol International - Egypt Branch)](https://www.ransomware.live/id/UGV0cm9zaGFoZChFbmFwIFNpcGV0cm9sIEludGVybmF0aW9uYWwgLSBFZ3lwdCBCcmFuY2gpQEFvcWlu)
-**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:53 UTC
-`malware`
-Established in 1950 and headquartered in Las Condes, Chile, ENAP is engaged in the exploration, production, and refining of hydrocarbons and their derivatives. ENAP performs logistical and site maintenance to operational sites. Status: Not paid. Data publication: 2026-11-11 11:00 UTC. Revenue: $504.
+### [Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root](https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html)
+**Source :** The Hacker News  **Publié :** 04/11/2026 22:30 UTC
+`apt` `vulnerability`
+Une vulnérabilité dans APT, le gestionnaire de paquets Debian et Ubuntu, permet à un attaquant d'échanger des paquets vérifiés pour ses propres paquets avec root privilèges.
 
 ---
 
-### [🏴‍☠️ Aoqin has just published a new victim : Nextron Technology](https://www.ransomware.live/id/TmV4dHJvbiBUZWNobm9sb2d5QEFvcWlu)
-**Source :** Ransomware.live News  **Publié :** 04/11/2026 00:53 UTC
+### [🏴‍☠️ Medusalocker has just published a new victim : baeaqab](https://www.ransomware.live/id/YmFlYXFhYkBtZWR1c2Fsb2NrZXI)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 22:22 UTC
 `malware`
-NX Electronics Limited, also known as Nextron, specializes in electronic parts, offering a wide range of products including CPUs, SSDs, graphics cards, DRAM, and motherboards. The company prides itself on providing high-quality products, prompt delivery, and reliable service to its clients. With yea
+N/A
 
 ---
 
-### [INRAE](https://frenchbreaches.com/alertes/inrae-mw1bopq3536zduavp2g)
-**Source :** FrenchBreaches  **Publié :** 04/11/2026 00:35 UTC
-`malware`
-Cyberattaque : l'INRAE visé par un piratage, des données sensibles potentiellement volées L'Institut national de recherche pour l'agriculture, l'alimentation et l'environnement (INRAE), l'un des principaux organismes publics de recherche français, serait victime d'une importante…
+### [🏴‍☠️ Medusalocker has just published a new victim : BCH](https://www.ransomware.live/id/QkNIQG1lZHVzYWxvY2tlcg)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 22:20 UTC
+`breach` `malware`
+Operations of a residential care facility: daily operational reports (DOR) and daily service reports (DSR) for day and night shifts (2016-2026), incident and occurrence reports, staffing notes, and client-count records (up to 80 clients in house).
 
 ---
 
-### [Coolworld](https://frenchbreaches.com/alertes/coolworld-mw17qluzro5uv8dn4l)
-**Source :** FrenchBreaches  **Publié :** 03/11/2026 22:41 UTC
+### [🏴‍☠️ Medusalocker has just published a new victim : Interativa Plasticos (Interplast)](https://www.ransomware.live/id/SW50ZXJhdGl2YSBQbGFzdGljb3MgKEludGVycGxhc3QpQG1lZHVzYWxvY2tlcg)
+**Source :** Ransomware.live News  **Publié :** 04/11/2026 22:19 UTC
 `malware`
-Cyberattaque : des pirates ciblent les réserves de sang en France, jusqu'à 110 °C programmés Une cyberattaque particulièrement inquiétante a visé un prestataire de l'Établissement français du sang (EFS) dans la nuit du 1er au 2 novembre 2026. Selon les révélations du Canard encha…
+Interativa Plasticos (Interplast brand, interativaplasticos.com.br) is a Brazilian plastics processor (HDPE/PEAD and PP compounds): commercial proposals, price lists (incl. scrap trade), NFe XML/PDF invoices, production and laboratory report templates (laudos), pigment-change records, and export tax
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft](https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 22:25 UTC  **Score :** 35
-`breach` `phishing`
-Binance a révélé que le vol de 6,43 milliards de dollars s'est produit grâce à une campagne sophistiquée comprenant un envoi modifié de Homebrew et une escroquerie sociale sous couvert d'entretiens d'embauche.
-
-### 2. [Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes](https://thehackernews.com/2026/11/chainstack-reports-production-systems.html)
-**Source :** The Hacker News  **Publié :** 03/11/2026 23:46 UTC  **Score :** 25
+### 1. [More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus](https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident)
+**Source :** The Record  **Publié :** 04/11/2026 21:30 UTC  **Score :** 35
 `breach`
-Chainstack a fait savoir qu'une partie de son infrastructure a été compromise par une attaque utilisant l'intelligence artificielle, révélant des données clients et des hachages de mot de passe.
+Plusieurs compagnies aériennes asiatiques ont signalé des fuites de données liées à une attaque sur le fournisseur espagnol Amadeus.
 
-### 3. [Binance CEO says ‘months-long campaign’ led to $6.3 billion theft as N. Korea denies responsibility](https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea)
-**Source :** The Record  **Publié :** 03/11/2026 16:42 UTC  **Score :** 25
-`phishing`
-Le PDG de Binance a déclaré que la fraude de 6,3 milliards de dollars s'est étalée sur plusieurs mois et impliquait des entretiens d'embauche faux. Pyongyang nie toute responsabilité.
+### 2. [French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million](https://therecord.media/french-bank-confirms-cyber-heist)
+**Source :** The Record  **Publié :** 04/11/2026 18:58 UTC  **Score :** 35
+`breach`
+Crédit Mutuel Arkéa a confirmé un vole cyberspace, les hackers auraient volé environ 133 millions de dollars en utilisant une fourniture compromise.
+
+### 3. [DreamHost confirms data breach exposed FTP logins and webmail sessions](https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/)
+**Source :** Bleeping Computer  **Publié :** 04/11/2026 14:05 UTC  **Score :** 25
+`breach`
+DreamHost alerte sur une fuite de données ayant exposé les identifiants FTP et les sessions webmail après un accès illégal durant deux mois.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-04.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-05.md`*
