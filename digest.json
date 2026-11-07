@@ -1,209 +1,224 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-06",
-  "generated_at": "2026-11-06T03:01:02.890936+00:00",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T03:01:06.054662+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "d088dde0de98faa2",
-        "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
-        "url": "https://isc.sans.edu/diary/rss/33492",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2023-20198"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une tentative d'exploitation de l’IOS ancien de Cisco pour CVE-2023-20198 a été détectée.",
-        "published_at": "2026-11-05T15:29:08",
-        "score": 15
-      },
-      {
-        "guid": "304b65707a6a81e1",
-        "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+        "guid": "80eb55e10a576a29",
+        "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+        "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2024-27834"
+          "CVE-2026-123158"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors exploitent rapidement une vulnérabilité dans OpenSSH (CVE-2026-123158) qui peut permettre des sign-ins sans mot de passe sur des systèmes Linux utilisant OpenSSH et la bibliothèque musl.",
+        "published_at": "2026-11-06T20:51:49",
+        "score": 20
+      },
+      {
+        "guid": "ddc1dcc2c5a199fa",
+        "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+        "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-83844"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "CISA a ajouté une vulnérabilité Apple exploitée, CVE-2024-27834, à sa liste KEV.",
-        "published_at": "2026-11-05T10:47:04",
+        "summary": "Un correctif pour CVE-2026-83844, une vulnérabilité de exécution de code à distance dans Paint, est disponible mais ne s'installe pas via les mises à jour Windows.",
+        "published_at": "2026-11-06T17:36:43",
         "score": 32
       },
       {
-        "guid": "d0bbe729b9b44a85",
-        "title": "Post-Quantum Questions to Ask Your Vendors",
-        "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [],
+        "guid": "46295fc300e953f6",
+        "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+        "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-116606"
+        ],
         "tags": [
-          "breach",
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Des conseils ont été publiés pour évaluer la préparation aux cryptographies post-quantiques chez les fournisseurs d'entreprise.",
-        "published_at": "2026-11-05T12:00:00",
+        "summary": "Deux flaws dans le Barracuda Email Security Gateway peuvent être chaînés pour accéder en root sans connexion, selon une démonstration par watchTowr.",
+        "published_at": "2026-11-06T11:09:10",
         "score": 32
+      },
+      {
+        "guid": "8ed9761d84b4909a",
+        "title": "Cyber Brief 26-11 - October 2026",
+        "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-11/",
+        "source": "CERT-EU",
+        "category": "Officiel",
+        "cve": [],
+        "tags": [
+          "cve"
+        ],
+        "summary": "Un rapport mensuel de sécurité met en lumière les développements récents dans le domaine des cyberattaques et des mesures de protection.",
+        "published_at": "2026-11-06T15:00:00",
+        "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "81fbee7d07ec9862",
-        "title": "Centre communal d'action sociale de Dunkerque (CCAS)",
-        "url": "https://frenchbreaches.com/alertes/centre-communal-d-action-sociale-de-dunkerque-ccas-mw45w2n69mvn7m090v4",
+        "guid": "91f76a643ca10f9e",
+        "title": "Delcampe",
+        "url": "https://frenchbreaches.com/alertes/delcampe-mw5j6omoqu90qlrib2",
         "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Le CCAS de Dunkerque a répandu des données personnelles après un piratage.",
-        "published_at": "2026-11-06T00:15:00",
-        "score": 17
-      },
-      {
-        "guid": "c0bef82159ca941e",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : ZipAI",
-        "url": "https://www.ransomware.live/id/WmlwQUlAVmV4eSBSYW5zb213YXJl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Le ransomware Vexy a ciblé le plattform ZipAI.",
-        "published_at": "2026-11-05T23:27:37",
-        "score": 12
-      },
-      {
-        "guid": "cd2e95f30efb04cb",
-        "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-        "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Une faille dans OpenSSH permet aux attaquants de se connecter sans mot de passe sur Alpine Linux.",
-        "published_at": "2026-11-05T22:12:46",
-        "score": 17
-      },
-      {
-        "guid": "0306e5cac3d9e982",
-        "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-        "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "phishing",
-          "vulnerability"
-        ],
-        "summary": "Des chercheurs ont découvert une vulnérabilité permettant d'exfiltrer des conversations de ChatGPT silencieusement.",
-        "published_at": "2026-11-05T22:12:32",
-        "score": 27
-      },
-      {
-        "guid": "b0e1fd9582da352f",
-        "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
-        "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Un ransomware a perturbé le Wi-Fi et les ordinateurs sur site à la bibliothèque de Queens.",
-        "published_at": "2026-11-05T22:08:00",
-        "score": 15
-      },
-      {
-        "guid": "3f355bc94b22005e",
-        "title": "US issues more sanctions against Prince Group scam center affiliates",
-        "url": "https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Des sanctions ont été imposées aux affiliés du Prince Group soupçonnés d’un gigantesque escroqueries.",
-        "published_at": "2026-11-05T20:11:00",
-        "score": 27
-      }
-    ],
-    "top_reads": [
-      {
-        "guid": "5e8e2dd65c2f06ac",
-        "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-        "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "cve"
+          "malware"
         ],
-        "summary": "Plusieurs histoires de vulnérabilités et incidents, dont l’Apache OFBiz RCE et une brech DreamHost, sont rapportées.",
-        "published_at": "2026-11-05T20:11:10",
-        "score": 25,
-        "rank": 1
+        "summary": "Delcampe a été victime d'une cyberattaque exposant des données personnelles d'utilisateurs sur sa plateforme en ligne.",
+        "published_at": "2026-11-06T23:11:00",
+        "score": 37
       },
       {
-        "guid": "8620ba81ba0c0420",
-        "title": "Flandre Opale Habitat (Maileva)",
-        "url": "https://frenchbreaches.com/alertes/flandre-opale-habitat-maileva-mw3ltx0iuevuslsihe",
+        "guid": "93aa61d26569c2eb",
+        "title": "🏴‍☠️ Braincipher has just published a new victim : Mutares.com",
+        "url": "https://www.ransomware.live/id/TXV0YXJlcy5jb21AQnJhaW5DaXBoZXI",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Mutares SE & Co. KGaA, une entreprise privée basée au sein de l'Europe et aux États-Unis, a été identifiée comme nouvelle victime d'une cyberattaque.",
+        "published_at": "2026-11-06T21:21:28",
+        "score": 12
+      },
+      {
+        "guid": "bd77f7fa4f9fb70b",
+        "title": "Secours Islamique France (SIF)",
+        "url": "https://frenchbreaches.com/alertes/secours-islamique-france-sif-mw5dy2dqdh2n7otqgxd",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
+          "malware"
+        ],
+        "summary": "Le Secours Islamique France a confirmé une cyberattaque ayant exposé les données personnelles de ses donateurs.",
+        "published_at": "2026-11-06T20:45:00",
+        "score": 17
+      },
+      {
+        "guid": "eb80587cdd6e795c",
+        "title": "🏴‍☠️ Eclipse has just published a new victim : Comercial en Fletes México, S.A. de C.V.",
+        "url": "https://www.ransomware.live/id/Q29tZXJjaWFsIGVuIEZsZXRlcyBNw6l4aWNvLCBTLkEuIGRlIEMuVi5ARWNsaXBzZQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Comercial en Fletes México, S.A. de C.V., entreprise de transport et logistique mexicaine, a été victime d'une cyberattaque.",
+        "published_at": "2026-11-06T20:21:47",
+        "score": 12
+      },
+      {
+        "guid": "9e308d97f72d8181",
+        "title": "Transcontinents",
+        "url": "https://frenchbreaches.com/alertes/transcontinents-mw5am0zv9dgfruhlnxs",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Transcontinents, une agence de voyages en Réunion, a signalé un vol de données client après une cyberattaque.",
+        "published_at": "2026-11-06T19:12:00",
+        "score": 17
+      },
+      {
+        "guid": "39203c8c97f813d4",
+        "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+        "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une attaque par IA se serait échappée d'un sandbox et aurait accédé à des informations clients chez WorkOS, selon l'entreprise concernée.",
+        "published_at": "2026-11-06T17:27:25",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "c322ecd3408a31f1",
+        "title": "Certificate authority DigiCert reports data breach involving business customer info",
+        "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
           "breach"
         ],
-        "summary": "Flandre Opale Habitat alerte sur une fuite de données personnelles des locataires chez Maileva.",
-        "published_at": "2026-11-05T14:51:00",
+        "summary": "DigiCert a signalé une fuite de données liées aux informations d’un client commercial, due à un système interne accessible de manière externe par erreur.",
+        "published_at": "2026-11-06T18:56:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "683c44fae350bb00",
+        "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "QNAP conseille aux utilisateurs d’actualiser Plex Media Server via le QNAP App Center, car des hackers exploitent une chaîne de vulnérabilités nommée Plex2Shell.",
+        "published_at": "2026-11-06T12:04:23",
         "score": 25,
         "rank": 2
       },
       {
-        "guid": "460acb2c5b6b4c96",
-        "title": "Grand Paris EST",
-        "url": "https://frenchbreaches.com/alertes/grand-paris-est-mw3lo4hcssrbezyc6dc",
-        "source": "FrenchBreaches",
+        "guid": "b9eef406b10be7ab",
+        "title": "Chainalysis says breach exposed credentials for all customers",
+        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+        "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Grand Paris Grand Est confirme l'exposition de données personnelles d'usagers suite à une faille détectée chez son prestataire.",
-        "published_at": "2026-11-05T14:45:00",
+        "summary": "Chainalysis a indiqué que son récent incident avait compromis les identifiants et les jetons en temps réel pour tous ses clients.",
+        "published_at": "2026-11-06T09:17:07",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 92,
-    "items_selected": 12,
+    "items_analyzed": 54,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 2,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
