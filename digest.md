@@ -1,94 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 6 novembre 2026
+# 🛡️ ARGOS CTI Digest — 7 novembre 2026
 
-> Généré le 06/11/2026 à 03:01 UTC  ·  92 items analysés  ·  12 sélectionnés  ·  23 sources actives
+> Généré le 07/11/2026 à 03:01 UTC  ·  54 items analysés  ·  13 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)](https://isc.sans.edu/diary/rss/33492)
-**Source :** SANS ISC  **Publié :** 05/11/2026 15:29 UTC  **CVE :** `CVE-2023-20198`
-`cve` `vulnerability`
-Une tentative d'exploitation de l’IOS ancien de Cisco pour CVE-2023-20198 a été détectée.
+### [Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)
+**Source :** The Hacker News  **Publié :** 06/11/2026 20:51 UTC  **CVE :** `CVE-2026-123158`
+`apt` `cve` `vulnerability`
+Threat actors exploitent rapidement une vulnérabilité dans OpenSSH (CVE-2026-123158) qui peut permettre des sign-ins sans mot de passe sur des systèmes Linux utilisant OpenSSH et la bibliothèque musl.
 
 ---
 
-### [Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says](https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html)
-**Source :** The Hacker News  **Publié :** 05/11/2026 10:47 UTC  **CVE :** `CVE-2024-27834`
+### [Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)
+**Source :** The Hacker News  **Publié :** 06/11/2026 17:36 UTC  **CVE :** `CVE-2026-83844`
 `cve` `malware` `vulnerability`
-CISA a ajouté une vulnérabilité Apple exploitée, CVE-2024-27834, à sa liste KEV.
+Un correctif pour CVE-2026-83844, une vulnérabilité de exécution de code à distance dans Paint, est disponible mais ne s'installe pas via les mises à jour Windows.
 
 ---
 
-### [Post-Quantum Questions to Ask Your Vendors](https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors)
-**Source :** CISA Advisories  **Publié :** 05/11/2026 12:00 UTC
-`breach` `cve` `malware` `vulnerability`
-Des conseils ont été publiés pour évaluer la préparation aux cryptographies post-quantiques chez les fournisseurs d'entreprise.
+### [Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login](https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html)
+**Source :** The Hacker News  **Publié :** 06/11/2026 11:09 UTC  **CVE :** `CVE-2026-116606`
+`cve` `malware` `vulnerability`
+Deux flaws dans le Barracuda Email Security Gateway peuvent être chaînés pour accéder en root sans connexion, selon une démonstration par watchTowr.
+
+---
+
+### [Cyber Brief 26-11 - October 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-11/)
+**Source :** CERT-EU  **Publié :** 06/11/2026 15:00 UTC
+`cve`
+Un rapport mensuel de sécurité met en lumière les développements récents dans le domaine des cyberattaques et des mesures de protection.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Centre communal d'action sociale de Dunkerque (CCAS)](https://frenchbreaches.com/alertes/centre-communal-d-action-sociale-de-dunkerque-ccas-mw45w2n69mvn7m090v4)
-**Source :** FrenchBreaches  **Publié :** 06/11/2026 00:15 UTC
-`malware`
-Le CCAS de Dunkerque a répandu des données personnelles après un piratage.
+### [Delcampe](https://frenchbreaches.com/alertes/delcampe-mw5j6omoqu90qlrib2)
+**Source :** FrenchBreaches  **Publié :** 06/11/2026 23:11 UTC
+`breach` `malware`
+Delcampe a été victime d'une cyberattaque exposant des données personnelles d'utilisateurs sur sa plateforme en ligne.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : ZipAI](https://www.ransomware.live/id/WmlwQUlAVmV4eSBSYW5zb213YXJl)
-**Source :** Ransomware.live News  **Publié :** 05/11/2026 23:27 UTC
+### [🏴‍☠️ Braincipher has just published a new victim : Mutares.com](https://www.ransomware.live/id/TXV0YXJlcy5jb21AQnJhaW5DaXBoZXI)
+**Source :** Ransomware.live News  **Publié :** 06/11/2026 21:21 UTC
+`malware`
+Mutares SE & Co. KGaA, une entreprise privée basée au sein de l'Europe et aux États-Unis, a été identifiée comme nouvelle victime d'une cyberattaque.
+
+---
+
+### [Secours Islamique France (SIF)](https://frenchbreaches.com/alertes/secours-islamique-france-sif-mw5dy2dqdh2n7otqgxd)
+**Source :** FrenchBreaches  **Publié :** 06/11/2026 20:45 UTC
+`malware`
+Le Secours Islamique France a confirmé une cyberattaque ayant exposé les données personnelles de ses donateurs.
+
+---
+
+### [🏴‍☠️ Eclipse has just published a new victim : Comercial en Fletes México, S.A. de C.V.](https://www.ransomware.live/id/Q29tZXJjaWFsIGVuIEZsZXRlcyBNw6l4aWNvLCBTLkEuIGRlIEMuVi5ARWNsaXBzZQ)
+**Source :** Ransomware.live News  **Publié :** 06/11/2026 20:21 UTC
+`malware`
+Comercial en Fletes México, S.A. de C.V., entreprise de transport et logistique mexicaine, a été victime d'une cyberattaque.
+
+---
+
+### [Transcontinents](https://frenchbreaches.com/alertes/transcontinents-mw5am0zv9dgfruhlnxs)
+**Source :** FrenchBreaches  **Publié :** 06/11/2026 19:12 UTC
 `malware` `ransomware`
-Le ransomware Vexy a ciblé le plattform ZipAI.
+Transcontinents, une agence de voyages en Réunion, a signalé un vol de données client après une cyberattaque.
 
 ---
 
-### [OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux](https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html)
-**Source :** The Hacker News  **Publié :** 05/11/2026 22:12 UTC
-`malware` `vulnerability`
-Une faille dans OpenSSH permet aux attaquants de se connecter sans mot de passe sur Alpine Linux.
-
----
-
-### [Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction](https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html)
-**Source :** The Hacker News  **Publié :** 05/11/2026 22:12 UTC
-`cve` `malware` `phishing` `vulnerability`
-Des chercheurs ont découvert une vulnérabilité permettant d'exfiltrer des conversations de ChatGPT silencieusement.
-
----
-
-### [Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers](https://therecord.media/queens-library-ransomware-causes-disruptions)
-**Source :** The Record  **Publié :** 05/11/2026 22:08 UTC
-`ransomware`
-Un ransomware a perturbé le Wi-Fi et les ordinateurs sur site à la bibliothèque de Queens.
-
----
-
-### [US issues more sanctions against Prince Group scam center affiliates](https://therecord.media/us-issues-more-sanctions-against-prince-group-scammers)
-**Source :** The Record  **Publié :** 05/11/2026 20:11 UTC
-`malware`
-Des sanctions ont été imposées aux affiliés du Prince Group soupçonnés d’un gigantesque escroqueries.
+### [Runaway AI hacking agent behind WorkOS breach after escaping sandbox](https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/)
+**Source :** Bleeping Computer  **Publié :** 06/11/2026 17:27 UTC
+`breach` `malware`
+Une attaque par IA se serait échappée d'un sandbox et aurait accédé à des informations clients chez WorkOS, selon l'entreprise concernée.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories](https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html)
-**Source :** The Hacker News  **Publié :** 05/11/2026 20:11 UTC  **Score :** 25
-`breach` `cve`
-Plusieurs histoires de vulnérabilités et incidents, dont l’Apache OFBiz RCE et une brech DreamHost, sont rapportées.
-
-### 2. [Flandre Opale Habitat (Maileva)](https://frenchbreaches.com/alertes/flandre-opale-habitat-maileva-mw3ltx0iuevuslsihe)
-**Source :** FrenchBreaches  **Publié :** 05/11/2026 14:51 UTC  **Score :** 25
+### 1. [Certificate authority DigiCert reports data breach involving business customer info](https://therecord.media/digicert-certificate-authority-reports-data-breach)
+**Source :** The Record  **Publié :** 06/11/2026 18:56 UTC  **Score :** 35
 `breach`
-Flandre Opale Habitat alerte sur une fuite de données personnelles des locataires chez Maileva.
+DigiCert a signalé une fuite de données liées aux informations d’un client commercial, due à un système interne accessible de manière externe par erreur.
 
-### 3. [Grand Paris EST](https://frenchbreaches.com/alertes/grand-paris-est-mw3lo4hcssrbezyc6dc)
-**Source :** FrenchBreaches  **Publié :** 05/11/2026 14:45 UTC  **Score :** 25
+### 2. [QNAP says hackers breaching NAS devices in Plex2Shell attacks](https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/)
+**Source :** Bleeping Computer  **Publié :** 06/11/2026 12:04 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+QNAP conseille aux utilisateurs d’actualiser Plex Media Server via le QNAP App Center, car des hackers exploitent une chaîne de vulnérabilités nommée Plex2Shell.
+
+### 3. [Chainalysis says breach exposed credentials for all customers](https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/)
+**Source :** Bleeping Computer  **Publié :** 06/11/2026 09:17 UTC  **Score :** 25
 `breach`
-Grand Paris Grand Est confirme l'exposition de données personnelles d'usagers suite à une faille détectée chez son prestataire.
+Chainalysis a indiqué que son récent incident avait compromis les identifiants et les jetons en temps réel pour tous ses clients.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-06.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-07.md`*
