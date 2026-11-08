@@ -1,101 +1,72 @@
-# 🛡️ ARGOS CTI Digest — 7 novembre 2026
+# 🛡️ ARGOS CTI Digest — 8 novembre 2026
 
-> Généré le 07/11/2026 à 03:01 UTC  ·  54 items analysés  ·  13 sélectionnés  ·  23 sources actives
+> Généré le 08/11/2026 à 03:00 UTC  ·  50 items analysés  ·  9 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot](https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html)
-**Source :** The Hacker News  **Publié :** 06/11/2026 20:51 UTC  **CVE :** `CVE-2026-123158`
-`apt` `cve` `vulnerability`
-Threat actors exploitent rapidement une vulnérabilité dans OpenSSH (CVE-2026-123158) qui peut permettre des sign-ins sans mot de passe sur des systèmes Linux utilisant OpenSSH et la bibliothèque musl.
-
----
-
-### [Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It](https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html)
-**Source :** The Hacker News  **Publié :** 06/11/2026 17:36 UTC  **CVE :** `CVE-2026-83844`
-`cve` `malware` `vulnerability`
-Un correctif pour CVE-2026-83844, une vulnérabilité de exécution de code à distance dans Paint, est disponible mais ne s'installe pas via les mises à jour Windows.
-
----
-
-### [Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login](https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html)
-**Source :** The Hacker News  **Publié :** 06/11/2026 11:09 UTC  **CVE :** `CVE-2026-116606`
-`cve` `malware` `vulnerability`
-Deux flaws dans le Barracuda Email Security Gateway peuvent être chaînés pour accéder en root sans connexion, selon une démonstration par watchTowr.
-
----
-
-### [Cyber Brief 26-11 - October 2026](https://cert.europa.eu/publications/threat-intelligence/cb26-11/)
-**Source :** CERT-EU  **Publié :** 06/11/2026 15:00 UTC
-`cve`
-Un rapport mensuel de sécurité met en lumière les développements récents dans le domaine des cyberattaques et des mesures de protection.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Delcampe](https://frenchbreaches.com/alertes/delcampe-mw5j6omoqu90qlrib2)
-**Source :** FrenchBreaches  **Publié :** 06/11/2026 23:11 UTC
-`breach` `malware`
-Delcampe a été victime d'une cyberattaque exposant des données personnelles d'utilisateurs sur sa plateforme en ligne.
-
----
-
-### [🏴‍☠️ Braincipher has just published a new victim : Mutares.com](https://www.ransomware.live/id/TXV0YXJlcy5jb21AQnJhaW5DaXBoZXI)
-**Source :** Ransomware.live News  **Publié :** 06/11/2026 21:21 UTC
+### [Auto-Planning](https://frenchbreaches.com/alertes/auto-planning-mvsr5k8z732ik7zcded)
+**Source :** FrenchBreaches  **Publié :** 07/11/2026 21:03 UTC
 `malware`
-Mutares SE & Co. KGaA, une entreprise privée basée au sein de l'Europe et aux États-Unis, a été identifiée comme nouvelle victime d'une cyberattaque.
+Auto-Planning a été victime d'une cyberattaque, avec la fuite de 242 millions de lignes de données.
 
 ---
 
-### [Secours Islamique France (SIF)](https://frenchbreaches.com/alertes/secours-islamique-france-sif-mw5dy2dqdh2n7otqgxd)
-**Source :** FrenchBreaches  **Publié :** 06/11/2026 20:45 UTC
-`malware`
-Le Secours Islamique France a confirmé une cyberattaque ayant exposé les données personnelles de ses donateurs.
-
----
-
-### [🏴‍☠️ Eclipse has just published a new victim : Comercial en Fletes México, S.A. de C.V.](https://www.ransomware.live/id/Q29tZXJjaWFsIGVuIEZsZXRlcyBNw6l4aWNvLCBTLkEuIGRlIEMuVi5ARWNsaXBzZQ)
-**Source :** Ransomware.live News  **Publié :** 06/11/2026 20:21 UTC
-`malware`
-Comercial en Fletes México, S.A. de C.V., entreprise de transport et logistique mexicaine, a été victime d'une cyberattaque.
-
----
-
-### [Transcontinents](https://frenchbreaches.com/alertes/transcontinents-mw5am0zv9dgfruhlnxs)
-**Source :** FrenchBreaches  **Publié :** 06/11/2026 19:12 UTC
+### [Titres Services](https://frenchbreaches.com/alertes/titres-services-mw49chlrygke8bvq1b)
+**Source :** FrenchBreaches  **Publié :** 07/11/2026 20:29 UTC
 `malware` `ransomware`
-Transcontinents, une agence de voyages en Réunion, a signalé un vol de données client après une cyberattaque.
+I.L. & C. – Titres Services a été visée par SafePay, avec la fuite de plus de 71 Go de fichiers.
 
 ---
 
-### [Runaway AI hacking agent behind WorkOS breach after escaping sandbox](https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/)
-**Source :** Bleeping Computer  **Publié :** 06/11/2026 17:27 UTC
-`breach` `malware`
-Une attaque par IA se serait échappée d'un sandbox et aurait accédé à des informations clients chez WorkOS, selon l'entreprise concernée.
+### [Burda Style](https://frenchbreaches.com/alertes/burda-style-mw6qlcon9wdev310pd5)
+**Source :** FrenchBreaches  **Publié :** 07/11/2026 19:27 UTC
+`malware`
+Burda Style a subi une cyberattaque en octobre 2026, mettant potentiellement en danger les informations des clients.
+
+---
+
+### [🏴‍☠️ Rhysida has just published a new victim : Tribunal de Justica do Estado de Minas Gerais](https://www.ransomware.live/id/VHJpYnVuYWwgZGUgSnVzdGljYSBkbyBFc3RhZG8gZGUgTWluYXMgR2VyYWlzQHJoeXNpZGE)
+**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:16 UTC
+`ransomware`
+Le Tribunal de Justica do Estado de Minas Gerais a été victime d'une cyberattaque selon un communiqué.
+
+---
+
+### [🏴‍☠️ Payload has just published a new victim : Autohaus Arnold](https://www.ransomware.live/id/QXV0b2hhdXMgQXJub2xkQHBheWxvYWQ)
+**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:15 UTC
+`malware`
+Autohaus Arnold, concessionnaire allemand, est ciblé par une attaque ransomware.
+
+---
+
+### [🏴‍☠️ Payload has just published a new victim : Brauco](https://www.ransomware.live/id/QnJhdWNvQHBheWxvYWQ)
+**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:13 UTC
+`malware`
+Brauco, entreprise de services allemande, fait l'objet d'une cyberattaque selon un communiqué.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Certificate authority DigiCert reports data breach involving business customer info](https://therecord.media/digicert-certificate-authority-reports-data-breach)
-**Source :** The Record  **Publié :** 06/11/2026 18:56 UTC  **Score :** 35
-`breach`
-DigiCert a signalé une fuite de données liées aux informations d’un client commercial, due à un système interne accessible de manière externe par erreur.
+### 1. [Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
+**Source :** The Hacker News  **Publié :** 07/11/2026 12:14 UTC  **Score :** 5
+Des mots de passe et des clés API ont été exposés sur GitHub dans 1 122 copies publiques par Claude Code.
 
-### 2. [QNAP says hackers breaching NAS devices in Plex2Shell attacks](https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/)
-**Source :** Bleeping Computer  **Publié :** 06/11/2026 12:04 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-QNAP conseille aux utilisateurs d’actualiser Plex Media Server via le QNAP App Center, car des hackers exploitent une chaîne de vulnérabilités nommée Plex2Shell.
+### 2. [Caverne des Jouets](https://frenchbreaches.com/alertes/caverne-des-jouets-mw6azxay5sfe24oknka)
+**Source :** FrenchBreaches  **Publié :** 07/11/2026 12:14 UTC  **Score :** 5
+La Caverne des Jouets a fait l'objet d'une fuite de données potentiellement concernant un million de clients.
 
-### 3. [Chainalysis says breach exposed credentials for all customers](https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/)
-**Source :** Bleeping Computer  **Publié :** 06/11/2026 09:17 UTC  **Score :** 25
-`breach`
-Chainalysis a indiqué que son récent incident avait compromis les identifiants et les jetons en temps réel pour tous ses clients.
+### 3. [🏴‍☠️ N0n has just published a new victim : Company #147](https://www.ransomware.live/id/Q29tcGFueSAjMTQ3QE4wbg)
+**Source :** Ransomware.live News  **Publié :** 07/11/2026 21:30 UTC  **Score :** 0
+N0n a publié la victime Company #147, une entreprise américaine du secteur des cafés en attente d'exposition.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-07.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-08.md`*
