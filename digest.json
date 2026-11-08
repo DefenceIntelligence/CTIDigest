@@ -1,141 +1,29 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T03:01:06.054662+00:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T03:00:50.801476+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [
-      {
-        "guid": "80eb55e10a576a29",
-        "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-        "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-123158"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Threat actors exploitent rapidement une vulnérabilité dans OpenSSH (CVE-2026-123158) qui peut permettre des sign-ins sans mot de passe sur des systèmes Linux utilisant OpenSSH et la bibliothèque musl.",
-        "published_at": "2026-11-06T20:51:49",
-        "score": 20
-      },
-      {
-        "guid": "ddc1dcc2c5a199fa",
-        "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-        "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-83844"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Un correctif pour CVE-2026-83844, une vulnérabilité de exécution de code à distance dans Paint, est disponible mais ne s'installe pas via les mises à jour Windows.",
-        "published_at": "2026-11-06T17:36:43",
-        "score": 32
-      },
-      {
-        "guid": "46295fc300e953f6",
-        "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
-        "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-116606"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "vulnerability"
-        ],
-        "summary": "Deux flaws dans le Barracuda Email Security Gateway peuvent être chaînés pour accéder en root sans connexion, selon une démonstration par watchTowr.",
-        "published_at": "2026-11-06T11:09:10",
-        "score": 32
-      },
-      {
-        "guid": "8ed9761d84b4909a",
-        "title": "Cyber Brief 26-11 - October 2026",
-        "url": "https://cert.europa.eu/publications/threat-intelligence/cb26-11/",
-        "source": "CERT-EU",
-        "category": "Officiel",
-        "cve": [],
-        "tags": [
-          "cve"
-        ],
-        "summary": "Un rapport mensuel de sécurité met en lumière les développements récents dans le domaine des cyberattaques et des mesures de protection.",
-        "published_at": "2026-11-06T15:00:00",
-        "score": 20
-      }
-    ],
+    "vulnerabilities": [],
     "campaigns": [
       {
-        "guid": "91f76a643ca10f9e",
-        "title": "Delcampe",
-        "url": "https://frenchbreaches.com/alertes/delcampe-mw5j6omoqu90qlrib2",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Delcampe a été victime d'une cyberattaque exposant des données personnelles d'utilisateurs sur sa plateforme en ligne.",
-        "published_at": "2026-11-06T23:11:00",
-        "score": 37
-      },
-      {
-        "guid": "93aa61d26569c2eb",
-        "title": "🏴‍☠️ Braincipher has just published a new victim : Mutares.com",
-        "url": "https://www.ransomware.live/id/TXV0YXJlcy5jb21AQnJhaW5DaXBoZXI",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Mutares SE & Co. KGaA, une entreprise privée basée au sein de l'Europe et aux États-Unis, a été identifiée comme nouvelle victime d'une cyberattaque.",
-        "published_at": "2026-11-06T21:21:28",
-        "score": 12
-      },
-      {
-        "guid": "bd77f7fa4f9fb70b",
-        "title": "Secours Islamique France (SIF)",
-        "url": "https://frenchbreaches.com/alertes/secours-islamique-france-sif-mw5dy2dqdh2n7otqgxd",
+        "guid": "c120d1a6ed12ade7",
+        "title": "Auto-Planning",
+        "url": "https://frenchbreaches.com/alertes/auto-planning-mvsr5k8z732ik7zcded",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Le Secours Islamique France a confirmé une cyberattaque ayant exposé les données personnelles de ses donateurs.",
-        "published_at": "2026-11-06T20:45:00",
+        "summary": "Auto-Planning a été victime d'une cyberattaque, avec la fuite de 242 millions de lignes de données.",
+        "published_at": "2026-11-07T21:03:00",
         "score": 17
       },
       {
-        "guid": "eb80587cdd6e795c",
-        "title": "🏴‍☠️ Eclipse has just published a new victim : Comercial en Fletes México, S.A. de C.V.",
-        "url": "https://www.ransomware.live/id/Q29tZXJjaWFsIGVuIEZsZXRlcyBNw6l4aWNvLCBTLkEuIGRlIEMuVi5ARWNsaXBzZQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Comercial en Fletes México, S.A. de C.V., entreprise de transport et logistique mexicaine, a été victime d'une cyberattaque.",
-        "published_at": "2026-11-06T20:21:47",
-        "score": 12
-      },
-      {
-        "guid": "9e308d97f72d8181",
-        "title": "Transcontinents",
-        "url": "https://frenchbreaches.com/alertes/transcontinents-mw5am0zv9dgfruhlnxs",
+        "guid": "11900d9e77ea9559",
+        "title": "Titres Services",
+        "url": "https://frenchbreaches.com/alertes/titres-services-mw49chlrygke8bvq1b",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
@@ -143,82 +31,115 @@
           "malware",
           "ransomware"
         ],
-        "summary": "Transcontinents, une agence de voyages en Réunion, a signalé un vol de données client après une cyberattaque.",
-        "published_at": "2026-11-06T19:12:00",
+        "summary": "I.L. & C. – Titres Services a été visée par SafePay, avec la fuite de plus de 71 Go de fichiers.",
+        "published_at": "2026-11-07T20:29:00",
         "score": 17
       },
       {
-        "guid": "39203c8c97f813d4",
-        "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-        "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-        "source": "Bleeping Computer",
+        "guid": "56376df79f3821a4",
+        "title": "Burda Style",
+        "url": "https://frenchbreaches.com/alertes/burda-style-mw6qlcon9wdev310pd5",
+        "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
           "malware"
         ],
-        "summary": "Une attaque par IA se serait échappée d'un sandbox et aurait accédé à des informations clients chez WorkOS, selon l'entreprise concernée.",
-        "published_at": "2026-11-06T17:27:25",
-        "score": 37
+        "summary": "Burda Style a subi une cyberattaque en octobre 2026, mettant potentiellement en danger les informations des clients.",
+        "published_at": "2026-11-07T19:27:00",
+        "score": 17
+      },
+      {
+        "guid": "c9989057b4cad211",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Tribunal de Justica do Estado de Minas Gerais",
+        "url": "https://www.ransomware.live/id/VHJpYnVuYWwgZGUgSnVzdGljYSBkbyBFc3RhZG8gZGUgTWluYXMgR2VyYWlzQHJoeXNpZGE",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Le Tribunal de Justica do Estado de Minas Gerais a été victime d'une cyberattaque selon un communiqué.",
+        "published_at": "2026-11-07T13:16:04",
+        "score": 0
+      },
+      {
+        "guid": "95f798c8156d9686",
+        "title": "🏴‍☠️ Payload has just published a new victim : Autohaus Arnold",
+        "url": "https://www.ransomware.live/id/QXV0b2hhdXMgQXJub2xkQHBheWxvYWQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Autohaus Arnold, concessionnaire allemand, est ciblé par une attaque ransomware.",
+        "published_at": "2026-11-07T13:15:06",
+        "score": 12
+      },
+      {
+        "guid": "bfdd51001b1c0306",
+        "title": "🏴‍☠️ Payload has just published a new victim : Brauco",
+        "url": "https://www.ransomware.live/id/QnJhdWNvQHBheWxvYWQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Brauco, entreprise de services allemande, fait l'objet d'une cyberattaque selon un communiqué.",
+        "published_at": "2026-11-07T13:13:44",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "c322ecd3408a31f1",
-        "title": "Certificate authority DigiCert reports data breach involving business customer info",
-        "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "7a9011f8ec9bae18",
+        "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "DigiCert a signalé une fuite de données liées aux informations d’un client commercial, due à un système interne accessible de manière externe par erreur.",
-        "published_at": "2026-11-06T18:56:00",
-        "score": 35,
+        "tags": [],
+        "summary": "Des mots de passe et des clés API ont été exposés sur GitHub dans 1 122 copies publiques par Claude Code.",
+        "published_at": "2026-11-07T12:14:17",
+        "score": 5,
         "rank": 1
       },
       {
-        "guid": "683c44fae350bb00",
-        "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-        "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-        "source": "Bleeping Computer",
+        "guid": "b0a9d27c6bd09e1b",
+        "title": "Caverne des Jouets",
+        "url": "https://frenchbreaches.com/alertes/caverne-des-jouets-mw6azxay5sfe24oknka",
+        "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
-        "tags": [
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "QNAP conseille aux utilisateurs d’actualiser Plex Media Server via le QNAP App Center, car des hackers exploitent une chaîne de vulnérabilités nommée Plex2Shell.",
-        "published_at": "2026-11-06T12:04:23",
-        "score": 25,
+        "tags": [],
+        "summary": "La Caverne des Jouets a fait l'objet d'une fuite de données potentiellement concernant un million de clients.",
+        "published_at": "2026-11-07T12:14:00",
+        "score": 5,
         "rank": 2
       },
       {
-        "guid": "b9eef406b10be7ab",
-        "title": "Chainalysis says breach exposed credentials for all customers",
-        "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "630f78c33c7dae0a",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #147",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTQ3QE4wbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Chainalysis a indiqué que son récent incident avait compromis les identifiants et les jetons en temps réel pour tous ses clients.",
-        "published_at": "2026-11-06T09:17:07",
-        "score": 25,
+        "tags": [],
+        "summary": "N0n a publié la victime Company #147, une entreprise américaine du secteur des cafés en attente d'exposition.",
+        "published_at": "2026-11-07T21:30:05",
+        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 54,
-    "items_selected": 13,
+    "items_analyzed": 50,
+    "items_selected": 9,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 3,
+    "cves_total": 0,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
