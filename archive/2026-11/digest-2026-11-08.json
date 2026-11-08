@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T03:00:50.801476+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "c120d1a6ed12ade7",
+        "title": "Auto-Planning",
+        "url": "https://frenchbreaches.com/alertes/auto-planning-mvsr5k8z732ik7zcded",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Auto-Planning a été victime d'une cyberattaque, avec la fuite de 242 millions de lignes de données.",
+        "published_at": "2026-11-07T21:03:00",
+        "score": 17
+      },
+      {
+        "guid": "11900d9e77ea9559",
+        "title": "Titres Services",
+        "url": "https://frenchbreaches.com/alertes/titres-services-mw49chlrygke8bvq1b",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "I.L. & C. – Titres Services a été visée par SafePay, avec la fuite de plus de 71 Go de fichiers.",
+        "published_at": "2026-11-07T20:29:00",
+        "score": 17
+      },
+      {
+        "guid": "56376df79f3821a4",
+        "title": "Burda Style",
+        "url": "https://frenchbreaches.com/alertes/burda-style-mw6qlcon9wdev310pd5",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Burda Style a subi une cyberattaque en octobre 2026, mettant potentiellement en danger les informations des clients.",
+        "published_at": "2026-11-07T19:27:00",
+        "score": 17
+      },
+      {
+        "guid": "c9989057b4cad211",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Tribunal de Justica do Estado de Minas Gerais",
+        "url": "https://www.ransomware.live/id/VHJpYnVuYWwgZGUgSnVzdGljYSBkbyBFc3RhZG8gZGUgTWluYXMgR2VyYWlzQHJoeXNpZGE",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Le Tribunal de Justica do Estado de Minas Gerais a été victime d'une cyberattaque selon un communiqué.",
+        "published_at": "2026-11-07T13:16:04",
+        "score": 0
+      },
+      {
+        "guid": "95f798c8156d9686",
+        "title": "🏴‍☠️ Payload has just published a new victim : Autohaus Arnold",
+        "url": "https://www.ransomware.live/id/QXV0b2hhdXMgQXJub2xkQHBheWxvYWQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Autohaus Arnold, concessionnaire allemand, est ciblé par une attaque ransomware.",
+        "published_at": "2026-11-07T13:15:06",
+        "score": 12
+      },
+      {
+        "guid": "bfdd51001b1c0306",
+        "title": "🏴‍☠️ Payload has just published a new victim : Brauco",
+        "url": "https://www.ransomware.live/id/QnJhdWNvQHBheWxvYWQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Brauco, entreprise de services allemande, fait l'objet d'une cyberattaque selon un communiqué.",
+        "published_at": "2026-11-07T13:13:44",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "7a9011f8ec9bae18",
+        "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+        "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Des mots de passe et des clés API ont été exposés sur GitHub dans 1 122 copies publiques par Claude Code.",
+        "published_at": "2026-11-07T12:14:17",
+        "score": 5,
+        "rank": 1
+      },
+      {
+        "guid": "b0a9d27c6bd09e1b",
+        "title": "Caverne des Jouets",
+        "url": "https://frenchbreaches.com/alertes/caverne-des-jouets-mw6azxay5sfe24oknka",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "La Caverne des Jouets a fait l'objet d'une fuite de données potentiellement concernant un million de clients.",
+        "published_at": "2026-11-07T12:14:00",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "630f78c33c7dae0a",
+        "title": "🏴‍☠️ N0n has just published a new victim : Company #147",
+        "url": "https://www.ransomware.live/id/Q29tcGFueSAjMTQ3QE4wbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "N0n a publié la victime Company #147, une entreprise américaine du secteur des cafés en attente d'exposition.",
+        "published_at": "2026-11-07T21:30:05",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 50,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
