@@ -1,72 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 8 novembre 2026
+# 🛡️ ARGOS CTI Digest — 9 novembre 2026
 
-> Généré le 08/11/2026 à 03:00 UTC  ·  50 items analysés  ·  9 sélectionnés  ·  23 sources actives
+> Généré le 09/11/2026 à 03:00 UTC  ·  34 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)](https://isc.sans.edu/diary/rss/33498)
+**Source :** SANS ISC  **Publié :** 08/11/2026 15:44 UTC  **CVE :** `CVE-2026-123158`
+`cve` `vulnerability`
+Les honeypots enregistrent une augmentation des essais d’exploitation de la vulnérabilité Sshole (CVE-2026-123158), bien que les mots de passe SSH soient généralement courts.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Auto-Planning](https://frenchbreaches.com/alertes/auto-planning-mvsr5k8z732ik7zcded)
-**Source :** FrenchBreaches  **Publié :** 07/11/2026 21:03 UTC
+### [🏴‍☠️ Panzer has just published a new victim : Grupa ABS](https://www.ransomware.live/id/R3J1cGEgQUJTQFBhbnplcg)
+**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:55 UTC
 `malware`
-Auto-Planning a été victime d'une cyberattaque, avec la fuite de 242 millions de lignes de données.
+Grupa ABS, une entreprise polonaise du secteur des services environnementaux, a été victime d’un chiffrement de 30Go de données par Panzer.
 
 ---
 
-### [Titres Services](https://frenchbreaches.com/alertes/titres-services-mw49chlrygke8bvq1b)
-**Source :** FrenchBreaches  **Publié :** 07/11/2026 20:29 UTC
-`malware` `ransomware`
-I.L. & C. – Titres Services a été visée par SafePay, avec la fuite de plus de 71 Go de fichiers.
-
----
-
-### [Burda Style](https://frenchbreaches.com/alertes/burda-style-mw6qlcon9wdev310pd5)
-**Source :** FrenchBreaches  **Publié :** 07/11/2026 19:27 UTC
+### [🏴‍☠️ Orova has just published a new victim : IE & E Industries](https://www.ransomware.live/id/SUUgJiBFIEluZHVzdHJpZXNAT3JvdmE)
+**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:53 UTC
 `malware`
-Burda Style a subi une cyberattaque en octobre 2026, mettant potentiellement en danger les informations des clients.
+Orova a ciblé IE & E Industries, une entreprise spécialisée en services mécaniques et électromécaniques.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Tribunal de Justica do Estado de Minas Gerais](https://www.ransomware.live/id/VHJpYnVuYWwgZGUgSnVzdGljYSBkbyBFc3RhZG8gZGUgTWluYXMgR2VyYWlzQHJoeXNpZGE)
-**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:16 UTC
+### [🏴‍☠️ N0n has just published a new victim : Expedia Group, Inc.](https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4)
+**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:52 UTC
+`cve` `malware`
+Expedia Group est la nouvelle victime de N0n avec l’exfiltration d’informations sur des milliers de comptes de fidélité.
+
+---
+
+### [Un géant de l’informatique visé par une revendication de vol de données](https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/)
+**Source :** ZATAZ  **Publié :** 08/11/2026 23:36 UTC
+`cve` `malware`
+Kensium, un grand groupe informatique, a été victime d’une attaque prétendant avoir volé 18 To de données.
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : starmark.co.th](https://www.ransomware.live/id/c3Rhcm1hcmsuY28udGhAbG9ja2JpdDU)
+**Source :** Ransomware.live News  **Publié :** 08/11/2026 23:34 UTC
 `ransomware`
-Le Tribunal de Justica do Estado de Minas Gerais a été victime d'une cyberattaque selon un communiqué.
+STARMARK, une entreprise thaïlandaise spécialisée dans la fabrication et l’importation de meubles premium, a été victime de Lockbit5.
 
 ---
 
-### [🏴‍☠️ Payload has just published a new victim : Autohaus Arnold](https://www.ransomware.live/id/QXV0b2hhdXMgQXJub2xkQHBheWxvYWQ)
-**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:15 UTC
-`malware`
-Autohaus Arnold, concessionnaire allemand, est ciblé par une attaque ransomware.
-
----
-
-### [🏴‍☠️ Payload has just published a new victim : Brauco](https://www.ransomware.live/id/QnJhdWNvQHBheWxvYWQ)
-**Source :** Ransomware.live News  **Publié :** 07/11/2026 13:13 UTC
-`malware`
-Brauco, entreprise de services allemande, fait l'objet d'une cyberattaque selon un communiqué.
+### [🏴‍☠️ Lockbit5 has just published a new victim : grupotelles.com](https://www.ransomware.live/id/Z3J1cG90ZWxsZXMuY29tQGxvY2tiaXQ1)
+**Source :** Ransomware.live News  **Publié :** 08/11/2026 23:32 UTC
+`malware` `ransomware`
+Grupo Telles, une entreprise brésilienne historique, est la dernière cible de Lockbit5.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub](https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html)
-**Source :** The Hacker News  **Publié :** 07/11/2026 12:14 UTC  **Score :** 5
-Des mots de passe et des clés API ont été exposés sur GitHub dans 1 122 copies publiques par Claude Code.
+### 1. [🏴‍☠️ Barracuda has just published a new victim : ADG Blatt](https://www.ransomware.live/id/QURHIEJsYXR0QEJhcnJhY3VkYQ)
+**Source :** Ransomware.live News  **Publié :** 08/11/2026 22:50 UTC  **Score :** 20
+`breach`
+ADG Blatt a été victime d’un vol de tous ses documents importants par Deadlock, dont des blueprints et des contrats commerciaux.
 
-### 2. [Caverne des Jouets](https://frenchbreaches.com/alertes/caverne-des-jouets-mw6azxay5sfe24oknka)
-**Source :** FrenchBreaches  **Publié :** 07/11/2026 12:14 UTC  **Score :** 5
-La Caverne des Jouets a fait l'objet d'une fuite de données potentiellement concernant un million de clients.
+### 2. [NoName vise Free, La Poste Mobile et Danfoss](https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/)
+**Source :** ZATAZ  **Publié :** 09/11/2026 00:08 UTC  **Score :** 5
+NoName a attaqué Free, La Poste Mobile et Danfoss, mettant en avant des vols de données, des DDoS et des revendications industrielles.
 
-### 3. [🏴‍☠️ N0n has just published a new victim : Company #147](https://www.ransomware.live/id/Q29tcGFueSAjMTQ3QE4wbg)
-**Source :** Ransomware.live News  **Publié :** 07/11/2026 21:30 UTC  **Score :** 0
-N0n a publié la victime Company #147, une entreprise américaine du secteur des cafés en attente d'exposition.
+### 3. [🏴‍☠️ Deadlock has just published a new victim : NoseTea](https://www.ransomware.live/id/Tm9zZVRlYUBEZWFkbG9jaw)
+**Source :** Ransomware.live News  **Publié :** 08/11/2026 19:51 UTC  **Score :** 0
+Deadlock a ciblé NOSE TEA (THAILAND) CO LTD., une marque popululaire de thé à la crème en Thaïlande, pour voler des informations confidentielles.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-08.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-09.md`*
