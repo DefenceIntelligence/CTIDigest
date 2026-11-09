@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T03:00:54.673156+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "04e6a2a51df00746",
+        "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+        "url": "https://isc.sans.edu/diary/rss/33498",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-123158"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les honeypots enregistrent une augmentation des essais d’exploitation de la vulnérabilité Sshole (CVE-2026-123158), bien que les mots de passe SSH soient généralement courts.",
+        "published_at": "2026-11-08T15:44:33",
+        "score": 15
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "1642bc808a5a9f0d",
+        "title": "🏴‍☠️ Panzer has just published a new victim : Grupa ABS",
+        "url": "https://www.ransomware.live/id/R3J1cGEgQUJTQFBhbnplcg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Grupa ABS, une entreprise polonaise du secteur des services environnementaux, a été victime d’un chiffrement de 30Go de données par Panzer.",
+        "published_at": "2026-11-09T00:55:15",
+        "score": 12
+      },
+      {
+        "guid": "77c94abeced3245a",
+        "title": "🏴‍☠️ Orova has just published a new victim : IE & E Industries",
+        "url": "https://www.ransomware.live/id/SUUgJiBFIEluZHVzdHJpZXNAT3JvdmE",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Orova a ciblé IE & E Industries, une entreprise spécialisée en services mécaniques et électromécaniques.",
+        "published_at": "2026-11-09T00:53:07",
+        "score": 12
+      },
+      {
+        "guid": "5a999fce04c6fb7b",
+        "title": "🏴‍☠️ N0n has just published a new victim : Expedia Group, Inc.",
+        "url": "https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Expedia Group est la nouvelle victime de N0n avec l’exfiltration d’informations sur des milliers de comptes de fidélité.",
+        "published_at": "2026-11-09T00:52:31",
+        "score": 12
+      },
+      {
+        "guid": "fcd915a913b7b5ef",
+        "title": "Un géant de l’informatique visé par une revendication de vol de données",
+        "url": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Kensium, un grand groupe informatique, a été victime d’une attaque prétendant avoir volé 18 To de données.",
+        "published_at": "2026-11-08T23:36:38",
+        "score": 17
+      },
+      {
+        "guid": "3288c6e30d9a4a46",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : starmark.co.th",
+        "url": "https://www.ransomware.live/id/c3Rhcm1hcmsuY28udGhAbG9ja2JpdDU",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "STARMARK, une entreprise thaïlandaise spécialisée dans la fabrication et l’importation de meubles premium, a été victime de Lockbit5.",
+        "published_at": "2026-11-08T23:34:54",
+        "score": 0
+      },
+      {
+        "guid": "4369ddcfc736b5fd",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : grupotelles.com",
+        "url": "https://www.ransomware.live/id/Z3J1cG90ZWxsZXMuY29tQGxvY2tiaXQ1",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Grupo Telles, une entreprise brésilienne historique, est la dernière cible de Lockbit5.",
+        "published_at": "2026-11-08T23:32:52",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d171f08654c4e0d7",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : ADG Blatt",
+        "url": "https://www.ransomware.live/id/QURHIEJsYXR0QEJhcnJhY3VkYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "ADG Blatt a été victime d’un vol de tous ses documents importants par Deadlock, dont des blueprints et des contrats commerciaux.",
+        "published_at": "2026-11-08T22:50:42",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "3137b8021aee8c2b",
+        "title": "NoName vise Free, La Poste Mobile et Danfoss",
+        "url": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "NoName a attaqué Free, La Poste Mobile et Danfoss, mettant en avant des vols de données, des DDoS et des revendications industrielles.",
+        "published_at": "2026-11-09T00:08:10",
+        "score": 5,
+        "rank": 2
+      },
+      {
+        "guid": "89e5ecbfbb5bfd25",
+        "title": "🏴‍☠️ Deadlock has just published a new victim : NoseTea",
+        "url": "https://www.ransomware.live/id/Tm9zZVRlYUBEZWFkbG9jaw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Deadlock a ciblé NOSE TEA (THAILAND) CO LTD., une marque popululaire de thé à la crème en Thaïlande, pour voler des informations confidentielles.",
+        "published_at": "2026-11-08T19:51:32",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 34,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
