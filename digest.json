@@ -1,167 +1,189 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T03:00:54.673156+00:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T03:01:01.056118+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "04e6a2a51df00746",
-        "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
-        "url": "https://isc.sans.edu/diary/rss/33498",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
+        "guid": "eb09dd19d3062fe4",
+        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+        "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [
-          "CVE-2026-123158"
+          "CVE-2026-19868"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Les honeypots enregistrent une augmentation des essais d’exploitation de la vulnérabilité Sshole (CVE-2026-123158), bien que les mots de passe SSH soient généralement courts.",
-        "published_at": "2026-11-08T15:44:33",
-        "score": 15
+        "summary": "Le KEV de CISA inclut une vulnérabilité majeure chez SonicWall exploitable dans des attaques réelles.",
+        "published_at": "2026-11-09T11:35:24",
+        "score": 20
+      },
+      {
+        "guid": "7889a031a39d4c81",
+        "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123158"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les hackers exploitent CVE-2026-123158 pour exécuter des commandes et voler des identifiants sur Linux.",
+        "published_at": "2026-11-09T11:04:57",
+        "score": 40
       }
     ],
     "campaigns": [
       {
-        "guid": "1642bc808a5a9f0d",
-        "title": "🏴‍☠️ Panzer has just published a new victim : Grupa ABS",
-        "url": "https://www.ransomware.live/id/R3J1cGEgQUJTQFBhbnplcg",
+        "guid": "c36098f98ef1b9df",
+        "title": "🏴‍☠️ N0n has just published a new victim : Vertex Pharmaceuticals Incorporated",
+        "url": "https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Grupa ABS, une entreprise polonaise du secteur des services environnementaux, a été victime d’un chiffrement de 30Go de données par Panzer.",
-        "published_at": "2026-11-09T00:55:15",
+        "summary": "Vertex Pharmaceuticals est victime d'une fuite de données comprenant des informations personnelles et professionnelles sensibles.",
+        "published_at": "2026-11-09T23:53:08",
         "score": 12
       },
       {
-        "guid": "77c94abeced3245a",
-        "title": "🏴‍☠️ Orova has just published a new victim : IE & E Industries",
-        "url": "https://www.ransomware.live/id/SUUgJiBFIEluZHVzdHJpZXNAT3JvdmE",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Orova a ciblé IE & E Industries, une entreprise spécialisée en services mécaniques et électromécaniques.",
-        "published_at": "2026-11-09T00:53:07",
-        "score": 12
-      },
-      {
-        "guid": "5a999fce04c6fb7b",
-        "title": "🏴‍☠️ N0n has just published a new victim : Expedia Group, Inc.",
-        "url": "https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware"
-        ],
-        "summary": "Expedia Group est la nouvelle victime de N0n avec l’exfiltration d’informations sur des milliers de comptes de fidélité.",
-        "published_at": "2026-11-09T00:52:31",
-        "score": 12
-      },
-      {
-        "guid": "fcd915a913b7b5ef",
-        "title": "Un géant de l’informatique visé par une revendication de vol de données",
-        "url": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
-        "source": "ZATAZ",
+        "guid": "5d3155e50792b418",
+        "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+        "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "cve",
+          "breach",
           "malware"
         ],
-        "summary": "Kensium, un grand groupe informatique, a été victime d’une attaque prétendant avoir volé 18 To de données.",
-        "published_at": "2026-11-08T23:36:38",
+        "summary": "Des hackers ont compromis deux outils Ethersphere pour voler les clés de portefeuille Ethereum.",
+        "published_at": "2026-11-09T23:06:28",
+        "score": 37
+      },
+      {
+        "guid": "5c755e762e92bcf4",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Wilentz, Goldman & Spitzer",
+        "url": "https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a ciblé Wilentz, Goldman & Spitzer, un cabinet d'avocats américain.",
+        "published_at": "2026-11-09T21:06:01",
+        "score": 12
+      },
+      {
+        "guid": "2c135dddf7350db9",
+        "title": "ADEMS",
+        "url": "https://frenchbreaches.com/alertes/adems-mw9n9kzy4t9ybhn7s02",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ADEMS14, une entreprise française de chauffage et climatisation, a subi une fuite de données sur 36 000 clients.",
+        "published_at": "2026-11-09T20:15:00",
         "score": 17
       },
       {
-        "guid": "3288c6e30d9a4a46",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : starmark.co.th",
-        "url": "https://www.ransomware.live/id/c3Rhcm1hcmsuY28udGhAbG9ja2JpdDU",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "1f0baf3579155702",
+        "title": "Color Box",
+        "url": "https://frenchbreaches.com/alertes/color-box-mw9n5pk24gh3ajbtzyt",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "ransomware"
+          "malware"
         ],
-        "summary": "STARMARK, une entreprise thaïlandaise spécialisée dans la fabrication et l’importation de meubles premium, a été victime de Lockbit5.",
-        "published_at": "2026-11-08T23:34:54",
-        "score": 0
+        "summary": "Color-Box, un site de vente en ligne de peintures automobiles, a connu une fuite de données sur ses clients et garagistes.",
+        "published_at": "2026-11-09T20:14:00",
+        "score": 17
       },
       {
-        "guid": "4369ddcfc736b5fd",
-        "title": "🏴‍☠️ Lockbit5 has just published a new victim : grupotelles.com",
-        "url": "https://www.ransomware.live/id/Z3J1cG90ZWxsZXMuY29tQGxvY2tiaXQ1",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "68b913204b0dad5a",
+        "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+        "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "malware",
-          "ransomware"
+          "apt",
+          "malware"
         ],
-        "summary": "Grupo Telles, une entreprise brésilienne historique, est la dernière cible de Lockbit5.",
-        "published_at": "2026-11-08T23:32:52",
-        "score": 12
+        "summary": "Le groupe espionnage Bitter utilise un nouveau backdoor PapRAT pour cibler des organisations en Asie du Sud.",
+        "published_at": "2026-11-09T20:01:29",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "d171f08654c4e0d7",
-        "title": "🏴‍☠️ Barracuda has just published a new victim : ADG Blatt",
-        "url": "https://www.ransomware.live/id/QURHIEJsYXR0QEJhcnJhY3VkYQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "d38d5953f07f9cfe",
+        "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+        "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "ADG Blatt a été victime d’un vol de tous ses documents importants par Deadlock, dont des blueprints et des contrats commerciaux.",
-        "published_at": "2026-11-08T22:50:42",
-        "score": 20,
+        "summary": "Une fuite de données médicale affecte des clients U.S. d'Amplifon, une entreprise de l'audition.",
+        "published_at": "2026-11-09T20:44:00",
+        "score": 35,
         "rank": 1
       },
       {
-        "guid": "3137b8021aee8c2b",
-        "title": "NoName vise Free, La Poste Mobile et Danfoss",
-        "url": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
-        "source": "ZATAZ",
+        "guid": "ba3da2b8c4ad6001",
+        "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "NoName a attaqué Free, La Poste Mobile et Danfoss, mettant en avant des vols de données, des DDoS et des revendications industrielles.",
-        "published_at": "2026-11-09T00:08:10",
-        "score": 5,
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Un hacker a accédé à plusieurs comptes AWS de Qubole pour voler des secrets et données client.",
+        "published_at": "2026-11-09T23:21:21",
+        "score": 25,
         "rank": 2
       },
       {
-        "guid": "89e5ecbfbb5bfd25",
-        "title": "🏴‍☠️ Deadlock has just published a new victim : NoseTea",
-        "url": "https://www.ransomware.live/id/Tm9zZVRlYUBEZWFkbG9jaw",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "538193bd07e2c185",
+        "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+        "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+        "source": "Bleeping Computer",
+        "category": "Général",
         "cve": [],
-        "tags": [],
-        "summary": "Deadlock a ciblé NOSE TEA (THAILAND) CO LTD., une marque popululaire de thé à la crème en Thaïlande, pour voler des informations confidentielles.",
-        "published_at": "2026-11-08T19:51:32",
-        "score": 0,
+        "tags": [
+          "breach"
+        ],
+        "summary": "SEGA a annoncé une fuite de données liée à son fournisseur tiers ARARA, exposant les adresses électroniques de 2,2 millions d'abonnés à ses newsletters.",
+        "published_at": "2026-11-09T17:09:33",
+        "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 34,
-    "items_selected": 10,
+    "items_analyzed": 106,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 1,
+    "cves_total": 2,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
