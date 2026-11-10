@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T03:01:01.056118+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "eb09dd19d3062fe4",
+        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+        "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-19868"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le KEV de CISA inclut une vulnérabilité majeure chez SonicWall exploitable dans des attaques réelles.",
+        "published_at": "2026-11-09T11:35:24",
+        "score": 20
+      },
+      {
+        "guid": "7889a031a39d4c81",
+        "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123158"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les hackers exploitent CVE-2026-123158 pour exécuter des commandes et voler des identifiants sur Linux.",
+        "published_at": "2026-11-09T11:04:57",
+        "score": 40
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "c36098f98ef1b9df",
+        "title": "🏴‍☠️ N0n has just published a new victim : Vertex Pharmaceuticals Incorporated",
+        "url": "https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Vertex Pharmaceuticals est victime d'une fuite de données comprenant des informations personnelles et professionnelles sensibles.",
+        "published_at": "2026-11-09T23:53:08",
+        "score": 12
+      },
+      {
+        "guid": "5d3155e50792b418",
+        "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+        "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Des hackers ont compromis deux outils Ethersphere pour voler les clés de portefeuille Ethereum.",
+        "published_at": "2026-11-09T23:06:28",
+        "score": 37
+      },
+      {
+        "guid": "5c755e762e92bcf4",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Wilentz, Goldman & Spitzer",
+        "url": "https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a ciblé Wilentz, Goldman & Spitzer, un cabinet d'avocats américain.",
+        "published_at": "2026-11-09T21:06:01",
+        "score": 12
+      },
+      {
+        "guid": "2c135dddf7350db9",
+        "title": "ADEMS",
+        "url": "https://frenchbreaches.com/alertes/adems-mw9n9kzy4t9ybhn7s02",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "ADEMS14, une entreprise française de chauffage et climatisation, a subi une fuite de données sur 36 000 clients.",
+        "published_at": "2026-11-09T20:15:00",
+        "score": 17
+      },
+      {
+        "guid": "1f0baf3579155702",
+        "title": "Color Box",
+        "url": "https://frenchbreaches.com/alertes/color-box-mw9n5pk24gh3ajbtzyt",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Color-Box, un site de vente en ligne de peintures automobiles, a connu une fuite de données sur ses clients et garagistes.",
+        "published_at": "2026-11-09T20:14:00",
+        "score": 17
+      },
+      {
+        "guid": "68b913204b0dad5a",
+        "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+        "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware"
+        ],
+        "summary": "Le groupe espionnage Bitter utilise un nouveau backdoor PapRAT pour cibler des organisations en Asie du Sud.",
+        "published_at": "2026-11-09T20:01:29",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "d38d5953f07f9cfe",
+        "title": "Data breach at hearing aid giant Amplifon impacts thousands",
+        "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données médicale affecte des clients U.S. d'Amplifon, une entreprise de l'audition.",
+        "published_at": "2026-11-09T20:44:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "ba3da2b8c4ad6001",
+        "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Un hacker a accédé à plusieurs comptes AWS de Qubole pour voler des secrets et données client.",
+        "published_at": "2026-11-09T23:21:21",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "538193bd07e2c185",
+        "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+        "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SEGA a annoncé une fuite de données liée à son fournisseur tiers ARARA, exposant les adresses électroniques de 2,2 millions d'abonnés à ses newsletters.",
+        "published_at": "2026-11-09T17:09:33",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 106,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
