@@ -1,78 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 9 novembre 2026
+# 🛡️ ARGOS CTI Digest — 10 novembre 2026
 
-> Généré le 09/11/2026 à 03:00 UTC  ·  34 items analysés  ·  10 sélectionnés  ·  23 sources actives
+> Généré le 10/11/2026 à 03:01 UTC  ·  106 items analysés  ·  11 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)](https://isc.sans.edu/diary/rss/33498)
-**Source :** SANS ISC  **Publié :** 08/11/2026 15:44 UTC  **CVE :** `CVE-2026-123158`
+### [CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html)
+**Source :** The Hacker News  **Publié :** 09/11/2026 11:35 UTC  **CVE :** `CVE-2026-19868`
 `cve` `vulnerability`
-Les honeypots enregistrent une augmentation des essais d’exploitation de la vulnérabilité Sshole (CVE-2026-123158), bien que les mots de passe SSH soient généralement courts.
+Le KEV de CISA inclut une vulnérabilité majeure chez SonicWall exploitable dans des attaques réelles.
+
+---
+
+### [Hackers exploit SSHole OpenSSH flaw to breach Linux systems](https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/)
+**Source :** Bleeping Computer  **Publié :** 09/11/2026 11:04 UTC  **CVE :** `CVE-2026-123158`
+`breach` `cve` `vulnerability`
+Les hackers exploitent CVE-2026-123158 pour exécuter des commandes et voler des identifiants sur Linux.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Panzer has just published a new victim : Grupa ABS](https://www.ransomware.live/id/R3J1cGEgQUJTQFBhbnplcg)
-**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:55 UTC
+### [🏴‍☠️ N0n has just published a new victim : Vertex Pharmaceuticals Incorporated](https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu)
+**Source :** Ransomware.live News  **Publié :** 09/11/2026 23:53 UTC
 `malware`
-Grupa ABS, une entreprise polonaise du secteur des services environnementaux, a été victime d’un chiffrement de 30Go de données par Panzer.
+Vertex Pharmaceuticals est victime d'une fuite de données comprenant des informations personnelles et professionnelles sensibles.
 
 ---
 
-### [🏴‍☠️ Orova has just published a new victim : IE & E Industries](https://www.ransomware.live/id/SUUgJiBFIEluZHVzdHJpZXNAT3JvdmE)
-**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:53 UTC
+### [Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware](https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html)
+**Source :** The Hacker News  **Publié :** 09/11/2026 23:06 UTC
+`breach` `malware`
+Des hackers ont compromis deux outils Ethersphere pour voler les clés de portefeuille Ethereum.
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Wilentz, Goldman & Spitzer](https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA)
+**Source :** Ransomware.live News  **Publié :** 09/11/2026 21:06 UTC
 `malware`
-Orova a ciblé IE & E Industries, une entreprise spécialisée en services mécaniques et électromécaniques.
+Silentransomgroup a ciblé Wilentz, Goldman & Spitzer, un cabinet d'avocats américain.
 
 ---
 
-### [🏴‍☠️ N0n has just published a new victim : Expedia Group, Inc.](https://www.ransomware.live/id/RXhwZWRpYSBHcm91cCwgSW5jLkBOMG4)
-**Source :** Ransomware.live News  **Publié :** 09/11/2026 00:52 UTC
-`cve` `malware`
-Expedia Group est la nouvelle victime de N0n avec l’exfiltration d’informations sur des milliers de comptes de fidélité.
+### [ADEMS](https://frenchbreaches.com/alertes/adems-mw9n9kzy4t9ybhn7s02)
+**Source :** FrenchBreaches  **Publié :** 09/11/2026 20:15 UTC
+`malware`
+ADEMS14, une entreprise française de chauffage et climatisation, a subi une fuite de données sur 36 000 clients.
 
 ---
 
-### [Un géant de l’informatique visé par une revendication de vol de données](https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/)
-**Source :** ZATAZ  **Publié :** 08/11/2026 23:36 UTC
-`cve` `malware`
-Kensium, un grand groupe informatique, a été victime d’une attaque prétendant avoir volé 18 To de données.
+### [Color Box](https://frenchbreaches.com/alertes/color-box-mw9n5pk24gh3ajbtzyt)
+**Source :** FrenchBreaches  **Publié :** 09/11/2026 20:14 UTC
+`malware`
+Color-Box, un site de vente en ligne de peintures automobiles, a connu une fuite de données sur ses clients et garagistes.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : starmark.co.th](https://www.ransomware.live/id/c3Rhcm1hcmsuY28udGhAbG9ja2JpdDU)
-**Source :** Ransomware.live News  **Publié :** 08/11/2026 23:34 UTC
-`ransomware`
-STARMARK, une entreprise thaïlandaise spécialisée dans la fabrication et l’importation de meubles premium, a été victime de Lockbit5.
-
----
-
-### [🏴‍☠️ Lockbit5 has just published a new victim : grupotelles.com](https://www.ransomware.live/id/Z3J1cG90ZWxsZXMuY29tQGxvY2tiaXQ1)
-**Source :** Ransomware.live News  **Publié :** 08/11/2026 23:32 UTC
-`malware` `ransomware`
-Grupo Telles, une entreprise brésilienne historique, est la dernière cible de Lockbit5.
+### [Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia](https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html)
+**Source :** The Hacker News  **Publié :** 09/11/2026 20:01 UTC
+`apt` `malware`
+Le groupe espionnage Bitter utilise un nouveau backdoor PapRAT pour cibler des organisations en Asie du Sud.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Barracuda has just published a new victim : ADG Blatt](https://www.ransomware.live/id/QURHIEJsYXR0QEJhcnJhY3VkYQ)
-**Source :** Ransomware.live News  **Publié :** 08/11/2026 22:50 UTC  **Score :** 20
+### 1. [Data breach at hearing aid giant Amplifon impacts thousands](https://therecord.media/amplifon-hearing-aid-company-data-breach)
+**Source :** The Record  **Publié :** 09/11/2026 20:44 UTC  **Score :** 35
 `breach`
-ADG Blatt a été victime d’un vol de tous ses documents importants par Deadlock, dont des blueprints et des contrats commerciaux.
+Une fuite de données médicale affecte des clients U.S. d'Amplifon, une entreprise de l'audition.
 
-### 2. [NoName vise Free, La Poste Mobile et Danfoss](https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/)
-**Source :** ZATAZ  **Publié :** 09/11/2026 00:08 UTC  **Score :** 5
-NoName a attaqué Free, La Poste Mobile et Danfoss, mettant en avant des vols de données, des DDoS et des revendications industrielles.
+### 2. [Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data](https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html)
+**Source :** The Hacker News  **Publié :** 09/11/2026 23:21 UTC  **Score :** 25
+`breach` `cve`
+Un hacker a accédé à plusieurs comptes AWS de Qubole pour voler des secrets et données client.
 
-### 3. [🏴‍☠️ Deadlock has just published a new victim : NoseTea](https://www.ransomware.live/id/Tm9zZVRlYUBEZWFkbG9jaw)
-**Source :** Ransomware.live News  **Publié :** 08/11/2026 19:51 UTC  **Score :** 0
-Deadlock a ciblé NOSE TEA (THAILAND) CO LTD., une marque popululaire de thé à la crème en Thaïlande, pour voler des informations confidentielles.
+### 3. [SEGA newsletter data breach exposes 2.2 million email addresses](https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/)
+**Source :** Bleeping Computer  **Publié :** 09/11/2026 17:09 UTC  **Score :** 25
+`breach`
+SEGA a annoncé une fuite de données liée à son fournisseur tiers ARARA, exposant les adresses électroniques de 2,2 millions d'abonnés à ses newsletters.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-09.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-10.md`*
