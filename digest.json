@@ -1,122 +1,118 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T03:01:01.056118+00:00",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T03:01:21.251466+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "eb09dd19d3062fe4",
-        "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
-        "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+        "guid": "78063aca8ef77fcf",
+        "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+        "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-19868"
+          "CVE-2026-105134",
+          "CVE-2026-105133"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des chercheurs de sécurité ont révélé un attaque exploitant deux vulnérabilités dans AhsayCBS pour déployer un implant Python évitant les sandboxes.",
+        "published_at": "2026-11-10T21:30:55",
+        "score": 32
+      },
+      {
+        "guid": "d88e6857388d0143",
+        "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+        "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-111760"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Le KEV de CISA inclut une vulnérabilité majeure chez SonicWall exploitable dans des attaques réelles.",
-        "published_at": "2026-11-09T11:35:24",
+        "summary": "Une vulnérabilité dans Git peut exécuter du code malveillant lors d'un cloning récursif de dépôts, selon une mise à jour en version 2.56.1.",
+        "published_at": "2026-11-11T00:53:10",
         "score": 20
       },
       {
-        "guid": "7889a031a39d4c81",
-        "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-        "source": "Bleeping Computer",
+        "guid": "20b0e83dc54b95fb",
+        "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+        "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-123158"
+          "CVE-2026-125350"
         ],
         "tags": [
-          "breach",
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Google a publié des mises à jour pour patcher neuf vulnérabilités, dont une activement exploité dans la nature.",
+        "published_at": "2026-11-10T12:22:54",
+        "score": 20
+      },
+      {
+        "guid": "5f1e12ecf7ea1839",
+        "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+        "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123218"
+        ],
+        "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Les hackers exploitent CVE-2026-123158 pour exécuter des commandes et voler des identifiants sur Linux.",
-        "published_at": "2026-11-09T11:04:57",
-        "score": 40
+        "summary": "La CISA a ajouté quatre nouvelles vulnérabilités à son catalogue KEV, citant des preuves d'exploitation active.",
+        "published_at": "2026-11-10T12:01:42",
+        "score": 20
+      },
+      {
+        "guid": "045e7620ae055ab9",
+        "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+        "url": "https://isc.sans.edu/diary/rss/33508",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "patch",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a lancé une autre série de mises à jour sur Patch Tuesday, corrigent 1,260 vulnérabilités dont 68 critiques.",
+        "published_at": "2026-11-10T19:09:32",
+        "score": 0
       }
     ],
     "campaigns": [
       {
-        "guid": "c36098f98ef1b9df",
-        "title": "🏴‍☠️ N0n has just published a new victim : Vertex Pharmaceuticals Incorporated",
-        "url": "https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu",
+        "guid": "a5e38becab4f85b3",
+        "title": "🏴‍☠️ Interlock has just published a new victim : Garden Valley School Division",
+        "url": "https://www.ransomware.live/id/R2FyZGVuIFZhbGxleSBTY2hvb2wgRGl2aXNpb25AaW50ZXJsb2Nr",
         "source": "Ransomware.live News",
         "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Vertex Pharmaceuticals est victime d'une fuite de données comprenant des informations personnelles et professionnelles sensibles.",
-        "published_at": "2026-11-09T23:53:08",
-        "score": 12
-      },
-      {
-        "guid": "5d3155e50792b418",
-        "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-        "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-        "source": "The Hacker News",
-        "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "malware"
         ],
-        "summary": "Des hackers ont compromis deux outils Ethersphere pour voler les clés de portefeuille Ethereum.",
-        "published_at": "2026-11-09T23:06:28",
-        "score": 37
+        "summary": "Le district scolaire Garden Valley a été compromise par un attaque, exposant des informations personnelles de ses élèves et employés.",
+        "published_at": "2026-11-11T00:43:34",
+        "score": 32
       },
       {
-        "guid": "5c755e762e92bcf4",
-        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Wilentz, Goldman & Spitzer",
-        "url": "https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Silentransomgroup a ciblé Wilentz, Goldman & Spitzer, un cabinet d'avocats américain.",
-        "published_at": "2026-11-09T21:06:01",
-        "score": 12
-      },
-      {
-        "guid": "2c135dddf7350db9",
-        "title": "ADEMS",
-        "url": "https://frenchbreaches.com/alertes/adems-mw9n9kzy4t9ybhn7s02",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "ADEMS14, une entreprise française de chauffage et climatisation, a subi une fuite de données sur 36 000 clients.",
-        "published_at": "2026-11-09T20:15:00",
-        "score": 17
-      },
-      {
-        "guid": "1f0baf3579155702",
-        "title": "Color Box",
-        "url": "https://frenchbreaches.com/alertes/color-box-mw9n5pk24gh3ajbtzyt",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Color-Box, un site de vente en ligne de peintures automobiles, a connu une fuite de données sur ses clients et garagistes.",
-        "published_at": "2026-11-09T20:14:00",
-        "score": 17
-      },
-      {
-        "guid": "68b913204b0dad5a",
-        "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-        "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+        "guid": "30762c6823f897aa",
+        "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+        "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -124,66 +120,131 @@
           "apt",
           "malware"
         ],
-        "summary": "Le groupe espionnage Bitter utilise un nouveau backdoor PapRAT pour cibler des organisations en Asie du Sud.",
-        "published_at": "2026-11-09T20:01:29",
+        "summary": "Trois campagnes d'espionnage chinoises liées au malware Sparrow ciblent des organisations gouvernementales, militaires et de recherche en Amérique latine, Asie et Europe.",
+        "published_at": "2026-11-10T23:13:23",
         "score": 17
+      },
+      {
+        "guid": "6e5f9c70f1e6d32d",
+        "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+        "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Microsoft a corrigé 1,100 vulnérabilités sur Patch Tuesday, dont 63 critiques concernant notamment Outlook.",
+        "published_at": "2026-11-10T21:55:03",
+        "score": 17
+      },
+      {
+        "guid": "664c0b4e22fd5577",
+        "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+        "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "phishing"
+        ],
+        "summary": "Le groupe de threat appelé Blind Eagle utilise des faux avis judiciaires pour délivrer un RAT dans les organisations d'Amérique latine.",
+        "published_at": "2026-11-10T21:28:44",
+        "score": 27
+      },
+      {
+        "guid": "2f50468941f212e1",
+        "title": "🏴‍☠️ Dark project has just published a new victim : Bear Valley Community Hospital",
+        "url": "https://www.ransomware.live/id/QmVhciBWYWxsZXkgQ29tbXVuaXR5IEhvc3BpdGFsQERhcmsgUHJvamVjdA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "La cible Dark project est la clinique Bear Valley Community, compromettant ses informations de santé et financières des patients.",
+        "published_at": "2026-11-10T19:51:31",
+        "score": 32
+      },
+      {
+        "guid": "f5042895dd4f05fc",
+        "title": "🏴‍☠️ Hyflock has just published a new victim : tcadarwin",
+        "url": "https://www.ransomware.live/id/dGNhZGFyd2luQEhZRkxPQ0s",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Le site web officiel de TCA Accountants & Bookkeepers, une firme d'accountancy et conseil en fiscalité basée à Darwin, Australie, a été victime d'une attaque par Hyflock.",
+        "published_at": "2026-11-10T18:24:14",
+        "score": 12
       }
     ],
     "top_reads": [
       {
-        "guid": "d38d5953f07f9cfe",
-        "title": "Data breach at hearing aid giant Amplifon impacts thousands",
-        "url": "https://therecord.media/amplifon-hearing-aid-company-data-breach",
+        "guid": "6064ba53c603ae80",
+        "title": "AI company Fireworks says hackers stole data, billing info during October breaches",
+        "url": "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Une fuite de données médicale affecte des clients U.S. d'Amplifon, une entreprise de l'audition.",
-        "published_at": "2026-11-09T20:44:00",
+        "summary": "Fireworks a rapporté une violation de données et d'informations factures chez un nombre limité d'utilisateurs, sans donner plus de détails.",
+        "published_at": "2026-11-10T16:08:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "ba3da2b8c4ad6001",
-        "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "3f18ae344a01ed20",
+        "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
+        "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach",
           "cve"
         ],
-        "summary": "Un hacker a accédé à plusieurs comptes AWS de Qubole pour voler des secrets et données client.",
-        "published_at": "2026-11-09T23:21:21",
-        "score": 25,
+        "summary": "Des hackers russes affiliés à l'État ont compromis des serveurs de courrier électronique gouvernementaux en Roumanie et en Kazakhstan pour intercepter les communications entre la NATO, l'UE et des fonctionnaires officiels.",
+        "published_at": "2026-11-10T13:00:00",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "538193bd07e2c185",
-        "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-        "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-        "source": "Bleeping Computer",
+        "guid": "e305ff463ff128c5",
+        "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+        "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "breach"
+          "breach",
+          "cve",
+          "vulnerability"
         ],
-        "summary": "SEGA a annoncé une fuite de données liée à son fournisseur tiers ARARA, exposant les adresses électroniques de 2,2 millions d'abonnés à ses newsletters.",
-        "published_at": "2026-11-09T17:09:33",
+        "summary": "Un flou de code exécutable dans SGLang a été exploité pour pirater les serveurs d'inference de NEAR AI, volant des données de 18 agents et environ 100 utilisateurs.",
+        "published_at": "2026-11-11T00:49:39",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 106,
-    "items_selected": 11,
+    "items_analyzed": 113,
+    "items_selected": 14,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 2,
+    "cves_total": 5,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
