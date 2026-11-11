@@ -1,87 +1,108 @@
-# 🛡️ ARGOS CTI Digest — 10 novembre 2026
+# 🛡️ ARGOS CTI Digest — 11 novembre 2026
 
-> Généré le 10/11/2026 à 03:01 UTC  ·  106 items analysés  ·  11 sélectionnés  ·  23 sources actives
+> Généré le 11/11/2026 à 03:01 UTC  ·  113 items analysés  ·  14 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html)
-**Source :** The Hacker News  **Publié :** 09/11/2026 11:35 UTC  **CVE :** `CVE-2026-19868`
-`cve` `vulnerability`
-Le KEV de CISA inclut une vulnérabilité majeure chez SonicWall exploitable dans des attaques réelles.
+### [Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor](https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html)
+**Source :** The Hacker News  **Publié :** 10/11/2026 21:30 UTC  **CVE :** `CVE-2026-105134`, `CVE-2026-105133`
+`cve` `malware` `vulnerability`
+Des chercheurs de sécurité ont révélé un attaque exploitant deux vulnérabilités dans AhsayCBS pour déployer un implant Python évitant les sandboxes.
 
 ---
 
-### [Hackers exploit SSHole OpenSSH flaw to breach Linux systems](https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/)
-**Source :** Bleeping Computer  **Publié :** 09/11/2026 11:04 UTC  **CVE :** `CVE-2026-123158`
-`breach` `cve` `vulnerability`
-Les hackers exploitent CVE-2026-123158 pour exécuter des commandes et voler des identifiants sur Linux.
+### [Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones](https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 00:53 UTC  **CVE :** `CVE-2026-111760`
+`cve` `vulnerability`
+Une vulnérabilité dans Git peut exécuter du code malveillant lors d'un cloning récursif de dépôts, selon une mise à jour en version 2.56.1.
+
+---
+
+### [Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026](https://thehackernews.com/2026/11/google-issues-chrome-security-update.html)
+**Source :** The Hacker News  **Publié :** 10/11/2026 12:22 UTC  **CVE :** `CVE-2026-125350`
+`cve` `patch` `vulnerability`
+Google a publié des mises à jour pour patcher neuf vulnérabilités, dont une activement exploité dans la nature.
+
+---
+
+### [CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws](https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html)
+**Source :** The Hacker News  **Publié :** 10/11/2026 12:01 UTC  **CVE :** `CVE-2026-123218`
+`cve` `vulnerability`
+La CISA a ajouté quatre nouvelles vulnérabilités à son catalogue KEV, citant des preuves d'exploitation active.
+
+---
+
+### [Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)](https://isc.sans.edu/diary/rss/33508)
+**Source :** SANS ISC  **Publié :** 10/11/2026 19:09 UTC
+`patch` `ransomware` `vulnerability`
+Microsoft a lancé une autre série de mises à jour sur Patch Tuesday, corrigent 1,260 vulnérabilités dont 68 critiques.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ N0n has just published a new victim : Vertex Pharmaceuticals Incorporated](https://www.ransomware.live/id/VmVydGV4IFBoYXJtYWNldXRpY2FscyBJbmNvcnBvcmF0ZWRATjBu)
-**Source :** Ransomware.live News  **Publié :** 09/11/2026 23:53 UTC
-`malware`
-Vertex Pharmaceuticals est victime d'une fuite de données comprenant des informations personnelles et professionnelles sensibles.
-
----
-
-### [Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware](https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html)
-**Source :** The Hacker News  **Publié :** 09/11/2026 23:06 UTC
+### [🏴‍☠️ Interlock has just published a new victim : Garden Valley School Division](https://www.ransomware.live/id/R2FyZGVuIFZhbGxleSBTY2hvb2wgRGl2aXNpb25AaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 11/11/2026 00:43 UTC
 `breach` `malware`
-Des hackers ont compromis deux outils Ethersphere pour voler les clés de portefeuille Ethereum.
+Le district scolaire Garden Valley a été compromise par un attaque, exposant des informations personnelles de ses élèves et employés.
 
 ---
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Wilentz, Goldman & Spitzer](https://www.ransomware.live/id/V2lsZW50eiwgR29sZG1hbiAmIFNwaXR6ZXJAU2lsZW50UmFuc29tR3JvdXA)
-**Source :** Ransomware.live News  **Publié :** 09/11/2026 21:06 UTC
-`malware`
-Silentransomgroup a ciblé Wilentz, Goldman & Spitzer, un cabinet d'avocats américain.
-
----
-
-### [ADEMS](https://frenchbreaches.com/alertes/adems-mw9n9kzy4t9ybhn7s02)
-**Source :** FrenchBreaches  **Publié :** 09/11/2026 20:15 UTC
-`malware`
-ADEMS14, une entreprise française de chauffage et climatisation, a subi une fuite de données sur 36 000 clients.
-
----
-
-### [Color Box](https://frenchbreaches.com/alertes/color-box-mw9n5pk24gh3ajbtzyt)
-**Source :** FrenchBreaches  **Publié :** 09/11/2026 20:14 UTC
-`malware`
-Color-Box, un site de vente en ligne de peintures automobiles, a connu une fuite de données sur ses clients et garagistes.
-
----
-
-### [Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia](https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html)
-**Source :** The Hacker News  **Publié :** 09/11/2026 20:01 UTC
+### [Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem](https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html)
+**Source :** The Hacker News  **Publié :** 10/11/2026 23:13 UTC
 `apt` `malware`
-Le groupe espionnage Bitter utilise un nouveau backdoor PapRAT pour cibler des organisations en Asie du Sud.
+Trois campagnes d'espionnage chinoises liées au malware Sparrow ciblent des organisations gouvernementales, militaires et de recherche en Amérique latine, Asie et Europe.
+
+---
+
+### [Microsoft Fixes Nearly 1,100 Security Vulnerabilities](https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/)
+**Source :** Krebs on Security  **Publié :** 10/11/2026 21:55 UTC
+`cve` `malware` `patch` `vulnerability`
+Microsoft a corrigé 1,100 vulnérabilités sur Patch Tuesday, dont 63 critiques concernant notamment Outlook.
+
+---
+
+### [Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America](https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html)
+**Source :** The Hacker News  **Publié :** 10/11/2026 21:28 UTC
+`apt` `malware` `phishing`
+Le groupe de threat appelé Blind Eagle utilise des faux avis judiciaires pour délivrer un RAT dans les organisations d'Amérique latine.
+
+---
+
+### [🏴‍☠️ Dark project has just published a new victim : Bear Valley Community Hospital](https://www.ransomware.live/id/QmVhciBWYWxsZXkgQ29tbXVuaXR5IEhvc3BpdGFsQERhcmsgUHJvamVjdA)
+**Source :** Ransomware.live News  **Publié :** 10/11/2026 19:51 UTC
+`breach` `malware`
+La cible Dark project est la clinique Bear Valley Community, compromettant ses informations de santé et financières des patients.
+
+---
+
+### [🏴‍☠️ Hyflock has just published a new victim : tcadarwin](https://www.ransomware.live/id/dGNhZGFyd2luQEhZRkxPQ0s)
+**Source :** Ransomware.live News  **Publié :** 10/11/2026 18:24 UTC
+`malware` `patch`
+Le site web officiel de TCA Accountants & Bookkeepers, une firme d'accountancy et conseil en fiscalité basée à Darwin, Australie, a été victime d'une attaque par Hyflock.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Data breach at hearing aid giant Amplifon impacts thousands](https://therecord.media/amplifon-hearing-aid-company-data-breach)
-**Source :** The Record  **Publié :** 09/11/2026 20:44 UTC  **Score :** 35
+### 1. [AI company Fireworks says hackers stole data, billing info during October breaches](https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks)
+**Source :** The Record  **Publié :** 10/11/2026 16:08 UTC  **Score :** 35
 `breach`
-Une fuite de données médicale affecte des clients U.S. d'Amplifon, une entreprise de l'audition.
+Fireworks a rapporté une violation de données et d'informations factures chez un nombre limité d'utilisateurs, sans donner plus de détails.
 
-### 2. [Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data](https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html)
-**Source :** The Hacker News  **Publié :** 09/11/2026 23:21 UTC  **Score :** 25
+### 2. [Russian hackers compromised government email servers to steal NATO, EU correspondence](https://therecord.media/russia-hackers-espionage-romania-kazakhstan)
+**Source :** The Record  **Publié :** 10/11/2026 13:00 UTC  **Score :** 35
 `breach` `cve`
-Un hacker a accédé à plusieurs comptes AWS de Qubole pour voler des secrets et données client.
+Des hackers russes affiliés à l'État ont compromis des serveurs de courrier électronique gouvernementaux en Roumanie et en Kazakhstan pour intercepter les communications entre la NATO, l'UE et des fonctionnaires officiels.
 
-### 3. [SEGA newsletter data breach exposes 2.2 million email addresses](https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/)
-**Source :** Bleeping Computer  **Publié :** 09/11/2026 17:09 UTC  **Score :** 25
-`breach`
-SEGA a annoncé une fuite de données liée à son fournisseur tiers ARARA, exposant les adresses électroniques de 2,2 millions d'abonnés à ses newsletters.
+### 3. [SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users](https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 00:49 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Un flou de code exécutable dans SGLang a été exploité pour pirater les serveurs d'inference de NEAR AI, volant des données de 18 agents et environ 100 utilisateurs.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-10.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-11.md`*
