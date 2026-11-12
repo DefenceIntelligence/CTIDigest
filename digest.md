@@ -1,108 +1,89 @@
-# 🛡️ ARGOS CTI Digest — 11 novembre 2026
+# 🛡️ ARGOS CTI Digest — 12 novembre 2026
 
-> Généré le 11/11/2026 à 03:01 UTC  ·  113 items analysés  ·  14 sélectionnés  ·  23 sources actives
+> Généré le 12/11/2026 à 03:00 UTC  ·  64 items analysés  ·  11 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor](https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html)
-**Source :** The Hacker News  **Publié :** 10/11/2026 21:30 UTC  **CVE :** `CVE-2026-105134`, `CVE-2026-105133`
-`cve` `malware` `vulnerability`
-Des chercheurs de sécurité ont révélé un attaque exploitant deux vulnérabilités dans AhsayCBS pour déployer un implant Python évitant les sandboxes.
-
----
-
-### [Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones](https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 00:53 UTC  **CVE :** `CVE-2026-111760`
+### [Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation](https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 21:42 UTC  **CVE :** `CVE-2026-108186`
 `cve` `vulnerability`
-Une vulnérabilité dans Git peut exécuter du code malveillant lors d'un cloning récursif de dépôts, selon une mise à jour en version 2.56.1.
+Zoom a publié des mises à jour pour corriger deux vulnérabilités, dont une critique pouvant permettre un accroissement des privilèges sans authentification.
 
 ---
 
-### [Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026](https://thehackernews.com/2026/11/google-issues-chrome-security-update.html)
-**Source :** The Hacker News  **Publié :** 10/11/2026 12:22 UTC  **CVE :** `CVE-2026-125350`
-`cve` `patch` `vulnerability`
-Google a publié des mises à jour pour patcher neuf vulnérabilités, dont une activement exploité dans la nature.
-
----
-
-### [CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws](https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html)
-**Source :** The Hacker News  **Publié :** 10/11/2026 12:01 UTC  **CVE :** `CVE-2026-123218`
+### [Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches](https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 11:34 UTC  **CVE :** `CVE-2026-20320`
 `cve` `vulnerability`
-La CISA a ajouté quatre nouvelles vulnérabilités à son catalogue KEV, citant des preuves d'exploitation active.
-
----
-
-### [Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)](https://isc.sans.edu/diary/rss/33508)
-**Source :** SANS ISC  **Publié :** 10/11/2026 19:09 UTC
-`patch` `ransomware` `vulnerability`
-Microsoft a lancé une autre série de mises à jour sur Patch Tuesday, corrigent 1,260 vulnérabilités dont 68 critiques.
+Des vulnérabilités dans Cisco BroadWorks et Openwave sont exploitées malgré les correctifs disponibles, selon CISA.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Interlock has just published a new victim : Garden Valley School Division](https://www.ransomware.live/id/R2FyZGVuIFZhbGxleSBTY2hvb2wgRGl2aXNpb25AaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 11/11/2026 00:43 UTC
+### [Monceau Fleurs](https://frenchbreaches.com/alertes/monceau-fleurs-mwcjxgef1vk3k83cnmx)
+**Source :** FrenchBreaches  **Publié :** 11/11/2026 21:07 UTC
 `breach` `malware`
-Le district scolaire Garden Valley a été compromise par un attaque, exposant des informations personnelles de ses élèves et employés.
+Une attaque informatique a compromis les informations personnelles de clients chez Monceau Fleurs après une cyberattaque sur un prestataire de services.
 
 ---
 
-### [Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem](https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html)
-**Source :** The Hacker News  **Publié :** 10/11/2026 23:13 UTC
-`apt` `malware`
-Trois campagnes d'espionnage chinoises liées au malware Sparrow ciblent des organisations gouvernementales, militaires et de recherche en Amérique latine, Asie et Europe.
-
----
-
-### [Microsoft Fixes Nearly 1,100 Security Vulnerabilities](https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/)
-**Source :** Krebs on Security  **Publié :** 10/11/2026 21:55 UTC
-`cve` `malware` `patch` `vulnerability`
-Microsoft a corrigé 1,100 vulnérabilités sur Patch Tuesday, dont 63 critiques concernant notamment Outlook.
-
----
-
-### [Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America](https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html)
-**Source :** The Hacker News  **Publié :** 10/11/2026 21:28 UTC
-`apt` `malware` `phishing`
-Le groupe de threat appelé Blind Eagle utilise des faux avis judiciaires pour délivrer un RAT dans les organisations d'Amérique latine.
-
----
-
-### [🏴‍☠️ Dark project has just published a new victim : Bear Valley Community Hospital](https://www.ransomware.live/id/QmVhciBWYWxsZXkgQ29tbXVuaXR5IEhvc3BpdGFsQERhcmsgUHJvamVjdA)
-**Source :** Ransomware.live News  **Publié :** 10/11/2026 19:51 UTC
+### [AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 21:04 UTC
 `breach` `malware`
-La cible Dark project est la clinique Bear Valley Community, compromettant ses informations de santé et financières des patients.
+L'agence AntiFox, utilisée dans des campagnes d'intrusion, a volé des informations AWS et s'est propulsée dans des environnements compromis.
 
 ---
 
-### [🏴‍☠️ Hyflock has just published a new victim : tcadarwin](https://www.ransomware.live/id/dGNhZGFyd2luQEhZRkxPQ0s)
-**Source :** Ransomware.live News  **Publié :** 10/11/2026 18:24 UTC
-`malware` `patch`
-Le site web officiel de TCA Accountants & Bookkeepers, une firme d'accountancy et conseil en fiscalité basée à Darwin, Australie, a été victime d'une attaque par Hyflock.
+### [ARTE TV](https://frenchbreaches.com/alertes/arte-tv-mwci00v7k0eq5jt966i)
+**Source :** FrenchBreaches  **Publié :** 11/11/2026 20:09 UTC
+`malware`
+Fuite de données chez ARTE, plus de 600 000 adresses e-mail de membres revendiquées par un pirate La chaîne de télévision franco-allemande ARTE est visée par une importante revendication de fuite de données. Sur un forum de pirates informatiques, un individu affirme avoir divulgu…
+
+---
+
+### [Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits](https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 19:31 UTC
+`apt` `cve`
+Threat actors targeted Qlik Sense servers, unsuccessfully delivering reverse shell commands and exploiting ActiveMQ and Veeam.
+
+---
+
+### [🏴‍☠️ Settra has just published a new victim : energreen.it](https://www.ransomware.live/id/ZW5lcmdyZWVuLml0QHNldHRyYQ)
+**Source :** Ransomware.live News  **Publié :** 11/11/2026 18:39 UTC
+`malware` `ransomware`
+ENERGREEN S.p.A. is an Italian manufacturer of professional brush-cutters and remote-controlled machines under the RoboGreen brand. Registered at Via Sabbioni 16, 36026 Pojana Maggiore (Vicenza), Italy. Founded in 1999 by Daniele Fraron, who remains CEO to this day. In June 2022 the company was acqu
+
+---
+
+### [🏴‍☠️ Qilin has just published a new victim : Professional baseball club Wisconsin Timber Rattlers](https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIGJhc2ViYWxsIGNsdWIgV2lzY29uc2luIFRpbWJlciBSYXR0bGVyc0BxaWxpbg)
+**Source :** Ransomware.live News  **Publié :** 11/11/2026 18:38 UTC
+`malware`
+N/A
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [AI company Fireworks says hackers stole data, billing info during October breaches](https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks)
-**Source :** The Record  **Publié :** 10/11/2026 16:08 UTC  **Score :** 35
+### 1. [Baker Tilly notifies clients of data breach at third-party provider](https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/)
+**Source :** Bleeping Computer  **Publié :** 11/11/2026 18:01 UTC  **Score :** 25
+`breach` `patch`
+The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]
+
+### 2. [eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise](https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html)
+**Source :** The Hacker News  **Publié :** 11/11/2026 17:30 UTC  **Score :** 25
 `breach`
-Fireworks a rapporté une violation de données et d'informations factures chez un nombre limité d'utilisateurs, sans donner plus de détails.
+The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.
 
-### 2. [Russian hackers compromised government email servers to steal NATO, EU correspondence](https://therecord.media/russia-hackers-espionage-romania-kazakhstan)
-**Source :** The Record  **Publié :** 10/11/2026 13:00 UTC  **Score :** 35
-`breach` `cve`
-Des hackers russes affiliés à l'État ont compromis des serveurs de courrier électronique gouvernementaux en Roumanie et en Kazakhstan pour intercepter les communications entre la NATO, l'UE et des fonctionnaires officiels.
+Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. Th
 
-### 3. [SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users](https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 00:49 UTC  **Score :** 25
-`breach` `cve` `vulnerability`
-Un flou de code exécutable dans SGLang a été exploité pour pirater les serveurs d'inference de NEAR AI, volant des données de 18 agents et environ 100 utilisateurs.
+### 3. [Notion says Fireworks breach exposed customer AI chat transcripts](https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/)
+**Source :** Bleeping Computer  **Publié :** 11/11/2026 15:54 UTC  **Score :** 25
+`breach`
+Notion a révélé qu'un incident de sécurité chez son fournisseur d'infrastructure AI, Fireworks AI, a exposé des transcriptions d'échanges chat AI dans un nombre limité de bureaux virtuels.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-11.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-12.md`*
