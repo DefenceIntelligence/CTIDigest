@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T03:00:54.067462+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "842f997dba23aff4",
+        "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+        "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-108186"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Zoom a publié des mises à jour pour corriger deux vulnérabilités, dont une critique pouvant permettre un accroissement des privilèges sans authentification.",
+        "published_at": "2026-11-11T21:42:46",
+        "score": 20
+      },
+      {
+        "guid": "9ec54afa939278d3",
+        "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+        "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-20320"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans Cisco BroadWorks et Openwave sont exploitées malgré les correctifs disponibles, selon CISA.",
+        "published_at": "2026-11-11T11:34:02",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "b1083d7a17cf05dc",
+        "title": "Monceau Fleurs",
+        "url": "https://frenchbreaches.com/alertes/monceau-fleurs-mwcjxgef1vk3k83cnmx",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Une attaque informatique a compromis les informations personnelles de clients chez Monceau Fleurs après une cyberattaque sur un prestataire de services.",
+        "published_at": "2026-11-11T21:07:00",
+        "score": 37
+      },
+      {
+        "guid": "b9193c3bfc5db9e5",
+        "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+        "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "L'agence AntiFox, utilisée dans des campagnes d'intrusion, a volé des informations AWS et s'est propulsée dans des environnements compromis.",
+        "published_at": "2026-11-11T21:04:27",
+        "score": 37
+      },
+      {
+        "guid": "60b7f3f98e9c7fc8",
+        "title": "ARTE TV",
+        "url": "https://frenchbreaches.com/alertes/arte-tv-mwci00v7k0eq5jt966i",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Fuite de données chez ARTE, plus de 600 000 adresses e-mail de membres revendiquées par un pirate La chaîne de télévision franco-allemande ARTE est visée par une importante revendication de fuite de données. Sur un forum de pirates informatiques, un individu affirme avoir divulgu…",
+        "published_at": "2026-11-11T20:09:00",
+        "score": 17
+      },
+      {
+        "guid": "ffdfa13316c1adfe",
+        "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+        "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "cve"
+        ],
+        "summary": "Threat actors targeted Qlik Sense servers, unsuccessfully delivering reverse shell commands and exploiting ActiveMQ and Veeam.",
+        "published_at": "2026-11-11T19:31:00",
+        "score": 5
+      },
+      {
+        "guid": "4d0dc34f042334a8",
+        "title": "🏴‍☠️ Settra has just published a new victim : energreen.it",
+        "url": "https://www.ransomware.live/id/ZW5lcmdyZWVuLml0QHNldHRyYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "ENERGREEN S.p.A. is an Italian manufacturer of professional brush-cutters and remote-controlled machines under the RoboGreen brand. Registered at Via Sabbioni 16, 36026 Pojana Maggiore (Vicenza), Italy. Founded in 1999 by Daniele Fraron, who remains CEO to this day. In June 2022 the company was acquired by Venetian private equity fund 21 Invest through a standard LBO and reorganised as an S.p.A. By 2025 the group reported revenue of €116 million, employs 241 people, and operates across five cont",
+        "published_at": "2026-11-11T18:39:40",
+        "score": 12
+      },
+      {
+        "guid": "6d2f6bccbf857131",
+        "title": "🏴‍☠️ Qilin has just published a new victim : Professional baseball club Wisconsin Timber Rattlers",
+        "url": "https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIGJhc2ViYWxsIGNsdWIgV2lzY29uc2luIFRpbWJlciBSYXR0bGVyc0BxaWxpbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N/A",
+        "published_at": "2026-11-11T18:38:42",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "7fd8366abed8b031",
+        "title": "Baker Tilly notifies clients of data breach at third-party provider",
+        "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "patch"
+        ],
+        "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+        "published_at": "2026-11-11T18:01:31",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "4747c99ddc0a34ff",
+        "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+        "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+        "published_at": "2026-11-11T17:30:53",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "a4237d3ce22fd779",
+        "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+        "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Notion a révélé qu'un incident de sécurité chez son fournisseur d'infrastructure AI, Fireworks AI, a exposé des transcriptions d'échanges chat AI dans un nombre limité de bureaux virtuels.",
+        "published_at": "2026-11-11T15:54:20",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 64,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 5,
+    "argos_version": "2.0.0"
+  }
+}
