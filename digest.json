@@ -1,65 +1,157 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T03:00:54.067462+00:00",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T03:01:49.094627+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "842f997dba23aff4",
-        "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-        "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "d3b2e0f44854ef0f",
+        "title": "Siemens Building Automation and Energy Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-108186"
+          "CVE-2026-109618",
+          "CVE-2026-109619"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Le 21 octobre 2026, le projet PHP et des chercheurs de sécurité ont divulgué deux vulnérabilités critiques d'exécution de code non authentifié dans la runtime du langage PHP (CVE-2026-109618 et CVE-2026-109619). Cette mise à jour couvre l'état d'impact des différents produits logiciels Siemens.",
+        "published_at": "2026-11-12T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "a0a1ef639e6f8c31",
+        "title": "Siemens Desigo, Gridscale",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Le 21 octobre 2026, le projet Node.js a publié des mises à jour de sécurité pour corriger une vulnérabilité critique dans le décodeur Brotli qui pourrait entraîner une corruption de la mémoire (CVE-2026-111497).",
+        "published_at": "2026-11-12T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "3d33011f9a7426f0",
+        "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+        "url": "https://isc.sans.edu/diary/rss/33514",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-102895"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Zoom a publié des mises à jour pour corriger deux vulnérabilités, dont une critique pouvant permettre un accroissement des privilèges sans authentification.",
-        "published_at": "2026-11-11T21:42:46",
+        "summary": "La vulnérabilité CVE-2026-102895 est une faille d'authentification basique. Toutes les versions de GPUStack avant 2.2.0 sont affectées, mais elle n'a été rendue publique qu'en juillet 2026.",
+        "published_at": "2026-11-12T11:56:24",
+        "score": 15
+      },
+      {
+        "guid": "e864bd2d6580a6ae",
+        "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+        "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-120868"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Citrix a publié des correctifs pour plusieurs vulnérabilités critiques touchant NetScaler ADC, Gateway et Console, y compris une faille d'authentification basique (CVE-2026-120868).",
+        "published_at": "2026-11-12T21:08:49",
         "score": 20
       },
       {
-        "guid": "9ec54afa939278d3",
-        "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-        "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+        "guid": "d544e8fea4a475f2",
+        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-20320"
+          "CVE-2026-84869"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Le logiciel SCKit a été utilisé pour convertir des sessions d'assistance ScreenConnect en points de passage potentiels pour les attaquants. La vulnérabilité exploité est CVE-2026-84869.",
+        "published_at": "2026-11-12T18:38:28",
+        "score": 32
+      },
+      {
+        "guid": "00077f6cffccf7fb",
+        "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+        "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-126325"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "Des vulnérabilités dans Cisco BroadWorks et Openwave sont exploitées malgré les correctifs disponibles, selon CISA.",
-        "published_at": "2026-11-11T11:34:02",
+        "summary": "PTC a publié des correctifs pour une vulnérabilité critique dans Windchill et FlexPLM qui pourrait entraîner l'exécution de code à distance (CVE-2026-126325).",
+        "published_at": "2026-11-12T17:03:15",
+        "score": 20
+      },
+      {
+        "guid": "b518311d5f09c48a",
+        "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+        "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-118383"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans MongoDB Server peut provoquer une panne si un serveur défaillant est choisi en cas de failover (CVE-2026-118383).",
+        "published_at": "2026-11-12T14:55:00",
+        "score": 20
+      },
+      {
+        "guid": "ba5af1c012d71bbf",
+        "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+        "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-119618"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans le module HTTP/2 d'Apache peut permettre à un attaquant non authentifié d'exécuter du code sur le serveur (CVE-2026-119618).",
+        "published_at": "2026-11-12T10:42:26",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "b1083d7a17cf05dc",
-        "title": "Monceau Fleurs",
-        "url": "https://frenchbreaches.com/alertes/monceau-fleurs-mwcjxgef1vk3k83cnmx",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Une attaque informatique a compromis les informations personnelles de clients chez Monceau Fleurs après une cyberattaque sur un prestataire de services.",
-        "published_at": "2026-11-11T21:07:00",
-        "score": 37
-      },
-      {
-        "guid": "b9193c3bfc5db9e5",
-        "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-        "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+        "guid": "97d16cb30103dadc",
+        "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+        "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -67,43 +159,14 @@
           "breach",
           "malware"
         ],
-        "summary": "L'agence AntiFox, utilisée dans des campagnes d'intrusion, a volé des informations AWS et s'est propulsée dans des environnements compromis.",
-        "published_at": "2026-11-11T21:04:27",
+        "summary": "Cette semaine, des attaques utilisent des sites Web fake, des accès volés et des outils de confiance pour pénétrer dans des systèmes. L'IA aide les attaquants à construire des attaques plus rapidement.",
+        "published_at": "2026-11-12T23:32:51",
         "score": 37
       },
       {
-        "guid": "60b7f3f98e9c7fc8",
-        "title": "ARTE TV",
-        "url": "https://frenchbreaches.com/alertes/arte-tv-mwci00v7k0eq5jt966i",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Fuite de données chez ARTE, plus de 600 000 adresses e-mail de membres revendiquées par un pirate La chaîne de télévision franco-allemande ARTE est visée par une importante revendication de fuite de données. Sur un forum de pirates informatiques, un individu affirme avoir divulgu…",
-        "published_at": "2026-11-11T20:09:00",
-        "score": 17
-      },
-      {
-        "guid": "ffdfa13316c1adfe",
-        "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-        "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "apt",
-          "cve"
-        ],
-        "summary": "Threat actors targeted Qlik Sense servers, unsuccessfully delivering reverse shell commands and exploiting ActiveMQ and Veeam.",
-        "published_at": "2026-11-11T19:31:00",
-        "score": 5
-      },
-      {
-        "guid": "4d0dc34f042334a8",
-        "title": "🏴‍☠️ Settra has just published a new victim : energreen.it",
-        "url": "https://www.ransomware.live/id/ZW5lcmdyZWVuLml0QHNldHRyYQ",
+        "guid": "39decbd829a1414b",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Franc-Oil",
+        "url": "https://www.ransomware.live/id/RnJhbmMtT2lsQFZleHkgUmFuc29td2FyZQ",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -111,82 +174,128 @@
           "malware",
           "ransomware"
         ],
-        "summary": "ENERGREEN S.p.A. is an Italian manufacturer of professional brush-cutters and remote-controlled machines under the RoboGreen brand. Registered at Via Sabbioni 16, 36026 Pojana Maggiore (Vicenza), Italy. Founded in 1999 by Daniele Fraron, who remains CEO to this day. In June 2022 the company was acquired by Venetian private equity fund 21 Invest through a standard LBO and reorganised as an S.p.A. By 2025 the group reported revenue of €116 million, employs 241 people, and operates across five cont",
-        "published_at": "2026-11-11T18:39:40",
+        "summary": "Vexy, un rançoniciel, a victimaïsé Franc-Oil, une société nigériane de services offshore et maritimes spécialisée dans le charottage maritime, la logistique marine, les sableurs, la gestion des équipages et l'appui aux opérations pétrolières.",
+        "published_at": "2026-11-12T23:19:34",
         "score": 12
       },
       {
-        "guid": "6d2f6bccbf857131",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Professional baseball club Wisconsin Timber Rattlers",
-        "url": "https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIGJhc2ViYWxsIGNsdWIgV2lzY29uc2luIFRpbWJlciBSYXR0bGVyc0BxaWxpbg",
+        "guid": "570013f8e8bdb63e",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Osiiminppal",
+        "url": "https://www.ransomware.live/id/T3NpaW1pbnBwYWxAVmV4eSBSYW5zb213YXJl",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
+          "ransomware"
+        ],
+        "summary": "Vexy ransomware a révélé un nouveau vaste : Osiiminppal.",
+        "published_at": "2026-11-12T23:19:13",
+        "score": 0
+      },
+      {
+        "guid": "504d84ea9894a082",
+        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Upper Web",
+        "url": "https://www.ransomware.live/id/VXBwZXIgV2ViQFZleHkgUmFuc29td2FyZQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Upper Web, une entreprise brésilienne spécialisée dans le développement web et les services numériques, a été identifiée comme victime d'un rançongiciel.",
+        "published_at": "2026-11-12T23:18:52",
+        "score": 12
+      },
+      {
+        "guid": "eed06de93dbd632a",
+        "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
+        "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "N/A",
-        "published_at": "2026-11-11T18:38:42",
-        "score": 12
+        "summary": "Le gouvernement américain a confisqué 1,2 milliard de dollars des fonds volés par Binance et a fermé un outil de vol de visages.",
+        "published_at": "2026-11-12T21:42:00",
+        "score": 27
+      },
+      {
+        "guid": "b6d280f8ac569c95",
+        "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+        "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des domaines falsifiés imitant des outils d'intelligence artificielle dirigent les utilisateurs vers des attaques de clics, des logiciels malveillants et des détournements de recherches.",
+        "published_at": "2026-11-12T20:45:40",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "7fd8366abed8b031",
-        "title": "Baker Tilly notifies clients of data breach at third-party provider",
-        "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+        "guid": "981a111b86587488",
+        "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
+        "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "ConnectWise enquête sur des breaches liés à un outil tiers utilisé par ses clients, confirmant l'intrusion dans environ 50 organisations.",
+        "published_at": "2026-11-12T16:16:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "afcd425e0608b318",
+        "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
+        "url": "https://therecord.media/europe-hoax-email-threats",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des menaces de bombes envoyées à des écoles européennes ont été envoyées depuis un compte Gmail compromis d'une université taiwanaise.",
+        "published_at": "2026-11-12T14:45:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "6ff200ce698b2813",
+        "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+        "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
-          "patch"
+          "cve",
+          "patch",
+          "vulnerability"
         ],
-        "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
-        "published_at": "2026-11-11T18:01:31",
-        "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "4747c99ddc0a34ff",
-        "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-        "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-        "published_at": "2026-11-11T17:30:53",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "a4237d3ce22fd779",
-        "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-        "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-        "source": "Bleeping Computer",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Notion a révélé qu'un incident de sécurité chez son fournisseur d'infrastructure AI, Fireworks AI, a exposé des transcriptions d'échanges chat AI dans un nombre limité de bureaux virtuels.",
-        "published_at": "2026-11-11T15:54:20",
+        "summary": "Les hackers exploite un vulnérabilité récemment divulguée chez N-able pour installer des minage de cryptomonnaies, affectant au moins 21 systèmes.",
+        "published_at": "2026-11-12T14:51:16",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 64,
-    "items_selected": 11,
+    "items_analyzed": 100,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 2,
+    "cves_total": 9,
     "llm_provider": "ollama",
-    "llm_rejected": 5,
+    "llm_rejected": 0,
     "argos_version": "2.0.0"
   }
 }
