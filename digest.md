@@ -1,89 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 12 novembre 2026
+# 🛡️ ARGOS CTI Digest — 13 novembre 2026
 
-> Généré le 12/11/2026 à 03:00 UTC  ·  64 items analysés  ·  11 sélectionnés  ·  23 sources actives
+> Généré le 13/11/2026 à 03:01 UTC  ·  100 items analysés  ·  17 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation](https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 21:42 UTC  **CVE :** `CVE-2026-108186`
-`cve` `vulnerability`
-Zoom a publié des mises à jour pour corriger deux vulnérabilités, dont une critique pouvant permettre un accroissement des privilèges sans authentification.
+### [Siemens Building Automation and Energy Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01)
+**Source :** CISA Advisories  **Publié :** 12/11/2026 12:00 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
+`cve` `malware` `patch` `vulnerability`
+Le 21 octobre 2026, le projet PHP et des chercheurs de sécurité ont divulgué deux vulnérabilités critiques d'exécution de code non authentifié dans la runtime du langage PHP (CVE-2026-109618 et CVE-2026-109619). Cette mise à jour couvre l'état d'impact des différents produits logiciels Siemens.
 
 ---
 
-### [Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches](https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 11:34 UTC  **CVE :** `CVE-2026-20320`
+### [Siemens Desigo, Gridscale](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02)
+**Source :** CISA Advisories  **Publié :** 12/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
+`cve` `patch` `vulnerability`
+Le 21 octobre 2026, le projet Node.js a publié des mises à jour de sécurité pour corriger une vulnérabilité critique dans le décodeur Brotli qui pourrait entraîner une corruption de la mémoire (CVE-2026-111497).
+
+---
+
+### [Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)](https://isc.sans.edu/diary/rss/33514)
+**Source :** SANS ISC  **Publié :** 12/11/2026 11:56 UTC  **CVE :** `CVE-2026-102895`
 `cve` `vulnerability`
-Des vulnérabilités dans Cisco BroadWorks et Openwave sont exploitées malgré les correctifs disponibles, selon CISA.
+La vulnérabilité CVE-2026-102895 est une faille d'authentification basique. Toutes les versions de GPUStack avant 2.2.0 sont affectées, mais elle n'a été rendue publique qu'en juillet 2026.
+
+---
+
+### [Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 21:08 UTC  **CVE :** `CVE-2026-120868`
+`cve` `vulnerability`
+Citrix a publié des correctifs pour plusieurs vulnérabilités critiques touchant NetScaler ADC, Gateway et Console, y compris une faille d'authentification basique (CVE-2026-120868).
+
+---
+
+### [SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths](https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 18:38 UTC  **CVE :** `CVE-2026-84869`
+`cve` `malware` `vulnerability`
+Le logiciel SCKit a été utilisé pour convertir des sessions d'assistance ScreenConnect en points de passage potentiels pour les attaquants. La vulnérabilité exploité est CVE-2026-84869.
+
+---
+
+### [PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution](https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 17:03 UTC  **CVE :** `CVE-2026-126325`
+`cve` `vulnerability`
+PTC a publié des correctifs pour une vulnérabilité critique dans Windchill et FlexPLM qui pourrait entraîner l'exécution de code à distance (CVE-2026-126325).
+
+---
+
+### [Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover](https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 14:55 UTC  **CVE :** `CVE-2026-118383`
+`cve` `vulnerability`
+Une vulnérabilité critique dans MongoDB Server peut provoquer une panne si un serveur défaillant est choisi en cas de failover (CVE-2026-118383).
+
+---
+
+### [Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely](https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 10:42 UTC  **CVE :** `CVE-2026-119618`
+`cve` `vulnerability`
+Une vulnérabilité critique dans le module HTTP/2 d'Apache peut permettre à un attaquant non authentifié d'exécuter du code sur le serveur (CVE-2026-119618).
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Monceau Fleurs](https://frenchbreaches.com/alertes/monceau-fleurs-mwcjxgef1vk3k83cnmx)
-**Source :** FrenchBreaches  **Publié :** 11/11/2026 21:07 UTC
+### [ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories](https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 23:32 UTC
 `breach` `malware`
-Une attaque informatique a compromis les informations personnelles de clients chez Monceau Fleurs après une cyberattaque sur un prestataire de services.
+Cette semaine, des attaques utilisent des sites Web fake, des accès volés et des outils de confiance pour pénétrer dans des systèmes. L'IA aide les attaquants à construire des attaques plus rapidement.
 
 ---
 
-### [AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 21:04 UTC
-`breach` `malware`
-L'agence AntiFox, utilisée dans des campagnes d'intrusion, a volé des informations AWS et s'est propulsée dans des environnements compromis.
-
----
-
-### [ARTE TV](https://frenchbreaches.com/alertes/arte-tv-mwci00v7k0eq5jt966i)
-**Source :** FrenchBreaches  **Publié :** 11/11/2026 20:09 UTC
-`malware`
-Fuite de données chez ARTE, plus de 600 000 adresses e-mail de membres revendiquées par un pirate La chaîne de télévision franco-allemande ARTE est visée par une importante revendication de fuite de données. Sur un forum de pirates informatiques, un individu affirme avoir divulgu…
-
----
-
-### [Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits](https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 19:31 UTC
-`apt` `cve`
-Threat actors targeted Qlik Sense servers, unsuccessfully delivering reverse shell commands and exploiting ActiveMQ and Veeam.
-
----
-
-### [🏴‍☠️ Settra has just published a new victim : energreen.it](https://www.ransomware.live/id/ZW5lcmdyZWVuLml0QHNldHRyYQ)
-**Source :** Ransomware.live News  **Publié :** 11/11/2026 18:39 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Franc-Oil](https://www.ransomware.live/id/RnJhbmMtT2lsQFZleHkgUmFuc29td2FyZQ)
+**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:19 UTC
 `malware` `ransomware`
-ENERGREEN S.p.A. is an Italian manufacturer of professional brush-cutters and remote-controlled machines under the RoboGreen brand. Registered at Via Sabbioni 16, 36026 Pojana Maggiore (Vicenza), Italy. Founded in 1999 by Daniele Fraron, who remains CEO to this day. In June 2022 the company was acqu
+Vexy, un rançoniciel, a victimaïsé Franc-Oil, une société nigériane de services offshore et maritimes spécialisée dans le charottage maritime, la logistique marine, les sableurs, la gestion des équipages et l'appui aux opérations pétrolières.
 
 ---
 
-### [🏴‍☠️ Qilin has just published a new victim : Professional baseball club Wisconsin Timber Rattlers](https://www.ransomware.live/id/UHJvZmVzc2lvbmFsIGJhc2ViYWxsIGNsdWIgV2lzY29uc2luIFRpbWJlciBSYXR0bGVyc0BxaWxpbg)
-**Source :** Ransomware.live News  **Publié :** 11/11/2026 18:38 UTC
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Osiiminppal](https://www.ransomware.live/id/T3NpaW1pbnBwYWxAVmV4eSBSYW5zb213YXJl)
+**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:19 UTC
+`ransomware`
+Vexy ransomware a révélé un nouveau vaste : Osiiminppal.
+
+---
+
+### [🏴‍☠️ Vexy ransomware has just published a new victim : Upper Web](https://www.ransomware.live/id/VXBwZXIgV2ViQFZleHkgUmFuc29td2FyZQ)
+**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:18 UTC
+`cve` `malware` `ransomware`
+Upper Web, une entreprise brésilienne spécialisée dans le développement web et les services numériques, a été identifiée comme victime d'un rançongiciel.
+
+---
+
+### [Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools](https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted)
+**Source :** The Record  **Publié :** 12/11/2026 21:42 UTC
 `malware`
-N/A
+Le gouvernement américain a confisqué 1,2 milliard de dollars des fonds volés par Binance et a fermé un outil de vol de visages.
+
+---
+
+### [186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers](https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html)
+**Source :** The Hacker News  **Publié :** 12/11/2026 20:45 UTC
+`malware`
+Des domaines falsifiés imitant des outils d'intelligence artificielle dirigent les utilisateurs vers des attaques de clics, des logiciels malveillants et des détournements de recherches.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Baker Tilly notifies clients of data breach at third-party provider](https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/)
-**Source :** Bleeping Computer  **Publié :** 11/11/2026 18:01 UTC  **Score :** 25
-`breach` `patch`
-The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]
-
-### 2. [eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise](https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html)
-**Source :** The Hacker News  **Publié :** 11/11/2026 17:30 UTC  **Score :** 25
+### 1. [ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool)
+**Source :** The Record  **Publié :** 12/11/2026 16:16 UTC  **Score :** 35
 `breach`
-The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.
+ConnectWise enquête sur des breaches liés à un outil tiers utilisé par ses clients, confirmant l'intrusion dans environ 50 organisations.
 
-Each intermediate CA has its own private key, which the company uses to sign the certificates it issues. Th
-
-### 3. [Notion says Fireworks breach exposed customer AI chat transcripts](https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/)
-**Source :** Bleeping Computer  **Publié :** 11/11/2026 15:54 UTC  **Score :** 25
+### 2. [Hijacked email accounts complicate investigations into European bomb hoaxes](https://therecord.media/europe-hoax-email-threats)
+**Source :** The Record  **Publié :** 12/11/2026 14:45 UTC  **Score :** 35
 `breach`
-Notion a révélé qu'un incident de sécurité chez son fournisseur d'infrastructure AI, Fireworks AI, a exposé des transcriptions d'échanges chat AI dans un nombre limité de bureaux virtuels.
+Des menaces de bombes envoyées à des écoles européennes ont été envoyées depuis un compte Gmail compromis d'une université taiwanaise.
+
+### 3. [New N-able "4EverAble2Shell" zero-day exploited hours after PoC released](https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/)
+**Source :** Bleeping Computer  **Publié :** 12/11/2026 14:51 UTC  **Score :** 25
+`breach` `cve` `patch` `vulnerability`
+Les hackers exploite un vulnérabilité récemment divulguée chez N-able pour installer des minage de cryptomonnaies, affectant au moins 21 systèmes.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-12.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-13.md`*
