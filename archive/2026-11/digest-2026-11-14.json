@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T03:00:57.936747+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "6fa46a1c947e7a10",
+        "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+        "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-6460"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "PostgreSQL a corrigé 52 faiblesses, dont 22 ans après l'identification d'une faille de type confusion qui permet un RCE authentifié. Les mises à jour sont nécessaires pour éviter ce risque.",
+        "published_at": "2026-11-13T22:23:08",
+        "score": 32
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "222d00109b4c6711",
+        "title": "🏴‍☠️ Interlock has just published a new victim : K&A Industries",
+        "url": "https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "K&A Industries, une entreprise de gestion des identités sécurisées, a été compromise. Des données sensibles et des informations sur les contrats gouvernementaux ont été volées.",
+        "published_at": "2026-11-13T22:46:01",
+        "score": 32
+      },
+      {
+        "guid": "50c10fef1069f6b5",
+        "title": "🏴‍☠️ Everest has just published a new victim : Final Notice Before Publication",
+        "url": "https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le terme « Final Notice Before Publication » est souvent utilisé par des ransomware pour menacer de publier des données volées. Son utilisation spécifique n'a pas été identifiée.",
+        "published_at": "2026-11-13T22:44:12",
+        "score": 32
+      },
+      {
+        "guid": "5f0b3b8ac6b48209",
+        "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+        "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Cette entrée ne contient aucune information sur une histoire de sécurité récente et est plutôt un billet de blog sur les squids. Pour parler des nouvelles histoires de sécurité, vous pouvez utiliser la section du blog.",
+        "published_at": "2026-11-13T22:00:46",
+        "score": 17
+      },
+      {
+        "guid": "6147b2c45f3bf489",
+        "title": "Centre Hospitalier d'Armentières",
+        "url": "https://frenchbreaches.com/alertes/centre-hospitalier-d-armenti-res-mwfft916jbpzxl5xg0q",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une nouvelle fuite de données concernant le Centre hospitalier d'Armentières a été publiée en ligne, incluant 261 948 enregistrements.",
+        "published_at": "2026-11-13T21:35:00",
+        "score": 17
+      },
+      {
+        "guid": "f599a1451212b9d8",
+        "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+        "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "L'outil de hacking Artex automatisé pourrait permettre des attaques à grande vitesse, réduisant le temps nécessaire pour mener une intrusion de quelques heures.",
+        "published_at": "2026-11-13T21:32:00",
+        "score": 27
+      },
+      {
+        "guid": "88c28d410e319332",
+        "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+        "url": "https://blog.talosintelligence.com/artex-and-beyond/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les plateformes d'essais pénétrants et les équipes rouges avec intelligence artificielle peuvent automatiser l'exploitation des vulnérabilités, facilitant ainsi les attaques pour des attaquants moins qualifiés.",
+        "published_at": "2026-11-13T20:57:13",
+        "score": 27
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "bfffc09b82f1fb3b",
+        "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+        "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Osaka a prévenu ses résidents de se méfier d'e-mails suspects prétendument envoyés par la municipalité, suite à une série de cyberattaques récentes.",
+        "published_at": "2026-11-13T19:43:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "fd4ef1a6fb36de51",
+        "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+        "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "La ville de New York imposera des amendes de 1000 $ aux entreprises pratiquant le prix de la surveillance, en réponse à une montée du mouvement national pour interdire ces pratiques.",
+        "published_at": "2026-11-13T18:35:00",
+        "score": 15,
+        "rank": 2
+      },
+      {
+        "guid": "f79a6e2ee92b08c6",
+        "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+        "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [],
+        "summary": "Le parlement allemand a approuvé des lois autorisant les services de renseignement à mener des opérations de cyber-sabotage.",
+        "published_at": "2026-11-13T16:32:00",
+        "score": 15,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 56,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
