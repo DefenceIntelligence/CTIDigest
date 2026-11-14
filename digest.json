@@ -1,299 +1,172 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-13",
-  "generated_at": "2026-11-13T03:01:49.094627+00:00",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T03:00:57.936747+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "d3b2e0f44854ef0f",
-        "title": "Siemens Building Automation and Energy Products",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-109618",
-          "CVE-2026-109619"
-        ],
-        "tags": [
-          "cve",
-          "malware",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Le 21 octobre 2026, le projet PHP et des chercheurs de sécurité ont divulgué deux vulnérabilités critiques d'exécution de code non authentifié dans la runtime du langage PHP (CVE-2026-109618 et CVE-2026-109619). Cette mise à jour couvre l'état d'impact des différents produits logiciels Siemens.",
-        "published_at": "2026-11-12T12:00:00",
-        "score": 27
-      },
-      {
-        "guid": "a0a1ef639e6f8c31",
-        "title": "Siemens Desigo, Gridscale",
-        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-111497"
-        ],
-        "tags": [
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Le 21 octobre 2026, le projet Node.js a publié des mises à jour de sécurité pour corriger une vulnérabilité critique dans le décodeur Brotli qui pourrait entraîner une corruption de la mémoire (CVE-2026-111497).",
-        "published_at": "2026-11-12T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "3d33011f9a7426f0",
-        "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-        "url": "https://isc.sans.edu/diary/rss/33514",
-        "source": "SANS ISC",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-102895"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "La vulnérabilité CVE-2026-102895 est une faille d'authentification basique. Toutes les versions de GPUStack avant 2.2.0 sont affectées, mais elle n'a été rendue publique qu'en juillet 2026.",
-        "published_at": "2026-11-12T11:56:24",
-        "score": 15
-      },
-      {
-        "guid": "e864bd2d6580a6ae",
-        "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-        "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+        "guid": "6fa46a1c947e7a10",
+        "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+        "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-120868"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Citrix a publié des correctifs pour plusieurs vulnérabilités critiques touchant NetScaler ADC, Gateway et Console, y compris une faille d'authentification basique (CVE-2026-120868).",
-        "published_at": "2026-11-12T21:08:49",
-        "score": 20
-      },
-      {
-        "guid": "d544e8fea4a475f2",
-        "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-        "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-84869"
+          "CVE-2026-6460"
         ],
         "tags": [
           "cve",
           "malware",
           "vulnerability"
         ],
-        "summary": "Le logiciel SCKit a été utilisé pour convertir des sessions d'assistance ScreenConnect en points de passage potentiels pour les attaquants. La vulnérabilité exploité est CVE-2026-84869.",
-        "published_at": "2026-11-12T18:38:28",
+        "summary": "PostgreSQL a corrigé 52 faiblesses, dont 22 ans après l'identification d'une faille de type confusion qui permet un RCE authentifié. Les mises à jour sont nécessaires pour éviter ce risque.",
+        "published_at": "2026-11-13T22:23:08",
         "score": 32
-      },
-      {
-        "guid": "00077f6cffccf7fb",
-        "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-        "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-126325"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "PTC a publié des correctifs pour une vulnérabilité critique dans Windchill et FlexPLM qui pourrait entraîner l'exécution de code à distance (CVE-2026-126325).",
-        "published_at": "2026-11-12T17:03:15",
-        "score": 20
-      },
-      {
-        "guid": "b518311d5f09c48a",
-        "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-        "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-118383"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité critique dans MongoDB Server peut provoquer une panne si un serveur défaillant est choisi en cas de failover (CVE-2026-118383).",
-        "published_at": "2026-11-12T14:55:00",
-        "score": 20
-      },
-      {
-        "guid": "ba5af1c012d71bbf",
-        "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-        "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-119618"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une vulnérabilité critique dans le module HTTP/2 d'Apache peut permettre à un attaquant non authentifié d'exécuter du code sur le serveur (CVE-2026-119618).",
-        "published_at": "2026-11-12T10:42:26",
-        "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "97d16cb30103dadc",
-        "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-        "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "222d00109b4c6711",
+        "title": "🏴‍☠️ Interlock has just published a new victim : K&A Industries",
+        "url": "https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "K&A Industries, une entreprise de gestion des identités sécurisées, a été compromise. Des données sensibles et des informations sur les contrats gouvernementaux ont été volées.",
+        "published_at": "2026-11-13T22:46:01",
+        "score": 32
+      },
+      {
+        "guid": "50c10fef1069f6b5",
+        "title": "🏴‍☠️ Everest has just published a new victim : Final Notice Before Publication",
+        "url": "https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le terme « Final Notice Before Publication » est souvent utilisé par des ransomware pour menacer de publier des données volées. Son utilisation spécifique n'a pas été identifiée.",
+        "published_at": "2026-11-13T22:44:12",
+        "score": 32
+      },
+      {
+        "guid": "5f0b3b8ac6b48209",
+        "title": "Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters",
+        "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
           "malware"
         ],
-        "summary": "Cette semaine, des attaques utilisent des sites Web fake, des accès volés et des outils de confiance pour pénétrer dans des systèmes. L'IA aide les attaquants à construire des attaques plus rapidement.",
-        "published_at": "2026-11-12T23:32:51",
-        "score": 37
+        "summary": "Cette entrée ne contient aucune information sur une histoire de sécurité récente et est plutôt un billet de blog sur les squids. Pour parler des nouvelles histoires de sécurité, vous pouvez utiliser la section du blog.",
+        "published_at": "2026-11-13T22:00:46",
+        "score": 17
       },
       {
-        "guid": "39decbd829a1414b",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Franc-Oil",
-        "url": "https://www.ransomware.live/id/RnJhbmMtT2lsQFZleHkgUmFuc29td2FyZQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "6147b2c45f3bf489",
+        "title": "Centre Hospitalier d'Armentières",
+        "url": "https://frenchbreaches.com/alertes/centre-hospitalier-d-armenti-res-mwfft916jbpzxl5xg0q",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "malware",
-          "ransomware"
+          "malware"
         ],
-        "summary": "Vexy, un rançoniciel, a victimaïsé Franc-Oil, une société nigériane de services offshore et maritimes spécialisée dans le charottage maritime, la logistique marine, les sableurs, la gestion des équipages et l'appui aux opérations pétrolières.",
-        "published_at": "2026-11-12T23:19:34",
-        "score": 12
+        "summary": "Une nouvelle fuite de données concernant le Centre hospitalier d'Armentières a été publiée en ligne, incluant 261 948 enregistrements.",
+        "published_at": "2026-11-13T21:35:00",
+        "score": 17
       },
       {
-        "guid": "570013f8e8bdb63e",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Osiiminppal",
-        "url": "https://www.ransomware.live/id/T3NpaW1pbnBwYWxAVmV4eSBSYW5zb213YXJl",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "ransomware"
-        ],
-        "summary": "Vexy ransomware a révélé un nouveau vaste : Osiiminppal.",
-        "published_at": "2026-11-12T23:19:13",
-        "score": 0
-      },
-      {
-        "guid": "504d84ea9894a082",
-        "title": "🏴‍☠️ Vexy ransomware has just published a new victim : Upper Web",
-        "url": "https://www.ransomware.live/id/VXBwZXIgV2ViQFZleHkgUmFuc29td2FyZQ",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "cve",
-          "malware",
-          "ransomware"
-        ],
-        "summary": "Upper Web, une entreprise brésilienne spécialisée dans le développement web et les services numériques, a été identifiée comme victime d'un rançongiciel.",
-        "published_at": "2026-11-12T23:18:52",
-        "score": 12
-      },
-      {
-        "guid": "eed06de93dbd632a",
-        "title": "Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools",
-        "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted",
+        "guid": "f599a1451212b9d8",
+        "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+        "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
+          "cve",
           "malware"
         ],
-        "summary": "Le gouvernement américain a confisqué 1,2 milliard de dollars des fonds volés par Binance et a fermé un outil de vol de visages.",
-        "published_at": "2026-11-12T21:42:00",
+        "summary": "L'outil de hacking Artex automatisé pourrait permettre des attaques à grande vitesse, réduisant le temps nécessaire pour mener une intrusion de quelques heures.",
+        "published_at": "2026-11-13T21:32:00",
         "score": 27
       },
       {
-        "guid": "b6d280f8ac569c95",
-        "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-        "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-        "source": "The Hacker News",
-        "category": "Général",
+        "guid": "88c28d410e319332",
+        "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+        "url": "https://blog.talosintelligence.com/artex-and-beyond/",
+        "source": "Cisco Talos",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
-          "malware"
+          "malware",
+          "vulnerability"
         ],
-        "summary": "Des domaines falsifiés imitant des outils d'intelligence artificielle dirigent les utilisateurs vers des attaques de clics, des logiciels malveillants et des détournements de recherches.",
-        "published_at": "2026-11-12T20:45:40",
-        "score": 17
+        "summary": "Les plateformes d'essais pénétrants et les équipes rouges avec intelligence artificielle peuvent automatiser l'exploitation des vulnérabilités, facilitant ainsi les attaques pour des attaquants moins qualifiés.",
+        "published_at": "2026-11-13T20:57:13",
+        "score": 27
       }
     ],
     "top_reads": [
       {
-        "guid": "981a111b86587488",
-        "title": "ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations",
-        "url": "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+        "guid": "bfffc09b82f1fb3b",
+        "title": "City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents",
+        "url": "https://therecord.media/city-of-osaka-japan-email-data-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "ConnectWise enquête sur des breaches liés à un outil tiers utilisé par ses clients, confirmant l'intrusion dans environ 50 organisations.",
-        "published_at": "2026-11-12T16:16:00",
+        "summary": "Osaka a prévenu ses résidents de se méfier d'e-mails suspects prétendument envoyés par la municipalité, suite à une série de cyberattaques récentes.",
+        "published_at": "2026-11-13T19:43:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "afcd425e0608b318",
-        "title": "Hijacked email accounts complicate investigations into European bomb hoaxes",
-        "url": "https://therecord.media/europe-hoax-email-threats",
+        "guid": "fd4ef1a6fb36de51",
+        "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+        "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Des menaces de bombes envoyées à des écoles européennes ont été envoyées depuis un compte Gmail compromis d'une université taiwanaise.",
-        "published_at": "2026-11-12T14:45:00",
-        "score": 35,
+        "tags": [],
+        "summary": "La ville de New York imposera des amendes de 1000 $ aux entreprises pratiquant le prix de la surveillance, en réponse à une montée du mouvement national pour interdire ces pratiques.",
+        "published_at": "2026-11-13T18:35:00",
+        "score": 15,
         "rank": 2
       },
       {
-        "guid": "6ff200ce698b2813",
-        "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-        "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "f79a6e2ee92b08c6",
+        "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+        "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
-        "tags": [
-          "breach",
-          "cve",
-          "patch",
-          "vulnerability"
-        ],
-        "summary": "Les hackers exploite un vulnérabilité récemment divulguée chez N-able pour installer des minage de cryptomonnaies, affectant au moins 21 systèmes.",
-        "published_at": "2026-11-12T14:51:16",
-        "score": 25,
+        "tags": [],
+        "summary": "Le parlement allemand a approuvé des lois autorisant les services de renseignement à mener des opérations de cyber-sabotage.",
+        "published_at": "2026-11-13T16:32:00",
+        "score": 15,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 100,
-    "items_selected": 17,
+    "items_analyzed": 56,
+    "items_selected": 10,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 9,
+    "cves_total": 1,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
