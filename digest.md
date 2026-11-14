@@ -1,129 +1,78 @@
-# 🛡️ ARGOS CTI Digest — 13 novembre 2026
+# 🛡️ ARGOS CTI Digest — 14 novembre 2026
 
-> Généré le 13/11/2026 à 03:01 UTC  ·  100 items analysés  ·  17 sélectionnés  ·  23 sources actives
+> Généré le 14/11/2026 à 03:00 UTC  ·  56 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Siemens Building Automation and Energy Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01)
-**Source :** CISA Advisories  **Publié :** 12/11/2026 12:00 UTC  **CVE :** `CVE-2026-109618`, `CVE-2026-109619`
-`cve` `malware` `patch` `vulnerability`
-Le 21 octobre 2026, le projet PHP et des chercheurs de sécurité ont divulgué deux vulnérabilités critiques d'exécution de code non authentifié dans la runtime du langage PHP (CVE-2026-109618 et CVE-2026-109619). Cette mise à jour couvre l'état d'impact des différents produits logiciels Siemens.
-
----
-
-### [Siemens Desigo, Gridscale](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02)
-**Source :** CISA Advisories  **Publié :** 12/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
-`cve` `patch` `vulnerability`
-Le 21 octobre 2026, le projet Node.js a publié des mises à jour de sécurité pour corriger une vulnérabilité critique dans le décodeur Brotli qui pourrait entraîner une corruption de la mémoire (CVE-2026-111497).
-
----
-
-### [Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)](https://isc.sans.edu/diary/rss/33514)
-**Source :** SANS ISC  **Publié :** 12/11/2026 11:56 UTC  **CVE :** `CVE-2026-102895`
-`cve` `vulnerability`
-La vulnérabilité CVE-2026-102895 est une faille d'authentification basique. Toutes les versions de GPUStack avant 2.2.0 sont affectées, mais elle n'a été rendue publique qu'en juillet 2026.
-
----
-
-### [Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 21:08 UTC  **CVE :** `CVE-2026-120868`
-`cve` `vulnerability`
-Citrix a publié des correctifs pour plusieurs vulnérabilités critiques touchant NetScaler ADC, Gateway et Console, y compris une faille d'authentification basique (CVE-2026-120868).
-
----
-
-### [SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths](https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 18:38 UTC  **CVE :** `CVE-2026-84869`
+### [PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE](https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html)
+**Source :** The Hacker News  **Publié :** 13/11/2026 22:23 UTC  **CVE :** `CVE-2026-6460`
 `cve` `malware` `vulnerability`
-Le logiciel SCKit a été utilisé pour convertir des sessions d'assistance ScreenConnect en points de passage potentiels pour les attaquants. La vulnérabilité exploité est CVE-2026-84869.
-
----
-
-### [PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution](https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 17:03 UTC  **CVE :** `CVE-2026-126325`
-`cve` `vulnerability`
-PTC a publié des correctifs pour une vulnérabilité critique dans Windchill et FlexPLM qui pourrait entraîner l'exécution de code à distance (CVE-2026-126325).
-
----
-
-### [Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover](https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 14:55 UTC  **CVE :** `CVE-2026-118383`
-`cve` `vulnerability`
-Une vulnérabilité critique dans MongoDB Server peut provoquer une panne si un serveur défaillant est choisi en cas de failover (CVE-2026-118383).
-
----
-
-### [Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely](https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 10:42 UTC  **CVE :** `CVE-2026-119618`
-`cve` `vulnerability`
-Une vulnérabilité critique dans le module HTTP/2 d'Apache peut permettre à un attaquant non authentifié d'exécuter du code sur le serveur (CVE-2026-119618).
+PostgreSQL a corrigé 52 faiblesses, dont 22 ans après l'identification d'une faille de type confusion qui permet un RCE authentifié. Les mises à jour sont nécessaires pour éviter ce risque.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories](https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 23:32 UTC
-`breach` `malware`
-Cette semaine, des attaques utilisent des sites Web fake, des accès volés et des outils de confiance pour pénétrer dans des systèmes. L'IA aide les attaquants à construire des attaques plus rapidement.
+### [🏴‍☠️ Interlock has just published a new victim : K&A Industries](https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr)
+**Source :** Ransomware.live News  **Publié :** 13/11/2026 22:46 UTC
+`breach` `malware` `vulnerability`
+K&A Industries, une entreprise de gestion des identités sécurisées, a été compromise. Des données sensibles et des informations sur les contrats gouvernementaux ont été volées.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Franc-Oil](https://www.ransomware.live/id/RnJhbmMtT2lsQFZleHkgUmFuc29td2FyZQ)
-**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:19 UTC
-`malware` `ransomware`
-Vexy, un rançoniciel, a victimaïsé Franc-Oil, une société nigériane de services offshore et maritimes spécialisée dans le charottage maritime, la logistique marine, les sableurs, la gestion des équipages et l'appui aux opérations pétrolières.
+### [🏴‍☠️ Everest has just published a new victim : Final Notice Before Publication](https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0)
+**Source :** Ransomware.live News  **Publié :** 13/11/2026 22:44 UTC
+`apt` `breach` `malware` `ransomware`
+Le terme « Final Notice Before Publication » est souvent utilisé par des ransomware pour menacer de publier des données volées. Son utilisation spécifique n'a pas été identifiée.
 
 ---
 
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Osiiminppal](https://www.ransomware.live/id/T3NpaW1pbnBwYWxAVmV4eSBSYW5zb213YXJl)
-**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:19 UTC
-`ransomware`
-Vexy ransomware a révélé un nouveau vaste : Osiiminppal.
-
----
-
-### [🏴‍☠️ Vexy ransomware has just published a new victim : Upper Web](https://www.ransomware.live/id/VXBwZXIgV2ViQFZleHkgUmFuc29td2FyZQ)
-**Source :** Ransomware.live News  **Publié :** 12/11/2026 23:18 UTC
-`cve` `malware` `ransomware`
-Upper Web, une entreprise brésilienne spécialisée dans le développement web et les services numériques, a été identifiée comme victime d'un rançongiciel.
-
----
-
-### [Feds announce seizure of $1.2 billion from Binance theft; also takedown of ‘FaceStealer’ tools](https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted)
-**Source :** The Record  **Publié :** 12/11/2026 21:42 UTC
+### [Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters](https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html)
+**Source :** Schneier on Security  **Publié :** 13/11/2026 22:00 UTC
 `malware`
-Le gouvernement américain a confisqué 1,2 milliard de dollars des fonds volés par Binance et a fermé un outil de vol de visages.
+Cette entrée ne contient aucune information sur une histoire de sécurité récente et est plutôt un billet de blog sur les squids. Pour parler des nouvelles histoires de sécurité, vous pouvez utiliser la section du blog.
 
 ---
 
-### [186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers](https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html)
-**Source :** The Hacker News  **Publié :** 12/11/2026 20:45 UTC
+### [Centre Hospitalier d'Armentières](https://frenchbreaches.com/alertes/centre-hospitalier-d-armenti-res-mwfft916jbpzxl5xg0q)
+**Source :** FrenchBreaches  **Publié :** 13/11/2026 21:35 UTC
 `malware`
-Des domaines falsifiés imitant des outils d'intelligence artificielle dirigent les utilisateurs vers des attaques de clics, des logiciels malveillants et des détournements de recherches.
+Une nouvelle fuite de données concernant le Centre hospitalier d'Armentières a été publiée en ligne, incluant 261 948 enregistrements.
+
+---
+
+### [FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’](https://therecord.media/artex-ai-tool-fbi-flash-alert)
+**Source :** The Record  **Publié :** 13/11/2026 21:32 UTC
+`cve` `malware`
+L'outil de hacking Artex automatisé pourrait permettre des attaques à grande vitesse, réduisant le temps nécessaire pour mener une intrusion de quelques heures.
+
+---
+
+### [ARTEX and beyond: AI-enabled penetration testing platforms](https://blog.talosintelligence.com/artex-and-beyond/)
+**Source :** Cisco Talos  **Publié :** 13/11/2026 20:57 UTC
+`malware` `vulnerability`
+Les plateformes d'essais pénétrants et les équipes rouges avec intelligence artificielle peuvent automatiser l'exploitation des vulnérabilités, facilitant ainsi les attaques pour des attaquants moins qualifiés.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [ConnectWise investigates ScreenConnect breaches after reports of incidents at nearly 50 organizations](https://therecord.media/connectwise-screenconnect-breaches-third-party-tool)
-**Source :** The Record  **Publié :** 12/11/2026 16:16 UTC  **Score :** 35
+### 1. [City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents](https://therecord.media/city-of-osaka-japan-email-data-breach)
+**Source :** The Record  **Publié :** 13/11/2026 19:43 UTC  **Score :** 35
 `breach`
-ConnectWise enquête sur des breaches liés à un outil tiers utilisé par ses clients, confirmant l'intrusion dans environ 50 organisations.
+Osaka a prévenu ses résidents de se méfier d'e-mails suspects prétendument envoyés par la municipalité, suite à une série de cyberattaques récentes.
 
-### 2. [Hijacked email accounts complicate investigations into European bomb hoaxes](https://therecord.media/europe-hoax-email-threats)
-**Source :** The Record  **Publié :** 12/11/2026 14:45 UTC  **Score :** 35
-`breach`
-Des menaces de bombes envoyées à des écoles européennes ont été envoyées depuis un compte Gmail compromis d'une université taiwanaise.
+### 2. [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing)
+**Source :** The Record  **Publié :** 13/11/2026 18:35 UTC  **Score :** 15
+La ville de New York imposera des amendes de 1000 $ aux entreprises pratiquant le prix de la surveillance, en réponse à une montée du mouvement national pour interdire ces pratiques.
 
-### 3. [New N-able "4EverAble2Shell" zero-day exploited hours after PoC released](https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/)
-**Source :** Bleeping Computer  **Publié :** 12/11/2026 14:51 UTC  **Score :** 25
-`breach` `cve` `patch` `vulnerability`
-Les hackers exploite un vulnérabilité récemment divulguée chez N-able pour installer des minage de cryptomonnaies, affectant au moins 21 systèmes.
+### 3. [German parliament passes law giving spy agencies hacking, sabotage powers](https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power)
+**Source :** The Record  **Publié :** 13/11/2026 16:32 UTC  **Score :** 15
+Le parlement allemand a approuvé des lois autorisant les services de renseignement à mener des opérations de cyber-sabotage.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-13.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-14.md`*
