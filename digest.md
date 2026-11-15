@@ -1,78 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 14 novembre 2026
+# 🛡️ ARGOS CTI Digest — 15 novembre 2026
 
-> Généré le 14/11/2026 à 03:00 UTC  ·  56 items analysés  ·  10 sélectionnés  ·  23 sources actives
+> Généré le 15/11/2026 à 03:00 UTC  ·  10 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE](https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html)
-**Source :** The Hacker News  **Publié :** 13/11/2026 22:23 UTC  **CVE :** `CVE-2026-6460`
-`cve` `malware` `vulnerability`
-PostgreSQL a corrigé 52 faiblesses, dont 22 ans après l'identification d'une faille de type confusion qui permet un RCE authentifié. Les mises à jour sont nécessaires pour éviter ce risque.
+### [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html)
+**Source :** The Hacker News  **Publié :** 14/11/2026 18:08 UTC  **CVE :** `CVE-2026-114713`
+`cve` `vulnerability`
+CISA a ajouté CVE-2026-114713, une vulnérabilité critique chez UnrealIRCd, au catalogue KEV après des rapports d’exploitation active.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Interlock has just published a new victim : K&A Industries](https://www.ransomware.live/id/SyZBIEluZHVzdHJpZXNAaW50ZXJsb2Nr)
-**Source :** Ransomware.live News  **Publié :** 13/11/2026 22:46 UTC
+### [OPSYSWEB](https://frenchbreaches.com/alertes/opsysweb-mwgs0eslvhonv4dghx)
+**Source :** FrenchBreaches  **Publié :** 14/11/2026 20:14 UTC
+`malware`
+Une fuite de plus de 4 millions de commandes concernant des lunettes a été rapportée, éventuellement exposées en ligne par un pirate informatique.
+
+---
+
+### [🏴‍☠️ Scarlettgroup has just published a new victim : fittleworth.com](https://www.ransomware.live/id/Zml0dGxld29ydGguY29tQFNjYXJsZXR0Z3JvdXA)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 18:16 UTC
+`ransomware`
+Scarlettgroup a révélé une nouvelle victime : Fittleworth.com, une entreprise de soins de santé au Royaume-Uni.
+
+---
+
+### [🏴‍☠️ Barracuda has just published a new victim : FINSA](https://www.ransomware.live/id/RklOU0FAQmFycmFjdWRh)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 17:50 UTC
+`malware`
+Une compagnie forestière FINSA a été victime d’une attaque informatique, avec l’exfiltration de données confidentielles et la désactivation totale des opérations.
+
+---
+
+### [🏴‍☠️ Endzone has just published a new victim : Momentum Telecom](https://www.ransomware.live/id/TW9tZW50dW0gVGVsZWNvbUBFbmRab25l)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 12:25 UTC
 `breach` `malware` `vulnerability`
-K&A Industries, une entreprise de gestion des identités sécurisées, a été compromise. Des données sensibles et des informations sur les contrats gouvernementaux ont été volées.
+Momentum Telecom a été victime d’une attaque, avec l’accès à un outil de diagnostic et de provisionnement et la révocation des services.
 
 ---
 
-### [🏴‍☠️ Everest has just published a new victim : Final Notice Before Publication](https://www.ransomware.live/id/RmluYWwgTm90aWNlIEJlZm9yZSBQdWJsaWNhdGlvbkBldmVyZXN0)
-**Source :** Ransomware.live News  **Publié :** 13/11/2026 22:44 UTC
-`apt` `breach` `malware` `ransomware`
-Le terme « Final Notice Before Publication » est souvent utilisé par des ransomware pour menacer de publier des données volées. Son utilisation spécifique n'a pas été identifiée.
+### [🏴‍☠️ Endzone has just published a new victim : Absolute Bail Bonds](https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 12:24 UTC
+`breach` `cve` `malware`
+Absolute Bail Bonds a été compromise, avec l’exfiltration de 5Go de données et 3.5TB d’informations cryptées depuis la DC.
 
 ---
 
-### [Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters](https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html)
-**Source :** Schneier on Security  **Publié :** 13/11/2026 22:00 UTC
+### [🏴‍☠️ Everest has just published a new victim : Grundbaulabor Trier GmbH](https://www.ransomware.live/id/R3J1bmRiYXVsYWJvciBUcmllciBHbWJIQGV2ZXJlc3Q)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 03:32 UTC
 `malware`
-Cette entrée ne contient aucune information sur une histoire de sécurité récente et est plutôt un billet de blog sur les squids. Pour parler des nouvelles histoires de sécurité, vous pouvez utiliser la section du blog.
-
----
-
-### [Centre Hospitalier d'Armentières](https://frenchbreaches.com/alertes/centre-hospitalier-d-armenti-res-mwfft916jbpzxl5xg0q)
-**Source :** FrenchBreaches  **Publié :** 13/11/2026 21:35 UTC
-`malware`
-Une nouvelle fuite de données concernant le Centre hospitalier d'Armentières a été publiée en ligne, incluant 261 948 enregistrements.
-
----
-
-### [FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’](https://therecord.media/artex-ai-tool-fbi-flash-alert)
-**Source :** The Record  **Publié :** 13/11/2026 21:32 UTC
-`cve` `malware`
-L'outil de hacking Artex automatisé pourrait permettre des attaques à grande vitesse, réduisant le temps nécessaire pour mener une intrusion de quelques heures.
-
----
-
-### [ARTEX and beyond: AI-enabled penetration testing platforms](https://blog.talosintelligence.com/artex-and-beyond/)
-**Source :** Cisco Talos  **Publié :** 13/11/2026 20:57 UTC
-`malware` `vulnerability`
-Les plateformes d'essais pénétrants et les équipes rouges avec intelligence artificielle peuvent automatiser l'exploitation des vulnérabilités, facilitant ainsi les attaques pour des attaquants moins qualifiés.
+Aucune information fiable n’est disponible sur Grundbaulabor Trier GmbH.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [City of Osaka warns of data breach impacting 1 million as Japan reels from dozens of cyber incidents](https://therecord.media/city-of-osaka-japan-email-data-breach)
-**Source :** The Record  **Publié :** 13/11/2026 19:43 UTC  **Score :** 35
+### 1. [Cursor confirms security breach led to malicious Claude Code extension](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)
+**Source :** Bleeping Computer  **Publié :** 14/11/2026 12:27 UTC  **Score :** 25
 `breach`
-Osaka a prévenu ses résidents de se méfier d'e-mails suspects prétendument envoyés par la municipalité, suite à une série de cyberattaques récentes.
+Cursor a confirmé un breach qui a permis à des hackers de distribuer un extension malveillante Claude Code via sa marketplace après avoir volé les identifiants d’AI Infrastructure provider Fireworks AI.
 
-### 2. [NYC to bar surveillance pricing as momentum for bans grows nationwide](https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing)
-**Source :** The Record  **Publié :** 13/11/2026 18:35 UTC  **Score :** 15
-La ville de New York imposera des amendes de 1000 $ aux entreprises pratiquant le prix de la surveillance, en réponse à une montée du mouvement national pour interdire ces pratiques.
+### 2. [US disrupts North Korean campaign behind $400 million crypto theft](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/)
+**Source :** Bleeping Computer  **Publié :** 14/11/2026 10:15 UTC  **Score :** 15
+`phishing`
+Le gouvernement américain a interrompu une campagne de phishing nord-coréenne nommée FaceStealer, responsable de la détournement de plus de 400 millions de dollars en cryptomonnaies.
 
-### 3. [German parliament passes law giving spy agencies hacking, sabotage powers](https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power)
-**Source :** The Record  **Publié :** 13/11/2026 16:32 UTC  **Score :** 15
-Le parlement allemand a approuvé des lois autorisant les services de renseignement à mener des opérations de cyber-sabotage.
+### 3. [🏴‍☠️ Netrunner has just published a new victim : F***** G****** C********** C***](https://www.ransomware.live/id/RioqKioqIEcqKioqKiogQyoqKioqKioqKiogQyoqKkBuZXRydW5uZXI)
+**Source :** Ransomware.live News  **Publié :** 14/11/2026 17:27 UTC  **Score :** 0
+Aucun résumé disponible pour cette victime non identifiée.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-14.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-15.md`*
