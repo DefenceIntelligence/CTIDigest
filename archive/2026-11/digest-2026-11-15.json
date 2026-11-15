@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T03:00:52.091661+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "b4634b03efbc81f3",
+        "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+        "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-114713"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté CVE-2026-114713, une vulnérabilité critique chez UnrealIRCd, au catalogue KEV après des rapports d’exploitation active.",
+        "published_at": "2026-11-14T18:08:35",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "369183765bc84117",
+        "title": "OPSYSWEB",
+        "url": "https://frenchbreaches.com/alertes/opsysweb-mwgs0eslvhonv4dghx",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une fuite de plus de 4 millions de commandes concernant des lunettes a été rapportée, éventuellement exposées en ligne par un pirate informatique.",
+        "published_at": "2026-11-14T20:14:00",
+        "score": 17
+      },
+      {
+        "guid": "04344ada86c95bfa",
+        "title": "🏴‍☠️ Scarlettgroup has just published a new victim : fittleworth.com",
+        "url": "https://www.ransomware.live/id/Zml0dGxld29ydGguY29tQFNjYXJsZXR0Z3JvdXA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Scarlettgroup a révélé une nouvelle victime : Fittleworth.com, une entreprise de soins de santé au Royaume-Uni.",
+        "published_at": "2026-11-14T18:16:18",
+        "score": 0
+      },
+      {
+        "guid": "826500799a8f1c1d",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : FINSA",
+        "url": "https://www.ransomware.live/id/RklOU0FAQmFycmFjdWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une compagnie forestière FINSA a été victime d’une attaque informatique, avec l’exfiltration de données confidentielles et la désactivation totale des opérations.",
+        "published_at": "2026-11-14T17:50:40",
+        "score": 12
+      },
+      {
+        "guid": "900a999db8194fe4",
+        "title": "🏴‍☠️ Endzone has just published a new victim : Momentum Telecom",
+        "url": "https://www.ransomware.live/id/TW9tZW50dW0gVGVsZWNvbUBFbmRab25l",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Momentum Telecom a été victime d’une attaque, avec l’accès à un outil de diagnostic et de provisionnement et la révocation des services.",
+        "published_at": "2026-11-14T12:25:18",
+        "score": 32
+      },
+      {
+        "guid": "24b0221b971f2047",
+        "title": "🏴‍☠️ Endzone has just published a new victim : Absolute Bail Bonds",
+        "url": "https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "malware"
+        ],
+        "summary": "Absolute Bail Bonds a été compromise, avec l’exfiltration de 5Go de données et 3.5TB d’informations cryptées depuis la DC.",
+        "published_at": "2026-11-14T12:24:57",
+        "score": 32
+      },
+      {
+        "guid": "ad162c9579e17727",
+        "title": "🏴‍☠️ Everest has just published a new victim : Grundbaulabor Trier GmbH",
+        "url": "https://www.ransomware.live/id/R3J1bmRiYXVsYWJvciBUcmllciBHbWJIQGV2ZXJlc3Q",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Aucune information fiable n’est disponible sur Grundbaulabor Trier GmbH.",
+        "published_at": "2026-11-14T03:32:50",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "e0589b3a681c2057",
+        "title": "Cursor confirms security breach led to malicious Claude Code extension",
+        "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Cursor a confirmé un breach qui a permis à des hackers de distribuer un extension malveillante Claude Code via sa marketplace après avoir volé les identifiants d’AI Infrastructure provider Fireworks AI.",
+        "published_at": "2026-11-14T12:27:25",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "c7696995e2ea8c15",
+        "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+        "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "phishing"
+        ],
+        "summary": "Le gouvernement américain a interrompu une campagne de phishing nord-coréenne nommée FaceStealer, responsable de la détournement de plus de 400 millions de dollars en cryptomonnaies.",
+        "published_at": "2026-11-14T10:15:49",
+        "score": 15,
+        "rank": 2
+      },
+      {
+        "guid": "6325eeace66d8b0b",
+        "title": "🏴‍☠️ Netrunner has just published a new victim : F***** G****** C********** C***",
+        "url": "https://www.ransomware.live/id/RioqKioqIEcqKioqKiogQyoqKioqKioqKiogQyoqKkBuZXRydW5uZXI",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [],
+        "summary": "Aucun résumé disponible pour cette victime non identifiée.",
+        "published_at": "2026-11-14T17:27:01",
+        "score": 0,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 10,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
