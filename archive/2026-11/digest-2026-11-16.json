@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T03:00:53.588365+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [],
+    "campaigns": [
+      {
+        "guid": "7e5c8d534d593c41",
+        "title": "Dagier",
+        "url": "https://frenchbreaches.com/alertes/dagier-mwigonrfd5rkmv46mau",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Dagier, grossiste en confiseries, a fait l'objet d'une fuite de données revendiquée sur un forum de pirates informatiques.",
+        "published_at": "2026-11-16T00:26:00",
+        "score": 17
+      },
+      {
+        "guid": "f051b303c40a452a",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Connectwell Industries Pvt Ltd (connectwell.com)",
+        "url": "https://www.ransomware.live/id/Q29ubmVjdHdlbGwgSW5kdXN0cmllcyBQdnQgTHRkIChjb25uZWN0d2VsbC5jb20pQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks a publié des informations volées concernant Connectwell Industries, fabricant de blocs électriques.",
+        "published_at": "2026-11-15T21:19:50",
+        "score": 12
+      },
+      {
+        "guid": "5c8df45cee0d821e",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Godrej & Boyce Mfg Co Ltd (Vikhroli campus systems, godrej.com)",
+        "url": "https://www.ransomware.live/id/R29kcmVqICYgQm95Y2UgTWZnIENvIEx0ZCAoVmlraHJvbGkgY2FtcHVzIHN5c3RlbXMsIGdvZHJlai5jb20pQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks a publié des informations volées concernant Godrej & Boyce Mfg Co Ltd, une entreprise de diverses industries.",
+        "published_at": "2026-11-15T21:19:28",
+        "score": 12
+      },
+      {
+        "guid": "afd9538f8c1678e0",
+        "title": "🏴‍☠️ Incransom has just published a new victim : Sarimelati Kencana Tbk PT",
+        "url": "https://www.ransomware.live/id/U2FyaW1lbGF0aSBLZW5jYW5hIFRiayBQVEBpbmNyYW5zb20",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Incransom a ciblé PT Sarimelati Kencana Tbk, filiale de PT Sriboga Raturaya et franchise Pizza Hut en Indonésie.",
+        "published_at": "2026-11-15T18:44:48",
+        "score": 12
+      },
+      {
+        "guid": "31ff808e390ef826",
+        "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+        "url": "https://isc.sans.edu/diary/rss/33496",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pas de résumé disponible pour cet article.",
+        "published_at": "2026-11-15T18:17:27",
+        "score": 12
+      },
+      {
+        "guid": "8a518abf8252d96b",
+        "title": "🏴‍☠️ Lockbit5 has just published a new victim : pah.com.my",
+        "url": "https://www.ransomware.live/id/cGFoLmNvbS5teUBsb2NrYml0NQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Lockbit5 a publié des informations volées concernant Penang Adventist Hospital (PAH) en Malaisie.",
+        "published_at": "2026-11-15T15:03:34",
+        "score": 0
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "66b14fed2675dc66",
+        "title": "🏴‍☠️ Byod has just published a new victim : Michigan State University - New DL",
+        "url": "https://www.ransomware.live/id/TWljaGlnYW4gU3RhdGUgVW5pdmVyc2l0eSAtIE5ldyBETEBCWU9E",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Byod a divulgué des informations personnelles de 1,03 million d'étudiants actuels et ex étudiants de l'Université du Michigan.",
+        "published_at": "2026-11-16T00:22:06",
+        "score": 20,
+        "rank": 1
+      },
+      {
+        "guid": "9b3c8a11650009a6",
+        "title": "🏴‍☠️ Byod has just published a new victim : Texas HHSC - Final Warning & Sample",
+        "url": "https://www.ransomware.live/id/VGV4YXMgSEhTQyAtIEZpbmFsIFdhcm5pbmcgJiBTYW1wbGVAQllPRA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Byod a publié des informations volées concernant le Programme de soins de santé en Texas, affectant 2 millions de citoyens.",
+        "published_at": "2026-11-16T00:21:46",
+        "score": 20,
+        "rank": 2
+      },
+      {
+        "guid": "fee4893ec5ed3526",
+        "title": "Stripe va masquer ses clés API secrètes le 20 novembre",
+        "url": "https://www.zataz.com/stripe-va-masquer-ses-cles-api-secretes-le-20-novembre/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [],
+        "summary": "Stripe masquera ses anciennes clés API secrètes à partir du 20 novembre 2026, selon ZATAZ.",
+        "published_at": "2026-11-15T19:44:34",
+        "score": 5,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 50,
+    "items_selected": 9,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 0,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
