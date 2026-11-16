@@ -1,79 +1,74 @@
-# 🛡️ ARGOS CTI Digest — 15 novembre 2026
+# 🛡️ ARGOS CTI Digest — 16 novembre 2026
 
-> Généré le 15/11/2026 à 03:00 UTC  ·  10 items analysés  ·  10 sélectionnés  ·  23 sources actives
+> Généré le 16/11/2026 à 03:00 UTC  ·  50 items analysés  ·  9 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html)
-**Source :** The Hacker News  **Publié :** 14/11/2026 18:08 UTC  **CVE :** `CVE-2026-114713`
-`cve` `vulnerability`
-CISA a ajouté CVE-2026-114713, une vulnérabilité critique chez UnrealIRCd, au catalogue KEV après des rapports d’exploitation active.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [OPSYSWEB](https://frenchbreaches.com/alertes/opsysweb-mwgs0eslvhonv4dghx)
-**Source :** FrenchBreaches  **Publié :** 14/11/2026 20:14 UTC
+### [Dagier](https://frenchbreaches.com/alertes/dagier-mwigonrfd5rkmv46mau)
+**Source :** FrenchBreaches  **Publié :** 16/11/2026 00:26 UTC
 `malware`
-Une fuite de plus de 4 millions de commandes concernant des lunettes a été rapportée, éventuellement exposées en ligne par un pirate informatique.
+Dagier, grossiste en confiseries, a fait l'objet d'une fuite de données revendiquée sur un forum de pirates informatiques.
 
 ---
 
-### [🏴‍☠️ Scarlettgroup has just published a new victim : fittleworth.com](https://www.ransomware.live/id/Zml0dGxld29ydGguY29tQFNjYXJsZXR0Z3JvdXA)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 18:16 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : Connectwell Industries Pvt Ltd (connectwell.com)](https://www.ransomware.live/id/Q29ubmVjdHdlbGwgSW5kdXN0cmllcyBQdnQgTHRkIChjb25uZWN0d2VsbC5jb20pQFBpeGVsTGVha3M)
+**Source :** Ransomware.live News  **Publié :** 15/11/2026 21:19 UTC
+`malware`
+Pixelleaks a publié des informations volées concernant Connectwell Industries, fabricant de blocs électriques.
+
+---
+
+### [🏴‍☠️ Pixelleaks has just published a new victim : Godrej & Boyce Mfg Co Ltd (Vikhroli campus systems, godrej.com)](https://www.ransomware.live/id/R29kcmVqICYgQm95Y2UgTWZnIENvIEx0ZCAoVmlraHJvbGkgY2FtcHVzIHN5c3RlbXMsIGdvZHJlai5jb20pQFBpeGVsTGVha3M)
+**Source :** Ransomware.live News  **Publié :** 15/11/2026 21:19 UTC
+`malware`
+Pixelleaks a publié des informations volées concernant Godrej & Boyce Mfg Co Ltd, une entreprise de diverses industries.
+
+---
+
+### [🏴‍☠️ Incransom has just published a new victim : Sarimelati Kencana Tbk PT](https://www.ransomware.live/id/U2FyaW1lbGF0aSBLZW5jYW5hIFRiayBQVEBpbmNyYW5zb20)
+**Source :** Ransomware.live News  **Publié :** 15/11/2026 18:44 UTC
+`malware`
+Incransom a ciblé PT Sarimelati Kencana Tbk, filiale de PT Sriboga Raturaya et franchise Pizza Hut en Indonésie.
+
+---
+
+### [YARA-X 1.23.0 Release, (Sun, Nov 15th)](https://isc.sans.edu/diary/rss/33496)
+**Source :** SANS ISC  **Publié :** 15/11/2026 18:17 UTC
+`malware`
+Pas de résumé disponible pour cet article.
+
+---
+
+### [🏴‍☠️ Lockbit5 has just published a new victim : pah.com.my](https://www.ransomware.live/id/cGFoLmNvbS5teUBsb2NrYml0NQ)
+**Source :** Ransomware.live News  **Publié :** 15/11/2026 15:03 UTC
 `ransomware`
-Scarlettgroup a révélé une nouvelle victime : Fittleworth.com, une entreprise de soins de santé au Royaume-Uni.
-
----
-
-### [🏴‍☠️ Barracuda has just published a new victim : FINSA](https://www.ransomware.live/id/RklOU0FAQmFycmFjdWRh)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 17:50 UTC
-`malware`
-Une compagnie forestière FINSA a été victime d’une attaque informatique, avec l’exfiltration de données confidentielles et la désactivation totale des opérations.
-
----
-
-### [🏴‍☠️ Endzone has just published a new victim : Momentum Telecom](https://www.ransomware.live/id/TW9tZW50dW0gVGVsZWNvbUBFbmRab25l)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 12:25 UTC
-`breach` `malware` `vulnerability`
-Momentum Telecom a été victime d’une attaque, avec l’accès à un outil de diagnostic et de provisionnement et la révocation des services.
-
----
-
-### [🏴‍☠️ Endzone has just published a new victim : Absolute Bail Bonds](https://www.ransomware.live/id/QWJzb2x1dGUgQmFpbCBCb25kc0BFbmRab25l)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 12:24 UTC
-`breach` `cve` `malware`
-Absolute Bail Bonds a été compromise, avec l’exfiltration de 5Go de données et 3.5TB d’informations cryptées depuis la DC.
-
----
-
-### [🏴‍☠️ Everest has just published a new victim : Grundbaulabor Trier GmbH](https://www.ransomware.live/id/R3J1bmRiYXVsYWJvciBUcmllciBHbWJIQGV2ZXJlc3Q)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 03:32 UTC
-`malware`
-Aucune information fiable n’est disponible sur Grundbaulabor Trier GmbH.
+Lockbit5 a publié des informations volées concernant Penang Adventist Hospital (PAH) en Malaisie.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Cursor confirms security breach led to malicious Claude Code extension](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)
-**Source :** Bleeping Computer  **Publié :** 14/11/2026 12:27 UTC  **Score :** 25
+### 1. [🏴‍☠️ Byod has just published a new victim : Michigan State University - New DL](https://www.ransomware.live/id/TWljaGlnYW4gU3RhdGUgVW5pdmVyc2l0eSAtIE5ldyBETEBCWU9E)
+**Source :** Ransomware.live News  **Publié :** 16/11/2026 00:22 UTC  **Score :** 20
 `breach`
-Cursor a confirmé un breach qui a permis à des hackers de distribuer un extension malveillante Claude Code via sa marketplace après avoir volé les identifiants d’AI Infrastructure provider Fireworks AI.
+Byod a divulgué des informations personnelles de 1,03 million d'étudiants actuels et ex étudiants de l'Université du Michigan.
 
-### 2. [US disrupts North Korean campaign behind $400 million crypto theft](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/)
-**Source :** Bleeping Computer  **Publié :** 14/11/2026 10:15 UTC  **Score :** 15
-`phishing`
-Le gouvernement américain a interrompu une campagne de phishing nord-coréenne nommée FaceStealer, responsable de la détournement de plus de 400 millions de dollars en cryptomonnaies.
+### 2. [🏴‍☠️ Byod has just published a new victim : Texas HHSC - Final Warning & Sample](https://www.ransomware.live/id/VGV4YXMgSEhTQyAtIEZpbmFsIFdhcm5pbmcgJiBTYW1wbGVAQllPRA)
+**Source :** Ransomware.live News  **Publié :** 16/11/2026 00:21 UTC  **Score :** 20
+`breach` `vulnerability`
+Byod a publié des informations volées concernant le Programme de soins de santé en Texas, affectant 2 millions de citoyens.
 
-### 3. [🏴‍☠️ Netrunner has just published a new victim : F***** G****** C********** C***](https://www.ransomware.live/id/RioqKioqIEcqKioqKiogQyoqKioqKioqKiogQyoqKkBuZXRydW5uZXI)
-**Source :** Ransomware.live News  **Publié :** 14/11/2026 17:27 UTC  **Score :** 0
-Aucun résumé disponible pour cette victime non identifiée.
+### 3. [Stripe va masquer ses clés API secrètes le 20 novembre](https://www.zataz.com/stripe-va-masquer-ses-cles-api-secretes-le-20-novembre/)
+**Source :** ZATAZ  **Publié :** 15/11/2026 19:44 UTC  **Score :** 5
+Stripe masquera ses anciennes clés API secrètes à partir du 20 novembre 2026, selon ZATAZ.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-15.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-16.md`*
