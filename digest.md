@@ -1,74 +1,80 @@
-# 🛡️ ARGOS CTI Digest — 16 novembre 2026
+# 🛡️ ARGOS CTI Digest — 17 novembre 2026
 
-> Généré le 16/11/2026 à 03:00 UTC  ·  50 items analysés  ·  9 sélectionnés  ·  23 sources actives
+> Généré le 17/11/2026 à 03:00 UTC  ·  132 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)](https://isc.sans.edu/diary/rss/33522)
+**Source :** SANS ISC  **Publié :** 16/11/2026 13:11 UTC  **CVE :** `CVE-2026-48710`, `CVE-2026-42271`
+`cve` `vulnerability`
+Cette semaine, des demandes pour /mcp-rest/test/tools/list ont été enregistrées dans les pièges à honeypot. Elles pourraient exploiter CVE-2026-42271 et CVE-2026-48710.
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Dagier](https://frenchbreaches.com/alertes/dagier-mwigonrfd5rkmv46mau)
-**Source :** FrenchBreaches  **Publié :** 16/11/2026 00:26 UTC
+### [Fédération Française de Cardiologie (FFC)](https://frenchbreaches.com/alertes/f-d-ration-fran-aise-de-cardiologie-ffc-mwjvasinud91d6z1mn)
+**Source :** FrenchBreaches  **Publié :** 16/11/2026 23:56 UTC
 `malware`
-Dagier, grossiste en confiseries, a fait l'objet d'une fuite de données revendiquée sur un forum de pirates informatiques.
+La Fédération française de cardiologie a été victime d'une divulgation de données personnelles concernant 48 389 comptes.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Connectwell Industries Pvt Ltd (connectwell.com)](https://www.ransomware.live/id/Q29ubmVjdHdlbGwgSW5kdXN0cmllcyBQdnQgTHRkIChjb25uZWN0d2VsbC5jb20pQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 15/11/2026 21:19 UTC
+### [🏴‍☠️ Qilin has just published a new victim : Strategic Properties](https://www.ransomware.live/id/U3RyYXRlZ2ljIFByb3BlcnRpZXNAcWlsaW4)
+**Source :** Ransomware.live News  **Publié :** 16/11/2026 21:12 UTC
 `malware`
-Pixelleaks a publié des informations volées concernant Connectwell Industries, fabricant de blocs électriques.
+N/A
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Godrej & Boyce Mfg Co Ltd (Vikhroli campus systems, godrej.com)](https://www.ransomware.live/id/R29kcmVqICYgQm95Y2UgTWZnIENvIEx0ZCAoVmlraHJvbGkgY2FtcHVzIHN5c3RlbXMsIGdvZHJlai5jb20pQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 15/11/2026 21:19 UTC
+### [🏴‍☠️ Chaos has just published a new victim : amarok.com](https://www.ransomware.live/id/YW1hcm9rLmNvbUBjaGFvcw)
+**Source :** Ransomware.live News  **Publié :** 16/11/2026 20:59 UTC
 `malware`
-Pixelleaks a publié des informations volées concernant Godrej & Boyce Mfg Co Ltd, une entreprise de diverses industries.
+La société Amarok a été ciblée par des pirates utilisant des agents IA pour construire et exécuter des exploits.
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : Sarimelati Kencana Tbk PT](https://www.ransomware.live/id/U2FyaW1lbGF0aSBLZW5jYW5hIFRiayBQVEBpbmNyYW5zb20)
-**Source :** Ransomware.live News  **Publié :** 15/11/2026 18:44 UTC
+### [La Fabrique à Filets](https://frenchbreaches.com/alertes/la-fabrique-filets-mwjlubi1szismsqpjga)
+**Source :** FrenchBreaches  **Publié :** 16/11/2026 19:34 UTC
 `malware`
-Incransom a ciblé PT Sarimelati Kencana Tbk, filiale de PT Sriboga Raturaya et franchise Pizza Hut en Indonésie.
+La Fabrique à Filets, un site de vente en ligne, a été piraté, entraînant la divulgation de données personnelles de ses clients.
 
 ---
 
-### [YARA-X 1.23.0 Release, (Sun, Nov 15th)](https://isc.sans.edu/diary/rss/33496)
-**Source :** SANS ISC  **Publié :** 15/11/2026 18:17 UTC
-`malware`
-Pas de résumé disponible pour cet article.
+### [Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches](https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html)
+**Source :** The Hacker News  **Publié :** 16/11/2026 19:30 UTC
+`apt` `cve` `malware`
+Google a révélé que des cyberattaques utilisent des agents IA pour exécuter des intrusions multi-stages plus rapidement.
 
 ---
 
-### [🏴‍☠️ Lockbit5 has just published a new victim : pah.com.my](https://www.ransomware.live/id/cGFoLmNvbS5teUBsb2NrYml0NQ)
-**Source :** Ransomware.live News  **Publié :** 15/11/2026 15:03 UTC
-`ransomware`
-Lockbit5 a publié des informations volées concernant Penang Adventist Hospital (PAH) en Malaisie.
+### [Ipsos](https://frenchbreaches.com/alertes/ipsos-mwjlkku7b6kqw1wm7kr)
+**Source :** FrenchBreaches  **Publié :** 16/11/2026 19:26 UTC
+`breach` `malware`
+Ipsos, un groupe français de sondage d'opinion, a confirmé une intrusion informatique sur l'un de ses systèmes.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [🏴‍☠️ Byod has just published a new victim : Michigan State University - New DL](https://www.ransomware.live/id/TWljaGlnYW4gU3RhdGUgVW5pdmVyc2l0eSAtIE5ldyBETEBCWU9E)
-**Source :** Ransomware.live News  **Publié :** 16/11/2026 00:22 UTC  **Score :** 20
+### 1. [California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness](https://therecord.media/california-sues-openai-hugging-face)
+**Source :** The Record  **Publié :** 16/11/2026 21:40 UTC  **Score :** 35
 `breach`
-Byod a divulgué des informations personnelles de 1,03 million d'étudiants actuels et ex étudiants de l'Université du Michigan.
+Californie accuse OpenAI d'avoir délibérément empêché les enquêtes sur des incidents, alléguant tromperie et négligence.
 
-### 2. [🏴‍☠️ Byod has just published a new victim : Texas HHSC - Final Warning & Sample](https://www.ransomware.live/id/VGV4YXMgSEhTQyAtIEZpbmFsIFdhcm5pbmcgJiBTYW1wbGVAQllPRA)
-**Source :** Ransomware.live News  **Publié :** 16/11/2026 00:21 UTC  **Score :** 20
-`breach` `vulnerability`
-Byod a publié des informations volées concernant le Programme de soins de santé en Texas, affectant 2 millions de citoyens.
+### 2. [Fandango says hackers stole payment card details from checkout pages](https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/)
+**Source :** Bleeping Computer  **Publié :** 16/11/2026 10:44 UTC  **Score :** 25
+`breach`
+Fandango a informé ses clients d'une fuite de données comprenant les détails des cartes de paiement entrés sur ses pages de checkout.
 
-### 3. [Stripe va masquer ses clés API secrètes le 20 novembre](https://www.zataz.com/stripe-va-masquer-ses-cles-api-secretes-le-20-novembre/)
-**Source :** ZATAZ  **Publié :** 15/11/2026 19:44 UTC  **Score :** 5
-Stripe masquera ses anciennes clés API secrètes à partir du 20 novembre 2026, selon ZATAZ.
+### 3. [7 Tips For Complying with CJIS Password and MFA Requirements](https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/)
+**Source :** Bleeping Computer  **Publié :** 16/11/2026 10:01 UTC  **Score :** 25
+`breach` `cve`
+Specops Software recommande sept mesures pour respecter les exigences de la CJIS concernant les mots de passe et l'authentification multifacteur.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-16.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-17.md`*
