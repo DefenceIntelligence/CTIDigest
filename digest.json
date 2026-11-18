@@ -1,106 +1,184 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T03:00:55.152927+00:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T03:01:41.132369+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "ab2a156a34425f47",
-        "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
-        "url": "https://isc.sans.edu/diary/rss/33522",
-        "source": "SANS ISC",
+        "guid": "6f2c8e204f13afe0",
+        "title": "Dorsett Controls InfoScan",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+        "source": "CISA Advisories",
         "category": "Vulnérabilités",
         "cve": [
-          "CVE-2026-48710",
-          "CVE-2026-42271"
+          "CVE-2026-117659",
+          "CVE-2026-120255",
+          "CVE-2026-120157",
+          "CVE-2026-120298",
+          "CVE-2026-120260",
+          "CVE-2026-120271"
         ],
         "tags": [
           "cve",
+          "malware",
           "vulnerability"
         ],
-        "summary": "Cette semaine, des demandes pour /mcp-rest/test/tools/list ont été enregistrées dans les pièges à honeypot. Elles pourraient exploiter CVE-2026-42271 et CVE-2026-48710.",
-        "published_at": "2026-11-16T13:11:04",
-        "score": 15
+        "summary": "Les vulnérabilités affectant Dorsett Controls InfoScan pourraient permettre à un attaquant de récupérer des informations sensibles, d'accéder à des données d'applications sans autorisation ou d'intercepter et manipuler les communications réseau.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "aadbf39dfe8208c7",
+        "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-85114",
+          "CVE-2026-85115"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "La .NET Client Library pour l'API Webserver SIMATIC S7 contient des vulnérabilités potentiellement dangereuses, incluant le dépôt de fichiers arbitraires en dehors du répertoire prévu.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "8f95cb506d255d50",
+        "title": "Critical Java Vulnerability Requires Immediate Patching",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-114938"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "La vulnérabilité critique CVE-2026-114938 affecte le décodeur Base64 de la JVM x86-64 HotSpot, exigeant une mise à jour immédiate du JDK pour éviter un plantage et potentiellement des attaques.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "f267aab5ebe3084d",
+        "title": "Siemens ROS#",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109097"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "ROS# version inférieure à 2.3.1 contient une vulnérabilité d'injection de code qui pourrait permettre à un attaquant d'exécuter du code arbitraire.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "f9ec4f1a63adee6d",
+        "title": "Siemens Industrial Automation Software Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "7c36117046bb735f",
+        "title": "Siemens Industrial Software Products",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-111497"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "002cb25a48507ebe",
+        "title": "Siemens SIMATIC WinCC",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-59082"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "SIMATIC WinCC Graphics Designer avant V8.2 contient une vulnérabilité d'exécution de contenu actif qui pourrait permettre à un attaquant d'exécuter du code arbitraire sur le dispositif.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "60f68000956027dd",
+        "title": "Siemens meta-iot2050",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-109830"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "meta-iot2050 contient une vulnérabilité d'injection de commande qui pourrait permettre à un attaquant de faire exécuter des commandes arbitraires en tant que root.",
+        "published_at": "2026-11-17T12:00:00",
+        "score": 27
       }
     ],
     "campaigns": [
       {
-        "guid": "ae790e4a4d252175",
-        "title": "Fédération Française de Cardiologie (FFC)",
-        "url": "https://frenchbreaches.com/alertes/f-d-ration-fran-aise-de-cardiologie-ffc-mwjvasinud91d6z1mn",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La Fédération française de cardiologie a été victime d'une divulgation de données personnelles concernant 48 389 comptes.",
-        "published_at": "2026-11-16T23:56:00",
-        "score": 17
-      },
-      {
-        "guid": "23eaf8c64add4b43",
-        "title": "🏴‍☠️ Qilin has just published a new victim : Strategic Properties",
-        "url": "https://www.ransomware.live/id/U3RyYXRlZ2ljIFByb3BlcnRpZXNAcWlsaW4",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "N/A",
-        "published_at": "2026-11-16T21:12:00",
-        "score": 12
-      },
-      {
-        "guid": "82f3d2afe9e8f9f2",
-        "title": "🏴‍☠️ Chaos has just published a new victim : amarok.com",
-        "url": "https://www.ransomware.live/id/YW1hcm9rLmNvbUBjaGFvcw",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La société Amarok a été ciblée par des pirates utilisant des agents IA pour construire et exécuter des exploits.",
-        "published_at": "2026-11-16T20:59:45",
-        "score": 12
-      },
-      {
-        "guid": "88f7d191b4a750e2",
-        "title": "La Fabrique à Filets",
-        "url": "https://frenchbreaches.com/alertes/la-fabrique-filets-mwjlubi1szismsqpjga",
-        "source": "FrenchBreaches",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "La Fabrique à Filets, un site de vente en ligne, a été piraté, entraînant la divulgation de données personnelles de ses clients.",
-        "published_at": "2026-11-16T19:34:00",
-        "score": 17
-      },
-      {
-        "guid": "fddd0183be2ba684",
-        "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-        "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+        "guid": "af3766565fc2aed0",
+        "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+        "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
-          "apt",
           "cve",
           "malware"
         ],
-        "summary": "Google a révélé que des cyberattaques utilisent des agents IA pour exécuter des intrusions multi-stages plus rapidement.",
-        "published_at": "2026-11-16T19:30:00",
+        "summary": "Des chercheurs ont démontré deux exploits RCE qui contournent les nouvelles défenses Android de Telegram, utilisant un widget malveillant pour exécuter du code sur le téléphone des utilisateurs.",
+        "published_at": "2026-11-18T01:04:20",
         "score": 17
       },
       {
-        "guid": "31384dd539fd9643",
-        "title": "Ipsos",
-        "url": "https://frenchbreaches.com/alertes/ipsos-mwjlkku7b6kqw1wm7kr",
+        "guid": "9eac04953804735d",
+        "title": "Decoset",
+        "url": "https://frenchbreaches.com/alertes/decoset-mwl915nnrw9lj3bghod",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
@@ -108,46 +186,104 @@
           "breach",
           "malware"
         ],
-        "summary": "Ipsos, un groupe français de sondage d'opinion, a confirmé une intrusion informatique sur l'un de ses systèmes.",
-        "published_at": "2026-11-16T19:26:00",
+        "summary": "Une cyberattaque chez Decoset, prestataire chargé du traitement des déchets dans l'agglomération toulousaine, a provoqué un incident de sécurité aux déchèteries de Toulouse.",
+        "published_at": "2026-11-17T23:11:00",
         "score": 37
+      },
+      {
+        "guid": "1995114b631a072e",
+        "title": "Izilo (via Maileva)",
+        "url": "https://frenchbreaches.com/alertes/izilo-via-maileva-mwl8222v57kxxkk63x7",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Izilo a confirmé que des données personnelles de ses voyageurs ont été compromises suite à une cyberattaque sur Maileva.",
+        "published_at": "2026-11-17T22:44:00",
+        "score": 37
+      },
+      {
+        "guid": "01fe67946144b4ce",
+        "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+        "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La campagne Trigram simulateur cible les secteurs AI et blockchain, trompant les développeurs avec des logiciels espions.",
+        "published_at": "2026-11-17T20:47:28",
+        "score": 17
+      },
+      {
+        "guid": "6deb5c70858de6f8",
+        "title": "🏴‍☠️ Endzone has just published a new victim : West-Com Nurse Call Systems, Inc",
+        "url": "https://www.ransomware.live/id/V2VzdC1Db20gTnVyc2UgQ2FsbCBTeXN0ZW1zLCBJbmNARW5kWm9uZQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "West-Com Nurse Call Systems a été victime d'une cyberattaque, de l'exfiltration de données et du chiffrement de parties de la réseau.",
+        "published_at": "2026-11-17T19:21:35",
+        "score": 32
+      },
+      {
+        "guid": "a94cd027e60213ff",
+        "title": "Kazakh ransomware hacking suspect extradited from Italy",
+        "url": "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Roman Khlynovskiy, soupçonné d'avoir participé à des cyberattaques, a été extradé aux États-Unis pour le \"8 Digits Team\".",
+        "published_at": "2026-11-17T19:09:00",
+        "score": 15
       }
     ],
     "top_reads": [
       {
-        "guid": "5a0a7a59162a59cb",
-        "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
-        "url": "https://therecord.media/california-sues-openai-hugging-face",
+        "guid": "b4ae70a7c9bec2f9",
+        "title": "Uber says nearly 150,000 impacted by third-party breach",
+        "url": "https://therecord.media/uber-says-150000-impacted-third-party-breach",
         "source": "The Record",
         "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Californie accuse OpenAI d'avoir délibérément empêché les enquêtes sur des incidents, alléguant tromperie et négligence.",
-        "published_at": "2026-11-16T21:40:00",
+        "summary": "Uber informe que 150 000 utilisateurs ont été affectés par une fuite de données d'un prestataire tiers.",
+        "published_at": "2026-11-18T01:20:00",
         "score": 35,
         "rank": 1
       },
       {
-        "guid": "0fa5bdb59a7febf8",
-        "title": "Fandango says hackers stole payment card details from checkout pages",
-        "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-        "source": "Bleeping Computer",
-        "category": "Général",
+        "guid": "2ad0581795ab0713",
+        "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
+        "url": "https://therecord.media/optimizely-malicious-code-customer-sites",
+        "source": "The Record",
+        "category": "Éditorial",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Fandango a informé ses clients d'une fuite de données comprenant les détails des cartes de paiement entrés sur ses pages de checkout.",
-        "published_at": "2026-11-16T10:44:21",
-        "score": 25,
+        "summary": "Optimizely a confirmé que des codes malveillants ont été injectés sur 178 sites Web utilisant sa plateforme de gestion de site.",
+        "published_at": "2026-11-17T21:20:00",
+        "score": 35,
         "rank": 2
       },
       {
-        "guid": "e323311a56d0c11c",
-        "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-        "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+        "guid": "fca3d9f641fea3f0",
+        "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+        "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
@@ -155,19 +291,19 @@
           "breach",
           "cve"
         ],
-        "summary": "Specops Software recommande sept mesures pour respecter les exigences de la CJIS concernant les mots de passe et l'authentification multifacteur.",
-        "published_at": "2026-11-16T10:01:11",
+        "summary": "Des secrets d'accès exposés dans les images Docker Hub sont volés en seulement huit secondes après la publication.",
+        "published_at": "2026-11-17T16:27:17",
         "score": 25,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 132,
-    "items_selected": 10,
+    "items_analyzed": 94,
+    "items_selected": 17,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 2,
+    "cves_total": 14,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
