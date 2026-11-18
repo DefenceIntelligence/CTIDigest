@@ -1,80 +1,129 @@
-# 🛡️ ARGOS CTI Digest — 17 novembre 2026
+# 🛡️ ARGOS CTI Digest — 18 novembre 2026
 
-> Généré le 17/11/2026 à 03:00 UTC  ·  132 items analysés  ·  10 sélectionnés  ·  23 sources actives
+> Généré le 18/11/2026 à 03:01 UTC  ·  94 items analysés  ·  17 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)](https://isc.sans.edu/diary/rss/33522)
-**Source :** SANS ISC  **Publié :** 16/11/2026 13:11 UTC  **CVE :** `CVE-2026-48710`, `CVE-2026-42271`
-`cve` `vulnerability`
-Cette semaine, des demandes pour /mcp-rest/test/tools/list ont été enregistrées dans les pièges à honeypot. Elles pourraient exploiter CVE-2026-42271 et CVE-2026-48710.
+### [Dorsett Controls InfoScan](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-117659`, `CVE-2026-120255`, `CVE-2026-120157`, `CVE-2026-120298`, `CVE-2026-120260`
+`cve` `malware` `vulnerability`
+Les vulnérabilités affectant Dorsett Controls InfoScan pourraient permettre à un attaquant de récupérer des informations sensibles, d'accéder à des données d'applications sans autorisation ou d'intercepter et manipuler les communications réseau.
+
+---
+
+### [Siemens .NET Client Library for SIMATIC S7 Webserver API](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-85114`, `CVE-2026-85115`
+`cve` `malware` `vulnerability`
+La .NET Client Library pour l'API Webserver SIMATIC S7 contient des vulnérabilités potentiellement dangereuses, incluant le dépôt de fichiers arbitraires en dehors du répertoire prévu.
+
+---
+
+### [Critical Java Vulnerability Requires Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-114938`
+`cve` `malware` `patch` `vulnerability`
+La vulnérabilité critique CVE-2026-114938 affecte le décodeur Base64 de la JVM x86-64 HotSpot, exigeant une mise à jour immédiate du JDK pour éviter un plantage et potentiellement des attaques.
+
+---
+
+### [Siemens ROS#](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-109097`
+`cve` `malware` `vulnerability`
+ROS# version inférieure à 2.3.1 contient une vulnérabilité d'injection de code qui pourrait permettre à un attaquant d'exécuter du code arbitraire.
+
+---
+
+### [Siemens Industrial Automation Software Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
+`cve` `malware` `patch` `vulnerability`
+La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.
+
+---
+
+### [Siemens Industrial Software Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
+`cve` `malware` `patch` `vulnerability`
+La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.
+
+---
+
+### [Siemens SIMATIC WinCC](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-59082`
+`cve` `malware` `vulnerability`
+SIMATIC WinCC Graphics Designer avant V8.2 contient une vulnérabilité d'exécution de contenu actif qui pourrait permettre à un attaquant d'exécuter du code arbitraire sur le dispositif.
+
+---
+
+### [Siemens meta-iot2050](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11)
+**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-109830`
+`cve` `malware` `vulnerability`
+meta-iot2050 contient une vulnérabilité d'injection de commande qui pourrait permettre à un attaquant de faire exécuter des commandes arbitraires en tant que root.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Fédération Française de Cardiologie (FFC)](https://frenchbreaches.com/alertes/f-d-ration-fran-aise-de-cardiologie-ffc-mwjvasinud91d6z1mn)
-**Source :** FrenchBreaches  **Publié :** 16/11/2026 23:56 UTC
-`malware`
-La Fédération française de cardiologie a été victime d'une divulgation de données personnelles concernant 48 389 comptes.
+### [Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses](https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 01:04 UTC
+`cve` `malware`
+Des chercheurs ont démontré deux exploits RCE qui contournent les nouvelles défenses Android de Telegram, utilisant un widget malveillant pour exécuter du code sur le téléphone des utilisateurs.
 
 ---
 
-### [🏴‍☠️ Qilin has just published a new victim : Strategic Properties](https://www.ransomware.live/id/U3RyYXRlZ2ljIFByb3BlcnRpZXNAcWlsaW4)
-**Source :** Ransomware.live News  **Publié :** 16/11/2026 21:12 UTC
-`malware`
-N/A
-
----
-
-### [🏴‍☠️ Chaos has just published a new victim : amarok.com](https://www.ransomware.live/id/YW1hcm9rLmNvbUBjaGFvcw)
-**Source :** Ransomware.live News  **Publié :** 16/11/2026 20:59 UTC
-`malware`
-La société Amarok a été ciblée par des pirates utilisant des agents IA pour construire et exécuter des exploits.
-
----
-
-### [La Fabrique à Filets](https://frenchbreaches.com/alertes/la-fabrique-filets-mwjlubi1szismsqpjga)
-**Source :** FrenchBreaches  **Publié :** 16/11/2026 19:34 UTC
-`malware`
-La Fabrique à Filets, un site de vente en ligne, a été piraté, entraînant la divulgation de données personnelles de ses clients.
-
----
-
-### [Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches](https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html)
-**Source :** The Hacker News  **Publié :** 16/11/2026 19:30 UTC
-`apt` `cve` `malware`
-Google a révélé que des cyberattaques utilisent des agents IA pour exécuter des intrusions multi-stages plus rapidement.
-
----
-
-### [Ipsos](https://frenchbreaches.com/alertes/ipsos-mwjlkku7b6kqw1wm7kr)
-**Source :** FrenchBreaches  **Publié :** 16/11/2026 19:26 UTC
+### [Decoset](https://frenchbreaches.com/alertes/decoset-mwl915nnrw9lj3bghod)
+**Source :** FrenchBreaches  **Publié :** 17/11/2026 23:11 UTC
 `breach` `malware`
-Ipsos, un groupe français de sondage d'opinion, a confirmé une intrusion informatique sur l'un de ses systèmes.
+Une cyberattaque chez Decoset, prestataire chargé du traitement des déchets dans l'agglomération toulousaine, a provoqué un incident de sécurité aux déchèteries de Toulouse.
+
+---
+
+### [Izilo (via Maileva)](https://frenchbreaches.com/alertes/izilo-via-maileva-mwl8222v57kxxkk63x7)
+**Source :** FrenchBreaches  **Publié :** 17/11/2026 22:44 UTC
+`breach` `malware`
+Izilo a confirmé que des données personnelles de ses voyageurs ont été compromises suite à une cyberattaque sur Maileva.
+
+---
+
+### [Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers](https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html)
+**Source :** The Hacker News  **Publié :** 17/11/2026 20:47 UTC
+`malware`
+La campagne Trigram simulateur cible les secteurs AI et blockchain, trompant les développeurs avec des logiciels espions.
+
+---
+
+### [🏴‍☠️ Endzone has just published a new victim : West-Com Nurse Call Systems, Inc](https://www.ransomware.live/id/V2VzdC1Db20gTnVyc2UgQ2FsbCBTeXN0ZW1zLCBJbmNARW5kWm9uZQ)
+**Source :** Ransomware.live News  **Publié :** 17/11/2026 19:21 UTC
+`breach` `malware`
+West-Com Nurse Call Systems a été victime d'une cyberattaque, de l'exfiltration de données et du chiffrement de parties de la réseau.
+
+---
+
+### [Kazakh ransomware hacking suspect extradited from Italy](https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx)
+**Source :** The Record  **Publié :** 17/11/2026 19:09 UTC
+`ransomware`
+Roman Khlynovskiy, soupçonné d'avoir participé à des cyberattaques, a été extradé aux États-Unis pour le "8 Digits Team".
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness](https://therecord.media/california-sues-openai-hugging-face)
-**Source :** The Record  **Publié :** 16/11/2026 21:40 UTC  **Score :** 35
+### 1. [Uber says nearly 150,000 impacted by third-party breach](https://therecord.media/uber-says-150000-impacted-third-party-breach)
+**Source :** The Record  **Publié :** 18/11/2026 01:20 UTC  **Score :** 35
 `breach`
-Californie accuse OpenAI d'avoir délibérément empêché les enquêtes sur des incidents, alléguant tromperie et négligence.
+Uber informe que 150 000 utilisateurs ont été affectés par une fuite de données d'un prestataire tiers.
 
-### 2. [Fandango says hackers stole payment card details from checkout pages](https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/)
-**Source :** Bleeping Computer  **Publié :** 16/11/2026 10:44 UTC  **Score :** 25
+### 2. [Website management platform Optimizely confirms hackers put malicious code into customer sites](https://therecord.media/optimizely-malicious-code-customer-sites)
+**Source :** The Record  **Publié :** 17/11/2026 21:20 UTC  **Score :** 35
 `breach`
-Fandango a informé ses clients d'une fuite de données comprenant les détails des cartes de paiement entrés sur ses pages de checkout.
+Optimizely a confirmé que des codes malveillants ont été injectés sur 178 sites Web utilisant sa plateforme de gestion de site.
 
-### 3. [7 Tips For Complying with CJIS Password and MFA Requirements](https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/)
-**Source :** Bleeping Computer  **Publié :** 16/11/2026 10:01 UTC  **Score :** 25
+### 3. [Cloud keys leaked in Docker Hub images are stolen within seconds](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/)
+**Source :** Bleeping Computer  **Publié :** 17/11/2026 16:27 UTC  **Score :** 25
 `breach` `cve`
-Specops Software recommande sept mesures pour respecter les exigences de la CJIS concernant les mots de passe et l'authentification multifacteur.
+Des secrets d'accès exposés dans les images Docker Hub sont volés en seulement huit secondes après la publication.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-17.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-18.md`*
