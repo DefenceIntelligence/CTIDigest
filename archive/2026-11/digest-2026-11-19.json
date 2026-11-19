@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T03:01:27.476824+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "0e6b660aba21312e",
+        "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+        "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123007"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Un défaut dans le support HTTP/2 de NGINX permet aux attaquants non authentifiés d'exécuter du code sur les serveurs avec HTTP/2 activé.",
+        "published_at": "2026-11-19T00:01:17",
+        "score": 20
+      },
+      {
+        "guid": "c2030d880baa538c",
+        "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+        "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-129448"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille critique dans Apache Roller, un blog open source, est exploité par des attaquants non authentifiés en utilisant la désérialisation de données XML-RPC.",
+        "published_at": "2026-11-18T22:40:45",
+        "score": 20
+      },
+      {
+        "guid": "1a7efd698915c40a",
+        "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+        "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-115731"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des hackers exploitent une faille critique dans Perforce Puppet, une plateforme de gestion d'infrastructure, qui permet un exécution de code à distance non authentifiée.",
+        "published_at": "2026-11-18T13:54:31",
+        "score": 32
+      },
+      {
+        "guid": "5addf2959fe40480",
+        "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+        "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-114938"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La CISA avertit d'un défaut critique dans Java susceptible d'autoriser l'exécution de code à distance non authentifié sur divers logiciels.",
+        "published_at": "2026-11-18T13:54:23",
+        "score": 20
+      },
+      {
+        "guid": "cd95320f96778163",
+        "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+        "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-114938"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La faille Java4Shell permet aux attaquants non authentifiés d'exécuter du code à distance sur des applications comme Jira et Jenkins.",
+        "published_at": "2026-11-18T09:57:41",
+        "score": 20
+      },
+      {
+        "guid": "4ad59e80aa12bf80",
+        "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+        "url": "https://isc.sans.edu/diary/rss/33532",
+        "source": "SANS ISC",
+        "category": "Vulnérabilités",
+        "cve": [],
+        "tags": [
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités critiques ont été découvertes récemment, incluant Java4Shell et NGINX2Shell, nécessitant des mises à jour immédiates.",
+        "published_at": "2026-11-18T19:54:50",
+        "score": 0
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "7875263da0a2d8ec",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Tarter Krinsky & Drogin LLP",
+        "url": "https://www.ransomware.live/id/VGFydGVyIEtyaW5za3kgJiBEcm9naW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a ciblé la firme juridique Tarter Krinsky &amp; Drogin LLP dans une nouvelle rançonnerie.",
+        "published_at": "2026-11-18T21:27:33",
+        "score": 12
+      },
+      {
+        "guid": "d12d04c4f50bb496",
+        "title": "Trump administration officials size-up a bad stretch for tech",
+        "url": "https://therecord.media/tech-disruptions-house-homeland-committee-testimony",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le secrétaire à la Sécurité intérieure Markwayne Mullin a déclaré que l'administration cherchera des informations sur les mises à jour importantes de l'industrie avant leur mise en œuvre.",
+        "published_at": "2026-11-18T20:00:00",
+        "score": 27
+      },
+      {
+        "guid": "87f995147c728a35",
+        "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+        "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "La groupe APT chinois responsable du malware EggStreme révise sa stratégie pour échapper aux outils de sécurité gouvernementaux.",
+        "published_at": "2026-11-18T19:41:28",
+        "score": 17
+      },
+      {
+        "guid": "ed7505cd960fc137",
+        "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+        "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Des membres d'une organisation de rançonnerie informatique internationale ont été arrêtés en Ukraine, ayant extorqué plus de 40 millions de dollars à 28 entreprises.",
+        "published_at": "2026-11-18T18:08:33",
+        "score": 5
+      },
+      {
+        "guid": "4f4a9808ddf4142c",
+        "title": "Chargemap",
+        "url": "https://frenchbreaches.com/alertes/chargemap-mwmdclb8whoxcxtuijb",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Chargemap a été victime d'une cyberattaque, entraînant une leakage des données personnelles de ses utilisateurs.",
+        "published_at": "2026-11-18T17:59:00",
+        "score": 17
+      },
+      {
+        "guid": "0e9f8fefb4bf1716",
+        "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+        "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Des chercheurs ont découvert que le TPM lockout pour Windows Hello et BitLocker PINs peut être réinitialisé sur certains PC, rendant les codes courts vulnérables.",
+        "published_at": "2026-11-18T17:58:30",
+        "score": 5
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "4f507a7d4dfb760f",
+        "title": "Lawmakers call on White House to develop defensive AI cyber systems",
+        "url": "https://therecord.media/ai-cyber-white-house",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des sénateurs américains ont demandé au White House de développer des systèmes cybersécuritaires pour combattre les menaces AI.",
+        "published_at": "2026-11-18T19:00:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "399531037ff11649",
+        "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+        "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une version malicienne du package Python Agent Framework de Microsoft a été publiée sur PyPI, visant à voler des informations sensibles.",
+        "published_at": "2026-11-18T11:58:42",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "d6cc414f5cbfde8f",
+        "title": "Osaka exposée à une fuite massive",
+        "url": "https://www.zataz.com/osaka-exposee-a-une-fuite-massive/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des fuites massives ont affecté Osaka et de nombreuses organisations japonaises, semblables à l'affaire Maileva.",
+        "published_at": "2026-11-18T10:37:09",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 113,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 5,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
