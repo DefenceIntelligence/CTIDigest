@@ -1,129 +1,115 @@
-# 🛡️ ARGOS CTI Digest — 18 novembre 2026
+# 🛡️ ARGOS CTI Digest — 19 novembre 2026
 
-> Généré le 18/11/2026 à 03:01 UTC  ·  94 items analysés  ·  17 sélectionnés  ·  23 sources actives
+> Généré le 19/11/2026 à 03:01 UTC  ·  113 items analysés  ·  15 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Dorsett Controls InfoScan](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-117659`, `CVE-2026-120255`, `CVE-2026-120157`, `CVE-2026-120298`, `CVE-2026-120260`
+### [10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers](https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html)
+**Source :** The Hacker News  **Publié :** 19/11/2026 00:01 UTC  **CVE :** `CVE-2026-123007`
+`cve` `vulnerability`
+Un défaut dans le support HTTP/2 de NGINX permet aux attaquants non authentifiés d'exécuter du code sur les serveurs avec HTTP/2 activé.
+
+---
+
+### [Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required](https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 22:40 UTC  **CVE :** `CVE-2026-129448`
+`cve` `vulnerability`
+Une faille critique dans Apache Roller, un blog open source, est exploité par des attaquants non authentifiés en utilisant la désérialisation de données XML-RPC.
+
+---
+
+### [Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers](https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 13:54 UTC  **CVE :** `CVE-2026-115731`
 `cve` `malware` `vulnerability`
-Les vulnérabilités affectant Dorsett Controls InfoScan pourraient permettre à un attaquant de récupérer des informations sensibles, d'accéder à des données d'applications sans autorisation ou d'intercepter et manipuler les communications réseau.
+Des hackers exploitent une faille critique dans Perforce Puppet, une plateforme de gestion d'infrastructure, qui permet un exécution de code à distance non authentifiée.
 
 ---
 
-### [Siemens .NET Client Library for SIMATIC S7 Webserver API](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-85114`, `CVE-2026-85115`
-`cve` `malware` `vulnerability`
-La .NET Client Library pour l'API Webserver SIMATIC S7 contient des vulnérabilités potentiellement dangereuses, incluant le dépôt de fichiers arbitraires en dehors du répertoire prévu.
+### [CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution](https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 13:54 UTC  **CVE :** `CVE-2026-114938`
+`cve` `vulnerability`
+La CISA avertit d'un défaut critique dans Java susceptible d'autoriser l'exécution de code à distance non authentifié sur divers logiciels.
 
 ---
 
-### [Critical Java Vulnerability Requires Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-114938`
-`cve` `malware` `patch` `vulnerability`
-La vulnérabilité critique CVE-2026-114938 affecte le décodeur Base64 de la JVM x86-64 HotSpot, exigeant une mise à jour immédiate du JDK pour éviter un plantage et potentiellement des attaques.
+### [Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers](https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 09:57 UTC  **CVE :** `CVE-2026-114938`
+`cve` `vulnerability`
+La faille Java4Shell permet aux attaquants non authentifiés d'exécuter du code à distance sur des applications comme Jira et Jenkins.
 
 ---
 
-### [Siemens ROS#](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-109097`
-`cve` `malware` `vulnerability`
-ROS# version inférieure à 2.3.1 contient une vulnérabilité d'injection de code qui pourrait permettre à un attaquant d'exécuter du code arbitraire.
-
----
-
-### [Siemens Industrial Automation Software Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
-`cve` `malware` `patch` `vulnerability`
-La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.
-
----
-
-### [Siemens Industrial Software Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-111497`
-`cve` `malware` `patch` `vulnerability`
-La vulnérabilité critique CVE-2026-111497 affecte la décodification Brotli de Node.js, permettant un attaque de type out-of-bounds write et des conséquences potentielles sur la mémoire.
-
----
-
-### [Siemens SIMATIC WinCC](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-59082`
-`cve` `malware` `vulnerability`
-SIMATIC WinCC Graphics Designer avant V8.2 contient une vulnérabilité d'exécution de contenu actif qui pourrait permettre à un attaquant d'exécuter du code arbitraire sur le dispositif.
-
----
-
-### [Siemens meta-iot2050](https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11)
-**Source :** CISA Advisories  **Publié :** 17/11/2026 12:00 UTC  **CVE :** `CVE-2026-109830`
-`cve` `malware` `vulnerability`
-meta-iot2050 contient une vulnérabilité d'injection de commande qui pourrait permettre à un attaquant de faire exécuter des commandes arbitraires en tant que root.
+### [Java4Shell, NGINX2Shell and more: Why we are not at "Yellow", (Wed, Nov 18th)](https://isc.sans.edu/diary/rss/33532)
+**Source :** SANS ISC  **Publié :** 18/11/2026 19:54 UTC
+`vulnerability`
+Des vulnérabilités critiques ont été découvertes récemment, incluant Java4Shell et NGINX2Shell, nécessitant des mises à jour immédiates.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses](https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 01:04 UTC
-`cve` `malware`
-Des chercheurs ont démontré deux exploits RCE qui contournent les nouvelles défenses Android de Telegram, utilisant un widget malveillant pour exécuter du code sur le téléphone des utilisateurs.
-
----
-
-### [Decoset](https://frenchbreaches.com/alertes/decoset-mwl915nnrw9lj3bghod)
-**Source :** FrenchBreaches  **Publié :** 17/11/2026 23:11 UTC
-`breach` `malware`
-Une cyberattaque chez Decoset, prestataire chargé du traitement des déchets dans l'agglomération toulousaine, a provoqué un incident de sécurité aux déchèteries de Toulouse.
-
----
-
-### [Izilo (via Maileva)](https://frenchbreaches.com/alertes/izilo-via-maileva-mwl8222v57kxxkk63x7)
-**Source :** FrenchBreaches  **Publié :** 17/11/2026 22:44 UTC
-`breach` `malware`
-Izilo a confirmé que des données personnelles de ses voyageurs ont été compromises suite à une cyberattaque sur Maileva.
-
----
-
-### [Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers](https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html)
-**Source :** The Hacker News  **Publié :** 17/11/2026 20:47 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Tarter Krinsky & Drogin LLP](https://www.ransomware.live/id/VGFydGVyIEtyaW5za3kgJiBEcm9naW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw)
+**Source :** Ransomware.live News  **Publié :** 18/11/2026 21:27 UTC
 `malware`
-La campagne Trigram simulateur cible les secteurs AI et blockchain, trompant les développeurs avec des logiciels espions.
+Silentransomgroup a ciblé la firme juridique Tarter Krinsky &amp; Drogin LLP dans une nouvelle rançonnerie.
 
 ---
 
-### [🏴‍☠️ Endzone has just published a new victim : West-Com Nurse Call Systems, Inc](https://www.ransomware.live/id/V2VzdC1Db20gTnVyc2UgQ2FsbCBTeXN0ZW1zLCBJbmNARW5kWm9uZQ)
-**Source :** Ransomware.live News  **Publié :** 17/11/2026 19:21 UTC
-`breach` `malware`
-West-Com Nurse Call Systems a été victime d'une cyberattaque, de l'exfiltration de données et du chiffrement de parties de la réseau.
+### [Trump administration officials size-up a bad stretch for tech](https://therecord.media/tech-disruptions-house-homeland-committee-testimony)
+**Source :** The Record  **Publié :** 18/11/2026 20:00 UTC
+`malware`
+Le secrétaire à la Sécurité intérieure Markwayne Mullin a déclaré que l'administration cherchera des informations sur les mises à jour importantes de l'industrie avant leur mise en œuvre.
 
 ---
 
-### [Kazakh ransomware hacking suspect extradited from Italy](https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx)
-**Source :** The Record  **Publié :** 17/11/2026 19:09 UTC
+### [New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks](https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 19:41 UTC
+`apt` `malware` `ransomware`
+La groupe APT chinois responsable du malware EggStreme révise sa stratégie pour échapper aux outils de sécurité gouvernementaux.
+
+---
+
+### [Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms](https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/)
+**Source :** Bleeping Computer  **Publié :** 18/11/2026 18:08 UTC
 `ransomware`
-Roman Khlynovskiy, soupçonné d'avoir participé à des cyberattaques, a été extradé aux États-Unis pour le "8 Digits Team".
+Des membres d'une organisation de rançonnerie informatique internationale ont été arrêtés en Ukraine, ayant extorqué plus de 40 millions de dollars à 28 entreprises.
+
+---
+
+### [Chargemap](https://frenchbreaches.com/alertes/chargemap-mwmdclb8whoxcxtuijb)
+**Source :** FrenchBreaches  **Publié :** 18/11/2026 17:59 UTC
+`malware`
+Chargemap a été victime d'une cyberattaque, entraînant une leakage des données personnelles de ses utilisateurs.
+
+---
+
+### [New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html)
+**Source :** The Hacker News  **Publié :** 18/11/2026 17:58 UTC
+`apt`
+Des chercheurs ont découvert que le TPM lockout pour Windows Hello et BitLocker PINs peut être réinitialisé sur certains PC, rendant les codes courts vulnérables.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Uber says nearly 150,000 impacted by third-party breach](https://therecord.media/uber-says-150000-impacted-third-party-breach)
-**Source :** The Record  **Publié :** 18/11/2026 01:20 UTC  **Score :** 35
+### 1. [Lawmakers call on White House to develop defensive AI cyber systems](https://therecord.media/ai-cyber-white-house)
+**Source :** The Record  **Publié :** 18/11/2026 19:00 UTC  **Score :** 35
 `breach`
-Uber informe que 150 000 utilisateurs ont été affectés par une fuite de données d'un prestataire tiers.
+Des sénateurs américains ont demandé au White House de développer des systèmes cybersécuritaires pour combattre les menaces AI.
 
-### 2. [Website management platform Optimizely confirms hackers put malicious code into customer sites](https://therecord.media/optimizely-malicious-code-customer-sites)
-**Source :** The Record  **Publié :** 17/11/2026 21:20 UTC  **Score :** 35
+### 2. [Microsoft’s Agent Framework PyPI package compromised to steal credentials](https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/)
+**Source :** Bleeping Computer  **Publié :** 18/11/2026 11:58 UTC  **Score :** 25
 `breach`
-Optimizely a confirmé que des codes malveillants ont été injectés sur 178 sites Web utilisant sa plateforme de gestion de site.
+Une version malicienne du package Python Agent Framework de Microsoft a été publiée sur PyPI, visant à voler des informations sensibles.
 
-### 3. [Cloud keys leaked in Docker Hub images are stolen within seconds](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/)
-**Source :** Bleeping Computer  **Publié :** 17/11/2026 16:27 UTC  **Score :** 25
-`breach` `cve`
-Des secrets d'accès exposés dans les images Docker Hub sont volés en seulement huit secondes après la publication.
+### 3. [Osaka exposée à une fuite massive](https://www.zataz.com/osaka-exposee-a-une-fuite-massive/)
+**Source :** ZATAZ  **Publié :** 18/11/2026 10:37 UTC  **Score :** 25
+`breach`
+Des fuites massives ont affecté Osaka et de nombreuses organisations japonaises, semblables à l'affaire Maileva.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-18.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-19.md`*
