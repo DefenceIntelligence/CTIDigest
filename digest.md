@@ -1,115 +1,115 @@
-# 🛡️ ARGOS CTI Digest — 19 novembre 2026
+# 🛡️ ARGOS CTI Digest — 20 novembre 2026
 
-> Généré le 19/11/2026 à 03:01 UTC  ·  113 items analysés  ·  15 sélectionnés  ·  23 sources actives
+> Généré le 20/11/2026 à 03:01 UTC  ·  104 items analysés  ·  15 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers](https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html)
-**Source :** The Hacker News  **Publié :** 19/11/2026 00:01 UTC  **CVE :** `CVE-2026-123007`
-`cve` `vulnerability`
-Un défaut dans le support HTTP/2 de NGINX permet aux attaquants non authentifiés d'exécuter du code sur les serveurs avec HTTP/2 activé.
+### [Elecbrakes EB2, VM1, ELBC2000](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02)
+**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-124281`, `CVE-2026-96805`, `CVE-2026-125273`
+`apt` `cve` `vulnerability`
+Des vulnérabilités dans les produits Elecbrakes pourraient permettre à un attaquant de contrôler les freins d'un remorqueur, de modifier le firmware ou de désactiver l'éclairage des freins.
 
 ---
 
-### [Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required](https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 22:40 UTC  **CVE :** `CVE-2026-129448`
+### [Everything Is a Web Application, Including Your Firewall](https://thehackernews.com/2026/11/everything-is-web-application-including.html)
+**Source :** The Hacker News  **Publié :** 19/11/2026 17:22 UTC  **CVE :** `CVE-2026-109619`, `CVE-2026-109618`
 `cve` `vulnerability`
-Une faille critique dans Apache Roller, un blog open source, est exploité par des attaquants non authentifiés en utilisant la désérialisation de données XML-RPC.
+Des vulnérabilités dans PHP ont été exploitées pour accéder au pare-feu, permettant à un attaquant non authentifié d'exécuter du code sur le serveur.
 
 ---
 
-### [Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers](https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 13:54 UTC  **CVE :** `CVE-2026-115731`
+### [libumqtt](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03)
+**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-125132`
+`cve` `vulnerability`
+Des vulnérabilités dans libumqtt pourraient causer un refus de service, une corruption de la mémoire ou une divulgation d’informations.
+
+---
+
+### [Autonomy Logic OpenPLC Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01)
+**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-126088`
+`cve` `vulnerability`
+Des vulnérabilités dans Autonomy Logic OpenPLC Runtime pourraient créer plusieurs comptes administrateurs non authentifiés.
+
+---
+
+### [phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution](https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html)
+**Source :** The Hacker News  **Publié :** 19/11/2026 22:29 UTC  **CVE :** `CVE-2026-126714`
 `cve` `malware` `vulnerability`
-Des hackers exploitent une faille critique dans Perforce Puppet, une plateforme de gestion d'infrastructure, qui permet un exécution de code à distance non authentifiée.
+Une vulnérabilité nommée phpAfterShell pourrait permettre l'exécution de code par un attaquant sur le serveur via la session PHP.
 
 ---
 
-### [CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution](https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 13:54 UTC  **CVE :** `CVE-2026-114938`
-`cve` `vulnerability`
-La CISA avertit d'un défaut critique dans Java susceptible d'autoriser l'exécution de code à distance non authentifié sur divers logiciels.
-
----
-
-### [Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers](https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 09:57 UTC  **CVE :** `CVE-2026-114938`
-`cve` `vulnerability`
-La faille Java4Shell permet aux attaquants non authentifiés d'exécuter du code à distance sur des applications comme Jira et Jenkins.
-
----
-
-### [Java4Shell, NGINX2Shell and more: Why we are not at "Yellow", (Wed, Nov 18th)](https://isc.sans.edu/diary/rss/33532)
-**Source :** SANS ISC  **Publié :** 18/11/2026 19:54 UTC
-`vulnerability`
-Des vulnérabilités critiques ont été découvertes récemment, incluant Java4Shell et NGINX2Shell, nécessitant des mises à jour immédiates.
+### [PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution](https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html)
+**Source :** The Hacker News  **Publié :** 19/11/2026 20:48 UTC  **CVE :** `CVE-2026-115560`
+`cve` `patch` `vulnerability`
+Des mises à jour corrigent plusieurs vulnérabilités critiques dans PHP, y compris des bugs pouvant permettre l'exécution de code distant.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Tarter Krinsky & Drogin LLP](https://www.ransomware.live/id/VGFydGVyIEtyaW5za3kgJiBEcm9naW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw)
-**Source :** Ransomware.live News  **Publié :** 18/11/2026 21:27 UTC
-`malware`
-Silentransomgroup a ciblé la firme juridique Tarter Krinsky &amp; Drogin LLP dans une nouvelle rançonnerie.
+### [ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories](https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html)
+**Source :** The Hacker News  **Publié :** 20/11/2026 00:17 UTC
+`malware` `vulnerability`
+Des histoires montrant comment des attaques utilisent des éléments familiaux pour voler des données, diffuser du logiciel malveillant et obtenir l'accès.
 
 ---
 
-### [Trump administration officials size-up a bad stretch for tech](https://therecord.media/tech-disruptions-house-homeland-committee-testimony)
-**Source :** The Record  **Publié :** 18/11/2026 20:00 UTC
-`malware`
-Le secrétaire à la Sécurité intérieure Markwayne Mullin a déclaré que l'administration cherchera des informations sur les mises à jour importantes de l'industrie avant leur mise en œuvre.
-
----
-
-### [New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks](https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 19:41 UTC
-`apt` `malware` `ransomware`
-La groupe APT chinois responsable du malware EggStreme révise sa stratégie pour échapper aux outils de sécurité gouvernementaux.
-
----
-
-### [Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms](https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/)
-**Source :** Bleeping Computer  **Publié :** 18/11/2026 18:08 UTC
+### [🏴‍☠️ Rhysida has just published a new victim : Rudolph F. Jass, Jr., PLLC](https://www.ransomware.live/id/UnVkb2xwaCBGLiBKYXNzLCBKci4sIFBMTENAcmh5c2lkYQ)
+**Source :** Ransomware.live News  **Publié :** 19/11/2026 22:18 UTC
 `ransomware`
-Des membres d'une organisation de rançonnerie informatique internationale ont été arrêtés en Ukraine, ayant extorqué plus de 40 millions de dollars à 28 entreprises.
+Rudolph F. Jass, Jr., PLLC a été victime d'une attaque informatique impliquant des documents personnels et financiers volés.
 
 ---
 
-### [Chargemap](https://frenchbreaches.com/alertes/chargemap-mwmdclb8whoxcxtuijb)
-**Source :** FrenchBreaches  **Publié :** 18/11/2026 17:59 UTC
+### [Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites](https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html)
+**Source :** The Hacker News  **Publié :** 19/11/2026 20:03 UTC
+`cve` `malware` `vulnerability`
+Drupal a corrigé une vulnérabilité critique dans son installateur, permettant à un attaquant non authentifié de prendre le contrôle d'un site.
+
+---
+
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Kutak Rock LLP](https://www.ransomware.live/id/S3V0YWsgUm9jayBMTFBAU2lsZW50UmFuc29tR3JvdXA)
+**Source :** Ransomware.live News  **Publié :** 19/11/2026 17:56 UTC
 `malware`
-Chargemap a été victime d'une cyberattaque, entraînant une leakage des données personnelles de ses utilisateurs.
+Silentransomgroup a ciblé Kutak Rock LLP, une grande firme juridique américaine, pour un ransomware.
 
 ---
 
-### [New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html)
-**Source :** The Hacker News  **Publié :** 18/11/2026 17:58 UTC
-`apt`
-Des chercheurs ont découvert que le TPM lockout pour Windows Hello et BitLocker PINs peut être réinitialisé sur certains PC, rendant les codes courts vulnérables.
+### [🏴‍☠️ Handsome boy hacking club has just published a new victim : UCHealth](https://www.ransomware.live/id/VUNIZWFsdGhASGFuZHNvbWUgQm95IEhhY2tpbmcgQ2x1Yg)
+**Source :** Ransomware.live News  **Publié :** 19/11/2026 17:17 UTC
+`malware`
+UCHealth, un système de santé non lucratif aux États-Unis, a été victime d'une cyberattaque.
+
+---
+
+### [Un SMS blaster aurait perturbé 10 000 mobiles](https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/)
+**Source :** ZATAZ  **Publié :** 19/11/2026 16:43 UTC
+`malware`
+Un suspect a été arrêté après une opération SMS blaster perturbant plus de 10 000 téléphones à Tokyo.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Lawmakers call on White House to develop defensive AI cyber systems](https://therecord.media/ai-cyber-white-house)
-**Source :** The Record  **Publié :** 18/11/2026 19:00 UTC  **Score :** 35
+### 1. [Hackers steal data of 1.6 million SBC Medical Group customers](https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/)
+**Source :** Bleeping Computer  **Publié :** 19/11/2026 17:25 UTC  **Score :** 25
 `breach`
-Des sénateurs américains ont demandé au White House de développer des systèmes cybersécuritaires pour combattre les menaces AI.
+SBC Medical Group a signalé deux incidents de sécurité exposant des informations personnelles d'un million six cent mille personnes.
 
-### 2. [Microsoft’s Agent Framework PyPI package compromised to steal credentials](https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/)
-**Source :** Bleeping Computer  **Publié :** 18/11/2026 11:58 UTC  **Score :** 25
+### 2. [Transport for London breach exposes 265,000 Oyster card users' data](https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/)
+**Source :** Bleeping Computer  **Publié :** 19/11/2026 13:20 UTC  **Score :** 25
 `breach`
-Une version malicienne du package Python Agent Framework de Microsoft a été publiée sur PyPI, visant à voler des informations sensibles.
+Transport for London a déclaré que les données de 265 000 utilisateurs Oyster ont été exposées dans une fuite de données.
 
-### 3. [Osaka exposée à une fuite massive](https://www.zataz.com/osaka-exposee-a-une-fuite-massive/)
-**Source :** ZATAZ  **Publié :** 18/11/2026 10:37 UTC  **Score :** 25
+### 3. [🏴‍☠️ Inception has just published a new victim : AutoZone, Inc.](https://www.ransomware.live/id/QXV0b1pvbmUsIEluYy5ASW5jZXB0aW9u)
+**Source :** Ransomware.live News  **Publié :** 19/11/2026 21:52 UTC  **Score :** 20
 `breach`
-Des fuites massives ont affecté Osaka et de nombreuses organisations japonaises, semblables à l'affaire Maileva.
+Inception a publié qu'AutoZone, Inc. était la nouvelle victime d'une attaque qui a rendu visible un incident ServiceNow.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-19.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-20.md`*
