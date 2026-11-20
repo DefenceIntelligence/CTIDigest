@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T03:01:22.437924+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "d72c9da10d59575a",
+        "title": "Elecbrakes EB2, VM1, ELBC2000",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-124281",
+          "CVE-2026-96805",
+          "CVE-2026-125273"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans les produits Elecbrakes pourraient permettre à un attaquant de contrôler les freins d'un remorqueur, de modifier le firmware ou de désactiver l'éclairage des freins.",
+        "published_at": "2026-11-19T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "d9b1a5c3bc0463c2",
+        "title": "Everything Is a Web Application, Including Your Firewall",
+        "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-109619",
+          "CVE-2026-109618"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans PHP ont été exploitées pour accéder au pare-feu, permettant à un attaquant non authentifié d'exécuter du code sur le serveur.",
+        "published_at": "2026-11-19T17:22:23",
+        "score": 20
+      },
+      {
+        "guid": "0f8fb313efb56f5f",
+        "title": "libumqtt",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-125132"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans libumqtt pourraient causer un refus de service, une corruption de la mémoire ou une divulgation d’informations.",
+        "published_at": "2026-11-19T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "aaef92a503b391e5",
+        "title": "Autonomy Logic OpenPLC Runtime",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-126088"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des vulnérabilités dans Autonomy Logic OpenPLC Runtime pourraient créer plusieurs comptes administrateurs non authentifiés.",
+        "published_at": "2026-11-19T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "d7369154cd0bdf5d",
+        "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+        "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-126714"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité nommée phpAfterShell pourrait permettre l'exécution de code par un attaquant sur le serveur via la session PHP.",
+        "published_at": "2026-11-19T22:29:56",
+        "score": 32
+      },
+      {
+        "guid": "f891d060f385883d",
+        "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+        "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-115560"
+        ],
+        "tags": [
+          "cve",
+          "patch",
+          "vulnerability"
+        ],
+        "summary": "Des mises à jour corrigent plusieurs vulnérabilités critiques dans PHP, y compris des bugs pouvant permettre l'exécution de code distant.",
+        "published_at": "2026-11-19T20:48:07",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "e57d6a7e041bc1c9",
+        "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+        "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Des histoires montrant comment des attaques utilisent des éléments familiaux pour voler des données, diffuser du logiciel malveillant et obtenir l'accès.",
+        "published_at": "2026-11-20T00:17:58",
+        "score": 17
+      },
+      {
+        "guid": "fd102d2d94b9b24d",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Rudolph F. Jass, Jr., PLLC",
+        "url": "https://www.ransomware.live/id/UnVkb2xwaCBGLiBKYXNzLCBKci4sIFBMTENAcmh5c2lkYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "ransomware"
+        ],
+        "summary": "Rudolph F. Jass, Jr., PLLC a été victime d'une attaque informatique impliquant des documents personnels et financiers volés.",
+        "published_at": "2026-11-19T22:18:36",
+        "score": 0
+      },
+      {
+        "guid": "bc6694c67154ac7b",
+        "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+        "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Drupal a corrigé une vulnérabilité critique dans son installateur, permettant à un attaquant non authentifié de prendre le contrôle d'un site.",
+        "published_at": "2026-11-19T20:03:06",
+        "score": 17
+      },
+      {
+        "guid": "beba833b63cb9a97",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Kutak Rock LLP",
+        "url": "https://www.ransomware.live/id/S3V0YWsgUm9jayBMTFBAU2lsZW50UmFuc29tR3JvdXA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Silentransomgroup a ciblé Kutak Rock LLP, une grande firme juridique américaine, pour un ransomware.",
+        "published_at": "2026-11-19T17:56:03",
+        "score": 12
+      },
+      {
+        "guid": "f2c7cde2815ef1b8",
+        "title": "🏴‍☠️ Handsome boy hacking club has just published a new victim : UCHealth",
+        "url": "https://www.ransomware.live/id/VUNIZWFsdGhASGFuZHNvbWUgQm95IEhhY2tpbmcgQ2x1Yg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "UCHealth, un système de santé non lucratif aux États-Unis, a été victime d'une cyberattaque.",
+        "published_at": "2026-11-19T17:17:48",
+        "score": 12
+      },
+      {
+        "guid": "fcc89ededca9558a",
+        "title": "Un SMS blaster aurait perturbé 10 000 mobiles",
+        "url": "https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/",
+        "source": "ZATAZ",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un suspect a été arrêté après une opération SMS blaster perturbant plus de 10 000 téléphones à Tokyo.",
+        "published_at": "2026-11-19T16:43:51",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "dfd5607194265ee3",
+        "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SBC Medical Group a signalé deux incidents de sécurité exposant des informations personnelles d'un million six cent mille personnes.",
+        "published_at": "2026-11-19T17:25:42",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "4f00d5fd5d1c99ed",
+        "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+        "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Transport for London a déclaré que les données de 265 000 utilisateurs Oyster ont été exposées dans une fuite de données.",
+        "published_at": "2026-11-19T13:20:01",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "9da8733e8605a559",
+        "title": "🏴‍☠️ Inception has just published a new victim : AutoZone, Inc.",
+        "url": "https://www.ransomware.live/id/QXV0b1pvbmUsIEluYy5ASW5jZXB0aW9u",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Inception a publié qu'AutoZone, Inc. était la nouvelle victime d'une attaque qui a rendu visible un incident ServiceNow.",
+        "published_at": "2026-11-19T21:52:49",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 104,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 9,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
