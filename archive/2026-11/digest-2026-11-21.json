@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T03:01:07.001497+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "ad13f48f95f788da",
+        "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+        "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-23871"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "WhatsApp a corrigé des vulnérabilités, dont une potentielle exploitation dans les escroqueries via l'Android.",
+        "published_at": "2026-11-20T23:27:20",
+        "score": 20
+      },
+      {
+        "guid": "b827fdc047de90a2",
+        "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+        "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-99312"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une faille dans KVM permet à des VM invitées d'accéder à la mémoire du hôte sur des serveurs AMD.",
+        "published_at": "2026-11-20T17:50:00",
+        "score": 20
+      },
+      {
+        "guid": "af7770320e72a5d0",
+        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-76466"
+        ],
+        "tags": [
+          "apt",
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Des cyberattaques exploitaient récemment une vulnérabilité critique dans Cisco Expressway, atteignant le réseau interne d'une organisation russe.",
+        "published_at": "2026-11-20T16:02:50",
+        "score": 40
+      },
+      {
+        "guid": "91cc1a5faeedd095",
+        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+        "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123890"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Armory Castle a exploité une faille zero-day dans VMware vCenter pour accéder aux systèmes et voler des données.",
+        "published_at": "2026-11-20T12:03:31",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "1a684c269492eaf3",
+        "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+        "source": "Krebs on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware",
+          "ransomware"
+        ],
+        "summary": "Le CTO d'une entreprise de rançongiciels en Floride a été accusé de fraude par wire après avoir été démasqué payant les attaquants.",
+        "published_at": "2026-11-21T00:36:39",
+        "score": 17
+      },
+      {
+        "guid": "7b6293310add3b2d",
+        "title": "🏴‍☠️ Whitearmor has just published a new victim : DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED...",
+        "url": "https://www.ransomware.live/id/RFJPUCAxIOKAlCBDQVNBTkFSRSwgUEFKT05BTCwgUFVUVU1BWU8gQU5EIFVSVVMg4oCUIDgsMDAwIFBBVElFTlRTLCA0LDAwMCBJTlZPSUNFUywgNyw3MzMgQ1JFRC4uLkBXaGl0ZWFybW9y",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "CLINICA CASANARE, PAJONAL, PUTUMAYO AND URUS ont été victimes d'une cyberattaque visant des cliniques médicaines en Colombie.",
+        "published_at": "2026-11-20T23:54:37",
+        "score": 12
+      },
+      {
+        "guid": "8ab494f6bb1e7043",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : MT5 algo-trading farm (OneFunded funded account, WINSERVER)",
+        "url": "https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks a publié des documents compromis de l'algo-trading farm MT5, impliquant Westernpips HFT arbitrage.",
+        "published_at": "2026-11-20T22:54:54",
+        "score": 12
+      },
+      {
+        "guid": "ba23129753338971",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : bastion.internal domain controller (GCP, GRATEFUL-V1)",
+        "url": "https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des documents d'un contrôleur de domaine IT sont à venir d'être publiés par Pixelleaks concernant GCP.",
+        "published_at": "2026-11-20T22:54:34",
+        "score": 12
+      },
+      {
+        "guid": "c7e1322a04c6a007",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Aixia Group AB (Nasdaq-listed AI/IT, Sweden)",
+        "url": "https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks a publié des informations compromettantes sur Aixia Group AB, une entreprise AI/IT suédoise en bourse.",
+        "published_at": "2026-11-20T22:54:13",
+        "score": 12
+      },
+      {
+        "guid": "8589844d05d5b6bf",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Kingsport Cargo (logistics, Laravel intranet)",
+        "url": "https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Des données d'une société logistique utilisant Laravel ont été compromises et publiées par Pixelleaks.",
+        "published_at": "2026-11-20T22:53:53",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "556eda776ae4e5ff",
+        "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
+        "url": "https://therecord.media/west-virginia-legislature-cyberattack",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une incident de cybersécurité a affecté les systèmes IT du législateur de l'État du West Virginia, mais n'a pas touché d'autres entités gouvernementales.",
+        "published_at": "2026-11-20T21:34:36",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "58c9c9461303433c",
+        "title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
+        "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Plusieurs créditures irlandaises ont fait savoir à la Commission de protection des données qu'elles avaient été victimes d'une fuite de données par l'intermédiaire d'un fournisseur, sans en informer auparavant la commission.",
+        "published_at": "2026-11-20T14:24:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "c667e5d03beacc4b",
+        "title": "N-able says recent security breach led to major service outage",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Un incident de sécurité sur un serveur de N-able a entraîné une importante interruption de service affectant les services Mail Assure et SpamExperts Hosted Cloud dans le monde entier.",
+        "published_at": "2026-11-20T08:18:36",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 84,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
