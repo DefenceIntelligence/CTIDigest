@@ -1,115 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 20 novembre 2026
+# 🛡️ ARGOS CTI Digest — 21 novembre 2026
 
-> Généré le 20/11/2026 à 03:01 UTC  ·  104 items analysés  ·  15 sélectionnés  ·  23 sources actives
+> Généré le 21/11/2026 à 03:01 UTC  ·  84 items analysés  ·  13 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Elecbrakes EB2, VM1, ELBC2000](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02)
-**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-124281`, `CVE-2026-96805`, `CVE-2026-125273`
+### [WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams](https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html)
+**Source :** The Hacker News  **Publié :** 20/11/2026 23:27 UTC  **CVE :** `CVE-2026-23871`
+`cve` `vulnerability`
+WhatsApp a corrigé des vulnérabilités, dont une potentielle exploitation dans les escroqueries via l'Android.
+
+---
+
+### [Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html)
+**Source :** The Hacker News  **Publié :** 20/11/2026 17:50 UTC  **CVE :** `CVE-2026-99312`
+`cve` `vulnerability`
+Une faille dans KVM permet à des VM invitées d'accéder à la mémoire du hôte sur des serveurs AMD.
+
+---
+
+### [Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network](https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html)
+**Source :** The Hacker News  **Publié :** 20/11/2026 16:02 UTC  **CVE :** `CVE-2026-76466`
+`apt` `breach` `cve` `vulnerability`
+Des cyberattaques exploitaient récemment une vulnérabilité critique dans Cisco Expressway, atteignant le réseau interne d'une organisation russe.
+
+---
+
+### [China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data](https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html)
+**Source :** The Hacker News  **Publié :** 20/11/2026 12:03 UTC  **CVE :** `CVE-2026-123890`
 `apt` `cve` `vulnerability`
-Des vulnérabilités dans les produits Elecbrakes pourraient permettre à un attaquant de contrôler les freins d'un remorqueur, de modifier le firmware ou de désactiver l'éclairage des freins.
-
----
-
-### [Everything Is a Web Application, Including Your Firewall](https://thehackernews.com/2026/11/everything-is-web-application-including.html)
-**Source :** The Hacker News  **Publié :** 19/11/2026 17:22 UTC  **CVE :** `CVE-2026-109619`, `CVE-2026-109618`
-`cve` `vulnerability`
-Des vulnérabilités dans PHP ont été exploitées pour accéder au pare-feu, permettant à un attaquant non authentifié d'exécuter du code sur le serveur.
-
----
-
-### [libumqtt](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03)
-**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-125132`
-`cve` `vulnerability`
-Des vulnérabilités dans libumqtt pourraient causer un refus de service, une corruption de la mémoire ou une divulgation d’informations.
-
----
-
-### [Autonomy Logic OpenPLC Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01)
-**Source :** CISA Advisories  **Publié :** 19/11/2026 12:00 UTC  **CVE :** `CVE-2026-126088`
-`cve` `vulnerability`
-Des vulnérabilités dans Autonomy Logic OpenPLC Runtime pourraient créer plusieurs comptes administrateurs non authentifiés.
-
----
-
-### [phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution](https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html)
-**Source :** The Hacker News  **Publié :** 19/11/2026 22:29 UTC  **CVE :** `CVE-2026-126714`
-`cve` `malware` `vulnerability`
-Une vulnérabilité nommée phpAfterShell pourrait permettre l'exécution de code par un attaquant sur le serveur via la session PHP.
-
----
-
-### [PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution](https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html)
-**Source :** The Hacker News  **Publié :** 19/11/2026 20:48 UTC  **CVE :** `CVE-2026-115560`
-`cve` `patch` `vulnerability`
-Des mises à jour corrigent plusieurs vulnérabilités critiques dans PHP, y compris des bugs pouvant permettre l'exécution de code distant.
+Armory Castle a exploité une faille zero-day dans VMware vCenter pour accéder aux systèmes et voler des données.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories](https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html)
-**Source :** The Hacker News  **Publié :** 20/11/2026 00:17 UTC
-`malware` `vulnerability`
-Des histoires montrant comment des attaques utilisent des éléments familiaux pour voler des données, diffuser du logiciel malveillant et obtenir l'accès.
+### [CTO of ‘RansomwareHelp’ Indicted for Wire Fraud](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/)
+**Source :** Krebs on Security  **Publié :** 21/11/2026 00:36 UTC
+`malware` `ransomware`
+Le CTO d'une entreprise de rançongiciels en Floride a été accusé de fraude par wire après avoir été démasqué payant les attaquants.
 
 ---
 
-### [🏴‍☠️ Rhysida has just published a new victim : Rudolph F. Jass, Jr., PLLC](https://www.ransomware.live/id/UnVkb2xwaCBGLiBKYXNzLCBKci4sIFBMTENAcmh5c2lkYQ)
-**Source :** Ransomware.live News  **Publié :** 19/11/2026 22:18 UTC
-`ransomware`
-Rudolph F. Jass, Jr., PLLC a été victime d'une attaque informatique impliquant des documents personnels et financiers volés.
+### [🏴‍☠️ Whitearmor has just published a new victim : DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED...](https://www.ransomware.live/id/RFJPUCAxIOKAlCBDQVNBTkFSRSwgUEFKT05BTCwgUFVUVU1BWU8gQU5EIFVSVVMg4oCUIDgsMDAwIFBBVElFTlRTLCA0LDAwMCBJTlZPSUNFUywgNyw3MzMgQ1JFRC4uLkBXaGl0ZWFybW9y)
+**Source :** Ransomware.live News  **Publié :** 20/11/2026 23:54 UTC
+`cve` `malware` `ransomware`
+CLINICA CASANARE, PAJONAL, PUTUMAYO AND URUS ont été victimes d'une cyberattaque visant des cliniques médicaines en Colombie.
 
 ---
 
-### [Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites](https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html)
-**Source :** The Hacker News  **Publié :** 19/11/2026 20:03 UTC
-`cve` `malware` `vulnerability`
-Drupal a corrigé une vulnérabilité critique dans son installateur, permettant à un attaquant non authentifié de prendre le contrôle d'un site.
-
----
-
-### [🏴‍☠️ Silentransomgroup has just published a new victim : Kutak Rock LLP](https://www.ransomware.live/id/S3V0YWsgUm9jayBMTFBAU2lsZW50UmFuc29tR3JvdXA)
-**Source :** Ransomware.live News  **Publié :** 19/11/2026 17:56 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : MT5 algo-trading farm (OneFunded funded account, WINSERVER)](https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw)
+**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
 `malware`
-Silentransomgroup a ciblé Kutak Rock LLP, une grande firme juridique américaine, pour un ransomware.
+Pixelleaks a publié des documents compromis de l'algo-trading farm MT5, impliquant Westernpips HFT arbitrage.
 
 ---
 
-### [🏴‍☠️ Handsome boy hacking club has just published a new victim : UCHealth](https://www.ransomware.live/id/VUNIZWFsdGhASGFuZHNvbWUgQm95IEhhY2tpbmcgQ2x1Yg)
-**Source :** Ransomware.live News  **Publié :** 19/11/2026 17:17 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : bastion.internal domain controller (GCP, GRATEFUL-V1)](https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw)
+**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
 `malware`
-UCHealth, un système de santé non lucratif aux États-Unis, a été victime d'une cyberattaque.
+Des documents d'un contrôleur de domaine IT sont à venir d'être publiés par Pixelleaks concernant GCP.
 
 ---
 
-### [Un SMS blaster aurait perturbé 10 000 mobiles](https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/)
-**Source :** ZATAZ  **Publié :** 19/11/2026 16:43 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : Aixia Group AB (Nasdaq-listed AI/IT, Sweden)](https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw)
+**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
 `malware`
-Un suspect a été arrêté après une opération SMS blaster perturbant plus de 10 000 téléphones à Tokyo.
+Pixelleaks a publié des informations compromettantes sur Aixia Group AB, une entreprise AI/IT suédoise en bourse.
+
+---
+
+### [🏴‍☠️ Pixelleaks has just published a new victim : Kingsport Cargo (logistics, Laravel intranet)](https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M)
+**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:53 UTC
+`malware`
+Des données d'une société logistique utilisant Laravel ont été compromises et publiées par Pixelleaks.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Hackers steal data of 1.6 million SBC Medical Group customers](https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/)
-**Source :** Bleeping Computer  **Publié :** 19/11/2026 17:25 UTC  **Score :** 25
+### 1. [West Virginia Legislature hit with cyber incident affecting IT systems](https://therecord.media/west-virginia-legislature-cyberattack)
+**Source :** The Record  **Publié :** 20/11/2026 21:34 UTC  **Score :** 35
 `breach`
-SBC Medical Group a signalé deux incidents de sécurité exposant des informations personnelles d'un million six cent mille personnes.
+Une incident de cybersécurité a affecté les systèmes IT du législateur de l'État du West Virginia, mais n'a pas touché d'autres entités gouvernementales.
 
-### 2. [Transport for London breach exposes 265,000 Oyster card users' data](https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/)
-**Source :** Bleeping Computer  **Publié :** 19/11/2026 13:20 UTC  **Score :** 25
+### 2. [Dozens of credit unions hit by supplier breach that went unnoticed for six weeks](https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach)
+**Source :** The Record  **Publié :** 20/11/2026 14:24 UTC  **Score :** 35
 `breach`
-Transport for London a déclaré que les données de 265 000 utilisateurs Oyster ont été exposées dans une fuite de données.
+Plusieurs créditures irlandaises ont fait savoir à la Commission de protection des données qu'elles avaient été victimes d'une fuite de données par l'intermédiaire d'un fournisseur, sans en informer auparavant la commission.
 
-### 3. [🏴‍☠️ Inception has just published a new victim : AutoZone, Inc.](https://www.ransomware.live/id/QXV0b1pvbmUsIEluYy5ASW5jZXB0aW9u)
-**Source :** Ransomware.live News  **Publié :** 19/11/2026 21:52 UTC  **Score :** 20
+### 3. [N-able says recent security breach led to major service outage](https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/)
+**Source :** Bleeping Computer  **Publié :** 20/11/2026 08:18 UTC  **Score :** 25
 `breach`
-Inception a publié qu'AutoZone, Inc. était la nouvelle victime d'une attaque qui a rendu visible un incident ServiceNow.
+Un incident de sécurité sur un serveur de N-able a entraîné une importante interruption de service affectant les services Mail Assure et SpamExperts Hosted Cloud dans le monde entier.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-20.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-21.md`*
