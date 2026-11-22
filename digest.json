@@ -1,225 +1,189 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T03:01:07.001497+00:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T03:04:12.145610+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "ad13f48f95f788da",
-        "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-        "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+        "guid": "9285e0bd650007fa",
+        "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+        "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-23871"
+          "CVE-2026-129975"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "WhatsApp a corrigé des vulnérabilités, dont une potentielle exploitation dans les escroqueries via l'Android.",
-        "published_at": "2026-11-20T23:27:20",
+        "summary": "Une vulnérabilité critique dans GPGME peut être exploitée par une clé OpenPGP malveillante pour compromettre des données d'applications.",
+        "published_at": "2026-11-21T16:35:53",
         "score": 20
       },
       {
-        "guid": "b827fdc047de90a2",
-        "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-        "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+        "guid": "df6aa574bcb340da",
+        "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-99312"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Une faille dans KVM permet à des VM invitées d'accéder à la mémoire du hôte sur des serveurs AMD.",
-        "published_at": "2026-11-20T17:50:00",
-        "score": 20
-      },
-      {
-        "guid": "af7770320e72a5d0",
-        "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-76466"
-        ],
-        "tags": [
-          "apt",
-          "breach",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Des cyberattaques exploitaient récemment une vulnérabilité critique dans Cisco Expressway, atteignant le réseau interne d'une organisation russe.",
-        "published_at": "2026-11-20T16:02:50",
-        "score": 40
-      },
-      {
-        "guid": "91cc1a5faeedd095",
-        "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-        "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
-          "CVE-2026-123890"
+          "CVE-2026-129448"
         ],
         "tags": [
           "apt",
           "cve",
           "vulnerability"
         ],
-        "summary": "Armory Castle a exploité une faille zero-day dans VMware vCenter pour accéder aux systèmes et voler des données.",
-        "published_at": "2026-11-20T12:03:31",
+        "summary": "La CISA a ajouté quatre vulnérabilités à son liste KEV, enregistrées comme exploitées par des groupes espionnants. CVE-2026-129448 est une des vulnérabilités mentionnées.",
+        "published_at": "2026-11-21T14:19:13",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "1a684c269492eaf3",
-        "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
-        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "source": "Krebs on Security",
-        "category": "Général",
+        "guid": "d674ec1d6423f320",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Fort Smith EMS",
+        "url": "https://www.ransomware.live/id/Rm9ydCBTbWl0aCBFTVNAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
-          "malware",
-          "ransomware"
+          "malware"
         ],
-        "summary": "Le CTO d'une entreprise de rançongiciels en Floride a été accusé de fraude par wire après avoir été démasqué payant les attaquants.",
-        "published_at": "2026-11-21T00:36:39",
-        "score": 17
+        "summary": "Legentlemen a victorieusement piraté fortsmithems.org, révélant des enregistrements audio confidentiels et des données médicales.",
+        "published_at": "2026-11-21T20:13:02",
+        "score": 12
       },
       {
-        "guid": "7b6293310add3b2d",
-        "title": "🏴‍☠️ Whitearmor has just published a new victim : DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED...",
-        "url": "https://www.ransomware.live/id/RFJPUCAxIOKAlCBDQVNBTkFSRSwgUEFKT05BTCwgUFVUVU1BWU8gQU5EIFVSVVMg4oCUIDgsMDAwIFBBVElFTlRTLCA0LDAwMCBJTlZPSUNFUywgNyw3MzMgQ1JFRC4uLkBXaGl0ZWFybW9y",
+        "guid": "66157dca9c2d551f",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Marketech International",
+        "url": "https://www.ransomware.live/id/TWFya2V0ZWNoIEludGVybmF0aW9uYWxAdGhlZ2VudGxlbWVu",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "cve",
-          "malware",
-          "ransomware"
+          "malware"
         ],
-        "summary": "CLINICA CASANARE, PAJONAL, PUTUMAYO AND URUS ont été victimes d'une cyberattaque visant des cliniques médicaines en Colombie.",
-        "published_at": "2026-11-20T23:54:37",
+        "summary": "Legentlemen a victorieusement piraté Marketech International, une entreprise de semiconductor engineering basée à Taipei.",
+        "published_at": "2026-11-21T20:12:41",
         "score": 12
       },
       {
-        "guid": "8ab494f6bb1e7043",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : MT5 algo-trading farm (OneFunded funded account, WINSERVER)",
-        "url": "https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw",
+        "guid": "2964d13a94b4ec15",
+        "title": "🏴‍☠️ Safepay has just published a new victim : qrc-solutions.com",
+        "url": "https://www.ransomware.live/id/cXJjLXNvbHV0aW9ucy5jb21Ac2FmZXBheQ",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Pixelleaks a publié des documents compromis de l'algo-trading farm MT5, impliquant Westernpips HFT arbitrage.",
-        "published_at": "2026-11-20T22:54:54",
+        "summary": "Safepay a victorieusement piraté qrc-solutions.com, une société spécialisée dans les services financiers et la collecte de dettes.",
+        "published_at": "2026-11-21T18:29:19",
         "score": 12
       },
       {
-        "guid": "ba23129753338971",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : bastion.internal domain controller (GCP, GRATEFUL-V1)",
-        "url": "https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw",
+        "guid": "e9e584a8bd1a7eb2",
+        "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+        "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un site malveillant a permis aux chercheurs d'accéder sans permission à des conversations privées de l'assistant Meta Muse et à ses informations associées.",
+        "published_at": "2026-11-21T17:23:07",
+        "score": 17
+      },
+      {
+        "guid": "cb0a4cdb55240f91",
+        "title": "🏴‍☠️ Incransom has just published a new victim : Regions Behavioral Hospital",
+        "url": "https://www.ransomware.live/id/UmVnaW9ucyBCZWhhdmlvcmFsIEhvc3BpdGFsQGluY3JhbnNvbQ",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Des documents d'un contrôleur de domaine IT sont à venir d'être publiés par Pixelleaks concernant GCP.",
-        "published_at": "2026-11-20T22:54:34",
+        "summary": "Incransom a victorieusement piraté Regions Behavioral Hospital, une structure spécialisée en santé mentale.",
+        "published_at": "2026-11-21T17:20:46",
         "score": 12
       },
       {
-        "guid": "c7e1322a04c6a007",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Aixia Group AB (Nasdaq-listed AI/IT, Sweden)",
-        "url": "https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "05015542039c1892",
+        "title": "Orchestra",
+        "url": "https://frenchbreaches.com/alertes/orchestra-mwqjgibjsfgntq6dyuk",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Pixelleaks a publié des informations compromettantes sur Aixia Group AB, une entreprise AI/IT suédoise en bourse.",
-        "published_at": "2026-11-20T22:54:13",
-        "score": 12
-      },
-      {
-        "guid": "8589844d05d5b6bf",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Kingsport Cargo (logistics, Laravel intranet)",
-        "url": "https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "Des données d'une société logistique utilisant Laravel ont été compromises et publiées par Pixelleaks.",
-        "published_at": "2026-11-20T22:53:53",
-        "score": 12
+        "summary": "Une cyberattaque sur Orchestra a provoqué des perturbations chez Voyages E.Leclerc et Carrefour Voyages, fournisseurs informatiques du tourisme.",
+        "published_at": "2026-11-21T16:02:00",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "556eda776ae4e5ff",
-        "title": "West Virginia Legislature hit with cyber incident affecting IT systems",
-        "url": "https://therecord.media/west-virginia-legislature-cyberattack",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Une incident de cybersécurité a affecté les systèmes IT du législateur de l'État du West Virginia, mais n'a pas touché d'autres entités gouvernementales.",
-        "published_at": "2026-11-20T21:34:36",
-        "score": 35,
-        "rank": 1
-      },
-      {
-        "guid": "58c9c9461303433c",
-        "title": "Dozens of credit unions hit by supplier breach that went unnoticed for six weeks",
-        "url": "https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach",
-        "source": "The Record",
-        "category": "Éditorial",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Plusieurs créditures irlandaises ont fait savoir à la Commission de protection des données qu'elles avaient été victimes d'une fuite de données par l'intermédiaire d'un fournisseur, sans en informer auparavant la commission.",
-        "published_at": "2026-11-20T14:24:00",
-        "score": 35,
-        "rank": 2
-      },
-      {
-        "guid": "c667e5d03beacc4b",
-        "title": "N-able says recent security breach led to major service outage",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+        "guid": "f4fe7f1508f91a46",
+        "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+        "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
         "source": "Bleeping Computer",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Un incident de sécurité sur un serveur de N-able a entraîné une importante interruption de service affectant les services Mail Assure et SpamExperts Hosted Cloud dans le monde entier.",
-        "published_at": "2026-11-20T08:18:36",
+        "summary": "Des hackers ont accédé aux secrets Kubernetes de clients via la plateforme Rackspace Spot après un vol de credentials.",
+        "published_at": "2026-11-21T17:59:58",
         "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "3c6895f0076dcf22",
+        "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le FBI a été victime d'une nouvelle attaque, cette fois visant son important système NCIC utilisé par la police nationale américaine.",
+        "published_at": "2026-11-21T09:26:04",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "1271239a170e9a81",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : Dallas Fort Worth Fertility Associates",
+        "url": "https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Une audit par Dallas Fort Worth Fertility Associates a révélé des vulnérabilités critiques et des systèmes obsolètes, menant à une compromise totale de l’infrastructure et au leakage de tous les données patient - informations sur la fécondité, analyses, bases de données et autres informations médicales confidentielles.",
+        "published_at": "2026-11-21T07:55:50",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 84,
-    "items_selected": 13,
+    "items_analyzed": 38,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 4,
+    "cves_total": 2,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
