@@ -1,101 +1,87 @@
-# 🛡️ ARGOS CTI Digest — 21 novembre 2026
+# 🛡️ ARGOS CTI Digest — 22 novembre 2026
 
-> Généré le 21/11/2026 à 03:01 UTC  ·  84 items analysés  ·  13 sélectionnés  ·  23 sources actives
+> Généré le 22/11/2026 à 03:04 UTC  ·  38 items analysés  ·  11 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams](https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html)
-**Source :** The Hacker News  **Publié :** 20/11/2026 23:27 UTC  **CVE :** `CVE-2026-23871`
+### [GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html)
+**Source :** The Hacker News  **Publié :** 21/11/2026 16:35 UTC  **CVE :** `CVE-2026-129975`
 `cve` `vulnerability`
-WhatsApp a corrigé des vulnérabilités, dont une potentielle exploitation dans les escroqueries via l'Android.
+Une vulnérabilité critique dans GPGME peut être exploitée par une clé OpenPGP malveillante pour compromettre des données d'applications.
 
 ---
 
-### [Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html)
-**Source :** The Hacker News  **Publié :** 20/11/2026 17:50 UTC  **CVE :** `CVE-2026-99312`
-`cve` `vulnerability`
-Une faille dans KVM permet à des VM invitées d'accéder à la mémoire du hôte sur des serveurs AMD.
-
----
-
-### [Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network](https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html)
-**Source :** The Hacker News  **Publié :** 20/11/2026 16:02 UTC  **CVE :** `CVE-2026-76466`
-`apt` `breach` `cve` `vulnerability`
-Des cyberattaques exploitaient récemment une vulnérabilité critique dans Cisco Expressway, atteignant le réseau interne d'une organisation russe.
-
----
-
-### [China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data](https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html)
-**Source :** The Hacker News  **Publié :** 20/11/2026 12:03 UTC  **CVE :** `CVE-2026-123890`
+### [Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge](https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html)
+**Source :** The Hacker News  **Publié :** 21/11/2026 14:19 UTC  **CVE :** `CVE-2026-129448`
 `apt` `cve` `vulnerability`
-Armory Castle a exploité une faille zero-day dans VMware vCenter pour accéder aux systèmes et voler des données.
+La CISA a ajouté quatre vulnérabilités à son liste KEV, enregistrées comme exploitées par des groupes espionnants. CVE-2026-129448 est une des vulnérabilités mentionnées.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [CTO of ‘RansomwareHelp’ Indicted for Wire Fraud](https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/)
-**Source :** Krebs on Security  **Publié :** 21/11/2026 00:36 UTC
-`malware` `ransomware`
-Le CTO d'une entreprise de rançongiciels en Floride a été accusé de fraude par wire après avoir été démasqué payant les attaquants.
-
----
-
-### [🏴‍☠️ Whitearmor has just published a new victim : DROP 1 — CASANARE, PAJONAL, PUTUMAYO AND URUS — 8,000 PATIENTS, 4,000 INVOICES, 7,733 CRED...](https://www.ransomware.live/id/RFJPUCAxIOKAlCBDQVNBTkFSRSwgUEFKT05BTCwgUFVUVU1BWU8gQU5EIFVSVVMg4oCUIDgsMDAwIFBBVElFTlRTLCA0LDAwMCBJTlZPSUNFUywgNyw3MzMgQ1JFRC4uLkBXaGl0ZWFybW9y)
-**Source :** Ransomware.live News  **Publié :** 20/11/2026 23:54 UTC
-`cve` `malware` `ransomware`
-CLINICA CASANARE, PAJONAL, PUTUMAYO AND URUS ont été victimes d'une cyberattaque visant des cliniques médicaines en Colombie.
-
----
-
-### [🏴‍☠️ Pixelleaks has just published a new victim : MT5 algo-trading farm (OneFunded funded account, WINSERVER)](https://www.ransomware.live/id/TVQ1IGFsZ28tdHJhZGluZyBmYXJtIChPbmVGdW5kZWQgZnVuZGVkIGFjY291bnQsIFdJTlNFUlZFUilAUGl4ZWxMZWFrcw)
-**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
+### [🏴‍☠️ Thegentlemen has just published a new victim : Fort Smith EMS](https://www.ransomware.live/id/Rm9ydCBTbWl0aCBFTVNAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 21/11/2026 20:13 UTC
 `malware`
-Pixelleaks a publié des documents compromis de l'algo-trading farm MT5, impliquant Westernpips HFT arbitrage.
+Legentlemen a victorieusement piraté fortsmithems.org, révélant des enregistrements audio confidentiels et des données médicales.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : bastion.internal domain controller (GCP, GRATEFUL-V1)](https://www.ransomware.live/id/YmFzdGlvbi5pbnRlcm5hbCBkb21haW4gY29udHJvbGxlciAoR0NQLCBHUkFURUZVTC1WMSlAUGl4ZWxMZWFrcw)
-**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
-`malware`
-Des documents d'un contrôleur de domaine IT sont à venir d'être publiés par Pixelleaks concernant GCP.
+### [🏴‍☠️ Thegentlemen has just published a new victim : Marketech International](https://www.ransomware.live/id/TWFya2V0ZWNoIEludGVybmF0aW9uYWxAdGhlZ2VudGxlbWVu)
+**Source :** Ransomware.live News  **Publié :** 21/11/2026 20:12 UTC
+`cve` `malware`
+Legentlemen a victorieusement piraté Marketech International, une entreprise de semiconductor engineering basée à Taipei.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Aixia Group AB (Nasdaq-listed AI/IT, Sweden)](https://www.ransomware.live/id/QWl4aWEgR3JvdXAgQUIgKE5hc2RhcS1saXN0ZWQgQUkvSVQsIFN3ZWRlbilAUGl4ZWxMZWFrcw)
-**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:54 UTC
+### [🏴‍☠️ Safepay has just published a new victim : qrc-solutions.com](https://www.ransomware.live/id/cXJjLXNvbHV0aW9ucy5jb21Ac2FmZXBheQ)
+**Source :** Ransomware.live News  **Publié :** 21/11/2026 18:29 UTC
 `malware`
-Pixelleaks a publié des informations compromettantes sur Aixia Group AB, une entreprise AI/IT suédoise en bourse.
+Safepay a victorieusement piraté qrc-solutions.com, une société spécialisée dans les services financiers et la collecte de dettes.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Kingsport Cargo (logistics, Laravel intranet)](https://www.ransomware.live/id/S2luZ3Nwb3J0IENhcmdvIChsb2dpc3RpY3MsIExhcmF2ZWwgaW50cmFuZXQpQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 20/11/2026 22:53 UTC
+### [A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats](https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html)
+**Source :** The Hacker News  **Publié :** 21/11/2026 17:23 UTC
 `malware`
-Des données d'une société logistique utilisant Laravel ont été compromises et publiées par Pixelleaks.
+Un site malveillant a permis aux chercheurs d'accéder sans permission à des conversations privées de l'assistant Meta Muse et à ses informations associées.
+
+---
+
+### [🏴‍☠️ Incransom has just published a new victim : Regions Behavioral Hospital](https://www.ransomware.live/id/UmVnaW9ucyBCZWhhdmlvcmFsIEhvc3BpdGFsQGluY3JhbnNvbQ)
+**Source :** Ransomware.live News  **Publié :** 21/11/2026 17:20 UTC
+`malware`
+Incransom a victorieusement piraté Regions Behavioral Hospital, une structure spécialisée en santé mentale.
+
+---
+
+### [Orchestra](https://frenchbreaches.com/alertes/orchestra-mwqjgibjsfgntq6dyuk)
+**Source :** FrenchBreaches  **Publié :** 21/11/2026 16:02 UTC
+`malware`
+Une cyberattaque sur Orchestra a provoqué des perturbations chez Voyages E.Leclerc et Carrefour Voyages, fournisseurs informatiques du tourisme.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [West Virginia Legislature hit with cyber incident affecting IT systems](https://therecord.media/west-virginia-legislature-cyberattack)
-**Source :** The Record  **Publié :** 20/11/2026 21:34 UTC  **Score :** 35
+### 1. [Rackspace Spot breach let hackers access customer Kubernetes secrets](https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/)
+**Source :** Bleeping Computer  **Publié :** 21/11/2026 17:59 UTC  **Score :** 25
 `breach`
-Une incident de cybersécurité a affecté les systèmes IT du législateur de l'État du West Virginia, mais n'a pas touché d'autres entités gouvernementales.
+Des hackers ont accédé aux secrets Kubernetes de clients via la plateforme Rackspace Spot après un vol de credentials.
 
-### 2. [Dozens of credit unions hit by supplier breach that went unnoticed for six weeks](https://therecord.media/dozens-of-credit-unions-hit-by-supplier-breach)
-**Source :** The Record  **Publié :** 20/11/2026 14:24 UTC  **Score :** 35
-`breach`
-Plusieurs créditures irlandaises ont fait savoir à la Commission de protection des données qu'elles avaient été victimes d'une fuite de données par l'intermédiaire d'un fournisseur, sans en informer auparavant la commission.
+### 2. [FBI reportedly hacked again, this time targeting nationwide police database](https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/)
+**Source :** Bleeping Computer  **Publié :** 21/11/2026 09:26 UTC  **Score :** 25
+`breach` `cve`
+Le FBI a été victime d'une nouvelle attaque, cette fois visant son important système NCIC utilisé par la police nationale américaine.
 
-### 3. [N-able says recent security breach led to major service outage](https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/)
-**Source :** Bleeping Computer  **Publié :** 20/11/2026 08:18 UTC  **Score :** 25
-`breach`
-Un incident de sécurité sur un serveur de N-able a entraîné une importante interruption de service affectant les services Mail Assure et SpamExperts Hosted Cloud dans le monde entier.
+### 3. [🏴‍☠️ Barracuda has just published a new victim : Dallas Fort Worth Fertility Associates](https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh)
+**Source :** Ransomware.live News  **Publié :** 21/11/2026 07:55 UTC  **Score :** 20
+`breach` `vulnerability`
+Une audit par Dallas Fort Worth Fertility Associates a révélé des vulnérabilités critiques et des systèmes obsolètes, menant à une compromise totale de l’infrastructure et au leakage de tous les données patient - informations sur la fécondité, analyses, bases de données et autres informations médica
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-21.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-22.md`*
