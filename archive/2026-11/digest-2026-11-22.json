@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T03:04:12.145610+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "9285e0bd650007fa",
+        "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+        "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-129975"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans GPGME peut être exploitée par une clé OpenPGP malveillante pour compromettre des données d'applications.",
+        "published_at": "2026-11-21T16:35:53",
+        "score": 20
+      },
+      {
+        "guid": "df6aa574bcb340da",
+        "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-129448"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "La CISA a ajouté quatre vulnérabilités à son liste KEV, enregistrées comme exploitées par des groupes espionnants. CVE-2026-129448 est une des vulnérabilités mentionnées.",
+        "published_at": "2026-11-21T14:19:13",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "d674ec1d6423f320",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Fort Smith EMS",
+        "url": "https://www.ransomware.live/id/Rm9ydCBTbWl0aCBFTVNAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Legentlemen a victorieusement piraté fortsmithems.org, révélant des enregistrements audio confidentiels et des données médicales.",
+        "published_at": "2026-11-21T20:13:02",
+        "score": 12
+      },
+      {
+        "guid": "66157dca9c2d551f",
+        "title": "🏴‍☠️ Thegentlemen has just published a new victim : Marketech International",
+        "url": "https://www.ransomware.live/id/TWFya2V0ZWNoIEludGVybmF0aW9uYWxAdGhlZ2VudGxlbWVu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Legentlemen a victorieusement piraté Marketech International, une entreprise de semiconductor engineering basée à Taipei.",
+        "published_at": "2026-11-21T20:12:41",
+        "score": 12
+      },
+      {
+        "guid": "2964d13a94b4ec15",
+        "title": "🏴‍☠️ Safepay has just published a new victim : qrc-solutions.com",
+        "url": "https://www.ransomware.live/id/cXJjLXNvbHV0aW9ucy5jb21Ac2FmZXBheQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Safepay a victorieusement piraté qrc-solutions.com, une société spécialisée dans les services financiers et la collecte de dettes.",
+        "published_at": "2026-11-21T18:29:19",
+        "score": 12
+      },
+      {
+        "guid": "e9e584a8bd1a7eb2",
+        "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+        "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Un site malveillant a permis aux chercheurs d'accéder sans permission à des conversations privées de l'assistant Meta Muse et à ses informations associées.",
+        "published_at": "2026-11-21T17:23:07",
+        "score": 17
+      },
+      {
+        "guid": "cb0a4cdb55240f91",
+        "title": "🏴‍☠️ Incransom has just published a new victim : Regions Behavioral Hospital",
+        "url": "https://www.ransomware.live/id/UmVnaW9ucyBCZWhhdmlvcmFsIEhvc3BpdGFsQGluY3JhbnNvbQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Incransom a victorieusement piraté Regions Behavioral Hospital, une structure spécialisée en santé mentale.",
+        "published_at": "2026-11-21T17:20:46",
+        "score": 12
+      },
+      {
+        "guid": "05015542039c1892",
+        "title": "Orchestra",
+        "url": "https://frenchbreaches.com/alertes/orchestra-mwqjgibjsfgntq6dyuk",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Une cyberattaque sur Orchestra a provoqué des perturbations chez Voyages E.Leclerc et Carrefour Voyages, fournisseurs informatiques du tourisme.",
+        "published_at": "2026-11-21T16:02:00",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "f4fe7f1508f91a46",
+        "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+        "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des hackers ont accédé aux secrets Kubernetes de clients via la plateforme Rackspace Spot après un vol de credentials.",
+        "published_at": "2026-11-21T17:59:58",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "3c6895f0076dcf22",
+        "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le FBI a été victime d'une nouvelle attaque, cette fois visant son important système NCIC utilisé par la police nationale américaine.",
+        "published_at": "2026-11-21T09:26:04",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "1271239a170e9a81",
+        "title": "🏴‍☠️ Barracuda has just published a new victim : Dallas Fort Worth Fertility Associates",
+        "url": "https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "vulnerability"
+        ],
+        "summary": "Une audit par Dallas Fort Worth Fertility Associates a révélé des vulnérabilités critiques et des systèmes obsolètes, menant à une compromise totale de l’infrastructure et au leakage de tous les données patient - informations sur la fécondité, analyses, bases de données et autres informations médicales confidentielles.",
+        "published_at": "2026-11-21T07:55:50",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 38,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 2,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
