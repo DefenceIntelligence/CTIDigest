@@ -1,87 +1,79 @@
-# 🛡️ ARGOS CTI Digest — 22 novembre 2026
+# 🛡️ ARGOS CTI Digest — 23 novembre 2026
 
-> Généré le 22/11/2026 à 03:04 UTC  ·  38 items analysés  ·  11 sélectionnés  ·  23 sources actives
+> Généré le 23/11/2026 à 04:01 UTC  ·  32 items analysés  ·  9 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html)
-**Source :** The Hacker News  **Publié :** 21/11/2026 16:35 UTC  **CVE :** `CVE-2026-129975`
-`cve` `vulnerability`
-Une vulnérabilité critique dans GPGME peut être exploitée par une clé OpenPGP malveillante pour compromettre des données d'applications.
-
----
-
-### [Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge](https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html)
-**Source :** The Hacker News  **Publié :** 21/11/2026 14:19 UTC  **CVE :** `CVE-2026-129448`
-`apt` `cve` `vulnerability`
-La CISA a ajouté quatre vulnérabilités à son liste KEV, enregistrées comme exploitées par des groupes espionnants. CVE-2026-129448 est une des vulnérabilités mentionnées.
-
----
+*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Fort Smith EMS](https://www.ransomware.live/id/Rm9ydCBTbWl0aCBFTVNAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 21/11/2026 20:13 UTC
+### [Agence d'Accompagnement Actif à l'Évaluation Psychotechnique (AAAEP)](https://frenchbreaches.com/alertes/agence-d-accompagnement-actif-l-valuation-psychotechnique-aaaep-mwsfi1x6xgz6drfbeak)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 00:32 UTC
 `malware`
-Legentlemen a victorieusement piraté fortsmithems.org, révélant des enregistrements audio confidentiels et des données médicales.
+AAAEP, spécialiste des tests pour récupérer son permis, visé par une fuite de données Le groupe de pirates BlackHatSect0r revendique une intrusion dans les systèmes d'AAAEP, un organisme français spécialisé dans les tests psychotechniques du permis de conduire. Les pirates affirm…
 
 ---
 
-### [🏴‍☠️ Thegentlemen has just published a new victim : Marketech International](https://www.ransomware.live/id/TWFya2V0ZWNoIEludGVybmF0aW9uYWxAdGhlZ2VudGxlbWVu)
-**Source :** Ransomware.live News  **Publié :** 21/11/2026 20:12 UTC
-`cve` `malware`
-Legentlemen a victorieusement piraté Marketech International, une entreprise de semiconductor engineering basée à Taipei.
+### [Laboratoire pour la Santé Animale (LAPSA)](https://frenchbreaches.com/alertes/laboratoire-pour-la-sant-animale-lapsa-mwsgiojqs5jtk67611h)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 00:14 UTC
+`malware`
+LAPSA, marque française de croquettes pour chiens et chats, visée par une fuite de données Une marque française spécialisée dans l'alimentation des chiens et des chats fait l'objet d'une revendication de fuite de données concernant 80 000 clients. Un pirate affirme diffuser des i…
 
 ---
 
-### [🏴‍☠️ Safepay has just published a new victim : qrc-solutions.com](https://www.ransomware.live/id/cXJjLXNvbHV0aW9ucy5jb21Ac2FmZXBheQ)
-**Source :** Ransomware.live News  **Publié :** 21/11/2026 18:29 UTC
+### [🏴‍☠️ Panzer has just published a new victim : Agenzia Agorà Società Cooperativa Sociale](https://www.ransomware.live/id/QWdlbnppYSBBZ29yw6AgU29jaWV0w6AgQ29vcGVyYXRpdmEgU29jaWFsZUBQYW56ZXI)
+**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:55 UTC
 `malware`
-Safepay a victorieusement piraté qrc-solutions.com, une société spécialisée dans les services financiers et la collecte de dettes.
+Agenzia Agorà is an Italian social cooperative (non-profit social enterprise) that works in community services, social assistance and youth development.
 
 ---
 
-### [A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats](https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html)
-**Source :** The Hacker News  **Publié :** 21/11/2026 17:23 UTC
+### [🏴‍☠️ Medusalocker has just published a new victim : BASABAH](https://www.ransomware.live/id/QkFTQUJBSEBtZWR1c2Fsb2NrZXI)
+**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:41 UTC
 `malware`
-Un site malveillant a permis aux chercheurs d'accéder sans permission à des conversations privées de l'assistant Meta Muse et à ses informations associées.
+[AI generated] N/A
+
+I don&#x27;t have reliable, verifiable information about a company named &quot;BASABAH.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (such as a website, registrat
 
 ---
 
-### [🏴‍☠️ Incransom has just published a new victim : Regions Behavioral Hospital](https://www.ransomware.live/id/UmVnaW9ucyBCZWhhdmlvcmFsIEhvc3BpdGFsQGluY3JhbnNvbQ)
-**Source :** Ransomware.live News  **Publié :** 21/11/2026 17:20 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : East Jerusalem food distribution firm (AlArabi InterBase accounting estate)](https://www.ransomware.live/id/RWFzdCBKZXJ1c2FsZW0gZm9vZCBkaXN0cmlidXRpb24gZmlybSAoQWxBcmFiaSBJbnRlckJhc2UgYWNjb3VudGluZyBlc3RhdGUpQFBpeGVsTGVha3M)
+**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:20 UTC
 `malware`
-Incransom a victorieusement piraté Regions Behavioral Hospital, une structure spécialisée en santé mentale.
+This disclosure concerns a verified set of records from an organization in the Food and confectionery distribution sector. The material scheduled for publication comprises a set of business records, including financial, client, legal, and operational material.
+Deadline: 2026-11-26 16:23 UTC
 
 ---
 
-### [Orchestra](https://frenchbreaches.com/alertes/orchestra-mwqjgibjsfgntq6dyuk)
-**Source :** FrenchBreaches  **Publié :** 21/11/2026 16:02 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : Indian railway Tatkal booking agency (licensed booking bot operator)](https://www.ransomware.live/id/SW5kaWFuIHJhaWx3YXkgVGF0a2FsIGJvb2tpbmcgYWdlbmN5IChsaWNlbnNlZCBib29raW5nIGJvdCBvcGVyYXRvcilAUGl4ZWxMZWFrcw)
+**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:19 UTC
 `malware`
-Une cyberattaque sur Orchestra a provoqué des perturbations chez Voyages E.Leclerc et Carrefour Voyages, fournisseurs informatiques du tourisme.
+This disclosure concerns a verified set of records from an operator in the railway ticket booking services sector in India. The material scheduled for publication comprises the booking database with four railway booking accounts and payment collection accounts, browser profiles with the live booking
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Rackspace Spot breach let hackers access customer Kubernetes secrets](https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/)
-**Source :** Bleeping Computer  **Publié :** 21/11/2026 17:59 UTC  **Score :** 25
-`breach`
-Des hackers ont accédé aux secrets Kubernetes de clients via la plateforme Rackspace Spot après un vol de credentials.
-
-### 2. [FBI reportedly hacked again, this time targeting nationwide police database](https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/)
-**Source :** Bleeping Computer  **Publié :** 21/11/2026 09:26 UTC  **Score :** 25
+### 1. [Cleverbridge warns hackers stole credit card numbers, CVVs in data breach](https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/)
+**Source :** Bleeping Computer  **Publié :** 22/11/2026 10:43 UTC  **Score :** 25
 `breach` `cve`
-Le FBI a été victime d'une nouvelle attaque, cette fois visant son important système NCIC utilisé par la police nationale américaine.
+E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
 
-### 3. [🏴‍☠️ Barracuda has just published a new victim : Dallas Fort Worth Fertility Associates](https://www.ransomware.live/id/RGFsbGFzIEZvcnQgV29ydGggRmVydGlsaXR5IEFzc29jaWF0ZXNAQmFycmFjdWRh)
-**Source :** Ransomware.live News  **Publié :** 21/11/2026 07:55 UTC  **Score :** 20
-`breach` `vulnerability`
-Une audit par Dallas Fort Worth Fertility Associates a révélé des vulnérabilités critiques et des systèmes obsolètes, menant à une compromise totale de l’infrastructure et au leakage de tous les données patient - informations sur la fécondité, analyses, bases de données et autres informations médica
+### 2. [OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms](https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html)
+**Source :** The Hacker News  **Publié :** 22/11/2026 10:36 UTC  **Score :** 25
+`breach`
+Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.
+
+Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a promp
+
+### 3. [🏴‍☠️ Medusalocker has just published a new victim : Lee Health (Lee Memorial Health System) - partner clinic](https://www.ransomware.live/id/TGVlIEhlYWx0aCAoTGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW0pIC0gcGFydG5lciBjbGluaWNAbWVkdXNhbG9ja2Vy)
+**Source :** Ransomware.live News  **Publié :** 22/11/2026 23:24 UTC  **Score :** 0
+Healthcare clinic affiliated with Lee Health / Lee Memorial Health System, Fort Myers, FL. Own eClinicalWorks EHR (192.168.20.75:8080) + QuickBooks Pro 2021; Epic access via Citrix Gateway https://cag.leememorial.org/. Dump of workstation 67.129.180.250: 777 files / 9.3 GB - 464 scanned patient medi
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-22.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-23.md`*
