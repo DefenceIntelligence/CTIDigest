@@ -1,149 +1,224 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T04:01:53.460147+00:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T03:01:11.654311+00:00",
   "github": {},
   "sections": {
-    "vulnerabilities": [],
+    "vulnerabilities": [
+      {
+        "guid": "0404db022d7bd310",
+        "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+        "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-134814"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique a été révélée dans binary-parser, permettant l'injection de code JavaScript par des définitions malveillantes.",
+        "published_at": "2026-11-23T18:52:20",
+        "score": 20
+      },
+      {
+        "guid": "0bd05f53a8790f58",
+        "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-84869"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors exploite CVE-2026-84869 dans ScreenConnect pour pirater les PC des techniciens de services d'assistance sans avertissement.",
+        "published_at": "2026-11-23T18:11:04",
+        "score": 20
+      },
+      {
+        "guid": "d62ce0516971971f",
+        "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+        "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-134624"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "N-able a découvert une vulnérabilité grave, CVE-2026-134624, dans Mail Assure, permettant des attaques SSRF avec accès API avancé.",
+        "published_at": "2026-11-23T17:58:09",
+        "score": 40
+      },
+      {
+        "guid": "a9baa14dac8d692e",
+        "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-131914"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans Idunno.AntiCsrf a été exploitée, permettant l'exécution de code non authentifié (RCE).",
+        "published_at": "2026-11-23T14:41:56",
+        "score": 20
+      }
+    ],
     "campaigns": [
       {
-        "guid": "24269bbf1eaf8923",
-        "title": "Agence d'Accompagnement Actif à l'Évaluation Psychotechnique (AAAEP)",
-        "url": "https://frenchbreaches.com/alertes/agence-d-accompagnement-actif-l-valuation-psychotechnique-aaaep-mwsfi1x6xgz6drfbeak",
+        "guid": "225a10dfe86a246b",
+        "title": "L'Empreinte du Bois (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/l-empreinte-du-bois-via-arobases-mwtwj3fsaa6v5s572l",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "AAAEP, spécialiste des tests pour récupérer son permis, visé par une fuite de données Le groupe de pirates BlackHatSect0r revendique une intrusion dans les systèmes d'AAAEP, un organisme français spécialisé dans les tests psychotechniques du permis de conduire. Les pirates affirm…",
-        "published_at": "2026-11-23T00:32:00",
+        "summary": "L'Empreinte du Bois fait face à une fuite de données, avec des informations clients et factures exposées.",
+        "published_at": "2026-11-24T00:31:00",
         "score": 17
       },
       {
-        "guid": "9b57a54444643b61",
-        "title": "Laboratoire pour la Santé Animale (LAPSA)",
-        "url": "https://frenchbreaches.com/alertes/laboratoire-pour-la-sant-animale-lapsa-mwsgiojqs5jtk67611h",
+        "guid": "1b9cee3fe5b62c75",
+        "title": "Bocklip (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/bocklip-via-arobases-mwtwfs5rrpthaimsfq9",
         "source": "FrenchBreaches",
         "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "LAPSA, marque française de croquettes pour chiens et chats, visée par une fuite de données Une marque française spécialisée dans l'alimentation des chiens et des chats fait l'objet d'une revendication de fuite de données concernant 80 000 clients. Un pirate affirme diffuser des i…",
-        "published_at": "2026-11-23T00:14:00",
+        "summary": "Bocklip subit une fuite de données, avec des informations clients et bancaires partiellement révélées.",
+        "published_at": "2026-11-24T00:28:00",
         "score": 17
       },
       {
-        "guid": "35043c0a9c6bdddb",
-        "title": "🏴‍☠️ Panzer has just published a new victim : Agenzia Agorà Società Cooperativa Sociale",
-        "url": "https://www.ransomware.live/id/QWdlbnppYSBBZ29yw6AgU29jaWV0w6AgQ29vcGVyYXRpdmEgU29jaWFsZUBQYW56ZXI",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "fc7569d830384217",
+        "title": "Les Gazons Parisiens (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/les-gazons-parisiens-via-arobases-mwtv29sb8dyt5f4mtl6",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Agenzia Agorà is an Italian social cooperative (non-profit social enterprise) that works in community services, social assistance and youth development.",
-        "published_at": "2026-11-22T22:55:38",
-        "score": 12
+        "summary": "Les Gazons Parisiens est victime d'une fuite de données, plus de 320 000 lignes d'informations potentiellement compromises.",
+        "published_at": "2026-11-23T23:50:00",
+        "score": 17
       },
       {
-        "guid": "546f194762b50942",
-        "title": "🏴‍☠️ Medusalocker has just published a new victim : BASABAH",
-        "url": "https://www.ransomware.live/id/QkFTQUJBSEBtZWR1c2Fsb2NrZXI",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "d393c091039e33bf",
+        "title": "La Fabrique d’Écharpe (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/la-fabrique-d-charpe-via-arobases-mwtuyslfziyg0gpig68",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "[AI generated] N/A\n\nI don&#x27;t have reliable, verifiable information about a company named &quot;BASABAH.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (such as a website, registration details, sector, or associated aliases), please share them and I can help assess or frame the information appropriately.",
-        "published_at": "2026-11-22T22:41:10",
-        "score": 12
+        "summary": "La Fabrique d’Écharpe est visée par un pirate, avec des milliers de coordonnées potentiellement exposées.",
+        "published_at": "2026-11-23T23:49:00",
+        "score": 17
       },
       {
-        "guid": "b10bfe402ad071a2",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : East Jerusalem food distribution firm (AlArabi InterBase accounting estate)",
-        "url": "https://www.ransomware.live/id/RWFzdCBKZXJ1c2FsZW0gZm9vZCBkaXN0cmlidXRpb24gZmlybSAoQWxBcmFiaSBJbnRlckJhc2UgYWNjb3VudGluZyBlc3RhdGUpQFBpeGVsTGVha3M",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "ade9021657119d6a",
+        "title": "Happy Candy (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/happy-candy-via-arobases-mwtuteuvw9w64w09gg",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "This disclosure concerns a verified set of records from an organization in the Food and confectionery distribution sector. The material scheduled for publication comprises a set of business records, including financial, client, legal, and operational material.\nDeadline: 2026-11-26 16:23 UTC",
-        "published_at": "2026-11-22T22:20:00",
-        "score": 12
+        "summary": "Happy Candy fait l'objet d'une fuite de données, plus de 7 200 adresses e-mail revendiquées après le piratage.",
+        "published_at": "2026-11-23T23:43:00",
+        "score": 17
       },
       {
-        "guid": "3a29ba4ae2c8eda2",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Indian railway Tatkal booking agency (licensed booking bot operator)",
-        "url": "https://www.ransomware.live/id/SW5kaWFuIHJhaWx3YXkgVGF0a2FsIGJvb2tpbmcgYWdlbmN5IChsaWNlbnNlZCBib29raW5nIGJvdCBvcGVyYXRvcilAUGl4ZWxMZWFrcw",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
+        "guid": "e84ea4d93d192cb9",
+        "title": "Idil Diffusion (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/idil-diffusion-via-arobases-mwtuplwhuw2izdzcl2",
+        "source": "FrenchBreaches",
+        "category": "Général",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "This disclosure concerns a verified set of records from an operator in the railway ticket booking services sector in India. The material scheduled for publication comprises the booking database with four railway booking accounts and payment collection accounts, browser profiles with the live booking site sessions, and complete booking logs with seven passengers&#x27; personal records including names, ages, gender and berth and food preferences, three client mobile numbers, trains, routes and far",
-        "published_at": "2026-11-22T22:19:40",
-        "score": 12
+        "summary": "Idil Diffusion a subi une fuite de données, plus de 1,4 million d'enregistrements revendiqués après le piratage.",
+        "published_at": "2026-11-23T23:39:00",
+        "score": 17
       }
     ],
     "top_reads": [
       {
-        "guid": "7a44fb2b96b81066",
-        "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-        "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-        "source": "Bleeping Computer",
+        "guid": "9b62c1f89303ded5",
+        "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+        "url": "https://therecord.media/fbi-cyberattack-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "L'FBI enquête sur une nouvelle fuite de données concernant le National Crime Information Center, un répertoire utilisé par les agences de police américaines.",
+        "published_at": "2026-11-23T18:30:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "68005434fd242f4f",
+        "title": "Univers du Cuir (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/univers-du-cuir-via-arobases-mwtx487wztth7gkpme",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données a affecté Univers du Cuir, exposant potentiellement 32 000 adresses e-mail.",
+        "published_at": "2026-11-24T00:49:00",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "da4e0ece7fcbd52a",
+        "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+        "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+        "source": "The Hacker News",
         "category": "Général",
         "cve": [],
         "tags": [
           "breach",
           "cve"
         ],
-        "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
-        "published_at": "2026-11-22T10:43:04",
+        "summary": "Cette semaine, des vulnérabilités critiques ont été découvertes dans VMware, Java, NGINX et Ruby, menaçant la sécurité informatique globale.",
+        "published_at": "2026-11-23T20:40:48",
         "score": 25,
-        "rank": 1
-      },
-      {
-        "guid": "fd00680f7ef20d06",
-        "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-        "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [],
-        "tags": [
-          "breach"
-        ],
-        "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\n\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored.\n\nOpenRouter, a gateway that routes customers' AI requests to a pool of",
-        "published_at": "2026-11-22T10:36:55",
-        "score": 25,
-        "rank": 2
-      },
-      {
-        "guid": "03f2515b51bd6fd7",
-        "title": "🏴‍☠️ Medusalocker has just published a new victim : Lee Health (Lee Memorial Health System) - partner clinic",
-        "url": "https://www.ransomware.live/id/TGVlIEhlYWx0aCAoTGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW0pIC0gcGFydG5lciBjbGluaWNAbWVkdXNhbG9ja2Vy",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [],
-        "summary": "Healthcare clinic affiliated with Lee Health / Lee Memorial Health System, Fort Myers, FL. Own eClinicalWorks EHR (192.168.20.75:8080) + QuickBooks Pro 2021; Epic access via Citrix Gateway https://cag.leememorial.org/. Dump of workstation 67.129.180.250: 777 files / 9.3 GB - 464 scanned patient medical PDFs (immunization histories, HHA scripts, guardianship forms), patient copay payments registry (Payment_*.txt, credit card transactions with patient names), user profiles Jaycee/Betty/Brooke + IT",
-        "published_at": "2026-11-22T23:24:10",
-        "score": 0,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 32,
-    "items_selected": 9,
+    "items_analyzed": 110,
+    "items_selected": 13,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 0,
+    "cves_total": 4,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
