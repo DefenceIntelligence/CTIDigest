@@ -1,79 +1,101 @@
-# 🛡️ ARGOS CTI Digest — 23 novembre 2026
+# 🛡️ ARGOS CTI Digest — 24 novembre 2026
 
-> Généré le 23/11/2026 à 04:01 UTC  ·  32 items analysés  ·  9 sélectionnés  ·  23 sources actives
+> Généré le 24/11/2026 à 03:01 UTC  ·  110 items analysés  ·  13 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-*Aucune vulnérabilité critique détectée dans la fenêtre de 24h.*
+### [Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions](https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html)
+**Source :** The Hacker News  **Publié :** 23/11/2026 18:52 UTC  **CVE :** `CVE-2026-134814`
+`cve` `vulnerability`
+Une vulnérabilité critique a été révélée dans binary-parser, permettant l'injection de code JavaScript par des définitions malveillantes.
+
+---
+
+### [Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning](https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html)
+**Source :** The Hacker News  **Publié :** 23/11/2026 18:11 UTC  **CVE :** `CVE-2026-84869`
+`apt` `cve` `vulnerability`
+Threat actors exploite CVE-2026-84869 dans ScreenConnect pour pirater les PC des techniciens de services d'assistance sans avertissement.
+
+---
+
+### [N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html)
+**Source :** The Hacker News  **Publié :** 23/11/2026 17:58 UTC  **CVE :** `CVE-2026-134624`
+`breach` `cve` `vulnerability`
+N-able a découvert une vulnérabilité grave, CVE-2026-134624, dans Mail Assure, permettant des attaques SSRF avec accès API avancé.
+
+---
+
+### [Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html)
+**Source :** The Hacker News  **Publié :** 23/11/2026 14:41 UTC  **CVE :** `CVE-2026-131914`
+`cve` `ransomware` `vulnerability`
+Une vulnérabilité critique dans Idunno.AntiCsrf a été exploitée, permettant l'exécution de code non authentifié (RCE).
+
+---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [Agence d'Accompagnement Actif à l'Évaluation Psychotechnique (AAAEP)](https://frenchbreaches.com/alertes/agence-d-accompagnement-actif-l-valuation-psychotechnique-aaaep-mwsfi1x6xgz6drfbeak)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 00:32 UTC
+### [L'Empreinte du Bois (via Arobases)](https://frenchbreaches.com/alertes/l-empreinte-du-bois-via-arobases-mwtwj3fsaa6v5s572l)
+**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:31 UTC
 `malware`
-AAAEP, spécialiste des tests pour récupérer son permis, visé par une fuite de données Le groupe de pirates BlackHatSect0r revendique une intrusion dans les systèmes d'AAAEP, un organisme français spécialisé dans les tests psychotechniques du permis de conduire. Les pirates affirm…
+L'Empreinte du Bois fait face à une fuite de données, avec des informations clients et factures exposées.
 
 ---
 
-### [Laboratoire pour la Santé Animale (LAPSA)](https://frenchbreaches.com/alertes/laboratoire-pour-la-sant-animale-lapsa-mwsgiojqs5jtk67611h)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 00:14 UTC
+### [Bocklip (via Arobases)](https://frenchbreaches.com/alertes/bocklip-via-arobases-mwtwfs5rrpthaimsfq9)
+**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:28 UTC
 `malware`
-LAPSA, marque française de croquettes pour chiens et chats, visée par une fuite de données Une marque française spécialisée dans l'alimentation des chiens et des chats fait l'objet d'une revendication de fuite de données concernant 80 000 clients. Un pirate affirme diffuser des i…
+Bocklip subit une fuite de données, avec des informations clients et bancaires partiellement révélées.
 
 ---
 
-### [🏴‍☠️ Panzer has just published a new victim : Agenzia Agorà Società Cooperativa Sociale](https://www.ransomware.live/id/QWdlbnppYSBBZ29yw6AgU29jaWV0w6AgQ29vcGVyYXRpdmEgU29jaWFsZUBQYW56ZXI)
-**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:55 UTC
+### [Les Gazons Parisiens (via Arobases)](https://frenchbreaches.com/alertes/les-gazons-parisiens-via-arobases-mwtv29sb8dyt5f4mtl6)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:50 UTC
 `malware`
-Agenzia Agorà is an Italian social cooperative (non-profit social enterprise) that works in community services, social assistance and youth development.
+Les Gazons Parisiens est victime d'une fuite de données, plus de 320 000 lignes d'informations potentiellement compromises.
 
 ---
 
-### [🏴‍☠️ Medusalocker has just published a new victim : BASABAH](https://www.ransomware.live/id/QkFTQUJBSEBtZWR1c2Fsb2NrZXI)
-**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:41 UTC
+### [La Fabrique d’Écharpe (via Arobases)](https://frenchbreaches.com/alertes/la-fabrique-d-charpe-via-arobases-mwtuyslfziyg0gpig68)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:49 UTC
 `malware`
-[AI generated] N/A
-
-I don&#x27;t have reliable, verifiable information about a company named &quot;BASABAH.&quot; Providing fabricated details about its industry, operations, or country would risk generating inaccurate threat intelligence. If you have additional context (such as a website, registrat
+La Fabrique d’Écharpe est visée par un pirate, avec des milliers de coordonnées potentiellement exposées.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : East Jerusalem food distribution firm (AlArabi InterBase accounting estate)](https://www.ransomware.live/id/RWFzdCBKZXJ1c2FsZW0gZm9vZCBkaXN0cmlidXRpb24gZmlybSAoQWxBcmFiaSBJbnRlckJhc2UgYWNjb3VudGluZyBlc3RhdGUpQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:20 UTC
+### [Happy Candy (via Arobases)](https://frenchbreaches.com/alertes/happy-candy-via-arobases-mwtuteuvw9w64w09gg)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:43 UTC
 `malware`
-This disclosure concerns a verified set of records from an organization in the Food and confectionery distribution sector. The material scheduled for publication comprises a set of business records, including financial, client, legal, and operational material.
-Deadline: 2026-11-26 16:23 UTC
+Happy Candy fait l'objet d'une fuite de données, plus de 7 200 adresses e-mail revendiquées après le piratage.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Indian railway Tatkal booking agency (licensed booking bot operator)](https://www.ransomware.live/id/SW5kaWFuIHJhaWx3YXkgVGF0a2FsIGJvb2tpbmcgYWdlbmN5IChsaWNlbnNlZCBib29raW5nIGJvdCBvcGVyYXRvcilAUGl4ZWxMZWFrcw)
-**Source :** Ransomware.live News  **Publié :** 22/11/2026 22:19 UTC
+### [Idil Diffusion (via Arobases)](https://frenchbreaches.com/alertes/idil-diffusion-via-arobases-mwtuplwhuw2izdzcl2)
+**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:39 UTC
 `malware`
-This disclosure concerns a verified set of records from an operator in the railway ticket booking services sector in India. The material scheduled for publication comprises the booking database with four railway booking accounts and payment collection accounts, browser profiles with the live booking
+Idil Diffusion a subi une fuite de données, plus de 1,4 million d'enregistrements revendiqués après le piratage.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [Cleverbridge warns hackers stole credit card numbers, CVVs in data breach](https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/)
-**Source :** Bleeping Computer  **Publié :** 22/11/2026 10:43 UTC  **Score :** 25
+### 1. [FBI reportedly facing second data breach involving National Crime Information Center](https://therecord.media/fbi-cyberattack-data-breach)
+**Source :** The Record  **Publié :** 23/11/2026 18:30 UTC  **Score :** 35
 `breach` `cve`
-E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]
+L'FBI enquête sur une nouvelle fuite de données concernant le National Crime Information Center, un répertoire utilisé par les agences de police américaines.
 
-### 2. [OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms](https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html)
-**Source :** The Hacker News  **Publié :** 22/11/2026 10:36 UTC  **Score :** 25
+### 2. [Univers du Cuir (via Arobases)](https://frenchbreaches.com/alertes/univers-du-cuir-via-arobases-mwtx487wztth7gkpme)
+**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:49 UTC  **Score :** 25
 `breach`
-Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.
+Une fuite de données a affecté Univers du Cuir, exposant potentiellement 32 000 adresses e-mail.
 
-Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a promp
-
-### 3. [🏴‍☠️ Medusalocker has just published a new victim : Lee Health (Lee Memorial Health System) - partner clinic](https://www.ransomware.live/id/TGVlIEhlYWx0aCAoTGVlIE1lbW9yaWFsIEhlYWx0aCBTeXN0ZW0pIC0gcGFydG5lciBjbGluaWNAbWVkdXNhbG9ja2Vy)
-**Source :** Ransomware.live News  **Publié :** 22/11/2026 23:24 UTC  **Score :** 0
-Healthcare clinic affiliated with Lee Health / Lee Memorial Health System, Fort Myers, FL. Own eClinicalWorks EHR (192.168.20.75:8080) + QuickBooks Pro 2021; Epic access via Citrix Gateway https://cag.leememorial.org/. Dump of workstation 67.129.180.250: 777 files / 9.3 GB - 464 scanned patient medi
+### 3. [⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble](https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html)
+**Source :** The Hacker News  **Publié :** 23/11/2026 20:40 UTC  **Score :** 25
+`breach` `cve`
+Cette semaine, des vulnérabilités critiques ont été découvertes dans VMware, Java, NGINX et Ruby, menaçant la sécurité informatique globale.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-23.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-24.md`*
