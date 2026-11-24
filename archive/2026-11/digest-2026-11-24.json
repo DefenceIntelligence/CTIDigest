@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T03:01:11.654311+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "0404db022d7bd310",
+        "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+        "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-134814"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique a été révélée dans binary-parser, permettant l'injection de code JavaScript par des définitions malveillantes.",
+        "published_at": "2026-11-23T18:52:20",
+        "score": 20
+      },
+      {
+        "guid": "0bd05f53a8790f58",
+        "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-84869"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors exploite CVE-2026-84869 dans ScreenConnect pour pirater les PC des techniciens de services d'assistance sans avertissement.",
+        "published_at": "2026-11-23T18:11:04",
+        "score": 20
+      },
+      {
+        "guid": "d62ce0516971971f",
+        "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+        "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-134624"
+        ],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "N-able a découvert une vulnérabilité grave, CVE-2026-134624, dans Mail Assure, permettant des attaques SSRF avec accès API avancé.",
+        "published_at": "2026-11-23T17:58:09",
+        "score": 40
+      },
+      {
+        "guid": "a9baa14dac8d692e",
+        "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-131914"
+        ],
+        "tags": [
+          "cve",
+          "ransomware",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans Idunno.AntiCsrf a été exploitée, permettant l'exécution de code non authentifié (RCE).",
+        "published_at": "2026-11-23T14:41:56",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "225a10dfe86a246b",
+        "title": "L'Empreinte du Bois (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/l-empreinte-du-bois-via-arobases-mwtwj3fsaa6v5s572l",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "L'Empreinte du Bois fait face à une fuite de données, avec des informations clients et factures exposées.",
+        "published_at": "2026-11-24T00:31:00",
+        "score": 17
+      },
+      {
+        "guid": "1b9cee3fe5b62c75",
+        "title": "Bocklip (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/bocklip-via-arobases-mwtwfs5rrpthaimsfq9",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Bocklip subit une fuite de données, avec des informations clients et bancaires partiellement révélées.",
+        "published_at": "2026-11-24T00:28:00",
+        "score": 17
+      },
+      {
+        "guid": "fc7569d830384217",
+        "title": "Les Gazons Parisiens (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/les-gazons-parisiens-via-arobases-mwtv29sb8dyt5f4mtl6",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Les Gazons Parisiens est victime d'une fuite de données, plus de 320 000 lignes d'informations potentiellement compromises.",
+        "published_at": "2026-11-23T23:50:00",
+        "score": 17
+      },
+      {
+        "guid": "d393c091039e33bf",
+        "title": "La Fabrique d’Écharpe (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/la-fabrique-d-charpe-via-arobases-mwtuyslfziyg0gpig68",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La Fabrique d’Écharpe est visée par un pirate, avec des milliers de coordonnées potentiellement exposées.",
+        "published_at": "2026-11-23T23:49:00",
+        "score": 17
+      },
+      {
+        "guid": "ade9021657119d6a",
+        "title": "Happy Candy (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/happy-candy-via-arobases-mwtuteuvw9w64w09gg",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Happy Candy fait l'objet d'une fuite de données, plus de 7 200 adresses e-mail revendiquées après le piratage.",
+        "published_at": "2026-11-23T23:43:00",
+        "score": 17
+      },
+      {
+        "guid": "e84ea4d93d192cb9",
+        "title": "Idil Diffusion (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/idil-diffusion-via-arobases-mwtuplwhuw2izdzcl2",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Idil Diffusion a subi une fuite de données, plus de 1,4 million d'enregistrements revendiqués après le piratage.",
+        "published_at": "2026-11-23T23:39:00",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "9b62c1f89303ded5",
+        "title": "FBI reportedly facing second data breach involving National Crime Information Center",
+        "url": "https://therecord.media/fbi-cyberattack-data-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "L'FBI enquête sur une nouvelle fuite de données concernant le National Crime Information Center, un répertoire utilisé par les agences de police américaines.",
+        "published_at": "2026-11-23T18:30:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "68005434fd242f4f",
+        "title": "Univers du Cuir (via Arobases)",
+        "url": "https://frenchbreaches.com/alertes/univers-du-cuir-via-arobases-mwtx487wztth7gkpme",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Une fuite de données a affecté Univers du Cuir, exposant potentiellement 32 000 adresses e-mail.",
+        "published_at": "2026-11-24T00:49:00",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "da4e0ece7fcbd52a",
+        "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+        "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Cette semaine, des vulnérabilités critiques ont été découvertes dans VMware, Java, NGINX et Ruby, menaçant la sécurité informatique globale.",
+        "published_at": "2026-11-23T20:40:48",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 110,
+    "items_selected": 13,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 4,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
