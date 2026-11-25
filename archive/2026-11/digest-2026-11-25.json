@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T03:01:14.054438+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "8e6bfa5aafcd5199",
+        "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-119055"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Schneider Electric est conscient d'une vulnérabilité dans son produit EcoStruxure™ Power Build Rapsody.",
+        "published_at": "2026-11-24T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "d89d7820210161ec",
+        "title": "Danfoss AK-SM 8xxA Series",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-129713"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Les versions AK-SM8xxA &lt;=5.4.0 de Danfoss AK-SM 8xxA Series sont affectées par une vulnérabilité permettant l'exécution de code arbitraire.",
+        "published_at": "2026-11-24T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "650ff2c72713cde4",
+        "title": "AutomationDirect C-More EA9 Programming Software",
+        "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-127280"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Les versions du logiciel AutomationDirect C-More EA9 Programming Software sont affectées par une vulnérabilité permettant la corruption de la mémoire d'application.",
+        "published_at": "2026-11-24T12:00:00",
+        "score": 27
+      },
+      {
+        "guid": "993e12797a878b20",
+        "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+        "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-123903"
+        ],
+        "tags": [
+          "cve",
+          "malware",
+          "vulnerability"
+        ],
+        "summary": "Un bug critique dans VMware vCenter, évalué à 9.8 sur 10, peut être utilisé pour contourner l'authentification.",
+        "published_at": "2026-11-24T18:58:26",
+        "score": 32
+      },
+      {
+        "guid": "0f6f4f0269ef4aa9",
+        "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+        "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-87268"
+        ],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Un quirk dans le chargement du .NET Framework permet aux attaquants locaux d'exécuter du code non fiable sur Windows.",
+        "published_at": "2026-11-24T17:32:00",
+        "score": 32
+      },
+      {
+        "guid": "6457c08b8034f587",
+        "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-134624"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté deux vulnérabilités exploitées actuellement à son catalogue KEV, affectant N-able MailAssure et MONAI Label.",
+        "published_at": "2026-11-24T11:32:45",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "9fc35005a81b56e3",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Kegler, Brown, Hill & Ritter",
+        "url": "https://www.ransomware.live/id/S2VnbGVyLCBCcm93biwgSGlsbCAmIFJpdHRlckBTaWxlbnRSYW5zb21Hcm91cA",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Kegler, Brown, Hill & Ritter est une firme de droit américaine qui a été victime d'un rançongiciel.",
+        "published_at": "2026-11-24T23:57:20",
+        "score": 12
+      },
+      {
+        "guid": "b58c929bffb30d0c",
+        "title": "🏴‍☠️ Silentransomgroup has just published a new victim : Nonigman LLP",
+        "url": "https://www.ransomware.live/id/Tm9uaWdtYW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware"
+        ],
+        "summary": "Aucune information fiable n'est disponible sur la société Nonigman LLP.",
+        "published_at": "2026-11-24T23:26:44",
+        "score": 12
+      },
+      {
+        "guid": "567cc5a4e892f8f3",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Copperstone Clothing Company (Indian garment manufacturer/exporter, SQL Server ERP estate)",
+        "url": "https://www.ransomware.live/id/Q29wcGVyc3RvbmUgQ2xvdGhpbmcgQ29tcGFueSAoSW5kaWFuIGdhcm1lbnQgbWFudWZhY3R1cmVyL2V4cG9ydGVyLCBTUUwgU2VydmVyIEVSUCBlc3RhdGUpQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "La société Copperstone Clothing Company, une manufacture d'habillement en Inde, a été victime d'une fuite de données.",
+        "published_at": "2026-11-24T22:34:48",
+        "score": 12
+      },
+      {
+        "guid": "301a03fbc271d752",
+        "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+        "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt",
+          "breach",
+          "malware"
+        ],
+        "summary": "Le groupe Volant Manticore utilise un backdoor IPFS appelé KuboShell dans des campagnes d'espionnage en Iran.",
+        "published_at": "2026-11-24T22:24:07",
+        "score": 37
+      },
+      {
+        "guid": "3c24f3e76908d209",
+        "title": "🏴‍☠️ Rhysida has just published a new victim : Smile Designs LLC",
+        "url": "https://www.ransomware.live/id/U21pbGUgRGVzaWducyBMTENAcmh5c2lkYQ",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "ransomware"
+        ],
+        "summary": "Smile Designs LLC a été victime d'une exfiltration de 46 056 fichiers comprenant des informations personnelles et des données médicales sensibles.",
+        "published_at": "2026-11-24T21:52:30",
+        "score": 20
+      },
+      {
+        "guid": "920103755c6143b1",
+        "title": "🏴‍☠️ Falcon has just published a new victim : CSG Systems International",
+        "url": "https://www.ransomware.live/id/Q1NHIFN5c3RlbXMgSW50ZXJuYXRpb25hbEBGYWxjb24",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "cve",
+          "malware",
+          "ransomware"
+        ],
+        "summary": "CSG Systems International a été victime d'une extraction de 1,3 TB de données technologiques et commerciales sensibles.",
+        "published_at": "2026-11-24T21:22:14",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "74daa279265873bb",
+        "title": "Lawmakers warn ID verification companies to bolster security after September hack",
+        "url": "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Des membres du congrès américains ont exhorté les entreprises d'identification des identités à renforcer leur sécurité après une faille de sécurité chez IDscan en septembre.",
+        "published_at": "2026-11-24T17:49:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "6e6ee986a3e6e0f2",
+        "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+        "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "McDonald’s Japan a divulgué un incident de cybersécurité exposant les historiques d’achats et la localisation des clients via leurs appareils mobiles.",
+        "published_at": "2026-11-24T13:00:00",
+        "score": 35,
+        "rank": 2
+      },
+      {
+        "guid": "92adc086560d9927",
+        "title": "Radware discloses breach exposing customer cloud access keys",
+        "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Radware a signalé une vulnérabilité qui a permis l'accès à certains détails des comptes et aux clés d'accès cloud de ses clients.",
+        "published_at": "2026-11-24T12:49:05",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 86,
+    "items_selected": 15,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 6,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
