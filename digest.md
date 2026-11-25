@@ -1,101 +1,115 @@
-# 🛡️ ARGOS CTI Digest — 24 novembre 2026
+# 🛡️ ARGOS CTI Digest — 25 novembre 2026
 
-> Généré le 24/11/2026 à 03:01 UTC  ·  110 items analysés  ·  13 sélectionnés  ·  23 sources actives
+> Généré le 25/11/2026 à 03:01 UTC  ·  86 items analysés  ·  15 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions](https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html)
-**Source :** The Hacker News  **Publié :** 23/11/2026 18:52 UTC  **CVE :** `CVE-2026-134814`
+### [Schneider Electric EcoStruxure Power Build Rapsody software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02)
+**Source :** CISA Advisories  **Publié :** 24/11/2026 12:00 UTC  **CVE :** `CVE-2026-119055`
 `cve` `vulnerability`
-Une vulnérabilité critique a été révélée dans binary-parser, permettant l'injection de code JavaScript par des définitions malveillantes.
+Schneider Electric est conscient d'une vulnérabilité dans son produit EcoStruxure™ Power Build Rapsody.
 
 ---
 
-### [Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning](https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html)
-**Source :** The Hacker News  **Publié :** 23/11/2026 18:11 UTC  **CVE :** `CVE-2026-84869`
-`apt` `cve` `vulnerability`
-Threat actors exploite CVE-2026-84869 dans ScreenConnect pour pirater les PC des techniciens de services d'assistance sans avertissement.
+### [Danfoss AK-SM 8xxA Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03)
+**Source :** CISA Advisories  **Publié :** 24/11/2026 12:00 UTC  **CVE :** `CVE-2026-129713`
+`cve` `vulnerability`
+Les versions AK-SM8xxA &lt;=5.4.0 de Danfoss AK-SM 8xxA Series sont affectées par une vulnérabilité permettant l'exécution de code arbitraire.
 
 ---
 
-### [N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html)
-**Source :** The Hacker News  **Publié :** 23/11/2026 17:58 UTC  **CVE :** `CVE-2026-134624`
-`breach` `cve` `vulnerability`
-N-able a découvert une vulnérabilité grave, CVE-2026-134624, dans Mail Assure, permettant des attaques SSRF avec accès API avancé.
+### [AutomationDirect C-More EA9 Programming Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01)
+**Source :** CISA Advisories  **Publié :** 24/11/2026 12:00 UTC  **CVE :** `CVE-2026-127280`
+`cve` `malware` `vulnerability`
+Les versions du logiciel AutomationDirect C-More EA9 Programming Software sont affectées par une vulnérabilité permettant la corruption de la mémoire d'application.
 
 ---
 
-### [Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html)
-**Source :** The Hacker News  **Publié :** 23/11/2026 14:41 UTC  **CVE :** `CVE-2026-131914`
-`cve` `ransomware` `vulnerability`
-Une vulnérabilité critique dans Idunno.AntiCsrf a été exploitée, permettant l'exécution de code non authentifié (RCE).
+### [VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html)
+**Source :** The Hacker News  **Publié :** 24/11/2026 18:58 UTC  **CVE :** `CVE-2026-123903`
+`cve` `malware` `vulnerability`
+Un bug critique dans VMware vCenter, évalué à 9.8 sur 10, peut être utilisé pour contourner l'authentification.
+
+---
+
+### [Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html)
+**Source :** The Hacker News  **Publié :** 24/11/2026 17:32 UTC  **CVE :** `CVE-2026-87268`
+`cve` `malware`
+Un quirk dans le chargement du .NET Framework permet aux attaquants locaux d'exécuter du code non fiable sur Windows.
+
+---
+
+### [Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day](https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html)
+**Source :** The Hacker News  **Publié :** 24/11/2026 11:32 UTC  **CVE :** `CVE-2026-134624`
+`cve` `vulnerability`
+CISA a ajouté deux vulnérabilités exploitées actuellement à son catalogue KEV, affectant N-able MailAssure et MONAI Label.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [L'Empreinte du Bois (via Arobases)](https://frenchbreaches.com/alertes/l-empreinte-du-bois-via-arobases-mwtwj3fsaa6v5s572l)
-**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:31 UTC
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Kegler, Brown, Hill & Ritter](https://www.ransomware.live/id/S2VnbGVyLCBCcm93biwgSGlsbCAmIFJpdHRlckBTaWxlbnRSYW5zb21Hcm91cA)
+**Source :** Ransomware.live News  **Publié :** 24/11/2026 23:57 UTC
 `malware`
-L'Empreinte du Bois fait face à une fuite de données, avec des informations clients et factures exposées.
+Kegler, Brown, Hill & Ritter est une firme de droit américaine qui a été victime d'un rançongiciel.
 
 ---
 
-### [Bocklip (via Arobases)](https://frenchbreaches.com/alertes/bocklip-via-arobases-mwtwfs5rrpthaimsfq9)
-**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:28 UTC
-`malware`
-Bocklip subit une fuite de données, avec des informations clients et bancaires partiellement révélées.
+### [🏴‍☠️ Silentransomgroup has just published a new victim : Nonigman LLP](https://www.ransomware.live/id/Tm9uaWdtYW4gTExQQFNpbGVudFJhbnNvbUdyb3Vw)
+**Source :** Ransomware.live News  **Publié :** 24/11/2026 23:26 UTC
+`cve` `malware`
+Aucune information fiable n'est disponible sur la société Nonigman LLP.
 
 ---
 
-### [Les Gazons Parisiens (via Arobases)](https://frenchbreaches.com/alertes/les-gazons-parisiens-via-arobases-mwtv29sb8dyt5f4mtl6)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:50 UTC
+### [🏴‍☠️ Pixelleaks has just published a new victim : Copperstone Clothing Company (Indian garment manufacturer/exporter, SQL Server ERP estate)](https://www.ransomware.live/id/Q29wcGVyc3RvbmUgQ2xvdGhpbmcgQ29tcGFueSAoSW5kaWFuIGdhcm1lbnQgbWFudWZhY3R1cmVyL2V4cG9ydGVyLCBTUUwgU2VydmVyIEVSUCBlc3RhdGUpQFBpeGVsTGVha3M)
+**Source :** Ransomware.live News  **Publié :** 24/11/2026 22:34 UTC
 `malware`
-Les Gazons Parisiens est victime d'une fuite de données, plus de 320 000 lignes d'informations potentiellement compromises.
+La société Copperstone Clothing Company, une manufacture d'habillement en Inde, a été victime d'une fuite de données.
 
 ---
 
-### [La Fabrique d’Écharpe (via Arobases)](https://frenchbreaches.com/alertes/la-fabrique-d-charpe-via-arobases-mwtuyslfziyg0gpig68)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:49 UTC
-`malware`
-La Fabrique d’Écharpe est visée par un pirate, avec des milliers de coordonnées potentiellement exposées.
+### [Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html)
+**Source :** The Hacker News  **Publié :** 24/11/2026 22:24 UTC
+`apt` `breach` `malware`
+Le groupe Volant Manticore utilise un backdoor IPFS appelé KuboShell dans des campagnes d'espionnage en Iran.
 
 ---
 
-### [Happy Candy (via Arobases)](https://frenchbreaches.com/alertes/happy-candy-via-arobases-mwtuteuvw9w64w09gg)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:43 UTC
-`malware`
-Happy Candy fait l'objet d'une fuite de données, plus de 7 200 adresses e-mail revendiquées après le piratage.
+### [🏴‍☠️ Rhysida has just published a new victim : Smile Designs LLC](https://www.ransomware.live/id/U21pbGUgRGVzaWducyBMTENAcmh5c2lkYQ)
+**Source :** Ransomware.live News  **Publié :** 24/11/2026 21:52 UTC
+`breach` `ransomware`
+Smile Designs LLC a été victime d'une exfiltration de 46 056 fichiers comprenant des informations personnelles et des données médicales sensibles.
 
 ---
 
-### [Idil Diffusion (via Arobases)](https://frenchbreaches.com/alertes/idil-diffusion-via-arobases-mwtuplwhuw2izdzcl2)
-**Source :** FrenchBreaches  **Publié :** 23/11/2026 23:39 UTC
-`malware`
-Idil Diffusion a subi une fuite de données, plus de 1,4 million d'enregistrements revendiqués après le piratage.
+### [🏴‍☠️ Falcon has just published a new victim : CSG Systems International](https://www.ransomware.live/id/Q1NHIFN5c3RlbXMgSW50ZXJuYXRpb25hbEBGYWxjb24)
+**Source :** Ransomware.live News  **Publié :** 24/11/2026 21:22 UTC
+`cve` `malware` `ransomware`
+CSG Systems International a été victime d'une extraction de 1,3 TB de données technologiques et commerciales sensibles.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [FBI reportedly facing second data breach involving National Crime Information Center](https://therecord.media/fbi-cyberattack-data-breach)
-**Source :** The Record  **Publié :** 23/11/2026 18:30 UTC  **Score :** 35
-`breach` `cve`
-L'FBI enquête sur une nouvelle fuite de données concernant le National Crime Information Center, un répertoire utilisé par les agences de police américaines.
-
-### 2. [Univers du Cuir (via Arobases)](https://frenchbreaches.com/alertes/univers-du-cuir-via-arobases-mwtx487wztth7gkpme)
-**Source :** FrenchBreaches  **Publié :** 24/11/2026 00:49 UTC  **Score :** 25
+### 1. [Lawmakers warn ID verification companies to bolster security after September hack](https://therecord.media/idscan-data-breach-warning-congressional-letter)
+**Source :** The Record  **Publié :** 24/11/2026 17:49 UTC  **Score :** 35
 `breach`
-Une fuite de données a affecté Univers du Cuir, exposant potentiellement 32 000 adresses e-mail.
+Des membres du congrès américains ont exhorté les entreprises d'identification des identités à renforcer leur sécurité après une faille de sécurité chez IDscan en septembre.
 
-### 3. [⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble](https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html)
-**Source :** The Hacker News  **Publié :** 23/11/2026 20:40 UTC  **Score :** 25
-`breach` `cve`
-Cette semaine, des vulnérabilités critiques ont été découvertes dans VMware, Java, NGINX et Ruby, menaçant la sécurité informatique globale.
+### 2. [McDonald’s Japan discloses breach exposing customer purchase and location data](https://therecord.media/japan-mcdonalds-cyberattack-breach)
+**Source :** The Record  **Publié :** 24/11/2026 13:00 UTC  **Score :** 35
+`breach`
+McDonald’s Japan a divulgué un incident de cybersécurité exposant les historiques d’achats et la localisation des clients via leurs appareils mobiles.
+
+### 3. [Radware discloses breach exposing customer cloud access keys](https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/)
+**Source :** Bleeping Computer  **Publié :** 24/11/2026 12:49 UTC  **Score :** 25
+`breach`
+Radware a signalé une vulnérabilité qui a permis l'accès à certains détails des comptes et aux clés d'accès cloud de ses clients.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-24.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-25.md`*
