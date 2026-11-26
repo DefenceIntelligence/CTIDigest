@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T03:01:16.975884+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "d122d9687ccff4bf",
+        "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+        "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+        "source": "CISA Advisories",
+        "category": "Vulnérabilités",
+        "cve": [
+          "CVE-2026-133469",
+          "CVE-2025-41450",
+          "CVE-2026-133323",
+          "CVE-2023-25915",
+          "CVE-2026-133311",
+          "CVE-2026-133324",
+          "CVE-2026-133303",
+          "CVE-2023-25914",
+          "CVE-2026-103406",
+          "CVE-2026-133275"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté 10 vulnérabilités connues à son catalogue de vulnérabilités exploitées, dont CVE-2023-25914 concernant un vulnérabilité de parcours de chemin chez Danfoss.",
+        "published_at": "2026-11-25T12:00:00",
+        "score": 15
+      },
+      {
+        "guid": "6efa39d0c7791878",
+        "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-129243",
+          "CVE-2026-120705"
+        ],
+        "tags": [
+          "apt",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Threat actors exploitent deux vulnérabilités récentes dans GeoServer, CVE-2026-120705 et CVE-2026-129243.",
+        "published_at": "2026-11-25T18:18:54",
+        "score": 20
+      },
+      {
+        "guid": "5a4234425c4b08d3",
+        "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+        "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-132165"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté une vulnérabilité critique concernant Drupal (CVE-2026-132165) à son catalogue de vulnérabilités exploitées.",
+        "published_at": "2026-11-25T16:53:26",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "a1c54a3d336e5c6d",
+        "title": "🏴‍☠️ Dark project has just published a new victim : Golden State College & Milan Institute",
+        "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXRlIENvbGxlZ2UgJiBNaWxhbiBJbnN0aXR1dGVARGFyayBQcm9qZWN0",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Golden State College et Milan Institute ont été victimes d'une attaque informatique, entraînant la fuite de plus de 420 GB de données confidentielles.",
+        "published_at": "2026-11-26T00:50:57",
+        "score": 32
+      },
+      {
+        "guid": "4ea814d9e63a3d3b",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Reflex Electromechanical & Trade Co. Ltd. (Nablus pumps and elevators engineering house)",
+        "url": "https://www.ransomware.live/id/UmVmbGV4IEVsZWN0cm9tZWNoYW5pY2FsICYgVHJhZGUgQ28uIEx0ZC4gKE5hYmx1cyBwdW1wcyBhbmQgZWxldmF0b3JzIGVuZ2luZWVyaW5nIGhvdXNlKUBQaXhlbExlYWtz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks a publié des documents d'entreprise de Reflex Electromechanical & Trade Co. Ltd., comprenant des informations financières et commerciales, jusqu'au 29 novembre 2026.",
+        "published_at": "2026-11-25T22:46:48",
+        "score": 12
+      },
+      {
+        "guid": "a97c0e82e8cd6ac4",
+        "title": "🏴‍☠️ N0n has just published a new victim : Mattel",
+        "url": "https://www.ransomware.live/id/TWF0dGVsQE4wbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N0n a publié un fichier d'employés de Mattel contenant des noms et adresses électroniques pour 29 employés, y compris ceux ayant accès à la gestion des magasins.",
+        "published_at": "2026-11-25T22:30:18",
+        "score": 12
+      },
+      {
+        "guid": "26cb45dbf2d434b4",
+        "title": "🏴‍☠️ N0n has just published a new victim : Generations Wealth",
+        "url": "https://www.ransomware.live/id/R2VuZXJhdGlvbnMgV2VhbHRoQE4wbg",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "N0n a publié les informations client de Generations Wealth incluant des documents financiers et d'identité pour plus de mille clients.",
+        "published_at": "2026-11-25T22:28:21",
+        "score": 12
+      },
+      {
+        "guid": "b9af46b9d191b026",
+        "title": "🏴‍☠️ N0n has just published a new victim : Gannett Co., Inc. (USA TODAY Network)",
+        "url": "https://www.ransomware.live/id/R2FubmV0dCBDby4sIEluYy4gKFVTQSBUT0RBWSBOZXR3b3JrKUBOMG4",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N0n a publié un graphique des identités des abonnés du USA TODAY Network avec environ 166 millions d'identifiants utilisateur.",
+        "published_at": "2026-11-25T22:27:44",
+        "score": 12
+      },
+      {
+        "guid": "edef2652d6af003c",
+        "title": "🏴‍☠️ N0n has just published a new victim : Day One Biopharmaceuticals, Inc.",
+        "url": "https://www.ransomware.live/id/RGF5IE9uZSBCaW9waGFybWFjZXV0aWNhbHMsIEluYy5ATjBu",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "N0n a publié les fichiers médicaux électroniques de Day One Biopharmaceuticals pour plus de 143 000 patients, comprenant des informations cliniques et diagnostiques.",
+        "published_at": "2026-11-25T22:26:29",
+        "score": 12
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "216ea9024bf9becd",
+        "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+        "url": "https://therecord.media/fifa-data-breach-limited",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "FIFA a déclaré que ses informations personnelles et commerciales limitées ont été accessibles par des hackers; l'enquête est en cours.",
+        "published_at": "2026-11-25T20:40:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "8d39fb41ac02f793",
+        "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+        "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "Le FinCEN a subi une incident de cybersécurité entraînant un accès non autorisé à certains systèmes. Des mesures préventives ont été prises en fermant temporairement certains systèmes.",
+        "published_at": "2026-11-25T18:00:08",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "96db5f2020cf546d",
+        "title": "Tracking Incidents of Hacking Using AI Tools",
+        "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Daniel Meissler utilise des outils d'IA pour suivre les incidents de piratage et identifier les logiciels utilisés par les hackers offensifs.",
+        "published_at": "2026-11-25T12:07:21",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 109,
+    "items_selected": 12,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 13,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
