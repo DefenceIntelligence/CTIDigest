@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T03:00:56.995740+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "34de427c36c7c91e",
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-136716",
+          "CVE-2026-132165"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Drupal alerte sur une vulnérabilité critique en exploitation.",
+        "published_at": "2026-11-26T12:32:34",
+        "score": 20
+      },
+      {
+        "guid": "33b3c889029fb172",
+        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-133275"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté 10 vulnérabilités, dont 5 chez Mitel MiCollab, au catalogue KEV.",
+        "published_at": "2026-11-26T12:14:46",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "2fa606349ceb49b2",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Monolithic Power Systems (NASDAQ: MPWR, mps.com)",
+        "url": "https://www.ransomware.live/id/TW9ub2xpdGhpYyBQb3dlciBTeXN0ZW1zIChOQVNEQVE6IE1QV1IsIG1wcy5jb20pQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks publie des données sensibles de Monolithic Power Systems.",
+        "published_at": "2026-11-26T23:32:02",
+        "score": 12
+      },
+      {
+        "guid": "e0ef05fb462be24f",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Keyes Financial Strategies Inc.",
+        "url": "https://www.ransomware.live/id/S2V5ZXMgRmluYW5jaWFsIFN0cmF0ZWdpZXMgSW5jLkBQaXhlbExlYWtz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Pixelleaks révèle des informations confidentielles chez Keyes Financial Strategies Inc.",
+        "published_at": "2026-11-26T23:31:41",
+        "score": 12
+      },
+      {
+        "guid": "82741fb391f44157",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : The Law Firm of Kavesh, Minor & Otis, Inc.",
+        "url": "https://www.ransomware.live/id/VGhlIExhdyBGaXJtIG9mIEthdmVzaCwgTWlub3IgJiBPdGlzLCBJbmMuQFBpeGVsTGVha3M",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks expose les données de The Law Firm of Kavesh, Minor & Otis, Inc.",
+        "published_at": "2026-11-26T23:31:21",
+        "score": 12
+      },
+      {
+        "guid": "53cc6650771fe173",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : MHC Financial Inc",
+        "url": "https://www.ransomware.live/id/TUhDIEZpbmFuY2lhbCBJbmNAUGl4ZWxMZWFrcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Pixelleaks publie des informations confidentielles chez MHC Financial Inc.",
+        "published_at": "2026-11-26T23:31:01",
+        "score": 12
+      },
+      {
+        "guid": "9aa6500438416328",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : LockeBridge Capital Partners",
+        "url": "https://www.ransomware.live/id/TG9ja2VCcmlkZ2UgQ2FwaXRhbCBQYXJ0bmVyc0BQaXhlbExlYWtz",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Pixelleaks révèle les données de LockeBridge Capital Partners.",
+        "published_at": "2026-11-26T23:30:41",
+        "score": 12
+      },
+      {
+        "guid": "443332cc6e725d95",
+        "title": "Buffalo Grill (via Brevo)",
+        "url": "https://frenchbreaches.com/alertes/buffalo-grill-via-brevo-mwy2f0gsrj74f1h7yp",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Buffalo Grill fait face à une fuite de données après un incident de cybersécurité chez Brevo.",
+        "published_at": "2026-11-26T22:27:00",
+        "score": 37
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "6791d73f0cf86088",
+        "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+        "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "ThreatsDay: 10 millions de services NGINX en danger, 250 extensions malveillantes et hijacking d'AI des serveurs.",
+        "published_at": "2026-11-27T01:09:57",
+        "score": 25,
+        "rank": 1
+      },
+      {
+        "guid": "00222f6ae974b7ce",
+        "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+        "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve"
+        ],
+        "summary": "1Password confirme un piratage de son compte GitHub avec accès limité à ses systèmes backend.",
+        "published_at": "2026-11-26T09:50:22",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "70819d911877b787",
+        "title": "🏴‍☠️ Anubis has just published a new victim : FYE",
+        "url": "https://www.ransomware.live/id/RllFQGFudWJpcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Anubis a menacé la société FYE et compromis des données, notamment sur les cartes Pokémon et les figurines d'anime.",
+        "published_at": "2026-11-26T21:22:20",
+        "score": 20,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 43,
+    "items_selected": 11,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 3,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
