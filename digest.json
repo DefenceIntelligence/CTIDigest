@@ -1,121 +1,65 @@
 {
   "schema_version": "1.0",
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T03:01:16.975884+00:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T03:00:56.995740+00:00",
   "github": {},
   "sections": {
     "vulnerabilities": [
       {
-        "guid": "d122d9687ccff4bf",
-        "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
-        "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-        "source": "CISA Advisories",
-        "category": "Vulnérabilités",
-        "cve": [
-          "CVE-2026-133469",
-          "CVE-2025-41450",
-          "CVE-2026-133323",
-          "CVE-2023-25915",
-          "CVE-2026-133311",
-          "CVE-2026-133324",
-          "CVE-2026-133303",
-          "CVE-2023-25914",
-          "CVE-2026-103406",
-          "CVE-2026-133275"
-        ],
-        "tags": [
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "CISA a ajouté 10 vulnérabilités connues à son catalogue de vulnérabilités exploitées, dont CVE-2023-25914 concernant un vulnérabilité de parcours de chemin chez Danfoss.",
-        "published_at": "2026-11-25T12:00:00",
-        "score": 15
-      },
-      {
-        "guid": "6efa39d0c7791878",
-        "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-        "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "guid": "34de427c36c7c91e",
+        "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+        "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [
-          "CVE-2026-129243",
-          "CVE-2026-120705"
-        ],
-        "tags": [
-          "apt",
-          "cve",
-          "vulnerability"
-        ],
-        "summary": "Threat actors exploitent deux vulnérabilités récentes dans GeoServer, CVE-2026-120705 et CVE-2026-129243.",
-        "published_at": "2026-11-25T18:18:54",
-        "score": 20
-      },
-      {
-        "guid": "5a4234425c4b08d3",
-        "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-        "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-        "source": "The Hacker News",
-        "category": "Général",
-        "cve": [
+          "CVE-2026-136716",
           "CVE-2026-132165"
         ],
         "tags": [
           "cve",
           "vulnerability"
         ],
-        "summary": "CISA a ajouté une vulnérabilité critique concernant Drupal (CVE-2026-132165) à son catalogue de vulnérabilités exploitées.",
-        "published_at": "2026-11-25T16:53:26",
+        "summary": "Drupal alerte sur une vulnérabilité critique en exploitation.",
+        "published_at": "2026-11-26T12:32:34",
+        "score": 20
+      },
+      {
+        "guid": "33b3c889029fb172",
+        "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+        "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-133275"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "CISA a ajouté 10 vulnérabilités, dont 5 chez Mitel MiCollab, au catalogue KEV.",
+        "published_at": "2026-11-26T12:14:46",
         "score": 20
       }
     ],
     "campaigns": [
       {
-        "guid": "a1c54a3d336e5c6d",
-        "title": "🏴‍☠️ Dark project has just published a new victim : Golden State College & Milan Institute",
-        "url": "https://www.ransomware.live/id/R29sZGVuIFN0YXRlIENvbGxlZ2UgJiBNaWxhbiBJbnN0aXR1dGVARGFyayBQcm9qZWN0",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "breach",
-          "malware"
-        ],
-        "summary": "Golden State College et Milan Institute ont été victimes d'une attaque informatique, entraînant la fuite de plus de 420 GB de données confidentielles.",
-        "published_at": "2026-11-26T00:50:57",
-        "score": 32
-      },
-      {
-        "guid": "4ea814d9e63a3d3b",
-        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Reflex Electromechanical & Trade Co. Ltd. (Nablus pumps and elevators engineering house)",
-        "url": "https://www.ransomware.live/id/UmVmbGV4IEVsZWN0cm9tZWNoYW5pY2FsICYgVHJhZGUgQ28uIEx0ZC4gKE5hYmx1cyBwdW1wcyBhbmQgZWxldmF0b3JzIGVuZ2luZWVyaW5nIGhvdXNlKUBQaXhlbExlYWtz",
+        "guid": "2fa606349ceb49b2",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Monolithic Power Systems (NASDAQ: MPWR, mps.com)",
+        "url": "https://www.ransomware.live/id/TW9ub2xpdGhpYyBQb3dlciBTeXN0ZW1zIChOQVNEQVE6IE1QV1IsIG1wcy5jb20pQFBpeGVsTGVha3M",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "Pixelleaks a publié des documents d'entreprise de Reflex Electromechanical & Trade Co. Ltd., comprenant des informations financières et commerciales, jusqu'au 29 novembre 2026.",
-        "published_at": "2026-11-25T22:46:48",
+        "summary": "Pixelleaks publie des données sensibles de Monolithic Power Systems.",
+        "published_at": "2026-11-26T23:32:02",
         "score": 12
       },
       {
-        "guid": "a97c0e82e8cd6ac4",
-        "title": "🏴‍☠️ N0n has just published a new victim : Mattel",
-        "url": "https://www.ransomware.live/id/TWF0dGVsQE4wbg",
-        "source": "Ransomware.live News",
-        "category": "Ransomware",
-        "cve": [],
-        "tags": [
-          "malware"
-        ],
-        "summary": "N0n a publié un fichier d'employés de Mattel contenant des noms et adresses électroniques pour 29 employés, y compris ceux ayant accès à la gestion des magasins.",
-        "published_at": "2026-11-25T22:30:18",
-        "score": 12
-      },
-      {
-        "guid": "26cb45dbf2d434b4",
-        "title": "🏴‍☠️ N0n has just published a new victim : Generations Wealth",
-        "url": "https://www.ransomware.live/id/R2VuZXJhdGlvbnMgV2VhbHRoQE4wbg",
+        "guid": "e0ef05fb462be24f",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : Keyes Financial Strategies Inc.",
+        "url": "https://www.ransomware.live/id/S2V5ZXMgRmluYW5jaWFsIFN0cmF0ZWdpZXMgSW5jLkBQaXhlbExlYWtz",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
@@ -123,60 +67,89 @@
           "malware",
           "patch"
         ],
-        "summary": "N0n a publié les informations client de Generations Wealth incluant des documents financiers et d'identité pour plus de mille clients.",
-        "published_at": "2026-11-25T22:28:21",
+        "summary": "Pixelleaks révèle des informations confidentielles chez Keyes Financial Strategies Inc.",
+        "published_at": "2026-11-26T23:31:41",
         "score": 12
       },
       {
-        "guid": "b9af46b9d191b026",
-        "title": "🏴‍☠️ N0n has just published a new victim : Gannett Co., Inc. (USA TODAY Network)",
-        "url": "https://www.ransomware.live/id/R2FubmV0dCBDby4sIEluYy4gKFVTQSBUT0RBWSBOZXR3b3JrKUBOMG4",
+        "guid": "82741fb391f44157",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : The Law Firm of Kavesh, Minor & Otis, Inc.",
+        "url": "https://www.ransomware.live/id/VGhlIExhdyBGaXJtIG9mIEthdmVzaCwgTWlub3IgJiBPdGlzLCBJbmMuQFBpeGVsTGVha3M",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "N0n a publié un graphique des identités des abonnés du USA TODAY Network avec environ 166 millions d'identifiants utilisateur.",
-        "published_at": "2026-11-25T22:27:44",
+        "summary": "Pixelleaks expose les données de The Law Firm of Kavesh, Minor & Otis, Inc.",
+        "published_at": "2026-11-26T23:31:21",
         "score": 12
       },
       {
-        "guid": "edef2652d6af003c",
-        "title": "🏴‍☠️ N0n has just published a new victim : Day One Biopharmaceuticals, Inc.",
-        "url": "https://www.ransomware.live/id/RGF5IE9uZSBCaW9waGFybWFjZXV0aWNhbHMsIEluYy5ATjBu",
+        "guid": "53cc6650771fe173",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : MHC Financial Inc",
+        "url": "https://www.ransomware.live/id/TUhDIEZpbmFuY2lhbCBJbmNAUGl4ZWxMZWFrcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
+        "cve": [],
+        "tags": [
+          "malware",
+          "patch"
+        ],
+        "summary": "Pixelleaks publie des informations confidentielles chez MHC Financial Inc.",
+        "published_at": "2026-11-26T23:31:01",
+        "score": 12
+      },
+      {
+        "guid": "9aa6500438416328",
+        "title": "🏴‍☠️ Pixelleaks has just published a new victim : LockeBridge Capital Partners",
+        "url": "https://www.ransomware.live/id/TG9ja2VCcmlkZ2UgQ2FwaXRhbCBQYXJ0bmVyc0BQaXhlbExlYWtz",
         "source": "Ransomware.live News",
         "category": "Ransomware",
         "cve": [],
         "tags": [
           "malware"
         ],
-        "summary": "N0n a publié les fichiers médicaux électroniques de Day One Biopharmaceuticals pour plus de 143 000 patients, comprenant des informations cliniques et diagnostiques.",
-        "published_at": "2026-11-25T22:26:29",
+        "summary": "Pixelleaks révèle les données de LockeBridge Capital Partners.",
+        "published_at": "2026-11-26T23:30:41",
         "score": 12
+      },
+      {
+        "guid": "443332cc6e725d95",
+        "title": "Buffalo Grill (via Brevo)",
+        "url": "https://frenchbreaches.com/alertes/buffalo-grill-via-brevo-mwy2f0gsrj74f1h7yp",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Buffalo Grill fait face à une fuite de données après un incident de cybersécurité chez Brevo.",
+        "published_at": "2026-11-26T22:27:00",
+        "score": 37
       }
     ],
     "top_reads": [
       {
-        "guid": "216ea9024bf9becd",
-        "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
-        "url": "https://therecord.media/fifa-data-breach-limited",
-        "source": "The Record",
-        "category": "Éditorial",
+        "guid": "6791d73f0cf86088",
+        "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+        "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+        "source": "The Hacker News",
+        "category": "Général",
         "cve": [],
         "tags": [
-          "breach",
-          "cve"
+          "breach"
         ],
-        "summary": "FIFA a déclaré que ses informations personnelles et commerciales limitées ont été accessibles par des hackers; l'enquête est en cours.",
-        "published_at": "2026-11-25T20:40:00",
-        "score": 35,
+        "summary": "ThreatsDay: 10 millions de services NGINX en danger, 250 extensions malveillantes et hijacking d'AI des serveurs.",
+        "published_at": "2026-11-27T01:09:57",
+        "score": 25,
         "rank": 1
       },
       {
-        "guid": "8d39fb41ac02f793",
-        "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-        "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+        "guid": "00222f6ae974b7ce",
+        "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+        "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
         "source": "The Hacker News",
         "category": "Général",
         "cve": [],
@@ -184,34 +157,34 @@
           "breach",
           "cve"
         ],
-        "summary": "Le FinCEN a subi une incident de cybersécurité entraînant un accès non autorisé à certains systèmes. Des mesures préventives ont été prises en fermant temporairement certains systèmes.",
-        "published_at": "2026-11-25T18:00:08",
+        "summary": "1Password confirme un piratage de son compte GitHub avec accès limité à ses systèmes backend.",
+        "published_at": "2026-11-26T09:50:22",
         "score": 25,
         "rank": 2
       },
       {
-        "guid": "96db5f2020cf546d",
-        "title": "Tracking Incidents of Hacking Using AI Tools",
-        "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
-        "source": "Schneier on Security",
-        "category": "Général",
+        "guid": "70819d911877b787",
+        "title": "🏴‍☠️ Anubis has just published a new victim : FYE",
+        "url": "https://www.ransomware.live/id/RllFQGFudWJpcw",
+        "source": "Ransomware.live News",
+        "category": "Ransomware",
         "cve": [],
         "tags": [
           "breach"
         ],
-        "summary": "Daniel Meissler utilise des outils d'IA pour suivre les incidents de piratage et identifier les logiciels utilisés par les hackers offensifs.",
-        "published_at": "2026-11-25T12:07:21",
-        "score": 25,
+        "summary": "Anubis a menacé la société FYE et compromis des données, notamment sur les cartes Pokémon et les figurines d'anime.",
+        "published_at": "2026-11-26T21:22:20",
+        "score": 20,
         "rank": 3
       }
     ]
   },
   "meta": {
-    "items_analyzed": 109,
-    "items_selected": 12,
+    "items_analyzed": 43,
+    "items_selected": 11,
     "window_hours": 24,
     "sources_active": 23,
-    "cves_total": 13,
+    "cves_total": 3,
     "llm_provider": "ollama",
     "llm_rejected": 0,
     "argos_version": "2.0.0"
