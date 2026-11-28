@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T03:00:57.864129+00:00",
+  "github": {},
+  "sections": {
+    "vulnerabilities": [
+      {
+        "guid": "000bc1585c864b3e",
+        "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+        "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [
+          "CVE-2026-99362"
+        ],
+        "tags": [
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Une vulnérabilité critique dans le serveur NFS du Linux, datant de 12 ans et codée CVE-2026-99362, permet aux attaquants distants d'obtenir des privilèges root.",
+        "published_at": "2026-11-27T03:06:58",
+        "score": 20
+      }
+    ],
+    "campaigns": [
+      {
+        "guid": "48406b7e5f131da8",
+        "title": "CH de Cadillac",
+        "url": "https://frenchbreaches.com/alertes/ch-de-cadillac-mwzhbpgeo1lkqo0x1g",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le centre hospitalier de Cadillac, en France, a subi une cyberattaque qui a entraîné la mise en place d'un dispositif de crise.",
+        "published_at": "2026-11-27T22:10:00",
+        "score": 17
+      },
+      {
+        "guid": "127d6ec4231d199a",
+        "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+        "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+        "source": "The Hacker News",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "apt"
+        ],
+        "summary": "Un groupe hacker soutenu au Vietnam cible des organisations militaires et gouvernementales sud-sédaoises pour recueillir des informations sur la défense de la mer du Sud.",
+        "published_at": "2026-11-27T22:06:11",
+        "score": 5
+      },
+      {
+        "guid": "d5c3b7d0ad107868",
+        "title": "Friday Squid Blogging: Giant Squid in Newfoundland",
+        "url": "https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html",
+        "source": "Schneier on Security",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "<p>The two have an <a href=\"https://theconversation.com/what-lurks-below-newfoundland-waters-a-marine-biologist-explains-the-science-behind-the-show-295615\">interesting history</a>.</p>\n<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>\n<p><a href=\"https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html\">Blog moderation policy.</a></p>",
+        "published_at": "2026-11-27T22:01:25",
+        "score": 17
+      },
+      {
+        "guid": "e4d0db181494b264",
+        "title": "Interservices",
+        "url": "https://frenchbreaches.com/alertes/interservices-mwzgv6ijdu9au08bzil",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Interservices, une coopérative française, informe ses clients d'une cyberattaque chez un de ses prestataires informatiques exposant des données personnelles.",
+        "published_at": "2026-11-27T21:57:00",
+        "score": 17
+      },
+      {
+        "guid": "32d115fcd24f0466",
+        "title": "Transports publics genevois (TPG)",
+        "url": "https://frenchbreaches.com/alertes/transports-publics-genevois-tpg-mwzgkl02ntydadgyx2o",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "malware"
+        ],
+        "summary": "Les Transports publics genevois (TPG) confirment une cyberattaque qui a compromis les données personnelles de voyageurs.",
+        "published_at": "2026-11-27T21:50:00",
+        "score": 37
+      },
+      {
+        "guid": "82c24b1059b238a1",
+        "title": "MEETT",
+        "url": "https://frenchbreaches.com/alertes/meett-mwz859tb4pp7h5a6wc",
+        "source": "FrenchBreaches",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "malware"
+        ],
+        "summary": "Le MEETT à Toulouse a signalé la fuite de données personnelles après une cyberattaque touchant l'un de ses prestataires de billetterie.",
+        "published_at": "2026-11-27T17:54:00",
+        "score": 17
+      }
+    ],
+    "top_reads": [
+      {
+        "guid": "5a1a706a5a7f094f",
+        "title": "Japan’s education ministry discloses breach of government procurement system",
+        "url": "https://therecord.media/japan-education-ministry-cyberattack",
+        "source": "The Record",
+        "category": "Éditorial",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "Le ministère japonais de l'Éducation a divulgué qu'il y avait eu une brèche dans son système de commande publique, potentiellement exposant des informations commerciales et des adresses électroniques.",
+        "published_at": "2026-11-27T14:15:00",
+        "score": 35,
+        "rank": 1
+      },
+      {
+        "guid": "8391057ac8d28f6a",
+        "title": "Drupal warns of new site takeover flaw exploited in attacks",
+        "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach",
+          "cve",
+          "vulnerability"
+        ],
+        "summary": "Le groupe Drupal avertit que les attaquants exploitent une nouvelle vulnérabilité critique permettant de prendre le contrôle de sites web non patchés.",
+        "published_at": "2026-11-27T05:10:15",
+        "score": 25,
+        "rank": 2
+      },
+      {
+        "guid": "f8a528ea815ea910",
+        "title": "SAP confirms security incident after suspicious GitHub activity",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+        "source": "Bleeping Computer",
+        "category": "Général",
+        "cve": [],
+        "tags": [
+          "breach"
+        ],
+        "summary": "SAP confirme qu'elle a pris des mesures d'urgence après avoir détecté une activité suspecte dans son environnement IT, touchant ses clients.",
+        "published_at": "2026-11-27T04:56:36",
+        "score": 25,
+        "rank": 3
+      }
+    ]
+  },
+  "meta": {
+    "items_analyzed": 50,
+    "items_selected": 10,
+    "window_hours": 24,
+    "sources_active": 23,
+    "cves_total": 1,
+    "llm_provider": "ollama",
+    "llm_rejected": 0,
+    "argos_version": "2.0.0"
+  }
+}
