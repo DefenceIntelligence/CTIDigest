@@ -1,87 +1,81 @@
-# 🛡️ ARGOS CTI Digest — 27 novembre 2026
+# 🛡️ ARGOS CTI Digest — 28 novembre 2026
 
-> Généré le 27/11/2026 à 03:00 UTC  ·  43 items analysés  ·  11 sélectionnés  ·  23 sources actives
+> Généré le 28/11/2026 à 03:00 UTC  ·  50 items analysés  ·  10 sélectionnés  ·  23 sources actives
 
 ---
 
 ## 🔴 Vulnérabilités critiques
 
-### [Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation](https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html)
-**Source :** The Hacker News  **Publié :** 26/11/2026 12:32 UTC  **CVE :** `CVE-2026-136716`, `CVE-2026-132165`
+### [New NFS2ROOT Linux flaw can let attackers gain root privileges](https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/)
+**Source :** Bleeping Computer  **Publié :** 27/11/2026 03:06 UTC  **CVE :** `CVE-2026-99362`
 `cve` `vulnerability`
-Drupal alerte sur une vulnérabilité critique en exploitation.
-
----
-
-### [Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products](https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html)
-**Source :** The Hacker News  **Publié :** 26/11/2026 12:14 UTC  **CVE :** `CVE-2026-133275`
-`cve` `vulnerability`
-CISA a ajouté 10 vulnérabilités, dont 5 chez Mitel MiCollab, au catalogue KEV.
+Une vulnérabilité critique dans le serveur NFS du Linux, datant de 12 ans et codée CVE-2026-99362, permet aux attaquants distants d'obtenir des privilèges root.
 
 ---
 
 ## 🟠 Campagnes & groupes actifs
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Monolithic Power Systems (NASDAQ: MPWR, mps.com)](https://www.ransomware.live/id/TW9ub2xpdGhpYyBQb3dlciBTeXN0ZW1zIChOQVNEQVE6IE1QV1IsIG1wcy5jb20pQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 23:32 UTC
+### [CH de Cadillac](https://frenchbreaches.com/alertes/ch-de-cadillac-mwzhbpgeo1lkqo0x1g)
+**Source :** FrenchBreaches  **Publié :** 27/11/2026 22:10 UTC
 `malware`
-Pixelleaks publie des données sensibles de Monolithic Power Systems.
+Le centre hospitalier de Cadillac, en France, a subi une cyberattaque qui a entraîné la mise en place d'un dispositif de crise.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : Keyes Financial Strategies Inc.](https://www.ransomware.live/id/S2V5ZXMgRmluYW5jaWFsIFN0cmF0ZWdpZXMgSW5jLkBQaXhlbExlYWtz)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 23:31 UTC
-`malware` `patch`
-Pixelleaks révèle des informations confidentielles chez Keyes Financial Strategies Inc.
+### [Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign](https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html)
+**Source :** The Hacker News  **Publié :** 27/11/2026 22:06 UTC
+`apt`
+Un groupe hacker soutenu au Vietnam cible des organisations militaires et gouvernementales sud-sédaoises pour recueillir des informations sur la défense de la mer du Sud.
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : The Law Firm of Kavesh, Minor & Otis, Inc.](https://www.ransomware.live/id/VGhlIExhdyBGaXJtIG9mIEthdmVzaCwgTWlub3IgJiBPdGlzLCBJbmMuQFBpeGVsTGVha3M)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 23:31 UTC
+### [Friday Squid Blogging: Giant Squid in Newfoundland](https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-giant-squid-in-newfoundland.html)
+**Source :** Schneier on Security  **Publié :** 27/11/2026 22:01 UTC
 `malware`
-Pixelleaks expose les données de The Law Firm of Kavesh, Minor & Otis, Inc.
+<p>The two have an <a href="https://theconversation.com/what-lurks-below-newfoundland-waters-a-marine-biologist-explains-the-science-behind-the-show-295615">interesting history</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t
 
 ---
 
-### [🏴‍☠️ Pixelleaks has just published a new victim : MHC Financial Inc](https://www.ransomware.live/id/TUhDIEZpbmFuY2lhbCBJbmNAUGl4ZWxMZWFrcw)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 23:31 UTC
-`malware` `patch`
-Pixelleaks publie des informations confidentielles chez MHC Financial Inc.
-
----
-
-### [🏴‍☠️ Pixelleaks has just published a new victim : LockeBridge Capital Partners](https://www.ransomware.live/id/TG9ja2VCcmlkZ2UgQ2FwaXRhbCBQYXJ0bmVyc0BQaXhlbExlYWtz)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 23:30 UTC
+### [Interservices](https://frenchbreaches.com/alertes/interservices-mwzgv6ijdu9au08bzil)
+**Source :** FrenchBreaches  **Publié :** 27/11/2026 21:57 UTC
 `malware`
-Pixelleaks révèle les données de LockeBridge Capital Partners.
+Interservices, une coopérative française, informe ses clients d'une cyberattaque chez un de ses prestataires informatiques exposant des données personnelles.
 
 ---
 
-### [Buffalo Grill (via Brevo)](https://frenchbreaches.com/alertes/buffalo-grill-via-brevo-mwy2f0gsrj74f1h7yp)
-**Source :** FrenchBreaches  **Publié :** 26/11/2026 22:27 UTC
+### [Transports publics genevois (TPG)](https://frenchbreaches.com/alertes/transports-publics-genevois-tpg-mwzgkl02ntydadgyx2o)
+**Source :** FrenchBreaches  **Publié :** 27/11/2026 21:50 UTC
 `breach` `malware`
-Buffalo Grill fait face à une fuite de données après un incident de cybersécurité chez Brevo.
+Les Transports publics genevois (TPG) confirment une cyberattaque qui a compromis les données personnelles de voyageurs.
+
+---
+
+### [MEETT](https://frenchbreaches.com/alertes/meett-mwz859tb4pp7h5a6wc)
+**Source :** FrenchBreaches  **Publié :** 27/11/2026 17:54 UTC
+`malware`
+Le MEETT à Toulouse a signalé la fuite de données personnelles après une cyberattaque touchant l'un de ses prestataires de billetterie.
 
 ---
 
 ## 📖 Top 3 à lire
 
-### 1. [ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories](https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html)
-**Source :** The Hacker News  **Publié :** 27/11/2026 01:09 UTC  **Score :** 25
+### 1. [Japan’s education ministry discloses breach of government procurement system](https://therecord.media/japan-education-ministry-cyberattack)
+**Source :** The Record  **Publié :** 27/11/2026 14:15 UTC  **Score :** 35
 `breach`
-ThreatsDay: 10 millions de services NGINX en danger, 250 extensions malveillantes et hijacking d'AI des serveurs.
+Le ministère japonais de l'Éducation a divulgué qu'il y avait eu une brèche dans son système de commande publique, potentiellement exposant des informations commerciales et des adresses électroniques.
 
-### 2. [1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html)
-**Source :** The Hacker News  **Publié :** 26/11/2026 09:50 UTC  **Score :** 25
-`breach` `cve`
-1Password confirme un piratage de son compte GitHub avec accès limité à ses systèmes backend.
+### 2. [Drupal warns of new site takeover flaw exploited in attacks](https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/)
+**Source :** Bleeping Computer  **Publié :** 27/11/2026 05:10 UTC  **Score :** 25
+`breach` `cve` `vulnerability`
+Le groupe Drupal avertit que les attaquants exploitent une nouvelle vulnérabilité critique permettant de prendre le contrôle de sites web non patchés.
 
-### 3. [🏴‍☠️ Anubis has just published a new victim : FYE](https://www.ransomware.live/id/RllFQGFudWJpcw)
-**Source :** Ransomware.live News  **Publié :** 26/11/2026 21:22 UTC  **Score :** 20
+### 3. [SAP confirms security incident after suspicious GitHub activity](https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/)
+**Source :** Bleeping Computer  **Publié :** 27/11/2026 04:56 UTC  **Score :** 25
 `breach`
-Anubis a menacé la société FYE et compromis des données, notamment sur les cartes Pokémon et les figurines d'anime.
+SAP confirme qu'elle a pris des mesures d'urgence après avoir détecté une activité suspecte dans son environnement IT, touchant ses clients.
 
 ---
 
 *ARGOS CTI Digest · Defence Intelligence · [defintelligence.fr](https://defintelligence.fr)*  
-*Archivé dans `/archive/2026-11/digest-2026-11-27.md`*
+*Archivé dans `/archive/2026-11/digest-2026-11-28.md`*
